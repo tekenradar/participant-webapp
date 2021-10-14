@@ -1,0 +1,36 @@
+// ---------------------------------------------
+// Colors:
+// ---------------------------------------------
+$primary: #39870C;
+$secondary: #c3dbb6 ;
+$success: #39870C;
+$warning: #EEA230;
+$danger: #D92321;
+$info: #e1edeb ;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary":  $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+);
+
+$custom-colors: (
+    "grey-1": #f3f3f3,
+    "grey-2": #e6e6e6,
+    "grey-3": #cccccc,
+    "grey-4": #b4b4b4,
+    "grey-5": #999999,
+    "grey-6": #696969,
+    "grey-7": #535353,
+    "lightest": #fff,
+    "danger-light": #FCCFD9,
+    "warning-light": #FFEDBD,
+    "success-light": #B6F1CA,
+);
+
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);

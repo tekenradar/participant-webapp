@@ -1,0 +1,29 @@
+@import './font-faces';
+@import './colors';
+@import '~case-web-ui/build/scss/helpers/spacing.scss';
+@import '~case-web-ui/build/scss/helpers/forms.scss';
+@import '~case-web-ui/build/scss/helpers/custom_range.scss';
+@import '~case-web-ui/build/scss/helpers/navbar.scss';
+@import '~case-web-ui/build/scss/helpers/borders.scss';
+@import '~case-web-ui/build/scss/helpers/date_input.scss';
+@import './typography';
+@import '~case-web-ui/build/scss/helpers/utilities.scss';
+
+@include datepicker_classes($theme-colors);
+
+// ---------------------------------------------
+// Other:
+// ---------------------------------------------
+$enable-rounded: false !default;
+
+.captcha-badge-alt {
+  color: map-get($theme-colors, "grey-7");
+  & a {
+    color: #000;
+  }
+}
+
+.grecaptcha-badge { visibility: hidden; }
+
+@import '~case-web-ui/build/scss/iconfonts';
+@import '~bootstrap/scss/bootstrap.scss';
