@@ -2,7 +2,8 @@ import { AppCore } from 'case-web-app-core';
 import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { pagesConfig } from './configs/pages';
-import { navbarConfig } from './configs/pages/navbar';
+import { navbarConfig } from './configs/navbar';
+import { headerConfig } from './configs/header';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -22,8 +23,7 @@ const App: React.FC = () => {
   return (
     <AppCore
       //appConfig={appConfig}
-      //customHeader={<RIVMHeader />}
-      //hideDefaultHeader={true}
+      headerConfig={headerConfig}
       navbarConfig={navbarConfig}
       pagesConfig={pagesConfig}
     // footerConfig={footerConfig}
