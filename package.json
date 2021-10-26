@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
     "@popperjs/core": "^2.10.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -13,8 +12,8 @@
     "@types/react": "^17.0.30",
     "@types/react-dom": "^17.0.0",
     "bootstrap": "^5.1.3",
-    "case-web-app-core": "^1.2.0",
-    "case-web-ui": "^1.5.3",
+    "case-web-app-core": "^1.4.0-beta.0",
+    "case-web-ui": "^1.6.0-beta.1",
     "encoding": "^0.1.13",
     "i18next": "^21.3.2",
     "node-sass": "^5.0.0",
