@@ -6,9 +6,27 @@ export const navbarConfig: NavbarConfig = {
         {
             type: 'internal',
             // hideWhen: 'auth',
-            itemKey: 'home',
+            itemKey: 'Home',
             url: '/home',
-        }
+        },
+        {
+          type: 'internal',
+          // hideWhen: 'auth',
+          itemKey: 'Informatie',
+          url: '/informatie',
+      },
+      {
+        type: 'internal',
+        // hideWhen: 'auth',
+        itemKey: 'FAQ',
+        url: '/faq',
+    },
+    {
+      type: 'internal',
+      // hideWhen: 'auth',
+      itemKey: 'Nieuws',
+      url: '/nieuws',
+  }
     ],
     rightItems: [
         {
