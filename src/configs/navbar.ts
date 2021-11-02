@@ -31,7 +31,7 @@ export const navbarConfig: NavbarConfig = {
         },
         {
           type: 'internal',
-          itemKey: 'VoorArtsen',
+          itemKey: 'artsen',
           url: '/informatie/voor-artsen',
         },
 
