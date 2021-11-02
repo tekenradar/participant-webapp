@@ -58,7 +58,7 @@ export const homePage = (path: string): PageConfig => {
             ]
           },
           {
-            key: 'col2_1',
+            key: 'col2_2',
             className: 'col',
             items: [
               {
@@ -72,7 +72,7 @@ export const homePage = (path: string): PageConfig => {
             ]
           },
           {
-            key: 'col2_1',
+            key: 'col2_3',
             className: 'col',
             items: [
               {

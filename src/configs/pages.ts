@@ -17,6 +17,6 @@ export const pagesConfig: PagesConfig = {
     homePage('/home'),
     informatiePage('/informatie'),
     faqPage('/faq'),
-    nieuwsPage('/nieuws')
+    nieuwsPage('/nieuws'),
   ]
 }

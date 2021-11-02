@@ -1,10 +1,17 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+
 import { tekenPage } from "./tekenPage"
+import { lymePage } from "./lymePage"
+import { tekenradarPage } from "./tekenradarPage"
+import { artsenPage } from "./artsenPage"
+
 
 export const informatiePage = (path: string): PageConfig => {
   const infoPages = [
     tekenPage(`${path}/teken`),
-    // TODO: add other info pages
+    lymePage(`${path}/lyme`),
+    tekenradarPage(`${path}/tekenradar`),
+    artsenPage(`${path}/artsen`)
   ];
 
   return {
