@@ -18,29 +18,9 @@ export const informatiePage = (path: string): PageConfig => {
     path: path,
     pageKey: 'informatie',
     hideTitleBar: true,
-    rows: [
-      {
-        key: 'pageRow',
-        fullWidth: true,
-        className: 'p-0',
-        columns: [
-          {
-            key: 'pageCol',
-            className: '',
-            items: [
-              {
-                itemKey: 'router',
-                config: {
-                  type: 'router',
-                  pagesConfig: {
-                    pages: infoPages
-                  }
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    rows: [],
+    subPages: {
+      pages: infoPages
+    },
   }
 }
