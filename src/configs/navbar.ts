@@ -32,7 +32,7 @@ export const navbarConfig: NavbarConfig = {
         {
           type: 'internal',
           itemKey: 'artsen',
-          url: '/informatie/voor-artsen',
+          url: '/informatie/artsen',
         },
 
       ]
