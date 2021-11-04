@@ -11,7 +11,7 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col1_1',
-            className: 'col-xs-12 col-md-8 col-md-offset-2',
+            className: 'col-xs-12 col-md-8 mb-3',
             items: [
               {
                 itemKey: '1',
@@ -25,7 +25,7 @@ export const homePage = (path: string): PageConfig => {
           },
           {
             key: 'col1_2',
-            className: 'col-12 col-md-4',
+            className: 'col-xs-12 col-md-4',
             items: [
               {
                 itemKey: '2',
@@ -45,7 +45,7 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col2_1',
-            className: 'col',
+            className: 'col-xs-12 col-md-4 mb-3',
             items: [
               {
                 itemKey: '3',
@@ -59,7 +59,7 @@ export const homePage = (path: string): PageConfig => {
           },
           {
             key: 'col2_2',
-            className: 'col',
+            className: 'col-xs-12 col-md-4 mb-3',
             items: [
               {
                 itemKey: '4',
@@ -73,7 +73,7 @@ export const homePage = (path: string): PageConfig => {
           },
           {
             key: 'col2_3',
-            className: 'col',
+            className: 'col-xs-12 col-md-4 mb-3',
             items: [
               {
                 itemKey: '5',
@@ -113,7 +113,7 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col4_1',
-            className: 'col',
+            className: 'col-xs-12 col-md-4 mb-3',
             items: [
               {
                 itemKey: '7',
@@ -127,7 +127,7 @@ export const homePage = (path: string): PageConfig => {
           },
           {
             key: 'col4_2',
-            className: 'col',
+            className: 'col-xs-12 col-md-4 mb-3',
             items: [
               {
                 itemKey: '8',
