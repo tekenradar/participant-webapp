@@ -1,0 +1,21 @@
+{
+  "home": "Home",
+  "informatie": {
+    "title": "Informatie",
+    "teken": "Teken",
+    "lyme": "Ziekte van Lyme",
+    "tekenradar": "Tekenradar",
+    "artsen": "Voor Artsen"
+  },
+  "faq": "Veelgestelde Vragen",
+  "nieuws": "Nieuws",
+  "login": "Login",
+  "signup": "Sign up",
+  "rightMenu": {
+    "settings": "Settings",
+    "logout": "Logout",
+    "verified": "Account not verified"
+  },
+  "exitSurveyMode": "Exit",
+  "selectedProfilePrefixInSurveyMode": "Answering for: "
+}
