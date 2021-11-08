@@ -50,6 +50,18 @@ export const navbarConfig: NavbarConfig = {
       url: '/nieuws',
     }
   ],
+  unauthRightItems: [
+    {
+      type: 'internal',
+      itemKey: 'participate',
+      url: '/meldoen',
+    },
+    {
+      type: 'dialog',
+      itemKey: 'login',
+      url: 'login',
+    }
+  ],
   rightItems: [
     {
       "type": "internal",
