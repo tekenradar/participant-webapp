@@ -7,11 +7,10 @@ export const tekenPage = (path: string): PageConfig => {
     rows: [
       {
         key: 'row1',
-        className: 'py-4',
         columns: [
           {
             key: 'col1_1',
-            className: 'col',
+            className: 'col mt-3',
             items: [
               {
                 itemKey: '1',
@@ -27,11 +26,10 @@ export const tekenPage = (path: string): PageConfig => {
       },
       {
         key: 'row2',
-        className: 'py-4',
         columns: [
           {
             key: 'col2_1',
-            className: 'col',
+            className: 'col mt-3',
             items: [
               {
                 itemKey: '2',
@@ -47,11 +45,10 @@ export const tekenPage = (path: string): PageConfig => {
       },
       {
         key: 'row1',
-        className: 'py-4',
         columns: [
           {
             key: 'col3_1',
-            className: 'col',
+            className: 'col my-3',
             items: [
               {
                 itemKey: '3',

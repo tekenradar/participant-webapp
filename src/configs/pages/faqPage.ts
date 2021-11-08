@@ -7,11 +7,10 @@ export const faqPage = (path: string): PageConfig => {
     rows: [
       {
         key: 'row1',
-        className: 'py-4',
         columns: [
           {
             key: 'col1_1',
-            className: 'col',
+            className: 'col my-3',
             items: [
               {
                 itemKey: '1',
