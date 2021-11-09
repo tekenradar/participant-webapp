@@ -40,15 +40,15 @@ export const navbarConfig: NavbarConfig = {
     {
       type: 'internal',
       // hideWhen: 'auth',
-      itemKey: 'faq',
-      url: '/faq',
+      itemKey: 'Nieuws',
+      url: '/nieuws',
     },
     {
       type: 'internal',
       // hideWhen: 'auth',
-      itemKey: 'Nieuws',
-      url: '/nieuws',
-    }
+      itemKey: 'faq',
+      url: '/faq',
+    },
   ],
   rightItems: [
     {
