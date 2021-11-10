@@ -54,7 +54,7 @@ export const navbarConfig: NavbarConfig = {
     {
       type: 'internal',
       itemKey: 'participate',
-      url: '/meldoen',
+      url: '/melden',
     },
     {
       type: 'dialog',
