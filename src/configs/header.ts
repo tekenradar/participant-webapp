@@ -3,7 +3,7 @@ import { HeaderConfig } from "case-web-app-core/build/types/headerConfig";
 export const headerConfig: HeaderConfig = {
   config: {
     type: 'simpleLogo',
-    className: 'd-flex justify-content-center',
+    className: 'd-flex align-left',
     image: {
       altKey: 'logoAlt',
       sm: {
@@ -14,7 +14,7 @@ export const headerConfig: HeaderConfig = {
       lg: {
         url: '/images/simplified_logo_tekenradar.png',
         className: 'pb-2',
-        height: 120
+        height: 110
       }
     },
     useLanguageSelector: false
