@@ -3,6 +3,7 @@ import { faqPage } from "./pages/faqPage";
 import { homePage } from "./pages/homePage";
 import { informatiePage } from "./pages/informatie";
 import { nieuwsPage } from "./pages/nieuwsPage";
+import { meldenPage } from "./pages/meldenPage";
 
 const defaultRoutes = {
   auth: "/home",
@@ -18,5 +19,6 @@ export const pagesConfig: PagesConfig = {
     informatiePage('/informatie'),
     faqPage('/faq'),
     nieuwsPage('/nieuws'),
+    meldenPage('/melden'),
   ]
 }
