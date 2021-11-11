@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { pagesConfig } from './configs/pages';
 import { navbarConfig } from './configs/navbar';
 import { headerConfig } from './configs/header';
+import { footerConfig } from './configs/footer';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -26,7 +27,7 @@ const App: React.FC = () => {
       headerConfig={headerConfig}
       navbarConfig={navbarConfig}
       pagesConfig={pagesConfig}
-    // footerConfig={footerConfig}
+      footerConfig={footerConfig}
     />
   );
 }

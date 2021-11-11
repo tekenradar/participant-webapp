@@ -1,0 +1,13 @@
+{
+  "partners": {
+    "title": "Partners",
+    "rivm": "RIVM"
+  },
+  "about": {
+    "title": "Over deze site",
+    "contact": "Contact LongCOVID-onderzoek",
+    "privacy": "Privacyverklaring",
+    "disclaimer": "Geen medische functie",
+    "accessibility": "Toegankelijksheidsverklaring"
+  }
+}

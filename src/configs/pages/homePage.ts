@@ -17,21 +17,26 @@ export const homePage = (path: string): PageConfig => {
                 config: {
                   type: 'placeholder',
                   label: 'map',
-                  height: 600
+                  height: 405
                 }
               }
             ]
           },
           {
-            key: 'col1_2',
-            className: 'col-xs-12 col-lg-4 mt-3',
+            key: 'meldenCardCol',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
               {
-                itemKey: '2',
+                itemKey: 'meldenCard',
+                className: 'h-100',
                 config: {
-                  type: 'placeholder',
-                  label: 'Tekenbeet melden',
-                  height: 600
+                  type: 'imageCard',
+                  showActionBtn: true,
+                  action: {
+                    type: 'navigate',
+                    value: '/melden',
+                  },
+                  imageSrc: '/images/no-license/meldencard.jpg',
                 }
               }
             ]
@@ -43,57 +48,10 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col2_1',
-            className: 'col-xs-12 col-lg-4 mt-3',
-            items: [
-              {
-                itemKey: '3',
-                config: {
-                  type: 'placeholder',
-                  label: 'Informatie over Teken',
-                  height: 600
-                }
-              }
-            ]
-          },
-          {
-            key: 'col2_2',
-            className: 'col-xs-12 col-lg-4 mt-3',
-            items: [
-              {
-                itemKey: '4',
-                config: {
-                  type: 'placeholder',
-                  label: 'Informatie over Ziekte van Lyme',
-                  height: 600
-                }
-              }
-            ]
-          },
-          {
-            key: 'col2_3',
-            className: 'col-xs-12 col-lg-4 mt-3',
-            items: [
-              {
-                itemKey: '5',
-                config: {
-                  type: 'placeholder',
-                  label: 'Informatie over Tekenradar.nl',
-                  height: 600
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        key: 'row3',
-        columns: [
-          {
-            key: 'col3_1',
             className: 'col mt-3',
             items: [
               {
-                itemKey: '6',
+                itemKey: '3',
                 config: {
                   type: 'placeholder',
                   label: 'Latest Niuews',
@@ -105,50 +63,89 @@ export const homePage = (path: string): PageConfig => {
         ]
       },
       {
-        key: 'row4',
+        key: 'row3',
         columns: [
           {
-            key: 'col4_1',
-            className: 'col-xs-12 col-lg-4 my-3',
+            key: 'onderzoekCardCol',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
               {
-                itemKey: '7',
+                itemKey: 'onderzoekCard',
+                className: 'h-100',
                 config: {
-                  type: 'placeholder',
-                  label: 'nou registreren',
-                  height: 600
+                  type: 'imageCard',
+                  showActionBtn: true,
+                  action: {
+                    type: 'navigate',
+                    value: '/onderzoek',
+                  },
+                  imageSrc: '/images/no-license/onderzoekcard.jpg',
                 }
               }
             ]
           },
           {
-            key: 'col4_2',
-            className: 'col-xs-12 col-lg-4 my-3',
+            key: 'tekenCardCol',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
               {
-                itemKey: '8',
+                itemKey: 'tekenCard',
+                className: 'h-100',
                 config: {
-                  type: 'placeholder',
-                  label: 'Veelgestelde vragen',
-                  height: 600
+                  type: 'imageCard',
+                  showActionBtn: true,
+                  action: {
+                    type: 'navigate',
+                    value: '/informatie/teken',
+                  },
+                  imageSrc: '/images/no-license/tekencard.jpg',
                 }
               }
             ]
           },
           {
-            key: 'col4_3',
-            className: 'col-xs-12 col-lg-4 my-3',
+            key: 'lymeCardCol',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
               {
-                itemKey: '9',
+                itemKey: 'lymeCard',
+                className: 'h-100',
                 config: {
-                  type: 'placeholder',
-                  label: 'Nieuwsbrief',
-                  height: 600
+                  type: 'imageCard',
+                  showActionBtn: true,
+                  action: {
+                    type: 'navigate',
+                    value: '/informatie/lyme',
+                  },
+                  imageSrc: '/images/no-license/lymecard.jpg',
                 }
               }
             ]
           }
+        ]
+      },
+      {
+        key: 'row4',
+        columns: [
+          {
+            key: 'faqCardCol',
+            className: 'col-12 col-lg-4 my-3',
+            items: [
+              {
+                itemKey: 'faqCard',
+                className: 'h-100',
+                config: {
+                  type: 'imageCard',
+                  showActionBtn: true,
+                  action: {
+                    type: 'navigate',
+                    value: '/faq',
+                  },
+                  imageSrc: '/images/no-license/faqcard.jpg',
+                }
+              }
+            ]
+          },
         ]
       }
     ]
