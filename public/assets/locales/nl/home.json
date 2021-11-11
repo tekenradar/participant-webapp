@@ -1,0 +1,27 @@
+{
+  "meldenCard" : {
+    "title": "Tekenbeet melden",
+    "body": "...",
+    "actionLabel": "Melding doen"
+  },
+  "onderzoekCard" : {
+    "title": "Onze onderzoeken",
+    "body": "...",
+    "actionLabel": "..."
+  },
+  "tekenCard" : {
+    "title": "Teken",
+    "body": "...",
+    "actionLabel": "..."
+  },
+  "faqCard" : {
+  "title": "Veelgestelde Fragen",
+  "body": "...",
+  "actionLabel": "..."
+},
+"lymeCard" : {
+  "title": "Ziekte van Lyme",
+  "body": "...",
+  "actionLabel": "..."
+}
+}
