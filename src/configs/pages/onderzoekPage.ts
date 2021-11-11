@@ -1,9 +1,9 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 
-export const meldenPage = (path: string): PageConfig => {
+export const onderzoekPage = (path: string): PageConfig => {
   return {
     path: path,
-    pageKey: 'melden',
+    pageKey: 'onderzoek',
     rows: [
       {
         key: 'row1',
@@ -16,7 +16,7 @@ export const meldenPage = (path: string): PageConfig => {
                 itemKey: '1',
                 config: {
                   type: 'placeholder',
-                  label: 'Tekenbeet melden',
+                  label: 'Onderzoek',
                   height: 600
                 }
               }

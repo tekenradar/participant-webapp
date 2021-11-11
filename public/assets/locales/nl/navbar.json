@@ -9,10 +9,11 @@
   },
   "faq": "Veelgestelde Vragen",
   "nieuws": "Nieuws",
+  "onderzoek": "Onderzoek",
   "login": "Login",
   "signup": "Sign up",
   "toggleBtn": "Menu",
-  "participate": "Participate",
+  "participate": "Melding doen",
   "rightMenu": {
     "settings": "Settings",
     "logout": "Logout",

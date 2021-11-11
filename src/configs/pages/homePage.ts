@@ -43,41 +43,13 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col2_1',
-            className: 'col-xs-12 col-lg-4 mt-3',
+            className: 'col mt-3',
             items: [
               {
                 itemKey: '3',
                 config: {
                   type: 'placeholder',
-                  label: 'Informatie over Teken',
-                  height: 600
-                }
-              }
-            ]
-          },
-          {
-            key: 'col2_2',
-            className: 'col-xs-12 col-lg-4 mt-3',
-            items: [
-              {
-                itemKey: '4',
-                config: {
-                  type: 'placeholder',
-                  label: 'Informatie over Ziekte van Lyme',
-                  height: 600
-                }
-              }
-            ]
-          },
-          {
-            key: 'col2_3',
-            className: 'col-xs-12 col-lg-4 mt-3',
-            items: [
-              {
-                itemKey: '5',
-                config: {
-                  type: 'placeholder',
-                  label: 'Informatie over Tekenradar.nl',
+                  label: 'Latest Niuews',
                   height: 600
                 }
               }
@@ -90,13 +62,41 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col3_1',
-            className: 'col mt-3',
+            className: 'col-xs-12 col-lg-4 mt-3',
+            items: [
+              {
+                itemKey: '4',
+                config: {
+                  type: 'placeholder',
+                  label: 'Informatie over onze onderzoek',
+                  height: 600
+                }
+              }
+            ]
+          },
+          {
+            key: 'col3_2',
+            className: 'col-xs-12 col-lg-4 mt-3',
+            items: [
+              {
+                itemKey: '5',
+                config: {
+                  type: 'placeholder',
+                  label: 'Informatie over Teken',
+                  height: 600
+                }
+              }
+            ]
+          },
+          {
+            key: 'col3_3',
+            className: 'col-xs-12 col-lg-4 mt-3',
             items: [
               {
                 itemKey: '6',
                 config: {
                   type: 'placeholder',
-                  label: 'Latest Niuews',
+                  label: 'Informatie over Ziekte van Lyme',
                   height: 600
                 }
               }
@@ -115,40 +115,13 @@ export const homePage = (path: string): PageConfig => {
                 itemKey: '7',
                 config: {
                   type: 'placeholder',
-                  label: 'nou registreren',
+                  label: 'Veelgestelde Vragen',
                   height: 600
                 }
               }
             ]
           },
-          {
-            key: 'col4_2',
-            className: 'col-xs-12 col-lg-4 my-3',
-            items: [
-              {
-                itemKey: '8',
-                config: {
-                  type: 'placeholder',
-                  label: 'Veelgestelde vragen',
-                  height: 600
-                }
-              }
-            ]
-          },
-          {
-            key: 'col4_3',
-            className: 'col-xs-12 col-lg-4 my-3',
-            items: [
-              {
-                itemKey: '9',
-                config: {
-                  type: 'placeholder',
-                  label: 'Nieuwsbrief',
-                  height: 600
-                }
-              }
-            ]
-          }
+
         ]
       }
     ]
