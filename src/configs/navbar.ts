@@ -10,6 +10,12 @@ export const navbarConfig: NavbarConfig = {
       url: '/home',
     },
     {
+      type: 'internal',
+      // hideWhen: 'auth',
+      itemKey: 'onderzoek',
+      url: '/onderzoek',
+    },
+    {
       type: 'dropdown',
       // hideWhen: 'auth',
       itemKey: 'informatie',

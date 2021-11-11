@@ -12,6 +12,7 @@ export const informatiePage = (path: string): PageConfig => {
     lymePage(`${path}/lyme`),
     tekenradarPage(`${path}/tekenradar`),
     artsenPage(`${path}/artsen`)
+
   ];
 
   return {

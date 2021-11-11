@@ -41,3 +41,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## License
 
 [Apache License 2.0](LICENSE)
+
+public/* : All files are excluded from the above license
