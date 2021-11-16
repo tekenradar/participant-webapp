@@ -10,6 +10,10 @@ In the project directory, you can run:
 
 Run yarn install for initial setup and whenever project dependencies have changed.
 
+###  
+
+ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
 
 ### `yarn start`
 
