@@ -23,6 +23,25 @@ export const nieuwsPage = (path: string): PageConfig => {
             ]
           }
         ]
+      },
+      {
+        key: 'row2',
+        columns: [
+          {
+            key: 'col2_1',
+            className: 'col-xs-12 col-lg-8 my-3',
+            items: [
+              {
+                itemKey: '1',
+                config: {
+                  type: 'placeholder',
+                  label: 'Nieuws',
+                  height: 600
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   }
