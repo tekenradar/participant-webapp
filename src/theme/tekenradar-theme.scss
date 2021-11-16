@@ -1,12 +1,13 @@
 @import './font-faces';
-@import './colors';
+// @import './colors';
+@import '~case-web-ui/build/scss/helpers/colors.scss';
 @import '~case-web-ui/build/scss/helpers/spacing.scss';
 @import '~case-web-ui/build/scss/helpers/forms.scss';
 @import '~case-web-ui/build/scss/helpers/custom_range.scss';
 @import '~case-web-ui/build/scss/helpers/navbar.scss';
 @import '~case-web-ui/build/scss/helpers/borders.scss';
 @import '~case-web-ui/build/scss/helpers/date_input.scss';
-@import './typography';
+// @import './typography';
 @import '~case-web-ui/build/scss/helpers/utilities.scss';
 
 @include datepicker_classes($theme-colors);

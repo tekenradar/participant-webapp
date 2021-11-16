@@ -3,18 +3,18 @@ import { HeaderConfig } from "case-web-app-core/build/types/headerConfig";
 export const headerConfig: HeaderConfig = {
   config: {
     type: 'simpleLogo',
-    className: 'd-flex align-left',
+    className: 'd-flex justify-content-center',
     image: {
       altKey: 'logoAlt',
       sm: {
-        url: '/images/tekenradar_logo_A1.png',
-        className: 'pb-2 d-block mx-auto mt-2',
-        height: 80
+        url: '/images/logo_tekenradar.png',
+        className: 'pb-2 d-block mx-auto mt-1',
+        height: 110
       },
       lg: {
-        url: '/images/tekenradar_logo_A1.png',
-        className: 'pb-2 mt-2',
-        height: 100
+        url: '/images/logo_tekenradar.png',
+        className: 'pb-2',
+        height: 130
       }
     },
     useLanguageSelector: false
