@@ -4,6 +4,7 @@ export const homePage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'home',
+    hideTitleBar: true,
     rows: [
       {
         key: 'row1',
