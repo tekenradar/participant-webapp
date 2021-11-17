@@ -35,7 +35,7 @@ export const waarLevenTekenPage = (path: string): PageConfig => {
                 itemKey: '1',
                 config: {
                   type: 'markdown',
-                  markdownUrl: '/informatie/tekenbeet/waarLevenTeken.md',
+                  markdownUrl: '/informatie/tekeninfo/waarLevenTeken.md',
 
                 }
               }
