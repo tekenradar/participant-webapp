@@ -43,7 +43,7 @@ export const hetGedragPage = (path: string): PageConfig => {
           },
           {
             key: 'col1_2',
-            className: 'col-12 col-lg-4 my-3',
+            className: 'col-12 col-lg-2 mt-3',
             items: [
               {
                 itemKey: '1',
@@ -61,8 +61,8 @@ export const hetGedragPage = (path: string): PageConfig => {
         key: 'row2',
         columns: [
           {
-            key: 'col2_2',
-            className: 'col-12 col-lg-4 my-3',
+            key: 'col2_1',
+            className: 'col-12 col-md-6 col-lg-2 mt-3',
             items: [
               {
                 itemKey: '1',
@@ -76,10 +76,24 @@ export const hetGedragPage = (path: string): PageConfig => {
           },
           {
             key: 'col2_2',
-            className: 'col-12 col-lg-4 my-3',
+            className: 'col-12 col-md-6 col-lg-2 mt-3',
             items: [
               {
-                itemKey: '1',
+                itemKey: '2',
+                config: {
+                  type: 'placeholder',
+                  label: 'another topic',
+                  height: 150
+                }
+              }
+            ]
+          },
+          {
+            key: 'col2_3',
+            className: 'col-12 col-md-6 col-lg-2 mt-3',
+            items: [
+              {
+                itemKey: '3',
                 config: {
                   type: 'placeholder',
                   label: 'another article',
@@ -89,11 +103,11 @@ export const hetGedragPage = (path: string): PageConfig => {
             ]
           },
           {
-            key: 'col2_3',
-            className: 'col-12 col-lg-4 my-3',
+            key: 'col2_4',
+            className: 'col-12 col-md-6 col-lg-2 my-3',
             items: [
               {
-                itemKey: '1',
+                itemKey: '4',
                 config: {
                   type: 'placeholder',
                   label: 'next article',
