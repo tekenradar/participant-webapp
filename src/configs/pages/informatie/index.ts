@@ -5,7 +5,7 @@ import { lymePage } from "./lymePage"
 import { tekenradarPage } from "./tekenradarPage"
 import { artsenPage } from "./artsenPage"
 import { waarLevenTekenPage } from "./tekeninfo/waarLevenTekenPage"
-
+import { hetGedragPage } from "./tekeninfo/hetGedragPage"
 
 export const informatiePage = (path: string): PageConfig => {
   const infoPages = [
@@ -16,7 +16,8 @@ export const informatiePage = (path: string): PageConfig => {
     artsenPage(`${path}/artsen`),
 
     // subpages (content)
-    waarLevenTekenPage(`${path}/waar-leven-teken`)
+    waarLevenTekenPage(`${path}/waar-leven-teken`),
+    hetGedragPage(`${path}/het-gedrag-van-de-teek`)
   ];
 
   return {

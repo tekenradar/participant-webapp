@@ -1,9 +1,9 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 
-export const waarLevenTekenPage = (path: string): PageConfig => {
+export const hetGedragPage = (path: string): PageConfig => {
   return {
     path: path,
-    pageKey: 'informatie/tekeninfo/waarLevenTeken',
+    pageKey: 'informatie/tekeninfo/hetGedragPage',
     rows: [
       {
         key: 'topImage',
@@ -16,8 +16,8 @@ export const waarLevenTekenPage = (path: string): PageConfig => {
             config: {
               type: 'teaserImage',
               image: {
-                url: '/images/no-license/waar-leven-teken.jpg',
-                backgroundPosition: '50% 20%',
+                url: '/images/no-license/hetGedrag.jpg',
+                backgroundPosition: '70% 35%',
                 height: 367,
               },
             }
@@ -35,7 +35,7 @@ export const waarLevenTekenPage = (path: string): PageConfig => {
                 itemKey: '1',
                 config: {
                   type: 'markdown',
-                  markdownUrl: '/informatie/tekeninfo/waarLevenTeken.md',
+                  markdownUrl: '/informatie/tekeninfo/hetGedrag.md',
 
                 }
               }
