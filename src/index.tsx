@@ -17,6 +17,9 @@ import '@fortawesome/fontawesome-free/js/fontawesome';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { LoadingPlaceholder } from 'case-web-ui';
 
+import 'leaflet/dist/leaflet';
+import 'leaflet/dist/leaflet.css';
+
 const localeURL = process.env.REACT_APP_CONTENT_URL + '/locales';
 initI18n('nl', 'nl', localeURL);
 

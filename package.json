@@ -12,14 +12,17 @@
     "@types/react": "^17.0.30",
     "@types/react-dom": "^17.0.0",
     "bootstrap": "^5.1.3",
-    "case-web-app-core": "^1.4.0-beta.5",
+    "case-web-app-core": "^1.4.0-beta.8",
     "case-web-ui": "^1.6.0-beta.1",
+    "clsx": "^1.1.1",
     "encoding": "^0.1.13",
     "i18next": "^21.4.1",
+    "leaflet": "^1.7.1",
     "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-i18next": "^11.13.0",
+    "react-leaflet": "^3.2.2",
     "react-redux": "^7.2.6",
     "react-scripts": "4.0.3",
     "redux": "^4.1.2",
@@ -39,16 +42,12 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/leaflet": "^1.7.6"
   }
 }

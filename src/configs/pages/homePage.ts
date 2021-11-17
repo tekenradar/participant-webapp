@@ -15,9 +15,11 @@ export const homePage = (path: string): PageConfig => {
               {
                 itemKey: '1',
                 config: {
-                  type: 'placeholder',
-                  label: 'map',
-                  height: 405
+                  type: 'extension',
+                  config: {
+                    type: 'reportMap',
+                    label: 'Map about tick reports'
+                  }
                 }
               }
             ]

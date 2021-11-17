@@ -5,10 +5,15 @@ import { pagesConfig } from './configs/pages';
 import { navbarConfig } from './configs/navbar';
 import { headerConfig } from './configs/header';
 import { footerConfig } from './configs/footer';
+import ReportMap from './components/ReportMap';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
 }*/
+
+const extensions = [
+  { name: 'reportMap', component: ReportMap }
+]
 
 const App: React.FC = () => {
   const { i18n } = useTranslation();
@@ -28,6 +33,7 @@ const App: React.FC = () => {
       navbarConfig={navbarConfig}
       pagesConfig={pagesConfig}
       footerConfig={footerConfig}
+      extensions={extensions}
     />
   );
 }
