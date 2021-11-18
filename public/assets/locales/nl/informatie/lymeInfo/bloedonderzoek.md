@@ -1,0 +1,4 @@
+# Wanneer wordt bloedonderzoek gedaan voor Lyme?
+Antistoffen tegen Lymeziekte zijn gemiddeld pas 6 tot 8 weken na de infectie meetbaar in het bloed. Aan het begin van de infectie kan dus nog geen betrouwbaar bloedonderzoek worden gedaan. Daarom wordt bij een rode ring of vlek op de plek waar een teek heeft gebeten (erythema migrans(?)<span style="color:red">missing link</span>), meestal geen bloedonderzoek gedaan. De infectie heeft dan vaak nog niet lang genoeg geduurd om betrouwbaar te testen. De huisarts zal dan vaak meteen behandelen.
+
+Als langer bestaande klachten zijn die mogelijk door Lyme komen, kan wel een antistoftest gedaan worden. De uitslag van de antistoftest wordt betrouwbaarder als de klachten langer bestaan. Als er een verdenking is op Lyme neuroborreliose, dan kan het nodig zijn om een ruggenprik te doen waarbij ook het hersenvocht wordt onderzocht.
