@@ -1,10 +1,10 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../../layout/infoPageLayout"
+import { infoPageLayout } from "../../../../../layout/infoPageLayout"
 
-export const hoeveelBesmetPage = (path: string): PageConfig => {
+export const hyalommaPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekeninfo/hoeveelBesmet',
+    pageKey: 'informatie/tekeninfo/hyalomma',
     topImage: {
       type: 'teaserImage',
       image: {

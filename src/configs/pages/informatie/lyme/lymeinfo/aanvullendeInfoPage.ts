@@ -1,14 +1,14 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../../layout/infoPageLayout"
+import { infoPageLayout } from "../../../../../layout/infoPageLayout"
 
-export const basiskennisTekenbeetPage = (path: string): PageConfig => {
+export const aanvullendeInfoPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekenbeet/basiskennisTekenbeet',
+    pageKey: 'informatie/lymeinfo/aanvullendeInfo',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
+        url: '/images/no-license/hetGedrag.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },

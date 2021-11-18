@@ -1,14 +1,14 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../../layout/infoPageLayout"
+import { infoPageLayout } from "../../../../../layout/infoPageLayout"
 
-export const wanneerActiefPage = (path: string): PageConfig => {
+export const antibioticaPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekeninfo/wanneerActief',
+    pageKey: 'informatie/lymeinfo/antibiotica',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
+        url: '/images/no-license/hetGedrag.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },

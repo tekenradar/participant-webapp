@@ -1,14 +1,14 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../../layout/infoPageLayout"
+import { infoPageLayout } from "../../../../../layout/infoPageLayout"
 
-export const controleerTekenbetenPage = (path: string): PageConfig => {
+export const lymeZonderTekenbeetPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekenbeet/controleerTekenbeten',
+    pageKey: 'informatie/lymeinfo/lymeZonderTekenbeet',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
+        url: '/images/no-license/hetGedrag.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },

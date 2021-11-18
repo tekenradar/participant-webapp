@@ -1,21 +1,39 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 
-import { tekenPage } from "./tekenPage"
-import { lymePage } from "./lymePage"
+import { tekenPage } from "./teken/tekenPage"
+import { lymePage } from "./lyme/lymePage"
 import { tekenradarPage } from "./tekenradarPage"
 import { artsenPage } from "./artsenPage"
-import { waarLevenTekenPage } from "./tekeninfo/waarLevenTekenPage"
-import { hetGedragPage } from "./tekeninfo/hetGedragPage"
-import { basiskennisTekenPage } from "./tekeninfo/basiskennisTekenPage"
-import { hoeveelBesmetPage } from "./tekeninfo/hoeveelBesmet"
-import { hyalommaPage } from "./tekeninfo/hyalommaPage"
-import { tekenbeetVoorkomenPage } from "./tekeninfo/tekenbeetVoorkomenPage"
-import { wanneerActiefPage } from "./tekeninfo/wanneerActiefPage"
-import { basiskennisTekenbeetPage } from "./tekenbeet/basiskennisTekenbeetPage"
-import { controleerTekenbetenPage } from "./tekenbeet/controleerTekenbetenPage"
-import { hoeGrootPage } from "./tekenbeet/hoeGroot"
-import { hoeVerwijderPage } from "./tekenbeet/hoeVerwijderPage"
-import { watMoetIkDoenPage } from "./tekenbeet/watMoetIkDoen"
+import { waarLevenTekenPage } from "./teken/tekeninfo/waarLevenTekenPage"
+import { hetGedragPage } from "./teken/tekeninfo/hetGedragPage"
+import { basiskennisTekenPage } from "./teken/tekeninfo/basiskennisTekenPage"
+import { hoeveelBesmetPage } from "./teken/tekeninfo/hoeveelBesmet"
+import { hyalommaPage } from "./teken/tekeninfo/hyalommaPage"
+import { tekenbeetVoorkomenPage } from "./teken/tekeninfo/tekenbeetVoorkomenPage"
+import { wanneerActiefPage } from "./teken/tekeninfo/wanneerActiefPage"
+import { basiskennisTekenbeetPage } from "./teken/tekenbeetinfo/basiskennisTekenbeetPage"
+import { controleerTekenbetenPage } from "./teken/tekenbeetinfo/controleerTekenbetenPage"
+import { hoeGrootPage } from "./teken/tekenbeetinfo/hoeGrootPage"
+import { hoeVerwijderPage } from "./teken/tekenbeetinfo/hoeVerwijderPage"
+import { watMoetIkDoenPage } from "./teken/tekenbeetinfo/watMoetIkDoenPage"
+import { basiskennisLymePage } from "./lyme/lymeinfo/basiskennisLymePage"
+import { aanvullendeInfoPage } from "./lyme/lymeinfo/aanvullendeInfoPage"
+import { antibioticaPage } from "./lyme/lymeinfo/antibioticaPage"
+import { bloedonderzoekPage } from "./lyme/lymeinfo/bloedonderzoekPage"
+import { hoeKrijgJeLymePage } from "./lyme/lymeinfo/hoeKrijgJeLymePAge"
+import { immuunsysteemPage } from "./lyme/lymeinfo/immuunsysteemPage"
+import { lymeKindPage } from "./lyme/lymeinfo/lymeKindPage"
+import { lymeVoorkomenPage } from "./lyme/lymeinfo/lymeVoorkomenPage"
+import { lymeZonderTekenbeetPage } from "./lyme/lymeinfo/lymeZonderTekenbeetPage"
+import { naEenTekenbeetPage } from "./lyme/lymeinfo/naEenTekenbeetPage"
+import { risicoLymePage } from "./lyme/lymeinfo/risicoLymePage"
+import { roodPlekjePage } from "./lyme/lymeinfo/roodPlekjePage"
+import { wanneerHuisartsPage } from "./lyme/lymeinfo/wanneerHuisartsPage"
+import { erythemaPage } from "./lyme/erythema/erythemaPage"
+import { basiskennisLymeInNLPage } from "./lyme/lymeInNL/basiskennisLymeInNLPage"
+import { LymeEnWerkPage } from "./lyme/lymeInNL/LymeEnWerkPage"
+import { basiskennisAndereZiektenPage } from "./lyme/andereZiekten/basiskennisAndereZiektenPage"
+import { TekenencefalitisPage } from "./lyme/andereZiekten/TekenencefalitisPage"
 
 export const informatiePage = (path: string): PageConfig => {
   const infoPages = [
@@ -41,6 +59,32 @@ export const informatiePage = (path: string): PageConfig => {
     watMoetIkDoenPage(`${path}/wat-moet-ik-doen-bij-een-tekenbeet`),
     hoeVerwijderPage(`${path}/hoe-verwijder-ik-een-teek`),
     hoeGrootPage(`${path}/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet`),
+
+    //lymeinfo
+    basiskennisLymePage(`${path}/basiskennis-lyme`),
+    hoeKrijgJeLymePage(`${path}/hoe-krijg-je-de-ziekte-van-lyme`),
+    lymeKindPage(`${path}/hoe-herken-ik-een-tekenbeet-of-ziekte-van-lyme-bij-een-kind`),
+    naEenTekenbeetPage(`${path}/waar-moet-ik-op-letten-na-een-tekenbeet`),
+    roodPlekjePage(`${path}/klein-rood-plekje-na-tekenbeet`),
+    wanneerHuisartsPage(`${path}/wanneer-moet-ik-naar-de-huisarts`),
+    immuunsysteemPage(`${path}/de-ziekte-van-lyme-en-het-immuunsysteem`),
+    lymeZonderTekenbeetPage(`${path}/lyme-zonder-tekenbeet`),
+    antibioticaPage(`${path}/welke-behandeling-of-antibiotica-worden-gegeven-bij-lyme`),
+    risicoLymePage(`${path}/wie-loopt-extra-risico-op-lyme`),
+    lymeVoorkomenPage(`${path}/hoe-lyme-voorkomen`),
+    bloedonderzoekPage(`${path}/wanneer-wordt-bloedonderzoek-gedaan-voor-lyme`),
+    aanvullendeInfoPage(`${path}/aanvullende-informatie`),
+
+    //erythemainfo
+    erythemaPage(`${path}/erythema-migrans`),
+
+    //LymeinNLinfo
+    basiskennisLymeInNLPage(`${path}/lyme-in-nederland`),
+    LymeEnWerkPage(`${path}/lyme-en-werk`),
+
+    //andereZiekteninfo
+    basiskennisAndereZiektenPage(`${path}/andere-ziekten-door-teken-en-co-infecties`),
+    TekenencefalitisPage(`${path}/tekenencefalitis`),
 
 
 
