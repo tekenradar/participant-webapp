@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 Run yarn install for initial setup and whenever project dependencies have changed.
 
-###  
+###
 
  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
@@ -47,3 +47,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 [Apache License 2.0](LICENSE)
 
 public/* : All files are excluded from the above license
+src/fonts/* : All files are excluded from the above license
+src/theme/* : All files are excluded from the above license
