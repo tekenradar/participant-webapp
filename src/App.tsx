@@ -6,13 +6,15 @@ import { navbarConfig } from './configs/navbar';
 import { headerConfig } from './configs/header';
 import { footerConfig } from './configs/footer';
 import ReportMap from './components/ReportMap';
+import ReportButtonCard from './components/ReportButtonCard';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
 }*/
 
 const extensions = [
-  { name: 'reportMap', component: ReportMap }
+  { name: 'reportMap', component: ReportMap },
+  { name: 'reportButtonCard', component: ReportButtonCard },
 ]
 
 const App: React.FC = () => {

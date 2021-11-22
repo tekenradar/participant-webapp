@@ -1,5 +1,4 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { meldenCard } from "../cards/meldenCard"
 
 export const homePage = (path: string): PageConfig => {
   return {
@@ -10,6 +9,28 @@ export const homePage = (path: string): PageConfig => {
       {
         key: 'row1',
         columns: [
+          {
+            key: 'meldenCardCol',
+            className: 'col-12 col-lg-4 mt-3',
+            items: [
+              {
+                itemKey: 'reportButtonsCard',
+                className: 'h-100',
+                config: {
+                  type: 'extension',
+                  config: {
+                    type: 'reportButtonCard',
+                    buttons: [
+                      { buttonKey: 'tekenBeet', action: { type: 'navigate', value: '/melden' } },
+                      { buttonKey: 'rodeRing', action: { type: 'navigate', value: '/melden' } },
+                      { buttonKey: 'lyme', action: { type: 'navigate', value: '/melden' } },
+                      { buttonKey: 'koorts', action: { type: 'navigate', value: '/melden' } },
+                    ]
+                  }
+                }
+              }
+            ]
+          },
           {
             key: 'col1_1',
             className: 'col-xs-12 col-lg-8 mt-3',
@@ -26,13 +47,6 @@ export const homePage = (path: string): PageConfig => {
               }
             ]
           },
-          {
-            key: 'meldenCardCol',
-            className: 'col-12 col-lg-4 mt-3',
-            items: [
-              meldenCard({ className: 'h-100' })
-            ]
-          }
         ]
       },
       {

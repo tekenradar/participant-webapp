@@ -14,6 +14,11 @@ import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/brands';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 
+import '@fontsource/open-sans';
+// import '@fontsource/open-sans/300.css'; // for light font
+import '@fontsource/open-sans/400-italic.css';
+import '@fontsource/open-sans/700.css';
+
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { LoadingPlaceholder } from 'case-web-ui';
 
