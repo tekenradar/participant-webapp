@@ -10,22 +10,6 @@ export const homePage = (path: string): PageConfig => {
         key: 'row1',
         columns: [
           {
-            key: 'col1_1',
-            className: 'col-xs-12 col-lg-8 mt-3',
-            items: [
-              {
-                itemKey: '1',
-                config: {
-                  type: 'extension',
-                  config: {
-                    type: 'reportMap',
-                    label: 'Map about tick reports'
-                  }
-                }
-              }
-            ]
-          },
-          {
             key: 'meldenCardCol',
             className: 'col-12 col-lg-4 mt-3',
             items: [
@@ -47,6 +31,23 @@ export const homePage = (path: string): PageConfig => {
               }
             ]
           },
+          {
+            key: 'col1_1',
+            className: 'col-xs-12 col-lg-8 mt-3',
+            items: [
+              {
+                itemKey: '1',
+                config: {
+                  type: 'extension',
+                  config: {
+                    type: 'reportMap',
+                    label: 'Map about tick reports'
+                  }
+                }
+              }
+            ]
+          },
+
 
         ]
       },
