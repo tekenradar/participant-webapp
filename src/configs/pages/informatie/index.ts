@@ -3,7 +3,8 @@ import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { tekenPage } from "./teken/tekenPage"
 import { lymePage } from "./lyme/lymePage"
 import { tekenradarPage } from "./tekenradar/tekenradarPage"
-import { artsenPage } from "./artsenPage"
+import { artseninfoPage } from "./artsen/artseninfoPage"
+
 import { waarLevenTekenPage } from "./teken/tekeninfo/waarLevenTekenPage"
 import { hetGedragPage } from "./teken/tekeninfo/hetGedragPage"
 import { basiskennisTekenPage } from "./teken/tekeninfo/basiskennisTekenPage"
@@ -43,13 +44,15 @@ import { zonMwPage } from "./tekenradar/financiers/zonMwPage"
 import { vwsPage } from "./tekenradar/financiers/vwsPage"
 
 
+
+
 export const informatiePage = (path: string): PageConfig => {
   const infoPages = [
     // overview pages
     tekenPage(`${path}/teken`),
     lymePage(`${path}/lyme`),
     tekenradarPage(`${path}/tekenradar`),
-    artsenPage(`${path}/artsen`),
+    artseninfoPage(`${path}/artsen`),
 
     // subpages (content)
     //tekeninfo
@@ -106,6 +109,8 @@ export const informatiePage = (path: string): PageConfig => {
     //financiers
     zonMwPage(`${path}/zonMw`),
     vwsPage(`${path}/ministerie-van-vws`),
+
+
 
 
 
