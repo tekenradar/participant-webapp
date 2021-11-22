@@ -1,4 +1,5 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { meldenCard } from "../cards/meldenCard"
 
 export const homePage = (path: string): PageConfig => {
   return {
@@ -29,19 +30,7 @@ export const homePage = (path: string): PageConfig => {
             key: 'meldenCardCol',
             className: 'col-12 col-lg-4 mt-3',
             items: [
-              {
-                itemKey: 'meldenCard',
-                className: 'h-100',
-                config: {
-                  type: 'imageCard',
-                  showActionBtn: true,
-                  action: {
-                    type: 'navigate',
-                    value: '/melden',
-                  },
-                  imageSrc: '/images/no-license/meldencard.jpg',
-                }
-              }
+              meldenCard({ className: 'h-100' })
             ]
           }
         ]
