@@ -8,6 +8,8 @@ import { footerConfig } from './configs/footer';
 import ReportMap from './components/ReportMap';
 import ReportButtonCard from './components/ReportButtonCard';
 import Partners from './components/Partners';
+import Ribbon from './components/Ribbon';
+import InfoPageSection from './components/InfoPageSection';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -17,6 +19,7 @@ const extensions = [
   { name: 'reportMap', component: ReportMap },
   { name: 'reportButtonCard', component: ReportButtonCard },
   { name: 'partners', component: Partners },
+  { name: 'pageSection', component: InfoPageSection },
 ]
 
 const App: React.FC = () => {
@@ -31,14 +34,18 @@ const App: React.FC = () => {
   }, [i18n.language])
 
   return (
-    <AppCore
-      //appConfig={appConfig}
-      headerConfig={headerConfig}
-      navbarConfig={navbarConfig}
-      pagesConfig={pagesConfig}
-      footerConfig={footerConfig}
-      extensions={extensions}
-    />
+    <React.Fragment>
+      <Ribbon>{process.env.REACT_APP_VERSION}</Ribbon>
+      <AppCore
+        //appConfig={appConfig}
+        headerConfig={headerConfig}
+        navbarConfig={navbarConfig}
+        pagesConfig={pagesConfig}
+        footerConfig={footerConfig}
+        extensions={extensions}
+      />
+    </React.Fragment>
+
   );
 }
 

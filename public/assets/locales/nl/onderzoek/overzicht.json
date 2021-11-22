@@ -1,0 +1,25 @@
+{
+  "title": "Study overview",
+  "onderzoekLinks": {
+    "title": "Current and previous studies"
+  },
+  "overviewCard": {
+    "title": "History",
+    "body": "you can describe here a high level information about tekenradar studies so far. With the buttons here, you can access detailed infos. You can also format **text** or add bullets like\n\n- this\n- or this"
+  },
+  "tekenverwachting": {
+    "title": "Tekenverwachting",
+    "body": "Short description what this study was about",
+    "actionBtn": "Lees meer"
+  },
+  "pandora": {
+    "title": "Pandora",
+    "body": "Short description what this study was about",
+    "actionBtn": "Lees meer"
+  },
+  "resultaten": {
+    "title": "Resultaten",
+    "body": "Short description what someone will find on the page. Image can be bigger, and better...",
+    "actionBtn": "Lees meer"
+  }
+}

@@ -11,26 +11,26 @@
   "onderzoekCard": {
     "title": "Over onze onderzoeken",
     "body": "...",
-    "actionLabel": "..."
+    "actionBtn": "Lees meer"
   },
   "tekenCard": {
     "title": "Over Teken",
     "body": "...",
-    "actionLabel": "..."
+    "actionBtn": "Lees meer"
   },
   "faqCard": {
     "title": "Vragen en antwoorden",
     "body": "...",
-    "actionLabel": "..."
+    "actionBtn": "Lees meer"
   },
   "lymeCard": {
     "title": "Over ziekte van Lyme",
     "body": "...",
-    "actionLabel": "..."
+    "actionBtn": "Lees meer"
   },
   "aboutCard": {
     "title": "Over tekenradar.nl",
     "body": "...",
-    "actionLabel": "..."
+    "actionBtn": "Lees meer"
   }
 }

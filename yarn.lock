@@ -1945,19 +1945,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@>=16.14.8", "@types/react@>=16.9.11":
+"@types/react@>=16.14.8", "@types/react@>=16.9.11", "@types/react@^17.0.36":
   version "17.0.36"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.36.tgz#0d81e0e2419e6a8e9ba6af5e3a0608e70835d7d1"
   integrity sha512-CUFUp01OdfbpN/76v4koqgcpcRGT3sYOq3U3N6q0ZVGcyeP40NUdVU+EWe3hs34RNaTefiYyBzOpxBBidCc5zw==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17.0.35":
-  version "17.0.35"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.35.tgz#217164cf830267d56cd1aec09dcf25a541eedd4c"
-  integrity sha512-r3C8/TJuri/SLZiiwwxQoLAoavaczARfT9up9b4Jr65+ErAUX3MIkU0oMOQnrpfgHme8zIqZLX7O5nnjm5Wayw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -3357,15 +3348,15 @@ case-sensitive-paths-webpack-plugin@2.3.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.3.0.tgz#23ac613cc9a856e4f88ff8bb73bbb5e989825cf7"
   integrity sha512-/4YgnZS8y1UXXmC02xD5rRrBEu6T5ub+mQHLNRj0fzTRbgdBYhsNo2V5EqwgqrExjxsjtF/OpAKAMkKsxbD5XQ==
 
-case-web-app-core@^1.5.0-beta.1:
-  version "1.5.0-beta.1"
-  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.1.tgz#b2c98227f697539397a5ec7d709d2fe02032ed6d"
-  integrity sha512-XgGuv8TnIY2IcjSdKogWRJPnFpKA4oHvIksZIPDZcncYXCJ/GyVrBbXJIQd+cwfLMgzhYRC5VxvqnVWYdcXZjQ==
+case-web-app-core@^1.5.0-beta.3:
+  version "1.5.0-beta.3"
+  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.3.tgz#181eddd82aeb942f1df87245dc737462ab7ffea6"
+  integrity sha512-dFmdk1wazdOxNPAa7e8m441Z0nhsj5b/R3Dj9iEWR+zPjg5R+teEBMeBHjHML838+H8Xk2MX7ouBiIzxCvmjNQ==
 
-case-web-ui@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.6.1.tgz#6a6cde8abc64a6b67403eba4b797ee4489cae3dc"
-  integrity sha512-o6ma0N2DpZLCTkXOcmTTP0jL9T7BrkdtD6SHC9PMIwfkOKWaUQXNsDfLs8Avql5nKcn4QGMm2CPyd/LnQueOCg==
+case-web-ui@^1.7.0-beta.3:
+  version "1.7.0-beta.3"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.7.0-beta.3.tgz#2a328f4f8d3171654b66d28dab03ad3e4e71ab3a"
+  integrity sha512-NDWNyIDJe3fegP3pMJmXKCrpl2DJtJp+jhoIHlxPHkwG6xX3EVeYyQEvrhB/LTuTJGhFuHHWjlZGVG4KOv3IDw==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -9669,10 +9660,10 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
-react-i18next@^11.14.2:
-  version "11.14.2"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.14.2.tgz#2ff28f6a0ddf06eaf79435ed6c70c441d709cf34"
-  integrity sha512-fmDhwNA0zDmSEL3BBT5qwNMvxrKu25oXDDAZyHprfB0AHZmWXfBmRLf8MX8i1iBd2I2C2vsA2D9wxYBIwzooEQ==
+react-i18next@^11.14.3:
+  version "11.14.3"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.14.3.tgz#b44b5c4d1aadac5211be011827a2830be60f2522"
+  integrity sha512-Hf2aanbKgYxPjG8ZdKr+PBz9sY6sxXuZWizxCYyJD2YzvJ0W9JTQcddVEjDaKyBoCyd3+5HTerdhc9ehFugc6g==
   dependencies:
     "@babel/runtime" "^7.14.5"
     html-parse-stringify "^3.0.1"

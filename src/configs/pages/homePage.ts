@@ -56,16 +56,55 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col2_1',
-            className: 'col mt-3',
+            className: 'col-10 mt-4',
             items: [
               {
+                itemKey: 'latestNews',
+                config: {
+                  type: 'extension',
+                  config: {
+                    type: 'pageSection',
+                  }
+                }
+              },
+              {
+                itemKey: 'topNews',
+                //className: 'mt-3',
+                config: {
+                  type: 'actionCard',
+                  action: {
+                    type: 'navigate',
+                    value: '/onderzoek',
+                  },
+                  useFooterText: true,
+                  image: {
+                    url: '/images/no-license/onderzoekcard.jpg',
+                    placement: 'left',
+                    width: '200px',
+                    maxWidth: '200px',
+                  }
+                }
+              },
+              {
                 itemKey: '3',
+                className: 'mt-3',
                 config: {
                   type: 'placeholder',
-                  label: 'Latest Niuews',
-                  height: 600
+                  label: 'Other Niuews',
+                  height: 127
                 }
-              }
+              },
+              {
+                itemKey: '32',
+                className: 'mt-3',
+                config: {
+                  type: 'placeholder',
+                  label: 'Other Niuews',
+                  height: 127
+                }
+              },
+
+
             ]
           }
         ]
@@ -75,57 +114,79 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'onderzoekCardCol',
-            className: 'col-12 col-lg-4 mt-3',
+            className: 'col-12 mt-4',
+            items: [{
+              itemKey: 'aboutThisSite',
+              config: {
+                type: 'extension',
+                config: {
+                  type: 'pageSection',
+                }
+              }
+            },]
+          },
+          {
+            key: 'onderzoekCardCol',
+            className: 'col-12 col-lg-4',
             items: [
               {
                 itemKey: 'onderzoekCard',
                 className: 'h-100',
                 config: {
-                  type: 'imageCard',
-                  showActionBtn: true,
+                  type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/onderzoek',
+                    value: '/onderzoek/overzicht',
                   },
-                  imageSrc: '/images/no-license/onderzoekcard.jpg',
+                  image: {
+                    url: '/images/no-license/onderzoekcard.jpg',
+                    placement: 'top',
+                    height: '200px',
+                  }
                 }
               }
             ]
           },
           {
             key: 'tekenCardCol',
-            className: 'col-12 col-lg-4 mt-3',
+            className: 'col-12 col-lg-4 mt-3 mt-lg-0',
             items: [
               {
                 itemKey: 'tekenCard',
                 className: 'h-100',
                 config: {
-                  type: 'imageCard',
-                  showActionBtn: true,
+                  type: 'actionCard',
                   action: {
                     type: 'navigate',
                     value: '/informatie/teken',
                   },
-                  imageSrc: '/images/no-license/tekencard.jpg',
+                  image: {
+                    url: '/images/no-license/tekencard.jpg',
+                    placement: 'top',
+                    height: '200px',
+                  }
                 }
               }
             ]
           },
           {
             key: 'lymeCardCol',
-            className: 'col-12 col-lg-4 mt-3',
+            className: 'col-12 col-lg-4 mt-3 mt-lg-0',
             items: [
               {
                 itemKey: 'lymeCard',
                 className: 'h-100',
                 config: {
-                  type: 'imageCard',
-                  showActionBtn: true,
+                  type: 'actionCard',
                   action: {
                     type: 'navigate',
                     value: '/informatie/lyme',
                   },
-                  imageSrc: '/images/no-license/lymecard.jpg',
+                  image: {
+                    url: '/images/no-license/lymecard.jpg',
+                    placement: 'top',
+                    height: '200px',
+                  }
                 }
               }
             ]
@@ -137,38 +198,45 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'faqCardCol',
-            className: 'col-12 col-lg-4 my-3',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
               {
                 itemKey: 'faqCard',
                 className: 'h-100',
                 config: {
-                  type: 'imageCard',
-                  showActionBtn: true,
+                  type: 'actionCard',
                   action: {
                     type: 'navigate',
                     value: '/faq',
                   },
-                  imageSrc: '/images/no-license/faqcard.jpg',
+                  image: {
+                    url: '/images/no-license/faqcard.jpg',
+                    placement: 'top',
+                    height: '200px',
+                  }
                 }
               }
             ]
           },
           {
             key: 'aboutCardCol',
-            className: 'col-12 col-lg-4 my-3',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
               {
                 itemKey: 'aboutCard',
                 className: 'h-100',
                 config: {
-                  type: 'imageCard',
-                  showActionBtn: true,
+                  type: 'actionCard',
                   action: {
                     type: 'navigate',
                     value: '/tekenradar',
                   },
-                  imageSrc: '/images/logo_tekenradar.png',
+                  image: {
+                    url: '/images/logo_tekenradar.png',
+                    backgroundSize: 'contain',
+                    placement: 'top',
+                    height: '200px',
+                  }
                 }
               }
             ]
@@ -181,7 +249,7 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'partnersCol',
-            className: 'col-12',
+            className: 'col-12 mt-3',
             items: [
               {
                 itemKey: 'partners',
