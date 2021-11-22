@@ -14,17 +14,22 @@
     "actionLabel": "..."
   },
   "tekenCard": {
-    "title": "Teken",
+    "title": "Over teken",
     "body": "...",
     "actionLabel": "..."
   },
   "faqCard": {
-    "title": "Veelgestelde Fragen",
+    "title": "Vragen en antwoorden",
     "body": "...",
     "actionLabel": "..."
   },
   "lymeCard": {
-    "title": "Ziekte van Lyme",
+    "title": "Over ziekte van Lyme",
+    "body": "...",
+    "actionLabel": "..."
+  },
+  "aboutCard": {
+    "title": "Over tekenradar.nl",
     "body": "...",
     "actionLabel": "..."
   }
