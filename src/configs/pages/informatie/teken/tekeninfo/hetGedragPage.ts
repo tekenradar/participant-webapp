@@ -1,5 +1,7 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { infoPageLayout } from "../../../../../layout/infoPageLayout"
+import { meldenCard } from "../../../../cards/meldenCard";
+
 
 export const hetGedragPage = (path: string): PageConfig => {
   return infoPageLayout({
@@ -14,14 +16,7 @@ export const hetGedragPage = (path: string): PageConfig => {
       },
     },
     sideBarItems: [
-      {
-        itemKey: '1',
-        config: {
-          type: 'placeholder',
-          label: 'Tekenbeet melden',
-          height: 400
-        }
-      }
+        meldenCard(),
     ],
     bottomItems: [
       {
