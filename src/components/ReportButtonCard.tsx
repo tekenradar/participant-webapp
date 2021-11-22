@@ -4,6 +4,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { GenericPageItemProps } from './utils';
 
+
 interface ReportButtonCardProps extends GenericPageItemProps {
   imageBgPostion: string;
   imageBgSize: string;
@@ -11,7 +12,8 @@ interface ReportButtonCardProps extends GenericPageItemProps {
 }
 
 const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
-  const { t, i18n } = useTranslation([props.pageKey, 'global']);
+  const { t, } = useTranslation([props.pageKey, 'global']);
+
 
   const imageSrc = t(`${props.itemKey}.imageSrc`);
   const imageBgPosition = t(`${props.itemKey}.imageBgPosition`);
@@ -38,6 +40,12 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
           <button
             key={item.buttonKey}
             className="btn btn-primary mt-2 w-100 text-start fs-btn fw-bold"
+            onClick={() => {
+              if (item.action.type === "navigate") {
+                props.onNavigate(item.action.value);
+              }
+
+            }}
           >
 
             {t(`${props.itemKey}.${item.buttonKey}`)}

@@ -15,6 +15,7 @@ export const homePage = (path: string): PageConfig => {
             items: [
               {
                 itemKey: 'reportButtonsCard',
+                className: 'h-100',
                 config: {
                   type: 'extension',
                   config: {

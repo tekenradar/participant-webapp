@@ -5,4 +5,5 @@ export interface GenericPageItemProps {
   itemKey: string;
   className?: string;
   renderGenericItemFunc: (item: PageItem) => React.ReactElement | null;
+  onNavigate: (url: string) => void;
 }
