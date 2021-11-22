@@ -7,6 +7,7 @@ import { headerConfig } from './configs/header';
 import { footerConfig } from './configs/footer';
 import ReportMap from './components/ReportMap';
 import ReportButtonCard from './components/ReportButtonCard';
+import Partners from './components/Partners';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -15,6 +16,7 @@ import ReportButtonCard from './components/ReportButtonCard';
 const extensions = [
   { name: 'reportMap', component: ReportMap },
   { name: 'reportButtonCard', component: ReportButtonCard },
+  { name: 'partners', component: Partners },
 ]
 
 const App: React.FC = () => {

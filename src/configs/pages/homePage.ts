@@ -173,7 +173,28 @@ export const homePage = (path: string): PageConfig => {
             ]
           },
         ]
-      }
+      },
+      {
+        key: 'rowPartners',
+        className: 'mb-3',
+        columns: [
+          {
+            key: 'partnersCol',
+            className: 'col-12',
+            items: [
+              {
+                itemKey: 'partners',
+                config: {
+                  type: 'extension',
+                  config: {
+                    type: 'partners',
+                  }
+                }
+              }
+            ]
+          },
+        ]
+      },
     ]
   }
 }
