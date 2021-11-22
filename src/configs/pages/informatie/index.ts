@@ -2,7 +2,7 @@ import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 
 import { tekenPage } from "./teken/tekenPage"
 import { lymePage } from "./lyme/lymePage"
-import { tekenradarPage } from "./tekenradarPage"
+import { tekenradarPage } from "./tekenradar/tekenradarPage"
 import { artsenPage } from "./artsenPage"
 import { waarLevenTekenPage } from "./teken/tekeninfo/waarLevenTekenPage"
 import { hetGedragPage } from "./teken/tekeninfo/hetGedragPage"
@@ -34,6 +34,14 @@ import { basiskennisLymeInNLPage } from "./lyme/lymeInNL/basiskennisLymeInNLPage
 import { LymeEnWerkPage } from "./lyme/lymeInNL/LymeEnWerkPage"
 import { basiskennisAndereZiektenPage } from "./lyme/andereZiekten/basiskennisAndereZiektenPage"
 import { TekenencefalitisPage } from "./lyme/andereZiekten/TekenencefalitisPage"
+import { doelenTrPage } from "./tekenradar/tekenradarinfo/doelenTrPage"
+import { wageningenPage } from "./tekenradar/partner/wageningenPage"
+import { rivmPage } from "./tekenradar/partner/rivmPage"
+import { natuurkalenderPage } from "./tekenradar/partner/natuurkalenderPage"
+import { natuurberichtPage } from "./tekenradar/partner/natuurberichtPage"
+import { zonMwPage } from "./tekenradar/financiers/zonMwPage"
+import { vwsPage } from "./tekenradar/financiers/vwsPage"
+
 
 export const informatiePage = (path: string): PageConfig => {
   const infoPages = [
@@ -85,6 +93,19 @@ export const informatiePage = (path: string): PageConfig => {
     //andereZiekteninfo
     basiskennisAndereZiektenPage(`${path}/andere-ziekten-door-teken-en-co-infecties`),
     TekenencefalitisPage(`${path}/tekenencefalitis`),
+
+    //tekenradarinfo
+    doelenTrPage(`${path}/doelen-tekenradar`),
+
+    //partner
+    wageningenPage(`${path}/wageningen-university`),
+    rivmPage(`${path}/rivm`),
+    natuurkalenderPage(`${path}/natuurkalender`),
+    natuurberichtPage(`${path}/natuurbericht`),
+
+    //financiers
+    zonMwPage(`${path}/zonMw`),
+    vwsPage(`${path}/ministerie-van-vws`),
 
 
 
