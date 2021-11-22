@@ -57,8 +57,8 @@ const TekenmeldingenTab: React.FC = () => {
           style={{
             height: 425
           }}
-          center={[52.2129919, 5.2793703]}
-          zoom={2}
+          center={[10.0029919, 5.2793703]}
+          zoom={3}
           scrollWheelZoom={false}
         >
           <TileLayer

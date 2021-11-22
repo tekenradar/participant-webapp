@@ -13,7 +13,7 @@ export const navbarConfig: NavbarConfig = {
       type: 'internal',
       // hideWhen: 'auth',
       itemKey: 'onderzoek',
-      url: '/onderzoek',
+      url: '/onderzoek/overzicht',
     },
     {
       type: 'dropdown',

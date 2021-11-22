@@ -1,12 +1,14 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { onderzoekPage } from "./onderzoekPage";
 
 import { pandoraPage } from "./pandoraPage";
 import { resultatenPage } from "./resultatenPage";
 import { tekenverwachtingPAge } from "./tekenverwachtingPage";
 
 
-export const onderzoekPage = (path: string): PageConfig => {
-  const onderzoekPages = [
+export const onderzoekContainerPage = (path: string): PageConfig => {
+  const onderzoekSubPages = [
+    onderzoekPage(`${path}/overzicht`),
     // onderzoek sub-pages
     pandoraPage(`${path}/pandora`),
     resultatenPage(`${path}/resultaten`),
@@ -19,7 +21,7 @@ export const onderzoekPage = (path: string): PageConfig => {
     hideTitleBar: true,
     rows: [],
     subPages: {
-      pages: onderzoekPages
+      pages: onderzoekSubPages
     },
   }
 }

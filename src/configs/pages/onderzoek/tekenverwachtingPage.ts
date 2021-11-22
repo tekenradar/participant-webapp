@@ -6,7 +6,7 @@ import { meldenCard } from "../../cards/meldenCard";
 export const tekenverwachtingPAge = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'tekenverwachting',
+    pageKey: 'onderzoek/tekenverwachting',
     topImage: {
       type: 'teaserImage',
       image: {

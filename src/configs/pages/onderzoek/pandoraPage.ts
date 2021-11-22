@@ -6,7 +6,7 @@ import { meldenCard } from "../../cards/meldenCard";
 export const pandoraPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'pandora',
+    pageKey: 'onderzoek/pandora',
     topImage: {
       type: 'teaserImage',
       image: {
