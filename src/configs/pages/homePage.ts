@@ -56,7 +56,7 @@ export const homePage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col2_1',
-            className: 'col-10 mt-4',
+            className: 'col-12 mt-4',
             items: [
               {
                 itemKey: 'latestNews',

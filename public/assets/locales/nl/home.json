@@ -1,11 +1,14 @@
 {
+  "latestNews.title": "Laatste nieuws",
+  "aboutThisSite.title": "Meer Informatie",
+
   "reportButtonsCard": {
     "imageSrc": "/images/no-license/meldencard.jpg",
     "imageBgPosition": "70% 35%",
     "imageBgSize": "cover",
     "tekenBeet": "Tekenbeet melden",
     "rodeRing": "Rode ring of vlek melden",
-    "lyme": "Amdere vorm van Lyme melden",
+    "lyme": "Andere vorm van Lyme melden",
     "koorts": "Koorts na tekenbeet melden"
   },
   "onderzoekCard": {
