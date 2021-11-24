@@ -37,5 +37,33 @@
     "title": "De Hyalomma teek",
     "body": "In Europa komen Hyalomma-teken (Hyalomma marginatum, in media ook wel \"reuzenteek\", \"monsterteek\" of \"horrorteek\" genoemd) voor in het Middellandse Zeegebied en in Zuidoost Europa. ...",
     "actionBtn": "Lees meer"
+  },
+  "tekenbeetInfo": {
+    "title": "Informatie over tekenbeet"
+  },
+  "basiskennisTekenbeet": {
+    "title": "Wat is een tekenbeet?",
+    "body": "Bij een tekenbeet heeft de teek zich in de huid vastgebeten om bloed te zuigen. ...",
+    "actionBtn": "Lees meer"
+  },
+  "controleerTekenbeten": {
+    "title": "Hoe controleer ik op tekenbeten?",
+    "body": "Bent u op een plaats geweest waar teken voorkomen? ...",
+    "actionBtn": "Lees meer"
+  },
+  "hoeVerwijder": {
+    "title": "Hoe verwijder ik een teek?",
+    "body": "Het is belangrijk dat u een tekenverwijderaar gebruikt waarbij u de kop van de teek goed vast kunt pakken.  ...",
+    "actionBtn": "Lees meer"
+  },
+  "watMoetIkDoen": {
+    "title": "Wat moet ik doen bij een tekenbeet?",
+    "body": "Haal een teek zo snel mogelijk weg. Hoe langer de teek in uw huid zit, hoe groter de kans dat hij ziekteverwekkers overdraagt.  ...",
+    "actionBtn": "Lees meer"
+  },
+  "hoeGroot": {
+    "title": "Hoe groot is de kans op besmetting na een tekenbeet?",
+    "body": "Op basis van de huidige gegevens wordt de kans op de ziekte van Lyme of een andere tekenoverdraagbare ziekte na een tekenbeet geschat op 2-3%.  ...",
+    "actionBtn": "Lees meer"
   }
 }

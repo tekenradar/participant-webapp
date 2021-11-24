@@ -119,48 +119,97 @@ const tekenInfoSection: PageRow = {
 
 
 const tekenbeetInfoSection: PageRow = {
-  key: 'row2',
+  key: 'tekenbeetInfoRow',
+  className: "gy-3",
   columns: [
     {
-      key: 'col2_1',
+      key: 'col1_1',
       className: 'col mt-3',
       items: [
         {
-          itemKey: 'LinklistTekenbeet',
+          itemKey: 'tekenbeetInfo',
           config: {
-            type: 'linkList',
-            links: [
-              {
-                linkKey: 'basiskennisTekenbeet',
-                type: 'internal',
-                value: '/informatie/basiskennis-tekenbeet'
-              },
-              {
-                linkKey: 'controleerTekenbeten',
-                type: 'internal',
-                value: '/informatie/hoe-controleer-ik-op-tekenbeten'
-              },
-              {
-                linkKey: 'watMoetIkDoen',
-                type: 'internal',
-                value: '/informatie/wat-moet-ik-doen-bij-een-tekenbeet'
-              },
-              {
-                linkKey: 'hoeVerwijder',
-                type: 'internal',
-                value: '/informatie/hoe-verwijder-ik-een-teek'
-              },
-              {
-                linkKey: 'hoeGroot',
-                type: 'internal',
-                value: '/informatie/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet'
-              }
-            ]
+            type: 'extension',
+            config: {
+              type: 'pageSection',
+              leadItems: [
+                {
+                  itemKey: 'basiskennisTekenbeet',
+                  className: 'h-100',
+                  config: {
+                    type: 'actionCard',
+                    image: {
+                      url: '/images/teekverwijderen.jpeg',
+                      minHeight: '200px',
+                      maxHeight: '350px',
+                      placement: 'top',
+                    },
+                    action: {
+                      type: 'navigate',
+                      value: '/informatie/basiskennis-tekenbeet'
+                    },
+                  }
+                },
+              ],
+              panelRows: [
+                generateRowFromItems('row1', [
+                  {
+                    colClassName: 'col-12 col-md-6',
+                    itemKey: 'controleerTekenbeten',
+                    className: 'h-100',
+                    config: {
+                      type: 'actionCard',
+                      action: {
+                        type: 'navigate',
+                        value: '/informatie/hoe-controleer-ik-op-tekenbeten'
+                      },
+                    }
+                  },
+                  {
+                    colClassName: 'col-12 col-md-6',
+                    itemKey: 'watMoetIkDoen',
+                    className: 'h-100',
+                    config: {
+                      type: 'actionCard',
+                      action: {
+                        type: 'navigate',
+                        value: '/informatie/wat-moet-ik-doen-bij-een-tekenbeet'
+                      },
+                    }
+                  },
+                ]),
+                generateRowFromItems('row2', [
+                  {
+                    colClassName: 'col-12 col-md-6',
+                    itemKey: 'hoeVerwijder',
+                    className: 'h-100',
+                    config: {
+                      type: 'actionCard',
+                      action: {
+                        type: 'navigate',
+                        value: '/informatie/hoe-verwijder-ik-een-teek'
+                      },
+                    }
+                  },
+                  {
+                    colClassName: 'col-12 col-md-6',
+                    itemKey: 'hoeGroot',
+                    className: 'h-100',
+                    config: {
+                      type: 'actionCard',
+                      action: {
+                        type: 'navigate',
+                        value: '/informatie/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet'
+                      },
+                    }
+                  },
+                ]),
+
+              ]
+            }
           }
-        },
-      ]
-    }
-  ]
+        }]
+    }]
 }
 
 const tekenweetjesSection: PageRow = {
