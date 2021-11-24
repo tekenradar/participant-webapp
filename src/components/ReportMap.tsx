@@ -117,6 +117,11 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
             label="Tekenmeldingen"
           />
           <CustomNavItem
+            eventKey="othermap"
+            isActive={key === "othermap"}
+            label="Some other map"
+          />
+          <CustomNavItem
             eventKey="lymeinnl"
             isActive={key === "lymeinnl"}
             label="Lyme in Nederland"
@@ -126,6 +131,26 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
         <Tab.Content>
           <Tab.Pane eventKey="tekenmeldingen">
             <TekenmeldingenTab />
+          </Tab.Pane>
+          <Tab.Pane eventKey="othermap">
+            <div className="p-2">
+              <div className="row">
+                <div className="col-7">
+                  <div
+                    className={clsx(
+                      "d-flex justify-content-center align-items-center bg-grey-5",
+                    )}
+                    style={{
+                      height: 425
+                    }}
+                  >
+                    <h1 className="fs-1 text-center text-white text-uppercase m-0 p-2">MAP</h1>
+                  </div>
+                </div>
+                <div className="col-5">
+                </div>
+              </div>
+            </div>
           </Tab.Pane>
           <Tab.Pane eventKey="lymeinnl">
             <div className="p-2">

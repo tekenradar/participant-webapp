@@ -7,12 +7,12 @@ export const headerConfig: HeaderConfig = {
     image: {
       altKey: 'logoAlt',
       sm: {
-        url: '/images/logo-tr-grey.png',
+        url: '/images/logo_tekenradar.png',
         className: 'pb-2 d-block mx-auto mt-1',
         height: 110
       },
       lg: {
-        url: '/images/logo-tr-grey.png',
+        url: '/images/logo_tekenradar.png',
         className: 'pb-2',
         height: 130
       }

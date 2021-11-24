@@ -39,7 +39,7 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
         {props.buttons.map(item =>
           <button
             key={item.buttonKey}
-            className="btn btn-primary mt-2 w-100 text-start fs-btn fw-bold"
+            className="btn btn-tekenradar mt-2 w-100 text-start fs-btn fw-bold"
             onClick={() => {
               if (item.action.type === "navigate") {
                 props.onNavigate(item.action.value);

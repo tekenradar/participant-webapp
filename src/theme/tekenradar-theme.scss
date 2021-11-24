@@ -25,6 +25,11 @@ $enable-rounded: false !default;
   }
 }
 
+.border-top-4 {
+  border-top-style: solid;
+  border-top-width: 4px !important;
+}
+
 .grecaptcha-badge { visibility: hidden; }
 
 @import '~case-web-ui/build/scss/iconfonts';
