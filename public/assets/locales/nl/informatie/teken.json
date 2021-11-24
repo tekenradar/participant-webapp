@@ -65,5 +65,13 @@
     "title": "Hoe groot is de kans op besmetting na een tekenbeet?",
     "body": "Op basis van de huidige gegevens wordt de kans op de ziekte van Lyme of een andere tekenoverdraagbare ziekte na een tekenbeet geschat op 2-3%.  ...",
     "actionBtn": "Lees meer"
+  },
+  "tekenweetjes": {
+    "title": "Tekenweetjes",
+    "card": {
+      "title": "Intresting facts about ticks",
+      "body": "Check out the following information",
+      "actionBtn": "Lees meer"
+    }
   }
 }

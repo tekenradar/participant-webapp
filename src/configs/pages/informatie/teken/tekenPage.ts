@@ -220,14 +220,14 @@ const tekenweetjesSection: PageRow = {
       className: 'col my-3',
       items: [
         {
-          itemKey: 'tekenweetjesSection',
+          itemKey: 'tekenweetjes',
           config: {
             type: 'extension',
             config: {
               type: 'pageSection',
               leadColClassName: 'col-12',
               leadItems: [{
-                itemKey: 'tekenweetjes',
+                itemKey: 'tekenweetjes.card',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
