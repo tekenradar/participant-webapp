@@ -5,12 +5,12 @@ import { meldenCard } from "../../../../cards/meldenCard";
 export const basiskennisTekenbeetPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekenbeet/basiskennisTekenbeet',
+    pageKey: 'informatie/tekenbeetinfo/basiskennisTekenbeet',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
-        backgroundPosition: '70% 35%',
+        url: '/images/no-license/teaser_tekenbeet.jpg',
+        backgroundPosition: '70% 80%',
         height: 367,
       },
     },

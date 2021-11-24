@@ -5,11 +5,11 @@ import { meldenCard } from "../../../../cards/meldenCard";
 export const hoeGrootPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekenbeet/hoeGroot',
+    pageKey: 'informatie/tekenbeetinfo/hoeGroot',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
+        url: '/images/no-license/teaser_tekenbeet.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },

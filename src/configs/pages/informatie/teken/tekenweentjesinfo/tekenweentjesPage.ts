@@ -2,15 +2,15 @@ import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { infoPageLayout } from "../../../../../layout/infoPageLayout"
 import { meldenCard } from "../../../../cards/meldenCard";
 
-export const tekenbeetVoorkomenPage = (path: string): PageConfig => {
+export const tekenweentjesPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/tekeninfo/tekenbeetVoorkomen',
+    pageKey: 'informatie/tekenweentjesinfo/tekenweentjes',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/hetGedrag.jpg',
-        backgroundPosition: '70% 35%',
+        url: '/images/no-license/tekenweentjes_teaser.jpg',
+        backgroundPosition: '70% 90%',
         height: 367,
       },
     },

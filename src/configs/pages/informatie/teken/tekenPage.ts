@@ -96,7 +96,12 @@ export const tekenPage = (path: string): PageConfig => {
                       linkKey: 'hoeGroot',
                       type: 'internal',
                       value: '/informatie/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet'
-                    }
+                    },
+                    {
+                      linkKey: 'tekenweentjes',
+                      type: 'internal',
+                      value: '/informatie/tekenweentjes'
+                    },
                   ]
                 }
               },

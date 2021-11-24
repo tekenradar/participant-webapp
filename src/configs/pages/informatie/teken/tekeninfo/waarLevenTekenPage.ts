@@ -9,7 +9,7 @@ export const waarLevenTekenPage = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
+        url: '/images/no-license/hetGedrag.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },

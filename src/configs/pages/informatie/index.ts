@@ -42,6 +42,7 @@ import { natuurkalenderPage } from "./tekenradar/partner/natuurkalenderPage"
 import { natuurberichtPage } from "./tekenradar/partner/natuurberichtPage"
 import { zonMwPage } from "./tekenradar/financiers/zonMwPage"
 import { vwsPage } from "./tekenradar/financiers/vwsPage"
+import { tekenweentjesPage } from "./teken/tekenweentjesinfo/tekenweentjesPage"
 
 
 
@@ -70,6 +71,9 @@ export const informatiePage = (path: string): PageConfig => {
     watMoetIkDoenPage(`${path}/wat-moet-ik-doen-bij-een-tekenbeet`),
     hoeVerwijderPage(`${path}/hoe-verwijder-ik-een-teek`),
     hoeGrootPage(`${path}/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet`),
+
+    //tekenweentjes
+    tekenweentjesPage(`${path}/tekenweentjes`),
 
     //lymeinfo
     basiskennisLymePage(`${path}/basiskennis-lyme`),
