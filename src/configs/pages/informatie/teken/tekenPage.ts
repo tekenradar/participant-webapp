@@ -24,6 +24,12 @@ const tekenInfoSection: PageRow = {
                   className: 'h-100',
                   config: {
                     type: 'actionCard',
+                    image: {
+                      url: '/images/no-license/hetGedrag.jpg',
+                      minHeight: '200px',
+                      maxHeight: '350px',
+                      placement: 'top',
+                    },
                     action: {
                       type: 'navigate',
                       value: '/informatie/basiskennis-teken'
