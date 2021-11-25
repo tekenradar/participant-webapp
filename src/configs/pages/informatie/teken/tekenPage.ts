@@ -5,7 +5,8 @@ import { generateRowFromItems } from "../../../common/utils";
 
 const tekenInfoSection: PageRow = {
   key: 'tekenInfoRow',
-  className: "gy-3",
+  rowClassNameOverride: "row gy-3",
+  containerClassName: 'mt-3',
   columns: [
     {
       key: 'col1_1',
@@ -120,7 +121,8 @@ const tekenInfoSection: PageRow = {
 
 const tekenbeetInfoSection: PageRow = {
   key: 'tekenbeetInfoRow',
-  className: "gy-3",
+  rowClassNameOverride: "row gy-3",
+  containerClassName: 'mt-3',
   columns: [
     {
       key: 'col1_1',

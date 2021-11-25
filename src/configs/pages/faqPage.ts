@@ -1,29 +1,33 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { simpleSideBarLayout } from "../../layout/simpleSideBarLayout"
 
 export const faqPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'faq',
     rows: [
-      {
-        key: 'row1',
-        columns: [
+      simpleSideBarLayout({
+        rowKey: 'mainRow',
+        containerClassName: 'my-3 min-vh-60',
+        mainColItems: [{
+          itemKey: '1',
+          config: {
+            type: 'placeholder',
+            label: 'Veelgestelde vragen',
+            height: 600
+          }
+        }],
+        sideBarItems: [
           {
-            key: 'col1_1',
-            className: 'col my-3',
-            items: [
-              {
-                itemKey: '1',
-                config: {
-                  type: 'placeholder',
-                  label: 'Veelgestelde vragen',
-                  height: 600
-                }
-              }
-            ]
+            itemKey: '1',
+            config: {
+              type: 'placeholder',
+              label: 'Veelgestelde vragen',
+              height: 600
+            }
           }
         ]
-      }
+      })
     ]
   }
 }

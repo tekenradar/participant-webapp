@@ -25,7 +25,7 @@ export const onderzoekPage = (path: string): PageConfig => {
       },
       {
         key: 'row2',
-        className: 'pb-4',
+        containerClassName: 'pb-4',
         columns: [
           {
             key: 'col2',

@@ -106,7 +106,8 @@ export const homePage = (path: string): PageConfig => {
                               maxWidth: '200px',
                             }
                           }
-                        }, {
+                        },
+                        {
                           colClassName: 'col-12',
                           itemKey: 'topNews',
                           //className: 'mt-3',
@@ -284,7 +285,7 @@ export const homePage = (path: string): PageConfig => {
       },
       {
         key: 'rowPartners',
-        className: 'mb-3',
+        containerClassName: 'mb-3',
         columns: [
           {
             key: 'partnersCol',
