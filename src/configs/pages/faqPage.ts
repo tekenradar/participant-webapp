@@ -10,11 +10,16 @@ export const faqPage = (path: string): PageConfig => {
         rowKey: 'mainRow',
         containerClassName: 'my-3 min-vh-60',
         mainColItems: [{
-          itemKey: '1',
+          itemKey: 'topItem',
           config: {
-            type: 'placeholder',
-            label: 'Veelgestelde vragen',
-            height: 600
+            type: 'simpleCard',
+            variant: 'h2',
+          }
+        }, {
+          itemKey: 'items',
+          config: {
+            type: 'accordionList',
+            accordionCtrlsKey: "accordionControls"
           }
         }],
         sideBarItems: [
@@ -22,7 +27,7 @@ export const faqPage = (path: string): PageConfig => {
             itemKey: '1',
             config: {
               type: 'placeholder',
-              label: 'Veelgestelde vragen',
+              label: 'Cards for Veelgestelde vragen',
               height: 600
             }
           }

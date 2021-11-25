@@ -21,7 +21,7 @@ export const simpleSideBarLayout = (props: {
       {
         key: 'sideBarCol',
         className: "col-12 col-sm-10 col-lg-4",
-        items: props.mainColItems,
+        items: props.sideBarItems,
       }
     ]
   }

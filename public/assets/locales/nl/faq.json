@@ -1,0 +1,17 @@
+{
+  "title": "Vraag en antwoord",
+  "accordionControls": {
+    "open": "Lees verder",
+    "close": "Verbergen"
+  },
+  "topItem": {
+    "title": "Something",
+    "content": "Explained."
+  },
+  "items": [
+    {
+      "title": "Question?",
+      "content": "Answer."
+    }
+  ]
+}
