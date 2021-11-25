@@ -12,10 +12,38 @@ export const faqPage = (path: string): PageConfig => {
         containerClassName: 'my-3 min-vh-60',
         mainColItems: [
           generatePageSectionItem({
+            itemKey: 'Pandora',
+            leadItems: [
+              {
+                itemKey: 'pandora.items',
+                config: {
+                  type: 'accordionList',
+                  accordionCtrlsKey: "accordionControls"
+                }
+              }
+            ],
+            leadColClassName: 'col-12',
+            panelRows: []
+          }),
+          generatePageSectionItem({
             itemKey: 'tekenradar',
             leadItems: [
               {
                 itemKey: 'tekenradar.items',
+                config: {
+                  type: 'accordionList',
+                  accordionCtrlsKey: "accordionControls"
+                }
+              }
+            ],
+            leadColClassName: 'col-12',
+            panelRows: []
+          }),
+          generatePageSectionItem({
+            itemKey: 'research',
+            leadItems: [
+              {
+                itemKey: 'research.items',
                 config: {
                   type: 'accordionList',
                   accordionCtrlsKey: "accordionControls"
@@ -31,6 +59,36 @@ export const faqPage = (path: string): PageConfig => {
             leadItems: [
               {
                 itemKey: 'ticks.items',
+                config: {
+                  type: 'accordionList',
+                  accordionCtrlsKey: "accordionControls"
+                }
+              }
+            ],
+            leadColClassName: 'col-12',
+            panelRows: []
+          }),
+          generatePageSectionItem({
+            itemKey: 'tickbite',
+            className: 'mt-3',
+            leadItems: [
+              {
+                itemKey: 'tickbite.items',
+                config: {
+                  type: 'accordionList',
+                  accordionCtrlsKey: "accordionControls"
+                }
+              }
+            ],
+            leadColClassName: 'col-12',
+            panelRows: []
+          }),
+          generatePageSectionItem({
+            itemKey: 'disease',
+            className: 'mt-3',
+            leadItems: [
+              {
+                itemKey: 'disease.items',
                 config: {
                   type: 'accordionList',
                   accordionCtrlsKey: "accordionControls"

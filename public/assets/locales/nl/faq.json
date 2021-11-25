@@ -8,12 +8,78 @@
     "title": "Something",
     "content": "Explained."
   },
+  "Pandora": {
+    "title": "LymeProspect en Pandora",
+    "items": [
+      {
+        "title": "Wat is het LymeProspect onderzoek via Tekenradar.nl?",
+        "content": "Dit is een onderzoek om meer inzicht te krijgen in de oorzaken van langdurige klachten na behandeling voor de ziekte van Lyme. Kinderen van 0 t/m 17 jaar die een antibioticabehandeling gaan beginnen tegen de ziekte van Lyme kunnen voor dit onderzoek aangemeld worden op Tekenradar.nl, tot maximaal 4 dagen na start van de behandeling. De deelnemers wordt gevraagd bloed af te geven en een jaar lang elke drie maanden een online-vragenlijst over hun gezondheid in te vullen. Met deze resultaten krijgen de onderzoekers inzicht in welke patiënten klachten houden na behandeling en wat daarvoor de verklaringen zijn. Het LymeProspect onderzoek is een samenwerkingsverband tussen het RIVM, AMC, Radboudumc en Gelre ziekenhuizen Apeldoorn. Vanaf heden kunnen alleen nog kinderen en pubers met een rode ring of vlek of andere vorm van Lyme meedoen. Afhankelijk van hun leeftijd kunnen zij zichzelf aanmelden op Tekenradar.nl of kunnen hun ouders/verzorgers dat doen."
+      },
+      {
+        "title": "Wat is het Pandora onderzoek via Tekenradar.nl?",
+        "content": "Dit is een onderzoek naar andere tekenbeetziekten dan de ziekte van Lyme. Iedereen die plotselinge koorts krijgt binnen 4 weken na een tekenbeet kan zich voor dit onderzoek aanmelden op Tekenradar.nl. De deelnemers wordt gevraagd bloed af te geven en een jaar lang elke drie maanden een online-vragenlijst over hun gezondheid in te vullen. Met deze resultaten krijgen de onderzoekers inzicht in het aantal mensen met ander tekenbeetziekten dan Lyme en de ernst van deze ziekten. Het Pandora onderzoek is een samenwerkingsverband tussen het AMC en het RIVM."
+      },
+      {
+        "title": "Kunnen kinderen meedoen aan het LymeProspect onderzoek?",
+        "content": "Ongeveer een kwart van alle tekenbeten wordt opgelopen door kinderen van 0 t/m 17 jaar. Sinds 2017 kunnen daarom ook kinderen met de ziekte van Lyme meedoen aan het LymeProspect onderzoek. Vanaf eind 2018 zijn kinderen en pubers zelfs de enige nieuwe deelnemers, omdat er al genoeg volwassenen meedoen. Zo kan vastgesteld worden of de kans op klachten na behandeling voor de ziekte van Lyme anders is bij kinderen dan bij volwassenen, en ook of mogelijk andere oorzaken een rol spelen. Kinderen die een antibioticabehandeling gaan beginnen tegen de ziekte van Lyme kunnen zich hier aanmelden. Voor jonge kinderen kunnen de ouders/verzorgers de aanmelding doen en vragenlijsten invullen. Tijdens het onderzoek wordt de gezondheid van deelnemers een jaar lang gevolgd."
+      },
+      {
+        "title": "Kan een kind met chronische Lyme klachten meedoen met het LymePropect onderzoek?",
+        "content": "Ja, ook kinderen van 0 t/m 17 jaar met al bestaande langdurige klachten na de ziekte van Lyme kunnen in sommige gevallen meedoen. Aanmelden kan echter niet via deze website, maar door een e-mail zonder tekst te sturen naar lymeziekte@rivm.nl met als onderwerp ‘LymeProspect onderzoek, langdurige klachten’"
+      },
+      {
+        "title": "Wie kan aan het onderzoek meedoen?",
+        "content": "Jijzelf (of uw kind) kunnen meedoen met chronische klachten na Lyme als alle onderstaande punten gelden: leeftijd 0 t/m 17 jaar, er zijn langer dan zes maanden bijna dagelijks één of meer (lyme gerelateerde) klachten (bijvoorbeeld vermoeidheid, spierpijn, gewrichtspijn of concentratieproblemen), of andere klachten toegeschreven aan Lymeziekte, er zijn geen antistoffen tegen Lymeziekte gevonden (negatieve ELISA-test, dat is de test die de huisarts meestal aanvraagt)"
+      },
+      {
+        "title": "Hoe kan ik mijn kind aanmelden?",
+        "content": "Gelden allevier bovenstaande punten voor uw kind en wilt u aanmelden voor het onderzoek? Dan kunt u een e-mail zonder tekst sturen naar lymeziekte@rivm.nl met als onderwerp ‘LymeProspect onderzoek, chronische klachten’. U krijgt vervolgens een automatische e-mail terug met een korte vragenlijst. Als u deze vragenlijst invult en terugstuurt, hoort u daarna of uw kind inderdaad aan het onderzoek kan meedoen."
+      },
+      {
+        "title": "Wie betaalt de bloedafname voor het LymeProspectonderzoek en het Pandora onderzoek?",
+        "content": "Deelnemers aan het LymeProspect en het Pandora onderzoek betalen geen kosten voor bloedafname. De prikpost kan de kosten declareren bij het RIVM, met een declaratieformulier dat bij de envelop met bloedbuizen zit."
+      }
+    ]
+  },
   "tekenradar": {
     "title": "Tekenradar",
     "items": [
       {
-        "title": "Question about tekenradar?",
-        "content": "Answer 1."
+        "title": "Wat doet tekenradar.nl?",
+        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een erythema migrans (rode ring of vlek), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
+      },
+      {
+        "title": "Wat is het doel van het onderzoek via Tekenradar.nl?",
+        "content": "Met het onderzoek via Tekenradar.nl willen we te weten komen hoe vaak mensen na een tekenbeet een erythema migrans(?) of een andere vorm van de ziekte van Lyme krijgen, en hoe vaak dit leidt tot (ernstige) gezondheidsklachten. Ook willen we onderzoeken hoe dit samenhangt met de mate waarin de teek zelf besmet is, de tijd dat de teek heeft vastgezeten en andere mogelijke risicofactoren. Met deze informatie hopen we meer te weten te komen over de kans dat mensen ziek worden na een tekenbeet. Daarnaast vragen we aan de deelnemers hoe een tekenbeet of de ziekte van Lyme hun kwaliteit van leven beïnvloedt en welke zorgkosten de ziekte met zich meebrengt. Vanaf 2013 onderzoeken we ook of preventieve antibiotica na een tekenbeet werkt om de ziekte van Lyme te voorkomen. Nu is het nog onduidelijk in hoeverre de voordelen van preventief antibioticagebruik – mogelijk minder ziekte van Lyme – zouden opwegen tegen de mogelijke bijwerkingen en resistentie-ontwikkeling."
+      },
+      {
+        "title": "Zijn er lesmodules beschikbaar om met leerlingen aandacht te besteden aan teken en de ziekte van Lyme?",
+        "content": "Wageningen University heeft in het kader van het WURKS-programma in samenwerking met het Clusius College in Heerhugowaard een lesmodule over teken ontwikkeld.  De lesmodule is te bekijken via //https:www.wikiwijsleermiddelenplein.nl waarna u moet zoeken op het woordje 'Lyme'."
+      }
+    ]
+  },
+  "research": {
+    "title": "Onderzoeken",
+    "items": [
+      {
+        "title": "Wat vragen we van u voor dit onderzoek?",
+        "content": "Wij vragen u een tekenbeet of een erythema migrans te melden op Tekenradar.nl. Daarna vult u een aantal vragenlijsten in over tekenbeten en uw gezondheid."
+      },
+      {
+        "title": "Kan ik mijn teek opsturen?",
+        "content": "U hoeft de teek niet op te sturen naar het RIVM. Voor het onderzoek naar tekenbeten zijn de afgelopen jaren genoeg teken verzameld. Alleen mensen die zich aanmelden voor het Pandora onderzoek wordt soms gevraagd om de teek op te sturen. Zij ontvangen daar apart uitleg over."
+      },
+      {
+        "title": "Wat betekent een testuitslag van de teek voor u?",
+        "content": "Een testuitslag van de teek geeft u geen zekerheid over uw risico op de ziekte van Lyme. Om deze reden laat uw huisarts de teek normaal gesproken ook niet onderzoeken. Als uit een test blijkt dat de teek besmet was met de Borrelia bacterie, betekent dat niet dat u ook besmet bent geraakt tijdens de beet. Als de teek volgens de test niet besmet was, is er geen garantie dat u niet geïnfecteerd bent tijdens de beet, omdat de test niet 100% gevoelig is en omdat de kans bestaat dat u ongemerkt gebeten bent door andere teken."
+      },
+      {
+        "title": "Wat wordt er met de foto gedaan die ik opstuur van mijn erythema migrans?",
+        "content": "De foto’s van de erythema migrans die aan Tekenradar.nl gestuurd worden zullen geanonimiseerd (versleuteld) bewaard worden in een databank apart van uw persoonsgegevens. Deze databank is alleen toegankelijk voor de betrokken onderzoeksmedewerkers."
+      },
+      {
+        "title": "Wanneer worden de resultaten van het onderzoek bekend?",
+        "content": "In 2013 zijn de eerste resultaten van Tekenradar.nl bekend gemaakt, zie daarvoor onderzoeksresultaten. De eindresultaten van het preventieve antibiotica onderzoek komen in 2020 beschikbaar, de resultaten van het LymeProspect onderzoek waarschijnlijk in 2021, en van het Pandora onderzoek in 2022. De resultaten hangen voor een groot deel af van het vinden van voldoende deelnemers."
       }
     ]
   },
@@ -21,7 +87,94 @@
     "title": "Ticks",
     "items": [
       {
-        "title": "Question about ticks?",
+        "title": "Wat zijn teken?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Hoe herken je een teek?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Hoe herken je een teek?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Waar komen teken voor?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Wanneer komen teken voor?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Hoeveel teken zijn er in Nederland besmet met de Borrelia bacterie?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Wat zijn reuzenteken of monster- en horrorteken?",
+        "content": "Answer 2."
+      }
+    ]
+  },
+  "tickbite": {
+    "title": "Tekenbeten",
+    "items": [
+      {
+        "title": "Hoe vaak komen tekenbeten voor?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Hoe voorkom ik tekenbeten?",
+        "content": "Answer 2."
+      },
+
+      {
+        "title": "Zijn kinderen extra kwetsbaar?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Wanneer moet ik geïmpregneerde kleding dragen?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Wat moet ik doen bij een tekenbeet?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Ik heb gelezen dat je met zeep ook teken kan verwijderen. Klopt dat?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Moet ik een speciaal pincet gebruiken om een teek te verwijderen?",
+        "content": "Answer 2."
+      }
+    ]
+  },
+  "disease": {
+    "title": "Lyme en andere ziekten",
+    "items": [
+      {
+        "title": "Wat is de ziekte van Lyme?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Hoe veroorzaken teken de ziekte van Lyme?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Wie loopt extra risico om besmet te raken?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Kan de ziekte van Lyme ook een beroepsziekte zijn?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Hoe verklein ik de kans op de ziekte van Lyme?",
+        "content": "Answer 2."
+      },
+      {
+        "title": "Wat is teken-encefalitis (TBE)?",
         "content": "Answer 2."
       }
     ]
