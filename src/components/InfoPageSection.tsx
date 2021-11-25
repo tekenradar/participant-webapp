@@ -15,7 +15,7 @@ const InfoPageSection: React.FC<InfoPageSectionProps> = (props) => {
   const { t, } = useTranslation([props.pageKey, 'global']);
 
   return (
-    <div className="border-top-4 border-primary pt-1">
+    <div className={clsx("border-top-4 border-primary pt-1", props.className)}>
       <h2 className="fw-bold">
         {t(`${props.itemKey}.title`)}
       </h2>

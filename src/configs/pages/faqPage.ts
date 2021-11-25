@@ -1,5 +1,6 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { simpleSideBarLayout } from "../../layout/simpleSideBarLayout"
+import { generatePageSectionItem } from "../common/pageSectionItem"
 
 export const faqPage = (path: string): PageConfig => {
   return {
@@ -9,19 +10,37 @@ export const faqPage = (path: string): PageConfig => {
       simpleSideBarLayout({
         rowKey: 'mainRow',
         containerClassName: 'my-3 min-vh-60',
-        mainColItems: [{
-          itemKey: 'topItem',
-          config: {
-            type: 'simpleCard',
-            variant: 'h2',
-          }
-        }, {
-          itemKey: 'items',
-          config: {
-            type: 'accordionList',
-            accordionCtrlsKey: "accordionControls"
-          }
-        }],
+        mainColItems: [
+          generatePageSectionItem({
+            itemKey: 'tekenradar',
+            leadItems: [
+              {
+                itemKey: 'tekenradar.items',
+                config: {
+                  type: 'accordionList',
+                  accordionCtrlsKey: "accordionControls"
+                }
+              }
+            ],
+            leadColClassName: 'col-12',
+            panelRows: []
+          }),
+          generatePageSectionItem({
+            itemKey: 'ticks',
+            className: 'mt-3',
+            leadItems: [
+              {
+                itemKey: 'ticks.items',
+                config: {
+                  type: 'accordionList',
+                  accordionCtrlsKey: "accordionControls"
+                }
+              }
+            ],
+            leadColClassName: 'col-12',
+            panelRows: []
+          }),
+        ],
         sideBarItems: [
           {
             itemKey: '1',
