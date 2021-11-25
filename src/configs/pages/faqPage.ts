@@ -27,6 +27,7 @@ export const faqPage = (path: string): PageConfig => {
           }),
           generatePageSectionItem({
             itemKey: 'tekenradar',
+            className: 'mt-3',
             leadItems: [
               {
                 itemKey: 'tekenradar.items',
@@ -41,6 +42,7 @@ export const faqPage = (path: string): PageConfig => {
           }),
           generatePageSectionItem({
             itemKey: 'research',
+            className: 'mt-3',
             leadItems: [
               {
                 itemKey: 'research.items',

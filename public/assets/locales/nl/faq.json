@@ -4,11 +4,7 @@
     "open": "Lees verder",
     "close": "Verbergen"
   },
-  "topItem": {
-    "title": "Something",
-    "content": "Explained."
-  },
-  "Pandora": {
+  "pandora": {
     "title": "LymeProspect en Pandora",
     "items": [
       {
@@ -127,7 +123,6 @@
         "title": "Hoe voorkom ik tekenbeten?",
         "content": "Answer 2."
       },
-
       {
         "title": "Zijn kinderen extra kwetsbaar?",
         "content": "Answer 2."
