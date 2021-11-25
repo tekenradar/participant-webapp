@@ -8,10 +8,22 @@
     "title": "Something",
     "content": "Explained."
   },
-  "items": [
-    {
-      "title": "Question?",
-      "content": "Answer."
-    }
-  ]
+  "tekenradar": {
+    "title": "Tekenradar",
+    "items": [
+      {
+        "title": "Question about tekenradar?",
+        "content": "Answer 1."
+      }
+    ]
+  },
+  "ticks": {
+    "title": "Ticks",
+    "items": [
+      {
+        "title": "Question about ticks?",
+        "content": "Answer 2."
+      }
+    ]
+  }
 }
