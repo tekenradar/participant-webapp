@@ -19,6 +19,8 @@ export const onderzoekPage = (path: string): PageConfig => {
                   type: 'extension',
                   config: {
                     type: 'pageSection',
+                    leadItems: [],
+                    panelRows: []
                   }
                 }
               }

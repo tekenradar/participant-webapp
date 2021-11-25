@@ -1,5 +1,4 @@
-import { PageColumn, PageItem, PageRow } from 'case-web-app-core/build/types/pagesConfig';
-import { ActionCard } from 'case-web-ui';
+import { PageItem, PageRow } from 'case-web-app-core/build/types/pagesConfig';
 import clsx from 'clsx';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
