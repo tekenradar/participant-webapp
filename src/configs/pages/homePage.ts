@@ -64,47 +64,49 @@ export const homePage = (path: string): PageConfig => {
                   type: 'extension',
                   config: {
                     type: 'pageSection',
+                    leadColClassName: 'col-12',
+                    leadItems: [
+                      {
+                        itemKey: 'topNews',
+                        //className: 'mt-3',
+                        config: {
+                          type: 'actionCard',
+                          action: {
+                            type: 'navigate',
+                            value: '/onderzoek',
+                          },
+                          useFooterText: true,
+                          image: {
+                            url: '/images/no-license/onderzoekcard.jpg',
+                            placement: 'left',
+                            width: '200px',
+                            maxWidth: '200px',
+                          }
+                        }
+                      },
+                      {
+                        itemKey: '3',
+                        className: 'mt-3',
+                        config: {
+                          type: 'placeholder',
+                          label: 'Other Niuews',
+                          height: 127
+                        }
+                      },
+                      {
+                        itemKey: '32',
+                        className: 'mt-3',
+                        config: {
+                          type: 'placeholder',
+                          label: 'Other Niuews',
+                          height: 127
+                        }
+                      },
+                    ],
+                    panelRows: []
                   }
                 }
               },
-              {
-                itemKey: 'topNews',
-                //className: 'mt-3',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek',
-                  },
-                  useFooterText: true,
-                  image: {
-                    url: '/images/no-license/onderzoekcard.jpg',
-                    placement: 'left',
-                    width: '200px',
-                    maxWidth: '200px',
-                  }
-                }
-              },
-              {
-                itemKey: '3',
-                className: 'mt-3',
-                config: {
-                  type: 'placeholder',
-                  label: 'Other Niuews',
-                  height: 127
-                }
-              },
-              {
-                itemKey: '32',
-                className: 'mt-3',
-                config: {
-                  type: 'placeholder',
-                  label: 'Other Niuews',
-                  height: 127
-                }
-              },
-
-
             ]
           }
         ]
@@ -121,6 +123,8 @@ export const homePage = (path: string): PageConfig => {
                 type: 'extension',
                 config: {
                   type: 'pageSection',
+                  leadItems: [],
+                  panelRows: []
                 }
               }
             },]

@@ -6,28 +6,6 @@ export const onderzoekPage = (path: string): PageConfig => {
     pageKey: 'onderzoek/overzicht',
     rows: [
       {
-        key: 'row0',
-        // className: 'min-vh-60',
-        columns: [
-          {
-            key: 'col1_1',
-            className: 'col-12 mt-3',
-            items: [
-              {
-                itemKey: 'onderzoekLinks',
-                config: {
-                  type: 'extension',
-                  config: {
-                    type: 'pageSection',
-                    leadItems: [],
-                    panelRows: []
-                  }
-                }
-              }
-            ]
-          }]
-      },
-      {
         key: 'row1',
         columns: [
           {
