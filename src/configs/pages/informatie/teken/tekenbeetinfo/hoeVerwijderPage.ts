@@ -1,5 +1,5 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../../../layout/infoPageLayout"
+import { infoPageLayout } from "../../../../../layout/pages/infoPageLayout"
 import { meldenCard } from "../../../../cards/meldenCard";
 
 export const hoeVerwijderPage = (path: string): PageConfig => {

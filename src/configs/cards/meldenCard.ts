@@ -7,13 +7,16 @@ export const meldenCard = (props?: {
     itemKey: 'global:meldenCard',
     className: props?.className,
     config: {
-      type: 'imageCard',
-      showActionBtn: true,
-      action: {
-        type: 'navigate',
-        value: '/melden',
-      },
-      imageSrc: '/images/no-license/meldencard.jpg',
+      type: 'extension',
+      config: {
+        type: 'reportButtonCard',
+        buttons: [
+          { buttonKey: 'tekenBeet', action: { type: 'navigate', value: '/melden' } },
+          { buttonKey: 'rodeRing', action: { type: 'navigate', value: '/melden' } },
+          { buttonKey: 'lyme', action: { type: 'navigate', value: '/melden' } },
+          { buttonKey: 'koorts', action: { type: 'navigate', value: '/melden' } },
+        ]
+      }
     }
   }
 }

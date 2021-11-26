@@ -1,6 +1,39 @@
-import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { simpleSideBarLayout } from "../../layout/simpleSideBarLayout"
-import { generatePageSectionItem } from "../common/pageSectionItem"
+import { PageConfig, PageItem } from "case-web-app-core/build/types/pagesConfig"
+import { pageSection } from "../../layout/rows/pageSection"
+import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
+import { simpleSideBarLayout } from "../../layout/rows/simpleSideBarLayout"
+import { pageRowToPageItem } from "../../layout/utils"
+import { meldenCard } from "../cards/meldenCard"
+
+const faqSections = ['pandora', 'tekenradar', 'ticks', 'research', 'tickbite', 'disease'];
+
+const generateFaqSections = (): PageItem[] => {
+  const items: PageItem[] = [];
+
+  faqSections.forEach((sectionName, index) => {
+
+    items.push(pageRowToPageItem(pageSection({
+      sectionKey: sectionName,
+      className: index > 0 ? 'mt-3' : undefined,
+      rows: [
+        simpleRowColLayout({
+          rowKey: sectionName + '-row',
+          items: [
+            {
+              colClassName: 'col-12',
+              itemKey: `${sectionName}.items`,
+              config: {
+                type: 'accordionList',
+                accordionCtrlsKey: "accordionControls"
+              }
+            }
+          ],
+        })
+      ]
+    })))
+  });
+  return items;
+}
 
 export const faqPage = (path: string): PageConfig => {
   return {
@@ -11,105 +44,10 @@ export const faqPage = (path: string): PageConfig => {
         rowKey: 'mainRow',
         containerClassName: 'my-3 min-vh-60',
         mainColItems: [
-          generatePageSectionItem({
-            itemKey: 'pandora',
-            leadItems: [
-              {
-                itemKey: 'pandora.items',
-                config: {
-                  type: 'accordionList',
-                  accordionCtrlsKey: "accordionControls"
-                }
-              }
-            ],
-            leadColClassName: 'col-12',
-            panelRows: []
-          }),
-          generatePageSectionItem({
-            itemKey: 'tekenradar',
-            className: 'mt-3',
-            leadItems: [
-              {
-                itemKey: 'tekenradar.items',
-                config: {
-                  type: 'accordionList',
-                  accordionCtrlsKey: "accordionControls"
-                }
-              }
-            ],
-            leadColClassName: 'col-12',
-            panelRows: []
-          }),
-          generatePageSectionItem({
-            itemKey: 'research',
-            className: 'mt-3',
-            leadItems: [
-              {
-                itemKey: 'research.items',
-                config: {
-                  type: 'accordionList',
-                  accordionCtrlsKey: "accordionControls"
-                }
-              }
-            ],
-            leadColClassName: 'col-12',
-            panelRows: []
-          }),
-          generatePageSectionItem({
-            itemKey: 'ticks',
-            className: 'mt-3',
-            leadItems: [
-              {
-                itemKey: 'ticks.items',
-                config: {
-                  type: 'accordionList',
-                  accordionCtrlsKey: "accordionControls"
-                }
-              }
-            ],
-            leadColClassName: 'col-12',
-            panelRows: []
-          }),
-          generatePageSectionItem({
-            itemKey: 'tickbite',
-            className: 'mt-3',
-            leadItems: [
-              {
-                itemKey: 'tickbite.items',
-                config: {
-                  type: 'accordionList',
-                  accordionCtrlsKey: "accordionControls"
-                }
-              }
-            ],
-            leadColClassName: 'col-12',
-            panelRows: []
-          }),
-          generatePageSectionItem({
-            itemKey: 'disease',
-            className: 'mt-3',
-            leadItems: [
-              {
-                itemKey: 'disease.items',
-                config: {
-                  type: 'accordionList',
-                  accordionCtrlsKey: "accordionControls"
-                }
-              }
-            ],
-            leadColClassName: 'col-12',
-            panelRows: []
-          }),
+          ...generateFaqSections(),
         ],
         sideBarItems: [
-          {
-            itemKey: '1',
-            config: {
-              type: 'placeholder',
-              label: 'Cards for Veelgestelde vragen',
-              height: 600
-            }
-          }
+          meldenCard()
         ]
       })
     ]

@@ -41,7 +41,6 @@ export const infoPageLayout = (props: {
           config: {
             type: 'markdown',
             markdownUrl: `${props.pageKey}.md`,
-
           }
         }]
       },

@@ -1,10 +1,89 @@
-import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { pageSection } from "../../../../layout/rows/pageSection"
+import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout"
+
+// TODO: page section with variable layout part
+const lymeInfoSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'lymeInfo',
+    className: 'mt-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'lymeInfoRow1',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          {
+            colClassName: 'col-12 col-md-6',
+            itemKey: 'hoeVerwijder',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              action: {
+                type: 'navigate',
+                value: '/informatie/hoe-verwijder-ik-een-teek'
+              },
+            }
+          }, {
+            colClassName: 'col-12 col-md-6',
+            itemKey: '2',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/teekverwijderen.jpeg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/hoe-verwijder-ik-een-teek'
+              },
+            },
+          },
+          {
+            colClassName: 'col-12 col-md-6',
+            itemKey: '3',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/teekverwijderen.jpeg',
+                minHeight: '200px',
+                maxHeight: '350px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/hoe-verwijder-ik-een-teek'
+              },
+            }
+          }, {
+            colClassName: 'col-12 col-md-6',
+            itemKey: '4',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              action: {
+                type: 'navigate',
+                value: '/informatie/hoe-verwijder-ik-een-teek'
+              },
+            }
+          },
+        ],
+      }),
+
+    ]
+  })
+}
+
 
 export const lymePage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'informatie/lyme',
     rows: [
+      lymeInfoSection(),
       {
         key: 'row1',
         columns: [

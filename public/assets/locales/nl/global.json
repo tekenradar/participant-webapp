@@ -1,7 +1,11 @@
 {
   "meldenCard": {
-    "title": "Zelf tekenbeet of Lyme melden",
-    "body": "...",
-    "actionLabel": "Zelf melden"
+    "imageSrc": "/images/no-license/meldencard.jpg",
+    "imageBgPosition": "70% 35%",
+    "imageBgSize": "cover",
+    "tekenBeet": "Tekenbeet melden",
+    "rodeRing": "Rode ring of vlek melden",
+    "lyme": "Andere vorm van Lyme melden",
+    "koorts": "Koorts na tekenbeet melden"
   }
 }

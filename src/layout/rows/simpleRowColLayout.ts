@@ -10,10 +10,13 @@ interface PageItemWithCol extends PageItem {
  * @param items
  * @returns
  */
-export const generateRowFromItems = (
+export const simpleRowColLayout = (props: {
   rowKey: string,
-  items: Array<PageItemWithCol>): PageRow => {
-  const cols = items.map((item, index) => {
+  items: Array<PageItemWithCol>,
+  rowClassNameOverride?: string,
+  containerClassName?: string,
+}): PageRow => {
+  const cols = props.items.map((item, index) => {
     const currentCol = {
       key: 'col' + index.toFixed(),
       className: item.colClassName,
@@ -24,7 +27,9 @@ export const generateRowFromItems = (
     return currentCol;
   });
   return {
-    key: rowKey,
+    key: props.rowKey,
+    rowClassNameOverride: props.rowClassNameOverride,
+    containerClassName: props.containerClassName,
     columns: [
       ...cols,
     ]
