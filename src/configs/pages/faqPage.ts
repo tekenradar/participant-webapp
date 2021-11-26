@@ -12,7 +12,7 @@ export const faqPage = (path: string): PageConfig => {
         containerClassName: 'my-3 min-vh-60',
         mainColItems: [
           generatePageSectionItem({
-            itemKey: 'Pandora',
+            itemKey: 'pandora',
             leadItems: [
               {
                 itemKey: 'pandora.items',
