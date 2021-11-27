@@ -1,78 +1,230 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { leadColLayout } from "../../../../layout/rows/leadColLayout"
 import { pageSection } from "../../../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout"
 
-// TODO: page section with variable layout part
+
 const lymeInfoSection = (): PageRow => {
-  return pageSection({
-    sectionKey: 'lymeInfo',
-    className: 'mt-3',
-    rows: [
+  const firstBlock = simpleRowColLayout({
+    rowKey: 'lymeInfoRow1',
+    rowClassNameOverride: 'row gy-2a ',
+    items: [
+      {
+        colClassName: 'col-12 col-md-8',
+        itemKey: 'basiskennisLyme',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          action: {
+            type: 'navigate',
+            value: '/informatie/basiskennis-lyme'
+          },
+        }
+      },
+      // --------------------
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'hoeKrijgJeLyme',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          image: {
+            url: '/images/teekverwijderen.jpeg',
+            minHeight: '200px',
+            maxHeight: '150px',
+            placement: 'top',
+          },
+          action: {
+            type: 'navigate',
+            value: '/informatie/hoe-krijg-je-de-ziekte-van-lyme'
+          },
+        },
+      },
+      // --------------------
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'lymeKind',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          image: {
+            url: '/images/teekverwijderen.jpeg',
+            minHeight: '200px',
+            maxHeight: '150px',
+            placement: 'top',
+          },
+          action: {
+            type: 'navigate',
+            value: '/informatie/hoe-herken-ik-een-tekenbeet-of-ziekte-van-lyme-bij-een-kind'
+          },
+        },
+      },
+      // --------------------
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'naEenTekenbeet',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          image: {
+            url: '/images/teekverwijderen.jpeg',
+            minHeight: '200px',
+            maxHeight: '350px',
+            placement: 'top',
+          },
+          action: {
+            type: 'navigate',
+            value: '/informatie/waar-moet-ik-op-letten-na-een-tekenbeet'
+          },
+        }
+      },
+      // --------------------
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'roodPlekje',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          action: {
+            type: 'navigate',
+            value: '/informatie/klein-rood-plekje-na-tekenbeet'
+          },
+        }
+      },
+    ],
+  })
+
+  const secondBlock = leadColLayout({
+    rowKey: "lymeInfoRow2",
+    containerClassName: "mt-0",
+    leadItems: [
+      {
+        itemKey: 'wanneerHuisarts',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          action: {
+            type: 'navigate',
+            value: '/informatie/wanneer-moet-ik-naar-de-huisarts'
+          },
+        }
+      },
+    ],
+    panelRows: [
       simpleRowColLayout({
-        rowKey: 'lymeInfoRow1',
+        rowKey: 'lymeInfoRow2PanelRow',
         rowClassNameOverride: 'row gy-2a ',
         items: [
           {
             colClassName: 'col-12 col-md-6',
-            itemKey: 'hoeVerwijder',
+            itemKey: 'immuunsysteem',
             className: 'h-100',
             config: {
               type: 'actionCard',
               action: {
                 type: 'navigate',
-                value: '/informatie/hoe-verwijder-ik-een-teek'
+                value: '/informatie/de-ziekte-van-lyme-en-het-immuunsysteem'
               },
             }
-          }, {
-            colClassName: 'col-12 col-md-6',
-            itemKey: '2',
-            className: 'h-100',
-            config: {
-              type: 'actionCard',
-              image: {
-                url: '/images/teekverwijderen.jpeg',
-                minHeight: '200px',
-                maxHeight: '150px',
-                placement: 'top',
-              },
-              action: {
-                type: 'navigate',
-                value: '/informatie/hoe-verwijder-ik-een-teek'
-              },
-            },
           },
+          // --------------------
           {
             colClassName: 'col-12 col-md-6',
-            itemKey: '3',
-            className: 'h-100',
-            config: {
-              type: 'actionCard',
-              image: {
-                url: '/images/teekverwijderen.jpeg',
-                minHeight: '200px',
-                maxHeight: '350px',
-                placement: 'top',
-              },
-              action: {
-                type: 'navigate',
-                value: '/informatie/hoe-verwijder-ik-een-teek'
-              },
-            }
-          }, {
-            colClassName: 'col-12 col-md-6',
-            itemKey: '4',
+            itemKey: 'lymeZonderTekenbeet',
             className: 'h-100',
             config: {
               type: 'actionCard',
               action: {
                 type: 'navigate',
-                value: '/informatie/hoe-verwijder-ik-een-teek'
+                value: '/informatie/lyme-zonder-tekenbeet',
               },
             }
           },
-        ],
-      }),
+          // --------------------
+          {
+            colClassName: 'col-12 col-md-6',
+            itemKey: 'antibiotica',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              action: {
+                type: 'navigate',
+                value: '/informatie/welke-behandeling-of-antibiotica-worden-gegeven-bij-lyme',
+              },
+            }
+          },
+          // --------------------
+          {
+            colClassName: 'col-12 col-md-6',
+            itemKey: 'risicoLyme',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              action: {
+                type: 'navigate',
+                value: '/informatie/wie-loopt-extra-risico-op-lyme'
+              },
+            }
+          },
+        ]
+      })
+    ]
+  });
 
+  const thirdBlock = simpleRowColLayout({
+    rowKey: 'lymeInfoRow3',
+    rowClassNameOverride: 'row gy-2a ',
+    containerClassName: 'mt-0',
+    items: [
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'lymeVoorkomen',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          action: {
+            type: 'navigate',
+            value: '/informatie/basiskennis-lyme'
+          },
+        }
+      },
+      // --------------------
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'bloedonderzoek',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          action: {
+            type: 'navigate',
+            value: '/informatie/wanneer-wordt-bloedonderzoek-gedaan-voor-lyme'
+          },
+        }
+      },
+      // --------------------
+      {
+        colClassName: 'col-12 col-md-4',
+        itemKey: 'aanvullendeInfo',
+        className: 'h-100',
+        config: {
+          type: 'actionCard',
+          action: {
+            type: 'navigate',
+            value: '/informatie/aanvullende-informatie'
+          },
+        }
+      },
+      // --------------------
+    ]
+  });
+
+  return pageSection({
+    sectionKey: 'lymeInfo',
+    className: 'mt-3',
+    rows: [
+      firstBlock,
+      secondBlock,
+      thirdBlock,
     ]
   })
 }
