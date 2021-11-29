@@ -300,6 +300,43 @@ const lymeInNLSection = (): PageRow => {
   })
 }
 
+const emSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'erythema',
+    className: 'my-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'emRow',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          // --------------------
+          {
+            colClassName: 'col-12 col-md-4',
+            itemKey: 'emDescription',
+            className: 'h-100',
+            config: {
+              type: 'markdown',
+              markdownUrl: '/informatie/erythema/erythema.md'
+            }
+          },
+          // --------------------
+          {
+            colClassName: 'col-12 col-md-8',
+            itemKey: 'erythemaGallery',
+            config: {
+              type: 'extension',
+              config: {
+                type: 'gallery'
+              }
+            }
+          },
+        ]
+      })
+    ]
+  })
+}
+
+
 const andereZiektenSection = (): PageRow => {
   return pageSection({
     sectionKey: 'andreZiekten',
@@ -347,30 +384,7 @@ export const lymePage = (path: string): PageConfig => {
     rows: [
       lymeInfoSection(),
       lymeInNLSection(),
-      {
-        key: 'row1',
-        columns: [
-          {
-            key: 'col1_2',
-            className: 'col-xs-12 col-lg-4 mt-3',
-            items: [
-              {
-                itemKey: 'LinklistErythema',
-                config: {
-                  type: 'linkList',
-                  links: [
-                    {
-                      linkKey: 'erythema',
-                      type: 'internal',
-                      value: '/informatie/erythema-migrans'
-                    }
-                  ]
-                }
-              }
-            ]
-          }
-        ]
-      },
+      emSection(),
       andereZiektenSection(),
     ]
   }

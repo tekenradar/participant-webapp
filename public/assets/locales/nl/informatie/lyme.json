@@ -3,7 +3,6 @@
   "lymeInfo": {
     "title": "Ziekte van lyme"
   },
-
   "basiskennisLyme": {
     "title": "Basiskennis lyme",
     "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. Het meest voorkomende signaal van de ziekte van Lyme is een rode ring- of vlekvormige huiduitslag (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er sprake van een blauwachtige of roze vlek. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. ",
@@ -94,8 +93,23 @@
     "title": "Tekenencefalitis (TBE)",
     "body": "Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het teken-encefalitis-virus, ook wel ‘tick-borne encephalitis’ virus (TBE-virus) genoemd.",
     "actionBtn": "Lees meer"
-  }
-
-
-
+  },
+  "erythemaGallery": [
+    {
+      "src": "/images/no-license/meldenCard.jpg",
+      "alt": "Image About something",
+      "caption": {
+        "title": "Tekenencefalitis (TBE)",
+        "body": "Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het teken-encefalitis-virus, ook wel ‘tick-borne encephalitis’ virus (TBE-virus) genoemd."
+      }
+    },
+    {
+      "src": "/images/no-license/tekenCard.jpg",
+      "alt": "Image About something",
+      "caption": {
+        "title": "Tekenencefalitis (TBE)",
+        "body": "Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het teken-encefalitis-virus, ook wel ‘tick-borne encephalitis’ virus (TBE-virus) genoemd."
+      }
+    }
+  ]
 }

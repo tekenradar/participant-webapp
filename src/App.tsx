@@ -10,6 +10,7 @@ import ReportButtonCard from './components/ReportButtonCard';
 import Partners from './components/Partners';
 import Ribbon from './components/Ribbon';
 import PageSection from './components/PageSection';
+import ImageGallery from './components/ImageGallery';
 
 /*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -20,6 +21,7 @@ const extensions = [
   { name: 'reportButtonCard', component: ReportButtonCard },
   { name: 'partners', component: Partners },
   { name: 'pageSection', component: PageSection },
+  { name: 'gallery', component: ImageGallery },
 ]
 
 const App: React.FC = () => {
