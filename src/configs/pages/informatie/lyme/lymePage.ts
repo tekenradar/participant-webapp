@@ -264,9 +264,10 @@ const lymeInNLSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
+                as: 'img',
                 url: '/images/no-license/NL_national_colors.jpg',
-                minHeight: '200px',
-                maxHeight: '350px',
+                //minHeight: '200px',
+                //maxHeight: '350px',
                 placement: 'top',
               },
               action: {
