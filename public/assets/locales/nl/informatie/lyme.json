@@ -1,0 +1,101 @@
+{
+  "title": "Informatie over ziekte van lyme",
+  "lymeInfo": {
+    "title": "Ziekte van lyme"
+  },
+
+  "basiskennisLyme": {
+    "title": "Basiskennis lyme",
+    "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. Het meest voorkomende signaal van de ziekte van Lyme is een rode ring- of vlekvormige huiduitslag (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er sprake van een blauwachtige of roze vlek. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. ",
+    "actionBtn": "Lees meer"
+  },
+  "hoeKrijgJeLyme": {
+    "title": "Hoe krijg je de ziekte van Lyme?",
+    "body": "Teken kunnen de ziekte van Lyme overdragen als ze zelf besmet zijn met de Borrelia bacterie. Als de teek zich vol zuigt met bloed, kunnen lymebacteriën via het speeksel van de teek in zijn gastheer komen.",
+    "actionBtn": "Lees meer"
+  },
+  "lymeKind": {
+    "title": "Hoe herken ik een tekenbeet of ziekte van Lyme bij een kind?",
+    "body": "Kinderen spelen vaak in het groen en gaan bij wandelingen gemakkelijk van de paden af.",
+    "actionBtn": "Lees meer"
+  },
+  "naEenTekenbeet": {
+    "title": "Waar moet ik op letten na een tekenbeet?",
+    "body": "Het meest voorkomende signaal van de ziekte van Lyme is een rode ringvormige vlek op de plaats waar de teek heeft gebeten. ",
+    "actionBtn": "Lees meer"
+  },
+  "roodPlekje": {
+    "title": "Wat betekent een klein rood plekje na een tekenbeet op mijn huid?",
+    "body": "Een klein rood plekje op de plaats van de tekenbeet is een normale huidirritatie.",
+    "actionBtn": "Lees meer"
+  },
+  "wanneerHuisarts": {
+    "title": "Wanneer moet ik naar de huisarts?",
+    "body": "Als u een rode ring of vlek op uw huid (erythema migrans) heeft gevonden en die ring of vlek in enkele dagen groter wordt, moet u naar de huisarts. ",
+    "actionBtn": "Lees meer"
+  },
+  "immuunsysteem": {
+    "title": "De ziekte van Lyme en het immuunsysteem",
+    "body": "Je kunt niet immuun worden tegen de ziekte van Lyme.",
+    "actionBtn": "Lees meer"
+  },
+  "lymeZonderTekenbeet": {
+    "title": "Lyme zonder tekenbeet?",
+    "body": "Niet alle mensen die de ziekte van Lyme hebben, hebben eerst een tekenbeet gezien.",
+    "actionBtn": "Lees meer"
+  },
+  "antibiotica": {
+    "title": "Welke behandeling of antibiotica worden gegeven bij Lyme?",
+    "body": "Als u klachten heeft die kunnen passen bij de ziekte van Lyme kunt u worden behandeld met antibiotica.",
+    "actionBtn": "Lees meer"
+  },
+  "risicoLyme": {
+    "title": "Wie loopt extra risico om besmet te raken?",
+    "body": "Iedereen kan via een tekenbeet besmet raken met de lymebacterie en de ziekte van Lyme krijgen.",
+    "actionBtn": "Lees meer"
+  },
+  "lymeVoorkomen": {
+    "title": "Voorkomen ziekte van lyme",
+    "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt.",
+    "actionBtn": "Lees meer"
+  },
+  "bloedonderzoek": {
+    "title": "Wanneer wordt bloedonderzoek gedaan voor Lyme?",
+    "body": "Antistoffen tegen Lymeziekte zijn gemiddeld pas 6 tot 8 weken na de infectie meetbaar in het bloed.",
+    "actionBtn": "Lees meer"
+  },
+  "aanvullendeInfo": {
+    "title": "Meer weten over tekenbeten en de ziekte van Lyme?",
+    "body": "Hier vind je meer informatie.",
+    "actionBtn": "Lees meer"
+  },
+  "lymeInNLInfo": {
+    "title": "Lyme in Nederland"
+  },
+  "basiskennisLymeInNL": {
+    "title": "De ziekte van Lyme in Nederland",
+    "body": "Huisartsen hebben in 2017 bij circa 25.500 mensen in Nederland een uitbreidende ring- of vlekvormige uitslag op de huid (erythema migrans) vastgesteld, het eerste teken van de ziekte van Lyme.",
+    "actionBtn": "Lees meer"
+  },
+  "lymeEnWerk": {
+    "title": "Lyme en werk",
+    "body": "In december 2013 publiceerde het RIVM voor het eerst ook het vóórkomen van arbeidsgerelateerde tekenbeten en ziekte van Lyme.",
+    "actionBtn": "Lees meer"
+  },
+  "andreZiekten": {
+    "title": "Andere Ziekten"
+  },
+  "basiskennisAndereZiekten": {
+    "title": "Andere ziekten door teken en co-infecties",
+    "body": "Teken kunnen verschillende ziekteverwekkers bij zich dragen die kunnen worden overgebracht naar de mens.",
+    "actionBtn": "Lees meer"
+  },
+  "tekenencefalitis": {
+    "title": "Tekenencefalitis (TBE)",
+    "body": "Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het teken-encefalitis-virus, ook wel ‘tick-borne encephalitis’ virus (TBE-virus) genoemd.",
+    "actionBtn": "Lees meer"
+  }
+
+
+
+}

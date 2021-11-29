@@ -15,6 +15,12 @@ const lymeInfoSection = (): PageRow => {
         className: 'h-100',
         config: {
           type: 'actionCard',
+          image: {
+            url: '/images/no-license/woman_spring.jpg',
+            minHeight: '200px',
+            maxHeight: '150px',
+            placement: 'top',
+          },
           action: {
             type: 'navigate',
             value: '/informatie/basiskennis-lyme'
@@ -29,7 +35,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/teekverwijderen.jpeg',
+            url: '/images/no-license/tick_white_flower.jpg',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -48,7 +54,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/teekverwijderen.jpeg',
+            url: '/images/no-license/girl_tree.jpg',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -67,7 +73,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/teekverwijderen.jpeg',
+            url: '/images/no-license/couple_dog.jpg',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -85,6 +91,12 @@ const lymeInfoSection = (): PageRow => {
         className: 'h-100',
         config: {
           type: 'actionCard',
+          image: {
+            url: '/images/no-license/lymeCard.jpg',
+            minHeight: '200px',
+            maxHeight: '350px',
+            placement: 'top',
+          },
           action: {
             type: 'navigate',
             value: '/informatie/klein-rood-plekje-na-tekenbeet'
@@ -103,6 +115,12 @@ const lymeInfoSection = (): PageRow => {
         className: 'h-100',
         config: {
           type: 'actionCard',
+          image: {
+            url: '/images/no-license/gp.png',
+            minHeight: '200px',
+            maxHeight: '350px',
+            placement: 'top',
+          },
           action: {
             type: 'navigate',
             value: '/informatie/wanneer-moet-ik-naar-de-huisarts'
@@ -245,9 +263,15 @@ const lymeInNLSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              image: {
+                url: '/images/no-license/NL_national_colors.jpg',
+                minHeight: '200px',
+                maxHeight: '350px',
+                placement: 'top',
+              },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/informatie/lyme-in-nederland'
               },
             }
           },
@@ -258,6 +282,12 @@ const lymeInNLSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              image: {
+                url: '/images/no-license/man_working.jpg',
+                minHeight: '200px',
+                maxHeight: '350px',
+                placement: 'top',
+              },
               action: {
                 type: 'navigate',
                 value: '/informatie/lyme-en-werk'
