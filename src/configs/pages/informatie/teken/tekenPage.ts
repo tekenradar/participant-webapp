@@ -121,7 +121,6 @@ const tekenInfoSection: PageRow = pageSection({
 });
 
 
-
 const tekenbeetInfoSection: PageRow = pageSection({
   sectionKey: 'tekenbeetInfo',
   className: 'mt-3',
