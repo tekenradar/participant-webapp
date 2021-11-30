@@ -7,5 +7,5 @@ Meld uw rode ring of vlek (erythema migrans).
 
 Hieronder ziet u foto's van verschillende verschijningsvormen van erythema migrans.
 
-<span style="color:red">Gallery of Photos missing</span>
+
 

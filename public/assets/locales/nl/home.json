@@ -1,6 +1,24 @@
 {
   "latestNews.title": "Laatste nieuws",
   "aboutThisSite.title": "Meer Informatie",
+  "topNews": {
+    "title": "Zomerse piek in activiteit van besmette teken valt samen met piek in tekenbeetmeldingen",
+    "body": "...",
+    "actionBtn": "Lees meer",
+    "footer": "30.11.2021"
+  },
+  "topNews2": {
+    "title": "Vaker aanhoudende klachten na ziekte van Lyme",
+    "body": "...",
+    "actionBtn": "Lees meer",
+    "footer": "25.10.2021"
+  },
+  "openNews": {
+    "title": "Al het nieuws",
+    "body": "...",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+
   "onderzoekCard": {
     "title": "Over onze onderzoeken",
     "body": "...",
@@ -13,6 +31,11 @@
   },
   "faqCard": {
     "title": "Vragen en antwoorden",
+    "body": "...",
+    "actionBtn": "Lees meer"
+  },
+  "verwijderCard": {
+    "title": "Hoe verwijder ik een teek?",
     "body": "...",
     "actionBtn": "Lees meer"
   },

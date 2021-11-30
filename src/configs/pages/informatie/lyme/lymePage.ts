@@ -285,7 +285,7 @@ const lymeInNLSection = (): PageRow => {
               type: 'actionCard',
               image: {
                 url: '/images/no-license/man_working.jpg',
-                minHeight: '200px',
+                minHeight: '300px',
                 maxHeight: '350px',
                 placement: 'top',
               },

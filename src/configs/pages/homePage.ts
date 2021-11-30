@@ -46,9 +46,9 @@ const newsSection = (): PageRow => {
                   },
                   useFooterText: true,
                   image: {
-                    url: '/images/no-license/onderzoekcard.jpg',
+                    url: '/images/no-license/woman_spring.jpg',
                     placement: 'left',
-                    width: '200px',
+                    width: '300px',
                     maxWidth: '200px',
                   }
                 }
@@ -151,6 +151,23 @@ const moreInfoSection = (): PageRow => {
               },
               image: {
                 url: '/images/no-license/lymecard.jpg',
+                placement: 'top',
+                height: '200px',
+              }
+            }
+          },
+          {
+            colClassName: colClassName,
+            itemKey: 'verwijderCard',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              action: {
+                type: 'navigate',
+                value: '/informatie/hoe-verwijder-ik-een-teek',
+              },
+              image: {
+                url: '/images/teekverwijderen.jpeg',
                 placement: 'top',
                 height: '200px',
               }
