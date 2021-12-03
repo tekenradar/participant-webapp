@@ -1,4 +1,5 @@
 import { PageConfig, PageItem, PageRow, TeaserImageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { pageRowToPageItem } from "../utils";
 
 /**
  * To generate a layout used for the info pages
@@ -11,7 +12,7 @@ export const infoPageLayout = (props: {
   pageKey: string;
   topImage?: TeaserImageConfig;
   sideBarItems: PageItem[];
-  bottomItems: PageItem[];
+  bottomRows: PageRow[];
 }): PageConfig => {
 
   const rows: PageRow[] = [];
@@ -51,16 +52,25 @@ export const infoPageLayout = (props: {
       }
     ]
   })
-  rows.push({
-    key: 'referenceRow',
-    columns: props.bottomItems.map((item, index) => {
-      return {
-        key: index.toFixed(),
-        className: 'col-12 col-md-6 col-lg-2 my-3',
-        items: [item]
-      }
-    }),
-  });
+
+  const referencesRow: PageRow = {
+    key: 'bottomRow',
+    columns: [
+      {
+        key: 'bottomRow',
+        className: 'col-12 col-lg-8',
+        items: [{
+          itemKey: '1',
+          config: {
+            type: 'container',
+            items: props.bottomRows.map(row => pageRowToPageItem(row))
+          }
+        }]
+      },
+    ]
+  };
+  rows.push(referencesRow)
+
 
   return {
     path: props.path,

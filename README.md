@@ -46,6 +46,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 [Apache License 2.0](LICENSE)
 
-public/* : All files are excluded from the above license
+public/*: All files are excluded from the above license
 src/fonts/* : All files are excluded from the above license
 src/theme/* : All files are excluded from the above license

@@ -1,6 +1,8 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { infoPageLayout } from "../../../../../layout/pages/infoPageLayout"
 import { meldenCard } from "../../../../cards/meldenCard";
+import { simpleRowColLayout } from "../../../../../layout/rows/simpleRowColLayout";
+import { pageSection } from "../../../../../layout/rows/pageSection";
 
 export const LymeEnWerkPage = (path: string): PageConfig => {
   return infoPageLayout({
@@ -17,36 +19,66 @@ export const LymeEnWerkPage = (path: string): PageConfig => {
     sideBarItems: [
       meldenCard(),
     ],
-    bottomItems: [
-      {
-        itemKey: '1',
-        config: {
-          type: 'placeholder',
-          label: 'back to overview',
-          height: 150
-        }
-      }, {
-        itemKey: '2',
-        config: {
-          type: 'placeholder',
-          label: 'another topic',
-          height: 150
-        }
-      }, {
-        itemKey: '3',
-        config: {
-          type: 'placeholder',
-          label: 'another article',
-          height: 150
-        }
-      }, {
-        itemKey: '4',
-        config: {
-          type: 'placeholder',
-          label: 'next article',
-          height: 150
-        }
-      }
-    ],
+    bottomRows: [
+      pageSection({
+        sectionKey: 'global:infoPageReferences',
+        className: 'my-3',
+        rows: [
+          simpleRowColLayout({
+            rowKey: 'references-row',
+            items: [
+              {
+                colClassName: 'col-12 col-sm-6',
+                itemKey: 'backToOverviewPage',
+                className: "mt-2",
+                config: {
+                  type: 'actionCard',
+                  bodyBgImage: {
+                    url: '/images/no-license/waar-leven-teken.jpg',
+                    backgroundPosition: '50% 50%',
+                  },
+                  action: {
+                    type: 'navigate',
+                    value: '/informatie/tekenweentjes'
+                  },
+                }
+              },
+              {
+                colClassName: 'col-12 col-sm-6',
+                itemKey: 'nextArticle',
+                className: "mt-2",
+                config: {
+                  type: 'actionCard',
+                  action: {
+                    type: 'navigate',
+                    value: '/informatie/lyme'
+                  },
+                }
+              },
+              {
+                colClassName: 'col-12',
+                itemKey: 'anotherTopic',
+                className: "mt-2",
+                config: {
+                  type: 'actionCard',
+                  image: {
+                    placement: 'left',
+                    width: '150px',
+                    maxWidth: '150px',
+                    url: '/images/no-license/waar-leven-teken.jpg',
+                    backgroundPosition: '50% 50%',
+                  },
+                  action: {
+                    type: 'navigate',
+                    value: '/informatie/teken'
+                  },
+                }
+              }
+            ]
+          })
+        ]
+      })
+
+    ]
   });
 }

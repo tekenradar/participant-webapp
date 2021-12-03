@@ -7,5 +7,8 @@
     "rodeRing": "Rode ring of vlek melden",
     "lyme": "Andere vorm van Lyme melden",
     "koorts": "Koorts na tekenbeet melden"
+  },
+  "infoPageReferences": {
+    "title": "Related"
   }
 }
