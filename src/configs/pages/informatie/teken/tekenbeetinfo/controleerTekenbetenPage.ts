@@ -39,7 +39,7 @@ export const controleerTekenbetenPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/teken'
                   },
                 }
               },
@@ -51,7 +51,7 @@ export const controleerTekenbetenPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/wat-moet-ik-doen-bij-een-tekenbeet'
                   },
                 }
               },
@@ -70,7 +70,7 @@ export const controleerTekenbetenPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }

@@ -39,7 +39,7 @@ export const hoeVerwijderPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/teken'
                   },
                 }
               },
@@ -51,7 +51,7 @@ export const hoeVerwijderPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet'
                   },
                 }
               },
@@ -70,7 +70,7 @@ export const hoeVerwijderPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }
