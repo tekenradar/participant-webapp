@@ -40,7 +40,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/teken'
                   },
                 }
               },
@@ -52,7 +52,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/hoe-kan-ik-een-tekenbeet-voorkomen'
                   },
                 }
               },
@@ -71,7 +71,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }

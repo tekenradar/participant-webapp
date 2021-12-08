@@ -1,3 +1,18 @@
 {
-  "title": "Informatie over teken"
+  "title": "Informatie over teken",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over de manier waarop teken leven",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Wanneer zijn teken actief?",
+    "body": "Teken kunnen het hele jaar actief zijn mits de temperatuur ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Ziekte van Lyme",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "actionBtn": "Lees meer"
+  }
 }

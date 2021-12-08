@@ -1,14 +1,12 @@
 {
-  "title": "Informatie over teken",
-
   "backToOverviewPage": {
     "title": "Terug naar het overzicht",
     "body": "Vind meer artikelen over de manier waarop teken leven",
     "actionBtn": "Naar de overzichtspagina"
   },
   "nextArticle": {
-    "title": "Het gedrag van de schapenteek",
-    "body": "Harde teken, zoals de schapenteek, voeden zich één keer ...",
+    "title": "Basiskennis Tekenbeet",
+    "body": "Bij een tekenbeet heeft de teek zich in de huid ...",
     "actionBtn": "Lees meer"
   },
   "anotherTopic": {
@@ -16,4 +14,4 @@
     "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
     "actionBtn": "Lees meer"
   }
-}
+  }

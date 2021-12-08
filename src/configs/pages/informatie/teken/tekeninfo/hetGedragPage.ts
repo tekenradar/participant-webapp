@@ -40,7 +40,7 @@ export const hetGedragPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/teken'
                   },
                 }
               },
@@ -52,7 +52,7 @@ export const hetGedragPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/wanneer-zijn-teken-actief'
                   },
                 }
               },
@@ -71,7 +71,7 @@ export const hetGedragPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }
