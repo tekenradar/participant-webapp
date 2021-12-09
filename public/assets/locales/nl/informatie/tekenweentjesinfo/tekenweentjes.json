@@ -1,3 +1,21 @@
 {
-  "title": "Tekenweetjes"
+  "title": "Tekenweetjes",
+
+    "backToOverviewPage": {
+      "title": "Terug naar het overzicht",
+      "body": "Vind meer artikelen over teken en tekenbeeten",
+      "actionBtn": "Naar de overzichtspagina"
+    },
+    "nextArticle": {
+      "title": "De ziekte van Lyme",
+      "body": "De ziekte van Lyme is een infectieziekte die door ...",
+      "actionBtn": "Lees meer"
+    },
+    "anotherTopic": {
+      "title": "Ziekte van Lyme",
+      "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+      "actionBtn": "Lees meer"
+    }
+
+
 }
