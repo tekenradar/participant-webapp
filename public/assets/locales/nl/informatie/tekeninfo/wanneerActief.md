@@ -1,4 +1,4 @@
-# Wanneer zijn teken actief?
+## Wanneer zijn teken actief?
 
 Teken kunnen het hele jaar actief zijn mits de temperatuur hoog genoeg is. Op basis van de maandelijkse tekenvangsten in het kader van het Natuurkalender programma is een goed beeld te verkrijgen van het verloop van de aantalsontwikkelingen (zie figuur).
 

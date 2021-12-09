@@ -1,4 +1,4 @@
-# Het gedrag van de schapenteek
+## Het gedrag van de schapenteek
 
 Harde teken, zoals de schapenteek, voeden zich één keer per levensstadium. Hongerige teken klimmen omhoog langs de stengels van grassen, planten en struiken, totdat ze op een hoogte zitten waarbij ze gemakkelijk op een passerende gastheer kunnen overstappen. Teken zitten maar in zeer beperkte mate in bomen. Larvale teken blijven veel lager zitten dan nimfen, die op hun beurt lager zitten dan volwassen teken. Als een gastheer (bijv. muis, vos, fazant, wild zwijn of ree) deze planten aanraakt, weet de teek dat een gastheer in de buurt is en zal ze proberen via huidcontact een overstap te maken.
 

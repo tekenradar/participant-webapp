@@ -1,4 +1,4 @@
-# Wat moet ik doen bij een tekenbeet?
+## Wat moet ik doen bij een tekenbeet?
 - Haal een teek zo snel mogelijk weg. Hoe langer de teek in uw huid zit, hoe groter de kans dat hij ziekteverwekkers overdraagt.
 - Gebruik geen alcohol, jodium, zeep, olie of andere middelen voordat u de teek verwijdert.
 <span style="color:red">include video?</span> 

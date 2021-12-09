@@ -1,4 +1,4 @@
-# Hoe verwijder ik een teek?
+## Hoe verwijder ik een teek?
 
 Het is belangrijk dat u een tekenverwijderaar gebruikt waarbij u de kop van de teek goed vast kunt pakken. Dit kan goed met een puntig pincet en of een andere tekenverwijderaar die bij de drogist of apotheek te koop is.
 

@@ -1,4 +1,4 @@
-# Hoe kan ik een tekenbeet voorkomen?
+## Hoe kan ik een tekenbeet voorkomen?
 Teken zitten vooral in hoog schaduwrijk gras en dode bladeren bij bomen en struiken. Teken vallen in principe niet uit bomen. Vermijd in een tekenrijke omgeving contact met lage planten en struiken zodat teken niet op uw lichaam over kunnen stappen. Mensen die in aanraking komen met teken (zoals boswachters, hoveniers en militairen) wordt aangeraden zichzelf extra te beschermen tegen tekenbeten.
 
 De onderstaande tips bieden geen garantie dat u geen tekenbeet oploopt. Het blijft dan ook belangrijk om lichaam te controleren op tekenbeten en kleding op de aanwezigheid van teken nadat u in het groen bent geweest.

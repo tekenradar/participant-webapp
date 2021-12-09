@@ -1,4 +1,4 @@
-# Wat is een tekenbeet?
+## Wat is een tekenbeet?
 Bij een tekenbeet heeft de teek zich in de huid vastgebeten om bloed te zuigen.
 
  

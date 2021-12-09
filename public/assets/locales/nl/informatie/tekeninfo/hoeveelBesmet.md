@@ -1,4 +1,4 @@
- # Hoeveel teken zijn besmet?
+ ## Hoeveel teken zijn besmet?
 
 In Nederland is gemiddeld één op de vijf teken (20 procent) besmet met de Borrelia bacterie die de ziekte van Lyme kan veroorzaken. Wel zijn er grote verschillen: op de ene plaats is de helft van de teken besmet, op andere bijna geen. Er is nog onduidelijk waar deze variatie door wordt bepaald. Het hangt waarschijnlijk af van het gebied, de begroeiing, het aantal besmette knaagdieren en de tekendichtheid. Een beet met een besmette teek leidt niet altijd tot de ziekte van Lyme.
  
