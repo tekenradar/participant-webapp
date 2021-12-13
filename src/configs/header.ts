@@ -7,14 +7,14 @@ export const headerConfig: HeaderConfig = {
     image: {
       altKey: 'logoAlt',
       sm: {
-        url: '/images/logo_tekenradar.png',
-        className: 'pb-2 d-block mx-auto mt-1',
-        height: 110
+        url: '/images/tekenradar-logo-colored.png',
+        className: 'd-block mx-auto',
+        height: 90
       },
       lg: {
-        url: '/images/logo_tekenradar.png',
-        className: 'pb-2',
-        height: 130
+        url: '/images/tekenradar-logo-colored.png',
+        className: '',
+        height: 100
       }
     },
     useLanguageSelector: false
