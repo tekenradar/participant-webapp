@@ -12,24 +12,39 @@ const Partners: React.FC<PartnersProps> = (props) => {
     <div>
       <h3 className="border-top-2 border-primary text-start">Partners</h3>
       <div className="d-flex justify-content-center align-items-center flex-wrap">
+
         <a
           className={imageClassName}
-          href="https://www.wur.nl/nl/wageningen-university.htm" target="_blank" rel="noreferrer">
-          <img src={getExternalOrLocalContentURL("/images/logo-wageningen.gif")} alt="Logo Wageningen"
-            width={300}
+          href="" target="_blank" rel="noreferrer">
+          <img src={getExternalOrLocalContentURL("/images/logo-AMC.png")} alt="Logo AMC"
+            height={65}
+          />
+        </a>
+        <a
+          className={imageClassName}
+          href="https://www.fsd.nl/" target="_blank" rel="noreferrer">
+          <img src={getExternalOrLocalContentURL("/images/logo-FSD.png")} alt="Logo FSD"
+            height={75}
+          />
+        </a>
+        <a
+          className={imageClassName}
+          href="https://www.radboudumc.nl/patientenzorg" target="_blank" rel="noreferrer">
+          <img src={getExternalOrLocalContentURL("/images/logo-radboudumc.jpg")} alt="Logo Radboudumc"
+            height={75}
           />
         </a>
         <a
           className={imageClassName}
           href="https://rivm.nl" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-rivm.jpeg")} alt="Logo RIVM"
-            height={120}
+            height={170}
           />
         </a>
         <a
           className={imageClassName}
-          href="https://www.naturetoday.com/intl/nl/observations/natuurkalender?utm_source=natuurkalender.nl&utm_medium=redirect&utm_campaign=olddomain" target="_blank" rel="noreferrer">
-          <img src={getExternalOrLocalContentURL("/images/logo-natuurkalender.png")} alt="Logo Natuurkalender"
+          href="https://www.wur.nl/nl/wageningen-university.htm" target="_blank" rel="noreferrer">
+          <img src={getExternalOrLocalContentURL("/images/logo-WUR.png")} alt="Logo Wageningen"
             height={120}
           />
         </a>

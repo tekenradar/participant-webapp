@@ -18,7 +18,7 @@ const Ribbon: React.FC<RibbonProps> = (props) => {
         boxShadow: "0 0 3px rgba(0, 0, 0, .3)",
         zIndex: 1000,
         width: "200px",
-        background: "#98194e",//#e43",
+        background: "#9C1637",//#e43",
         position: "absolute",
         textAlign: "center",
         lineHeight: "30px",
