@@ -39,7 +39,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/lyme'
                   },
                 }
               },
@@ -51,7 +51,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/klein-rood-plekje-na-tekenbeet'
                   },
                 }
               },
@@ -70,7 +70,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/tekenradar'
                   },
                 }
               }

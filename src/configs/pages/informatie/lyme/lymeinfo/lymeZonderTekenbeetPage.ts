@@ -39,7 +39,7 @@ export const lymeZonderTekenbeetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/lyme'
                   },
                 }
               },
@@ -51,7 +51,7 @@ export const lymeZonderTekenbeetPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/welke-behandeling-of-antibiotica-worden-gegeven-bij-lyme'
                   },
                 }
               },
@@ -70,7 +70,7 @@ export const lymeZonderTekenbeetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/tekenradar'
                   },
                 }
               }

@@ -39,7 +39,7 @@ export const wanneerHuisartsPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/lyme'
                   },
                 }
               },
@@ -51,7 +51,7 @@ export const wanneerHuisartsPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/de-ziekte-van-lyme-en-het-immuunsysteem'
                   },
                 }
               },
@@ -70,7 +70,7 @@ export const wanneerHuisartsPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/tekenradar'
                   },
                 }
               }

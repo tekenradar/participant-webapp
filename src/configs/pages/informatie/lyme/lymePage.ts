@@ -202,7 +202,7 @@ const lymeInfoSection = (): PageRow => {
           type: 'actionCard',
           action: {
             type: 'navigate',
-            value: '/informatie/basiskennis-lyme'
+            value: '/informatie/hoe-lyme-voorkomen'
           },
         }
       },
