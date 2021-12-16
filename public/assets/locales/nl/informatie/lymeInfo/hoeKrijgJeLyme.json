@@ -1,0 +1,17 @@
+{
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Lees meer over de ziekte van lyme en andere door teken overgedragen ziekten",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Hoe herken ik een tekenbeet of ziekte van Lyme bij een kind?",
+    "body": "Kinderen spelen vaak in het groen en ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Over Tekenradar",
+    "body": "Lees meer over ons, onze missie en onze doelen.",
+    "actionBtn": "Lees meer"
+  }
+}

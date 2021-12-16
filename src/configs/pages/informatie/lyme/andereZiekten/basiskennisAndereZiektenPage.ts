@@ -40,7 +40,7 @@ export const basiskennisAndereZiektenPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/informatie/lyme'
                   },
                 }
               },
@@ -52,7 +52,7 @@ export const basiskennisAndereZiektenPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/tekenencefalitis'
                   },
                 }
               },
@@ -71,7 +71,7 @@ export const basiskennisAndereZiektenPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/tekenradar'
                   },
                 }
               }

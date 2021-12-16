@@ -246,6 +246,41 @@ const lymeInfoSection = (): PageRow => {
     ]
   })
 }
+const emSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'erythema',
+    className: 'my-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'emRow',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          // --------------------
+          {
+            colClassName: 'col-12 col-md-4',
+            itemKey: 'emDescription',
+            className: 'h-100',
+            config: {
+              type: 'markdown',
+              markdownUrl: '/informatie/erythema/erythema.md'
+            }
+          },
+          // --------------------
+          {
+            colClassName: 'col-12 col-md-8',
+            itemKey: 'erythemaGallery',
+            config: {
+              type: 'extension',
+              config: {
+                type: 'gallery'
+              }
+            }
+          },
+        ]
+      })
+    ]
+  })
+}
 
 
 const lymeInNLSection = (): PageRow => {
@@ -301,41 +336,6 @@ const lymeInNLSection = (): PageRow => {
   })
 }
 
-const emSection = (): PageRow => {
-  return pageSection({
-    sectionKey: 'erythema',
-    className: 'my-3',
-    rows: [
-      simpleRowColLayout({
-        rowKey: 'emRow',
-        rowClassNameOverride: 'row gy-2a ',
-        items: [
-          // --------------------
-          {
-            colClassName: 'col-12 col-md-4',
-            itemKey: 'emDescription',
-            className: 'h-100',
-            config: {
-              type: 'markdown',
-              markdownUrl: '/informatie/erythema/erythema.md'
-            }
-          },
-          // --------------------
-          {
-            colClassName: 'col-12 col-md-8',
-            itemKey: 'erythemaGallery',
-            config: {
-              type: 'extension',
-              config: {
-                type: 'gallery'
-              }
-            }
-          },
-        ]
-      })
-    ]
-  })
-}
 
 
 const andereZiektenSection = (): PageRow => {
@@ -384,8 +384,8 @@ export const lymePage = (path: string): PageConfig => {
     pageKey: 'informatie/lyme',
     rows: [
       lymeInfoSection(),
-      lymeInNLSection(),
       emSection(),
+      lymeInNLSection(),
       andereZiektenSection(),
     ]
   }
