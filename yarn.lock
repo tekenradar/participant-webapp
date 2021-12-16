@@ -1887,10 +1887,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
   integrity sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
 
-"@types/node@^16.11.11":
-  version "16.11.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.11.tgz#6ea7342dfb379ea1210835bada87b3c512120234"
-  integrity sha512-KB0sixD67CeecHC33MYn+eYARkqTheIRNuu97y2XMjR7Wu3XibO1vaY6VBV6O/a89SPI81cEUIYT87UqUWlZNw==
+"@types/node@^16.11.12":
+  version "16.11.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.12.tgz#ac7fb693ac587ee182c3780c26eb65546a1a3c10"
+  integrity sha512-+2Iggwg7PxoO5Kyhvsq9VarmPbIelXP070HMImEpbtGCoyWNINQj4wzjbQCXzdHTRXnqufutJb5KAURZANNBAw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -3319,15 +3319,15 @@ case-sensitive-paths-webpack-plugin@2.3.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.3.0.tgz#23ac613cc9a856e4f88ff8bb73bbb5e989825cf7"
   integrity sha512-/4YgnZS8y1UXXmC02xD5rRrBEu6T5ub+mQHLNRj0fzTRbgdBYhsNo2V5EqwgqrExjxsjtF/OpAKAMkKsxbD5XQ==
 
-case-web-app-core@^1.5.0-beta.7:
-  version "1.5.0-beta.7"
-  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.7.tgz#c0057f4c8039804a3d939ae4a457a71571f4d244"
-  integrity sha512-4gnx/nqFjlykBmLWT8tzQBlG1fgC29R7oak+HukFs0/OX4A5KK4Ysd/zq/hGYk3CYFzpNDBfZsYlZcCYzn9lbw==
+case-web-app-core@^1.5.0-beta.10:
+  version "1.5.0-beta.10"
+  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.10.tgz#0944d56b5fd9b9c9b898ef60fdf1971e943086e9"
+  integrity sha512-BWC7aA5bOjhzTZ/omn58cBNbo9GT0i/zLRyzImOMEh5HjtbYHW6ggxOfchxJt7IlH+URsimlYQNPrGdmEQQ4YA==
 
-case-web-ui@^1.7.0-beta.7:
-  version "1.7.0-beta.7"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.7.0-beta.7.tgz#f6103f90f3312f7b3924416af8a252ef5085a55a"
-  integrity sha512-0mSE7croEkYdsObvR0f99tQYqJMMHyl0P1MkddZaTNcFrJxK6Rb81HBwiVWCbXUYMXCYH5DSa2f5CfflJNDYTA==
+case-web-ui@^1.7.0-beta.11:
+  version "1.7.0-beta.11"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.7.0-beta.11.tgz#402f4d826994ef14799cf02cc8170f6a2a6b0149"
+  integrity sha512-UYwED2BWsxsLteN1mFMQpxSP6O5Zn8jKzpK5k++LW0AM127fT75ctBUekd3N8W5CQGngU6CtKfv0ESQ4HFOKuQ==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -5768,7 +5768,7 @@ html-entities@^1.2.1, html-entities@^1.3.1:
   resolved "https://registry.yarnpkg.com/html-entities/-/html-entities-1.4.0.tgz#cfbd1b01d2afaf9adca1b10ae7dffab98c71d2dc"
   integrity sha512-8nxjcBcd8wovbeKx7h3wTji4e6+rhaVuPNpMqwWgnHh+N9ToqsCs6XztWRBPQ+UtzsoMAdKZtUENoVzU/EMtZA==
 
-html-escaper@^2.0.0:
+html-escaper@^2.0.0, html-escaper@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
   integrity sha512-H2iMtd0I4Mt5eYiapRdIDjp+XzelXQ0tFE4JS7YFwFevXXMmOp9myNrUvCg0D6ws8iqkRPBfKHgbwig1SmlLfg==
@@ -5900,10 +5900,10 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-i18next@^21.5.4:
-  version "21.5.4"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.5.4.tgz#55ab39c31cc0b4f9f58c3a599db50c4515698284"
-  integrity sha512-ukwRJpLhYg4EUfCOtbaKjlwF71qyel1XMXQN78OkQMcaQG68UzlYgLC6g2fhoTNBvoH2tJkaaqzDumhC9skAhA==
+i18next@^21.6.0:
+  version "21.6.0"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.6.0.tgz#257abf455b24136640a20728b44cf59f60cdeb5c"
+  integrity sha512-RjNuACL35wWZgtkyMcjcCmK7R72u3P6jTNbGKzrvHGI9M0iK5Vn1DsBIwOByppaXLIbe0viJ79Nz2h8w1UwPoQ==
   dependencies:
     "@babel/runtime" "^7.12.0"
 
@@ -9386,12 +9386,13 @@ react-error-overlay@^6.0.9:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
 
-react-i18next@^11.14.3:
-  version "11.14.3"
-  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.14.3.tgz#b44b5c4d1aadac5211be011827a2830be60f2522"
-  integrity sha512-Hf2aanbKgYxPjG8ZdKr+PBz9sY6sxXuZWizxCYyJD2YzvJ0W9JTQcddVEjDaKyBoCyd3+5HTerdhc9ehFugc6g==
+react-i18next@^11.15.0:
+  version "11.15.0"
+  resolved "https://registry.yarnpkg.com/react-i18next/-/react-i18next-11.15.0.tgz#66c6304547518a8df8e29d367e2445fa11c8a1b2"
+  integrity sha512-7JOIO7KkKSxB7Ycof6ilx9aQ/tviInTqN2sqHyKrjd5MKHyFyKyXVkYrb7KmG/ISFPA4ugWwor5Qsq8IVyQ/Cg==
   dependencies:
     "@babel/runtime" "^7.14.5"
+    html-escaper "^2.0.2"
     html-parse-stringify "^3.0.1"
 
 react-is@^16.3.2, react-is@^16.7.0, react-is@^16.8.1:
@@ -10037,13 +10038,14 @@ sass-loader@^10.0.5:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
-sass@^1.44.0:
-  version "1.44.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.44.0.tgz#619aa0a2275c097f9af5e6b8fe8a95e3056430fb"
-  integrity sha512-0hLREbHFXGQqls/K8X+koeP+ogFRPF4ZqetVB19b7Cst9Er8cOR0rc6RU7MaI4W1JmUShd1BPgPoeqmmgMMYFw==
+sass@^1.45.0:
+  version "1.45.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.45.0.tgz#192ede1908324bb293a3e403d1841dbcaafdd323"
+  integrity sha512-ONy5bjppoohtNkFJRqdz1gscXamMzN3wQy1YH9qO2FiNpgjLhpz/IPRGg0PpCjyz/pWfCOaNEaiEGCcjOFAjqw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
 
 sax@~1.2.4:
   version "1.2.4"
@@ -10361,6 +10363,11 @@ source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
   integrity sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw==
+
+"source-map-js@>=0.6.2 <2.0.0":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.1.tgz#a1741c131e3c77d048252adfa24e23b908670caf"
+  integrity sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==
 
 source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.3"
@@ -10766,10 +10773,10 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-survey-engine@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-0.10.0.tgz#e9c9cdb2de38c33a9ec824d180b611d0d1321d6e"
-  integrity sha512-xGgbbLPZVeG7N2NbnWVnOx3bRTG0gB8PWupQnwj5KVJJQB9+voXZXK3671qwR1NAiUlVwD3rd2KTnTqH90DK4g==
+survey-engine@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.0.0.tgz#e58f78abd6327490ac3e05104eeac4b95da27a4f"
+  integrity sha512-Wila9ipDwiQTdS8JiYcdpXMnE8q5UXQ/TtKp/TQUvxMfg7SeeS1zmCnxSz57H83AsDFa6Iu8Q8557Ea++BSgHQ==
   dependencies:
     moment "2.24.0"
 
