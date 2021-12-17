@@ -1,15 +1,15 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../layout/pages/infoPageLayout";
-import { pageSection } from "../../../layout/rows/pageSection";
-import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout";
-import { meldenCard } from "../../cards/meldenCard";
+import { infoPageLayout } from "../../../../layout/pages/infoPageLayout";
+import { pageSection } from "../../../../layout/rows/pageSection";
+import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout";
+import { meldenCard } from "../../../cards/meldenCard";
 
 
 
-export const pandoraPage = (path: string): PageConfig => {
+export const cijfersPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'onderzoek/pandora',
+    pageKey: 'onderzoek/cijfers',
     topImage: {
       type: 'teaserImage',
       image: {

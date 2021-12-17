@@ -1,14 +1,15 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
-import { infoPageLayout } from "../../../layout/pages/infoPageLayout";
-import { pageSection } from "../../../layout/rows/pageSection";
-import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout";
-import { meldenCard } from "../../cards/meldenCard";
+import { infoPageLayout } from "../../../../layout/pages/infoPageLayout";
+import { pageSection } from "../../../../layout/rows/pageSection";
+import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout";
+import { meldenCard } from "../../../cards/meldenCard";
 
 
-export const tekenverwachtingPAge = (path: string): PageConfig => {
+
+export const victoryPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'onderzoek/tekenverwachting',
+    pageKey: 'onderzoek/victory',
     topImage: {
       type: 'teaserImage',
       image: {
