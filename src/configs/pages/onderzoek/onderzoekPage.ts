@@ -1,10 +1,192 @@
-import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { pageSection } from "../../../layout/rows/pageSection"
+import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
+
+const doelenSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'todo1',
+    className: 'mt-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'todo1',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          {
+            colClassName: 'col-12',
+            itemKey: 'basiskennisLyme',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman_spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+        ],
+      })
+    ]
+  })
+}
+
+const onderzoekenSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'todo2',
+    className: 'mt-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'row2',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          {
+            colClassName: 'col-12 col-md-8',
+            itemKey: 'basiskennisLyme',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman_spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          // ----------------------------
+          {
+            colClassName: 'col-12 col-md-4',
+            itemKey: 'todo2',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman_spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          // ----------------------------
+          // TODO: continue
+        ],
+      })
+    ]
+  })
+}
+
+const resultatenSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'todo3',
+    className: 'mt-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'row2',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          {
+            colClassName: 'col-12 col-md-6',
+            itemKey: 'basiskennisLyme',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman_spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          // ----------------------------
+          {
+            colClassName: 'col-12 col-md-6',
+            itemKey: 'todo2',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman_spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          // ----------------------------
+          // TODO: continue
+        ],
+      })
+    ]
+  })
+}
+
+const voorArtsenSection = (): PageRow => {
+  return pageSection({
+    sectionKey: 'todo4',
+    className: 'my-3',
+    rows: [
+      simpleRowColLayout({
+        rowKey: 'row2',
+        rowClassNameOverride: 'row gy-2a ',
+        items: [
+          {
+            colClassName: 'col-12',
+            itemKey: 'basiskennisLyme',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman_spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+        ],
+      })
+    ]
+  })
+}
+
 
 export const onderzoekPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'onderzoek/overzicht',
     rows: [
+      doelenSection(),
+      onderzoekenSection(),
+      resultatenSection(),
+      voorArtsenSection(),
+      /// TODO: OLD CONTENT REMOVE:
       {
         key: 'row1',
         columns: [
