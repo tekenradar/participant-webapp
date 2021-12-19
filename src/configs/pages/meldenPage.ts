@@ -15,9 +15,11 @@ export const meldenPage = (path: string): PageConfig => {
               {
                 itemKey: '1',
                 config: {
-                  type: 'placeholder',
-                  label: 'Tekenbeet melden',
-                  height: 600
+                  type: 'extension',
+                  config: {
+                    type: 'surveyComponent',
+                    studyKey: 'basic'
+                  }
                 }
               }
             ]

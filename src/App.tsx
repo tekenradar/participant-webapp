@@ -11,10 +11,12 @@ import Partners from './components/Partners';
 import Ribbon from './components/Ribbon';
 import PageSection from './components/PageSection';
 import ImageGallery from './components/ImageGallery';
+import TekenradarSurveyComponent from './components/TekenradarSurveyComponent';
+import { appConfig } from './configs/appConfig';
 
-/*if (process.env.REACT_APP_DEFAULT_INSTANCE) {
+if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
-}*/
+}
 
 const extensions = [
   { name: 'reportMap', component: ReportMap },
@@ -22,6 +24,7 @@ const extensions = [
   { name: 'partners', component: Partners },
   { name: 'pageSection', component: PageSection },
   { name: 'gallery', component: ImageGallery },
+  { name: 'surveyComponent', component: TekenradarSurveyComponent },
 ]
 
 const App: React.FC = () => {
@@ -39,7 +42,7 @@ const App: React.FC = () => {
     <React.Fragment>
       <Ribbon>{process.env.REACT_APP_VERSION}</Ribbon>
       <AppCore
-        //appConfig={appConfig}
+        appConfig={appConfig}
         headerConfig={headerConfig}
         navbarConfig={navbarConfig}
         pagesConfig={pagesConfig}
