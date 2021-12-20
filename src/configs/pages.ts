@@ -2,8 +2,8 @@ import { PagesConfig } from "case-web-app-core/build/types/pagesConfig";
 import { faqPage } from "./pages/faqPage";
 import { homePage } from "./pages/homePage";
 import { informatiePage } from "./pages/informatie";
-import { nieuwsPage } from "./pages/nieuwsPage";
 import { meldenPage } from "./pages/meldenPage";
+import { nieuwsPage } from "./pages/nieuws/nieuwsPage";
 import { onderzoekContainerPage } from "./pages/onderzoek";
 
 const defaultRoutes = {
@@ -19,8 +19,8 @@ export const pagesConfig: PagesConfig = {
     homePage('/home'),
     onderzoekContainerPage('/onderzoek'),
     informatiePage('/informatie'),
-    faqPage('/faq'),
     nieuwsPage('/nieuws'),
+    faqPage('/faq'),
     meldenPage('/melden'),
   ]
 }
