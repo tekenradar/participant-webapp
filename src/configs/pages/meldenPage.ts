@@ -10,7 +10,7 @@ export const meldenPage = (path: string): PageConfig => {
         columns: [
           {
             key: 'col1_1',
-            className: 'col my-3',
+            className: 'col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8 my-3',
             items: [
               {
                 itemKey: '1',
@@ -18,7 +18,8 @@ export const meldenPage = (path: string): PageConfig => {
                   type: 'extension',
                   config: {
                     type: 'surveyComponent',
-                    studyKey: 'basic'
+                    studyKey: 'default',
+                    defaultSurveyKey: 'PDiff'
                   }
                 }
               }
