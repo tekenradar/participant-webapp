@@ -14,7 +14,7 @@ export const headerConfig: HeaderConfig = {
       lg: {
         url: '/images/tekenradar-logo-neu.png',
         className: '',
-        height: 140
+        height: 150
       }
     },
     useLanguageSelector: false
