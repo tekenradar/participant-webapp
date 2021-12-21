@@ -3,7 +3,6 @@ import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { pagesConfig } from './configs/pages';
 import { navbarConfig } from './configs/navbar';
-import { headerConfig } from './configs/header';
 import { footerConfig } from './configs/footer';
 import ReportMap from './components/ReportMap';
 import ReportButtonCard from './components/ReportButtonCard';
@@ -13,6 +12,7 @@ import PageSection from './components/PageSection';
 import ImageGallery from './components/ImageGallery';
 import TekenradarSurveyComponent from './components/TekenradarSurveyComponent';
 import { appConfig } from './configs/appConfig';
+import Header from './components/Header';
 
 if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -43,7 +43,8 @@ const App: React.FC = () => {
       <Ribbon>{process.env.REACT_APP_VERSION}</Ribbon>
       <AppCore
         appConfig={appConfig}
-        headerConfig={headerConfig}
+        customHeader={<Header />}
+        hideDefaultHeader={true}
         navbarConfig={navbarConfig}
         pagesConfig={pagesConfig}
         footerConfig={footerConfig}
