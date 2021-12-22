@@ -6,6 +6,8 @@ import { studyAPI } from 'case-web-app-core';
 import { LoadingPlaceholder, SurveyView } from 'case-web-ui';
 import { Survey, SurveyResponse } from 'survey-engine/data_types';
 import { useTranslation } from 'react-i18next';
+import TickMapResponse from './survey/TickMapResponse';
+import DummyScg from './survey/DummyScg';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -137,6 +139,16 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         backBtnText={t('backBtn')}
         submitBtnText={t('submitBtn')}
         invalidResponseText={t('notValidQuestion')}
+        customResponseComponents={[
+          {
+            name: ':map',
+            component: TickMapResponse,
+          },
+          {
+            name: 'singleChoiceGroup:customScg',
+            component: DummyScg,
+          }
+        ]}
       /> : null}
     </div>
   );
