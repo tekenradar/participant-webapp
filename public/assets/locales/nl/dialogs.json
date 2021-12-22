@@ -1,0 +1,197 @@
+{
+  "loadingMsg": "Loading",
+  "login": {
+    "message": "",
+    "credentials": {
+      "title": "Login",
+      "info": "TODO: add info or use empty string",
+      "emailInputLabel": "E-mail",
+      "emailInputPlaceholder": "E-mail",
+      "passwordInputLabel": "Wachtwoord",
+      "passwordInputPlaceholder": "Wachtwoord",
+      "rememberMeLabel": "Gegevens onthouden",
+      "btn": "Login",
+      "passwordForgottenBtn": "Wachtwoord vergeten?",
+      "signupBtn": "Heb je nog geen account? Meld je hier aan."
+    },
+    "verificationCode": {
+      "title": "Login",
+      "info": "Voer hier de 6-cijferige code in die we je hebben toegestuurd. \nNiets ontvangen? Kijk eerst in je spam-folder. Via de knop hieronder kan je een nieuwe code aanvragen.",
+      "codeInputLabel": "6-cijferige verificatiecode",
+      "codeInputPlaceholder": "6-cijferige verificatiecode",
+      "submitBtn": "Verstuur",
+      "resendBtn": "Aanvragen nieuwe code"
+    },
+    "errors": {
+      "accountOrPassword": "Er gaat iets verkeerd. Controleer je e-mailadres en wachtwoord.",
+      "wrongCode": "Verkeerde code. Controleer de code die we je hebben gemaild",
+      "newCodeSent": "Verkeerde code. We hebben je een nieuwe code gemaild.",
+      "rateLimit": "Je moet even wachten voordat je weer een code kan aanvragen.",
+      "unknown": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw."
+    }
+  },
+  "signup": {
+    "title": "Aanmelden",
+    "info": "TODO: add info or use empty string",
+    "emailInputLabel": "E-mailadres",
+    "emailInputPlaceholder": "E-mailadres",
+    "passwordInputLabel": "Wachtwoord",
+    "passwordInputPlaceholder": "Wachtwoord",
+    "confirmPasswordInputLabel": "Bevestig wachtwoord",
+    "confirmPasswordInputPlaceholder": "Bevestig wachtwoord",
+    "informedConsentCheckbox": "Naar de <1>toestemmingsverklaring</1>.*",
+    "reCaptchaCookieCheckbox": "Naar de <1>reCAPTCHA verklaring</1>.*",
+    "signupBtn": "Aanmelden",
+    "loginLink": "Heb je al een account? Log hier in.",
+    "reCaptchaLinks": "This site is protected by reCAPTCHA and the Google <1>Privacy Policy</1> and <3>Terms of Service</3> apply.",
+    "errors": {
+      "passwordRules": "Je wachtwoord moet tenminste 8 karakters hebben en 3 van de volgende 4 elementen bevatten: kleine letter, hoofdletter, getal, leesteken",
+      "passwordMatch": "Wachtwoorden zijn niet hetzelfde",
+      "invalidEmail": "Je e-mailadres lijkt niet correct",
+      "userCreationFailed": "Er gaat iets verkeerd.",
+      "unknown": "Er gaat iets verkeerd."
+    }
+  },
+  "privacyConsent": {
+    "title": "Toestemmingsverklaring",
+    "acceptBtn": "Ik geef toestemming",
+    "cancelBtn": "Ik geef geen toestemming"
+  },
+  "recaptchaConsent": {
+    "title": "Cookie verklaring",
+    "cancelBtn": "Cancel",
+    "acceptBtn": "Akkoord"
+  },
+  "signupSuccess": {
+    "title": "Welkom!",
+    "successMsg": "Je bent bijna aangemeld voor het Tekenradar! \n Bevestig eerst nog je e-mailadres door op de link in de bevestigingsmail te klikken die we je hebben toegezonden. \n Kan je de e-mail niet vinden controleer eerst je spam-folder. Je kan hieronder ook een nieuwe e-mail aanvragen.",
+    "emailSentMsg": "E-mail is verstuurd.",
+    "resendVerificationEmailBtn": "Verstuur nogmaals een bevestigingsmail",
+    "wrongEmailBtn": "Heb je een verkeerd e-mailadres gebruikt? Verander deze dan hier.",
+    "errors": {
+      "unknown": "Er gaat iets verkeerd."
+    }
+  },
+  "passwordForgotten": {
+    "title": "Wachtwoord wijzigen",
+    "info": "Geef het e-mailadres van uw account.",
+    "successMessage": "Volg de link in de e-mail die we u op het onderstaande adres hebben gestuurd.\n Heeft u geen e-mail ontvangen, kijk in uw spam-folder of probeer opnieuw.",
+    "emailInputLabel": "E-mailadres",
+    "emailInputPlaceholder": "E-mailadres",
+    "submitBtn": "Wijzig wachtwoord",
+    "errors": {
+      "invalidId": "Er gaat iets verkeerd. Controleer je e-mailadres of connectie.\nJe kan het nogmaals proberen wanneer de knop weer zichtbaar is.",
+      "unknown": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw."
+    }
+  },
+  "changeEmail": {
+    "title": "E-mailadres wijzigen",
+    "emailInputLabel": "Nieuw e-mailadres",
+    "emailInputPlaceholder": "Nieuwe e-mailadres",
+    "passwordInputLabel": "Wachtwoord",
+    "passwordInputPlaceholder": "Wachtwoord",
+    "info": "Wil je een ander e-mailadres gebruiken? Pas je e-mailadres aan door op onderstaande knop te klikken. Let op: pas na bevestiging van het e-mailadres kun je weer inloggen op de website van het Tekenradar.",
+    "cancelBtn": "Cancel",
+    "confirmBtn": "Wijzig e-mailadres",
+    "errors": {
+      "wrongPasswordOrAccountId": "Er gaat iets verkeerd. Controleer je informatie. (e-mailadres of wachtwoord kan fout zijn.)",
+      "wrongEmailFormat": "Geen geldig e-mailadres.",
+      "unknown": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw."
+    },
+    "warningDialog": {
+      "title": "Bevestig nieuwe e-mailadres",
+      "content": "Let op: pas na bevestiging van het nieuwe e-mailadres via de link in de bevestigingsmail die we je hebben gestuurd kun je weer inloggen op de website van het Tekenradar",
+      "cancelBtn": "Cancel",
+      "confirmBtn": "Wijzig e-mailadres"
+    },
+    "successDialog": {
+      "title": "E-mailadres gewijzigd",
+      "content": "Gelukt! Je e-mailadres is gewijzigd.",
+      "btn": "Ok"
+    }
+  },
+  "changePassword": {
+    "title": "Wachtwoord wijzigen",
+    "currentPasswordInputLabel": "Huidig wachtwoord",
+    "currentPasswordInputPlaceholder": "Huidig wachtwoord",
+    "newPasswordInputLabel": "Nieuw wachtwoord",
+    "newPasswordInputPlaceholder": "Nieuw wachtwoord",
+    "confirmPasswordInputLabel": "Bevestig nieuw wachtwoord",
+    "confirmPasswordInputPlaceholder": "Bevestig nieuw wachtwoord",
+    "info": "Vanwege veiligheid moet je eerst je huidige wachtwoord geven.",
+    "cancelBtn": "Cancel",
+    "confirmBtn": "Wijzig wachtwoord",
+    "errors": {
+      "wrongCurrentPassword": "Verkeerd wachtwoord",
+      "passwordRules": "Je wachtwoord moet tenminste 8 karakters hebben en 3 van de volgende 4 elementen bevatten: kleine letter, hoofdletter, getal, leesteken",
+      "passwordMatch": "Wachtwoorden zijn niet hetzelfde",
+      "unknown": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw."
+    },
+    "successDialog": {
+      "title": "Wachtwoord gewijzigd",
+      "content": "Gelukt! Je wachtwoord is gewijzigd.",
+      "btn": "Ok"
+    }
+  },
+  "manageProfiles": {
+    "title": "Profielen",
+    "mainProfileLabel": "Ik",
+    "cancelBtn": "Cancel",
+    "newProfileBtn": "Nieuw profiel voor je kind",
+    "warningDialog": {
+      "title": "Verwijderen profiel",
+      "content": "Het verwijderen van het profiel {{ alias }} kan niet ongedaan worden gemaakt.",
+      "cancelBtn": "Cancel",
+      "confirmBtn": "Verwijder profiel"
+    }
+  },
+  "editProfile": {
+    "new": {
+      "title": "Nieuw profiel",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Maak Profiel voor je kind"
+    },
+    "edit": {
+      "title": "Wijzig profiel",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Wijzigingen Opslaan"
+    },
+    "aliasInputLabel": "Naam of bijnaam kind",
+    "aliasInputPlaceholder": "Naam of bijnaam kind",
+    "consentCheckboxLabel": "Toestemming",
+    "consentCheckboxText": "Je mag uitsluitend als ouder of wettelijk vertegenwoordiger van je kind dat de leeftijd van 18 jaar nog niet heeft bereikt een profiel aanmaken en vragenlijsten invullen (een volwassene binnen hetzelfde gezin kan met een ander e-mailadres zelf een eigen account aanmaken).",
+    "avatarSelectorLabel": "Kies een plaatje"
+  },
+  "changeNotifications": {
+    "title": "E-mail instellingen",
+    "info": "Je kan het ontvangen van de wekelijkse herinneringsmail of de nieuwsbrief uitschakelen.",
+    "weeklyReminder": {
+      "label": "Wekelijkse herinneringsmail",
+      "on": "Wel de wekelijkse herinneringsmail",
+      "off": "Geen wekelijkse herinneringsmail"
+    },
+    "newsletter": {
+      "label": "E-mail naar alle deelnemers. Soms zal het nodig zijn om een e-mail te sturen naar alle deelnemers met informatie over het onderzoek.",
+      "on": "Wel deze e-mails naar alle deelnemers ontvangen",
+      "off": "Niet deze e-mails naar alle deelnemers ontvangen"
+    },
+    "cancelBtn": "Annuleer",
+    "submitBtn": "Aanpassen",
+    "successDialog": {
+      "title": "Instellingen aangepast",
+      "content": "Gelukt! Je e-mail instellingen zijn aangepast.",
+      "btn": "Ok"
+    }
+  },
+  "deleteAccount": {
+    "title": "Afmelden onderzoek",
+    "info": "Weet je zeker dat je jouw account wilt verwijderen?\nDit is een actie die je niet ongedaan kunt maken.",
+    "cancelBtn": "Cancel",
+    "confirmBtn": "Afmelden onderzoek",
+    "successDialog": {
+      "title": "Account verwijderd",
+      "content": "Gelukt! Je account is verwijderd. Dank voor je bijdrage. Je kunt altijd weer mee doen door een nieuw account aan te maken.",
+      "btn": "Ok"
+    }
+  }
+}
