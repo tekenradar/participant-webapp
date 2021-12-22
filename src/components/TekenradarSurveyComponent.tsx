@@ -32,6 +32,10 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     fetchSurvey(props.defaultSurveyKey)
   }, [])
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentSurvey])
+
   const fetchSurvey = async (surveyKey: string) => {
     setCurrentSurvey(undefined);
     try {
