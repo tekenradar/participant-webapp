@@ -1,0 +1,7 @@
+{
+  "surveyLoadingError": {
+    "title": "Error",
+    "content": "Something went wrong while loading the survey.\n\n Try again later or if the issue persist reach out to the admin.",
+    "btn": "Retry"
+  }
+}

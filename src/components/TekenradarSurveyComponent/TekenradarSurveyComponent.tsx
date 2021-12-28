@@ -24,7 +24,7 @@ interface TempParticipant {
 
 const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (props) => {
   const instanceID = useSelector((state: RootState) => state.config.instanceId);
-  const { t, i18n } = useTranslation(['surveyPage']);
+  const { t, i18n } = useTranslation(['surveyPage', 'meldenPage']);
 
   const [currentSurvey, setCurrentSurvey] = useState<{
     surveyDef: Survey;
@@ -114,8 +114,6 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
           break;
         }
       }
-
-
     } catch (e) {
       console.error(e)
     }
@@ -128,6 +126,11 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         minHeight='60vh'
       /> : null}
       {error ? <SurveyLoadingError
+        texts={{
+          title: t('meldenPage:surveyLoadingError.title'),
+          content: t('meldenPage:surveyLoadingError.content'),
+          btn: t('meldenPage:surveyLoadingError.btn')
+        }}
         onRetry={() => fetchSurvey(currentSurveyKey)}
       /> : null}
       {currentSurvey ? <SurveyView
