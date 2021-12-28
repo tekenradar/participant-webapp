@@ -10,7 +10,7 @@ import Partners from './components/Partners';
 import Ribbon from './components/Ribbon';
 import PageSection from './components/PageSection';
 import ImageGallery from './components/ImageGallery';
-import TekenradarSurveyComponent from './components/TekenradarSurveyComponent';
+import TekenradarSurveyComponent from './components/TekenradarSurveyComponent/TekenradarSurveyComponent';
 import { appConfig } from './configs/appConfig';
 import Header from './components/Header';
 

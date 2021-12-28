@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { GenericPageItemProps } from './utils';
+import { GenericPageItemProps } from '../utils';
 import { RootState } from 'case-web-app-core/build/store/rootReducer';
 import { studyAPI } from 'case-web-app-core';
 import { LoadingPlaceholder, SurveyView } from 'case-web-ui';
 import { Survey, SurveyResponse } from 'survey-engine/data_types';
 import { useTranslation } from 'react-i18next';
-import TickMapResponse from './survey/TickMapResponse';
-import DummyScg from './survey/DummyScg';
+import TickMapResponse from '../survey/TickMapResponse';
+import DummyScg from '../survey/DummyScg';
+import SubmitOptionsDialog from './SubmitOptionsDialog';
+import SurveyLoadingError from './SurveyLoadingError';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -28,11 +30,18 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     surveyDef: Survey;
     openedAt: number;
   } | undefined>();
+  const [currentSurveyKey, setCurrentSurveyKey] = useState(props.defaultSurveyKey);
+  const [error, setError] = useState(false);
   const [tempParticipant, setTempParticipant] = useState<TempParticipant | undefined>();
 
   useEffect(() => {
-    fetchSurvey(props.defaultSurveyKey)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  useEffect(() => {
+    fetchSurvey(currentSurveyKey)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentSurveyKey])
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -40,6 +49,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
   const fetchSurvey = async (surveyKey: string) => {
     setCurrentSurvey(undefined);
+    setError(false);
     try {
       const survey = await studyAPI.getSurveyWithoutLoginReq({
         instance: instanceID,
@@ -54,6 +64,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       })
     } catch (e) {
       console.error(e)
+      setError(true)
     }
   }
 
@@ -99,7 +110,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
       for (const survey of resp.data.surveys) {
         if (survey.category === 'immediate') {
-          fetchSurvey(survey.surveyKey);
+          setCurrentSurveyKey(survey.surveyKey);
           break;
         }
       }
@@ -112,9 +123,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
   return (
     <div >
-      {currentSurvey === undefined ? <LoadingPlaceholder
+      {currentSurvey === undefined && !error ? <LoadingPlaceholder
         color='white'
         minHeight='60vh'
+      /> : null}
+      {error ? <SurveyLoadingError
+        onRetry={() => fetchSurvey(currentSurveyKey)}
       /> : null}
       {currentSurvey ? <SurveyView
         survey={currentSurvey.surveyDef}
