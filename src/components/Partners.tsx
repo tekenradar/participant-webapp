@@ -17,35 +17,40 @@ const Partners: React.FC<PartnersProps> = (props) => {
           className={imageClassName}
           href="" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-AMC.png")} alt="Logo AMC"
-            height={65}
+            width={350}
+            className='mw-100'
           />
         </a>
         <a
           className={imageClassName}
           href="https://www.fsd.nl/" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-FSD.png")} alt="Logo FSD"
-            height={75}
+            width={225}
+            className='mw-100'
           />
         </a>
         <a
           className={imageClassName}
           href="https://www.radboudumc.nl/patientenzorg" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-radboudumc.jpg")} alt="Logo Radboudumc"
-            height={75}
+            width={320}
+            className='mw-100'
           />
         </a>
         <a
           className={imageClassName}
           href="https://rivm.nl" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-rivm.jpeg")} alt="Logo RIVM"
-            height={170}
+            width={320}
+            className='mw-100'
           />
         </a>
         <a
           className={imageClassName}
           href="https://www.wur.nl/nl/wageningen-university.htm" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-WUR.png")} alt="Logo Wageningen"
-            height={120}
+            width={400}
+            className='mw-100'
           />
         </a>
 
