@@ -29,7 +29,7 @@ const Ribbon: React.FC<RibbonProps> = (props) => {
       }}
       onClick={() => {
         setHidden(true)
-        setTimeout(() => setHidden(false), 5000)
+        setTimeout(() => setHidden(false), 10000)
       }}
     >{props.children}</div>
   );
