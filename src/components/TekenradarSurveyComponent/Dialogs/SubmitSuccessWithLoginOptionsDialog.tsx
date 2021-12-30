@@ -2,7 +2,7 @@ import { AlertBox, defaultDialogPaddingXClass, Dialog, DialogBtn } from 'case-we
 import clsx from 'clsx';
 import React from 'react';
 
-interface SubmitOptionsDialogProps {
+interface SubmitSuccessWithLoginOptionsDialogProps {
   open: boolean;
   texts: {
     title: string;
@@ -12,12 +12,12 @@ interface SubmitOptionsDialogProps {
     registerBtn: string;
     withoutAccountBtn: string;
   };
-  onSelect: (option: SubmitOptions) => void;
+  onSelect: (option: LoginOptions) => void;
 }
 
-export type SubmitOptions = 'login' | 'register' | 'withoutAccount';
+export type LoginOptions = 'login' | 'register' | 'withoutAccount';
 
-const SubmitOptionsDialog: React.FC<SubmitOptionsDialogProps> = (props) => {
+const SubmitSuccessWithLoginOptionsDialog: React.FC<SubmitSuccessWithLoginOptionsDialogProps> = (props) => {
   return (
     <Dialog
       open={props.open}
@@ -64,12 +64,11 @@ const SubmitOptionsDialog: React.FC<SubmitOptionsDialogProps> = (props) => {
           className=''
           outlined={true}
           label={props.texts.withoutAccountBtn}
-          onClick={() => props.onSelect('register')}
+          onClick={() => props.onSelect('withoutAccount')}
         />
-
       </div>
     </Dialog>
   );
 };
 
-export default SubmitOptionsDialog;
+export default SubmitSuccessWithLoginOptionsDialog;

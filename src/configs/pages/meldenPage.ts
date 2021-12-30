@@ -19,7 +19,10 @@ export const meldenPage = (path: string): PageConfig => {
                   config: {
                     type: 'surveyComponent',
                     studyKey: 'default',
-                    defaultSurveyKey: 'PDiff'
+                    defaultSurveyKey: 'PDiff',
+                    urls: {
+                      finishedFlowWithoutLogin: '/home'
+                    }
                   }
                 }
               }
