@@ -8,8 +8,8 @@ import { Survey, SurveyResponse } from 'survey-engine/data_types';
 import { useTranslation } from 'react-i18next';
 import TickMapResponse from '../survey/TickMapResponse';
 import DummyScg from '../survey/DummyScg';
-import SubmitOptionsDialog from './SubmitOptionsDialog';
-import SurveyLoadingError from './SurveyLoadingError';
+import SubmitOptionsDialog, { SubmitOptions } from './SubmitOptionsDialog';
+import ErrorWithRetry from './PageComponents/ErrorWithRetry';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -22,6 +22,9 @@ interface TempParticipant {
   timestamp: number;
 }
 
+type ContentState = 'loading' | 'getSurveyError' | 'submitError' | 'survey';
+
+
 const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (props) => {
   const instanceID = useSelector((state: RootState) => state.config.instanceId);
   const { t, i18n } = useTranslation(['surveyPage', 'meldenPage']);
@@ -31,8 +34,10 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     openedAt: number;
   } | undefined>();
   const [currentSurveyKey, setCurrentSurveyKey] = useState(props.defaultSurveyKey);
-  const [error, setError] = useState(false);
+  const [currentSurveyResponse, setCurrentSurveyResponse] = useState<SurveyResponse | undefined>(undefined);
   const [tempParticipant, setTempParticipant] = useState<TempParticipant | undefined>();
+
+  const [contentState, setContentState] = useState<ContentState>('loading');
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -44,12 +49,24 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }, [currentSurveyKey])
 
   useEffect(() => {
+    if (currentSurveyResponse !== undefined) {
+      submitResponses(currentSurveyResponse)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentSurveyResponse])
+
+  useEffect(() => {
     window.scrollTo(0, 0);
+    if (currentSurvey !== undefined) {
+      setContentState('survey');
+    } else {
+      setContentState('loading');
+    }
   }, [currentSurvey])
 
   const fetchSurvey = async (surveyKey: string) => {
     setCurrentSurvey(undefined);
-    setError(false);
+    setContentState('loading');
     try {
       const survey = await studyAPI.getSurveyWithoutLoginReq({
         instance: instanceID,
@@ -64,7 +81,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       })
     } catch (e) {
       console.error(e)
-      setError(true)
+      setContentState('getSurveyError');
     }
   }
 
@@ -87,12 +104,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
 
   const submitResponses = async (response: SurveyResponse) => {
+    setContentState('loading');
     try {
       let currentTempParticipant = tempParticipant;
       if (!currentTempParticipant) {
         currentTempParticipant = await registerTempParticipant();
       }
-
 
       const resp = await studyAPI.submitSurveyResponseForTempParticipantRequest({
         studyKey: props.studyKey,
@@ -116,31 +133,54 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       }
     } catch (e) {
       console.error(e)
+      setContentState('submitError');
     }
   }
 
-  return (
-    <div >
-      {currentSurvey === undefined && !error ? <LoadingPlaceholder
+
+  let pageContent = <p>...</p>;
+
+  switch (contentState) {
+    case 'loading':
+      pageContent = <LoadingPlaceholder
         color='white'
         minHeight='60vh'
-      /> : null}
-      {error ? <SurveyLoadingError
+      />;
+      break;
+    case 'getSurveyError':
+      pageContent = <ErrorWithRetry
         texts={{
-          title: t('meldenPage:surveyLoadingError.title'),
           content: t('meldenPage:surveyLoadingError.content'),
           btn: t('meldenPage:surveyLoadingError.btn')
         }}
         onRetry={() => fetchSurvey(currentSurveyKey)}
-      /> : null}
-      {currentSurvey ? <SurveyView
+      />
+      break;
+    case 'submitError':
+      pageContent = <ErrorWithRetry
+        texts={{
+          content: t('meldenPage:surveySubmissionError.content'),
+          btn: t('meldenPage:surveySubmissionError.btn')
+        }}
+        onRetry={() => {
+          if (currentSurveyResponse !== undefined) {
+            submitResponses(currentSurveyResponse)
+          }
+        }}
+      />
+      break;
+    case 'survey':
+      if (!currentSurvey) {
+        break;
+      }
+      pageContent = <SurveyView
         survey={currentSurvey.surveyDef}
-        languageCode={''}
+        languageCode={i18n.language}
         onSubmit={(responses, version: string) => {
           console.log(responses)
           const now = Math.round(new Date().getTime() / 1000);
 
-          submitResponses({
+          setCurrentSurveyResponse({
             key: currentSurvey.surveyDef.current.surveyDefinition.key,
             responses: [...responses],
             versionId: version,
@@ -166,9 +206,50 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
             component: DummyScg,
           }
         ]}
-      /> : null}
-    </div>
-  );
+      />
+      break;
+  }
+
+
+  return (
+    <React.Fragment>
+      {pageContent}
+    </React.Fragment>
+  )
+
+  /*
+    return (
+      <div >
+        {currentSurvey === undefined && !error ?  : null}
+        {error ?  : null}
+        {currentSurvey ? : null}
+
+        <SubmitOptionsDialog
+          open={false}
+          texts={{
+            title: 'Submit options',
+            submitConfirm: 'Responses successfully submitted.',
+            info: 'To access features like "mytekenradar", login in so that the system can connect your reports to your report history. \n\n If you don\'t have an account yet, you can start registration here as well.',
+            loginBtn: 'Login',
+            registerBtn: 'Register',
+            withoutAccountBtn: "Continue without account"
+          }}
+          onSelect={(option: SubmitOptions) => {
+            switch (option) {
+              case 'login':
+                break;
+              case 'register':
+                break;
+              case 'withoutAccount':
+                break;
+            }
+            console.log(option)
+          }}
+
+        />
+      </div>
+
+    );*/
 };
 
 export default TekenradarSurveyComponent;

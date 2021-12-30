@@ -3,7 +3,7 @@ import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 export const meldenPage = (path: string): PageConfig => {
   return {
     path: path,
-    pageKey: 'melden',
+    pageKey: 'meldenPage',
     rows: [
       {
         key: 'row1',

@@ -1,7 +1,11 @@
 {
+  "title": "Zelf melden",
   "surveyLoadingError": {
-    "title": "Error",
     "content": "Something went wrong while loading the survey.\n\n Try again later or if the issue persist reach out to the admin.",
+    "btn": "Retry"
+  },
+  "surveySubmissionError": {
+    "content": "Something went wrong while submitting the responses.\n\n Try again later or if the issue persist reach out to the admin.",
     "btn": "Retry"
   }
 }

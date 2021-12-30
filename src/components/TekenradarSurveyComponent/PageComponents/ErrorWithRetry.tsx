@@ -1,23 +1,22 @@
 import { AlertBox } from 'case-web-ui';
 import React from 'react';
 
-interface SurveyLoadingErrorProps {
+interface ErrorWithRetryProps {
   texts: {
-    title: string;
     content: string;
     btn: string;
   };
   onRetry: () => void;
 }
 
-const SurveyLoadingError: React.FC<SurveyLoadingErrorProps> = (props) => {
+const ErrorWithRetry: React.FC<ErrorWithRetryProps> = (props) => {
   return (
     <div className='min-vh-60'>
-      <h2>{props.texts.title}</h2>
       <AlertBox
         className='mb-2'
         content={props.texts.content}
         type='danger'
+        useIcon={true}
       />
       <button
         className='btn btn-secondary'
@@ -26,4 +25,4 @@ const SurveyLoadingError: React.FC<SurveyLoadingErrorProps> = (props) => {
   );
 };
 
-export default SurveyLoadingError;
+export default ErrorWithRetry;
