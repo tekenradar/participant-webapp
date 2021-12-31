@@ -1,6 +1,7 @@
 import React from 'react';
 
 interface ProfileSelectionDialogProps {
+  open: boolean;
 }
 
 const ProfileSelectionDialog: React.FC<ProfileSelectionDialogProps> = (props) => {

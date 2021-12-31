@@ -21,7 +21,8 @@ export const meldenPage = (path: string): PageConfig => {
                     studyKey: 'default',
                     defaultSurveyKey: 'PDiff',
                     urls: {
-                      finishedFlowWithoutLogin: '/home'
+                      finishedFlowWithoutLogin: '/home',
+                      finishedFlowWithLogin: '/nieuws'
                     }
                   }
                 }
