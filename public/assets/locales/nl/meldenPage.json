@@ -8,6 +8,9 @@
     "content": "Something went wrong while submitting the responses.\n\n Try again later or if the issue persist reach out to the admin.",
     "btn": "Retry"
   },
+  "profileSelectionDialog": {
+    "title": "Submitted"
+  },
   "submitSuccessDialog": {
     "title": "Submitted",
     "info": "Responses are saved successfully. Click button to navigate to home page.",

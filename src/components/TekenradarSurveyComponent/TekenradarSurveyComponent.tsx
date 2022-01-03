@@ -200,8 +200,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
   const startSubmitFlow = (currentSurveyResponse: SurveyResponse) => {
     if (isLoggedIn) {
-      // TODO
-      alert('TODO: handled when logged in already')
+      submitResponsesWithLogin(currentSurveyResponse);
     } else {
       if (currentSurvey?.surveyDef.requireLoginBeforeSubmission === true) {
         // TODO:
@@ -228,28 +227,53 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         temporaryParticipantId: currentTempParticipant?.temporaryParticipantId,
         temporaryParticipantTimestamp: currentTempParticipant?.timestamp,
       })
-      console.log(resp)
-
-      if (!resp.data.surveys || resp.data.surveys.length < 1) {
-        console.error('no assigned surveys found')
-        setDialogOpen('SubmitSuccessWithLoginOptionsDialog');
-        return
-      }
-
-      let shouldOpenSurvey = false;
-      for (const survey of resp.data.surveys) {
-        if (survey.category === 'immediate') {
-          setCurrentSurveyKey(survey.surveyKey);
-          shouldOpenSurvey = true;
-          break;
-        }
-      }
-      if (!shouldOpenSurvey) {
-        setDialogOpen('SubmitSuccessWithLoginOptionsDialog');
-      }
+      getNextAction(resp);
     } catch (e) {
       console.error(e)
       setContentState('submitError');
+    }
+  }
+
+  const submitResponsesWithLogin = async (response: SurveyResponse) => {
+    setContentState('loading');
+    try {
+      const resp = await studyAPI.submitSurveyResponseRequest({
+        studyKey: props.studyKey,
+        profileId: selectedProfileID,
+        response: response
+      });
+      // setProtectRoute(false);
+      getNextAction(resp);
+    } catch (e) {
+      console.error(e)
+      setContentState('submitError');
+    }
+  }
+
+  const getNextAction = (resp: any) => {
+    console.log(resp)
+
+    if (!resp.data.surveys || resp.data.surveys.length < 1) {
+      console.error('no assigned surveys found')
+      setDialogOpen('SubmitSuccessWithLoginOptionsDialog');
+      return
+    }
+
+    let shouldOpenSurvey = false;
+    for (const survey of resp.data.surveys) {
+      if (survey.category === 'immediate') {
+        setCurrentSurveyKey(survey.surveyKey);
+        shouldOpenSurvey = true;
+        break;
+      }
+    }
+    if (!shouldOpenSurvey) {
+      if (isLoggedIn) {
+        setDialogOpen('SubmitSuccessDialog');
+      } else {
+        setDialogOpen('SubmitSuccessWithLoginOptionsDialog');
+      }
+
     }
   }
 
@@ -361,6 +385,9 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     />
     <ProfileSelectionDialog
       open={dialogOpen === 'ProfileSelectionDialog'}
+      texts={{
+        title: t('meldenPage:profileSelectionDialog.title'),
+      }}
     />
     <SuccessDialog
       open={dialogOpen === 'SubmitSuccessDialog'}
