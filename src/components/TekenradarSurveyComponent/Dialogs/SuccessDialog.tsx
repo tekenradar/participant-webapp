@@ -2,7 +2,7 @@ import { AlertBox, defaultDialogPaddingXClass, Dialog, DialogBtn } from 'case-we
 import clsx from 'clsx';
 import React from 'react';
 
-interface TempParticipantConversionSuccessDialogProps {
+interface SuccessDialogProps {
   open: boolean;
   texts: {
     title: string;
@@ -12,7 +12,7 @@ interface TempParticipantConversionSuccessDialogProps {
   onClose: () => void;
 }
 
-const TempParticipantConversionSuccessDialog: React.FC<TempParticipantConversionSuccessDialogProps> = (props) => {
+const SuccessDialog: React.FC<SuccessDialogProps> = (props) => {
   return (
     <Dialog
       open={props.open}
@@ -40,4 +40,4 @@ const TempParticipantConversionSuccessDialog: React.FC<TempParticipantConversion
   );
 };
 
-export default TempParticipantConversionSuccessDialog;
+export default SuccessDialog;

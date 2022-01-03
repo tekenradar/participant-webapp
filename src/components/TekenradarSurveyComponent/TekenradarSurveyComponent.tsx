@@ -11,7 +11,7 @@ import DummyScg from '../survey/DummyScg';
 import SubmitSuccessWithLoginOptionsDialog, { LoginOptions } from './Dialogs/SubmitSuccessWithLoginOptionsDialog';
 import ErrorWithRetry from './PageComponents/ErrorWithRetry';
 import ProfileSelectionDialog from './Dialogs/ProfileSelectionDialog';
-import TempParticipantConversionSuccessDialog from './Dialogs/TempParticipantConversionSuccessDialog';
+import SuccessDialog from './Dialogs/SuccessDialog';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -30,7 +30,7 @@ interface TempParticipant {
 
 type ContentState = 'loading' | 'getSurveyError' | 'submitError' | 'survey';
 
-type DialogNames = 'SubmitSuccessWithLoginOptionsDialog' | 'ProfileSelectionDialog' | 'LoginRequiredDialog' | 'TempParticipantConversionSuccessDialog';
+type DialogNames = 'SubmitSuccessWithLoginOptionsDialog' | 'SubmitSuccessDialog' | 'ProfileSelectionDialog' | 'LoginRequiredDialog' | 'TempParticipantConversionSuccessDialog';
 
 const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (props) => {
   const instanceID = useSelector((state: RootState) => state.config.instanceId);
@@ -362,13 +362,25 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     <ProfileSelectionDialog
       open={dialogOpen === 'ProfileSelectionDialog'}
     />
+    <SuccessDialog
+      open={dialogOpen === 'SubmitSuccessDialog'}
+      texts={{
+        title: t('meldenPage:submitSuccessDialog.title'),
+        info: t('meldenPage:submitSuccessDialog.content'),
+        okBtn: t('meldenPage:submitSuccessDialog.btn')
+      }}
+      onClose={() => {
+        setDialogOpen(undefined);
+        props.onNavigate(props.urls.finishedFlowWithLogin)
+      }}
+    />
 
-    <TempParticipantConversionSuccessDialog
+    <SuccessDialog
       open={dialogOpen === 'TempParticipantConversionSuccessDialog'}
       texts={{
-        title: 'TODO: submit success',
-        info: 'TODO: successfully converted ',
-        okBtn: 'Ok'
+        title: t('meldenPage:tempParticipantConversionSuccessDialog.title'),
+        info: t('meldenPage:tempParticipantConversionSuccessDialog.content'),
+        okBtn: t('meldenPage:tempParticipantConversionSuccessDialog.btn')
       }}
       onClose={() => {
         setDialogOpen(undefined);

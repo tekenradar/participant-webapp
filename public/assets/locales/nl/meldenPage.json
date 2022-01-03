@@ -7,5 +7,15 @@
   "surveySubmissionError": {
     "content": "Something went wrong while submitting the responses.\n\n Try again later or if the issue persist reach out to the admin.",
     "btn": "Retry"
+  },
+  "submitSuccessDialog": {
+    "title": "Submitted",
+    "info": "Responses are saved successfully. Click button to navigate to home page.",
+    "btn": "Ok"
+  },
+  "tempParticipantConversionSuccessDialog": {
+    "title": "Ready",
+    "info": "Responses are saved successfully and assigned to your history. Click button to navigate to home page.",
+    "btn": "Ok"
   }
 }
