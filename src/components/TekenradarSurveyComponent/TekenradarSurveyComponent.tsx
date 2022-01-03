@@ -59,6 +59,11 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
+    dispatch(coreReduxActions.appActions.openSurveyMode(undefined));
+    return () => {
+      dispatch(coreReduxActions.appActions.closeSurveyMode());
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   useEffect(() => {
@@ -95,6 +100,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUser])
+
+  useEffect(() => {
+    const profile = currentUser.profiles.find(p => p.id === selectedProfileID);
+    dispatch(coreReduxActions.appActions.openSurveyMode(profile));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedProfileID])
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -340,6 +351,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
             }));
             break;
           case 'register':
+            dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload('signup'))
             break;
           case 'withoutAccount':
             props.onNavigate(props.urls.finishedFlowWithoutLogin)
