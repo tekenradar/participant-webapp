@@ -11,7 +11,7 @@ export const tekenweentjesPage = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/tekenweentjes_teaser.jpg',
+        url: '/images/no-license/tekenweentjes-teaser.jpg',
         backgroundPosition: '70% 90%',
         height: 367,
       },

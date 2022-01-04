@@ -3,7 +3,7 @@
 Harde teken, zoals de schapenteek, voeden zich één keer per levensstadium. Hongerige teken klimmen omhoog langs de stengels van grassen, planten en struiken, totdat ze op een hoogte zitten waarbij ze gemakkelijk op een passerende gastheer kunnen overstappen. Teken zitten maar in zeer beperkte mate in bomen. Larvale teken blijven veel lager zitten dan nimfen, die op hun beurt lager zitten dan volwassen teken. Als een gastheer (bijv. muis, vos, fazant, wild zwijn of ree) deze planten aanraakt, weet de teek dat een gastheer in de buurt is en zal ze proberen via huidcontact een overstap te maken.
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/no-license/hetGedragpheasant.jpg" alt="fazant in het bos">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/no-license/het-gedragpheasant.jpg" alt="fazant in het bos">
   <figcaption className="figure-caption">Fazant in het bos.</figcaption>
 </figure>
 

@@ -23,7 +23,7 @@ const newsSection = (): PageRow => {
               },
               useFooterText: true,
               image: {
-                url: '/images/no-license/onderzoekcard.jpg',
+                url: '/images/no-license/onderzoek-card.jpg',
                 placement: 'top',
                 height: '250px',
                 maxHeight: '400px',
@@ -46,7 +46,7 @@ const newsSection = (): PageRow => {
                   },
                   useFooterText: true,
                   image: {
-                    url: '/images/no-license/woman_spring.jpg',
+                    url: '/images/no-license/woman-spring.jpg',
                     placement: 'left',
                     width: '300px',
                     maxWidth: '200px',
@@ -114,7 +114,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/no-license/onderzoekcard.jpg',
+                url: '/images/no-license/onderzoek-card.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -132,7 +132,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/teken',
               },
               image: {
-                url: '/images/no-license/tekencard.jpg',
+                url: '/images/no-license/teken-card.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -150,7 +150,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/no-license/lymecard.jpg',
+                url: '/images/no-license/lyme-card.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -185,7 +185,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/faq',
               },
               image: {
-                url: '/images/no-license/faqcard.jpg',
+                url: '/images/no-license/faq-card.jpg',
                 placement: 'top',
                 height: '200px',
               }

@@ -16,7 +16,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/woman_spring.jpg',
+            url: '/images/no-license/woman-spring.jpg',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -35,7 +35,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/tick_white_flower.jpg',
+            url: '/images/no-license/tick-white-flower.jpg',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -54,7 +54,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/girl_tree.jpg',
+            url: '/images/no-license/girl-tree.jpg',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -73,7 +73,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/couple_dog.jpg',
+            url: '/images/no-license/couple-dog.jpg',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -92,7 +92,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/lymeCard.jpg',
+            url: '/images/no-license/lyme-card.jpg',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -300,7 +300,7 @@ const lymeInNLSection = (): PageRow => {
               type: 'actionCard',
               image: {
                 as: 'img',
-                url: '/images/no-license/NL_national_colors.jpg',
+                url: '/images/no-license/nl-national-colors.jpg',
                 //minHeight: '200px',
                 //maxHeight: '350px',
                 placement: 'top',
@@ -319,7 +319,7 @@ const lymeInNLSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/man_working.jpg',
+                url: '/images/no-license/man-working.jpg',
                 minHeight: '300px',
                 maxHeight: '350px',
                 placement: 'top',

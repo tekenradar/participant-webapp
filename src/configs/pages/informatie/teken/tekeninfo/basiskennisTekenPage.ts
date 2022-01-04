@@ -11,7 +11,7 @@ export const basiskennisTekenPage = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/hetGedrag.jpg',
+        url: '/images/no-license/het-gedrag.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },

@@ -18,7 +18,7 @@ const tekenInfoSection: PageRow = pageSection({
           config: {
             type: 'actionCard',
             image: {
-              url: '/images/no-license/hetGedrag.jpg',
+              url: '/images/no-license/het-gedrag.jpg',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top',
@@ -242,7 +242,7 @@ export const tekenPage = (path: string): PageConfig => {
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',
         image: {
-          url: '/images/no-license/tekenCard.jpg',
+          url: '/images/no-license/teken-card.jpg',
           backgroundPosition: '70% 35%',
           height: 367,
         },

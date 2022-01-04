@@ -11,7 +11,7 @@ export const basiskennisTekenbeetPage = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/teaser_tekenbeet.jpg',
+        url: '/images/no-license/teaser-tekenbeet.jpg',
         backgroundPosition: '70% 80%',
         height: 367,
       },

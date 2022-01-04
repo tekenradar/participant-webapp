@@ -99,7 +99,7 @@
   },
   "erythemaGallery": [
     {
-      "src": "/images/no-license/lymeCard.jpg",
+      "src": "/images/no-license/lyme-card.jpg",
       "alt": "Image About something",
       "caption": {
         "title": "rood plekje op het hoofd",
@@ -107,7 +107,7 @@
       }
     },
     {
-      "src": "/images/rode_ring.jpeg",
+      "src": "/images/rode-ring.jpeg",
       "alt": "Image About something",
       "caption": {
         "title": "Rode ring op de voet",

@@ -18,7 +18,7 @@ const doelenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman_spring.jpg',
+                url: '/images/no-license/woman-spring.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -51,7 +51,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman_spring.jpg',
+                url: '/images/no-license/woman-spring.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -70,7 +70,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman_spring.jpg',
+                url: '/images/no-license/woman-spring.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -105,7 +105,7 @@ const resultatenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman_spring.jpg',
+                url: '/images/no-license/woman-spring.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -124,7 +124,7 @@ const resultatenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman_spring.jpg',
+                url: '/images/no-license/woman-spring.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -159,7 +159,7 @@ const voorArtsenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman_spring.jpg',
+                url: '/images/no-license/woman-spring.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',

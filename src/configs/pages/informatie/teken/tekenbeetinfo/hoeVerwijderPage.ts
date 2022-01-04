@@ -11,7 +11,7 @@ export const hoeVerwijderPage = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/teaser_tekenbeet.jpg',
+        url: '/images/no-license/teaser-tekenbeet.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },
