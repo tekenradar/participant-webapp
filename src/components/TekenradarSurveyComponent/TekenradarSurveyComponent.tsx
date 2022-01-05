@@ -4,7 +4,7 @@ import { GenericPageItemProps } from '../utils';
 import { RootState } from 'case-web-app-core/build/store/rootReducer';
 import { coreReduxActions, studyAPI } from 'case-web-app-core';
 import { LoadingPlaceholder, SurveyView } from 'case-web-ui';
-import { Survey, SurveyResponse } from 'survey-engine/data_types';
+import { Survey, SurveyContext, SurveyResponse } from 'survey-engine/data_types';
 import { useTranslation } from 'react-i18next';
 import TickMapResponse from '../survey/TickMapResponse';
 import DummyScg from '../survey/DummyScg';
@@ -45,6 +45,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
   const [currentSurvey, setCurrentSurvey] = useState<{
     surveyDef: Survey;
+    context?: SurveyContext;
     openedAt: number;
   } | undefined>();
   const [currentSurveyKey, setCurrentSurveyKey] = useState(props.defaultSurveyKey);
@@ -144,11 +145,13 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         instance: instanceID,
         study: props.studyKey,
         survey: surveyKey,
+        pid: tempParticipant?.temporaryParticipantId,
       })
-      console.log(survey.data.survey)
+      console.log(survey.data)
       const now = Math.round(new Date().getTime() / 1000);
       setCurrentSurvey({
         surveyDef: survey.data.survey,
+        context: survey.data.context,
         openedAt: now,
       })
     } catch (e) {
@@ -315,6 +318,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       }
       pageContent = <SurveyView
         survey={currentSurvey.surveyDef}
+        context={currentSurvey.context}
         languageCode={i18n.language}
         onSubmit={(responses, version: string) => {
           console.log(responses)
