@@ -9,7 +9,8 @@
     "btn": "Retry"
   },
   "profileSelectionDialog": {
-    "title": "Submitted"
+    "title": "TODO: Select a profile",
+    "info": "TODO: to which of your profiles should the report be associated with:"
   },
   "submitSuccessDialog": {
     "title": "Submitted",

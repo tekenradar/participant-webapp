@@ -12,6 +12,7 @@ import SubmitSuccessWithLoginOptionsDialog, { LoginOptions } from './Dialogs/Sub
 import ErrorWithRetry from './PageComponents/ErrorWithRetry';
 import ProfileSelectionDialog from './Dialogs/ProfileSelectionDialog';
 import SuccessDialog from './Dialogs/SuccessDialog';
+import { Profile } from 'case-web-ui/build/types/profile';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -38,6 +39,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   const currentUser = useSelector((state: RootState) => state.user.currentUser);
   const authState = useSelector((state: RootState) => state.app.auth);
   const isLoggedIn = authState && authState.accessToken && authState.accessToken.length > 0 ? true : false;
+  const avatars = useSelector((state: RootState) => state.config.avatars);
 
   const { t, i18n } = useTranslation(['surveyPage', 'meldenPage']);
 
@@ -391,6 +393,13 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       open={dialogOpen === 'ProfileSelectionDialog'}
       texts={{
         title: t('meldenPage:profileSelectionDialog.title'),
+        info: t('meldenPage:profileSelectionDialog.info'),
+      }}
+      avatars={avatars}
+      profiles={currentUser.profiles}
+      onSelectProfile={(p: Profile) => {
+        setSelectedProfileID(p.id);
+        setDialogOpen(undefined);
       }}
     />
     <SuccessDialog
