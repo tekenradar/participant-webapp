@@ -22,7 +22,7 @@ export const meldenPage = (path: string): PageConfig => {
                     defaultSurveyKey: 'PDiff',
                     urls: {
                       finishedFlowWithoutLogin: '/home',
-                      finishedFlowWithLogin: '/nieuws'
+                      finishedFlowWithLogin: '/my-tekenradar'
                     }
                   }
                 }
