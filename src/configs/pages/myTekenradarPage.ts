@@ -4,6 +4,7 @@ export const myTekenradarPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'myTekenradar',
+    hideWhen: 'unauth',
     rows: []
   }
 }
