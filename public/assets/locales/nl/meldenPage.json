@@ -17,6 +17,14 @@
     "info": "Responses are saved successfully. Click button to navigate to home page.",
     "btn": "Ok"
   },
+  "submitSuccessWithLoginOptionsDialog": {
+    "title": "Submitted",
+    "successMsg": "Responses are saved successfully.‚",
+    "info": "To access features like \"mytekenradar\", login in so that the system can connect your reports to your report history. \n\n If you don't have an account yet, you can start registration here as well.",
+    "loginBtn": "Login",
+    "registerBtn": "Register",
+    "withoutAccountBtn": "Continue without account"
+  },
   "tempParticipantConversionSuccessDialog": {
     "title": "Ready",
     "info": "Responses are saved successfully and assigned to your history. Click button to navigate to home page.",

@@ -13,6 +13,7 @@ import ErrorWithRetry from './PageComponents/ErrorWithRetry';
 import ProfileSelectionDialog from './Dialogs/ProfileSelectionDialog';
 import SuccessDialog from './Dialogs/SuccessDialog';
 import { Profile } from 'case-web-ui/build/types/profile';
+import { SurveyAndContextMsg } from 'case-web-app-core/build/api/types/studyAPI';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -29,7 +30,7 @@ interface TempParticipant {
   timestamp: number;
 }
 
-type ContentState = 'loading' | 'getSurveyError' | 'submitError' | 'survey';
+type ContentState = 'loading' | 'submitting' | 'getSurveyError' | 'submitError' | 'survey';
 
 type DialogNames = 'SubmitSuccessWithLoginOptionsDialog' | 'SubmitSuccessDialog' | 'ProfileSelectionDialog' | 'LoginRequiredDialog' | 'TempParticipantConversionSuccessDialog';
 
@@ -107,6 +108,13 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   useEffect(() => {
     const profile = currentUser.profiles.find(p => p.id === selectedProfileID);
     dispatch(coreReduxActions.appActions.openSurveyMode(profile));
+    if (selectedProfileID !== undefined) {
+      if (contentState === 'loading') {
+        fetchSurvey(currentSurveyKey);
+      } else if (contentState === 'submitting') {
+        convertTempParticipant();
+      }
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedProfileID])
 
@@ -117,6 +125,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   useEffect(() => {
     if (currentSurvey !== undefined) {
       setContentState('survey');
+      setDialogOpen(undefined);
     } else {
       setContentState('loading');
     }
@@ -143,17 +152,32 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     setCurrentSurvey(undefined);
     setContentState('loading');
     try {
-      const survey = await studyAPI.getSurveyWithoutLoginReq({
-        instance: instanceID,
-        study: props.studyKey,
-        survey: surveyKey,
-        pid: tempParticipant?.temporaryParticipantId,
-      })
-      console.log(survey.data)
+      let survey: SurveyAndContextMsg;
+      if (isLoggedIn) {
+        if (!selectedProfileID) {
+          console.log('should select profile first');
+          setDialogOpen('ProfileSelectionDialog');
+          return;
+        }
+        survey = (await studyAPI.getAssignedSurveyRequest({
+          studyKey: props.studyKey,
+          surveyKey: surveyKey,
+          profileId: selectedProfileID,
+        })).data;
+      } else {
+        survey = (await studyAPI.getSurveyWithoutLoginReq({
+          instance: instanceID,
+          study: props.studyKey,
+          survey: surveyKey,
+          pid: tempParticipant?.temporaryParticipantId,
+        })).data;
+      };
+
+      console.log(survey)
       const now = Math.round(new Date().getTime() / 1000);
       setCurrentSurvey({
-        surveyDef: survey.data.survey,
-        context: survey.data.context,
+        surveyDef: survey.survey,
+        context: survey.context,
         openedAt: now,
       })
     } catch (e) {
@@ -218,7 +242,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }
 
   const submitResponsesWithoutLogin = async (response: SurveyResponse) => {
-    setContentState('loading');
+    setContentState('submitting');
     try {
       let currentTempParticipant = tempParticipant;
       if (!currentTempParticipant) {
@@ -240,7 +264,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }
 
   const submitResponsesWithLogin = async (response: SurveyResponse) => {
-    setContentState('loading');
+    setContentState('submitting');
     try {
       const resp = await studyAPI.submitSurveyResponseRequest({
         studyKey: props.studyKey,
@@ -258,27 +282,26 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   const getNextAction = (resp: any) => {
     console.log(resp)
 
+    let shouldOpenSurvey = false;
+
     if (!resp.data.surveys || resp.data.surveys.length < 1) {
       console.error('no assigned surveys found')
-      setDialogOpen('SubmitSuccessWithLoginOptionsDialog');
-      return
-    }
-
-    let shouldOpenSurvey = false;
-    for (const survey of resp.data.surveys) {
-      if (survey.category === 'immediate') {
-        setCurrentSurveyKey(survey.surveyKey);
-        shouldOpenSurvey = true;
-        break;
+    } else {
+      for (const survey of resp.data.surveys) {
+        if (survey.category === 'immediate') {
+          setCurrentSurveyKey(survey.surveyKey);
+          shouldOpenSurvey = true;
+          break;
+        }
       }
     }
+
     if (!shouldOpenSurvey) {
       if (isLoggedIn) {
         setDialogOpen('SubmitSuccessDialog');
       } else {
         setDialogOpen('SubmitSuccessWithLoginOptionsDialog');
       }
-
     }
   }
 
@@ -287,6 +310,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
   switch (contentState) {
     case 'loading':
+      pageContent = <LoadingPlaceholder
+        color='white'
+        minHeight='60vh'
+      />;
+      break;
+    case 'submitting':
       pageContent = <LoadingPlaceholder
         color='white'
         minHeight='60vh'
@@ -360,12 +389,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     <SubmitSuccessWithLoginOptionsDialog
       open={dialogOpen === 'SubmitSuccessWithLoginOptionsDialog'}
       texts={{
-        title: 'TODO: Submit options',
-        submitConfirm: 'Responses successfully submitted.',
-        info: 'To access features like "mytekenradar", login in so that the system can connect your reports to your report history. \n\n If you don\'t have an account yet, you can start registration here as well.',
-        loginBtn: 'Login',
-        registerBtn: 'Register',
-        withoutAccountBtn: "Continue without account"
+        title: t('meldenPage:submitSuccessWithLoginOptionsDialog.title'),
+        submitConfirm: t('meldenPage:submitSuccessWithLoginOptionsDialog.successMsg'),
+        info: t('meldenPage:submitSuccessWithLoginOptionsDialog.info'), // '',
+        loginBtn: t('meldenPage:submitSuccessWithLoginOptionsDialog.loginBtn'), // 'Login',
+        registerBtn: t('meldenPage:submitSuccessWithLoginOptionsDialog.registerBtn'), // 'Register',
+        withoutAccountBtn: t('meldenPage:submitSuccessWithLoginOptionsDialog.withoutAccountBtn'),// "Continue without account"
       }}
       onSelect={(option: LoginOptions) => {
         switch (option) {
@@ -399,7 +428,6 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       profiles={currentUser.profiles}
       onSelectProfile={(p: Profile) => {
         setSelectedProfileID(p.id);
-        setDialogOpen(undefined);
       }}
     />
     <SuccessDialog
