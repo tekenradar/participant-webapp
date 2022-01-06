@@ -71,6 +71,18 @@ export const navbarConfig: NavbarConfig = {
   rightItems: [
     {
       "type": "internal",
+      "url": "/my-tekenradar",
+      "itemKey": "myTekenradar",
+      "iconClass": "fas fa-home"
+    },
+    {
+      "type": "internal",
+      "url": "/melden",
+      "itemKey": "melden",
+      "iconClass": "fas fa-notes-medical"
+    },
+    {
+      "type": "internal",
       "url": "/settings",
       "itemKey": "settings",
       "iconClass": "fas fa-cog"

@@ -1,0 +1,39 @@
+{
+  "title": "Instellingen",
+  "accountSettings": {
+    "title": "Account instellingen",
+    "email": {
+      "title": "E-mailadres",
+      "info": "Wil je een ander e-mailadres gebruiken? Pas je e-mailadres aan door op onderstaande knop te klikken. Let op: pas na bevestiging van het e-mailadres kun je weer herinneringsmails ontvangen."
+    },
+    "password": {
+      "title": "Wachtwoord",
+      "info": "Wil je het wachtwoord wijzigen? Pas je wachtwoord aan door op onderstaande knop te klikken. Let op: je hebt wel je huidige wachtwoord nodig."
+    },
+    "profiles": {
+      "title": "Profielen",
+      "info": "Bewerk je eigen profiel of voeg als ouder of wettelijke vertegenwoordiger een profiel toe van je kinderen in de leeftijd tot en met 15 jaar.",
+      "btn": "{{count}} profiel",
+      "btn_plural": "{{count}} profielen"
+    }
+  },
+  "deleteAccount": {
+    "title": "Afmelden RIVM LongCOVID-onderzoek / intrekken toestemming",
+    "warning": "Afmelden RIVM LongCOVID-onderzoek/intrekken toestemming houdt in dat je accountgegevens worden verwijderd.\nNa het verwijderen van het account kunnnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen.",
+    "deleteBtn": "Afmelden"
+  },
+  "references": {
+    "title": "Hulp nodig?",
+    "faqLink": "Vraag en antwoord",
+    "privacyStatementLink": "Privacyverklaring",
+    "contactLink": "Contact LongCOVID-onderzoek"
+  },
+  "systemInfo": {
+    "title": "Systeem informatie",
+    "appNameLabel": "Applicatie naam",
+    "appName": "Tekenradar",
+    "versionLabel": "Versie",
+    "browserNameLabel": "Browsername",
+    "browserVersionLabel": "Browser versie"
+  }
+}

@@ -15,6 +15,8 @@
   "toggleBtn": "Menu",
   "participate": "Zelf melden",
   "rightMenu": {
+    "myTekenradar": "My tekenradar",
+    "melden": "Zelf melden",
     "settings": "Settings",
     "logout": "Logout",
     "verified": "Account not verified"

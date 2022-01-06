@@ -5,6 +5,8 @@ import { informatiePage } from "./pages/informatie";
 import { meldenPage } from "./pages/meldenPage";
 import { nieuwsPage } from "./pages/nieuws/nieuwsPage";
 import { onderzoekContainerPage } from "./pages/onderzoek";
+import { settingsPage } from "./pages/settingsPage";
+import { myTekenradarPage } from "./pages/myTekenradarPage";
 
 const defaultRoutes = {
   auth: "/home",
@@ -22,5 +24,7 @@ export const pagesConfig: PagesConfig = {
     nieuwsPage('/nieuws'),
     faqPage('/faq'),
     meldenPage('/melden'),
+    settingsPage('/settings'),
+    myTekenradarPage('/my-tekenradar'),
   ]
 }
