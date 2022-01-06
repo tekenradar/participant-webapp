@@ -1,0 +1,14 @@
+{
+  "exitSurveyWarningDialog": {
+    "title": "Wil je de vragenlijst verlaten?",
+    "warning": "Alle ingevulde informatie gaat verloren als je de vragenlijst niet afmaakt. Weet je zeker of je wilt stoppen?",
+    "cancelBtn": "Ga door met invullen",
+    "confirmBtn": "Verlaat vragenlijst"
+  },
+  "noSurveyLoaded": "Fout bij laden vragenlijst. Vernieuw de pagina",
+  "submittingSurveyResponsesMsg": "Reacties indienen ...",
+  "notValidQuestion": "Selecteer een geldig antwoord.",
+  "backBtn": "Terug",
+  "nextBtn": "Volgende",
+  "submitBtn": "Verzenden"
+}
