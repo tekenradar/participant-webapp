@@ -17,6 +17,12 @@
     "info": "Responses are saved successfully. Click button to navigate to home page.",
     "btn": "Ok"
   },
+  "loginRequiredDialog": {
+    "title": "TODO: Login required",
+    "info": "To be able to continue with this survey, you need to login first",
+    "loginBtn": "Login",
+    "registerBtn": "Register"
+  },
   "submitSuccessWithLoginOptionsDialog": {
     "title": "Submitted",
     "successMsg": "Responses are saved successfully.‚",

@@ -14,6 +14,7 @@ import ProfileSelectionDialog from './Dialogs/ProfileSelectionDialog';
 import SuccessDialog from './Dialogs/SuccessDialog';
 import { Profile } from 'case-web-ui/build/types/profile';
 import { SurveyAndContextMsg } from 'case-web-app-core/build/api/types/studyAPI';
+import LoginRequiredDialog from './Dialogs/LoginRequiredDialog';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -93,7 +94,10 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       if (dialogOpen === 'SubmitSuccessWithLoginOptionsDialog') {
         convertTempParticipant();
       } else if (dialogOpen === 'LoginRequiredDialog') {
-        alert('TODO: handle login after login required')
+        convertTempParticipant();
+        setDialogOpen(undefined);
+        fetchSurvey(currentSurveyKey);
+        // alert('TODO: handle login after login required')
       } else {
         if (currentUser.profiles.length === 1) {
           setSelectedProfileID(currentUser.profiles[0].id)
@@ -113,6 +117,10 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     if (selectedProfileID !== undefined) {
       if (contentState === 'loading') {
         fetchSurvey(currentSurveyKey);
+      } else if (contentState === 'survey') {
+        // case: login required:
+        convertTempParticipant(true);
+        fetchSurvey(currentSurveyKey);
       } else if (contentState === 'submitting') {
         convertTempParticipant();
       }
@@ -127,10 +135,15 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   useEffect(() => {
     if (currentSurvey !== undefined) {
       setContentState('survey');
-      setDialogOpen(undefined);
+      if (currentSurvey.surveyDef.requireLoginBeforeSubmission && !isLoggedIn) {
+        setDialogOpen('LoginRequiredDialog');
+      } else {
+        setDialogOpen(undefined);
+      }
     } else {
       setContentState('loading');
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSurvey])
 
   useEffect(() => {
@@ -212,7 +225,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     }
   }
 
-  const convertTempParticipant = async () => {
+  const convertTempParticipant = async (ignoreNextStep?: boolean) => {
     let profileId = selectedProfileID;
     if (!profileId) {
       profileId = currentUser.profiles[0].id;
@@ -229,10 +242,14 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         temporaryParticipantId: tempParticipant.temporaryParticipantId,
         timestamp: tempParticipant.timestamp,
       });
-      setDialogOpen('TempParticipantConversionSuccessDialog')
+      if (!ignoreNextStep) {
+        setDialogOpen('TempParticipantConversionSuccessDialog')
+      }
     } catch (e) {
       console.error(e)
-      props.onNavigate(props.urls.finishedFlowWithoutLogin);
+      if (!ignoreNextStep) {
+        props.onNavigate(props.urls.finishedFlowWithoutLogin);
+      }
     }
   }
 
@@ -242,8 +259,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       submitResponsesWithLogin(currentSurveyResponse);
     } else {
       if (currentSurvey?.surveyDef.requireLoginBeforeSubmission === true) {
-        // TODO:
-        alert('TODO: requires login')
+        setDialogOpen('LoginRequiredDialog')
       } else {
         // nothing special to handle here:
         submitResponsesWithoutLogin(currentSurveyResponse)
@@ -402,6 +418,34 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }
 
   const dialogs = <React.Fragment>
+    <LoginRequiredDialog
+      open={dialogOpen === 'LoginRequiredDialog'}
+      texts={{
+        title: t('meldenPage:loginRequiredDialog.title'),
+        info: t('meldenPage:loginRequiredDialog.info'), // '',
+        loginBtn: t('meldenPage:loginRequiredDialog.loginBtn'), // 'Login',
+        registerBtn: t('meldenPage:loginRequiredDialog.registerBtn'), // 'Register',
+      }}
+      onSelect={(option: LoginOptions) => {
+        switch (option) {
+          case 'login':
+            dispatch(coreReduxActions.dialogActions.openLoginDialog({
+              type: 'login',
+              payload: {
+                email: '',
+                password: '',
+                rememberMe: persistState,
+                preventNavigateOnSuccess: true
+              }
+            }));
+            break;
+          case 'register':
+            dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload('signup'))
+            break;
+        }
+      }}
+    />
+
     <SubmitSuccessWithLoginOptionsDialog
       open={dialogOpen === 'SubmitSuccessWithLoginOptionsDialog'}
       texts={{
