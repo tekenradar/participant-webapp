@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { GenericPageItemProps } from '../utils';
 import { RootState } from 'case-web-app-core/build/store/rootReducer';
-import { coreReduxActions, studyAPI } from 'case-web-app-core';
-import { LoadingPlaceholder, SurveyView } from 'case-web-ui';
+import { coreReduxActions, PreventAccidentalNavigationPrompt, studyAPI } from 'case-web-app-core';
+import { AlertBox, ConfirmDialog, LoadingPlaceholder, SurveyView } from 'case-web-ui';
 import { Survey, SurveyContext, SurveyResponse } from 'survey-engine/data_types';
 import { useTranslation } from 'react-i18next';
 import TickMapResponse from '../survey/TickMapResponse';
@@ -32,7 +32,7 @@ interface TempParticipant {
 
 type ContentState = 'loading' | 'submitting' | 'getSurveyError' | 'submitError' | 'survey';
 
-type DialogNames = 'SubmitSuccessWithLoginOptionsDialog' | 'SubmitSuccessDialog' | 'ProfileSelectionDialog' | 'LoginRequiredDialog' | 'TempParticipantConversionSuccessDialog';
+type DialogNames = 'SubmitSuccessWithLoginOptionsDialog' | 'SubmitSuccessDialog' | 'ProfileSelectionDialog' | 'LoginRequiredDialog' | 'TempParticipantConversionSuccessDialog' | 'NavigationWarning';
 
 const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (props) => {
   const instanceID = useSelector((state: RootState) => state.config.instanceId);
@@ -56,10 +56,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   const [tempParticipant, setTempParticipant] = useState<TempParticipant | undefined>();
 
   const [contentState, setContentState] = useState<ContentState>('loading');
-
   const [dialogOpen, setDialogOpen] = useState<DialogNames | undefined>();
 
   const [selectedProfileID, setSelectedProfileID] = useState<string | undefined>();
+
+  const [navigateTo, setNavigateTo] = useState('');
+  const [protectRoute, setProtectRoute] = useState(false);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -130,6 +132,13 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       setContentState('loading');
     }
   }, [currentSurvey])
+
+  useEffect(() => {
+    if (!protectRoute && navigateTo.length > 0) {
+      props.onNavigate(navigateTo);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [protectRoute]);
 
   const shouldSelectProfile = (): boolean => {
     if (!currentUser.profiles || currentUser.profiles.length < 1) {
@@ -228,6 +237,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }
 
   const startSubmitFlow = (currentSurveyResponse: SurveyResponse) => {
+    setProtectRoute(false);
     if (isLoggedIn) {
       submitResponsesWithLogin(currentSurveyResponse);
     } else {
@@ -367,6 +377,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
             }
           })
         }}
+        onResponsesChanged={() => {
+          console.log('r c')
+          if (!protectRoute) {
+            setProtectRoute(true)
+          }
+        }}
         nextBtnText={t('nextBtn')}
         backBtnText={t('backBtn')}
         submitBtnText={t('submitBtn')}
@@ -455,10 +471,37 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         props.onNavigate(props.urls.finishedFlowWithLogin)
       }}
     />
+
+    <ConfirmDialog
+      color="warning"
+      open={dialogOpen === 'NavigationWarning'}
+      title={t('exitSurveyWarningDialog.title')}
+      confirmText={t('exitSurveyWarningDialog.confirmBtn')}
+      cancelText={t('exitSurveyWarningDialog.cancelBtn')}
+      onConfirm={() => {
+        setProtectRoute(false);
+        setDialogOpen(undefined);
+      }}
+      onClose={() => { setDialogOpen(undefined); }}
+    >
+      <AlertBox
+        type="warning"
+        content={t('exitSurveyWarningDialog.warning')}
+      />
+    </ConfirmDialog>
   </React.Fragment>
+
+  const protectRoutePrompt = <PreventAccidentalNavigationPrompt
+    protectionActive={protectRoute}
+    onTriggered={(path: string) => {
+      setDialogOpen('NavigationWarning');
+      setNavigateTo(path);
+    }}
+  />
 
   return (
     <React.Fragment>
+      {protectRoutePrompt}
       {pageContent}
       {dialogs}
     </React.Fragment>

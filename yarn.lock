@@ -3623,10 +3623,10 @@ case-sensitive-paths-webpack-plugin@^2.4.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==
 
-case-web-app-core@^1.5.0-beta.21:
-  version "1.5.0-beta.21"
-  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.21.tgz#ab48669685a7487a3f08e72542f4e3fc3ec23c35"
-  integrity sha512-Qn+sn+3Eb10Qj+sMWdyZsObxQcV+ONZLL6mDUH/7/BUVZYcF2KvUPJyvUiCo83gMnbAhWbLTeCQGWV17g8Dx8A==
+case-web-app-core@^1.5.0-beta.22:
+  version "1.5.0-beta.22"
+  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.22.tgz#ae419040ca0d015fb67ee91d936cc0138ac25661"
+  integrity sha512-5hDxJMxGVTq/7QZYybrqCDVBgamJKUYQMqYAVpjI0mKNRqbw+Bkrv7zJHL5dO+75xIT6mvrhH1PbyhYF/X9ZQw==
 
 case-web-ui@^1.7.0-beta.15:
   version "1.7.0-beta.15"
