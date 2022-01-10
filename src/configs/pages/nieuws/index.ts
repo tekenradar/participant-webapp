@@ -19,7 +19,7 @@ import { nieuwsPage } from "./nieuwsPage";
 
 export const nieuwsContainerPage = (path: string): PageConfig => {
   const nieuwsSubPages = [
-    nieuwsPage(`${path}/nieuws`),
+    nieuwsPage(`${path}/nieuws/overzicht`),
     // archief sub-pages
     archief2012Page(`${path}/nieuws/archief2012`),
     archief2013Page(`${path}/nieuws/archief2013`),

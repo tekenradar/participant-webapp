@@ -80,7 +80,7 @@ const newsSection = (): PageRow => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/nieuws',
+                    value: '/nieuws/overzicht',
                   },
                 }
               },

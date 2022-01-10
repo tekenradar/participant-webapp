@@ -25,7 +25,7 @@ const nieuwsSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/nieuws/2021-07-08'
               },
             }
           },
@@ -43,7 +43,7 @@ const nieuwsSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/nieuws/2021-05-27'
               },
             }
           },
@@ -61,7 +61,7 @@ const nieuwsSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/nieuws/2021-04-19'
               },
             }
           },
@@ -79,7 +79,7 @@ const nieuwsSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/nieuws/2020-06-24'
               },
             }
           },
@@ -97,7 +97,7 @@ const nieuwsSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/nieuws/2020-06-23'
               },
             }
           },
@@ -115,7 +115,7 @@ const nieuwsSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/nieuws/2020-06-22'
               },
             }
           },

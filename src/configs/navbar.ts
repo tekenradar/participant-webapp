@@ -41,7 +41,7 @@ export const navbarConfig: NavbarConfig = {
       type: 'internal',
       // hideWhen: 'auth',
       itemKey: 'Nieuws',
-      url: '/nieuws',
+      url: '/nieuws/overzicht',
     },
     {
       type: 'internal',
