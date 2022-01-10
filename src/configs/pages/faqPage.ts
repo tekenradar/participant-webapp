@@ -5,7 +5,7 @@ import { simpleSideBarLayout } from "../../layout/rows/simpleSideBarLayout"
 import { pageRowToPageItem } from "../../layout/utils"
 import { meldenCard } from "../cards/meldenCard"
 
-const faqSections = ['pandora', 'tekenradar', 'ticks', 'research', 'tickbite', 'disease'];
+const faqSections = ['tekenradar', 'tekenradaronderzoek', 'teken', 'tekenbeten', 'lyme', 'andereZiekte'];
 
 const generateFaqSections = (): PageItem[] => {
   const items: PageItem[] = [];

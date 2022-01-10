@@ -4,7 +4,7 @@
     "open": "Lees verder",
     "close": "Verbergen"
   },
-  "Tekenradar": {
+  "tekenradar": {
     "title": "Over Tekenradar",
     "items": [
       {
@@ -21,12 +21,12 @@
       }
     ]
   },
-  "Tekenradaronderzoek": {
+  "tekenradaronderzoek": {
     "title": "Over Tekenradaronderzoek",
     "items": [
       {
         "title": "Wat is het doel van het onderzoek via Tekenradar.nl?",
-        "content": "Doel van het onderzoek via Tekenradar is om: \n - Het tekenbeet seizoen te monitoren, evenals de geografische verspreiding van tekenbeten. \n -Oorzaken van een ernstig verloop van de ziekte van Lyme, en mogelijkheden voor preventie daarvan vast te stellen.\n -Te bepalen wat in de praktijk bruikbare voorspellende risicofactoren zijn voor het oplopen van een tekenbeet en voor het ontwikkelen van acute en/of aanhoudende klachten.\n -Onderzoek naar hoe vaak andere tekenoverdraagbare ziekteverwekkers na een tekenbeet ziekte veroorzaken en hoe deze ziekten het beste aangetoond kunnen worden."
+        "content": "Doel van het onderzoek via Tekenradar is om: \n - Het tekenbeet seizoen te monitoren, evenals de geografische verspreiding van tekenbeten. \n - Oorzaken van een ernstig verloop van de ziekte van Lyme, en mogelijkheden voor preventie daarvan vast te stellen.\n - Te bepalen wat in de praktijk bruikbare voorspellende risicofactoren zijn voor het oplopen van een tekenbeet en voor het ontwikkelen van acute en/of aanhoudende klachten.\n - Onderzoek naar hoe vaak andere tekenoverdraagbare ziekteverwekkers na een tekenbeet ziekte veroorzaken en hoe deze ziekten het beste aangetoond kunnen worden."
       },
       {
         "title": "Wat vragen we van je voor dit onderzoek?",
@@ -46,7 +46,7 @@
       }
     ]
   },
-  "Teken": {
+  "teken": {
     "title": "Over Teken",
     "items": [
       {
@@ -79,7 +79,7 @@
       }
     ]
   },
-  "Tekenbeten": {
+  "tekenbeten": {
     "title": "Over Tekenbeten",
     "items": [
       {
@@ -124,7 +124,7 @@
       }
     ]
   },
-  "Lyme": {
+  "lyme": {
     "title": "Over ziekte van Lyme",
     "items": [
       {
