@@ -6,14 +6,14 @@ import { meldenCard } from "../../../cards/meldenCard";
 
 
 
-export const artseninfoPage = (path: string): PageConfig => {
+export const archief2017Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/artsen/artseninfo',
+    pageKey: 'niuews/archief2017',
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/het-gedrag.jpg',
+        url: '/images/no-license/waar-leven-teken.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },
@@ -81,6 +81,6 @@ export const artseninfoPage = (path: string): PageConfig => {
         ]
       })
 
-    ],
+    ]
   });
 }

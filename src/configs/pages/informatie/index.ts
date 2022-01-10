@@ -3,7 +3,7 @@ import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { tekenPage } from "./teken/tekenPage"
 import { lymePage } from "./lyme/lymePage"
 import { tekenradarPage } from "./tekenradar/tekenradarPage"
-import { artseninfoPage } from "./artsen/artseninfoPage"
+
 
 import { waarLevenTekenPage } from "./teken/tekeninfo/waarLevenTekenPage"
 import { hetGedragPage } from "./teken/tekeninfo/hetGedragPage"
@@ -53,7 +53,7 @@ export const informatiePage = (path: string): PageConfig => {
     tekenPage(`${path}/teken`),
     lymePage(`${path}/lyme`),
     tekenradarPage(`${path}/tekenradar`),
-    artseninfoPage(`${path}/artsen`),
+ 
 
     // subpages (content)
     //tekeninfo
