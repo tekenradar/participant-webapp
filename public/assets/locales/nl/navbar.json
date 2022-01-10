@@ -15,10 +15,10 @@
   "toggleBtn": "Menu",
   "participate": "Zelf melden",
   "rightMenu": {
-    "myTekenradar": "My tekenradar",
+    "myTekenradar": "Mijn Tekenradar",
     "melden": "Zelf melden",
-    "settings": "Settings",
-    "logout": "Logout",
+    "settings": "Instellingen",
+    "logout": "Uitloggen",
     "verified": "Account not verified"
   },
   "exitSurveyMode": "Exit",
