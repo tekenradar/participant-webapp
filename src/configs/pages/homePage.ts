@@ -80,7 +80,7 @@ const newsSection = (): PageRow => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/nieuws',
+                    value: '/nieuws/overzicht',
                   },
                 }
               },
@@ -114,7 +114,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/no-license/onderzoek-card.jpg',
+                url: '/images/onderzoeken.png',
                 placement: 'top',
                 height: '200px',
               }
@@ -150,7 +150,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/no-license/lyme-card.jpg',
+                url: '/images/lymecard.png',
                 placement: 'top',
                 height: '200px',
               }
@@ -203,7 +203,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/tekenradar',
               },
               image: {
-                url: '/images/logo_tekenradar.png',
+                url: '/images/tekenradar-logo-colored.png',
                 backgroundSize: 'contain',
                 placement: 'top',
                 height: '200px',

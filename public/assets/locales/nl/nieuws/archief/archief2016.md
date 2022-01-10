@@ -2,13 +2,13 @@
 *21 juli 2016*
 **Voor de eerste keer is in Nederland een patiënt ziek geworden door een teek die het teken-encefalitisvirus (TBE-virus) bij zich droeg. De besmetting trad zeer waarschijnlijk op na een tekenbeet tijdens een wandeling op de Utrechtse Heuvelrug.  Inmiddels is de patiënt herstellende. Onlangs werd op de Sallandse Heuvelrug het teken-encefalitisvirus (TBE-virus) aangetroffen in teken. Het virus komt voor in verschillende landen in Noord, Midden- en Oost-Europa, waaronder Duitsland en Oostenrijk.**
 
-## Teken-encefalitis
+### Teken-encefalitis
 Een infectie met het TBE-virus verloopt meestal zonder klachten, maar het TBE-virus kan na een griepachtig ziektebeeld, een ontsteking van de hersenvliezen en hersenen (meningo-encefalitis)  veroorzaken. Teken dragen het virus over van dier-naar-dier en soms naar de mens. De ziekte staat ook bekend als FSME (Frühsommer-Meningoenzephalitis) en Tick Borne Encephalitis. Als mensen wel ziek worden, verloopt dat meestal in twee fasen. Zeven tot 14 dagen na de tekenbeet krijgt men koorts, hoofdpijn, vermoeidheid en spier- en gewrichtspijn. Vervolgens is er ongeveer een week zonder klachten. Bij een klein aantal mensen met een infectie kan daarna hersen(vlies)ontsteking ontstaan vaak met ernstige hoofdpijn en hoge koorts. Dan is ziekenhuisopname noodzakelijk. Er is geen behandeling voor een hersen(vlies)ontsteking door TBE-virus. Meestal herstelt de patiënt volledig. Het RIVM adviseert medisch specialisten om bij patiënten met een hersen(vlies)ontsteking  en een recente tekenbeet voortaan ook aan teken-encefalitis te denken.
 
-## Voorkom tekenbeten
+### Voorkom tekenbeten
 Het TBE-virus wordt door tekenbeten overgedragen. Het is dan ook belangrijk om tekenbeten te voorkomen, vaak te controleren op tekenbeten en teken dan direct te verwijderen.
 
-## TBE-virus in teken
+### TBE-virus in teken
 
 Het RIVM heeft reeënonderzocht op aanwezigheid van antistoffen tegen het TBE-virus. Een klein deel van de reeën was positief, met name op de Sallandse Heuvelrug. In dat gebied zijn daarna teken gevangen en in een paar teken werd het TBE-virus aangetroffen. Nu is er een besmette teek ontdekt na een wandeling op de Utrechtse heuvelrug. Samen met andere organisaties (Dutch Wildlife Health Center en Nederlandse Voedsel- en Warenautoriteit) onderzoekt het RIVM de verspreiding van het TBE-virus in Nederland en hoe groot de kans is om een infectie op te lopen.
 

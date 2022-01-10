@@ -34,20 +34,14 @@ export const navbarConfig: NavbarConfig = {
           type: 'internal',
           itemKey: 'tekenradar',
           url: '/informatie/tekenradar',
-        },
-        {
-          type: 'internal',
-          itemKey: 'artsen',
-          url: '/informatie/artsen',
-        },
-
+        }
       ]
     },
     {
       type: 'internal',
       // hideWhen: 'auth',
       itemKey: 'Nieuws',
-      url: '/nieuws',
+      url: '/nieuws/overzicht',
     },
     {
       type: 'internal',

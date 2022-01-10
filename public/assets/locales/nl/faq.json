@@ -4,177 +4,165 @@
     "open": "Lees verder",
     "close": "Verbergen"
   },
-  "pandora": {
-    "title": "LymeProspect en Pandora",
-    "items": [
-      {
-        "title": "Item with image",
-        "content": "Dit is een onderzoek om meer inzicht te krijgen in de oorzaken van langdurige klachten na behandeling voor de ziekte van Lyme. Kinderen van 0 t/m 17 jaar die een antibioticabehandeling gaan beginnen tegen de ziekte van Lyme kunnen voor dit onderzoek aangemeld worden op Tekenradar.nl, tot maximaal 4 dagen na start van de behandeling. De deelnemers wordt gevraagd bloed af te geven en een jaar lang elke drie maanden een online-vragenlijst over hun gezondheid in te vullen. Met deze resultaten krijgen de onderzoekers inzicht in welke patiënten klachten houden na behandeling en wat daarvoor de verklaringen zijn. Het LymeProspect onderzoek is een samenwerkingsverband tussen het RIVM, AMC, Radboudumc en Gelre ziekenhuizen Apeldoorn. Vanaf heden kunnen alleen nog kinderen en pubers met een rode ring of vlek of andere vorm van Lyme meedoen. Afhankelijk van hun leeftijd kunnen zij zichzelf aanmelden op Tekenradar.nl of kunnen hun ouders/verzorgers dat doen. Text here \n\n <figure className=\"figure mb-2 text-center w-100\"><img className=\"figure-img img-fluid\" style=\"max-width:600px;width:100%;\" src=\"/assets/images/teekverwijderen.jpeg\" alt=\"Pak de teek zo ver mogelijk bij de kop met een pincet\"><figcaption className=\"figure-caption\">Pak de teek zo ver mogelijk bij de kop met een pincet.</figcaption></figure>"
-      },
-      {
-        "title": "Wat is het LymeProspect onderzoek via Tekenradar.nl?",
-        "content": "Dit is een onderzoek om meer inzicht te krijgen in de oorzaken van langdurige klachten na behandeling voor de ziekte van Lyme. Kinderen van 0 t/m 17 jaar die een antibioticabehandeling gaan beginnen tegen de ziekte van Lyme kunnen voor dit onderzoek aangemeld worden op Tekenradar.nl, tot maximaal 4 dagen na start van de behandeling. De deelnemers wordt gevraagd bloed af te geven en een jaar lang elke drie maanden een online-vragenlijst over hun gezondheid in te vullen. Met deze resultaten krijgen de onderzoekers inzicht in welke patiënten klachten houden na behandeling en wat daarvoor de verklaringen zijn. Het LymeProspect onderzoek is een samenwerkingsverband tussen het RIVM, AMC, Radboudumc en Gelre ziekenhuizen Apeldoorn. Vanaf heden kunnen alleen nog kinderen en pubers met een rode ring of vlek of andere vorm van Lyme meedoen. Afhankelijk van hun leeftijd kunnen zij zichzelf aanmelden op Tekenradar.nl of kunnen hun ouders/verzorgers dat doen."
-      },
-      {
-        "title": "Wat is het Pandora onderzoek via Tekenradar.nl?",
-        "content": "Dit  is een onderzoek naar andere tekenbeetziekten dan de ziekte van Lyme. Iedereen die plotselinge koorts krijgt binnen 4 weken na een tekenbeet kan zich voor dit onderzoek aanmelden op Tekenradar.nl. De deelnemers wordt gevraagd bloed af te geven en een jaar lang elke drie maanden een online-vragenlijst over hun gezondheid in te vullen. Met deze resultaten krijgen de onderzoekers inzicht in het aantal mensen met ander tekenbeetziekten dan Lyme en de ernst van deze ziekten. Het Pandora onderzoek is een samenwerkingsverband tussen het AMC en het RIVM."
-      },
-      {
-        "title": "Kunnen kinderen meedoen aan het LymeProspect onderzoek?",
-        "content": "Ongeveer een kwart van alle tekenbeten wordt opgelopen door kinderen van 0 t/m 17 jaar. Sinds 2017 kunnen daarom ook kinderen met de ziekte van Lyme meedoen aan het LymeProspect onderzoek. Vanaf eind 2018 zijn kinderen en pubers zelfs de enige nieuwe deelnemers, omdat er al genoeg volwassenen meedoen. Zo kan vastgesteld worden of de kans op klachten na behandeling voor de ziekte van Lyme anders is bij kinderen dan bij volwassenen, en ook of mogelijk andere oorzaken een rol spelen. Kinderen die een antibioticabehandeling gaan beginnen tegen de ziekte van Lyme kunnen zich hier aanmelden. Voor jonge kinderen kunnen de ouders/verzorgers de aanmelding doen en vragenlijsten invullen. Tijdens het onderzoek wordt de gezondheid van deelnemers een jaar lang gevolgd."
-      },
-      {
-        "title": "Kan een kind met chronische Lyme klachten meedoen met het LymePropect onderzoek?",
-        "content": "Ja, ook kinderen van 0 t/m 17 jaar met al bestaande langdurige klachten na de ziekte van Lyme kunnen in sommige gevallen meedoen. Aanmelden kan echter niet via deze website, maar door een e-mail zonder tekst te sturen naar lymeziekte@rivm.nl met als onderwerp ‘LymeProspect onderzoek, langdurige klachten’"
-      },
-      {
-        "title": "Wie kan aan het onderzoek meedoen?",
-        "content": "Jijzelf (of uw kind) kunnen meedoen met chronische klachten na Lyme als alle onderstaande punten gelden: leeftijd 0 t/m 17 jaar, er zijn langer dan zes maanden bijna dagelijks één of meer (lyme gerelateerde) klachten (bijvoorbeeld vermoeidheid, spierpijn, gewrichtspijn of concentratieproblemen), of andere klachten toegeschreven aan Lymeziekte, er zijn geen antistoffen tegen Lymeziekte gevonden (negatieve ELISA-test, dat is de test die de huisarts meestal aanvraagt)"
-      },
-      {
-        "title": "Hoe kan ik mijn kind aanmelden?",
-        "content": "Gelden allevier bovenstaande punten voor uw kind en wilt u aanmelden voor het onderzoek? Dan kunt u een e-mail zonder tekst sturen naar lymeziekte@rivm.nl met als onderwerp ‘LymeProspect onderzoek, chronische klachten’. U krijgt vervolgens een automatische e-mail terug met een korte vragenlijst. Als u deze vragenlijst invult en terugstuurt, hoort u daarna of uw kind inderdaad aan het onderzoek kan meedoen."
-      },
-      {
-        "title": "Wie betaalt de bloedafname voor het LymeProspectonderzoek en het Pandora onderzoek?",
-        "content": "Deelnemers aan het LymeProspect en het Pandora onderzoek betalen geen kosten voor bloedafname. De prikpost kan de kosten declareren bij het RIVM, met een declaratieformulier dat bij de envelop met bloedbuizen zit."
-      }
-    ]
-  },
   "tekenradar": {
-    "title": "Tekenradar",
+    "title": "Over Tekenradar",
     "items": [
       {
         "title": "Wat doet tekenradar.nl?",
-        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een erythema migrans (rode ring of vlek), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
+        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een erythema migrans(?) (rode ring of vlek), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
       },
       {
-        "title": "Wat is het doel van het onderzoek via Tekenradar.nl?",
-        "content": "Met het onderzoek via Tekenradar.nl willen we te weten komen hoe vaak mensen na een tekenbeet een erythema migrans(?) of een andere vorm van de ziekte van Lyme krijgen, en hoe vaak dit leidt tot (ernstige) gezondheidsklachten. Ook willen we onderzoeken hoe dit samenhangt met de mate waarin de teek zelf besmet is, de tijd dat de teek heeft vastgezeten en andere mogelijke risicofactoren. Met deze informatie hopen we meer te weten te komen over de kans dat mensen ziek worden na een tekenbeet. Daarnaast vragen we aan de deelnemers hoe een tekenbeet of de ziekte van Lyme hun kwaliteit van leven beïnvloedt en welke zorgkosten de ziekte met zich meebrengt. Vanaf 2013 onderzoeken we ook of preventieve antibiotica na een tekenbeet werkt om de ziekte van Lyme te voorkomen. Nu is het nog onduidelijk in hoeverre de voordelen van preventief antibioticagebruik – mogelijk minder ziekte van Lyme – zouden opwegen tegen de mogelijke bijwerkingen en resistentie-ontwikkeling."
-      },
-      {
-        "title": "Zijn er lesmodules beschikbaar om met leerlingen aandacht te besteden aan teken en de ziekte van Lyme?",
-        "content": "Wageningen University heeft in het kader van het WURKS-programma in samenwerking met het Clusius College in Heerhugowaard een lesmodule over teken ontwikkeld.  De lesmodule is te bekijken via //https:www.wikiwijsleermiddelenplein.nl waarna u moet zoeken op het woordje 'Lyme'."
-      }
-    ]
-  },
-  "research": {
-    "title": "Onderzoeken",
-    "items": [
-      {
-        "title": "Wat vragen we van u voor dit onderzoek?",
-        "content": "Wij vragen u een tekenbeet of een erythema migrans te melden op Tekenradar.nl. Daarna vult u een aantal vragenlijsten in over tekenbeten en uw gezondheid."
+        "title": "Waarom zou ik een melding doen op Tekenradar?",
+        "content": "Op Tekenradar.nl kun je tekenbeten en de ziekte van Lyme melden voor jezelf en je kinderen. Je draagt daarmee bij aan onderzoek waardoor meer inzicht ontstaat over waar en wanneer tekenbeten en de ziekte van Lyme worden opgelopen, en wat de gezondheidsgevolgen kunnen zijn. Op de website kun je ook zien hoeveel tekenbeten er in de voorafgaande weken zijn gemeld. Door zelf een melding te doen verbeter je ook de betrouwbaarheid van die gegevens."
       },
       {
         "title": "Kan ik mijn teek opsturen?",
-        "content": "U hoeft de teek niet op te sturen naar het RIVM. Voor het onderzoek naar tekenbeten zijn de afgelopen jaren genoeg teken verzameld. Alleen mensen die zich aanmelden voor het Pandora onderzoek wordt soms gevraagd om de teek op te sturen. Zij ontvangen daar apart uitleg over."
+        "content": "Je hoeft de teek niet op te sturen naar het RIVM. Voor het onderzoek naar tekenbeten zijn de afgelopen jaren genoeg teken verzameld. Alleen mensen die zich aanmelden voor het Pandora onderzoek wordt soms gevraagd om de teek op te sturen. Zij ontvangen daar apart uitleg over."
+      }
+    ]
+  },
+  "tekenradaronderzoek": {
+    "title": "Over Tekenradaronderzoek",
+    "items": [
+      {
+        "title": "Wat is het doel van het onderzoek via Tekenradar.nl?",
+        "content": "Doel van het onderzoek via Tekenradar is om: \n - Het tekenbeet seizoen te monitoren, evenals de geografische verspreiding van tekenbeten. \n - Oorzaken van een ernstig verloop van de ziekte van Lyme, en mogelijkheden voor preventie daarvan vast te stellen.\n - Te bepalen wat in de praktijk bruikbare voorspellende risicofactoren zijn voor het oplopen van een tekenbeet en voor het ontwikkelen van acute en/of aanhoudende klachten.\n - Onderzoek naar hoe vaak andere tekenoverdraagbare ziekteverwekkers na een tekenbeet ziekte veroorzaken en hoe deze ziekten het beste aangetoond kunnen worden."
       },
       {
-        "title": "Wat betekent een testuitslag van de teek voor u?",
-        "content": "Een testuitslag van de teek geeft u geen zekerheid over uw risico op de ziekte van Lyme. Om deze reden laat uw huisarts de teek normaal gesproken ook niet onderzoeken. Als uit een test blijkt dat de teek besmet was met de Borrelia bacterie, betekent dat niet dat u ook besmet bent geraakt tijdens de beet. Als de teek volgens de test niet besmet was, is er geen garantie dat u niet geïnfecteerd bent tijdens de beet, omdat de test niet 100% gevoelig is en omdat de kans bestaat dat u ongemerkt gebeten bent door andere teken."
+        "title": "Wat vragen we van je voor dit onderzoek?",
+        "content": "Wij vragen je een tekenbeet of een erythema migrans of andere vorm van lymeziekte te melden op Tekenradar.nl. Daarna kun je een aantal vragenlijsten invullen over tekenbeten en je gezondheid."
       },
       {
-        "title": "Wat wordt er met de foto gedaan die ik opstuur van mijn erythema migrans?",
-        "content": "De foto’s van de erythema migrans die aan Tekenradar.nl gestuurd worden zullen geanonimiseerd (versleuteld) bewaard worden in een databank apart van uw persoonsgegevens. Deze databank is alleen toegankelijk voor de betrokken onderzoeksmedewerkers."
+        "title": "Wat wordt er met de foto gedaan die ik opstuur van mijn erythema migrans (rode ring of vlek op de huid)?",
+        "content": "De foto’s van de erythema migrans die aan Tekenradar.nl gestuurd worden zullen geanonimiseerd (versleuteld) bewaard worden in een databank apart van je persoonsgegevens. Deze databank is alleen toegankelijk voor de betrokken onderzoeksmedewerkers."
       },
       {
         "title": "Wanneer worden de resultaten van het onderzoek bekend?",
-        "content": "In 2013 zijn de eerste resultaten van Tekenradar.nl bekend gemaakt, zie daarvoor onderzoeksresultaten. De eindresultaten van het preventieve antibiotica onderzoek komen in 2020 beschikbaar, de resultaten van het LymeProspect onderzoek waarschijnlijk in 2021, en van het Pandora onderzoek in 2022. De resultaten hangen voor een groot deel af van het vinden van voldoende deelnemers."
+        "content": "Onder cijfers en onderzoeksresultaten staan de resultaten van Tekenradar.nl onderzoek. "
+      },
+      {
+        "title": "Wie doet het onderzoek op Tekenradar?",
+        "content": "Tekenradar is een samenwerking van het RIVM, Wageningen University, Amsterdam UMC, Radboudumc en de Stichting voor duurzame ontwikkeling (FSD). Het onderzoek via Tekenradar wordt gecoördineerd door het RIVM, en uitgevoerd door het RIVM, Wageningen University, en de Lyme centra van het Amsterdam UMC en Radboudumc. Zie ook de partner pagina. TODO internal link missing"
       }
     ]
   },
-  "ticks": {
-    "title": "Ticks",
+  "teken": {
+    "title": "Over Teken",
     "items": [
       {
         "title": "Wat zijn teken?",
-        "content": "Answer 2."
+        "content": "Teken zien er uit als platte spinnetjes. Ze komen in het hele land voor in bossen, duinen, heidegebieden, beschutte weilanden, parken en tuinen. Teken leven vooral in struiken en grassen tot ongeveer anderhalve meter boven de grond. Van daaruit stappen ze over, bij voorkeur op passerende dieren, maar ook op mensen. Teken leven van bloed. Ze gaan op zoek naar een warme en vochtige plaats op het lichaam van de gastheer. Bij mensen zijn dat bijvoorbeeld de liezen of knieholtes en – vooral bij kinderen – het hoofd en achter de oren. Daar bijten ze zich vast in de huid om bloed te zuigen. Teken zijn er het hele jaar, maar de meeste mensen worden gebeten in de periode van maart tot en met oktober.  \n\n Er zijn vier levensstadia van teken: eitjes, larven, nimfen en volwassen teken.\n\n Zodra een tekenlarve uit een eitje komt, gaat hij op zoek naar een gastheer, bijvoorbeeld een klein knaagdier, voor de eerste bloedmaaltijd. Als de gastheer besmet is met de Borrelia bacterie (de veroorzaker van de ziekte van Lyme), kan de tekenlarve ook besmet raken. Na het bloedzuigen wordt de volgezogen larve een platte nimf.\n\n Nimfen en volwassen teken gaan op zoek naar bloed, en kunnen daarmee de bacterie overbrengen op dieren en mensen. Nadat de volwassen teek, het vrouwtje dat er dan grijs uitziet, met het opgezogen bloed eitjes produceert, zal ze sterven.\n\n Meer informatie vind je hier TODO internal link missing."
       },
       {
         "title": "Hoe herken je een teek?",
-        "content": "Answer 2."
+        "content": "Een teek is erg klein, slechts 1 tot 3 millimeter, en wordt gemakkelijk over het hoofd gezien. Door het bloedzuigen zwellen teken na een paar dagen op tot een bruin of grijs bolletje. Zie hier voorvoorbeeldfoto’s. TODO missing image"
       },
       {
-        "title": "Hoe herken je een teek?",
-        "content": "Answer 2."
+        "title": "Wat doen teken?",
+        "content": "Teken leven van het bloed van mensen of dieren. Hun beet is meestal pijnloos. Ze kunnen ongemerkt uren of zelfs dagen op de huid zitten en zich volzuigen met bloed. Meestal zijn tekenbeten onschuldig. Toch is het belangrijk een teek zo snel mogelijk te verwijderen. Teken kunnen namelijk besmet zijn met de Borrelia bacterie en zo de ziekte van Lyme overbrengen op mens en dier."
       },
       {
         "title": "Waar komen teken voor?",
-        "content": "Answer 2."
+        "content": "Teken leven in hoog gras en struikgewas. Onderzoeken van het RIVM en Wageningen Universiteit laten zien dat teken in heel Nederland voorkomen, in bossen, duinen, heidegebieden, beschutte weilanden, maar ook in parken en tuinen."
       },
       {
         "title": "Wanneer komen teken voor?",
-        "content": "Answer 2."
+        "content": "Teken zijn er het hele jaar door. Zodra de temperatuur boven de 5 tot 10 °C komt, kunnen ze actief worden. De meeste mensen worden gebeten in de periode van maart tot en met oktober."
       },
       {
-        "title": "Hoeveel teken zijn er in Nederland besmet met de Borrelia bacterie?",
-        "content": "Answer 2."
+        "title": "Ik heb teken in mijn tuin, hoe kom ik daarvan af?",
+        "content": "Teken leven in ‘strooisel’. Dat is een laag dode, verterende bladeren die het hele jaar door (dus niet alleen in de herfst) aanwezig is. Ook een dikke moslaag vinden ze fijn. Dit zie je meestal in het bos, maar soms ook in tuinen, hoewel het risico op een tekenbeet in de meeste tuinen erg laag is. Zonder een strooisel- of moslaag overleven teken niet, dus in de tuin zitten er géén teken in planten die op een kale zandige bodem groeien. In tuinen met een strooisel en/of moslaag kunnen teken zitten, maar dat kan alleen als er ook dieren (bijvoorbeeld muizen of andere knaagdieren) komen die teken kunnen meebrengen. Vanuit de strooisellaag kruipen teken tot maximaal 1,5 meter omhoog in planten. Ze kruipen het liefst recht omhoog, en zullen zelden verder dan 1 meter over de bodem kruipen. Door je tuin anders in te richten, en eventueel knaagdieren te bestrijden, zou je dus kunnen proberen de kans op teken in de tuin verder te verlagen."
       },
       {
         "title": "Wat zijn reuzenteken of monster- en horrorteken?",
-        "content": "Answer 2."
+        "content": "In Nederland zijn in 2019 twee volwassen Hyalomma teken gevonden, in de media ook wel reuzenteek, of monster- en horrorteek genoemd. Deze teken komen in Europa voor in het Middellandse Zeegebied en in Zuidoost Europa. In Nederland werden ze niet of nauwelijks aangetroffen. Vooralsnog zijn er geen aanwijzingen dat deze teken overwinteren in Nederland. \n \n Meer informatie over Hyalomma teken TODO missing internal link"
       }
     ]
   },
-  "tickbite": {
-    "title": "Tekenbeten",
+  "tekenbeten": {
+    "title": "Over Tekenbeten",
     "items": [
       {
+        "title": "Wat moet ik doen bij een tekenbeet?",
+        "content": "Haal een teek  zo snel mogelijk weg! Hoe langer de teek in je huid zit, hoe groter de kans dat hij ziekteverwekkers overdraagt. \n\n Gebruik geen alcohol, jodium, olie of andere middelen vóórdat je de teek verwijdert. \n\nPak de teek met een puntig pincet zo dicht mogelijk op de huid bij de kop vast en trek hem er rustig uit. Als een stukje van de kop in de huid achterblijft is dat ongevaarlijk. Dat komt er vanzelf weer uit, net als bij een splinter. Ontsmet hierna het beetwondje. Gebruik je een andere tekenverwijderaar? Volg dan de gebruiksaanwijzing. \n\n Noteer wanneer en waar op de huid je gebeten bent. Houd tot drie maanden na de tekenbeet de huid rond de beet in de gaten. Let op het ontstaan van een rode ring of vlek op de huid (erythema migrans) en let op griepverschijnselen als koorts, hoofdpijn en gewrichtspijn. \n\n Ga naar de huisarts als de rode ring of vlek op de huid groter wordt, of als je een van de genoemde klachten hebt. Vertel de huisarts op welke datum je gebeten bent. \n \n Meld de tekenbeet op Tekenradar.nl als je mee wilt doen aan onderzoek naar tekenbeten en de ziekte van Lyme."
+      },
+      {
+        "title": "Wanneer naar de huisarts?",
+        "content": "Zit de teek al langer dan 24 uur vast in je huid? Dan kun je overleggen met de huisarts of een éénmalige preventieve behandeling gewenst is.\n\nHeb je de teek binnen 24 uur weggehaald? Houdt tot drie maanden na de tekenbeet de huid rond de beet in de gaten. Let op het ontstaan van een rode ring of andere klachten die kunnen horen bij de ziekte van Lyme. De rode ringvormige uitslag is niet altijd duidelijk te zien. Op tekenradar.nl TODO internal link missing staan meerdere verschijningsvormen van een rode ringvormige uitslag na een tekenbeet.\n\n Krijg je klachten? Ga naar de huisarts en meld dat je door een teek gebeten bent.\n\n Ontstaat er een klein, rood plekje op de plek van de beet, dan hoef je je geen zorgen te maken. Dat is een reactie van de huid op de beet zelf.\n\nZie voor meer informatie over tekenbeten en de ziekte van Lyme www.rivm.nl/tekenbeet en Tekenradar.nl."
+      },
+      {
         "title": "Hoe vaak komen tekenbeten voor?",
-        "content": "Answer 2."
+        "content": "Jaarlijks worden ongeveer anderhalf miljoen tekenbeten opgelopen. Daardoor krijgen ongeveer 27.000 mensen de ziekte van Lyme. "
+      },
+      {
+        "title": "Hoeveel teken zijn er in Nederland besmet met de Borrelia bacterie?",
+        "content": "Dat hangt heel erg af van het gebied, de begroeiing, het aantal besmette knaagdieren of andere gastheren, en de tekendichtheid. In Nederland is gemiddeld 20% van de teken besmet met de Borrelia bacterie. Wel zijn er grote verschillen: op sommige plekken is de helft van de teken besmet, op andere bijna geen."
       },
       {
         "title": "Hoe voorkom ik tekenbeten?",
-        "content": "Answer 2."
+        "content": "Door contact met struikgewas, bladerlagen en schaduwrijk gras te vermijden, wordt de kans op een tekenbeet kleiner. Probeer bij wandelingen op de paden te blijven en bedek je lichaam zoveel mogelijk. Probeer contact met overhangende planten te vermijden. Je kunt dichte schoenen, lange mouwen en een lange broek met de pijpen in je sokken dragen. Dat is geen garantie dat je geen tekenbeet oploopt, maar maakt de kans wel kleiner. Wil je extra beschermd het groen in, smeer dan je huid in met een insectenwerend middel waarin DEET zit. Dit is te koop bij drogisten en apotheken. Lees de aanwijzingen op de verpakking. Sommige mensen krijgen huidproblemen van DEET. Om huidproblemen te voorkomen kan DEET aangebracht worden op schoenen, sokken en het onderste deel van de broekspijpen.\n\nHet belangrijkste advies is om nadat je in het groen bent geweest je huid en kleding goed te controleren. Kijk vooral op warme plekjes, zoals liezen, bilspleet en oksels, en de randen van je ondergoed. Gebruik zo nodig een spiegel en een loep. Was kleding waarin een teek is vastgebeten (minimaal 30 minuten op 60ºC) en laat het wasgoed goed drogen, bijvoorbeeld in de wasdroger. Houd kleding die in het groen gedragen is gescheiden van andere kleding, aangezien een teek kan overlopen naar andere kleding. Let er ook op dat je huisdier teken opgepikt kan hebben, die vervolgens gemakkelijk op jou of je kind terecht kunnen komen."
       },
       {
         "title": "Zijn kinderen extra kwetsbaar?",
-        "content": "Answer 2."
+        "content": "Kinderen spelen vaak in het groen en gaan bij wandelingen gemakkelijk van de paden af. Daardoor lopen ze een grotere kans op een tekenbeet. Bovendien leven teken meestal maximaal op zo’n anderhalve meter hoogte. Ze kunnen daardoor makkelijk op het hoofd en nek van een kind klimmen. Een pet of capuchon zou kunnen beschermen tegen teken.\n\nNet als het dragen van een shirt met lange mouwen en een lange broek waarvan de pijpen in de sokken zijn gestopt. Gaan ze op stap in een gebied met veel teken, dan is insmeren van huid en sokken met een insectenwerend middel verstandig. Dit is bij drogisten en apotheken te koop. Lees de aanwijzingen op de verpakking.\n\nBedekkende kleding geeft nooit volledige bescherming. Het belangrijkste is om kinderen steeds goed op teken te controleren nadat ze in het groen hebben gespeeld. Controleer ook alle kleding bij thuiskomst.\n\nKinderen die toch de ziekte van Lyme oplopen kunnen ook meedoen aan het Tekenradar onderzoek. Hun gezondheid wordt dan een jaar lang gevolgd via vragenlijsten."
       },
       {
         "title": "Wanneer moet ik geïmpregneerde kleding dragen?",
-        "content": "Answer 2."
-      },
-      {
-        "title": "Wat moet ik doen bij een tekenbeet?",
-        "content": "Answer 2."
+        "content": "Het dragen van geïmpregneerde kleding verkleint de kans op een tekenbeet. Dus voor mensen die veel in het groen werken of recreëren, is het dragen van geïmpregneerde kleding zeker zinvol. Deze kleding kun je kopen bij gespecialiseerde outdoor-zaken. Geïmpregneerde of bedekkende kleding geeft nooit volledige bescherming. Goed op teken controleren is daarom altijd van belang na verblijf in het groen. Teken kunnen op zeer moeilijk zichtbare plekken zitten."
       },
       {
         "title": "Ik heb gelezen dat je met zeep ook teken kan verwijderen. Klopt dat?",
-        "content": "Answer 2."
+        "content": "Deze methode is ons bekend, maar wij raden niet aan om teken op deze manier te verwijderen. Bij irritatie van de teek d.m.v. zeep kan het voorkomen dat de teek zijn maaginhoud ‘uitbraakt’. Daarmee kunnen schadelijke bacteriën juist in de bloedbaan terecht komen. Heb je een tekenbeet, dan is het belangrijk om de teek zo snel mogelijk te verwijderen, op een manier waarop je de teek zo min mogelijk irriteert. Hiermee verklein je de kans dat de teek eventueel de Lyme-bacterie overdraagt. Je verwijdert de teek het beste met een puntig pincet of andere tekenverwijderaar (tang, lepel, lasso)."
       },
       {
         "title": "Moet ik een speciaal pincet gebruiken om een teek te verwijderen?",
-        "content": "Answer 2."
+        "content": "Nee, dat is niet nodig. Wel kun je met een puntig pincet de kop van de teek goed vastpakken. Er zijn ook speciale tekenverwijderaars te koop om teken te verwijderen, bijvoorbeeld bij de drogist en de apotheek.  "
+      },
+      {
+        "title": "Zijn er lesmodules beschikbaar om met leerlingen aandacht te besteden aan teken en de ziekte van Lyme?",
+        "content": "Wageningen University heeft in het kader van het WURKS-programma in samenwerking met het Clusius College in Heerhugowaard een lesmodule over teken ontwikkeld.  De lesmodule is te bekijken via www.wikiwijsleermiddelenplein.nl waarna je moet zoeken op het woordje 'Lyme'."
       }
     ]
   },
-  "disease": {
-    "title": "Lyme en andere ziekten",
+  "lyme": {
+    "title": "Over ziekte van Lyme",
     "items": [
       {
-        "title": "Wat is de ziekte van Lyme?",
-        "content": "Answer 2."
+        "title": "Wat is het risico op de ziekte van Lyme na een tekenbeet?",
+        "content": "Bijna anderhalf miljoen mensen lopen jaarlijks tekenbeten op. Daardoor krijgen ongeveer 27.000 mensen de ziekte van Lyme. Ongeveer 2 op de 100 tekenbeten leiden dus tot de ziekte van Lyme. De aard en de ernst van de klachten bij patiënten met de ziekte van Lyme zijn nogal verschillend. Verreweg de meeste mensen die deze ziekte oplopen, krijgen een kenmerkende rode ring of grote rode vlek bij de plek van de tekenbeet, een erythema migrans. Ongeveer 1500 van de jaarlijkse ziektegevallen krijgt ernstigere vormen van Lymeziekte. In verreweg de meeste gevallen zijn deze Lyme-patiënten goed te behandelen met een antibioticumkuur, maar ongeveer 1000 tot 1500 van het jaarlijkse aantal patiënten houdt langdurige klachten."
       },
       {
         "title": "Hoe veroorzaken teken de ziekte van Lyme?",
-        "content": "Answer 2."
+        "content": "Teken kunnen de ziekte van Lyme veroorzaken als ze zelf besmet zijn met de Borrelia bacterie, én als ze voldoende lang hebben vastgezeten in de huid. Als een teek besmet is, zit de bacterie in de darm van de teek. Als de teek zo snel mogelijk wordt verwijderd, is de kans dat hij de bacterie overbrengt kleiner. Als de bacterie wel in je lichaam komt, kun je de ziekte van Lyme krijgen."
+      },
+      {
+        "title": "Wat is de ziekte van Lyme?",
+        "content": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. Uitsluitend door een tekenbeet kan die bacterie in het lichaam terechtkomen. Na 3 dagen tot 2 maanden kan er een erythema migrans ontstaan: een rode ring of soms blauwachtige vlek op de huid rond de plaats van de tekenbeet. Dat gebeurt echter niet altijd: ook zonder het verschijnen van de rode ring of vlek kun je de ziekte van Lyme hebben opgelopen.\n\nEen ander verschijnsel is een grieperig gevoel met bijvoorbeeld koorts, hoofdpijn en gewrichtspijn. In een later stadium van de ziekte is er kans op verlamming van gezichtsspieren, heftige pijn aan een arm of been, dubbelzien, krachtsverlies in benen, pijnlijke of gezwollen gewrichten, een neiging tot flauwvallen en hartklachten. Met antibiotica is de ziekte van Lyme meestal goed te behandelen. Hoe eerder je erbij bent, hoe beter en sneller behandeld kan worden"
       },
       {
         "title": "Wie loopt extra risico om besmet te raken?",
-        "content": "Answer 2."
-      },
-      {
-        "title": "Kan de ziekte van Lyme ook een beroepsziekte zijn?",
-        "content": "Answer 2."
+        "content": "Iedereen kan via een tekenbeet besmet raken met de Borrelia bacterie en de ziekte van Lyme krijgen. Mensen die voor hun werk veel in het groen zijn, lopen meer risico op tekenbeten, bijvoorbeeld bosarbeiders, jagers en veldbiologen. Ook mensen die recreëren in het groen zoals wandelaars en kampeerders, een rondje lopen met de hond in het park of bos of veel in de tuin werken, lopen meer risico op een tekenbeet."
       },
       {
         "title": "Hoe verklein ik de kans op de ziekte van Lyme?",
-        "content": "Answer 2."
+        "content": "Het is verstandig om nadat je in het groen bent geweest je lichaam en dat van kinderen of anderen goed te controleren op teken. Kijk ook onder oksels, liezen, bilnaad, knieholten en onder de randen van het ondergoed. Teken kunnen zich ook – vooral bij kinderen – op het hoofd, achter de haargrens en achter de oren nestelen."
+      },
+      {
+        "title": "Kan de ziekte van Lyme ook een beroepsziekte zijn?",
+        "content": "Ja, dat kan als de ziekte tijdens het werk opgelopen is. Die kans is aanwezig als je tijdens je werk vaak in een tekenrijke omgeving verblijft en daar gebeten wordt, of als je intensief contact hebt met dieren die teken bij zich kunnen dragen. Als je in het groen werkt zorgt de werkgever voor informatie en voor beschermende maatregelen. Je moet je als werknemer aan de voorgeschreven regels houden en de gegeven beschermingsmiddelen ook gebruiken. Meer informatie vind je op www.beroepsziekten.nl en www.kiza.nl."
+      }
+    ]
+  },
+  "andereZiekte": {
+    "title": "Over andere tekenoverdragbaare ziekten",
+    "items": [
+      {
+        "title": "Kan ik van een tekenbeet ook andere ziekten dan lymeziekte krijgen?",
+        "content": "Naast de lymebacterie zitten er vaak ook andere ziekteverwekkers in teken, zoals parasieten, bacteriën en virussen. Na een tekenbeet kunnen daardoor onder andere koorts en andere griepachtige verschijnselen ontstaan. Voor de meeste verwekkers is nog niet bekend hoe vaak een tekenbeet in Nederland tot ziekte leidt, hoe ernstig de klachten kunnen zijn, en of ze de ziekte van Lyme beïnvloeden. Door onderzoek dat onder andere via Tekenradar verloopt hopen we daar meer inzicht in te krijgen."
       },
       {
         "title": "Wat is teken-encefalitis (TBE)?",
-        "content": "Answer 2."
+        "content": "Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het teken-encefalitis-virus, ook wel ‘tick-borne encephalitis’ virus (TBE-virus) genoemd. Besmette teken dragen het TBE-virus over van dier naar dier en soms naar de mens. Eerder kwam het virus alleen in het buitenland voor, maar sinds het voorjaar van 2016 kwamen de eerste aanwijzingen dat in Nederland reeën besmet zijn geweest met het virus en is het virus ook bij teken aangetoond in Nederland. Er worden nu jaarlijks één tot enkele patiënten gemeld die het virus in Nederland hebben opgelopen. Het virus wordt overgebracht door tekenbeten.\n\nMeer informatie over teken-encefalitis (TBE) en waar het virus is voorkomt TODO missing internal link"
       }
     ]
   }

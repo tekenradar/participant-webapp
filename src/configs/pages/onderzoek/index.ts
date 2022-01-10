@@ -9,6 +9,7 @@ import { victoryPage } from "./onderzoeken/victoryPage";
 import { vragenlijstPage } from "./onderzoeken/vragenlijstPage";
 import { cijfersPage } from "./resultaten/cijfersPage";
 import { publicatiesPage } from "./resultaten/publicatiesPage";
+import { voorArtsenPage } from "./voorArtsen/voorArtsenPage";
 
 
 
@@ -27,6 +28,8 @@ export const onderzoekContainerPage = (path: string): PageConfig => {
     // resultaten sub-pages
     cijfersPage(`${path}/cijfers`),
     publicatiesPage(`${path}/publicaties`),
+    // voor artsen sub-pages
+    voorArtsenPage(`${path}/voorArtsen`)
   ];
 
   return {
