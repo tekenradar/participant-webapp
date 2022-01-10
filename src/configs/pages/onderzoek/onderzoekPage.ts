@@ -4,16 +4,16 @@ import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
 
 const doelenSection = (): PageRow => {
   return pageSection({
-    sectionKey: 'todo1',
+    sectionKey: 'doelen',
     className: 'mt-3',
     rows: [
       simpleRowColLayout({
-        rowKey: 'todo1',
+        rowKey: 'row1',
         rowClassNameOverride: 'row gy-2a ',
         items: [
           {
             colClassName: 'col-12',
-            itemKey: 'basiskennisLyme',
+            itemKey: 'doelenOnderzoek',
             className: 'h-100',
             config: {
               type: 'actionCard',
@@ -25,7 +25,7 @@ const doelenSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/onderzoek/doelen'
               },
             }
           },
@@ -37,7 +37,7 @@ const doelenSection = (): PageRow => {
 
 const onderzoekenSection = (): PageRow => {
   return pageSection({
-    sectionKey: 'todo2',
+    sectionKey: 'onderzoeken',
     className: 'mt-3',
     rows: [
       simpleRowColLayout({
@@ -46,7 +46,7 @@ const onderzoekenSection = (): PageRow => {
         items: [
           {
             colClassName: 'col-12 col-md-8',
-            itemKey: 'basiskennisLyme',
+            itemKey: 'vragenlijst',
             className: 'h-100',
             config: {
               type: 'actionCard',
@@ -58,14 +58,14 @@ const onderzoekenSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/onderzoek/vragenlijst'
               },
             }
           },
           // ----------------------------
           {
             colClassName: 'col-12 col-md-4',
-            itemKey: 'todo2',
+            itemKey: 'lymeProspect',
             className: 'h-100',
             config: {
               type: 'actionCard',
@@ -77,7 +77,64 @@ const onderzoekenSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/onderzoek/lymeProspect'
+              },
+            }
+          },
+          // ----------------------------
+          {
+            colClassName: 'col-12 col-md-4',
+            itemKey: 'preventieveAntibiotica',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/onderzoek/preventieveAntibiotica'
+              },
+            }
+          },
+          // ----------------------------
+          {
+            colClassName: 'col-12 col-md-4',
+            itemKey: 'victory',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/onderzoek/victory'
+              },
+            }
+          },
+          // ----------------------------
+          {
+            colClassName: 'col-12 col-md-4',
+            itemKey: 'pandora',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/onderzoek/pandora'
               },
             }
           },
@@ -91,7 +148,7 @@ const onderzoekenSection = (): PageRow => {
 
 const resultatenSection = (): PageRow => {
   return pageSection({
-    sectionKey: 'todo3',
+    sectionKey: 'resultaten',
     className: 'mt-3',
     rows: [
       simpleRowColLayout({
@@ -100,7 +157,7 @@ const resultatenSection = (): PageRow => {
         items: [
           {
             colClassName: 'col-12 col-md-6',
-            itemKey: 'basiskennisLyme',
+            itemKey: 'cijfers',
             className: 'h-100',
             config: {
               type: 'actionCard',
@@ -112,14 +169,14 @@ const resultatenSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/onderzoek/cijfers'
               },
             }
           },
           // ----------------------------
           {
             colClassName: 'col-12 col-md-6',
-            itemKey: 'todo2',
+            itemKey: 'publicaties',
             className: 'h-100',
             config: {
               type: 'actionCard',
@@ -131,12 +188,10 @@ const resultatenSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/onderzoek/publicaties'
               },
             }
           },
-          // ----------------------------
-          // TODO: continue
         ],
       })
     ]
@@ -145,7 +200,7 @@ const resultatenSection = (): PageRow => {
 
 const voorArtsenSection = (): PageRow => {
   return pageSection({
-    sectionKey: 'todo4',
+    sectionKey: 'voorArtsen',
     className: 'my-3',
     rows: [
       simpleRowColLayout({
@@ -154,7 +209,7 @@ const voorArtsenSection = (): PageRow => {
         items: [
           {
             colClassName: 'col-12',
-            itemKey: 'basiskennisLyme',
+            itemKey: 'voorArtsen',
             className: 'h-100',
             config: {
               type: 'actionCard',
@@ -166,7 +221,7 @@ const voorArtsenSection = (): PageRow => {
               },
               action: {
                 type: 'navigate',
-                value: '/informatie/basiskennis-lyme'
+                value: '/onderzoek/voorArtsen'
               },
             }
           },
@@ -186,87 +241,6 @@ export const onderzoekPage = (path: string): PageConfig => {
       onderzoekenSection(),
       resultatenSection(),
       voorArtsenSection(),
-      /// TODO: OLD CONTENT REMOVE:
-      {
-        key: 'row1',
-        columns: [
-          {
-            key: 'col1',
-            className: 'col-12 col-md-8 col-lg-6',
-            items: [
-              {
-                itemKey: 'overviewCard',
-
-                config: {
-                  type: 'actionCard',
-                }
-              },
-            ]
-          },
-        ]
-      },
-      {
-        key: 'row2',
-        containerClassName: 'pb-4',
-        columns: [
-          {
-            key: 'col2',
-            className: 'col-12 col-md-6 pt-2',
-            items: [
-              {
-                itemKey: 'tekenverwachting',
-                className: 'h-100',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek/tekenverwachting'
-                  },
-                  image: {
-                    url: '/images/no-license/waar-leven-teken.jpg',
-                    height: '150px',
-                    placement: 'top'
-                  }
-                }
-              },
-            ]
-          },
-          {
-            key: 'col2',
-            className: 'col-12 col-md-6',
-            items: [
-              {
-                itemKey: 'pandora',
-                className: 'mt-2',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek/pandora'
-                  },
-                }
-              },
-              {
-                itemKey: 'resultaten',
-                className: 'mt-2',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek/resultaten'
-                  },
-                  image: {
-                    url: '/images/tekenbeeten-km.png',
-                    width: '150px',
-                    maxWidth: '180px',
-                    placement: 'left'
-                  }
-                }
-              },
-            ]
-          }
-        ]
-      }
     ]
   }
 }
