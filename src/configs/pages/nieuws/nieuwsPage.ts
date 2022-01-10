@@ -8,12 +8,102 @@ const nieuwsSection = (): PageRow => {
     className: 'mt-3',
     rows: [
       simpleRowColLayout({
-        rowKey: 'todo1',
+        rowKey: 'Nieuws',
         rowClassNameOverride: 'row gy-2a ',
         items: [
           {
             colClassName: 'col-12',
-            itemKey: 'basiskennisLyme',
+            itemKey: '20210708',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          {
+            colClassName: 'col-12',
+            itemKey: '20210527',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          {
+            colClassName: 'col-12',
+            itemKey: '20210419',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          {
+            colClassName: 'col-12',
+            itemKey: '20200624',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          {
+            colClassName: 'col-12',
+            itemKey: '20200623',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              image: {
+                url: '/images/no-license/woman-spring.jpg',
+                minHeight: '200px',
+                maxHeight: '150px',
+                placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/informatie/basiskennis-lyme'
+              },
+            }
+          },
+          {
+            colClassName: 'col-12',
+            itemKey: '20200622',
             className: 'h-100',
             config: {
               type: 'actionCard',
