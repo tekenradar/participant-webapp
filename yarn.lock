@@ -3623,15 +3623,15 @@ case-sensitive-paths-webpack-plugin@^2.4.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==
 
-case-web-app-core@^1.5.0-beta.22:
-  version "1.5.0-beta.22"
-  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.22.tgz#ae419040ca0d015fb67ee91d936cc0138ac25661"
-  integrity sha512-5hDxJMxGVTq/7QZYybrqCDVBgamJKUYQMqYAVpjI0mKNRqbw+Bkrv7zJHL5dO+75xIT6mvrhH1PbyhYF/X9ZQw==
+case-web-app-core@^1.5.0-beta.23:
+  version "1.5.0-beta.23"
+  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-1.5.0-beta.23.tgz#46a0a2c3398f3800eed1e866b2f91c072967f62e"
+  integrity sha512-CiyE+jHMDEfAizYta9SfDCu16W/HZfn3Hk6q/WKJihQJ1G0+y5WgeRYjO7GaTnWeTHCB5oww33PBqDq+V8Y+PQ==
 
-case-web-ui@^1.7.0-beta.15:
-  version "1.7.0-beta.15"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.7.0-beta.15.tgz#221455ed66328808ec6755973f30ce38ca2f514f"
-  integrity sha512-Dz8o9Bmz8ImzDudBJDMDI0MRvz3AD9mo6FbpQbdY1PHP3KxcJh+MhX+TR/YwBtsJDIVMJe/C66R6n5WmtS7KHQ==
+case-web-ui@^1.7.0-beta.16:
+  version "1.7.0-beta.16"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.7.0-beta.16.tgz#6ef1bc5d0f67a9601cb757b8e48c2c0892fdabd0"
+  integrity sha512-a2hlFqGd+4dS43GwRSGcKAFsHoUJS2zUmJryx3F92ecoDYobhJfIyUlowLD7lk5mqwS5zbS4f9nF1MbM1ukrLw==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -8783,10 +8783,10 @@ sass-loader@^12.3.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
-sass@^1.47.0:
-  version "1.47.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.47.0.tgz#c22dd0eed2e4a991430dae0b03c8e694bc41c2b4"
-  integrity sha512-GtXwvwgD7/6MLUZPnlA5/8cdRgC9SzT5kAnnJMRmEZQFRE3J56Foswig4NyyyQGsnmNvg6EUM/FP0Pe9Y2zywQ==
+sass@^1.48.0:
+  version "1.48.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.48.0.tgz#b53cfccc1b8ab4be375cc54f306fda9d4711162c"
+  integrity sha512-hQi5g4DcfjcipotoHZ80l7GNJHGqQS5LwMBjVYB/TaT0vcSSpbgM8Ad7cgfsB2M0MinbkEQQPO9+sjjSiwxqmw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -9349,10 +9349,10 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-survey-engine@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.0.3.tgz#f94967fa30327fc0ca4ac78b83820937544768b0"
-  integrity sha512-bkMPeXasW/rI8cRFdqCrPhTJ5u15QGaOOxI7+RpPMkx3inLK2ClRlRATk49dSbd/u4/PdSN2QpzzaPfe8rM81A==
+survey-engine@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.0.4.tgz#535473971d90b76a47f48a549c8751c79d7c2440"
+  integrity sha512-qUtZ9WZTSQtQAvwEdH4IMWeRR+9AYtPSlCbvY6UnJHMSHQ86kCOBdURSOOdRRoGeDnxDoK6RzA1rU7MW0e6cPg==
   dependencies:
     moment "2.24.0"
 
