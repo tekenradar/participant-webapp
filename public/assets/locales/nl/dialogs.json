@@ -64,12 +64,15 @@
   },
   "signupSuccess": {
     "title": "Welkom!",
-    "successMsg": "Je bent bijna aangemeld voor het Tekenradar! \n Bevestig eerst nog je e-mailadres door op de link in de bevestigingsmail te klikken die we je hebben toegezonden. \n Kan je de e-mail niet vinden controleer eerst je spam-folder. Je kan hieronder ook een nieuwe e-mail aanvragen.",
+    "successMsg": "Je bent bijna aangemeld voor Tekenradar! Bevestig eerst nog je e-mailadres door op de link in de bevestigingsmail te klikken. Deze is verstuurd naar het door jou opgegeven e-mailadres. Controleer eerst je spam-folder als je de e-mail niet kunt vinden. Heb je de e-mail niet ontvangen? Klik dan op de knop hieronder om de bevestigingsmail nogmaals te versturen.",
     "emailSentMsg": "E-mail is verstuurd.",
-    "resendVerificationEmailBtn": "Verstuur nogmaals een bevestigingsmail",
+    "resendVerificationEmailBtn": "Bevestigingsmail nogmaals sturen",
     "wrongEmailBtn": "Heb je een verkeerd e-mailadres gebruikt? Verander deze dan hier.",
+    "msgForVerifiedAccount": "Heb je je account al geverifieerd op een ander apparaat of in andere browser? Klik dan op de knop hieronder om je account opnieuw te laden en verder te gaan.",
+    "reloadUser": "Mijn account is al geverifieerd",
     "errors": {
-      "unknown": "Er gaat iets verkeerd."
+      "unknown": "Er gaat iets verkeerd.",
+      "verifyEmailFirst": "Er gaat iets verkeerd."
     }
   },
   "passwordForgotten": {

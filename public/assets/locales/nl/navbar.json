@@ -20,6 +20,6 @@
     "logout": "Uitloggen",
     "verified": "Account nog niet geverifieerd"
   },
-  "exitSurveyMode": "Terug",
+  "exitSurveyMode": "Verlaat vragenlijst",
   "selectedProfilePrefixInSurveyMode": "Vragen beantwoorden voor:"
 }
