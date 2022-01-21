@@ -72,7 +72,7 @@
     "reloadUser": "Mijn account is al geverifieerd",
     "errors": {
       "unknown": "Er gaat iets verkeerd.",
-      "verifyEmailFirst": "Er gaat iets verkeerd."
+      "verifyEmailFirst": "Je e-mailadres is nog niet geverifieerd. Bevestig je e-mailadres door te klikken op de link in de bevestigingsmail. Heb je de e-mail niet ontvangen? Klik dan op de knop 'bevestigingsmail nogmaals versturen'."
     }
   },
   "passwordForgotten": {
