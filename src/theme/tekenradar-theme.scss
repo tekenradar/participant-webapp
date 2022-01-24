@@ -5,7 +5,7 @@
 @import '~case-web-ui/build/scss/helpers/forms.scss';
 @import '~case-web-ui/build/scss/helpers/custom_range.scss';
 @import '~case-web-ui/build/scss/helpers/navbar.scss';
-@import '~case-web-ui/build/scss/helpers/borders.scss';
+@import './borders.scss';
 @import '~case-web-ui/build/scss/helpers/date_input.scss';
 @import '~case-web-ui/build/scss/helpers/typography.scss';
 // @import './typography';
@@ -23,11 +23,6 @@ $enable-rounded: false !default;
   & a {
     color: #000;
   }
-}
-
-.border-top-4 {
-  border-top-style: solid;
-  border-top-width: 4px !important;
 }
 
 .grecaptcha-badge { visibility: hidden; }

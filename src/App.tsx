@@ -13,6 +13,11 @@ import ImageGallery from './components/ImageGallery';
 import TekenradarSurveyComponent from './components/TekenradarSurveyComponent/TekenradarSurveyComponent';
 import { appConfig } from './configs/appConfig';
 import Header from './components/Header';
+import { nl } from 'date-fns/locale';
+
+const dateLocales = [
+  { code: 'nl', locale: nl, format: 'dd-MM-yyyy' },
+];
 
 if (process.env.REACT_APP_DEFAULT_INSTANCE) {
   appConfig.instanceId = process.env.REACT_APP_DEFAULT_INSTANCE;
@@ -49,6 +54,7 @@ const App: React.FC = () => {
         pagesConfig={pagesConfig}
         footerConfig={footerConfig}
         extensions={extensions}
+        dateLocales={dateLocales}
       />
     </React.Fragment>
 
