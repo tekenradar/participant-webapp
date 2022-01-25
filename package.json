@@ -1,6 +1,6 @@
 {
   "name": "tekenradar-webapp",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "dependencies": {
     "@fontsource/open-sans": "^4.5.2",
