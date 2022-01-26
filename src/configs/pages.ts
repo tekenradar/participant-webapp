@@ -3,7 +3,7 @@ import { faqPage } from "./pages/faqPage";
 import { homePage } from "./pages/homePage";
 import { informatiePage } from "./pages/informatie";
 import { meldenPage } from "./pages/meldenPage";
-import { nieuwsPage } from "./pages/nieuws/nieuwsPage";
+import { nieuwsContainerPage } from "./pages/nieuws";
 import { onderzoekContainerPage } from "./pages/onderzoek";
 import { settingsPage } from "./pages/settingsPage";
 import { myTekenradarPage } from "./pages/myTekenradarPage";
@@ -21,7 +21,7 @@ export const pagesConfig: PagesConfig = {
     homePage('/home'),
     onderzoekContainerPage('/onderzoek'),
     informatiePage('/informatie'),
-    nieuwsPage('/nieuws'),
+    nieuwsContainerPage('/nieuws'),
     faqPage('/faq'),
     meldenPage('/melden'),
     settingsPage('/settings'),

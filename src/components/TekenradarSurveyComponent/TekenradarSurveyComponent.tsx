@@ -197,6 +197,12 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
 
       console.log(survey)
       const now = Math.round(new Date().getTime() / 1000);
+
+      if (!survey.context) {
+        survey.context = {}
+      }
+      survey.context.isLoggedIn = isLoggedIn;
+
       setCurrentSurvey({
         surveyDef: survey.survey,
         context: survey.context,

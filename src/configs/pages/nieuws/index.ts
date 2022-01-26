@@ -19,23 +19,23 @@ import { nieuwsPage } from "./nieuwsPage";
 
 export const nieuwsContainerPage = (path: string): PageConfig => {
   const nieuwsSubPages = [
-    nieuwsPage(`${path}/nieuws/overzicht`),
+    nieuwsPage(`${path}/overzicht`),
     // archief sub-pages
-    archief2012Page(`${path}/nieuws/archief2012`),
-    archief2013Page(`${path}/nieuws/archief2013`),
-    archief2014Page(`${path}/nieuws/archief2014`),
-    archief2015Page(`${path}/nieuws/archief2015`),
-    archief2016Page(`${path}/nieuws/archief2016`),
-    archief2017Page(`${path}/nieuws/archief2017`),
-    archief2018Page(`${path}/nieuws/archief2018`),
-    archief2019Page(`${path}/nieuws/archief2019`),
+    archief2012Page(`${path}/archief2012`),
+    archief2013Page(`${path}/archief2013`),
+    archief2014Page(`${path}/archief2014`),
+    archief2015Page(`${path}/archief2015`),
+    archief2016Page(`${path}/archief2016`),
+    archief2017Page(`${path}/archief2017`),
+    archief2018Page(`${path}/archief2018`),
+    archief2019Page(`${path}/archief2019`),
     // news sub-pages
-    news20210708Page(`${path}/nieuws/2021-07-08`),
-    news20210527Page(`${path}/nieuws/2021-05-27`),
-    news20210419Page(`${path}/nieuws/2021-04-19`),
-    news20200624Page(`${path}/nieuws/2020-06-24`),
-    news20200623Page(`${path}/nieuws/2020-06-23`),
-    news20200622Page(`${path}/nieuws/2020-06-22`),
+    news20210708Page(`${path}/2021-07-08`),
+    news20210527Page(`${path}/2021-05-27`),
+    news20210419Page(`${path}/2021-04-19`),
+    news20200624Page(`${path}/2020-06-24`),
+    news20200623Page(`${path}/2020-06-23`),
+    news20200622Page(`${path}/2020-06-22`),
 
   ];
 

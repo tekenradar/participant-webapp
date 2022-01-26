@@ -18,8 +18,8 @@
     "melden": "Zelf melden",
     "settings": "Instellingen",
     "logout": "Uitloggen",
-    "verified": "Account not verified"
+    "verified": "Account nog niet geverifieerd"
   },
-  "exitSurveyMode": "Exit",
-  "selectedProfilePrefixInSurveyMode": "Answering for: "
+  "exitSurveyMode": "Verlaat vragenlijst",
+  "selectedProfilePrefixInSurveyMode": "Vragen beantwoorden voor:"
 }

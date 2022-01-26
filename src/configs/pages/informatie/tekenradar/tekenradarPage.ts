@@ -1,102 +1,181 @@
-import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { pageSection } from "../../../../layout/rows/pageSection";
+import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout";
+
+const doelenSection: PageRow = pageSection({
+  sectionKey: 'doelenTekenradar',
+  className: 'mt-3',
+  rows: [
+    simpleRowColLayout({
+      rowKey: 'doelen-tekenradar-row',
+      items: [
+        {
+          colClassName: 'col-12',
+          itemKey: 'doelenTekenradar.card',
+          className: "mt-2",
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        }
+      ]
+    })
+  ]
+});
+
+const partnerSection: PageRow = pageSection({
+  sectionKey: 'partners',
+  className: 'mt-3',
+  rows: [
+    simpleRowColLayout({
+      rowKey: 'partners-row',
+      rowClassNameOverride: 'row gy-2a',
+      items: [
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          config: {
+            type: 'teaserImage',
+            image: {
+              url: '/images/no-license/teken-card.jpg',
+              backgroundPosition: '70% 35%',
+              height: 200,
+              //className: 'h-100'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          className: 'h-100',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          className: 'h-100',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+      ]
+    })
+  ]
+});
+
+const financiersSection: PageRow = pageSection({
+  sectionKey: 'financiers',
+  className: 'my-3',
+  rows: [
+    simpleRowColLayout({
+      rowKey: 'financiers-row',
+      rowClassNameOverride: 'row gy-2a',
+      items: [
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          className: 'h-100',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          className: 'h-100',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+        {
+          colClassName: 'col-12 col-md-4',
+          itemKey: 'doelenTekenradar.card',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/doelen-tekenradar'
+            },
+          }
+        },
+        // --------------
+      ]
+    })
+  ]
+});
+
 
 export const tekenradarPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'informatie/tekenradar',
     rows: [
-      {
-        key: 'row1',
-        columns: [
-          {
-            key: 'col1_1',
-            className: 'col-xs-12 col-lg-8 mt-3',
-            items: [
-              {
-                itemKey: 'LinklistTekenradar',
-                config: {
-                  type: 'linkList',
-                  links: [
-                    {
-                      linkKey: 'doelenTekenradar',
-                      type: 'internal',
-                      value: '/informatie/doelen-tekenradar'
-                    },
-                  ]
-                }
-              },
-            ]
-          },
-        ]
-      },
-      {
-        key: 'row2',
-        columns: [
-          {
-            key: 'col2_1',
-            className: 'col-xs-12 col-lg-8 mt-3',
-            items: [
-              {
-                itemKey: 'LinklistPartners',
-                config: {
-                  type: 'linkList',
-                  links: [
-                    {
-                      linkKey: 'wageningen',
-                      type: 'internal',
-                      value: '/informatie/wageningen-university'
-                    },
-                    {
-                      linkKey: 'rivm',
-                      type: 'internal',
-                      value: '/informatie/rivm'
-                    },
-                    {
-                      linkKey: 'natuurkalender',
-                      type: 'internal',
-                      value: '/informatie/natuurkalender'
-                    },
-                    {
-                      linkKey: 'natuurbericht',
-                      type: 'internal',
-                      value: '/informatie/natuurbericht'
-                    },
-                  ]
-                }
-              },
-            ]
-          },
-        ]
-      },
-      {
-        key: 'row3',
-        columns: [
-          {
-            key: 'col3_1',
-            className: 'col-xs-12 col-lg-8 mt-3',
-            items: [
-              {
-                itemKey: 'LinklistFinanciers',
-                config: {
-                  type: 'linkList',
-                  links: [
-                    {
-                      linkKey: 'zonMw',
-                      type: 'internal',
-                      value: '/informatie/zonMw'
-                    },
-                    {
-                      linkKey: 'vws',
-                      type: 'internal',
-                      value: '/informatie/ministerie-van-vws'
-                    },
-                  ]
-                }
-              },
-            ]
-          },
-        ]
-      },
+      doelenSection,
+      partnerSection,
+      financiersSection,
     ]
   }
 }
+

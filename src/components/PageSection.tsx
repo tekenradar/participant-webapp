@@ -49,7 +49,7 @@ const PageSection: React.FC<PageSectionProps> = (props) => {
   }
 
   return (
-    <div className={clsx("border-top-4 border-primary pt-1", props.className)}>
+    <div className={clsx("border-top-2 border-primary pt-1", props.className)}>
       {renderPageTitle()}
       {renderRows()}
     </div>
