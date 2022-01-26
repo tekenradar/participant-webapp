@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-secondary">
       <div className='container'>
-        <div className='d-flex p-2 pt-1'>
+        <div className='d-flex p-2 pt-0'>
           <img
             alt='Tekenradar Logo'
             src={getExternalOrLocalContentURL('/images/tekenradar-logo-cut.png')}
