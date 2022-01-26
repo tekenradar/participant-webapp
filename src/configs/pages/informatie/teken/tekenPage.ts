@@ -18,7 +18,7 @@ const tekenInfoSection: PageRow = pageSection({
           config: {
             type: 'actionCard',
             image: {
-              url: '/images/no-license/het-gedrag.jpg',
+              url: '/images/cRIVM/iStock-454232011-1920.jpg',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top',
@@ -134,7 +134,7 @@ const tekenbeetInfoSection: PageRow = pageSection({
           config: {
             type: 'actionCard',
             image: {
-              url: '/images/teekverwijderen.jpeg',
+              url: '/images/cRIVM/9785868-1920.jpg',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top',

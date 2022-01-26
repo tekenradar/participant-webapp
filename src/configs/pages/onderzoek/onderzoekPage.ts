@@ -18,7 +18,7 @@ const doelenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/VerzamelOCW-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -51,7 +51,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/ipads&iphonesnieuwewerken-47-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -70,7 +70,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/iStock-482765541-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -89,7 +89,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/iStock-159286807-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -108,7 +108,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/180624_2914_HZF6819-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -127,7 +127,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/JPJDouaneLaboratorium17-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -162,7 +162,7 @@ const resultatenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/PV-20161013-02-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -181,7 +181,7 @@ const resultatenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/ipads&phonesnieuwewerken-8-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -214,7 +214,7 @@ const voorArtsenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/cRIVM/iStock-683600772-1920.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',

@@ -54,7 +54,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/girl-tree.jpg',
+            url: '/images/cRIVM/shutterstock_80658289-1920.jpg',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -73,7 +73,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/couple-dog.jpg',
+            url: '/images/cRIVM/880-1920.jpg',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -92,7 +92,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/lyme-card.jpg',
+            url: '/images/cRIVM/82073-1920.jpg',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -116,7 +116,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/no-license/gp.png',
+            url: '/images/cRIVM/iStock-683600772-1920.jpg',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -319,7 +319,7 @@ const lymeInNLSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/man-working.jpg',
+                url: '/images/cRIVM/PV-20161013-01-1920.jpg',
                 minHeight: '300px',
                 maxHeight: '350px',
                 placement: 'top',
