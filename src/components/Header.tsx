@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <div className='d-flex p-2 pt-1'>
           <img
             alt='Tekenradar Logo'
-            src={getExternalOrLocalContentURL('/images/tekenradar-logo-neu.png')}
+            src={getExternalOrLocalContentURL('/images/tekenradar-logo-cut.png')}
             height={75}
           />
         </div>
