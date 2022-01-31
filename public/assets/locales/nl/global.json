@@ -1,6 +1,8 @@
 {
   "meldenCard": {
     "imageSrc": "/images/cRIVM/iStock-168505070-1920.jpg",
+    "copyrightNotice": "© RIVM",
+    "copyrightNoticeAlignment": "start",
     "imageBgPosition": "70% 35%",
     "imageBgSize": "cover",
     "tekenBeet": "Tekenbeet melden",

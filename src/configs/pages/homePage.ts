@@ -117,6 +117,8 @@ const moreInfoSection = (): PageRow => {
               },
               image: {
                 url: '/images/onderzoeken.png',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 placement: 'top',
                 height: '200px',
               }
@@ -153,6 +155,8 @@ const moreInfoSection = (): PageRow => {
               },
               image: {
                 url: '/images/lymecard.png',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 placement: 'top',
                 height: '200px',
               }
@@ -190,6 +194,8 @@ const moreInfoSection = (): PageRow => {
               },
               image: {
                 url: '/images/CRIVM/82106-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 placement: 'top',
                 height: '200px',
               }

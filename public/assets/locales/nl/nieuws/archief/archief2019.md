@@ -89,7 +89,7 @@ Ben je in het ‘groen’ geweest, controleer jezelf daarna dan op tekenbeten. O
 Heb je een teek? Verwijder deze dan zo snel mogelijk, dat halveert de kans op lymeziekte. Houd de plek van de beet drie maanden in de gaten. Ga naar je huisarts als je een ring of vlek ziet of als je last krijgt van andere gezondheidsklachten. Kijk op rivm.nl/tekenbeet of tekenradar.nl hoe je het best een teek kunt verwijderen.
 
 ### Meedoen aan onderzoek
-Elk jaar krijgen mensen in Nederland ruim een miljoen tekenbeten. De meeste mensen worden daarvan niet ziek, maar toch krijgen elk jaar 27.000 mensen de ziekte van Lyme. Elk jaar houden 1.000 tot 2.500 mensen daarvan lang durende klachten. Het RIVM doet onderzoek naar lyme en andere tekenbeetziekten. Kinderen en volwassenen met lyme kunnen meedoen aan dit onderzoek door zich aan te melden op www.tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met koorts na een tekenbeet kunnen zich op deze site aanmelden voor het onderzoek.
+Elk jaar krijgen mensen in Nederland ruim een miljoen tekenbeten. De meeste mensen worden daarvan niet ziek, maar toch krijgen elk jaar 27.000 mensen de ziekte van Lyme. Elk jaar houden 1.000 tot 2.500 mensen daarvan lang durende klachten. Het RIVM doet onderzoek naar lyme en andere tekenbeetziekten. Kinderen en volwassenen met Lyme kunnen meedoen aan dit onderzoek door zich aan te melden op www.tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met koorts na een tekenbeet kunnen zich op deze site aanmelden voor het onderzoek.
 
 Kijk voor meer informatie op
 - rivm.nl/tekenbeet

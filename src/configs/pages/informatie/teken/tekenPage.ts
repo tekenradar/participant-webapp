@@ -19,6 +19,8 @@ const tekenInfoSection: PageRow = pageSection({
             type: 'actionCard',
             image: {
               url: '/images/cRIVM/iStock-454232011-1920.jpg',
+              copyrightNotice: '© RIVM',
+              copyrightNoticeXAlignment: 'start',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top',
@@ -135,6 +137,8 @@ const tekenbeetInfoSection: PageRow = pageSection({
             type: 'actionCard',
             image: {
               url: '/images/cRIVM/9785868-1920.jpg',
+              copyrightNotice: '© RIVM',
+              copyrightNoticeXAlignment: 'start',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top',

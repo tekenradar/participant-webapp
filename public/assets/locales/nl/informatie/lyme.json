@@ -1,10 +1,10 @@
 {
   "title": "Informatie over ziekte van lyme",
   "lymeInfo": {
-    "title": "Ziekte van lyme"
+    "title": "Ziekte van Lyme"
   },
   "basiskennisLyme": {
-    "title": "Basiskennis lyme",
+    "title": "Basiskennis Lyme",
     "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. Het meest voorkomende signaal van de ziekte van Lyme is een rode ring- of vlekvormige huiduitslag (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er sprake van een blauwachtige of roze vlek. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. ",
     "actionBtn": "Lees meer"
   },
@@ -54,7 +54,7 @@
     "actionBtn": "Lees meer"
   },
   "lymeVoorkomen": {
-    "title": "Voorkomen ziekte van lyme",
+    "title": "Voorkomen ziekte van Lyme",
     "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt.",
     "actionBtn": "Lees meer"
   },
@@ -82,7 +82,7 @@
     "actionBtn": "Lees meer"
   },
   "andreZiekten": {
-    "title": "Andere Ziekten"
+    "title": "Andere ziekten"
   },
   "basiskennisAndereZiekten": {
     "title": "Andere ziekten door teken en co-infecties",

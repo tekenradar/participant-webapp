@@ -55,6 +55,8 @@ const lymeInfoSection = (): PageRow => {
           type: 'actionCard',
           image: {
             url: '/images/cRIVM/shutterstock_80658289-1920.jpg',
+            copyrightNotice: '© RIVM',
+            copyrightNoticeXAlignment: 'start',
             minHeight: '200px',
             maxHeight: '150px',
             placement: 'top',
@@ -74,6 +76,8 @@ const lymeInfoSection = (): PageRow => {
           type: 'actionCard',
           image: {
             url: '/images/cRIVM/880-1920.jpg',
+            copyrightNotice: '© RIVM',
+            copyrightNoticeXAlignment: 'start',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -93,8 +97,10 @@ const lymeInfoSection = (): PageRow => {
           type: 'actionCard',
           image: {
             url: '/images/cRIVM/82073-1920.jpg',
+            copyrightNotice: '© RIVM',
+            copyrightNoticeXAlignment: 'start',
             minHeight: '200px',
-            maxHeight: '350px',
+            maxHeight: '350px', 
             placement: 'top',
           },
           action: {
@@ -117,6 +123,8 @@ const lymeInfoSection = (): PageRow => {
           type: 'actionCard',
           image: {
             url: '/images/cRIVM/iStock-683600772-1920.jpg',
+            copyrightNotice: '© RIVM',
+            copyrightNoticeXAlignment: 'start',
             minHeight: '200px',
             maxHeight: '350px',
             placement: 'top',
@@ -320,6 +328,8 @@ const lymeInNLSection = (): PageRow => {
               type: 'actionCard',
               image: {
                 url: '/images/cRIVM/PV-20161013-01-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '300px',
                 maxHeight: '350px',
                 placement: 'top',

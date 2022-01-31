@@ -22,7 +22,7 @@ Kijk voor meer informatie op rivm.nl/tekenbeet, expertisecentrumlyme.nl  en teke
 
 ## Neem jij een teek mee terug van je zomervakantie?
 *13 juli 2018*
-**Onderzoeksorganisatie ZonMw vraagt om alertheid op tekenbeten tijdens de zomervakantie. De kans is niet heel groot maar teken kunnen ziekten veroorzaken met vervelende gevolgen. Zorg er dus voor dat je geen lyme of andere ziekten die teken overdragen, als souvenir mee terug neemt.**
+**Onderzoeksorganisatie ZonMw vraagt om alertheid op tekenbeten tijdens de zomervakantie. De kans is niet heel groot maar teken kunnen ziekten veroorzaken met vervelende gevolgen. Zorg er dus voor dat je geen Lyme of andere ziekten die teken overdragen, als souvenir mee terug neemt.**
 
 ### Lymeziekte
 De meest voorkomende tekenoverdraagbare ziekte in Nederland is de ziekte van Lyme. Jaarlijks lopen mensen meer dan een miljoen tekenbeten op. Hierdoor krijgen 27.000 mensen lymeziekte. Daarvan houden 1000 tot 2500 mensen langdurig klachten, ook na behandeling; zonder dat bekend is hoe dat komt. ZonMw heeft samen met alle betrokken partijen een actieplan opgesteld, waaruit onderzoeksprojecten zijn voortgekomen om de kennis over de diagnose en het verloop van lymeziekte te vergroten. Volwassenen en kinderen met een rode ring of vlek na een tekenbeet kunnen zich voor deze onderzoeken aanmelden via tekenradar.nl.
@@ -53,10 +53,10 @@ Het hele jaar door kun je een tekenbeet oplopen. Als het warmer is dan zeven gra
 In Nederland krijgen elk jaar 27.000 mensen de ziekte van Lyme na een tekenbeet. Via tekenradar.nl kun je zien waar in de afgelopen periode veel mensen zijn gebeten door een teek, en waar mensen de ziekte van Lyme hebben opgelopen. Je kunt jezelf op deze website ook aanmelden voor deelname aan onderzoek als je een tekenbeet of lyme hebt opgelopen.
 
 ### “Duitse” testen
-Met de data van het onderzoek kijken onderzoekers nu voor het eerst ook of met zogenoemde cellulaire testen het ontstaan van langdurige klachten na lyme voorspeld kan worden. Ook kijken de onderzoekers of de testen de diagnostiek voor Lyme kunnen verbeteren. Deze testen worden door sommige klinieken in Duitsland al aangeboden, maar de bruikbaarheid van deze testen is nog niet goed onderzocht. Van den Wijngaard: “Door te onderzoeken hoe het afweersysteem reageert op de infectie, willen we kijken of we met deze testen kunnen voorspellen of iemand klachten houdt na behandeling.”
+Met de data van het onderzoek kijken onderzoekers nu voor het eerst ook of met zogenoemde cellulaire testen het ontstaan van langdurige klachten na Lyme voorspeld kan worden. Ook kijken de onderzoekers of de testen de diagnostiek voor Lyme kunnen verbeteren. Deze testen worden door sommige klinieken in Duitsland al aangeboden, maar de bruikbaarheid van deze testen is nog niet goed onderzocht. Van den Wijngaard: “Door te onderzoeken hoe het afweersysteem reageert op de infectie, willen we kijken of we met deze testen kunnen voorspellen of iemand klachten houdt na behandeling.”
 
 ### Meedoen aan onderzoek
-Kinderen en volwassenen met lyme kunnen meedoen aan onderzoek door zich aan te melden op tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met plotselinge koorts na een tekenbeet kunnen zich aanmelden voor het onderzoek.
+Kinderen en volwassenen met Lyme kunnen meedoen aan onderzoek door zich aan te melden op tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met plotselinge koorts na een tekenbeet kunnen zich aanmelden voor het onderzoek.
 
 ### Controleer op tekenbeten!
 Ben je in het bos, de duinen of in het park geweest, controleer jezelf daarna dan op tekenbeten. En vergeet niet om jezelf ook te controleren wanneer je in de tuin bent geweest. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten. Kijk op rivm.nl/tekenbeet hoe je het best een teek kunt verwijderen.

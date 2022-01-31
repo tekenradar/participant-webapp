@@ -17,6 +17,8 @@ const doelenSection: PageRow = pageSection({
             type: 'actionCard',
             image: {
               url: '/images/cRIVM/IenW31072020TD002-1920.jpg',
+              copyrightNotice: '© RIVM',
+              copyrightNoticeXAlignment: 'start',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top'
@@ -48,7 +50,7 @@ const partnerSection: PageRow = pageSection({
             image: {
               url: '/images/no-license/teken-card.jpg',
               backgroundPosition: '70% 35%',
-              height: 200,
+              height: 320,
               //className: 'h-100'
             },
           }
@@ -56,10 +58,16 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'rivm.card',
           className: 'h-100',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-rivm.jpeg',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/doelen-tekenradar'
@@ -69,12 +77,12 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'wageningen.card',
           className: 'h-100',
           config: {
             type: 'actionCard',
             image: {
-              url: '/images/cRIVM/iStock-683600772-1920.jpg',
+              url: '/images/logo-WUR.png',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top'
@@ -89,9 +97,15 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'amc.card',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-AMC.png',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/doelen-tekenradar'
@@ -101,9 +115,15 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'fsd.card',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-FSD.png',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/doelen-tekenradar'
@@ -113,9 +133,15 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'radboudumc.card',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-Radboudumc.jpg',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/doelen-tekenradar'
