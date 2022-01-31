@@ -10,6 +10,7 @@ const tekenInfoSection: PageRow = pageSection({
   className: 'mt-3',
   rows: [
     leadColLayout({
+      containerClassName: ' mb-2a',
       rowKey: 'tekenInfo-row',
       leadItems: [
         {
@@ -34,7 +35,7 @@ const tekenInfoSection: PageRow = pageSection({
         simpleRowColLayout({
           rowKey: 'row1', items: [
             {
-              colClassName: 'col-12 col-md-6',
+              colClassName: 'col-12',
               itemKey: 'waarLevenTeken',
               className: 'h-100',
               config: {
@@ -45,8 +46,9 @@ const tekenInfoSection: PageRow = pageSection({
                 },
               }
             },
+            // ++++++++++
             {
-              colClassName: 'col-12 col-md-6',
+              colClassName: 'col-12 col-md-12 col-lg-6',
               itemKey: 'hetGedrag',
               className: 'h-100',
               config: {
@@ -56,13 +58,10 @@ const tekenInfoSection: PageRow = pageSection({
                   value: '/informatie/het-gedrag-van-de-teek'
                 },
               }
-            }
-          ]
-        }),
-        simpleRowColLayout({
-          rowKey: 'row2', items: [
+            },
+            // ++++++++++
             {
-              colClassName: 'col-12 col-md-6',
+              colClassName: 'col-12 col-md-12 col-lg-6',
               itemKey: 'wanneerActief',
               className: "h-100",
               config: {
@@ -73,50 +72,54 @@ const tekenInfoSection: PageRow = pageSection({
                 },
               }
             },
-            {
-              colClassName: 'col-12 col-md-6',
-              className: "h-100",
-              itemKey: 'hoeveelBesmet',
-              config: {
-                type: 'actionCard',
-                action: {
-                  type: 'navigate',
-                  value: '/informatie/hoeveel-teken-zijn-besmet'
-                },
-              }
-            },
-          ]
-        }),
-        simpleRowColLayout({
-          rowKey: 'row3', items: [
-            {
-              colClassName: 'col-12 col-md-6',
-              itemKey: 'tekenbeetVoorkomen',
-              className: "h-100",
-              config: {
-                type: 'actionCard',
-                action: {
-                  type: 'navigate',
-                  value: '/informatie/hoe-kan-ik-een-tekenbeet-voorkomen'
-                },
-              }
-            },
-            {
-              colClassName: 'col-12 col-md-6',
-              itemKey: 'hyalomma',
-              className: "h-100",
-              config: {
-                type: 'actionCard',
-                action: {
-                  type: 'navigate',
-                  value: '/informatie/hyalomma-teek'
-                },
-              }
-            },
           ]
         }),
       ]
-    })
+    }),
+    simpleRowColLayout({
+      // containerClassName: 'mt-2a',
+      rowClassNameOverride: 'row gy-2a justify-content-center justify-content-md-start',
+      rowKey: 'row3', items: [
+        {
+          colClassName: 'col-12 col-sm-10 col-md-6 col-lg-4',
+          className: "h-100",
+          itemKey: 'hoeveelBesmet',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/hoeveel-teken-zijn-besmet'
+            },
+          }
+        },
+        // ++++++++++
+        {
+          colClassName: 'col-12 col-sm-10 col-md-6 col-lg-4',
+          itemKey: 'tekenbeetVoorkomen',
+          className: "h-100",
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/hoe-kan-ik-een-tekenbeet-voorkomen'
+            },
+          }
+        },
+        // ++++++++++
+        {
+          colClassName: 'col-12 col-sm-10 col-md-6 col-lg-4',
+          itemKey: 'hyalomma',
+          className: "h-100",
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/hyalomma-teek'
+            },
+          }
+        },
+      ]
+    }),
   ]
 });
 
