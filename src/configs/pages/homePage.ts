@@ -36,7 +36,7 @@ const newsSection = (): PageRow => {
             rowKey: 'row1', items: [
               {
                 colClassName: 'col-12',
-                itemKey: 'topNews',
+                itemKey: 'topNews1',
                 //className: 'mt-3',
                 config: {
                   type: 'actionCard',
