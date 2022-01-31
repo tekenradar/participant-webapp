@@ -11,6 +11,8 @@ const newsSection = (): PageRow => {
     rows: [
       leadColLayout({
         rowKey: 'latestNews',
+        leadColClassName: 'col-12 col-sm-10 col-md-5 col-lg-6',
+        panelColClassName: 'col-12 col-sm-10 col-md-7 col-lg-6',
         leadItems: [
           {
             itemKey: 'topNews',
@@ -67,7 +69,7 @@ const newsSection = (): PageRow => {
                   image: {
                     url: '/images/tekenbeeten-km.png',
                     placement: 'left',
-                    width: '200px',
+                    width: '300px',
                     maxWidth: '200px',
                   }
                 }
