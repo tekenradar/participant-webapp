@@ -130,6 +130,9 @@ const tekenbeetInfoSection: PageRow = pageSection({
   rows: [
     leadColLayout({
       rowKey: 'tekenInfo-row',
+      containerClassName: 'mb-2a',
+      leadColClassName: 'col-12 col-sm-10 col-md-5 col-lg-6',
+      panelColClassName: 'col-12 col-sm-10 col-md-7 col-lg-6',
       leadItems: [
         {
           itemKey: 'basiskennisTekenbeet',
@@ -153,7 +156,7 @@ const tekenbeetInfoSection: PageRow = pageSection({
         simpleRowColLayout({
           rowKey: 'row1', items: [
             {
-              colClassName: 'col-12 col-md-6',
+              colClassName: 'col-12',
               itemKey: 'controleerTekenbeten',
               className: 'h-100',
               config: {
@@ -165,7 +168,7 @@ const tekenbeetInfoSection: PageRow = pageSection({
               }
             },
             {
-              colClassName: 'col-12 col-md-6',
+              colClassName: 'col-12',
               itemKey: 'watMoetIkDoen',
               className: 'h-100',
               config: {
@@ -178,36 +181,37 @@ const tekenbeetInfoSection: PageRow = pageSection({
             },
           ]
         }),
-        simpleRowColLayout({
-          rowKey: 'row2', items: [
-            {
-              colClassName: 'col-12 col-md-6',
-              itemKey: 'hoeVerwijder',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                action: {
-                  type: 'navigate',
-                  value: '/informatie/hoe-verwijder-ik-een-teek'
-                },
-              }
-            },
-            {
-              colClassName: 'col-12 col-md-6',
-              itemKey: 'hoeGroot',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                action: {
-                  type: 'navigate',
-                  value: '/informatie/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet'
-                },
-              }
-            },
-          ]
-        }),
       ]
-    })
+    }),
+    simpleRowColLayout({
+      rowClassNameOverride: 'row gy-2a',
+      rowKey: 'row2', items: [
+        {
+          colClassName: 'col-12 col-md-6',
+          itemKey: 'hoeVerwijder',
+          className: 'h-100',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/hoe-verwijder-ik-een-teek'
+            },
+          }
+        },
+        {
+          colClassName: 'col-12 col-md-6',
+          itemKey: 'hoeGroot',
+          className: 'h-100',
+          config: {
+            type: 'actionCard',
+            action: {
+              type: 'navigate',
+              value: '/informatie/hoe-groot-is-de-kans-op-besmetting-na-een-tekenbeet'
+            },
+          }
+        },
+      ]
+    }),
   ]
 });
 
