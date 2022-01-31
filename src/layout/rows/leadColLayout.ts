@@ -7,6 +7,7 @@ export const leadColLayout = (props: {
   leadItems: PageItem[];
   panelRows: PageRow[];
   leadColClassName?: string;
+  panelColClassName?: string;
 }): PageRow => {
 
 
@@ -47,7 +48,7 @@ export const leadColLayout = (props: {
 
     return {
       key: props.rowKey + '-panel',
-      className: 'col-12 col-sm-10 col-md-7 col-lg-8',
+      className: props.panelColClassName ? props.panelColClassName : 'col-12 col-sm-10 col-md-7 col-lg-8',
       items: [
         ...rows,
       ]
