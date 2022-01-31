@@ -15,6 +15,12 @@ const doelenSection: PageRow = pageSection({
           className: "mt-2",
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/cRIVM/IenW31072020TD002-1920.jpg',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/doelen-tekenradar'
@@ -67,10 +73,17 @@ const partnerSection: PageRow = pageSection({
           className: 'h-100',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/cRIVM/iStock-683600772-1920.jpg',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/doelen-tekenradar'
             },
+
           }
         },
         // --------------

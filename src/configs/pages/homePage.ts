@@ -156,23 +156,7 @@ const moreInfoSection = (): PageRow => {
               }
             }
           },
-          {
-            colClassName: colClassName,
-            itemKey: 'verwijderCard',
-            className: 'h-100',
-            config: {
-              type: 'actionCard',
-              action: {
-                type: 'navigate',
-                value: '/informatie/hoe-verwijder-ik-een-teek',
-              },
-              image: {
-                url: '/images/teekverwijderen.jpeg',
-                placement: 'top',
-                height: '200px',
-              }
-            }
-          },
+
           //
           {
             colClassName: colClassName,
@@ -185,7 +169,25 @@ const moreInfoSection = (): PageRow => {
                 value: '/faq',
               },
               image: {
-                url: '/images/no-license/faq-card.jpg',
+                url: '/images/faq.png',
+                placement: 'top',
+                height: '200px',
+              }
+            }
+          },
+          //
+          {
+            colClassName: colClassName,
+            itemKey: 'verwijderCard',
+            className: 'h-100',
+            config: {
+              type: 'actionCard',
+              action: {
+                type: 'navigate',
+                value: '/informatie/hoe-verwijder-ik-een-teek',
+              },
+              image: {
+                url: '/images/CRIVM/82106-1920.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -203,8 +205,8 @@ const moreInfoSection = (): PageRow => {
                 value: '/tekenradar',
               },
               image: {
-                url: '/images/tekenradar-logo-colored.png',
-                backgroundSize: 'contain',
+                url: '/images/tekenradarWithBackground.png',
+                //backgroundSize: 'contain',
                 placement: 'top',
                 height: '200px',
               }
