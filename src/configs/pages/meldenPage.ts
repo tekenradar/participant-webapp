@@ -18,7 +18,7 @@ export const meldenPage = (path: string): PageConfig => {
                   type: 'extension',
                   config: {
                     type: 'surveyComponent',
-                    studyKey: 'default',
+                    studyKey: 'tekenradar',
                     defaultSurveyKey: 'PDiff',
                     urls: {
                       finishedFlowWithoutLogin: '/home',
