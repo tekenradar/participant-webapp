@@ -26,12 +26,24 @@ const ImageGallery: React.FC<ImageGalleryProps> = (props) => {
 
   return (
     <Carousel>
-      {items.map((item, index) => <Carousel.Item key={index.toString()}>
-        <img
-          className="d-block w-100"
-          src={getExternalOrLocalContentURL(item.src)}
-          alt={item.alt}
-        />
+      {items.map((item, index) => <Carousel.Item
+        key={index.toString()}
+        className='bg-grey-7'
+        style={{
+          height: 400
+        }}
+      >
+        <div className='d-flex h-100'>
+          <img
+            className="d-block w-100"
+            style={{
+              objectFit: 'contain',
+              height: 'auto',
+            }}
+            src={getExternalOrLocalContentURL(item.src)}
+            alt={item.alt}
+          />
+        </div>
         <Carousel.Caption>
           <h3>{item.caption.title}</h3>
           <p>{item.caption.body}</p>
