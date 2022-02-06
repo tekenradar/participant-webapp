@@ -9,7 +9,7 @@ import { meldenCard } from "../../../cards/meldenCard";
 export const archief2016Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'niuews/archief2016',
+    pageKey: 'niuews/archief/archief2016',
     topImage: {
       type: 'teaserImage',
       image: {

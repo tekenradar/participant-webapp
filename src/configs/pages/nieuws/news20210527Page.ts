@@ -11,7 +11,7 @@ import { meldenCard } from "../../cards/meldenCard";
 export const news20210527Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'niuews/2021-05-27',
+    pageKey: 'niuews/news20210527',
     topImage: {
       type: 'teaserImage',
       image: {

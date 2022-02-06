@@ -21,7 +21,7 @@ const newsSection = (): PageRow => {
               type: 'actionCard',
               action: {
                 type: 'navigate',
-                value: '/onderzoek',
+                value: '/nieuws/2021-07-08',
               },
               useFooterText: true,
               image: {
@@ -44,7 +44,7 @@ const newsSection = (): PageRow => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/onderzoek',
+                    value: '/nieuws/2021-05-27',
                   },
                   useFooterText: true,
                   image: {
@@ -63,7 +63,7 @@ const newsSection = (): PageRow => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/onderzoek',
+                    value: '/nieuws/2021-04-19',
                   },
                   useFooterText: true,
                   image: {
