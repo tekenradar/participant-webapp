@@ -34,7 +34,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
           className={imageClassName}
           href="" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-AMC.png")} alt="Logo AMC"
-            width={330}
+            width={320}
             className='mw-100'
           />
         </a>
@@ -42,15 +42,15 @@ const Partners: React.FC<PartnersProps> = (props) => {
           className={imageClassName}
           href="https://www.fsd.nl/" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-FSD.png")} alt="Logo FSD"
-            width={200}
+            width={320}
             className='mw-100'
           />
         </a>
         <a
           className={imageClassName}
           href="https://www.radboudumc.nl/patientenzorg" target="_blank" rel="noreferrer">
-          <img src={getExternalOrLocalContentURL("/images/logo-radboudumc.jpg")} alt="Logo Radboudumc"
-            width={300}
+          <img src={getExternalOrLocalContentURL("/images/logo-radboudumc.png")} alt="Logo Radboudumc"
+            width={320}
             className='mw-100'
           />
         </a>

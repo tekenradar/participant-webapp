@@ -1,0 +1,58 @@
+{
+  "title": "Informatie over tekenradar",
+  "tekenradarInfo": {
+    "title": "Doelen tekenradar"
+  },
+  "doelenTekenradar": {
+    "title": "Doelen tekenradar",
+    "body": "... ",
+    "actionBtn": "Lees meer"
+  },
+  "partners": {
+    "title": "Partners"
+  },
+  "rivm": {
+    "title": "Rijksinstituut voor Volksgezondheit en Milieu (RIVM)",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+  "wageningen": {
+    "title": "Wageningen University & Research (WUR)",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+  "amc": {
+    "title": "Amsterdam Universitair Medisch Centrum (AMC)",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+  "fsd": {
+    "title": "Stichting voor Duurzame Ontwikkeling (Foundation for Sustainable Development, FSD) ",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+  "radboudumc": {
+    "title": "Radboud Universitair Medisch Centrum (Radboudumc)",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+
+"financiers": {
+  "title": "Financiers"
+},
+"ZonMw": {
+  "title": "ZonMw",
+  "body": " ",
+  "actionBtn": "Lees meer"
+},
+"VWS": {
+  "title": "Ministerie van Volksgezondheid, Welzijn en Sport (VWS)",
+  "body": " ",
+  "actionBtn": "Lees meer"
+},
+"NLe": {
+  "title": "Nederlands Lymeziekte-expertise centrum (NLe)",
+  "body": " ",
+  "actionBtn": "Lees meer"
+}
+}

@@ -11,7 +11,7 @@ const doelenSection: PageRow = pageSection({
       items: [
         {
           colClassName: 'col-12',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'doelenTekenradar',
           className: "mt-2",
           config: {
             type: 'actionCard',
@@ -44,7 +44,7 @@ const partnerSection: PageRow = pageSection({
       items: [
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'doelenTekenradar',
           config: {
             type: 'teaserImage',
             image: {
@@ -58,26 +58,26 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'rivm.card',
+          itemKey: 'rivm',
           className: 'h-100',
           config: {
             type: 'actionCard',
             image: {
-              url: '/images/logo-rivm.jpeg',
+              url: '/images/logo-RIVM.png',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top'
             },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/rivm'
             },
           }
         },
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'wageningen.card',
+          itemKey: 'wageningen',
           className: 'h-100',
           config: {
             type: 'actionCard',
@@ -89,7 +89,7 @@ const partnerSection: PageRow = pageSection({
             },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/wageningen-university'
             },
 
           }
@@ -97,7 +97,7 @@ const partnerSection: PageRow = pageSection({
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'amc.card',
+          itemKey: 'amc',
           config: {
             type: 'actionCard',
             image: {
@@ -108,14 +108,14 @@ const partnerSection: PageRow = pageSection({
             },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/amc'
             },
           }
         },
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'fsd.card',
+          itemKey: 'fsd',
           config: {
             type: 'actionCard',
             image: {
@@ -126,25 +126,25 @@ const partnerSection: PageRow = pageSection({
             },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/fsd'
             },
           }
         },
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'radboudumc.card',
+          itemKey: 'radboudumc',
           config: {
             type: 'actionCard',
             image: {
-              url: '/images/logo-Radboudumc.jpg',
+              url: '/images/logo-radboudumc.png',
               minHeight: '200px',
               maxHeight: '350px',
               placement: 'top'
             },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/radboud'
             },
           }
         },
@@ -164,38 +164,50 @@ const financiersSection: PageRow = pageSection({
       items: [
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'ZonMw',
           className: 'h-100',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-ZonMw.png',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/ZonMw'
             },
           }
         },
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'VWS',
           className: 'h-100',
           config: {
             type: 'actionCard',
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/ministerie-van-vws'
             },
           }
         },
         // --------------
         {
           colClassName: 'col-12 col-md-4',
-          itemKey: 'doelenTekenradar.card',
+          itemKey: 'NLe',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-NLEteek.png',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
+              value: '/informatie/NLe'
             },
           }
         },

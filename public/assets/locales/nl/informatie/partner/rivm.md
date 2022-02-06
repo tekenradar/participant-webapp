@@ -1,25 +1,18 @@
 
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/logo-rivm.jpeg" alt="Het Rijksinstituut voor Volksgezondheid en Milieu">
-  <figcaption className="Logo Het Rijksinstituut voor Volksgezondheid en Milieu"></figcaption>
+<figure className="figure mb-1 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/logo-RIVM.png" alt="Het RIVM">
+  <figcaption className="Logo RIVM"></figcaption>
 </figure>
 
-Hoe houden we onszelf en onze leefomgeving gezond? Dat is de uitdaging waar diverse lokale, nationale en internationale overheden en professionals dagelijks voor staan. [Het Rijksinstituut voor Volksgezondheid en Milieu (RIVM)](https://www.rivm.nl/) verricht onderzoek, adviseert en ondersteunt de overheid bij deze uitdaging.
-
-Het effectief bestrijden van infectieziekten, mensen gezond houden, goede zorg bieden, de veiligheid van consumenten bewaken en een gezonde leefomgeving bevorderen. Het RIVM verzamelt wereldwijd kennis over deze thema’s, past die toe en verspreidt de knowhow onder beleidsmedewerkers, wetenschappers, inspecteurs en tegenwoordig ook onder het algemeen publiek. Elk jaar brengt het RIVM talloze rapporten en adviezen uit over volksgezondheid en gezondheidszorg, voeding, natuur en milieu en rampenbestrijding.
-
+Het [Rijksinstituut voor Volksgezondheid en Milieu (RIVM)](https://www.rivm.nl) zet zich in voor een gezonde bevolking en een duurzame, veilige en gezonde leefomgeving. Dit doen we op basis van onafhankelijk wetenschappelijk onderzoek. Samen met onze opdrachtgevers signaleren we welk onderzoek nodig is en voeren we dit uit. Elk jaar brengt het RIVM talloze rapporten en adviezen uit over volksgezondheid en gezondheidszorg, voeding, natuur en milieu en rampenbestrijding. We geven advies aan de overheid, professionals en burgers en delen onze kennis. Zo ondersteunen wij de samenleving om onszelf en onze leefomgeving gezond te houden. 
  
-
-Bij het RIVM werken 1500 mensen. Tot de opdrachtgevers behoren:
-
+Bij het RIVM werken ruim 2.000 mensen. Tot de opdrachtgevers behoren:
 - het Ministerie van Volksgezondheid, Welzijn en Sport
-
-- het Ministerie van Infrastructuur en Milieu
-
-- het Ministerie van Economische Zaken, Landbouw en Innovatie
-
+- het Ministerie van Infrastructuur en Waterstaat
+- het Ministerie van Economische Zaken en Klimaat
 - diverse inspecties
-
 - de Europese Unie 
-
 - de Verenigde Naties
+- de Wereldgezondheidsorganisatie
+
+Het Centrum Epidemiologie en Surveillance van Infectieziekten (EPI) binnen het RIVM analyseert en bewaakt de gezondheid van Nederland op het gebied van infectieziekten en onderzoekt de effectiviteit en kosteneffectiviteit van maatregelen voor de bestrijding daarvan. EPI gebruikt hiervoor data uit surveillance en onderzoek om zo tijdig inzicht in trends en risico’s van infectieziekten te ontsluiten. Eén van de expertisevelden binnen het centrum is Gastro-Enterale infecties en Zoonosen (GEZ), waarbinnen onderzoek gedaan wordt naar tekenbeten en teken-overdraagbare ziektes, zoals ziekte van Lyme. 

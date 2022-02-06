@@ -5,10 +5,10 @@ import { simpleRowColLayout } from "../../../../../layout/rows/simpleRowColLayou
 import { meldenCard } from "../../../../cards/meldenCard";
 
 
-export const natuurkalenderPage = (path: string): PageConfig => {
+export const amcPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/partner/natuurkalender',
+    pageKey: 'informatie/partner/amc',
     topImage: {
       type: 'teaserImage',
       image: {

@@ -42,6 +42,14 @@ const tekenInfoSection: PageRow = pageSection({
               className: 'h-100',
               config: {
                 type: 'actionCard',
+                image: {
+                  url: '/images/cRIVM/iStock_76053781_XXXLARGE-1920.jpg',
+                  copyrightNotice: '© RIVM',
+                  copyrightNoticeXAlignment: 'start',
+                  minHeight: '200px',
+                  maxHeight: '350px',
+                  placement: 'top',
+                },
                 action: {
                   type: 'navigate',
                   value: '/informatie/waar-leven-teken'
@@ -83,7 +91,7 @@ const tekenInfoSection: PageRow = pageSection({
       rowClassNameOverride: 'row gy-2a justify-content-center justify-content-md-start',
       rowKey: 'row3', items: [
         {
-          colClassName: 'col-12 col-sm-10 col-md-6 col-lg-4',
+          colClassName: 'col-12 col-sm-10 col-md-12 col-lg-4',
           className: "h-100",
           itemKey: 'hoeveelBesmet',
           config: {
@@ -96,7 +104,7 @@ const tekenInfoSection: PageRow = pageSection({
         },
         // ++++++++++
         {
-          colClassName: 'col-12 col-sm-10 col-md-6 col-lg-4',
+          colClassName: 'col-12 col-sm-10 col-md-12 col-lg-4',
           itemKey: 'tekenbeetVoorkomen',
           className: "h-100",
           config: {
@@ -109,7 +117,7 @@ const tekenInfoSection: PageRow = pageSection({
         },
         // ++++++++++
         {
-          colClassName: 'col-12 col-sm-10 col-md-6 col-lg-4',
+          colClassName: 'col-12 col-sm-10 col-md-12 col-lg-4',
           itemKey: 'hyalomma',
           className: "h-100",
           config: {
@@ -165,6 +173,14 @@ const tekenbeetInfoSection: PageRow = pageSection({
               className: 'h-100',
               config: {
                 type: 'actionCard',
+                image: {
+                  url: '/images/teekophuid.jpg',
+                  copyrightNotice: '© RIVM',
+                  copyrightNoticeXAlignment: 'start',
+                  minHeight: '200px',
+                  maxHeight: '350px',
+                  placement: 'top',
+                },
                 action: {
                   type: 'navigate',
                   value: '/informatie/hoe-controleer-ik-op-tekenbeten'

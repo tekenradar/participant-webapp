@@ -1,19 +1,11 @@
-
-
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/logo-wageningen.gif" alt="Logo of the Wageningen University">
+<figure className="figure mb-1 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/logo-wur.png" alt="Logo Wageningen University & Research">
   <figcaption className="Logo Wageningen University"></figcaption>
 </figure>
-Vanuit Wageningen University zijn de Leerstoelgroep Milieusysteemanalyse en het Laboratorium voor Entomologie betrokken.
 
-## Over Wageningen Universiteit
 
-[Wageningen Universiteit](https://www.wur.nl/nl/wageningen-university.htm), onderdeel van Wageningen UR,  is de belangrijkste Europese Universiteit op het gebied van de Life Sciences. Onderzoekers en studenten van Wageningen Universiteit richten zich op onderwerpen op het terrein van de voeding, gezondheid, natuur en leefomgeving.
+To explore the potential of nature to improve the quality of life. Dat is de missie van [Wageningen University & Research](https://www.wur.nl). Ruim 6.800 medewerkers en 12.900 studenten uit meer dan 100 landen dragen hier aan bij. Ze doen dat niet alleen in Wageningen maar verspreid over de hele wereld. Dit doen ze in het domein van gezonde voeding en leefomgeving met behulp van eigen onderzoek voor overheden en het bedrijfsleven. 
 
-## Leerstoelgroep Milieusysteemanalyse
+Binnen Wageningen University & Research wordt al jarenlang onderzoek gedaan aan allerlei aspecten van teken en tekengebonden ziekten. Waar zitten welke teken, de gastheren van de teek en welke ziekteverwekkers zitten in de teken. Wat is de invloed van verandering en weer en klimaat op teken en hun gastheren. Ook de meer sociaal-wetenschappelijke vragen komen aan bod zoals waar en wanneer mensen gebeten worden, hoe mensen het beste gestimuleerd kunnen worden om teken tijdig te verwijderen of hoe we de kennis over teken het beste naar alle betrokkenen kunnen communiceren.
 
-De [Leerstoelgroep Milieusysteemanalyse](https://www.wur.nl/en/Research-Results/Chair-groups/Environmental-Sciences/Environmental-Systems-Analysis-Group.htm) richt zich op kwantitatief en multidisciplinair onderzoek waarbij het analyseren, interpreteren, simuleren en communiceren van complexe milieuproblemen vanuit verschillende gezichtspunten centraal staat. Het onderzoek van Milieusysteemanalyse combineert aspecten vanuit ecologie, economie, technologie en beleid met als doel nieuwe inzichten in de oorzaken, gevolgen en mogelijke oplossingen van complexe milieuvraagstukken te ontwikkelen. De betrokkenheid bij Tekenradar.nl komt voort uit twee projecten: De Natuurkalender en Natuurbericht.nl die beiden gecoördineerd worden door Dr.Ir. Arnold van Vliet.
-
-## Laboratorium voor Entomologie
-
-Het [Laboratorium voor Entomologie](https://www.wur.nl/en/Research-Results/Chair-groups/Plant-Sciences/Laboratory-of-Entomology.htm) integreert fundamenteel en toegepast onderzoek aan de biologie van insecten en spinachtigen (mijten en teken). Centraal staan insect-plant en insect-vertebraat interacties, waarbij grondige kennis over de biologie van het organisme bijdraagt aan het ontwikkelen van duurzame bestrijdingsmaatregelen van plaaginsecten in de landbouw en insecten die de gezondheid van mens en dier bedreigen. Het onderzoek loop van genetisch onderzoek tot aan populaties van (plaag)insecten en hun natuurlijke belagers. Het Laboratorium voor Entomologie heeft vanaf het eerste uur samengewerkt met het tekenbetenonderzoek van de Natuurkalender, en is momenteel betrokken bij een langjarig project naar de ontwikkeling van preventiemethoden voor de ziekte van Lyme.
+Allerlei onderzoeksgroepen zijn dus betrokken bij het tekenonderzoek. De [Leerstoelgroep Milieusysteemanalyse](https://www.wur.nl/nl/Onderzoek-Resultaten/Leerstoelgroepen/Omgevingswetenschappen/Milieusysteemanalyse.htm) is het eerste aanspreekpunt voor het onderzoek dat in het kader van Tekenradar vanuit Wageningen University & Research uitgevoerd wordt. Tekenradar komt voort uit het nationaal fenologisch netwerk [De Natuurkalender](https://www.naturetoday.com/intl/nl/observations/natuurkalender?utm_source=natuurkalender.nl&utm_medium=redirect&utm_campaign=olddomain) dat mede door de Leerstoelgroep Milieusysteemanalyse is opgezet. 

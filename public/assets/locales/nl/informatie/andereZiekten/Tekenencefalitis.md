@@ -18,7 +18,7 @@ Een andere, zeldzame besmettingsroute voor de mens is het drinken van besmette r
  
 
 ## Waar komt teken-encefalitis voor?
-Teken-encefalitis  komt voor in delen van Europa, Rusland en bepaalde gebieden in Centraal-Azië. In Europa zijn ongeveer 2000 en in Rusland 10.000 patiënten per jaar.  In Nederland is het virus in teken gevonden, onder andere op de Sallandse heuvelrug en op de Utrechtse Heuvelrug. Ook zijn er enkele patïenten met TBE-virus infectie geweest die in deze gebieden blootgesteld waren aan teken. Klik hier voor een overzicht van de verspreiding van TBE-virus in Nederland <span style="color:red">missing link</span>.
+Teken-encefalitis  komt voor in delen van Europa, Rusland en bepaalde gebieden in Centraal-Azië. In Europa zijn ongeveer 2000 en in Rusland 10.000 patiënten per jaar.  In Nederland is het virus in teken gevonden, onder andere op de Sallandse heuvelrug en op de Utrechtse Heuvelrug. Ook zijn er enkele patïenten met TBE-virus infectie geweest die in deze gebieden blootgesteld waren aan teken. Klik hier voor een overzicht van de verspreiding van [TBE-virus in Nederland](/informatie/lyme-in-nederland) <span style="color:red">missing link</span>.
 
  
 

@@ -36,13 +36,18 @@ import { LymeEnWerkPage } from "./lyme/lymeInNL/LymeEnWerkPage"
 import { basiskennisAndereZiektenPage } from "./lyme/andereZiekten/basiskennisAndereZiektenPage"
 import { TekenencefalitisPage } from "./lyme/andereZiekten/TekenencefalitisPage"
 import { doelenTrPage } from "./tekenradar/tekenradarinfo/doelenTrPage"
+
 import { wageningenPage } from "./tekenradar/partner/wageningenPage"
 import { rivmPage } from "./tekenradar/partner/rivmPage"
-import { natuurkalenderPage } from "./tekenradar/partner/natuurkalenderPage"
-import { natuurberichtPage } from "./tekenradar/partner/natuurberichtPage"
+
+
 import { zonMwPage } from "./tekenradar/financiers/zonMwPage"
 import { vwsPage } from "./tekenradar/financiers/vwsPage"
 import { tekenweentjesPage } from "./teken/tekenweentjesinfo/tekenweentjesPage"
+import { amcPage } from "./tekenradar/partner/amcPage"
+import { fsdPage } from "./tekenradar/partner/fsdPage"
+import { radboudPage } from "./tekenradar/partner/radboudPage"
+import { NLePage } from "./tekenradar/financiers/NLePage"
 
 
 
@@ -53,7 +58,7 @@ export const informatiePage = (path: string): PageConfig => {
     tekenPage(`${path}/teken`),
     lymePage(`${path}/lyme`),
     tekenradarPage(`${path}/tekenradar`),
- 
+
 
     // subpages (content)
     //tekeninfo
@@ -107,12 +112,15 @@ export const informatiePage = (path: string): PageConfig => {
     //partner
     wageningenPage(`${path}/wageningen-university`),
     rivmPage(`${path}/rivm`),
-    natuurkalenderPage(`${path}/natuurkalender`),
-    natuurberichtPage(`${path}/natuurbericht`),
+    amcPage(`${path}/amc`),
+    fsdPage(`${path}/fsd`),
+    radboudPage(`${path}/radboud`),
+
 
     //financiers
     zonMwPage(`${path}/zonMw`),
     vwsPage(`${path}/ministerie-van-vws`),
+    NLePage(`${path}/NLe`),
 
 
 
