@@ -1,6 +1,7 @@
 {
   "title":"Onze nieuwsartikelen",
-  "nieuws.title": "Laatse nieuws",
+
+  "Nieuws.title": "Laatse nieuws",
   "20210708": {
     "title": "Zomerse piek in activiteit van besmette teken valt samen met piek in tekenbeetmeldingen",
     "body": "Uit langlopend onderzoek blijkt dat het aantal teken besmet met de lymebacterie het hoogst is in juni. Rond dezelfde periode meldden mensen ook de meeste tekenbeten. Over de hele studieperiode daalde het percentage besmette teken terwijl het aantal actieve teken iets steeg. Het aantal besmette teken per vierkante meter (tekendichtheid) bleef daardoor gelijk.",
@@ -37,7 +38,7 @@
     "footer": "22.06.2021",
     "actionBtn": "Lees verder"
   },
-  "archief.title": "Archief",
+  "Archief.title": "Archief",
   "2019": {
     "title": "2019",
     "body": "Door een melding te doen op tekenradar kunnen mensen meedoen aan het Tekenradar vragenlijst onderzoek. Ze worden dan uitgenodigd om na de meldvragenlijst gedurende een jaar lang vragenlijsten... ",

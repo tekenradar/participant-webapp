@@ -14,12 +14,12 @@ import { news20210419Page } from "./news20210419Page";
 import { news20210527Page } from "./news20210527Page";
 import { news20210708Page } from "./news20210708Page";
 
-import { nieuwsPage } from "./nieuwsPage";
+import { newsPage } from "./newsPage";
 
 
 export const nieuwsContainerPage = (path: string): PageConfig => {
   const nieuwsSubPages = [
-    nieuwsPage(`${path}/overzicht`),
+    newsPage(`${path}/overzicht`),
     // archief sub-pages
     archief2012Page(`${path}/archief2012`),
     archief2013Page(`${path}/archief2013`),
@@ -41,7 +41,7 @@ export const nieuwsContainerPage = (path: string): PageConfig => {
 
   return {
     path: path,
-    pageKey: 'nieuws',
+    pageKey: 'news',
     hideTitleBar: true,
     rows: [],
     subPages: {

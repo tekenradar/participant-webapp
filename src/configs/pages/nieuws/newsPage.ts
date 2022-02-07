@@ -23,7 +23,7 @@ const nieuwsSection = (): PageRow => {
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
-                maxHeight: '150px',
+                maxHeight: '250px',
                 placement: 'top',
               },
               action: {
@@ -41,8 +41,9 @@ const nieuwsSection = (): PageRow => {
               useFooterText: true,
               image: {
                 url: '/images/news/Nagelteek_170218496.jpg',
-                minHeight: '200px',
-                maxHeight: '150px',
+                className: 'd-none d-md-block',
+                minWidth: '300px',
+                maxWidth: '350px',
                 placement: 'left',
               },
               action: {
@@ -60,8 +61,9 @@ const nieuwsSection = (): PageRow => {
               useFooterText: true,
               image: {
                 url: '/images/news/LP_KIDS.jpg',
-                minHeight: '200px',
-                maxHeight: '150px',
+                className: 'd-none d-md-block',
+                minWidth: '300px',
+                maxWidth: '350px',
                 placement: 'left',
               },
               action: {
@@ -81,8 +83,9 @@ const nieuwsSection = (): PageRow => {
                 url: '/images/news/cRIVM/77077-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
-                minHeight: '200px',
-                maxHeight: '150px',
+                className: 'd-none d-md-block',
+                minWidth: '300px',
+                maxWidth: '350px',
                 placement: 'left',
               },
               action: {
@@ -102,8 +105,9 @@ const nieuwsSection = (): PageRow => {
                 url: '/images/news/cOTHER/tekenapp.jpeg',
                 copyrightNotice: '© Nature Today',
                 copyrightNoticeXAlignment: 'start',
-                minHeight: '200px',
-                maxHeight: '150px',
+                className: 'd-none d-md-block',
+                minWidth: '300px',
+                maxWidth: '350px',
                 placement: 'left',
               },
               action: {
@@ -121,8 +125,9 @@ const nieuwsSection = (): PageRow => {
               useFooterText: true,
               image: {
                 url: '/images/news/foto-teek.png',
-                minHeight: '200px',
-                maxHeight: '150px',
+                className: 'd-none d-md-block',
+                minWidth: '300px',
+                maxWidth: '350px',
                 placement: 'left',
               },
               action: {
@@ -322,10 +327,10 @@ const archiefSection = (): PageRow => {
 
 
 
-export const nieuwsPage = (path: string): PageConfig => {
+export const newsPage = (path: string): PageConfig => {
   return {
     path: path,
-    pageKey: '/nieuws',
+    pageKey: '/nieuws/news',
     rows: [
       nieuwsSection(),
       archiefSection(),
