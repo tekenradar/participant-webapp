@@ -3,6 +3,5 @@ Na een tekenbeet kan de ziekte van Lyme ontstaan. Als dat gebeurd kan antibiotic
 
 In het onderzoek is ook gekeken of de kans op lymeziekte nauwkeuriger voorspeld kan worden met een snelle tekentest, zodat preventieve antibiotica alleen aan mensen met een veel hogere kans op lymeziekte gegeven kan worden. De snelle tekentest die in het onderzoek is bekeken bleek niet goed te werken, maar sommige laboratoriummetingen aan de teek bleken wel voorspellend voor de kans op lymeziekte. Misschien biedt dit mogelijkheden om in de toekomst wel een betrouwbare snelle tekentest te krijgen waarmee gericht preventieve antibiotica na een tekenbeet gegeven kan worden.
 
-Zie ook Publicaties onderzoeksresultaten <span style="color:red">missing link</span>.
-
-Het onderzoek is uitgevoerd door het RIVM, en is mogelijk gemaakt door ZonMw en het ministerie van VWS <span style="color:red">missing link</span>.
+Zie ook [Publicaties onderzoeksresultaten](/onderzoek/publicaties).
+Het onderzoek is uitgevoerd door het RIVM, en is mogelijk gemaakt door ZonMw en het ministerie van [VWS](https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport).

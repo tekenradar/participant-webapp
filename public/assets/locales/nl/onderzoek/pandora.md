@@ -4,5 +4,5 @@ Naast de lymebacterie zitten er vaak ook andere ziekteverwekkers in teken, zoals
 De gezondheid van de deelnemers is een jaar lang gevolgd, en in het bloed van de deelnemers is gezocht naar aanwijzingen voor ziekteverwekkers die in teken kunnen voorkomen. Door dit onderzoek hopen wij in de toekomst diagnose en behandelrichtlijnen voor andere tekenbeetziekten dan Lyme te verbeteren.
 
 Resultaten worden binnenkort verwacht. Zie ook Publicaties onderzoeksresultaten.
-Het onderzoek wordt uitgevoerd door het Lyme-centrum van het AMC en het RIVM, en is mogelijk gemaakt door ZonMw en het ministerie van VWS <span style="color:red">missing link</span>.
+Het onderzoek wordt uitgevoerd door het Lyme-centrum van het AMC en het RIVM, en is mogelijk gemaakt door ZonMw en het ministerie van [VWS](https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport).
 
