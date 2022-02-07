@@ -140,7 +140,7 @@ const nieuwsSection = (): PageRow => {
 const archiefSection = (): PageRow => {
   return pageSection({
     sectionKey: 'Archief',
-    className: 'mt-3',
+    className: 'my-3',
     rows: [
       simpleRowColLayout({
         rowKey: 'row2',
