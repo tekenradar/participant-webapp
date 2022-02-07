@@ -31,8 +31,8 @@ export const pagesConfig: PagesConfig = {
     settingsPage('/settings'),
     contactPage('/contact'),
     privacyPage('/privacy'),
-    medischePage('/geen-medische-functie'),
-    toeganPage('/toegankelijksheidsverklaring'),
+    medischePage('/disclaimer'),
+    toeganPage('/accessibility'),
     myTekenradarPage('/my-tekenradar'),
   ]
 }

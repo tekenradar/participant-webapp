@@ -41,7 +41,7 @@ export const publicatiesPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/onderzoek/overzicht'
                   },
                 }
               },
@@ -53,7 +53,7 @@ export const publicatiesPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/onderzoek/voorArtsen'
                   },
                 }
               },
@@ -72,7 +72,7 @@ export const publicatiesPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }

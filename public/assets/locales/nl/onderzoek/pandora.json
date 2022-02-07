@@ -1,3 +1,18 @@
 {
-  "title": "Onderzoeken via tekenradar.nl"
+  "title": "Onderzoeken via tekenradar.nl",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over onze onderzoeken",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Cijfers en onderzoeksresultaten",
+    "body": "Sinds de start van Tekenradar.nl in ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Tekenradar",
+    "body": "Lees meer over de doelen, partners en financiers van tekenradar.",
+    "actionBtn": "Lees meer"
+  }
 }

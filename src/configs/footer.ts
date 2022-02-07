@@ -8,31 +8,36 @@ export const footerConfig: FooterConfig = {
         {
           type: "external",
           itemKey: "rivm",
-          value: "https://twitter.com/rivm",
+          value: "/informatie/rivm"
+          //value: "https://twitter.com/rivm",
           //iconClass: "fab fa-twitter"
         },
         {
           type: "external",
           itemKey: "wur",
-          value: "https://www.wur.nl/",
+          value: "/informatie/wageningen-university"
+          //value: "https://www.wur.nl/",
           //iconClass: "fab fa-facebook-square"
         },
         {
           type: "external",
           itemKey: "amc",
-          value: "https://www.amc.nl/web/home.htm",
+          value:"/informatie/amc"
+          //value: "https://www.amc.nl/web/home.htm",
           //iconClass: "fab fa-facebook-square"
         },
         {
           type: "external",
           itemKey: "fsd",
-          value: "https://www.fsd.nl/",
+          value: "/informatie/fsd"
+          //value: "https://www.fsd.nl/",
           //iconClass: "fab fa-facebook-square"
         },
         {
           type: "external",
           itemKey: "radboudumc",
-          value: "https://www.radboudumc.nl/patientenzorg",
+          value: "/informatie/radboud"
+          //value: "https://www.radboudumc.nl/patientenzorg",
           //iconClass: "fab fa-facebook-square"
         },
       ]
@@ -52,13 +57,13 @@ export const footerConfig: FooterConfig = {
         },
         {
           type: "internal",
-          itemKey: "medische",
-          value: "/geen-medische-functie"
+          itemKey: "disclaimer",
+          value: "/disclaimer"
         },
         {
           type: "internal",
-          itemKey: "toegan",
-          value: "/toegankelijkheidsverklaring"
+          itemKey: "accessibility",
+          value: "/accessibility"
         },
       ]
     }

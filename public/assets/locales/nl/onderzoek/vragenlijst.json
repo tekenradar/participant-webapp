@@ -1,3 +1,18 @@
 {
-  "title": "Onderzoeken via tekenradar.nl"
+  "title": "Onderzoeken via tekenradar.nl",
+    "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over onze onderzoeken",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "LymeProspect onderzoek",
+    "body": "Sommige mensen houden klachten nadat ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Ziekte van Lyme",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "actionBtn": "Lees meer"
+  }
 }

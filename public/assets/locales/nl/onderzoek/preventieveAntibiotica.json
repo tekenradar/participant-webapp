@@ -1,3 +1,18 @@
 {
-  "title": "Onderzoeken via tekenradar.nl"
+  "title": "Onderzoeken via tekenradar.nl",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over onze onderzoeken",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Victory onderzoek",
+    "body": "De standaard diagnostische tests om te ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Teken en tekenbeten",
+    "body": "lees meer over de leefstijl en het voorkomen van teken. ",
+    "actionBtn": "Lees meer"
+  }
 }

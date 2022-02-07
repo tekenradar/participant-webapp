@@ -39,7 +39,7 @@ export const lymeProspectPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/onderzoek/overzicht'
                   },
                 }
               },
@@ -51,7 +51,7 @@ export const lymeProspectPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/onderzoek/preventieveAntibiotica'
                   },
                 }
               },
@@ -70,7 +70,7 @@ export const lymeProspectPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }

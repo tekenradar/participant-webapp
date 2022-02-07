@@ -41,7 +41,7 @@ export const preventieveAntibioticaPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/onderzoek/overzicht'
                   },
                 }
               },
@@ -53,7 +53,7 @@ export const preventieveAntibioticaPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/onderzoek/victory'
                   },
                 }
               },

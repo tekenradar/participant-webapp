@@ -1,4 +1,19 @@
 {
-  "title": "Informatie voor artsen"
+  "title": "Informatie voor artsen",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over onze onderzoeken",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextTopic": {
+    "title": "Ziekte van Lyme",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "actionBtn": "Lees meer"
+  },
+    "anotherTopic": {
+      "title": "Teken en tekenbeten",
+      "body": "lees meer over de leefstijl en het voorkomen van teken. ",
+      "actionBtn": "Lees meer"
+  }
 }
 

@@ -1,4 +1,19 @@
 {
-  "title": "Resultaten"
+  "title": "Resultaten",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over onze onderzoeken",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Informatie voor artsen",
+    "body": "Aanmelden van patiënten voor  ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Ziekte van Lyme",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "actionBtn": "Lees meer"
+  }
 }
 
