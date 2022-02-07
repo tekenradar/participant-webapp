@@ -45,14 +45,11 @@ const partnerSection: PageRow = pageSection({
         {
           colClassName: 'col-12 col-md-4',
           itemKey: 'doelenTekenradar',
+          className: 'bg-secondary h-100 p-2',
           config: {
-            type: 'teaserImage',
-            image: {
-              url: '/images/no-license/teken-card.jpg',
-              backgroundPosition: '70% 35%',
-              height: 320,
-              //className: 'h-100'
-            },
+            type: 'markdown',
+            markdownUrl: '/informatie/tekenradar/partnerCard.md',
+
           }
         },
         // --------------

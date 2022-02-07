@@ -14,8 +14,9 @@ import TekenradarSurveyComponent from './components/TekenradarSurveyComponent/Te
 import { appConfig } from './configs/appConfig';
 import Header from './components/Header';
 import { nl } from 'date-fns/locale';
+import TickMapResponse from './components/survey/TickMapResponse';
 
-const dateLocales = [
+export const dateLocales = [
   { code: 'nl', locale: nl, format: 'dd-MM-yyyy' },
 ];
 
@@ -55,6 +56,12 @@ const App: React.FC = () => {
         footerConfig={footerConfig}
         extensions={extensions}
         dateLocales={dateLocales}
+        customSurveyResponseComponents={[
+          {
+            name: ':map',
+            component: TickMapResponse,
+          },
+        ]}
       />
     </React.Fragment>
 
