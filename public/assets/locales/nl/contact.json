@@ -1,3 +1,9 @@
 {
-  "title": "Neem contact met ons op"
+  "title": "Neem contact met ons op",
+  "privacy": {
+    "title": "Privacy",
+    "body": "Privacyverklaring Tekenradar",
+    "actionBtn": "Lees verklaring"
+  }
 }
+

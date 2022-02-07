@@ -4,10 +4,10 @@ import { pageSection } from "../../layout/rows/pageSection";
 import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout";
 import { meldenCard } from "../cards/meldenCard";
 
-export const contactPage = (path: string): PageConfig => {
+export const privacyPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: '/contact',
+    pageKey: '/privacy',
     topImage: {
       type: 'teaserImage',
       image: {
@@ -29,7 +29,7 @@ export const contactPage = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'privacy',
+                itemKey: 'contact',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -39,7 +39,7 @@ export const contactPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/privacy'
+                    value: '/contact'
                   },
                 }
               },
