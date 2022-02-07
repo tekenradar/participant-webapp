@@ -13,14 +13,26 @@ export const footerConfig: FooterConfig = {
         },
         {
           type: "external",
-          itemKey: "wageningen",
-          value: "https://",
+          itemKey: "wur",
+          value: "https://www.wur.nl/",
           //iconClass: "fab fa-facebook-square"
         },
         {
           type: "external",
-          itemKey: "other?",
-          value: "https://",
+          itemKey: "amc",
+          value: "https://www.amc.nl/web/home.htm",
+          //iconClass: "fab fa-facebook-square"
+        },
+        {
+          type: "external",
+          itemKey: "fsd",
+          value: "https://www.fsd.nl/",
+          //iconClass: "fab fa-facebook-square"
+        },
+        {
+          type: "external",
+          itemKey: "radboudumc",
+          value: "https://www.radboudumc.nl/patientenzorg",
           //iconClass: "fab fa-facebook-square"
         },
       ]

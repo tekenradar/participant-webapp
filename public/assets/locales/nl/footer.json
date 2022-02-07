@@ -1,7 +1,11 @@
 {
   "partners": {
     "title": "Partners",
-    "rivm": "RIVM"
+    "rivm": "Rijksinstitut voor Volksgezondheit en Milieu",
+    "wur": "Wageningen University & Research",
+    "amc": "Amsterdam Universitair Medisch Centrum",
+    "fsd": "Stichting voor Duurzame Ontwikkeling",
+    "radboudumc": "Radboud Universitair Medisch Centrum"
   },
   "about": {
     "title": "Over deze site",

@@ -39,7 +39,7 @@
     "actionBtn": "Lees meer"
   },
   "tekenbeetInfo": {
-    "title": "Informatie over tekenbeet"
+    "title": "Informatie over tekenbeten"
   },
   "basiskennisTekenbeet": {
     "title": "Wat is een tekenbeet?",
@@ -69,8 +69,8 @@
   "tekenweetjes": {
     "title": "Tekenweetjes",
     "card": {
-      "title": "Interesting facts about ticks",
-      "body": "Check out the following information",
+      "title": "Interessante weetjes over teken",
+      "body": "Wist u dat?",
       "actionBtn": "Lees meer"
     }
   }
