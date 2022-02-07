@@ -17,8 +17,11 @@ const nieuwsSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              useFooterText: true,
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/130852-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -35,11 +38,12 @@ const nieuwsSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              useFooterText: true,
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/Nagelteek_170218496.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
-                placement: 'top',
+                placement: 'left',
               },
               action: {
                 type: 'navigate',
@@ -53,11 +57,12 @@ const nieuwsSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              useFooterText: true,
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/LP_KIDS.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
-                placement: 'top',
+                placement: 'left',
               },
               action: {
                 type: 'navigate',
@@ -71,11 +76,14 @@ const nieuwsSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              useFooterText: true,
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/77077-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
-                placement: 'top',
+                placement: 'left',
               },
               action: {
                 type: 'navigate',
@@ -89,11 +97,14 @@ const nieuwsSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              useFooterText: true,
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cOTHER/tekenapp.jpeg',
+                copyrightNotice: '© Nature Today',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
-                placement: 'top',
+                placement: 'left',
               },
               action: {
                 type: 'navigate',
@@ -107,11 +118,12 @@ const nieuwsSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
+              useFooterText: true,
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/foto-teek.png',
                 minHeight: '200px',
                 maxHeight: '150px',
-                placement: 'top',
+                placement: 'left',
               },
               action: {
                 type: 'navigate',
@@ -141,7 +153,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/44966457-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -160,7 +174,7 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/ZonMwfoto.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -179,7 +193,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/79737-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -198,7 +214,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/74393-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -217,7 +235,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -236,7 +256,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/vws-064.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -255,7 +277,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/130282-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -274,7 +298,9 @@ const archiefSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/woman-spring.jpg',
+                url: '/images/news/cRIVM/_PNH5565-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',

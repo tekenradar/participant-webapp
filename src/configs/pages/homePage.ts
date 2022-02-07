@@ -25,7 +25,9 @@ const newsSection = (): PageRow => {
               },
               useFooterText: true,
               image: {
-                url: '/images/no-license/onderzoek-card.jpg',
+                url: '/images/news/cRIVM/130852-1920.jpg',
+                copyrightNotice: '© RIVM',
+                copyrightNoticeXAlignment: 'start',
                 placement: 'top',
                 height: '250px',
                 maxHeight: '400px',
@@ -48,7 +50,7 @@ const newsSection = (): PageRow => {
                   },
                   useFooterText: true,
                   image: {
-                    url: '/images/no-license/woman-spring.jpg',
+                    url: '/images/news/Nagelteek_170218496.jpg',
                     placement: 'left',
                     width: '300px',
                     maxWidth: '200px',
@@ -67,7 +69,7 @@ const newsSection = (): PageRow => {
                   },
                   useFooterText: true,
                   image: {
-                    url: '/images/tekenbeeten-km.png',
+                    url: '/images/news/LP_KIDS.jpg',
                     placement: 'left',
                     width: '300px',
                     maxWidth: '200px',
