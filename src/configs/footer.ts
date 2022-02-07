@@ -52,13 +52,13 @@ export const footerConfig: FooterConfig = {
         },
         {
           type: "internal",
-          itemKey: "disclaimer",
-          value: "/disclaimer"
+          itemKey: "medische",
+          value: "/geen-medische-functie"
         },
         {
           type: "internal",
-          itemKey: "accessibility",
-          value: "/accessibility"
+          itemKey: "toegan",
+          value: "/toegankelijkheidsverklaring"
         },
       ]
     }

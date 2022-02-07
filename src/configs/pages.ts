@@ -9,6 +9,8 @@ import { settingsPage } from "./pages/settingsPage";
 import { myTekenradarPage } from "./pages/myTekenradarPage";
 import { contactPage } from "./pages/contactPage";
 import { privacyPage } from "./pages/privacyPage";
+import { medischePage } from "./pages/medischePage";
+import { toeganPage } from "./pages/toeganPage";
 
 const defaultRoutes = {
   auth: "/home",
@@ -29,6 +31,8 @@ export const pagesConfig: PagesConfig = {
     settingsPage('/settings'),
     contactPage('/contact'),
     privacyPage('/privacy'),
+    medischePage('/geen-medische-functie'),
+    toeganPage('/toegankelijksheidsverklaring'),
     myTekenradarPage('/my-tekenradar'),
   ]
 }

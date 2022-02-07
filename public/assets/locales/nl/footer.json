@@ -11,7 +11,7 @@
     "title": "Over deze site",
     "contact": "Contact",
     "privacy": "Privacyverklaring",
-    "disclaimer": "Geen medische functie",
-    "accessibility": "Toegankelijksheidsverklaring"
+    "medische": "Geen medische functie",
+    "toegan": "Toegankelijksheidsverklaring"
   }
 }

@@ -1,0 +1,1 @@
+**Wij willen je er met klem op wijzen dat de vragenlijsten en het gebruik van de website voor jou geen medisch doel dienen. Als je zorgen hebt over je gezondheid zoek dan altijd hulp via de gebruikelijke medische instanties.**

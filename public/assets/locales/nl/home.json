@@ -27,32 +27,32 @@
 
   "onderzoekCard": {
     "title": "Over onze onderzoeken",
-    "body": "...",
+    "body": " ",
     "actionBtn": "Lees meer"
   },
   "tekenCard": {
     "title": "Over Teken",
-    "body": "...",
+    "body": " ",
     "actionBtn": "Lees meer"
   },
   "faqCard": {
     "title": "Vragen en antwoorden",
-    "body": "...",
+    "body": " ",
     "actionBtn": "Lees meer"
   },
   "verwijderCard": {
     "title": "Hoe verwijder ik een teek?",
-    "body": "...",
+    "body": " ",
     "actionBtn": "Lees meer"
   },
   "lymeCard": {
     "title": "Over ziekte van Lyme",
-    "body": "...",
+    "body": " ",
     "actionBtn": "Lees meer"
   },
   "aboutCard": {
     "title": "Over tekenradar.nl",
-    "body": "...",
+    "body": " ",
     "actionBtn": "Lees meer"
   }
 }
