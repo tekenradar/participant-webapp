@@ -9,7 +9,7 @@ import 'proj4leaflet';
 // import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import icon from './map-marker.png';
 
-import { LatLngLiteral } from 'leaflet';
+import { LatLngBounds, LatLngLiteral } from 'leaflet';
 
 
 var L = require('leaflet');
@@ -34,6 +34,7 @@ interface DraggableMarkerProps {
   position?: LatLngLiteral;
   onPosChanged: (pos: LatLngLiteral) => void;
   onZoomChanged: (zoomLevel: number) => void;
+  onBoundsChanged: (bounds: LatLngBounds) => void;
 }
 
 const DraggableMarker: React.FC<DraggableMarkerProps> = (props) => {
@@ -67,11 +68,19 @@ const DraggableMarker: React.FC<DraggableMarkerProps> = (props) => {
   )
 
   const map = useMapEvents({
+    resize(e: any) {
+      props.onBoundsChanged(map.getBounds());
+    },
+    moveend(e: any) {
+      props.onBoundsChanged(map.getBounds());
+    },
     zoomend(e: any) {
       // console.log(e);
       props.onZoomChanged(e.target._zoom);
+      props.onBoundsChanged(map.getBounds());
     },
     click(e: any) {
+      props.onBoundsChanged(map.getBounds());
       const newPos = e.latlng;
       if (newPos === undefined) {
         return;
@@ -82,7 +91,7 @@ const DraggableMarker: React.FC<DraggableMarkerProps> = (props) => {
     },
     locationfound(e: any) {
       const newPos = e.latlng;
-      console.log(newPos);
+      // console.log(newPos);
       props.onPosChanged(newPos);
       setPosition(newPos)
       map.flyTo(e.latlng, map.getZoom())
@@ -117,6 +126,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
   const [touched, setTouched] = useState(false);
 
   const [markerPosition, setMarkerPosition] = useState<LatLngLiteral | undefined>();
+  const [currentBounds, setCurrentBounds] = useState<LatLngBounds>();
   const [currentZoomLevel, setCurrentZoomLevel] = useState(4);
 
 
@@ -140,6 +150,23 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         { key: 'lat', value: markerPosition.lat.toString() },
         { key: 'lng', value: markerPosition.lng.toString() },
         { key: 'zoom', value: currentZoomLevel.toFixed(0) },
+
+        {
+          key: 'bounds', items: [
+            {
+              key: 'southWest', items: [
+                { key: 'lat', value: currentBounds?.getSouthWest().lat.toString() },
+                { key: 'lng', value: currentBounds?.getSouthWest().lng.toString() },
+              ]
+            },
+            {
+              key: 'northEast', items: [
+                { key: 'lat', value: currentBounds?.getNorthEast().lat.toString() },
+                { key: 'lng', value: currentBounds?.getNorthEast().lng.toString() },
+              ]
+            },
+          ]
+        },
       ]
     }
     // console.log(newResponse)
@@ -190,6 +217,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
             setMarkerPosition(pos)
           }}
           onZoomChanged={(zoom) => setCurrentZoomLevel(zoom)}
+          onBoundsChanged={(bounds) => setCurrentBounds(bounds)}
         />
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
