@@ -16,6 +16,7 @@ var L = require('leaflet');
 
 let DefaultIcon = L.icon({
   iconUrl: icon,
+  iconSize: [48, 48],
   //shadowUrl: iconShadow,
   //iconAnchor: [12, 35], // point of the icon which will correspond to marker's location
   iconAnchor: [24, 24], // point of the icon which will correspond to marker's location
@@ -75,7 +76,7 @@ const DraggableMarker: React.FC<DraggableMarkerProps> = (props) => {
       if (newPos === undefined) {
         return;
       }
-      console.log(newPos);
+      // console.log(newPos);
       props.onPosChanged(newPos);
       setPosition(newPos)
     },
