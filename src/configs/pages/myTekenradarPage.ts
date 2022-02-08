@@ -7,6 +7,25 @@ const sideBarItems: Array<PageItem> = [
   meldenCard(),
   {
     className: 'mt-3',
+    itemKey: 'quickSettings',
+    config: {
+      type: 'linkList',
+      links: [
+        {
+          linkKey: 'settingsLink',
+          type: 'internal',
+          value: '/settings'
+        },
+        {
+          linkKey: 'manageProfiles',
+          type: 'dialog',
+          value: 'manageProfiles'
+        }
+      ]
+    }
+  },
+  {
+    className: 'mt-3',
     itemKey: 'references',
     config: {
       type: 'linkList',
@@ -15,11 +34,6 @@ const sideBarItems: Array<PageItem> = [
           linkKey: 'faqLink',
           type: 'internal',
           value: '/faq'
-        },
-        {
-          linkKey: 'privacyStatementLink',
-          type: 'internal',
-          value: '/privacy'
         },
         {
           linkKey: 'contactLink',

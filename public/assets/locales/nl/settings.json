@@ -18,15 +18,15 @@
     }
   },
   "deleteAccount": {
-    "title": "Afmelden RIVM LongCOVID-onderzoek / intrekken toestemming",
-    "warning": "Afmelden RIVM LongCOVID-onderzoek/intrekken toestemming houdt in dat je accountgegevens worden verwijderd.\nNa het verwijderen van het account kunnnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen.",
+    "title": "Afmelden Tekenradar / intrekken toestemming",
+    "warning": "Afmelden Tekenradar / intrekken toestemming houdt in dat je accountgegevens worden verwijderd.\nNa het verwijderen van het account kunnnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen.",
     "deleteBtn": "Afmelden"
   },
   "references": {
     "title": "Hulp nodig?",
     "faqLink": "Vraag en antwoord",
     "privacyStatementLink": "Privacyverklaring",
-    "contactLink": "Contact LongCOVID-onderzoek"
+    "contactLink": "Contact Tekenradar"
   },
   "systemInfo": {
     "title": "Systeem informatie",

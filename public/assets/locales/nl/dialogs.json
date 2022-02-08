@@ -4,7 +4,7 @@
     "message": "",
     "credentials": {
       "title": "Login",
-      "info": "TODO: add info or use empty string",
+      "info": "",
       "emailInputLabel": "E-mail",
       "emailInputPlaceholder": "E-mail",
       "passwordInputLabel": "Wachtwoord",
@@ -32,7 +32,7 @@
   },
   "signup": {
     "title": "Aanmelden",
-    "info": "TODO: add info or use empty string",
+    "info": "",
     "emailInputLabel": "E-mailadres",
     "emailInputPlaceholder": "E-mailadres",
     "passwordInputLabel": "Wachtwoord",

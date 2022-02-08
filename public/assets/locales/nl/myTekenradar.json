@@ -1,0 +1,26 @@
+{
+  "title": "Mijn Tekenradar",
+  "surveyList": {
+    "requiredSurveys": {
+      "title": "In te vullen vragenlijsten",
+      "info": "Hieronder staan de verschillende vragenlijsten voor het onderzoek.",
+      "successMsg": "Dank je wel! Je hebt alle vragenlijsten ingevuld. Volgende week vragen we je weer."
+    },
+    "optionalSurveys": {
+      "title": "Wijzigen achtergrondinformatie",
+      "info": "Als je situatie veranderd is kan je hieronder opnieuw de achtergrondvragenlijst(en) invullen. We kunnen helaas niet laten zien wat je de laatste keer hebt ingevuld, of je alleen specifieke vragen laten aanpassen.",
+      "showBtn": "Is je achtergrondinformatie veranderd?",
+      "hideBtn": "Verbergen"
+    }
+  },
+  "references": {
+    "title": "Zie ook",
+    "faqLink": "Vraag en antwoord",
+    "contactLink": "Contact"
+  },
+  "quickSettings": {
+    "title": "Instellingen",
+    "settingsLink": "Instellingen",
+    "manageProfiles": "Voeg een profiel toe van je kind, of wijzig je profiel"
+  }
+}
