@@ -1,3 +1,18 @@
 {
-  "title": "Alle artikelen van het jaar 2017"
+  "title": "Alle artikelen van het jaar 2017",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Archief 2016",
+    "body": "Lees hier alle nieuwsartikelen van 2016.",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Tekenradar",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "actionBtn": "Lees meer"
+  }
 }

@@ -1,3 +1,18 @@
 {
-  "title": "Laatse nieuws"
+  "title": "Laatse nieuws",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Check tekenactiviteit bij jou in de buurt met de Nature Today-app",
+    "body": "In de loop van deze week kunnen mensen ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Teken en tekenbeten",
+    "body": "Leer meer over de manier van leven en het voorkomen van teken.",
+    "actionBtn": "Lees meer"
+  }
 }

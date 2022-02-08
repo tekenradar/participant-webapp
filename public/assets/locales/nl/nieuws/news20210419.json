@@ -1,3 +1,18 @@
 {
-  "title": "Laatse nieuws"
+  "title": "Laatse nieuws",
+  "backToOverviewPage": {
+  "title": "Terug naar het overzicht",
+  "body": "Vind meer nieuwsartikelen. ",
+  "actionBtn": "Naar de overzichtspagina"
+},
+"nextArticle": {
+  "title": "Verspreiding van tekenencefalitisvirus in Nederland",
+  "body": "Elk jaar bijten zo’n 1,5 miljoen teken ...",
+  "actionBtn": "Lees meer"
+},
+"anotherTopic": {
+  "title": "Tekenradar",
+  "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+  "actionBtn": "Lees meer"
+}
 }

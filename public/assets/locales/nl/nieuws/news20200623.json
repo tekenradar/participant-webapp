@@ -1,3 +1,18 @@
 {
-  "title": "Laatse nieuws"
+  "title": "Laatse nieuws",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "In 10 jaar stijgt aantal tekenbeten naar 1,5 miljoen per jaar",
+    "body": "Uit landelijk PIENTER-onderzoek van het ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Ziekte van Lyme",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "actionBtn": "Lees meer"
+  }
 }

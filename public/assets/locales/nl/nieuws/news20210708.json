@@ -1,3 +1,18 @@
 {
-  "title": "Laatse nieuws"
+  "title": "Laatse nieuws",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Vaker aanhoudende klachten na ziekte van Lyme",
+    "body": "Ruim een kwart van de mensen met ...",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Teken en tekenbeten",
+    "body": "Leer meer over de manier van leven en het voorkomen van teken.",
+    "actionBtn": "Lees meer"
+  }
 }

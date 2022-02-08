@@ -1,3 +1,18 @@
 {
-  "title": "Alle artikelen van het jaar 2016"
+  "title": "Alle artikelen van het jaar 2016",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Archief 2015",
+    "body": "Lees hier alle nieuwsartikelen van 2015.",
+    "actionBtn": "Lees meer"
+  },
+  "anotherTopic": {
+    "title": "Teken en tekenbeten",
+    "body": "Leer meer over de manier van leven en het voorkomen van teken.",
+    "actionBtn": "Lees meer"
+  }
 }

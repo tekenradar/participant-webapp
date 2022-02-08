@@ -2,12 +2,12 @@
   "title": "Informatie voor artsen",
   "backToOverviewPage": {
     "title": "Terug naar het overzicht",
-    "body": "Vind meer artikelen over onze onderzoeken",
+    "body": "Vind meer artikelen over onze onderzoeken ...",
     "actionBtn": "Naar de overzichtspagina"
   },
-  "nextTopic": {
+  "nextArticle": {
     "title": "Ziekte van Lyme",
-    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken ...",
     "actionBtn": "Lees meer"
   },
     "anotherTopic": {

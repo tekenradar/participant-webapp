@@ -43,7 +43,7 @@ export const news20210419Page = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/nieuws/overzicht'
                   },
                 }
               },
@@ -55,7 +55,7 @@ export const news20210419Page = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/nieuws/2020-06-24'
                   },
                 }
               },
@@ -74,7 +74,7 @@ export const news20210419Page = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/tekenradar'
                   },
                 }
               }

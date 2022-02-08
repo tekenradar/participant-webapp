@@ -41,7 +41,7 @@ export const archief2012Page = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
+                    value: '/nieuws/overzicht'
                   },
                 }
               },
@@ -53,7 +53,7 @@ export const archief2012Page = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/nieuws/archief2019'
                   },
                 }
               },
@@ -72,7 +72,7 @@ export const archief2012Page = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/lyme'
                   },
                 }
               }
