@@ -151,7 +151,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
 
   return (
     <div>
-      <p>Select a location on the map</p>
+      <p>Klik op de kaart om (ongeveer) de locatie aan te geven waar u de tekenbeet heeft opgelopen.</p>
       <MapContainer
         className="leaflet"
         style={{
