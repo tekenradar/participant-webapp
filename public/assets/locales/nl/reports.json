@@ -1,0 +1,20 @@
+{
+  "followUp": {
+    "title": "Vervolgvragenlijst"
+  },
+  "TB": {
+    "title": "Tekenbeetmelding"
+  },
+  "EM": {
+    "title": "Erythema migrans melding"
+  },
+  "Fever": {
+    "title": "Koorts na tekenbeetmelding"
+  },
+  "LB": {
+    "title": "Andere lymeziekte melding"
+  },
+  "chronic": {
+    "title": "Chronische klachten na lymeziekte melding"
+  }
+}
