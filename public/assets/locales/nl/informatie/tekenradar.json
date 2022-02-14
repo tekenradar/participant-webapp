@@ -12,7 +12,7 @@
     "title": "Partners"
   },
   "rivm": {
-    "title": "Rijksinstituut voor Volksgezondheit en Milieu (RIVM)",
+    "title": "Rijksinstituut voor volksgezondheid en Milieu (RIVM)",
     "body": " ",
     "actionBtn": "Lees meer"
   },
@@ -36,23 +36,22 @@
     "body": " ",
     "actionBtn": "Lees meer"
   },
-
-"financiers": {
-  "title": "Financiers"
-},
-"ZonMw": {
-  "title": "ZonMw",
-  "body": " ",
-  "actionBtn": "Lees meer"
-},
-"VWS": {
-  "title": "Ministerie van Volksgezondheid, Welzijn en Sport (VWS)",
-  "body": " ",
-  "actionBtn": "Lees meer"
-},
-"NLe": {
-  "title": "Nederlands Lymeziekte-expertise centrum (NLe)",
-  "body": " ",
-  "actionBtn": "Lees meer"
-}
+  "financiers": {
+    "title": "Financiers"
+  },
+  "ZonMw": {
+    "title": "ZonMw",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+  "VWS": {
+    "title": "Ministerie van Volksgezondheid, Welzijn en Sport (VWS)",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  },
+  "NLe": {
+    "title": "Nederlands Lymeziekte-expertise centrum (NLe)",
+    "body": " ",
+    "actionBtn": "Lees meer"
+  }
 }

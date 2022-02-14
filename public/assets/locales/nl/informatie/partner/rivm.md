@@ -1,4 +1,4 @@
-## Rijksinstituut voor Volksgezondheit en Milieu
+## Rijksinstituut voor volksgezondheid en Milieu
 
 Het [Rijksinstituut voor Volksgezondheid en Milieu (RIVM)](https://www.rivm.nl) zet zich in voor een gezonde bevolking en een duurzame, veilige en gezonde leefomgeving. Dit doen we op basis van onafhankelijk wetenschappelijk onderzoek. Samen met onze opdrachtgevers signaleren we welk onderzoek nodig is en voeren we dit uit. Elk jaar brengt het RIVM talloze rapporten en adviezen uit over volksgezondheid en gezondheidszorg, voeding, natuur en milieu en rampenbestrijding. We geven advies aan de overheid, professionals en burgers en delen onze kennis. Zo ondersteunen wij de samenleving om onszelf en onze leefomgeving gezond te houden. 
  

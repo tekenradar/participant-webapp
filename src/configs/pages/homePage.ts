@@ -212,7 +212,7 @@ const moreInfoSection = (): PageRow => {
               type: 'actionCard',
               action: {
                 type: 'navigate',
-                value: '/tekenradar',
+                value: '/informatie/tekenradar',
               },
               image: {
                 url: '/images/tekenradarWithBackground.png',
