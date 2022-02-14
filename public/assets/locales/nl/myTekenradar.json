@@ -3,7 +3,7 @@
   "surveyList": {
     "requiredSurveys": {
       "title": "In te vullen vragenlijsten",
-      "info": "Hieronder staan de verschillende vragenlijsten voor het onderzoek.",
+      "info": "Hieronder staan de in te vullen Tekenradarvragenlijsten",
       "successMsg": "Dank je wel! Je hebt alle vragenlijsten ingevuld. Volgende week vragen we je weer."
     },
     "optionalSurveys": {
@@ -12,6 +12,12 @@
       "showBtn": "Is je achtergrondinformatie veranderd?",
       "hideBtn": "Verbergen"
     }
+  },
+  "reportList": {
+    "title": "Afgeronde vragenlijsten",
+    "subtitle": "",
+    "infoParagraph": "Hieronder staan de afgeronde Tekenradarvragenlijsten.",
+    "cardActionBtn": "Lees meer"
   },
   "references": {
     "title": "Zie ook",

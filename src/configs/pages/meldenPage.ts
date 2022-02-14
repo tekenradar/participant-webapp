@@ -7,6 +7,7 @@ export const meldenPage = (path: string): PageConfig => {
     rows: [
       {
         key: 'row1',
+        containerClassName: 'min-vh-75',
         columns: [
           {
             key: 'col1_1',
