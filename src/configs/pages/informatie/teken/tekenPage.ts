@@ -35,7 +35,8 @@ const tekenInfoSection: PageRow = pageSection({
       ],
       panelRows: [
         simpleRowColLayout({
-          rowKey: 'row1', items: [
+          rowKey: 'row1',
+          items: [
             {
               colClassName: 'col-12',
               itemKey: 'waarLevenTeken',
@@ -241,21 +242,17 @@ const tekenweetjesSection: PageRow = pageSection({
   className: 'my-3',
   rows: [
     simpleRowColLayout({
-      rowKey: 'tekenweetjes-row',
+      rowKey: 'tekenweetjes',
       items: [
         {
           colClassName: 'col-12',
-          itemKey: 'tekenweetjes.card',
-          className: "mt-2",
+          itemKey: 'tekenweetjes',
           config: {
-            type: 'actionCard',
-            action: {
-              type: 'navigate',
-              value: '/informatie/tekenweentjes'
-            },
+            type: 'accordionList',
+            accordionCtrlsKey: "accordionControls"
           }
         }
-      ]
+      ],
     })
   ]
 });
