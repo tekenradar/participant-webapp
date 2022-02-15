@@ -15,6 +15,8 @@ import { appConfig } from './configs/appConfig';
 import Header from './components/Header';
 import { nl } from 'date-fns/locale';
 import TickMapResponse from './components/survey/TickMapResponse';
+import EMfotoUpload from './components/survey/EMfotoUpload';
+import ReportSelector from './components/survey/ReportSelector';
 
 export const dateLocales = [
   { code: 'nl', locale: nl, format: 'dd-MM-yyyy' },
@@ -32,6 +34,21 @@ const extensions = [
   { name: 'gallery', component: ImageGallery },
   { name: 'surveyComponent', component: TekenradarSurveyComponent },
 ]
+
+const customSurveyResponseComponents = [
+  {
+    name: ':map',
+    component: TickMapResponse,
+  },
+  {
+    name: 'input:file',
+    component: EMfotoUpload,
+  },
+  {
+    name: 'input:reportSelector',
+    component: ReportSelector,
+  },
+];
 
 const App: React.FC = () => {
   const { i18n } = useTranslation();
@@ -56,12 +73,7 @@ const App: React.FC = () => {
         footerConfig={footerConfig}
         extensions={extensions}
         dateLocales={dateLocales}
-        customSurveyResponseComponents={[
-          {
-            name: ':map',
-            component: TickMapResponse,
-          },
-        ]}
+        customSurveyResponseComponents={customSurveyResponseComponents}
       />
     </React.Fragment>
 
