@@ -72,6 +72,20 @@
       "title": "Interessante weetjes over teken",
       "body": "Wist u dat?",
       "actionBtn": "Lees meer"
-    }
+    },
+    "accordionControls": {
+      "open": "Lees verder",
+      "close": "Verbergen"
+    },
+    "items": [
+      {
+        "title": "Wat doet tekenradar.nl?",
+        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een erythema migrans(?) (rode ring of vlek), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
+      },
+      {
+        "title": "Waarom zou ik een melding doen op Tekenradar?",
+        "content": "Op Tekenradar.nl kun je tekenbeten en de ziekte van Lyme melden voor jezelf en je kinderen. Je draagt daarmee bij aan onderzoek waardoor meer inzicht ontstaat over waar en wanneer tekenbeten en de ziekte van Lyme worden opgelopen, en wat de gezondheidsgevolgen kunnen zijn. Op de website kun je ook zien hoeveel tekenbeten er in de voorafgaande weken zijn gemeld. Door zelf een melding te doen verbeter je ook de betrouwbaarheid van die gegevens."
+      }
+    ]
   }
 }

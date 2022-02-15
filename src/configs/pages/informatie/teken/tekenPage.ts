@@ -246,10 +246,10 @@ const tekenweetjesSection: PageRow = pageSection({
       items: [
         {
           colClassName: 'col-12',
-          itemKey: 'tekenweetjes',
+          itemKey: 'tekenweetjes.items',
           config: {
             type: 'accordionList',
-            accordionCtrlsKey: "accordionControls"
+            accordionCtrlsKey: "tekenweetjes.accordionControls"
           }
         }
       ],

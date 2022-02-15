@@ -13,7 +13,7 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "bootstrap": "^5.1.3",
-    "case-web-app-core": "^1.5.0-beta.33",
+    "case-web-app-core": "^1.5.0-beta.34",
     "case-web-ui": "^1.9.5",
     "clsx": "^1.1.1",
     "date-fns": "^2.28.0",
