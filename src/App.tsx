@@ -35,7 +35,7 @@ const extensions = [
   { name: 'surveyComponent', component: TekenradarSurveyComponent },
 ]
 
-const customSurveyResponseComponents = [
+export const customSurveyResponseComponents = [
   {
     name: ':map',
     component: TickMapResponse,

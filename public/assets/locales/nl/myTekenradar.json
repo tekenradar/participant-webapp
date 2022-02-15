@@ -17,7 +17,11 @@
     "title": "Afgeronde vragenlijsten",
     "subtitle": "",
     "infoParagraph": "Hieronder staan de afgeronde Tekenradarvragenlijsten.",
-    "cardActionBtn": "Lees meer"
+    "cardActionBtn": "Lees meer",
+    "detailDialog": {
+      "title": "Melding",
+      "closeBtn": "Verbergen"
+    }
   },
   "references": {
     "title": "Zie ook",

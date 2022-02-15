@@ -6,7 +6,6 @@ import { coreReduxActions, PreventAccidentalNavigationPrompt, studyAPI } from 'c
 import { AlertBox, ConfirmDialog, LoadingPlaceholder, SurveyView } from 'case-web-ui';
 import { Survey, SurveyContext, SurveyResponse } from 'survey-engine/data_types';
 import { useTranslation } from 'react-i18next';
-import TickMapResponse from '../survey/TickMapResponse';
 import SubmitSuccessWithLoginOptionsDialog, { LoginOptions } from './Dialogs/SubmitSuccessWithLoginOptionsDialog';
 import ErrorWithRetry from './PageComponents/ErrorWithRetry';
 import ProfileSelectionDialog from './Dialogs/ProfileSelectionDialog';
@@ -14,7 +13,7 @@ import SuccessDialog from './Dialogs/SuccessDialog';
 import { Profile } from 'case-web-ui/build/types/profile';
 import { SurveyAndContextMsg } from 'case-web-app-core/build/api/types/studyAPI';
 import LoginRequiredDialog from './Dialogs/LoginRequiredDialog';
-import { dateLocales } from '../../App';
+import { customSurveyResponseComponents, dateLocales } from '../../App';
 
 
 interface TekenradarSurveyComponentProps extends GenericPageItemProps {
@@ -408,12 +407,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         backBtnText={t('backBtn')}
         submitBtnText={t('submitBtn')}
         invalidResponseText={t('notValidQuestion')}
-        customResponseComponents={[
-          {
-            name: ':map',
-            component: TickMapResponse,
-          },
-        ]}
+        customResponseComponents={customSurveyResponseComponents}
         dateLocales={dateLocales}
       />
       break;
