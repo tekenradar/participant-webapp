@@ -18,10 +18,10 @@
     "btn": "Ok"
   },
   "loginRequiredDialog": {
-    "title": "TODO: Login required",
-    "info": "To be able to continue with this survey, you need to login first",
-    "loginBtn": "Login",
-    "registerBtn": "Register"
+    "title": "Inloggen",
+    "info": "Log in om verder te gaan met de vragenlijst, of maak een Tekenradar account aan als je die nog niet hebt.\n\nMet een account kun je tekenbeten en Lyme melden, en bijdragen aan onderzoek. In je account vind je een overzicht van je gemelde tekenbeten.",
+    "loginBtn": "Log in",
+    "registerBtn": "Maak een account aan"
   },
   "submitSuccessWithLoginOptionsDialog": {
     "title": "Submitted",
