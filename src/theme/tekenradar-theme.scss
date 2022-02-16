@@ -27,5 +27,7 @@ $enable-rounded: false !default;
 
 .grecaptcha-badge { visibility: hidden; }
 
+$zindex-dropdown: 1001;
+
 @import '~case-web-ui/build/scss/iconfonts';
 @import '~bootstrap/scss/bootstrap.scss';
