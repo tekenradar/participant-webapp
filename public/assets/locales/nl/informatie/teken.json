@@ -67,24 +67,23 @@
     "actionBtn": "Lees meer"
   },
   "tekenweetjes": {
-    "title": "Tekenweetjes",
-    "card": {
-      "title": "Interessante weetjes over teken",
-      "body": "Wist u dat?",
-      "actionBtn": "Lees meer"
-    },
+    "title": "Wist u dat?",
     "accordionControls": {
       "open": "Lees verder",
       "close": "Verbergen"
     },
     "items": [
       {
-        "title": "Wat doet tekenradar.nl?",
-        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een erythema migrans(?) (rode ring of vlek), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
+        "title": "Jaarlijks 1,5 miljoen tekenbeten worden opgelopen",
+        "content": "In 2017 liepen mensen in Nederland naar schatting 1,5 miljoen tekenbeten op. Huisartsen zagen zo’n 91.000 mensen met een tekenbeet waarvan ongeveer 27.000 mensen last kregen van de eerste verschijnselen van de ziekte van Lyme (een rode ring rond de beetplek)."
       },
       {
-        "title": "Waarom zou ik een melding doen op Tekenradar?",
-        "content": "Op Tekenradar.nl kun je tekenbeten en de ziekte van Lyme melden voor jezelf en je kinderen. Je draagt daarmee bij aan onderzoek waardoor meer inzicht ontstaat over waar en wanneer tekenbeten en de ziekte van Lyme worden opgelopen, en wat de gezondheidsgevolgen kunnen zijn. Op de website kun je ook zien hoeveel tekenbeten er in de voorafgaande weken zijn gemeld. Door zelf een melding te doen verbeter je ook de betrouwbaarheid van die gegevens."
+        "title": "Het hele jaar actieve teken te vinden zijn",
+        "content": "Teken zijn er het hele jaar door. Zodra de temperatuur boven de 5 tot 10 °C komt, kunnen ze actief worden. De meeste mensen worden gebeten in de periode van maart tot en met oktober."
+      },
+      {
+        "title": "Teken niet uit bomen vallen",
+        "content": "Teken komen in het hele land voor in bossen, duinen, heidegebieden, beschutte weilanden, parken en tuinen. Ze zitten vooral in hoog gras, op bosbessenstruiken, varens of tussen dode bladeren. Van daaruit stappen ze over op passerende dieren, maar ook op mensen. Teken vallen niet uit bomen."
       }
     ]
   }
