@@ -18,9 +18,9 @@ const doelenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/VerzamelOCW-1920.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/internet-data.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
