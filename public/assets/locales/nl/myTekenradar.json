@@ -18,6 +18,7 @@
     "subtitle": "",
     "infoParagraph": "Hieronder staan de afgeronde Tekenradarvragenlijsten.",
     "cardActionBtn": "Lees meer",
+    "emptyList": "Je hebt nog geen afgeronde vragenlijsten.",
     "detailDialog": {
       "title": "Melding",
       "closeBtn": "Verbergen"
