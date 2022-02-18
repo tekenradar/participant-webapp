@@ -73,6 +73,9 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }, [])
 
   useEffect(() => {
+    if (!currentSurveyKey) {
+      return;
+    }
     fetchSurvey(currentSurveyKey)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentSurveyKey])
@@ -320,6 +323,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
     } else {
       for (const survey of resp.data.surveys) {
         if (survey.category === 'immediate') {
+          setCurrentSurveyKey('');
           setCurrentSurveyKey(survey.surveyKey);
           shouldOpenSurvey = true;
           break;
