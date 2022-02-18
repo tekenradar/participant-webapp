@@ -10,6 +10,7 @@ interface EMfotoUploadProps extends CommonResponseComponentProps {
 const EMfotoUpload: React.FC<EMfotoUploadProps> = (props) => {
   const [response, setResponse] = useState<ResponseItem | undefined>(props.prefill);
   const [touched, setTouched] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [fileId, setFileId] = useState<string | undefined>();
 
   useEffect(() => {
@@ -39,6 +40,7 @@ const EMfotoUpload: React.FC<EMfotoUploadProps> = (props) => {
 
   const uploadFile = async (file: File) => {
     try {
+      setLoading(true);
       const resp = await studyAPI.uploadParticipantFileRequest('tekenradar', file)
       if (!resp || !resp.data || !resp.data.id) {
         setFileId(undefined);
@@ -50,15 +52,20 @@ const EMfotoUpload: React.FC<EMfotoUploadProps> = (props) => {
       setFileId(prev => resp.data.id)
     } catch (err: any) {
       console.error(err.error);
+    } finally {
+      setLoading(false);
     }
   }
 
   const deleteFile = async (fileIdToDelete: string) => {
     try {
+      setLoading(false);
       await studyAPI.deleteParticipantFilesRequest('tekenradar', [fileIdToDelete])
       setFileId(undefined)
     } catch (err: any) {
       console.error(err.error);
+    } finally {
+      setLoading(false);
     }
   }
 
@@ -75,6 +82,12 @@ const EMfotoUpload: React.FC<EMfotoUploadProps> = (props) => {
           }
         }}
       />
+
+      {loading ? <div className='text-center'>
+        <div className="spinner-border text-primary mt-2" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </div> : null}
       {fileId ? <div>
         <p className='mt-2 text-primary fw-bold'>Je afbeelding is geüpload.</p>
         <p> Wil je toch een andere afbeelding uploaden? Klik dan hierboven en selecteer een andere.
