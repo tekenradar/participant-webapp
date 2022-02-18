@@ -59,7 +59,7 @@
   },
   "recaptchaConsent": {
     "title": "Cookie verklaring",
-    "cancelBtn": "Cancel",
+    "cancelBtn": "Annuleren",
     "acceptBtn": "Akkoord"
   },
   "signupSuccess": {
@@ -94,7 +94,7 @@
     "passwordInputLabel": "Wachtwoord",
     "passwordInputPlaceholder": "Wachtwoord",
     "info": "Wil je een ander e-mailadres gebruiken? Pas je e-mailadres aan door op onderstaande knop te klikken. Let op: pas na bevestiging van het e-mailadres kun je weer inloggen op de website van het Tekenradar.",
-    "cancelBtn": "Cancel",
+    "cancelBtn": "Annuleren",
     "confirmBtn": "Wijzig e-mailadres",
     "errors": {
       "wrongPasswordOrAccountId": "Er gaat iets verkeerd. Controleer je informatie. (e-mailadres of wachtwoord kan fout zijn.)",
@@ -104,7 +104,7 @@
     "warningDialog": {
       "title": "Bevestig nieuwe e-mailadres",
       "content": "Let op: pas na bevestiging van het nieuwe e-mailadres via de link in de bevestigingsmail die we je hebben gestuurd kun je weer inloggen op de website van het Tekenradar",
-      "cancelBtn": "Cancel",
+      "cancelBtn": "Annuleren",
       "confirmBtn": "Wijzig e-mailadres"
     },
     "successDialog": {
@@ -122,7 +122,7 @@
     "confirmPasswordInputLabel": "Bevestig nieuw wachtwoord",
     "confirmPasswordInputPlaceholder": "Bevestig nieuw wachtwoord",
     "info": "Vanwege veiligheid moet je eerst je huidige wachtwoord geven.",
-    "cancelBtn": "Cancel",
+    "cancelBtn": "Annuleren",
     "confirmBtn": "Wijzig wachtwoord",
     "errors": {
       "wrongCurrentPassword": "Verkeerd wachtwoord",
@@ -139,24 +139,24 @@
   "manageProfiles": {
     "title": "Profielen",
     "mainProfileLabel": "Ik",
-    "cancelBtn": "Cancel",
+    "cancelBtn": "Annuleren",
     "newProfileBtn": "Nieuw profiel voor je kind",
     "warningDialog": {
       "title": "Verwijderen profiel",
       "content": "Het verwijderen van het profiel {{ alias }} kan niet ongedaan worden gemaakt.",
-      "cancelBtn": "Cancel",
+      "cancelBtn": "Annuleren",
       "confirmBtn": "Verwijder profiel"
     }
   },
   "editProfile": {
     "new": {
       "title": "Nieuw profiel",
-      "cancelBtn": "Cancel",
+      "cancelBtn": "Annuleren",
       "submitBtn": "Maak Profiel voor je kind"
     },
     "edit": {
       "title": "Wijzig profiel",
-      "cancelBtn": "Cancel",
+      "cancelBtn": "Annuleren",
       "submitBtn": "Wijzigingen Opslaan"
     },
     "aliasInputLabel": "Naam of bijnaam kind",
@@ -189,7 +189,7 @@
   "deleteAccount": {
     "title": "Afmelden onderzoek",
     "info": "Weet je zeker dat je jouw account wilt verwijderen?\nDit is een actie die je niet ongedaan kunt maken.",
-    "cancelBtn": "Cancel",
+    "cancelBtn": "Annuleren",
     "confirmBtn": "Afmelden onderzoek",
     "successDialog": {
       "title": "Account verwijderd",

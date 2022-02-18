@@ -1,21 +1,21 @@
 {
   "title": "Zelf melden",
   "surveyLoadingError": {
-    "content": "Something went wrong while loading the survey.\n\n Try again later or if the issue persist reach out to the admin.",
-    "btn": "Retry"
+    "content": "Er is helaas iets mis gegaan bij het laden van de vragenlijst.\n\nProbeer het nog eens of neem [contact](mailto:info@tekenradar.nl) op als het probleem zich voort blijft doen.",
+    "btn": "Opnieuw proberen"
   },
   "surveySubmissionError": {
-    "content": "Something went wrong while submitting the responses.\n\n Try again later or if the issue persist reach out to the admin.",
-    "btn": "Retry"
+    "content": "Er is helaas iets mis gegaan bij het verzenden van de vragenlijst.\n\nProbeer het nog eens of neem [contact](mailto:info@tekenradar.nl) op als het probleem zich voort blijft doen.",
+    "btn": "Opnieuw proberen"
   },
   "profileSelectionDialog": {
     "title": "TODO: Select a profile",
     "info": "TODO: to which of your profiles should the report be associated with:"
   },
   "submitSuccessDialog": {
-    "title": "Submitted",
-    "info": "Responses are saved successfully. Click button to navigate to home page.",
-    "btn": "Ok"
+    "title": "Info",
+    "content": "Je vragenlijst is succesvol ingediend.",
+    "btn": "Doorgaan"
   },
   "loginRequiredDialog": {
     "title": "Inloggen",
@@ -32,7 +32,7 @@
     "withoutAccountBtn": "Continue without account"
   },
   "tempParticipantConversionSuccessDialog": {
-    "title": "Ready",
+    "title": "Info",
     "info": "Responses are saved successfully and assigned to your history. Click button to navigate to home page.",
     "btn": "Ok"
   }
