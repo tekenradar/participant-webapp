@@ -158,10 +158,10 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       return false;
     }
 
-    if (currentUser.profiles.length === 1) {
+    /*if (currentUser.profiles.length === 1) {
       setSelectedProfileID(currentUser.profiles[0].id)
       return false;
-    }
+    }*/
 
     if (selectedProfileID === undefined) {
       return true;
@@ -479,11 +479,16 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       texts={{
         title: t('meldenPage:profileSelectionDialog.title'),
         info: t('meldenPage:profileSelectionDialog.info'),
+        manageProfiles: t('meldenPage:profileSelectionDialog.manageProfilesBtn'),
       }}
       avatars={avatars}
       profiles={currentUser.profiles}
       onSelectProfile={(p: Profile) => {
         setSelectedProfileID(p.id);
+        coreReduxActions.dialogActions.closeDialog();
+      }}
+      onOpenProfileManager={() => {
+        dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload('manageProfiles'))
       }}
     />
     <SuccessDialog

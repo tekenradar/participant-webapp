@@ -9,8 +9,9 @@
     "btn": "Opnieuw proberen"
   },
   "profileSelectionDialog": {
-    "title": "TODO: Select a profile",
-    "info": "TODO: to which of your profiles should the report be associated with:"
+    "title": "Selecteer een profiel",
+    "info": "Selecteer hieronder voor welk profiel je deze melding doet.",
+    "manageProfilesBtn": "Maak een nieuw profiel"
   },
   "submitSuccessDialog": {
     "title": "Info",

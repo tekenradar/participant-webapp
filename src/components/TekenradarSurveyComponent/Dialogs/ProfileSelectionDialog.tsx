@@ -1,4 +1,4 @@
-import { AlertBox, Avatar, defaultDialogPaddingXClass, Dialog } from 'case-web-ui';
+import { AlertBox, Avatar, defaultDialogPaddingXClass, Dialog, DialogBtn } from 'case-web-ui';
 import { AvatarConfig } from 'case-web-ui/build/types/avatars';
 import { Profile } from 'case-web-ui/build/types/profile';
 import clsx from 'clsx';
@@ -9,10 +9,12 @@ interface ProfileSelectionDialogProps {
   texts: {
     title: string;
     info: string;
+    manageProfiles: string;
   };
   profiles: Profile[];
   avatars: AvatarConfig[];
   onSelectProfile: (p: Profile) => void;
+  onOpenProfileManager: () => void;
 }
 
 const ProfileSelectionDialog: React.FC<ProfileSelectionDialogProps> = (props) => {
@@ -53,6 +55,15 @@ const ProfileSelectionDialog: React.FC<ProfileSelectionDialogProps> = (props) =>
               <span className='fs-btn d-inline-block'>{p.alias}</span>
             </button>
           )}
+
+          <div className='mt-2 pt-2 border-top border-grey-4'>
+            <DialogBtn
+              //outlined={true}
+              label={props.texts.manageProfiles}
+              onClick={() => { props.onOpenProfileManager() }}
+            />
+          </div>
+
         </div>
 
       </div>
