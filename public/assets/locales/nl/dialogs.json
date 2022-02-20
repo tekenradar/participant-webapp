@@ -139,7 +139,7 @@
   "manageProfiles": {
     "title": "Profielen",
     "mainProfileLabel": "Ik",
-    "cancelBtn": "Annuleren",
+    "cancelBtn": "Dialoog sluiten",
     "newProfileBtn": "Nieuw profiel voor je kind",
     "warningDialog": {
       "title": "Verwijderen profiel",

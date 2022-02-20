@@ -45,7 +45,7 @@ export const customSurveyResponseComponents = [
     component: EMfotoUpload,
   },
   {
-    name: 'input:reportSelector',
+    name: 'input:TBReportSelector',
     component: ReportSelector,
   },
 ];

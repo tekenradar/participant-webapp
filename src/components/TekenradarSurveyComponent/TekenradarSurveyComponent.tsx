@@ -322,8 +322,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       console.error('no assigned surveys found')
     } else {
       for (const survey of resp.data.surveys) {
-        if (survey.category === 'immediate') {
-          setCurrentSurveyKey('');
+        if (survey.category === 'immediate' && survey.surveyKey !== currentSurveyKey) {
           setCurrentSurveyKey(survey.surveyKey);
           shouldOpenSurvey = true;
           break;
