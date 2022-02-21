@@ -31,6 +31,7 @@ interface DataDisplay {
 }
 
 const studyKey = 'tekenradar';
+const reportKeyFilter = 'TB';
 
 
 const ReportSelector: React.FC<ReportSelectorProps> = (props) => {
@@ -118,7 +119,7 @@ const ReportSelector: React.FC<ReportSelectorProps> = (props) => {
       const resp = await studyAPI.getReportsForUser(
         [studyKey],
         currentProfileID ? [currentProfileID] : undefined,
-        undefined,
+        reportKeyFilter,
         Math.floor(addMonths(now, -6).getTime() / 1000),
         undefined,
       );
@@ -171,10 +172,10 @@ const ReportSelector: React.FC<ReportSelectorProps> = (props) => {
   </div>
 
   const renderContent = () => <div>
-    <p className='fw-bold'>Select a report from the previous 6 months:</p>
+    <p className='fw-bold'>Alleen tekenbeten van de afgelopen 6 maanden worden getoond.</p>
     {
       (!loading && reportCardInfos.length < 1) ? <div className='p-2a bg-grey-2'>
-        <p>For this profile, there are no suitable tickbite reports within the last 6 months.</p>
+        <p>In de afgelopen 6 maanden zijn er geen tekenbeetmeldingen voor deze persoon gedaan.</p>
       </div> : null
     }
     {

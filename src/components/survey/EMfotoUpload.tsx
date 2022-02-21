@@ -93,7 +93,9 @@ const EMfotoUpload: React.FC<EMfotoUploadProps> = (props) => {
         <p> Wil je toch een andere afbeelding uploaden? Klik dan hierboven en selecteer een andere.
           Wil je de afbeelding verwijderen?</p>
         <button className='btn btn-outline-primary btn-sm' onClick={() => {
-          deleteFile(fileId)
+          if (window.confirm('Weet je zeker dat je de afbeelding weer wilt verwijderen?')) {
+            deleteFile(fileId)
+          }
         }}>Klik dan hier.</button>
       </div> : null}
     </div>
