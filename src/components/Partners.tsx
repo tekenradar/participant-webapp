@@ -14,7 +14,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
       <div className="d-flex justify-content-center align-items-center flex-wrap">
         <a
           className={imageClassName}
-          href="https://rivm.nl" target="_blank" rel="noreferrer">
+          href="/informatie/tekenradar" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-rivm.jpeg")} alt="Logo RIVM"
             width={380}
             className='mw-100'
@@ -22,7 +22,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
         </a>
         <a
           className={imageClassName}
-          href="https://www.wur.nl/nl/wageningen-university.htm" target="_blank" rel="noreferrer">
+          href="/informatie/tekenradar" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-WUR.png")} alt="Logo Wageningen"
             width={380}
             className='mw-100'
@@ -32,7 +32,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
         <div className="d-flex justify-content-center align-items-center flex-wrap">
         <a
           className={imageClassName}
-          href="" target="_blank" rel="noreferrer">
+          href="/informatie/tekenradar" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-AMC.png")} alt="Logo AMC"
             width={320}
             className='mw-100'
@@ -40,7 +40,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
         </a>
         <a
           className={imageClassName}
-          href="https://www.fsd.nl/" target="_blank" rel="noreferrer">
+          href="/informatie/tekenradar" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-FSD.png")} alt="Logo FSD"
             width={320}
             className='mw-100'
@@ -48,7 +48,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
         </a>
         <a
           className={imageClassName}
-          href="https://www.radboudumc.nl/patientenzorg" target="_blank" rel="noreferrer">
+          href="/informatie/tekenradar" target="_blank" rel="noreferrer">
           <img src={getExternalOrLocalContentURL("/images/logo-radboudumc.png")} alt="Logo Radboudumc"
             width={320}
             className='mw-100'
