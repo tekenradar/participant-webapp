@@ -4,7 +4,7 @@ Vanuit Amsterdam UMC zijn de leerstoel Vector-overdraagbare infectieziekten van 
 
 
 #### Over Amsterdam UMC
-In juni 2018 gingen de twee academische ziekenhuizen AMC en VUmc samen tot Amsterdam UMC. Met ruim 16.000 mensen werkt [Amsterdam UMC](https://www.amc.nl/web/home.htm) aan goede en toegankelijke zorg. Een van de speerpunten is immuniteit en infectieziekten. Daarbinnen richten artsen, onderzoekers en studenten zich op door vectoren overdraagbare infectieziekten, waaronder tekenoverdraagbare infectieziekten. 
+In juni 2018 gingen de twee academische ziekenhuizen AMC en VUmc samen tot Amsterdam UMC. Met ruim 16.000 mensen werkt [Amsterdam UMC](https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm) aan goede en toegankelijke zorg. Een van de speerpunten is immuniteit en infectieziekten. Daarbinnen richten artsen, onderzoekers en studenten zich op door vectoren overdraagbare infectieziekten, waaronder tekenoverdraagbare infectieziekten. 
 
 
 #### CEMM

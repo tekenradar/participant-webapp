@@ -23,7 +23,7 @@ export const footerConfig: FooterConfig = {
           type: "external",
           itemKey: "amc",
           value:"/informatie/amc"
-          //value: "https://www.amc.nl/web/home.htm",
+          //value: "https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm",
           //iconClass: "fab fa-facebook-square"
         },
         {
@@ -37,7 +37,7 @@ export const footerConfig: FooterConfig = {
           type: "external",
           itemKey: "radboudumc",
           value: "/informatie/radboud"
-          //value: "https://www.radboudumc.nl/patientenzorg",
+          //value: "https://www.radboudumc.nl/patientenzorg/aandoeningen/lymeziekte",
           //iconClass: "fab fa-facebook-square"
         },
       ]
