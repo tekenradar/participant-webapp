@@ -1,16 +1,3 @@
-
-## Help Tekenradar.nl te verbeteren
-*27 september 2012*
-<br></br>
-
-**Afgelopen voorjaar hebben we deze website gelanceerd. De website is inmiddels door honderdduizenden mensen bezocht. Om de site verder te verbeteren zijn we benieuwd naar uw gebruikerservaringen. We willen u vragen om een enquête van 14 (meerkeuze-)vragen te beantwoorden over het gebruik van Tekenradar.nl. De antwoorden zullen anoniem worden verwerkt.**
-<br></br>
-
-Alvast dank voor uw bijdrage,
-
-Arnold van Vliet Wageningen Universiteit
-
----
 ## Meer tekenbeten gemeld dan verwacht op Tekenradar.nl
 *30 juni 2012*
 
