@@ -8,6 +8,7 @@ import { GenericPageItemProps } from './utils';
 interface ReportButtonCardProps extends GenericPageItemProps {
   imageBgPostion: string;
   imageBgSize: string;
+  showMyTekenradarBtn?: boolean;
   buttons: Array<{ buttonKey: string, action: { type: 'navigate', value: string } }>;
 }
 
@@ -36,6 +37,31 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
       </div>
       {/*imageSrc ? <img className="w-100" src={getExternalOrLocalContentURL(imageSrc)} alt={imageAlt} /> : undefined*/}
       <div className="p-2 pt-0">
+
+        {props.showMyTekenradarBtn ? <React.Fragment><button
+          key={'myTekenradarBtn'}
+          className="btn btn-primary mt-2 w-100 text-start fs-4 fw-bold"
+          onClick={() => {
+            props.onNavigate('/my-tekenradar');
+
+          }}
+        >
+
+          {t(`${props.itemKey}.myTekenradar`)}
+          <span>
+            &nbsp;
+            <i
+            //</button>className="fs-btn fw-bold"
+            >
+              <svg width="1.25em" height="1.25em" viewBox="0 0 16 16" className="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+              </svg>
+            </i>
+          </span>
+
+        </button>
+        </React.Fragment> : null}
+
         {props.buttons.map(item =>
           <button
             key={item.buttonKey}
