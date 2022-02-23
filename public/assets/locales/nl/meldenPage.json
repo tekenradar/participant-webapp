@@ -34,7 +34,7 @@
   },
   "tempParticipantConversionSuccessDialog": {
     "title": "Info",
-    "info": "Je melding is succesvol opgeslagen en toegevoegd in Mijn Tekenradar. Klik op Oké om terug te gaan naar de startpagina.",
+    "content": "Je melding is succesvol opgeslagen en toegevoegd in Mijn Tekenradar. Klik op Oké om terug te gaan naar de startpagina.",
     "btn": "Oké"
   }
 }
