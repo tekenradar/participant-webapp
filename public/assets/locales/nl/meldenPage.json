@@ -25,16 +25,16 @@
     "registerBtn": "Maak een account aan"
   },
   "submitSuccessWithLoginOptionsDialog": {
-    "title": "Submitted",
-    "successMsg": "Responses are saved successfully.‚",
-    "info": "To access features like \"mytekenradar\", login in so that the system can connect your reports to your report history. \n\n If you don't have an account yet, you can start registration here as well.",
-    "loginBtn": "Login",
-    "registerBtn": "Register",
-    "withoutAccountBtn": "Continue without account"
+    "title": "Info",
+    "successMsg": "Je antwoorden zijn succesvol opgeslagen",
+    "info": "Wil je gebruik maken van \"mytekenradar\", log dan in zodat we je melding kunnen koppelen aan je account. \n\n Heb je nog geen account? Maak dan hier je account aan.",
+    "loginBtn": "Inloggen",
+    "registerBtn": "Aanmelden",
+    "withoutAccountBtn": "Doorgaan zonder account"
   },
   "tempParticipantConversionSuccessDialog": {
     "title": "Info",
-    "info": "Responses are saved successfully and assigned to your history. Click button to navigate to home page.",
-    "btn": "Ok"
+    "info": "Je melding is succesvol opgeslagen en toegevoegd in Mijn Tekenradar. Klik op Oké om terug te gaan naar de startpagina.",
+    "btn": "Oké"
   }
 }
