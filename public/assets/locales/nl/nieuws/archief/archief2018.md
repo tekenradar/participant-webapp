@@ -59,11 +59,6 @@ De meest voorkomende tekenoverdraagbare ziekte in Nederland is de ziekte van Lym
 
 #### Koorts na een tekenbeet
 Naast de verwekker van lymeziekte zijn teken in Nederland regelmatig besmet met verschillende andere bacteriën, parasieten en virussen. Bij mensen met koorts na een tekenbeet wordt sinds kort actief gezocht naar deze ziekteverwekkers. Hierdoor kunnen diagnostische tests om deze verwekkers aan te tonen verbeterd worden. Mensen kunnen meedoen aan dit onderzoek door koorts na een tekenbeet te melden op tekenradar.nl.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:200px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
-  <figcaption className="figure-caption">Een vrouwtjes teek en een tekennimf.</figcaption>
-</figure>
 
 #### Ga goed voorbereid op vakantie
 Recent was in het nieuws dat deze zomer veel teken worden verwacht. Ga dus goed voorbereid op vakantie:
@@ -84,10 +79,8 @@ Kijk voor meer informatie ook op rivm.nl/tekenbeet, www.expertisecentrumlyme.nl 
 
 **Onderzoekers van het RIVM en Wageningen University verwachten dat we in juni en juli ruim 500.000 tekenbeten oplopen, de helft van het jaarlijkse aantal tekenbeten.**
 <br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/LP_KIDS.jpg" alt="TODO">
-  <figcaption className="figure-caption">Controleer op tekenbeten na verblijf in een "groene" omgeving.</figcaption>
-</figure>
+[//]: <> (TODO: change image people outside)
+
 #### Het hele jaar door tekenbeten
 Het hele jaar door kun je een tekenbeet oplopen. Als het warmer is dan zeven graden worden de spinachtige diertjes actief. “Elk jaar zien we in onze data van tekenradar.nl een duidelijke piek in juni en juli van het aantal tekenbeetmeldingen”, zegt Kees van den Wijngaard, epidemioloog van het RIVM. “We zijn benieuwd naar het aantal meldingen in de rest van dit jaar, maar opvallend is dat het aantal meldingen in de eerste vijf maanden van 2018 29% hoger ligt dan het gemiddelde van de vijf jaar daarvoor.” Het aantal tekenbeetmeldingen hangt in belangrijke mate samen met de weersomstandigheden. Daarnaast speelt ook de aandacht voor Tekenradar.nl een rol. Elk jaar lopen we in Nederland ruim één miljoen tekenbeten op. De meeste mensen worden niet ziek na een tekenbeet.
 <br></br>
@@ -103,10 +96,6 @@ Met de data van het onderzoek kijken onderzoekers nu voor het eerst ook of met z
 #### Meedoen aan onderzoek
 Kinderen en volwassenen met Lyme kunnen meedoen aan onderzoek door zich aan te melden op tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met plotselinge koorts na een tekenbeet kunnen zich aanmelden voor het onderzoek.
 <br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:200px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
-  <figcaption className="figure-caption">Vrouwtjes teek en een teken-nimf</figcaption>
-</figure>
 
 #### Controleer op tekenbeten!
 Ben je in het bos, de duinen of in het park geweest, controleer jezelf daarna dan op tekenbeten. En vergeet niet om jezelf ook te controleren wanneer je in de tuin bent geweest. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten. Kijk op rivm.nl/tekenbeet hoe je het best een teek kunt verwijderen.
@@ -126,19 +115,10 @@ Kijk voor meer informatie op rivm.nl/tekenbeet, expertisecentrumlyme.nl, tekenra
 <br></br>
 
 Met het landelijke Pandora-onderzoek willen wetenschappers meer inzicht krijgen in andere tekenbeetziekten dan Lymeziekte. Iedereen van 16 jaar of ouder die binnen vier weken na een tekenbeet koorts krijgt, kan zich vanaf vandaag aanmelden via www.tekenradar.nl of via de (huis)arts. De gezondheid van de deelnemers wordt een jaar lang gevolgd.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/foto-teek.png" alt="TODO">
-  <figcaption className="figure-caption">Een teek vastgebeten in de huid</figcaption>
-</figure>
 
 #### Andere tekenbeetziekten
 Ruim één miljoen mensen loopt jaarlijks in Nederland een tekenbeet op en 27.000 van hen krijgt lymeziekte. Behalve de lymebacterie zitten er vaak ook andere ziekteverwekkers in teken, zoals parasieten, bacteriën en virussen. Besmetting daarmee kan enkele dagen tot weken na de tekenbeet klachten veroorzaken, zoals koorts en andere griepachtige verschijnselen. Het is nog niet bekend hoe vaak een tekenbeet in Nederland tot deze klachten leidt, hoe ernstig de klachten zijn, en of ze de ziekte van Lyme beïnvloeden.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:200px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
-  <figcaption className="figure-caption">Een vrouwtjes teek en een teken-nimf</figcaption>
-</figure>
+[//]: <> (TODO: change image: imageEM or delete)
 
 #### Een teek? Pak ‘m beet!
 Van 16 tot en met 22 april is het De week van de Teek waarin aandacht wordt gevraagd voor tekenbeten en tekenbeetziekten. Ben je in het bos, de duinen of in het park geweest, of heb je in de tuin gewerkt, controleer dan daarna op tekenbeten. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet 3 maanden in de gaten. Neem contact op met de huisarts als je een rode ringvormige uitslag ziet, koorts ontwikkelt, of als je last krijgt van andere gezondheidsklachten.  
@@ -160,6 +140,7 @@ Publieksinformatie over tekenbeten en de ziekte van Lyme is te vinden op www.exp
 
 Kinderen die beginnen met een antibioticabehandeling tegen de ziekte van Lyme kunnen zich aanmelden via Tekenradar.nl. Ouders of verzorgers van jonge kinderen kunnen hun kinderen aanmelden en de vragenlijsten invullen. Tijdens het onderzoek wordt de gezondheid van deelnemers een jaar lang gevolgd.
 <br></br>
+[//]: <> (TODO: change image: kids)
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/LP_KIDS.jpg" alt="TODO">
   <figcaption className="figure-caption">Controleer op tekenbeten na verblijf in een "groene" omgeving. Meld tekenbeten en Lyme op Tekenradar.nl.</figcaption>
@@ -185,11 +166,6 @@ Uit een peiling onder huisartsen blijkt dat bij ongeveer 25.500 patiënten een v
 
 #### Regionale spreiding
 Overal in Nederland kun je de ziekte van Lyme oplopen. Via tekenradar.nl kun je zien hoe vaak lymeziekte in jouw gemeente voorkomt. Naast de nieuwste peiling zijn ook de resultaten uit de jaren 1994, 2001, 2005, 2009 en 2014 per gemeente te bekijken. Uit de peiling blijkt dat in de oostelijke en noordelijke provincies de meeste mensen de ziekte van Lyme oplopen.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:300px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
-  <figcaption className="figure-caption">Een volwassen vrouwtjes teek en een teken-nimf.</figcaption>
-</figure>
 
 #### Controleer op teken!
 Van 16 tot en met 20 april is het de Week van de Teek. Tijdens de week van de Teek vragen verschillende organisaties mensen om extra alert te zijn op tekenbeten. Ben je in het bos, de duinen of in het park geweest, controleer daarna dan op tekenbeten. En vergeet niet om jezelf ook te controleren wanneer je in de tuin bent geweest. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten.
@@ -246,10 +222,6 @@ Tekst: Arnold van Vliet, De Natuurkalender, Wageningen University en Kees van de
 <br></br>
 
 **Actieve ziekte van Lyme van het zenuwstelsel kun je niet aantonen met een ELISpot-test, zo stellen onderzoekers van het RIVM en het Diakonessenhuis Utrecht deze week in Journal of Clinical Microbiology. Dit is de eerste studie waarin de bruikbaarheid van een ‘cellulaire test’ geëvalueerd is op een uitgebreide, goed gedefinieerde populatie van patiënten en een controlegroep uit Nederland. Het onderzoek laat zien dat positieve Borrelia ELISpot-resultaten vaker voorkomen bij mensen die blootgesteld zijn aan de lymebacterie, maar de ELISpot-test kan geen actieve lymeziekte van het zenuwstelsel onderscheiden van een doorgemaakte lymeziekte in het verleden.**
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
-</figure>
 
 #### Afweerreactie
 Cellulaire testen worden met regelmaat gebruikt in commerciële laboratoria en veel Nederlanders laten hun bloed met deze testen onderzoeken in Duitsland. Met de cellulaire testen wordt de activiteit gemeten van bepaalde afweercellen: de T-cellen die een belangrijke rol spelen bij de afweer en actief worden als ze met de lymebacterie in aanraking komen.

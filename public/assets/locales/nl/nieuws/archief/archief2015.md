@@ -7,11 +7,6 @@
 
 #### Toename kans op hartklachten door ziekte van Lyme
 De afgelopen 20 jaar is in Nederland het aantal mensen met de ziekte van Lyme verviervoudigd tot 25.000 per jaar. Vaak blijft de ziekte van Lyme beperkt tot een zich uitbreidende rode ring of vlek op de huid na een tekenbeet, die meestal verdwijnt na behandeling. Als de Borrelia bacterie, die de ziekte veroorzaakt, zich verder kan verspreiden door het lichaam kunnen klachten ontstaan aan huid, gewrichten of zenuwstelstel. Soms komen dan ook hartritmestoornissen voor, waarbij de plaatsing van een pacemaker noodzakelijk kan zijn.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
-  <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto H. van den Kerkhof)</figcaption>
-</figure> 
 
 #### Snel herkennen belangrijk
 Hartklachten komen vaak voor, daarom is het voor artsen moeilijk om de relatief zeldzame gevallen van ritmestoornissen door de ziekte van Lyme te herkennen. Snelle herkenning is belangrijk om te voorkomen dat de hartritmestoornissen verergeren of zelfs levensbedreigend worden. Ook kan zo voorkomen worden dat het plaatsen van een pacemaker noodzakelijk is.

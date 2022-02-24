@@ -60,11 +60,6 @@ Van de in totaal ruim 30.000 tekenbeetmeldingen tussen 2012 en 2016 komen de mee
 
 #### Verwijder een tekenbeet snel!
 Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt. Het is daarom belangrijk dat mensen zich controleren na een bezoek aan het groen en teken direct verwijderen als ze zich vastgebeten hebben in de huid. Tot drie maanden na de beet kan op de huid een rode vlek of ring ontstaan. Krijgt u deze huiduitslag of andere klachten zoals koorts en eventueel spier- en gewrichtspijn in de eerste weken na een tekenbeet, neem dan contact op met uw huisarts. Dit kunnen namelijk signalen zijn van de ziekte van Lyme.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
-  <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto H. van den Kerkhof)</figcaption>
-</figure>
 
 
 #### Onderzoek naar langdurige klachten
@@ -90,11 +85,7 @@ Het LymeProspect onderzoek is een samenwerking van het RIVM, Radboudumc, AMC en 
 De enquête werd in januari online afgenomen door Amy van der Heijden in het kader van haar scriptie bij de leerstoelgroepen Strategische Communicatie en Milieusysteemanalyse van Wageningen University.  Het onderzoek moest meer inzicht geven in wat natuurbezoekers beweegt om zichzelf op teken te controleren na een bezoek aan de natuur.
 
 De helft van de mensen bleek zichzelf niet of nauwelijks te controleren op tekenbeten na een bezoek aan de natuur. De enquête werd midden in de winter uitgevoerd dus mogelijk waren mensen in de veronderstelling, overigens ten onrechte, dat teken in de winter niet actief zijn. Overigens blijken veel mensen zich ook midden in het tekenseizoen niet op teken te checken, terwijl dat de beste manier is om het oplopen van de ziekte van Lyme te voorkomen. Dat mensen zich niet checken is opvallend aangezien 60 procent van de mensen denkt dat het risico groot is dat ze door een teek worden gebeten als ze de natuur in gaan. Daarbij geeft 85 procent van de mensen aan dat ze Lyme als een ernstige ziekte zien en denkt 60 procent dat Lyme moeilijk te genezen is. Daarentegen acht slechts 17 procent de kans groot dat ze de ziekte van Lyme oplopen na een tekenbeet. De tekencheck wordt door 70 procent van de mensen gezien als een effectieve tot zeer effectieve manier om de ziekte van Lyme te voorkomen.
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
-  <figcaption className="figure-caption">Tekenbeet</figcaption>
-</figure> 
+
 
 #### Vertrouwen in eigen kunnen
 Een op de drie mensen vindt het lastig tot zeer lastig om een tekencheck uit te voeren. Het bleek dat als mensen er meer vertrouwen in hebben dat ze een tekencheck op een goede manier uit kunnen voeren, ze meer geneigd zijn om de tekencheck te doen. Dit vertrouwen in eigen kunnen wordt lager als mensen geen pincet of tekentang bij de hand hebben om de teek te verwijderen, of als er geen spiegel is waarmee plaatsen bekeken kunnen worden die lastig te bekijken zijn, zoals de rug. Omdat de meeste mensen privacy willen om de tekencheck te doen, kan het gezelschap van anderen ook een belemmering zijn.
@@ -144,6 +135,7 @@ Het LymeProspect onderzoek is een samenwerking van het RIVM, Radboudumc, AMC en 
 
 De tot nu toe zachte winter zorgde voor vroeg bloeiende planten, maar ook teken genieten van de relatieve warmte. Waar men in de zomer nog wel eens maatregelen neemt om niet gebeten te worden, achten veel mensen het in de winter een stuk minder waarschijnlijk een teek tegen het lijf te lopen. Heeft u bijvoorbeeld in de afgelopen maand uw lichaam nog gecheckt op teken als u in een gebied was geweest waar teken kunnen voorkomen?
 <br></br>
+[//]: <> (TODO: change image to similar or skip)
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
   <figcaption className="figure-caption">Tekenbeet</figcaption>

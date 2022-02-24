@@ -80,7 +80,7 @@ Bekijk ook de andere voorlichtingsmaterialen op de RIVM website en speel het spe
 In april en mei loopt de tekenactiviteit normaal gesproken sterk op. Doordat april tot nu toe twee graden kouder was dan normaal, lag het activiteitsniveau de afgelopen weken nog laag voor de tijd van het jaar. Ook bij een gering of minimaal activiteitsniveau is er echter een risico op tekenbeten. Uit de tekenbetenmeldingen op Tekenradar.nl blijkt dat de afgelopen weken door heel het land mensen gebeten zijn door teken. Met het naderen van mei en vooral met de verwachte stijging van de temperatuur zal de tekenactiviteit volgens Tekenradar.nl de komende tien dagen toenemen en rond begin mei het activiteitsniveau ‘Zeer hoog’ bereiken in het zuidoosten van Nederland. De verwachting is grotendeels gebaseerd op de weersverwachting dus een verandering in de weersverwachting zal ook een verandering in de activiteitsverwachting tot gevolg hebben.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120423_tekenverwachting_3_mei.jpg" alt="Verwachting tekenactiviteit op 3 mei 2012. Gemaakt op 23 april 2012">
+  <img className="figure-img img-fluid" style="max-width:300px;width:100%;" src="/assets/images/archief/20120423_tekenverwachting_3_mei.jpg" alt="Verwachting tekenactiviteit op 3 mei 2012. Gemaakt op 23 april 2012">
   <figcaption className="figure-caption">Verwachting tekenactiviteit op 3 mei 2012. Gemaakt op 23 april 2012</figcaption>
 </figure>
 
@@ -101,7 +101,7 @@ Om het risico op het oplopen van de ziekte van Lyme sterk te verkleinen is het b
 Tekenradar.nl geeft voor elke plaats in Nederland een tiendaagse verwachting voor het tekenactiviteitsniveau van de aanwezige teken weer. De verwachting geeft geen indicatie voor het totaal aantal teken op een bepaalde plaats. Er worden vijf categorieën voor tekenactiviteit onderscheiden: Minimaal, gering, middelmatig, hoog en zeer hoog. Vandaag verwachten we in de provincies Friesland en Groningen nog een minimale tekenactiviteit. In het midden van het land is de tekenactiviteit opgelopen tot gering terwijl in grote delen van de onderste helft van Nederland al een middelmatige activiteit verwacht wordt.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120328_uitsnede_Tekenverwachting.jpg" alt="Tekenactiviteitverwachting op 28 maart 2012">
+  <img className="figure-img img-fluid" style="max-width:300px;width:100%;" src="/assets/images/archief/20120328_uitsnede_Tekenverwachting.jpg" alt="Tekenactiviteitverwachting op 28 maart 2012">
   <figcaption className="figure-caption">Tekenactiviteitverwachting op 28 maart 2012</figcaption>
 </figure>
 

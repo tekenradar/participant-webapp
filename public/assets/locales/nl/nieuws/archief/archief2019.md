@@ -72,10 +72,6 @@ Kijk voor meer informatie op rivm.nl/tekenbeet, www.expertisecentrumlyme.nl  en 
 *28 mei 2019*
 <br></br>
 **Bijna 1 op de 5 mensen die een tekenbeet meldt op Tekenradar.nl had meerdere tekenbeten tegelijk. Vind je bij het controleren van je lichaam een teek, zoek dan verder naar andere tekenbeten. Afgelopen jaar gaven mensen de meeste tekenbeten door vanuit Gelderland, Noord-Brabant en Noord-Holland. Als je deze gegevens corrigeert voor het aantal inwoners is de top 3: Drenthe, Gelderland en Utrecht.**
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
-</figure>
 
 Voorbeelden van teken“Na een bezoek aan het groen een tekencheck doen” is al een paar jaar de slogan van het RIVM en Wageningen University. Uit informatie van tienduizenden meldingen op Tekenradar.nl blijkt dat je altijd moet blijven zoeken, nadat je 1 teek op je lichaam vindt. “De meeste mensen melden maar 1 teek. Maar bijna 1 op de 5 mensen meldt 2 of meer tekenbeten,” vertelt Kees van den Wijngaard, onderzoeker bij het RIVM. Vind je één of meer teken, meld het dan ook aan anderen met wie je op pad bent geweest. Zij kunnen zichzelf dan ook extra goed kunnen controleren.
 <br></br>
@@ -115,12 +111,6 @@ Kijk voor meer informatie op:
 *Bericht van het RIVM en Wageningen University*
 <br></br>
 **Tijdens het bijzonder warme en droge weer in 2018 zagen onderzoekers van het RIVM en Wageningen University een bijzondere tweesplitsing in het aantal tekenbeetmeldingen bij Tekenradar.nl. Een hoogterecord in de eerste zes maanden en een laagterecord in de laatste zes maanden. Op dit moment ligt het aantal meldingen weer rond het gemiddelde. Controleer dus op tekenbeten als je in het park, bos of de duinen bent geweest.**
-<br></br>
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Nagelteek_170218496.jpg" alt="TODO">
-  <figcaption className="figure-caption">Een volwassen vrouwtjes teek naast een vingernagel, tekennimfen en larfjes zijn kleiner.</figcaption>
-</figure>
-
 In 2018 kreeg Tekenradar.nl zo’n 8.500 meldingen van tekenbeten. Dit ligt rond het gemiddelde van de afgelopen 5 jaar. Echter, in de eerste helft van 2018 kwamen er meer meldingen binnen dan ooit. Het aantal lag een derde hoger dan gemiddeld. Vanaf juli zakte het aantal meldingen onverwacht hard. De tweede helft van het jaar werden 37% minder tekenbeten gemeld dan normaal. Dit was een laagterecord.
 
 #### Meldingen
