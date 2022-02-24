@@ -7,6 +7,11 @@
 
 #### Toename kans op hartklachten door ziekte van Lyme
 De afgelopen 20 jaar is in Nederland het aantal mensen met de ziekte van Lyme verviervoudigd tot 25.000 per jaar. Vaak blijft de ziekte van Lyme beperkt tot een zich uitbreidende rode ring of vlek op de huid na een tekenbeet, die meestal verdwijnt na behandeling. Als de Borrelia bacterie, die de ziekte veroorzaakt, zich verder kan verspreiden door het lichaam kunnen klachten ontstaan aan huid, gewrichten of zenuwstelstel. Soms komen dan ook hartritmestoornissen voor, waarbij de plaatsing van een pacemaker noodzakelijk kan zijn.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
+  <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto H. van den Kerkhof)</figcaption>
+</figure> 
 
 #### Snel herkennen belangrijk
 Hartklachten komen vaak voor, daarom is het voor artsen moeilijk om de relatief zeldzame gevallen van ritmestoornissen door de ziekte van Lyme te herkennen. Snelle herkenning is belangrijk om te voorkomen dat de hartritmestoornissen verergeren of zelfs levensbedreigend worden. Ook kan zo voorkomen worden dat het plaatsen van een pacemaker noodzakelijk is.
@@ -34,6 +39,12 @@ Omdat de ziekte van Lyme verschillende verschijningsvormen heeft, zijn bij het b
 - Mensen met andere klachten van de ziekte van Lyme (zoals neurologische klachten) zonder restklachten na behandeling:  ongeveer 1.400 mensen per jaar. Dit leidt tot 8% van het totaal aantal verloren gezonde levensjaren door Lyme.
 
 - Mensen die na behandeling van de ziekte van Lyme langdurige klachten houden die aan de ziekte van Lyme worden toegeschreven: ongeveer 1.000 tot 2.500 per jaar. Dit leidt tot 86% van het totaal aantal verloren gezonde levensjaren door Lyme.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/45f81c94a7583.jpg" alt="TODO">
+  <figcaption className="figure-caption">Rode ring of vlek na een tekenbeet</figcaption>
+</figure>
+
 
 #### Onderzoek naar langdurige klachten
 
@@ -62,6 +73,11 @@ Contactgegevens persvoorlichting RIVM: 030 – 2743005
 
 #### Elk jaar 25.000 nieuwe Lymepatiënten
 Uit de nieuwste peiling onder huisartsen bleek dat zij in 2014 ongeveer 23.500 mensen met een rode ring- of vlekvormige uitslag op de huid (erythema migrans(?)) op het spreekuur kregen. Deze huiduitslag is het meest voorkomende signaal van de ziekte van Lyme. Daarnaast werd bij ongeveer 1.400 mensen de ziekte van Lyme vastgesteld op basis van andere klachten. Het aantal mensen dat zich meldt met een rode ring-of vlekvormige huiduitslag is tussen 2009 en 2014 licht toegenomen en lijkt zich te stabiliseren. Het aantal mensen dat naar de huisarts gaat met een teek in de huid is afgenomen. Mogelijk verwijderen mensen de teek vaker zelf. Vaak is de ziekte van Lyme goed te behandelen, 1.000 tot 2.500 mensen per jaar houden na behandeling langdurig klachten zoals vermoeidheid, pijn of concentratiestoornissen. Waarom een deel van de patiënten zulke klachten krijgt en houdt is niet bekend.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/archief/Ontwikkeling Lyme Nederland.png" alt="TODO">
+  <figcaption className="figure-caption">Verspreiding van huisartsconsulten voor erythema migrans (rode ring of vlek) in Nederland 1994-2014</figcaption>
+</figure>
 
 #### Nieuw onderzoek
 Om meer inzicht in te krijgen in de oorzaken van langdurige klachten na behandeling voor de ziekte van Lyme, start vandaag het ‘LymeProspect’ onderzoek. Iedereen van 18 jaar of ouder die een antibioticabehandeling gaat beginnen tegen de ziekte van Lyme kan zich voor dit onderzoek aanmelden via de (huis)arts of via www.tekenradar.nl. De deelnemers wordt gevraagd bloed af te geven en een jaar lang elke drie maanden een online-vragenlijst over hun gezondheid in te vullen. Met deze resultaten krijgen de onderzoekers inzicht in welke patiënten klachten houden na behandeling en wat daarvoor de verklaringen zijn. Het LymeProspect onderzoek is een samenwerkingsverband tussen het RIVM, AMC, Radboudumc en Gelre ziekenhuizen Apeldoorn. De website www.tekenradar.nl is een samenwerking van de Wageningen Universiteit (WUR) en het RIVM. Het LymeProspect onderzoek wordt mogelijk gemaakt door ZonMw en het ministerie van VWS.
