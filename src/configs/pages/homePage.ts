@@ -118,7 +118,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/onderzoeken.png',
+                url: '/images/cRIVM/onderzoeken.png',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -156,7 +156,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/lymecard.png',
+                url: '/images/cRIVM/lymecard.png',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -195,7 +195,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/hoe-verwijder-ik-een-teek',
               },
               image: {
-                url: '/images/CRIVM/82106-1920.jpg',
+                url: '/images/cRIVM/82106-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',

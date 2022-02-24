@@ -8,10 +8,22 @@
 <br></br>
 
 Op 28 maart publiceerden Wageningen University en het Rijksinstituut voor Volksgezondheid en Milieu (RIVM) de website www.tekenradar.nl. In de eerste paar dagen bezochten ruim 130 duizend mensen de website met daarop een tiendaagse tekenactiviteitsverwachting. Naast het verschaffen van veel informatie over teken en de ziekte van Lyme speelt de site een cruciale rol in het onderzoek naar de ziekte van Lyme. Mensen met een tekenbeet wordt gevraagd om deze te melden en de teek die gebeten heeft op te sturen naar het RIVM. Een rode ringvormige uitslag rond de plaats van de tekenbeet, de erythema migrans, kan ook gemeld worden. 
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120630_Tekenbetenmeldingen_Tekenradar.jpg" alt="Locaties waar in de periode 23 tot en met 30 juni tekenbeten en erythema migrans (rode ring) zijn gemeld op Tekenradar.nl.">
+  <figcaption className="figure-caption">Locaties waar in de periode 23 tot en met 30 juni tekenbeten en erythema migrans (rode ring) zijn gemeld op Tekenradar.nl.</figcaption>
+</figure>
 
 #### Meldingen
 In de eerste drie maanden zijn al ruim 2000 tekenbeten gemeld en meer dan 600 teken opgestuurd naar het RIVM. Dit aantal overtreft de verwachtingen. De helft van de tekenbeten is opgelopen in het bos. Opvallend is dat zo’n veertig procent van de tekenbeten is opgelopen in de tuin. Dit is bijna tien procent hoger dan tot nu toe is gevonden in het kader van De Natuurkalender (periode 2006 tot en met 2011). De meeste tekenbeten werden gemeld in Gelderland, Noord-Holland en Brabant. Vanuit Flevoland, Zeeland en Groningen werden de minste tekenbeten gemeld (zie onderstaande figuur).
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120701_percentage_tekenbeten_provincie.jpg" alt="Per provincie het percentage tekenbeten dat werd doorgegeven van het totaal aantal tekenbeten gemeld op Tekenradar.nl in de periode 28 maart tot en met 30 juni 2012">
+  <figcaption className="figure-caption">Per provincie het percentage tekenbeten dat werd doorgegeven van het totaal aantal tekenbeten gemeld op Tekenradar.nl in de periode 28 maart tot en met 30 juni 2012</figcaption>
+</figure>
+
 Bij tien procent van de opgestuurde teken ging het om een volgezogen teek. De teken worden vooral verwijderd door degene die gebeten was of een gezinslid en in zeer beperkte mate door een huisarts. In twintig procent van de gevallen had de teek langer dan 24 uur vastgezeten op het lichaam. Vijfenveertig procent van de mensen die een tekenbeet gemeld hebben, maakt zich zorgen over de gevolgen van de tekenbeet.
+
 
 #### Onderzoek
 Mensen die een teek opgestuurd hebben ontvangen gedurende anderhalf jaar elke drie maanden een online vragenlijst. De eerste drie maandelijkse vragenlijsten zijn deze week verstuurd. Op basis van de antwoorden hoopt het RIVM antwoord te krijgen op de vraag wat de gevolgen van een tekenbeet zijn voor mensen en hoe vaak besmette teken de ziekte van Lyme kunnen overdragen. Dat leidt uiteindelijk tot meer inzicht in de ziekte van Lyme en beter medisch advies aan mensen na een tekenbeet. Als de vragenlijsten worden ingevuld onderzoekt het RIVM binnen acht maanden de opgestuurde teek op de aanwezigheid van de Borrelia bacterie. De uitslag van dit onderzoek geldt niet als een medisch advies aan de deelnemers.
@@ -29,11 +41,22 @@ Mensen die een teek opgestuurd hebben ontvangen gedurende anderhalf jaar elke dr
 <br></br>
 
 Het zal u niet ontgaan zijn: het is weer volop tekenseizoen. Daarbij liggen verspreid over de Nederlandse bossen miljoenen teken (Ixodes ricinus) in hinderlaag om hun slag te slaan. Deze teken zijn het meest gebaat bij een bloedmaal op een wild dier zoals knaagdieren, vogels en hoefdieren. Maar met wat pech staan ook wij mensen of onze huisdieren op het menu, wij worden vooral door de kleine platte zwarte nimfjes gebeten. Dat gaat niet zomaar: daar moeten we zelf toch wat moeite voor doen.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/ixodes_ricinus_fedor_gassner_rivm.jpg" alt="Een typische tekenstek">
+  <figcaption className="figure-caption">Een typische tekenstek: een bosachtige omgeving met hoog gras. Het wandelpad brengt de mens in contact met de teek, in dit geval een volwassen mannetje en een volwassen vrouwtje van de schapenteek (Ixodes ricinus) in hinderlaag (foto: Fedor Gassner)</figcaption>
+</figure>
 
 De teek komt namelijk niet op ons af springen of vliegen en laat zich zelden uit een boom vallen. De meeste teken komen van onderen, waar ze in hinderlaag zitten in de ondergroei. Ze kruipen vanuit hun schuilplaats tussen dode bladeren, mos en humusrijke grond een stukje omhoog in de vegetatie. Daar wachten ze geduldig totdat een passant tegen ze aanloopt zodat ze zich vast kunnen grijpen, om vervolgens over het lichaam naar een geschikte bijtplek te lopen.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/ixodes_ricinus_adriaan_van_aelst_wur.jpg" alt="De klauwtjes op het uiteinde van iedere tekenpoot worden door de teek gebruikt om te klimmen en zich vast te grijpen aan een passerende bloedmaaltijd (foto: Adriaan van Aelst)">
+  <figcaption className="figure-caption">De klauwtjes op het uiteinde van iedere tekenpoot worden door de teek gebruikt om te klimmen en zich vast te grijpen aan een passerende bloedmaaltijd (foto: Adriaan van Aelst)</figcaption>
+</figure>
 
 Dat wachten kan soms wel een jaar duren, waarbij de teek niets eet of drinkt. Het is voor de teek dus er op of er onder; die ene kans mag hij niet missen.
 Daarvoor is de teek dan ook uitgerust met geavanceerde grijpklauwtjes op alle pootjes. Daarmee hengelen ze naar de passant en grijpen zich effectief vast. Met die klauwtjes lopen ze zelfs probleemloos tegen glas op. In de nieuwe voorlichtingsfilm van het RIVM kunt u mooi van zeer dichtbij zien hoe die overstap precies gaat. Ook is de leefomgeving van de teek in beeld gebracht. Zo maakt u van dichtbij kennis met de teek, zodat u met vertrouwen een tekencontrole uit kunt voeren na een bezoek aan het groen. Verder is te zien hoe een teek het beste uit de huid getrokken kan worden, en wat u het beste kunt doen na een tekenbeet. 
+
 
 Bekijk ook de andere voorlichtingsmaterialen op de RIVM website en speel het spel Teekcontrol. Geef uw tekenbeet of rode ring ná een tekenbeet ook door op Tekenradar.nl.
 
@@ -55,6 +78,11 @@ Bekijk ook de andere voorlichtingsmaterialen op de RIVM website en speel het spe
 <br></br>
 
 In april en mei loopt de tekenactiviteit normaal gesproken sterk op. Doordat april tot nu toe twee graden kouder was dan normaal, lag het activiteitsniveau de afgelopen weken nog laag voor de tijd van het jaar. Ook bij een gering of minimaal activiteitsniveau is er echter een risico op tekenbeten. Uit de tekenbetenmeldingen op Tekenradar.nl blijkt dat de afgelopen weken door heel het land mensen gebeten zijn door teken. Met het naderen van mei en vooral met de verwachte stijging van de temperatuur zal de tekenactiviteit volgens Tekenradar.nl de komende tien dagen toenemen en rond begin mei het activiteitsniveau ‘Zeer hoog’ bereiken in het zuidoosten van Nederland. De verwachting is grotendeels gebaseerd op de weersverwachting dus een verandering in de weersverwachting zal ook een verandering in de activiteitsverwachting tot gevolg hebben.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120423_tekenverwachting_3_mei.jpg" alt="Verwachting tekenactiviteit op 3 mei 2012. Gemaakt op 23 april 2012">
+  <figcaption className="figure-caption">Verwachting tekenactiviteit op 3 mei 2012. Gemaakt op 23 april 2012</figcaption>
+</figure>
 
 Het zijn vooral de nimfen die rond deze tijd actief worden. De tekenactiviteitsverwachting op Tekenradar.nl geeft alleen verwachtingen voor de activiteit van nimfen (het tweede larvale stadium van de teek). De verandering in het activiteitsniveau van larven is moeilijker te bepalen. Het aantal larven zal pas in de loop van mei gaan stijgen en een piek bereiken rond het begin van augustus. Larven zijn vanuit het oogpunt van de ziekte van Lyme minder interessant omdat maar een zeer klein deel de *Borrelia bacterie* bij zich draagt. Teken krijgen de *Borrelia bacterie* pas bij het drinken van besmet bloed van zoogdieren, vogels of hagedissen. Larven komen net uit het ei en hebben voordat ze een mens bijten nog niet eerder bloed gedronken. Aangezien nimfen als larve al een keer bloed gedronken hebben is een deel besmet geraakt. Het zijn daarom vooral de nimfen die verantwoordelijk zijn voor het overgrote deel van de gevallen van de ziekte van Lyme. Volwassen vrouwtjes kunnen ook de *Borrelia bacterie* op mensen overbrengen, maar er zijn veel minder vrouwtjes dan nimfen. Op een heel jaar gezien worden er dertien keer meer nimfen dan volwassen vrouwtjes gevangen in het kader van het Natuurkalender tekenonderzoek en zelfs vierendertig keer meer larven dan vrouwtjes.
 
@@ -71,6 +99,11 @@ Om het risico op het oplopen van de ziekte van Lyme sterk te verkleinen is het b
 #### Verwachting tekenactiviteit
 
 Tekenradar.nl geeft voor elke plaats in Nederland een tiendaagse verwachting voor het tekenactiviteitsniveau van de aanwezige teken weer. De verwachting geeft geen indicatie voor het totaal aantal teken op een bepaalde plaats. Er worden vijf categorieën voor tekenactiviteit onderscheiden: Minimaal, gering, middelmatig, hoog en zeer hoog. Vandaag verwachten we in de provincies Friesland en Groningen nog een minimale tekenactiviteit. In het midden van het land is de tekenactiviteit opgelopen tot gering terwijl in grote delen van de onderste helft van Nederland al een middelmatige activiteit verwacht wordt.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120328_uitsnede_Tekenverwachting.jpg" alt="Tekenactiviteitverwachting op 28 maart 2012">
+  <figcaption className="figure-caption">Tekenactiviteitverwachting op 28 maart 2012</figcaption>
+</figure>
 
 De onderzoekers willen met de tekenverwachting mensen bewuster maken van de aanwezigheid van teken zodat ze zich beter beschermen tegen een tekenbeet en zichzelf na een bezoek aan natuur, park of tuin controleren op een tekenbeet. De tekenverwachting wordt gebaseerd op de weersomstandigheden en het moment van het jaar. De verwachting is gemaakt door Wageningen University en gebaseerd op de maandelijkse tekenvangsten die groepen vrijwilligers sinds zomer 2006 in het kader van het Natuurkalender programma op twaalf locaties deden. Op de helft van de vaste vanglocaties zijn in 2011 ondanks het zeer droge, zonnige en warme voorjaar meer teken gevangen dan in elk van de jaren 2007 tot en met 2010. Op twee locaties zijn juist niet eerder zo weinig teken gevangen.
 
@@ -86,7 +119,11 @@ Iedereen met een tekenbeet en/of een rode ringvormige huiduitslag na een tekenbe
 <br></br>
 
 In deze game leren kinderen wat teken zijn, waar teken zitten, en dat het belangrijk is om na het spelen in het groen op teken gecontroleerd te worden. In de game race je rond op de kaart van je eigen buurt om daar te zorgen dat de kinderen zich laten controleren op teken. Tijdens de game komen animaties voorbij waar kinderen een tekenbeet oplopen. Daarbij wordt continu gebruik gemaakt van “Google-streetview” foto’s in de eigen buurt!
-
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:300px;width:100%;" src="/assets/images/archief/GameTeekControl.jpg" alt="Screenshot Game Teek Control">
+  <figcaption className="figure-caption">Screenshot Game Teek Control</figcaption>
+</figure>
 Gedeelde vreugd is dubbele vreugd: aan het eind van het spel kan de score gedeeld worden via Facebook, Twitter of Hyves, en kunnen de ouders of verzorgers gemaild worden om ze te vertellen over Teek Control en ze te motiveren om hun kind op teken te controleren. Bovendien kunnen kinderen uit dezelfde buurt tegen elkaar spelen. De winnaar wordt de 'super-teekcontroller' van de buurt!
 
  
@@ -96,7 +133,11 @@ Gedeelde vreugd is dubbele vreugd: aan het eind van het spel kan de score gedeel
 <br></br>
 
 De Week van de Teek wordt jaarlijks in het vroege voorjaar georganiseerd door een omvangrijke groep landelijke samenwerkende organisaties. Werkenden in de agrarische en groene sectoren spelen een belangrijke rol in de totstandkoming en het in stand houden van groene recreatieplekken en - gebieden als tuinen, parken, bos en natuurgebieden.
-
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:300px;width:100%;" src="/assets/images/archief/Weekvandeteek.jpg" alt="Volwassen teek">
+</figure>
+<br></br>
 Of u nu beroepsmatig in het groen komt of als recreant van de natuur geniet, u doet er goed aan om aandacht te besteden aan teken en tekenbeten en aan de mogelijke gevolgen van de ziekte van Lyme. [De website weekvandeteek.nl](https://www.weekvandeteek.nl) geeft antwoord op vragen als:
 
 Wat zijn de risico's?
@@ -109,3 +150,8 @@ Ook worden tips en richtlijnen gegeven voor werknemers en werkgevers. Uiteraard 
 *26 maart 2012*
 <br></br>
 Het voorlichtingsmateriaal van het RIVM is herzien en in een nieuw jasje gestoken. In de campagne ligt de nadruk op het belang om te controleren op tekenbeten en teken snel te verwijderen. De campagne loopt van april tot oktober. Op verschillende momenten zal het RIVM aandacht vragen voor tekenbeten en de ziekte van Lyme.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:300px;width:100%;" src="/assets/images/archief/Teek_campagnebeeld.jpg" alt="Volwassen teek">
+  <figcaption className="figure-caption">Volwassen teek (foto: RIVM)</figcaption>
+</figure>
