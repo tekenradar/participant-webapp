@@ -263,26 +263,11 @@ export const homePage = (path: string): PageConfig => {
         key: 'row1',
         columns: [
           {
-            key: 'mytekenradarCardCol',
-            className: 'col-12 col-lg-4 mt-3',
+            key: 'meldenCardCol',
             hideWhen: 'unauth',
+            className: 'col-12 col-lg-4 mt-3',
             items: [
-              {
-                itemKey: 'mytekenradarCard',
-                className: 'h-100',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/my-tekenradar',
-                  },
-                  image: {
-                    placement: 'top',
-                    url: "/images/no-license/melden-card.jpg",
-                    //height: '300px'
-                  }
-                }
-              },
+              meldenCard({ className: 'h-100', showMyTekenradarBtn: true })
             ]
           },
           {
