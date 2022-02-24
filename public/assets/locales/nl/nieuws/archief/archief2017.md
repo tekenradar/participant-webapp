@@ -6,6 +6,9 @@
 
 **Het aantal gevallen van de ziekte van Lyme en andere ziekten die teken kunnen overbrengen neemt toe. Dit concluderen twee RIVM-onderzoekers die deze week promoveren met hun onderzoek naar teken en ziekteverwekkers die door teken kunnen overdragen.**
 <br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/promotiefoto.jpg" alt="TODO">
+</figure>
 
 Jaarlijks lopen we in Nederland meer dan een miljoen tekenbeten op. Teken kunnen de bacterie die de ziekte van Lyme veroorzaakt (Borrelia burgdorferi) met zich meedragen, maar daarnaast ook allerlei andere bacteriën en virussen. Zo toonde Seta Jahfari voor het eerst het tekenencefalitisvirus en Borrelia miyamotoi in Nederland aan. Beide kunnen hersen(vlies)ontsteking veroorzaken. Jahfari concludeert in haar onderzoek dat ongeveer de helft van alle teken één of meerdere ziekteverwekkers met zich meedraagt.
 
@@ -13,12 +16,10 @@ Jaarlijks lopen we in Nederland meer dan een miljoen tekenbeten op. Teken kunnen
 In het bloed van 2,5% van de mensen die een tekenbeet opliep, trof Jahfari, samen met haar collega Agnetha Hofhuis, sporen aan van één of meerdere ziekteverwekkers. De promovenda, die vrijdag aan het ErasmusMC promoveert, stelt daarnaast dat veel infecties door deze ziekteverwekkers in de kliniek niet goed onderscheiden kunnen worden. Veel van deze bacteriën, parasieten en virussen zorgen namelijk voor symptomen die ook onterecht voor de ziekte van Lyme kunnen worden gezien.
 
 #### Erythema migrans
-Hofhuis laat met haar onderzoek zien dat het aantal gevallen van een rode vlek of ring – een zogenoemde erythema migrans(?) – tussen 1994 en 2014 verviervoudigde. In 2014 leek voor het eerst een stabilisatie van het aantal gevallen op te treden. Hiernaast laat de promovenda, die donderdag aan de Universiteit Utrecht promoveert, zien dat de gemiddelde kans om de ziekte van Lyme te krijgen na een tekenbeet 2,6% is. Hiernaast keek Hofhuis, in een onderzoek uitgevoerd via tekenradar.nl, of de kans op ziekte van Lyme groter wordt naarmate een teek meer volgezogen is met bloed. Uiteindelijk blijkt de kans om de ziekte van Lyme te krijgen van een volgezogen teek met de Lyme-bacterie maximaal 14,4% te zijn.
+Hofhuis laat met haar onderzoek zien dat het aantal gevallen van een rode vlek of ring – een zogenoemde erythema migrans – tussen 1994 en 2014 verviervoudigde. In 2014 leek voor het eerst een stabilisatie van het aantal gevallen op te treden. Hiernaast laat de promovenda, die donderdag aan de Universiteit Utrecht promoveert, zien dat de gemiddelde kans om de ziekte van Lyme te krijgen na een tekenbeet 2,6% is. Hiernaast keek Hofhuis, in een onderzoek uitgevoerd via tekenradar.nl, of de kans op ziekte van Lyme groter wordt naarmate een teek meer volgezogen is met bloed. Uiteindelijk blijkt de kans om de ziekte van Lyme te krijgen van een volgezogen teek met de Lyme-bacterie maximaal 14,4% te zijn.
 
 #### Co-infecties
 Beide promovenda geven als aanbeveling mee dat behandelend artsen moeten letten op mogelijke co-infecties bij de verdenking op de ziekte van Lyme. Jahfari pleit voor aanvullend onderzoek bij patiënten die aanhoudende symptomen hebben na een tekenbeet of de ziekte van Lyme. Hierbij geeft ze mee dat antibiotica niet helpen bij virussen of infecties met protozoa (kleine eencellige organismen) die in teken voor kunnen komen. Hofhuis en Jahfari pleiten daarnaast beide voor de ontwikkeling en validatie van nieuwe laboratoriumtests om tekenoverdraagbare ziekten, anders dan de ziekte van Lyme, te kunnen identificeren.
-
-<br></br>
 
 *Agnetha Hofhuis verdedigt haar proefschrift ‘Epidemiology of Lyme borreliosis and other tick-borne diseases in the Netherlands’ op 2 november in het Academiegebouw aan de Universiteit Utrecht.*
 
@@ -36,6 +37,11 @@ In maart 2012 lanceerden Wageningen University en het RIVM de website www.tekenr
 
 #### 25 procent lager
 Naar aanleiding van een vraag van RTL Nieuws hebben we het verloop van het aantal tekenbeetmeldingen dit jaar onder de loep genomen. Wat direct opvalt is dat het totaal aantal tekenbeetmeldingen in de maanden januari tot en met juli 25 procent lager ligt dan het gemiddelde in de jaren 2013 tot en met 2016. Sterker nog, niet eerder sinds de start van Tekenradar.nl werden er zo weinig tekenbeten doorgegeven in de eerste zeven maanden van het jaar. Het lage aantal meldingen kan niet verklaard worden door een verminderde bekendheid van de site. Het totaal aantal unieke bezoekers lag tot nu toe maar 6 procent lager dan het gemiddelde van de voorgaande jaren. In de maanden mei, juni en juli, de maanden waarin de meeste tekenbeten worden gemeld, lag het aantal bezoekers aan de site zelfs 15 procent hoger dan gemiddeld terwijl in deze periode toch een kwart minder tekenbeten werd gemeld.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
+  <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto: H. van den Kerkhof)</figcaption>
+</figure>
 
 #### Activiteiten in de natuur
 Juli springt er vooral uit met 47 procent minder tekenbeetmeldingen ten opzichte van het gemiddelde. Het aantal tekenbeten is afhankelijk van zowel het aantal teken dat actief op zoek is naar bloed als van de activiteit en het gedrag van mensen in het groen. Juli was volgens het KNMI een zeer natte maand. Gedurende de hele maand viel er regen. Dat zal er voor gezorgd hebben dat minder mensen de natuur in zijn gegaan. Het is daarnaast bij een natte vegetatie of natte grond minder aantrekkelijk om op de grond te gaan zitten of liggen. Hierdoor is de kans dat teek en mens elkaar tegenkomen beduidend lager.
@@ -65,12 +71,21 @@ We stellen het zeer op prijs als u een tekenbeet of tekenen van de ziekte van Ly
 
 #### Onderzoek
 Elk jaar zijn er 1.000 tot 2.500 mensen die na behandeling tegen de ziekte van Lyme toch klachten houden. Onduidelijk is hoeveel daarvan jonger dan 18 jaar zijn. Om hier meer inzicht in te krijgen, kunnen nu ook kinderen en pubers meedoen aan het onderzoek naar langdurige klachten na de ziekte van Lyme via Tekenradar.nl. Voor volwassenen loopt dit onderzoek al sinds 2015. Inmiddels doen al ruim 600 mensen mee aan het onderzoek.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/LP_KIDS.jpg" alt="TODO">
+</figure>
 
 #### Opzet onderzoek
 Volwassenen en jongeren die een antibioticabehandeling beginnen tegen de ziekte van Lyme, kunnen zich aanmelden voor dit onderzoek via www.tekenradar.nl of via hun huisarts. Tijdens het onderzoek wordt de gezondheid van deelnemers een jaar lang gevolgd door het invullen van vragenlijsten en het afnemen van bloed. Met deze studie willen onderzoekers van het RIVM, Radboudumc, AMC en Gelre ziekenhuizen Apeldoorn vaststellen hoe vaak jongeren onder de 18 jaarlangdurigeklachten houden na behandeling en wat daarvan de oorzaken zijn. Ook willen de onderzoekers weten of bij jongeren andere oorzaken voor langdurige klachten een rol spelen dan bij volwassenen. Deze kennis kan gebruikt worden om de behandeling van de ziekte van Lyme te verbeteren. Het onderzoek loopt tot en met 2019.
 
 #### Piek van het tekenseizoen in juli: controleer op tekenbeten!
 De komende tijd wordt de piek van het tekenseizoen verwacht: tekenradar.nl ontvangt in juli gemiddeld een derde van alle tekenbeetmeldingen in een jaar. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest. Bijvoorbeeld na bezoek aan het bos, duinen, park, de speeltuin of na verblijf in de tuin. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe korter de teek in de huid zit, hoe kleiner de kans dat de teek ziekteverwekkers overdraagt. Neem contact op met de huisarts wanneer u symptomen krijgt die wijzen op de ziekte van Lyme. 
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
+  <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto: H. van den Kerkhof)</figcaption>
+</figure>
 
 #### Meer informatie
 Meer informatie over het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme vindt u op www.tekenradar.nl. Algemene informatie over tekenbeten en Lyme kunt u vinden op de website van het RIVM (www.rivm.nl/tekenbeet) en op www.tekenradar.nl.
@@ -84,12 +99,21 @@ Het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme (�
 
 **De ziekte van Lyme is een infectieziekte die door de Borrelia-bacterie wordt veroorzaakt. Teken kunnen de ziekte van Lyme overdragen als ze zelf besmet zijn met de Borrelia-bacterie. Het meest voorkomende signaal van de ziekte van Lyme is een rode ring- of vlekvormige huiduitslag (erythema migrans(?)) op de plaats waar de teek heeft gebeten. Soms kunnen mensen echter besmet raken met de bacterie zonder dat ze een rode ring of vlek hebben gezien. Hoe eerder de ziekte wordt opgemerkt, hoe beter deze te behandelen is met antibiotica.**
 <br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Teekopblad.jpg" alt="TODO">
+  <figcaption className="figure-caption">Vrouwtjesteek op blad (Bron: Francis Schaffner, ECDC)</figcaption>
+</figure>
 
 #### Lichte stijging in 2014
 Sinds 1994 wordt door het Centrum Infectieziektebestrijding van het RIVM bijgehouden hoeveel mensen in Nederland de huisarts bezoeken met deze rode ring- of vlekvormige huiduitslag. Tussen 1994 en 2009 is het aantal flink gestegen. Tussen 2009 en 2014 nam het aantal diagnoses bij de huisarts nog iets toe. Elk jaar krijgen mensen in Nederland samen meer dan 1 miljoen tekenbeten. Van alle mensen die in Nederland door een teek worden gebeten, krijgen ongeveer 2 tot 3 op de 100 (2 tot 3%) de ziekte van Lyme.
 
 ####  Lymekaarten op Atlas Leefomgeving
 Het RIVM heeft kaarten gemaakt op basis van het aantal erythema migrans(?)-diagnoses door huisartsen. Naast de kaart met gegevens uit 2009, is nu ook die met meldingen uit 2014 opgenomen in de Atlas Leefomgeving. Bij het tonen van de kaart in de Atlas kunt u in het menu ‘kaartlagen selecteren’ de legenda openen. U kunt daar ook de uitgebreide toelichting op de kaart vinden. In de rode gebieden zijn de meeste diagnoses van een rode ring- of vlekvormige huiduitslag gemeld. Vooral in het oosten van het land en op de Waddeneilanden wordt veel Lyme gezien. Via ‘informatie op locatie’ in het rechtermenu is zichtbaar wat de aantallen per gemeente precies zijn. Hoewel de meeste tekenbeten plaatsvinden in het buitengebied, wordt ruim 1 op de 5 tekenbeten opgelopen in stedelijk gebied. Vooral in stadsparken, bossen en de eigen tuin worden mensen gebeten door teken.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Kaarten.png" alt="TODO">
+  <figcaption className="figure-caption">Aantal mensen dat na een tekenbeet met een rode vlek of ring op de huid door de huisarts is gezien in 2009 en 2014 (Bron: Atlas Leefomgeving)</figcaption>
+</figure>
 
 #### Wees alert op tekenbeten
 Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
@@ -114,6 +138,11 @@ Jaarlijks krijgen 25.000 mensen in Nederland de ziekte van Lyme. Dat kost elk ja
 
 #### Opbouw kosten
 De kosten van een ziekte bestaan uit de kosten binnen de gezondheidszorg, kosten door werkverzuim en de kosten die patiënten zelf betalen. Deze kosten van een ziekte worden berekend over de hele bevolking.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
+  <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto H. van den Kerkhof)</figcaption>
+</figure>
 
 #### Preventie en snelle behandeling
 Naast preventie van tekenbeten en snelle behandeling van milde infecties, is het voorkomen en behandelen van ernstige en langdurige klachten dus ook belangrijk vanwege de hoge maatschappelijke kosten. Toch blijft de belangrijkste preventieve maatregel om te controleren op tekenbeten nadat mensen in het ‘groen’ zijn geweest. Bijvoorbeeld na bezoek aan het bos, de duinen, maar ook het park, de speeltuin of na verblijf in de tuin. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
@@ -141,6 +170,10 @@ In stedelijk gebied dragen teken minder vaak de bacterie bij zich die de ziekte 
 
 #### Controleren extra belangrijk!
 Elk jaar krijgen mensen in Nederland ongeveer 1,3 miljoen tekenbeten. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
+<br></br>
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
+</figure>
 
 #### Onderzoek via Tekenradar.nl
 De website Tekenradar.nl toont elke dag de verwachte tekenactiviteit per regio. Nu de temperatuur stijgt, neemt ook het aantal meldingen van tekenbeten toe. Naar verwachting zal dat de komende tijd doorzetten. Via Tekenradar.nl kunnen mensen ook meedoen aan verschillende onderzoeken. Mensen kunnen zich opgeven als ze door een teek zijn gebeten of de eerste signalen van de ziekte van Lyme hebben. Dit jaar start een onderzoek naar de kenmerken van tuinen waarin tekenbeten gemeld zijn. Het gaat om tuinen zowel binnen als buiten het stedelijk gebied.
