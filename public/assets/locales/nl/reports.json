@@ -27,6 +27,12 @@
       "g": "Werkgerelateerde activiteit",
       "h": "Anders",
       "i": "Weet ik niet"
+    },
+    "count": {
+      "label": "Aantal tekenbeten"
+    },
+    "location": {
+      "label": "Locatie"
     }
   },
   "EM": {
