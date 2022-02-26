@@ -4,6 +4,7 @@ export const footerConfig: FooterConfig = {
   columns: [
     {
       columnKey: 'partners',
+      classNameOverride: 'col-12 col-md-10 col-lg-6 col-xl-4 mt-3 text-white',
       items: [
         {
           type: "external",
@@ -22,7 +23,7 @@ export const footerConfig: FooterConfig = {
         {
           type: "external",
           itemKey: "amc",
-          value:"/informatie/amc"
+          value: "/informatie/amc"
           //value: "https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm",
           //iconClass: "fab fa-facebook-square"
         },
@@ -44,6 +45,7 @@ export const footerConfig: FooterConfig = {
     },
     {
       columnKey: 'about',
+      classNameOverride: 'col-12 col-md-10 col-lg-6 col-xl-4 mt-3 text-white',
       items: [
         {
           type: "internal",
