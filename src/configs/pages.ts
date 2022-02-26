@@ -13,7 +13,7 @@ import { medischePage } from "./pages/medischePage";
 import { toeganPage } from "./pages/toeganPage";
 
 const defaultRoutes = {
-  auth: "/home",
+  auth: "/my-tekenradar",
   unauth: "/home",
   studyPage: "/home",
   surveyPage: "/surveys"
