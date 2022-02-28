@@ -187,10 +187,10 @@
     }
   },
   "deleteAccount": {
-    "title": "Afmelden onderzoek",
-    "info": "Weet je zeker dat je jouw account wilt verwijderen?\nDit is een actie die je niet ongedaan kunt maken.",
+    "title": "Afmelden Tekenradar",
+    "info": "Weet je zeker dat je je account wilt verwijderen?\n\n Dit is een actie die je niet ongedaan kunt maken.",
     "cancelBtn": "Annuleren",
-    "confirmBtn": "Afmelden onderzoek",
+    "confirmBtn": "Afmelden Tekenradar",
     "successDialog": {
       "title": "Account verwijderd",
       "content": "Gelukt! Je account is verwijderd. Dank voor je bijdrage. Je kunt altijd weer mee doen door een nieuw account aan te maken.",
