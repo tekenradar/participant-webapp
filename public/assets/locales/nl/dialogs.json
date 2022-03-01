@@ -162,7 +162,7 @@
     "aliasInputLabel": "Naam of bijnaam kind",
     "aliasInputPlaceholder": "Naam of bijnaam kind",
     "consentCheckboxLabel": "Toestemming",
-    "consentCheckboxText": "Je mag uitsluitend als ouder of wettelijk vertegenwoordiger van je kind dat de leeftijd van 18 jaar nog niet heeft bereikt een profiel aanmaken en vragenlijsten invullen (een volwassene binnen hetzelfde gezin kan met een ander e-mailadres zelf een eigen account aanmaken).",
+    "consentCheckboxText": "Je mag uitsluitend als ouder of wettelijk vertegenwoordiger van je kind dat de leeftijd van 16 jaar nog niet heeft bereikt een profiel aanmaken en vragenlijsten invullen (een volwassene binnen hetzelfde gezin kan met een ander e-mailadres zelf een eigen account aanmaken).",
     "avatarSelectorLabel": "Kies een plaatje"
   },
   "changeNotifications": {
@@ -178,7 +178,7 @@
       "on": "Wel deze e-mails naar alle deelnemers ontvangen",
       "off": "Niet deze e-mails naar alle deelnemers ontvangen"
     },
-    "cancelBtn": "Annuleer",
+    "cancelBtn": "Annuleren",
     "submitBtn": "Aanpassen",
     "successDialog": {
       "title": "Instellingen aangepast",
