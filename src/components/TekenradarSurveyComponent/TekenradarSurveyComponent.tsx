@@ -49,6 +49,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   const [currentSurvey, setCurrentSurvey] = useState<{
     surveyDef: Survey;
     context?: SurveyContext;
+    prefill?: SurveyResponse;
     openedAt: number;
   } | undefined>();
   const [currentSurveyKey, setCurrentSurveyKey] = useState(props.defaultSurveyKey);
@@ -208,6 +209,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       setCurrentSurvey({
         surveyDef: survey.survey,
         context: survey.context,
+        prefill: survey.prefill,
         openedAt: now,
       })
     } catch (e) {
@@ -384,6 +386,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
       pageContent = <SurveyView
         survey={currentSurvey.surveyDef}
         context={currentSurvey.context}
+        prefills={currentSurvey.prefill?.responses}
         languageCode={i18n.language}
         onSubmit={(responses, version: string) => {
           console.log(responses)
