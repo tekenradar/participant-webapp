@@ -4,12 +4,12 @@
     "requiredSurveys": {
       "title": "In te vullen vragenlijsten",
       "info": "Hieronder staan de in te vullen Tekenradarvragenlijsten",
-      "successMsg": "Dank je wel! Je hebt alle vragenlijsten ingevuld. Volgende week vragen we je weer."
+      "successMsg": "Dank je wel! Je hebt alle vragenlijsten ingevuld. Als het tijd is voor een nieuwe vragenlijst vragen we je weer."
     },
     "optionalSurveys": {
-      "title": "Wijzigen achtergrondinformatie",
-      "info": "Als je situatie veranderd is kan je hieronder opnieuw de achtergrondvragenlijst(en) invullen. We kunnen helaas niet laten zien wat je de laatste keer hebt ingevuld, of je alleen specifieke vragen laten aanpassen.",
-      "showBtn": "Is je achtergrondinformatie veranderd?",
+      "title": "Stopzetten van vervolgvragenlijsten",
+      "info": "Met vervolgvragenlijsten onderzoeken wij hoe vaak tekenbeten voorkomen, en wat de gezondheidsgevolgen zijn van tekenbeten en lymeziekte. Invullen is dus nuttig, ook als je zelf geen tekenbeten of gezondheidsklachten (meer) hebt. \n\nAls je wilt stoppen met vervolgvragenlijsten kun je dat hieronder aangeven per Tekenradar onderzoek.",
+      "showBtn": "Stopzetten van vervolgvragenlijsten",
       "hideBtn": "Verbergen"
     }
   },

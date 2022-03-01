@@ -18,8 +18,8 @@
     }
   },
   "deleteAccount": {
-    "title": "Afmelden bij het Tekenradar platform (hiermee wordt mijn account verwijderd)",
-    "warning": "Je kunt je helemaal afmelden bij het Tekenradar platform of alleen afmelden voor de vervolgvragenlijsten. \n\nAfmelden bij het Tekenradar platform houdt in dat ook al je accountgegevens worden verwijderd. Na het verwijderen van je account kunnen wij de door jou opgegeven informatie niet meer aan jou als persoon koppelen.\n\n Dit betekent ook dat je alle informatie van eerdere meldingen over jezelf of eventuele anderen binnen je account niet meer kunt inzien, en dat je geen nieuwe meldingen meer kunt doen met deze account.",
+    "title": "Afmelden Tekenradar / intrekken toestemming",
+    "warning": "Afmelden Tekenradar / intrekken toestemming houdt in dat je accountgegevens worden verwijderd.\nNa het verwijderen van het account kunnnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen. Als je wel je account wilt houden, maar alleen geen nieuwe vragenlijsten meer wilt ontvangen ga dan naar 'Mijn tekenradar', en klik op 'Stopzetten van vervolgvragenlijsten'",
     "deleteBtn": "Afmelden"
   },
   "references": {

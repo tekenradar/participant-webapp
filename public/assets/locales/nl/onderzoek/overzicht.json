@@ -3,7 +3,7 @@
   "doelen.title": "Doelen",
   "doelenOnderzoek": {
     "title": "Doelen onderzoeken",
-    "body": "Tekenradar.nl is sinds de oprichting in 2012 door het RIVM en Wageningen University een platform met een groot bereik onder het Nederlands publiek, waarin voorlichting over tekenbeten en de ziekte van Lyme hand in hand gaat met citizen science onderzoek...",
+    "body": "Via Tekenradar.nl worden burgers voorgelicht over en betrokken bij onderzoek naar tekenbeten en de ziekte van Lyme. Voorlichting over tekenbeten en de ziekte van Lyme gaat zo hand in hand met citizen science onderzoek...",
     "actionBtn": "Lees meer"
   },
   "onderzoeken.title": "Onderzoeken via Tekenradar.nl",
@@ -23,7 +23,6 @@
     "body": "Na een tekenbeet kan de ziekte van Lyme ontstaan. Als dat gebeurd kan antibiotica... ",
     "actionBtn": "Lees meer"
   },
-
   "victory": {
     "title": "Victory onderzoek",
     "body": "De standaard diagnostische tests om te onderzoeken of iemand Lyme heeft, hebben enkele belangrijke... ",
@@ -52,7 +51,3 @@
     "actionBtn": "Lees meer"
   }
 }
-
-
-
-
