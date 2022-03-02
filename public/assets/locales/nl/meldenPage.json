@@ -10,7 +10,7 @@
   },
   "profileSelectionDialog": {
     "title": "Selecteer een profiel",
-    "info": "Selecteer hieronder voor welk profiel je deze melding doet.",
+    "info": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
     "manageProfilesBtn": "Maak een nieuw profiel"
   },
   "submitSuccessDialog": {
