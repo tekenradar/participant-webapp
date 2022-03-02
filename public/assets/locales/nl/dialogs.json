@@ -63,8 +63,8 @@
     "acceptBtn": "Akkoord"
   },
   "signupSuccess": {
-    "title": "Welkom!",
-    "successMsg": "Je bent bijna aangemeld voor Tekenradar! **Klik nu eerst op de knop 'Verder gaan met vragenlijst'.** Bevestig **na afronden** van de vragenlijst nog je e-mailadres door op de link in de bevestigingsmail te klikken. Deze is verstuurd naar het door jou opgegeven e-mailadres. Controleer eerst je spam-folder als je de e-mail niet kunt vinden. Heb je de e-mail niet ontvangen? Klik dan op de knop hieronder om de bevestigingsmail nogmaals te versturen.",
+    "title": "Welkom! Maak nu eerst je vragenlijst af.",
+    "successMsg": "**Klik nu eerst op de knop 'Verder gaan met vragenlijst' als je een melding aan het doen was.** Bevestig **na afronden** van de vragenlijst nog je e-mailadres door op de link in de bevestigingsmail te klikken. Deze is verstuurd naar het door jou opgegeven e-mailadres. Controleer eerst je spam-folder als je de e-mail niet kunt vinden. Heb je de e-mail niet ontvangen? Klik dan op de knop hieronder om de bevestigingsmail nogmaals te versturen.",
     "emailSentMsg": "E-mail is verstuurd.",
     "resendVerificationEmailBtn": "Bevestigingsmail nogmaals sturen",
     "wrongEmailBtn": "Heb je een verkeerd e-mailadres gebruikt? Verander deze dan hier.",
