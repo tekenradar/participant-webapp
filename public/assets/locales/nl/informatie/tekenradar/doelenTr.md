@@ -9,7 +9,7 @@ Tekenradar.nl is sinds de oprichting in 2012 door het RIVM en Wageningen Univers
 Actuele informatie te verschaffen over teken en de ziekte van Lyme:
 
 - Door actuele informatie te geven over het verwachte activiteitsniveau van nimfen in Nederland. We verwachten dat met deze informatie meer mensen actief aan preventie zullen doen.
-- Door mensen te attenderen op de kans op tekenbeten en de ziekte van Lyme gevallen in Nederland, hoe vaak en onder welke omstandigheden een tekenbeet of erythema migrans(?) leidt tot (ernstige) klachten door de ziekte van Lyme, en hoe vaak aanhoudende klachten ontstaan. We verwachten dat met deze informatie meer mensen zich bewust worden van de risico’s en risicofactoren.
+- Door mensen te attenderen op de kans op tekenbeten en de ziekte van Lyme gevallen in Nederland, hoe vaak en onder welke omstandigheden een tekenbeet of [erythema migrans](/informatie/erythema-migrans) leidt tot (ernstige) klachten door de ziekte van Lyme, en hoe vaak aanhoudende klachten ontstaan. We verwachten dat met deze informatie meer mensen zich bewust worden van de risico’s en risicofactoren.
 - Door actief en frequent communiceren van de onderzoeksresultaten van Tekenradar.nl naar het brede publiek en specifieke doelgroepen.
  
 

@@ -8,4 +8,4 @@ Kinderen spelen vaak in het groen en gaan bij wandelingen makkelijk van de paden
 ## Kan de ziekte van Lyme ook een beroepsziekte zijn?
 Ja, dat kan als de ziekte tijdens het werk opgelopen is. Die kans is aanwezig als u tijdens uw werk vaak in een tekenrijke omgeving verblijft en daar gebeten wordt, of als u intensief contact heeft met dieren die teken bij zich kunnen dragen. Als u in het groen werkt zorgt de werkgever voor informatie en voor beschermende maatregelen. U moet zich als werknemer aan de voorgeschreven regels houden en de gegeven beschermingsmiddelen ook gebruiken. Meer informatie vindt u op https://www.beroepsziekten.nl en https://www.kiza.nl.
 
-Het RIVM heeft hierover een rapport geschreven waarin ook de resultaten van tekenradar.nl zijn gebruikt. Dit rapport vindt u hier <span style="color:red">missing link</span>.
+Het RIVM heeft hierover een rapport geschreven waarin ook de resultaten van tekenradar.nl zijn gebruikt. Dit rapport vindt u [hier](/informatie/lyme-en-werk).

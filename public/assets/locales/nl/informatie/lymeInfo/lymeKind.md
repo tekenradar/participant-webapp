@@ -7,7 +7,7 @@ Bedekkende kleding geeft nooit volledige bescherming. Het belangrijkste is om ki
  
 
 ## Hoe herken ik de ziekte van Lyme bij een kind?
-De klachten en symptomen door de ziekte van Lyme bij kinderen zijn wisselend. De eerste en meest voorkomende vorm van Lymeziekte bij kinderen is een rode ring of vlek op de huid (erythema migrans(?)<span style="color:red">missing link</span>). Deze huiduitslag komt bij 77 tot 89% van de kinderen met Lyme voor. Een zeldzamere huidafwijking door Lyme die bij kinderen relatief vaak op het oor voorkomt is een gladde blauwrode pijnloze zwelling van één tot enkele centimeters (een Borrelia lymfocytoom).
+De klachten en symptomen door de ziekte van Lyme bij kinderen zijn wisselend. De eerste en meest voorkomende vorm van Lymeziekte bij kinderen is een rode ring of vlek op de huid ([erythema migrans](/informatie/erythema-migrans)). Deze huiduitslag komt bij 77 tot 89% van de kinderen met Lyme voor. Een zeldzamere huidafwijking door Lyme die bij kinderen relatief vaak op het oor voorkomt is een gladde blauwrode pijnloze zwelling van één tot enkele centimeters (een Borrelia lymfocytoom).
  
 De bacterie kan zich ook verder door het lichaam verspreiden en verschillende klachten veroorzaken, bijvoorbeeld door infectie van het zenuwstelsel, oftewel Lyme neuroborreliose. De meest voorkomende klacht bij kinderen met Lyme neuroborreliose is de aangezichtsverlamming met een afhangende mondhoek  en met een oog dat niet goed gesloten kan worden. Andere tekenen van een neuroborreliose kunnen zijn dat  de oogbewegingen niet goed verlopen of er tekenen zijn van  een hersenvliesontsteking.
 
@@ -15,4 +15,4 @@ Kinderen met de ziekte van Lyme kunnen ook een gewrichtsontsteking krijgen, ofte
 
 
 ## Is de ziekte van Lyme anders bij kinderen en volwassenen?
-De klachten en symptomen bij de ziekte van Lyme kunnen verschillen tussen kinderen en volwassenen. Erythema migrans(?) komt bij kinderen bijvoorbeeld veel vaker voor in het gezicht en de nek en gaat  bij kinderen ook vaker gepaard met andere klachten zoals koorts, moeheid, hoofdpijn en gewrichtspijn. Ook een Borrelia lymfocytoom komt relatief vaker voor bij kinderen. Zowel kinderen als volwassenen met Lyme neuroborreliose kunnen zich presenteren met een aangezichtsverlamming, maar bij kinderen is dit vaker het enige symptoom van de ziekte.
+De klachten en symptomen bij de ziekte van Lyme kunnen verschillen tussen kinderen en volwassenen. [Erythema migrans](/informatie/erythema-migrans) komt bij kinderen bijvoorbeeld veel vaker voor in het gezicht en de nek en gaat  bij kinderen ook vaker gepaard met andere klachten zoals koorts, moeheid, hoofdpijn en gewrichtspijn. Ook een Borrelia lymfocytoom komt relatief vaker voor bij kinderen. Zowel kinderen als volwassenen met Lyme neuroborreliose kunnen zich presenteren met een aangezichtsverlamming, maar bij kinderen is dit vaker het enige symptoom van de ziekte.
