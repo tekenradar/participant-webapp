@@ -1,3 +1,8 @@
 {
-  "title": "Toegankelijkheidsverklaring "
+  "title": "Toegankelijkheidsverklaring",
+  "disclaimer": {
+    "title": "Geen medische functie",
+    "body": "Vrijwaring Tekenradar",
+    "actionBtn": "Lees verklaring"
+  }
 }

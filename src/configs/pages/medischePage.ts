@@ -29,7 +29,7 @@ export const medischePage = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'privacy',
+                itemKey: 'accessibility',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -39,7 +39,7 @@ export const medischePage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/privacy'
+                    value: '/accessibility'
                   },
                 }
               },
