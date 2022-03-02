@@ -16,6 +16,17 @@ export const erythemaPage = (path: string): PageConfig => {
         height: 367,
       },
     },
+    mainColOptionalContent: [
+      {
+        itemKey: 'erythemaGallery',
+        config: {
+          type: 'extension',
+          config: {
+            type: 'gallery'
+          }
+        }
+      },
+    ],
     sideBarItems: [
       meldenCard(),
     ],

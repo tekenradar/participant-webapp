@@ -11,6 +11,7 @@ export const infoPageLayout = (props: {
   path: string;
   pageKey: string;
   topImage?: TeaserImageConfig;
+  mainColOptionalContent?: PageItem[];
   sideBarItems: PageItem[];
   bottomRows: PageRow[];
 }): PageConfig => {
@@ -37,13 +38,16 @@ export const infoPageLayout = (props: {
       {
         key: 'content',
         className: 'col-12 col-lg-8 mt-3',
-        items: [{
-          itemKey: '1',
-          config: {
-            type: 'markdown',
-            markdownUrl: `${props.pageKey}.md`,
-          }
-        }]
+        items: [
+          {
+            itemKey: '1',
+            config: {
+              type: 'markdown',
+              markdownUrl: `${props.pageKey}.md`,
+            }
+          },
+          ...(props.mainColOptionalContent ? props.mainColOptionalContent : [])
+        ]
       },
       {
         key: 'aux',
