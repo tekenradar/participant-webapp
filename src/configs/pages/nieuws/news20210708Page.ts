@@ -33,7 +33,7 @@ export const news20210708Page = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                itemKey: 'previousArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -43,7 +43,7 @@ export const news20210708Page = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/nieuws/overzicht'
+                    value: '/home'
                   },
                 }
               },
@@ -61,7 +61,7 @@ export const news20210708Page = (path: string): PageConfig => {
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverview',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -74,7 +74,7 @@ export const news20210708Page = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/nieuws/overzicht'
                   },
                 }
               }

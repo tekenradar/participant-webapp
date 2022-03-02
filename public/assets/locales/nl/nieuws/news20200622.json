@@ -1,8 +1,8 @@
 {
   "title": "Laatse nieuws",
-  "backToOverviewPage": {
-  "title": "Terug naar het overzicht",
-  "body": "Vind meer nieuwsartikelen. ",
+  "previousArticle": {
+  "title": "Nature Today-app",
+  "body": "In de loop van deze week kunnen mensen ...",
   "actionBtn": "Naar de overzichtspagina"
 },
 "nextArticle": {
@@ -10,9 +10,9 @@
   "body": "Lees hier alle nieuwsartikelen van 2019.",
   "actionBtn": "Lees meer"
 },
-"anotherTopic": {
-  "title": "Tekenradar",
-  "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
-  "actionBtn": "Lees meer"
+"backToOverview": {
+  "title": "Terug naar het overzicht",
+  "body": "Vind meer nieuwsartikelen. ",
+  "actionBtn": "Naar de overzichtspagina"
 }
 }

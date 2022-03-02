@@ -1,8 +1,8 @@
 {
   "title": "Laatse nieuws",
-  "backToOverviewPage": {
-  "title": "Terug naar het overzicht",
-  "body": "Vind meer nieuwsartikelen. ",
+  "previousArticle": {
+  "title": "Vaker aanhoudende klachten na ziekte van Lyme",
+  "body": "Ruim een kwart van de mensen met de ... ",
   "actionBtn": "Naar de overzichtspagina"
 },
 "nextArticle": {
@@ -10,9 +10,9 @@
   "body": "Elk jaar bijten zo’n 1,5 miljoen teken ...",
   "actionBtn": "Lees meer"
 },
-"anotherTopic": {
-  "title": "Tekenradar",
-  "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
-  "actionBtn": "Lees meer"
+"backToOverview": {
+  "title": "Terug naar het overzicht",
+  "body": "Vind meer nieuwsartikelen. ",
+  "actionBtn": "Naar de overzichtspagina"
 }
 }

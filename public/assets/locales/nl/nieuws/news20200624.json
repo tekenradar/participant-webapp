@@ -1,8 +1,8 @@
 {
   "title": "Laatse nieuws",
-  "backToOverviewPage": {
-    "title": "Terug naar het overzicht",
-    "body": "Vind meer nieuwsartikelen. ",
+  "previousArticle": {
+    "title": "Teken bijten bij kinderen vaker in hoofd en nek",
+    "body": "Voor het eerst is via Tekenradar.nl onderzoek ...",
     "actionBtn": "Naar de overzichtspagina"
   },
   "nextArticle": {
@@ -10,9 +10,9 @@
     "body": "In de loop van deze week kunnen mensen ...",
     "actionBtn": "Lees meer"
   },
-  "anotherTopic": {
-    "title": "Teken en tekenbeten",
-    "body": "Leer meer over de manier van leven en het voorkomen van teken.",
-    "actionBtn": "Lees meer"
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
   }
 }
