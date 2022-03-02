@@ -4,7 +4,7 @@ In Europa komen Hyalomma-teken (Hyalomma marginatum, in media ook wel "reuzentee
 ### Komen Hyalomma-teken in Nederland voor?
 Af en toe komen Hyalomma-larven en -nimfen met trekvogels uit Afrika en het Middellandse Zeegebied in Nederland terecht. Volgezogen Hyalomma-nimfen laten zich dan in het groen (de vegetatie) vallen. Onder klimatologisch gunstige omstandigheden kunnen zij dan vervellen tot volwassen teken. In Nederland is het meestal te koud en te nat voor deze teken en gaan ze dood.
 
-2018 was een bijzonder jaar met een (zeer) lange warme en droge periode in heel Europa. In dat najaar waren er in Duitsland 35 meldingen van volwassen Hyalomma-teken op paarden en een schaap. In 2019 zijn er in Nederland twee volwassen Hyalomma-teken <span style="color:red">INTERNAL LINK MISSING, TODO!</span> gevonden.
+2018 was een bijzonder jaar met een (zeer) lange warme en droge periode in heel Europa. In dat najaar waren er in Duitsland 35 meldingen van volwassen Hyalomma-teken op paarden en een schaap. In 2019 zijn er in Nederland twee volwassen [Hyalomma-teken gevonden](/nieuws/archief2019).
 
 ### Hoe herken je een Hyalomma-teek?
 Het meest typische kenmerk van Hyalomma-teken zijn de gestreepte pootjes. Daarnaast zijn ze een stuk groter (2-3x) dan de Nederlandse schapenteek. (*Ixodes ricinus*) en de vlekkenteek (*Dermacentor reticulatus*). Hyalomma-teken hebben geen gevlekt scutum (schild).
