@@ -433,6 +433,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
           case 'login':
             dispatch(coreReduxActions.dialogActions.openLoginDialog({
               type: 'login',
+              origin: 'surveyFlow',
               payload: {
                 email: '',
                 password: '',
@@ -442,7 +443,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
             }));
             break;
           case 'register':
-            dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload('signup'))
+            dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload({ type: 'signup', origin: 'surveyFlow' }))
             break;
         }
       }}
@@ -463,6 +464,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
           case 'login':
             dispatch(coreReduxActions.dialogActions.openLoginDialog({
               type: 'login',
+              origin: 'surveyFlow',
               payload: {
                 email: '',
                 password: '',
@@ -472,7 +474,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
             }));
             break;
           case 'register':
-            dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload('signup'))
+            dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload({ type: 'signup', origin: 'surveyFlow' }))
             break;
           case 'withoutAccount':
             props.onNavigate(props.urls.finishedFlowWithoutLogin)
@@ -494,7 +496,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
         coreReduxActions.dialogActions.closeDialog();
       }}
       onOpenProfileManager={() => {
-        dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload('manageProfiles'))
+        dispatch(coreReduxActions.dialogActions.openDialogWithoutPayload({ type: 'manageProfiles', origin: 'surveyFlow' }))
       }}
     />
     <SuccessDialog
