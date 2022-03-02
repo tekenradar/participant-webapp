@@ -72,7 +72,7 @@ const TekenmeldingenTab: React.FC = () => {
       <div className={`col-12 col-${breakpoint}-5`}>
         <div className={`mt-2 mt-${breakpoint}-0`} >
           <h3>Tekenmeldingen</h3>
-          <p>Overzicht van de meldingen van tekenbeten en erythema migrans in de afgelopen vier weken.</p>
+          <p>Overzicht van de meldingen van tekenbeten en <a href="/informatie/erythema-migrans">erythema migrans </a>in de afgelopen vier weken.</p>
 
           <div className="text-center">
             <Placeholder xs={6} />
