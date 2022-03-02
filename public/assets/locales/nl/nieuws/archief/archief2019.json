@@ -1,18 +1,18 @@
 {
   "title": "Alle artikelen van het jaar 2019",
-  "backToOverviewPage": {
-    "title": "Terug naar het overzicht",
-    "body": "Vind meer nieuwsartikelen. ",
-    "actionBtn": "Naar de overzichtspagina"
+  "previousArticle": {
+    "title": "Terug naar het startpagina",
+    "body": "Vind meer informatie. ",
+    "actionBtn": "Naar de startpagina"
   },
   "nextArticle": {
     "title": "Archief 2018",
     "body": "Lees hier alle nieuwsartikelen van 2018.",
     "actionBtn": "Lees meer"
   },
-  "anotherTopic": {
-    "title": "Teken en tekenbeten",
-    "body": "Leer meer over de manier van leven en het voorkomen van teken.",
-    "actionBtn": "Lees meer"
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
   }
 }

@@ -1,18 +1,18 @@
 {
   "title": "Alle artikelen van het jaar 2018",
-  "backToOverviewPage": {
-    "title": "Terug naar het overzicht",
-    "body": "Vind meer nieuwsartikelen. ",
-    "actionBtn": "Naar de overzichtspagina"
+  "previousArticle": {
+    "title": "Archief 2019",
+    "body": "Lees hier alle nieuwsartikelen van 2019.",
+    "actionBtn": "Lees meer"
   },
   "nextArticle": {
     "title": "Archief 2017",
     "body": "Lees hier alle nieuwsartikelen van 2017.",
     "actionBtn": "Lees meer"
   },
-  "anotherTopic": {
-    "title": "Ziekte van Lyme",
-    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
-    "actionBtn": "Lees meer"
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
   }
 }
