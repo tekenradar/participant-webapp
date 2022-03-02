@@ -113,5 +113,10 @@
         "title": "Rode ring op wang"
       }
     }
-  ]
+  ],
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer informatie over ziekte van Lyme. ",
+    "actionBtn": "Naar de overzichtspagina"
+  }
 }

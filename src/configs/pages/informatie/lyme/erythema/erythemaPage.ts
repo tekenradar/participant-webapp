@@ -39,8 +39,8 @@ export const erythemaPage = (path: string): PageConfig => {
             rowKey: 'references-row',
             items: [
               {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                colClassName: 'col-12',
+                itemKey: 'backToOverview',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -50,41 +50,11 @@ export const erythemaPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenweentjes'
-                  },
-                }
-              },
-              {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'nextArticle',
-                className: "mt-2",
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
                     value: '/informatie/lyme'
                   },
                 }
               },
-              {
-                colClassName: 'col-12',
-                itemKey: 'anotherTopic',
-                className: "mt-2",
-                config: {
-                  type: 'actionCard',
-                  image: {
-                    placement: 'left',
-                    width: '150px',
-                    maxWidth: '150px',
-                    url: '/images/no-license/waar-leven-teken.jpg',
-                    backgroundPosition: '50% 50%',
-                  },
-                  action: {
-                    type: 'navigate',
-                    value: '/informatie/teken'
-                  },
-                }
-              }
+
             ]
           })
         ]

@@ -8,4 +8,5 @@ Hier ziet u foto's van verschillende verschijningsvormen van erythema migrans.
 [Meld uw rode ring of vlek.](/melden)
 
 
-TODO insert gallery
+
+
