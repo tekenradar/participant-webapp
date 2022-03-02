@@ -1,3 +1,8 @@
 {
-  "title": "Onze doelen"
+  "title": "Onze doelen",
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer informatie over tekenradar. ",
+    "actionBtn": "Naar de overzichtspagina"
+  }
 }

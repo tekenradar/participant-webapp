@@ -1,3 +1,8 @@
 {
-  "title": "Partners"
+  "title": "Partners",
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer informatie over tekenradar. ",
+    "actionBtn": "Naar de overzichtspagina"
+  }
 }

@@ -1,4 +1,7 @@
-## Amsterdam Universitair Medisch Centrum
+<figure className="figure text-start w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-AMC2.png" alt="Logo Amsterdam UMC">
+  <figcaption className="Logo Amsterdam UMC"></figcaption>
+</figure>
 
 Vanuit Amsterdam UMC zijn de leerstoel Vector-overdraagbare infectieziekten van prof. dr. Joppe Hovius, het Centrum voor Experimentele en Moleculaire Geneeskunde (CEMM) en het Amsterdam UMC Multidisciplinair Lymeziekte Centrum (AMLC) betrokken bij Tekenradar.nl.
 
@@ -14,7 +17,4 @@ In juni 2018 gingen de twee academische ziekenhuizen AMC en VUmc samen tot Amste
 #### Expertisecentrum AMLC
 In 2013 richtte internist-infectioloog Joppe Hovius het expertisecentrum AMLC op. Specialisten van verschillende disciplines verlenen in het centrum zorg aan patiënten met een vermoeden op Lymeziekte of een andere door teken overdraagbare aandoening. Het expertisecentrum is een samenwerkingsverband tussen de afdelingen Infectieziekten, Kinderinfectieziekten, Medische Microbiologie, Neurologie, Dermatologie en Reumatologie.  Het AMLC is in 2021 (opnieuw) benoemd tot expertisecentrum op het gebied van Lymeziekte door de Nederlandse Federatie van Universitair Medische Centra (NFU) en het ministerie van Volksgezondheid, Welzijn en Sport (VWS). Het AMLC speelt nationaal en internationaal een belangrijke rol in de zorg voor hun patiënten. Het AMLC is ook partner van het [Nederlands lymeziekte-expertise centrum](https://www.expertisecentrumlyme.nl) en het internationale [NorthTick consortium](https://northsearegion.eu/northtick/). Naast patiëntenzorg doet het AMLC klinisch onderzoek om Lymeziekte en andere tekenbeetziekten beter te kunnen begrijpen en bestrijden. Een deel van deze onderzoeken loopt via Tekenradar.nl.
 
-<figure className="figure mb-1 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/logo-amc.png" alt="Logo Amsterdam UMC">
-  <figcaption className="Logo Amsterdam UMC"></figcaption>
-</figure>
+

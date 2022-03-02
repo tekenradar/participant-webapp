@@ -1,6 +1,6 @@
 
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/logo-NlEteek.png" alt="Logo VWS">
+<figure className="figure mb-2 text-start w-100">
+  <img className="figure-img img-fluid" style="max-width:600px;width:20%;" src="/assets/images/logo-NLEteek2.png" alt="Logo VWS">
   <figcaption className="Logo VWS"></figcaption>
 </figure>
 

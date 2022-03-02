@@ -15,7 +15,7 @@ const Partners: React.FC<PartnersProps> = (props) => {
         <a
           className={imageClassName}
           href="/informatie/tekenradar" target="_blank" rel="noreferrer">
-          <img src={getExternalOrLocalContentURL("/images/logo-rivm.jpeg")} alt="Logo RIVM"
+          <img src={getExternalOrLocalContentURL("/images/logo-RIVM.jpeg")} alt="Logo RIVM"
             width={380}
             className='mw-100'
           />

@@ -1,6 +1,6 @@
 
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/logo-zonMw.png" alt="Logo ZonMw">
+<figure className="figure text-start mb-2 w-100">
+  <img className="figure-img img-fluid" style="max-width:600px;width:30%;" src="/assets/images/logo-zonMw2.png" alt="Logo ZonMw">
   <figcaption className="Logo ZonMw"></figcaption>
 </figure>
 
