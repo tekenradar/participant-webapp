@@ -22,16 +22,16 @@ export const footerConfig: FooterConfig = {
         },
         {
           type: "external",
-          itemKey: "amc",
-          value: "/informatie/amc"
-          //value: "https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm",
+          itemKey: "fsd",
+          value: "/informatie/fsd"
+          //value: "https://www.fsd.nl/",
           //iconClass: "fab fa-facebook-square"
         },
         {
           type: "external",
-          itemKey: "fsd",
-          value: "/informatie/fsd"
-          //value: "https://www.fsd.nl/",
+          itemKey: "amc",
+          value: "/informatie/amc"
+          //value: "https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm",
           //iconClass: "fab fa-facebook-square"
         },
         {
