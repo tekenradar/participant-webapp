@@ -27,7 +27,7 @@
   "submitSuccessWithLoginOptionsDialog": {
     "title": "Info",
     "successMsg": "Je antwoorden zijn succesvol opgeslagen",
-    "info": "Wil je je melding kunnen terugvinden in \"Mijntekenradar\", log dan in zodat we je melding kunnen koppelen aan je account. \n\n Wil je een Tekenradar account aanmaken? Klik dan hieronder op 'Aanmelden'. Met een account kun je tekenbeten en Lyme blijven melden, en bijdragen aan onderzoek.",
+    "info": "Wil je je melding kunnen terugvinden in \"Mijn Tekenradar\", log dan in zodat we je melding kunnen koppelen aan je account. \n\n Wil je een Tekenradar account aanmaken? Klik dan hieronder op 'Aanmelden'. Met een account kun je tekenbeten en Lyme blijven melden, en bijdragen aan onderzoek.",
     "loginBtn": "Inloggen",
     "registerBtn": "Aanmelden",
     "withoutAccountBtn": "Doorgaan zonder account"

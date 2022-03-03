@@ -40,7 +40,7 @@ const LoginRequiredDialog: React.FC<LoginRequiredDialogProps> = (props) => {
             label={props.texts.loginBtn}
             onClick={() => props.onSelect('login')}
           />
-          <span className='me-2 mb-2'>or</span>
+          <span className='me-2 mb-2'>of</span>
           <DialogBtn
             type="button"
             className='mb-2'
