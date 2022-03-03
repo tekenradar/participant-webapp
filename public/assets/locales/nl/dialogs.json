@@ -63,16 +63,16 @@
     "acceptBtn": "Akkoord"
   },
   "signupSuccess": {
-    "title": "Welkom! Maak nu eerst je vragenlijst af.",
-    "successMsg": "**Klik nu eerst op de knop 'Verder gaan met vragenlijst' als je een melding aan het doen was.** Bevestig **na afronden** van de vragenlijst nog je e-mailadres door op de link in de bevestigingsmail te klikken. Deze is verstuurd naar het door jou opgegeven e-mailadres. Controleer eerst je spam-folder als je de e-mail niet kunt vinden. Heb je de e-mail niet ontvangen? Klik dan op de knop hieronder om de bevestigingsmail nogmaals te versturen.",
+    "title": "Welkom! Bevestig nu eerst je account.",
+    "successMsg": "Bevestig je e-mailadres door op de link in de bevestigingsmail te klikken. Zonder bevestiging kun je je account niet gebruiken en worden ingevulde vragenlijsten onbruikbaar. De bevestigingsmail is verstuurd naar het door jou opgegeven e-mailadres. Controleer eerst je spam-folder als je de e-mail niet kunt vinden. Heb je de e-mail niet ontvangen? Klik dan op de knop hieronder om de bevestigingsmail nogmaals te versturen.",
     "emailSentMsg": "E-mail is verstuurd.",
     "resendVerificationEmailBtn": "Bevestigingsmail nogmaals sturen",
     "wrongEmailBtn": "Heb je een verkeerd e-mailadres gebruikt? Verander deze dan hier.",
-    "msgForVerifiedAccount": "Heb je je vragenlijst al afgerond of ben je nog geen vragenlijst begonnen, en is je account al geverifieerd op een ander apparaat of in andere browser? Klik dan op de knop hieronder om je account opnieuw te laden en verder te gaan.",
+    "msgForVerifiedAccount": "Is je account al geverifieerd op een ander apparaat of in andere browser? Klik dan op de knop hieronder om je account opnieuw te laden en verder te gaan.",
     "reloadUser": "Mijn account is al geverifieerd",
     "errors": {
       "unknown": "Er gaat iets verkeerd.",
-      "verifyEmailFirst": "Je e-mailadres is nog niet geverifieerd. Bevestig **na afronden** van de vragenlijst je e-mailadres door te klikken op de link in de bevestigingsmail. Heb je de e-mail niet ontvangen? Klik dan op de knop 'bevestigingsmail nogmaals versturen'."
+      "verifyEmailFirst": "Je e-mailadres is nog niet geverifieerd. Bevestig je e-mailadres door te klikken op de link in de bevestigingsmail. Heb je de e-mail niet ontvangen? Klik dan op de knop 'bevestigingsmail nogmaals versturen'."
     }
   },
   "passwordForgotten": {
@@ -139,7 +139,7 @@
   "manageProfiles": {
     "title": "Profielen",
     "mainProfileLabel": "Ik",
-    "cancelBtn": "Dialoog sluiten",
+    "cancelBtn": "Terug/klaar",
     "newProfileBtn": "Nieuw profiel voor je kind",
     "warningDialog": {
       "title": "Verwijderen profiel",
