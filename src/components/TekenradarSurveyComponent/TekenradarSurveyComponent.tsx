@@ -236,6 +236,10 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
   }
 
   const convertTempParticipant = async (ignoreNextStep?: boolean) => {
+    if (!currentUser || !currentUser.profiles || currentUser.profiles.length < 1) {
+      console.log('no profiles yet to convert');
+      return;
+    }
     let profileId = selectedProfileID;
     if (!profileId) {
       profileId = currentUser.profiles[0].id;
