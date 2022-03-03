@@ -2627,10 +2627,17 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
 
-"@types/react-dom@*", "@types/react-dom@^17.0.11":
+"@types/react-dom@*":
   version "17.0.11"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.11.tgz#e1eadc3c5e86bdb5f7684e00274ae228e7bcc466"
   integrity sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-dom@^17.0.13":
+  version "17.0.13"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.13.tgz#a3323b974ee4280070982b3112351bb1952a7809"
+  integrity sha512-wEP+B8hzvy6ORDv1QBhcQia4j6ea4SFIBttHYpXKPFZRviBvknq0FRh3VrIxeXUmsPkwuXVZrVGG7KUVONmXCQ==
   dependencies:
     "@types/react" "*"
 
@@ -3629,10 +3636,10 @@ case-web-app-core@^2.0.0-beta.4:
   resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.0.0-beta.4.tgz#61365e324c850416c0a0d06adc0c4fb086f2f7b3"
   integrity sha512-dRAO3gIJshRU+47XTEhsgm4ZLs/jIG5WdRSFmbZbPUJVcEMc8CLxkUSEp0w/V6G12fmcBlUTrO92A+fRkSjM5Q==
 
-case-web-ui@^1.9.9:
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.9.9.tgz#d19b20e2d84ca7fd7fc40d4be87087abdfbfb4e9"
-  integrity sha512-WvrPt7n6yK/OUlsgPEtOpXXk33SdVkHSubb3eM7grE+6JF1LtGlrVSJuWYx8pcOBDftFC36FrWVJ0hi+dhD+UA==
+case-web-ui@^1.9.10:
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.9.10.tgz#e2f3e7422328f0ab494b72352beee7d85ccf410f"
+  integrity sha512-DbxrCpicIJEQ1MTjPsNNOXspyONJQW73ZXJzxazw0znNWpHm6tcnQ9OT7TJ7WZ39eX5F6UWLWBWaPfSDjlBawg==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -5720,10 +5727,10 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-i18next@^21.6.12:
-  version "21.6.12"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.6.12.tgz#5080a611af98f4104062a88452b30704b29fa924"
-  integrity sha512-xlGTPdu2g5PZEUIE6TA1mQ9EIAAv9nMFONzgwAIrKL/KTmYYWufQNGgOmp5Og1PvgUji+6i1whz0rMdsz1qaKw==
+i18next@^21.6.13:
+  version "21.6.13"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.6.13.tgz#e881b05f156ac06997e9b63379d8b2674bb4a4f2"
+  integrity sha512-MVjNttw+5mIuu2/fwTpSU0EeI7iU/6pnDvGQboCzkILiv0/gD+FLZaF7qSHmUHO4ZkE6xJQ9SlBgGvMHxhC82Q==
   dependencies:
     "@babel/runtime" "^7.12.0"
 
