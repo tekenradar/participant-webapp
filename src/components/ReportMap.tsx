@@ -3,6 +3,7 @@ import clsx from 'clsx';
 // import { useTranslation } from 'react-i18next';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { Nav, Placeholder, Tab } from 'react-bootstrap';
+import DensityMap from './HomeMapComponents/DensityMap';
 
 interface ReportMapProps {
   // Generic:
@@ -117,9 +118,9 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
             label="Tekenmeldingen"
           />
           <CustomNavItem
-            eventKey="othermap"
-            isActive={key === "othermap"}
-            label="Some other map"
+            eventKey="dichtheidkaart"
+            isActive={key === "dichtheidkaart"}
+            label="Dichtheidkaart"
           />
           <CustomNavItem
             eventKey="lymeinnl"
@@ -132,25 +133,8 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
           <Tab.Pane eventKey="tekenmeldingen">
             <TekenmeldingenTab />
           </Tab.Pane>
-          <Tab.Pane eventKey="othermap">
-            <div className="p-2">
-              <div className="row">
-                <div className="col-7">
-                  <div
-                    className={clsx(
-                      "d-flex justify-content-center align-items-center bg-grey-5",
-                    )}
-                    style={{
-                      height: 425
-                    }}
-                  >
-                    <h1 className="fs-1 text-center text-white text-uppercase m-0 p-2">MAP</h1>
-                  </div>
-                </div>
-                <div className="col-5">
-                </div>
-              </div>
-            </div>
+          <Tab.Pane eventKey="dichtheidkaart">
+            <DensityMap />
           </Tab.Pane>
           <Tab.Pane eventKey="lymeinnl">
             <div className="p-2">
