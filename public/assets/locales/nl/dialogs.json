@@ -45,6 +45,7 @@
     "loginLink": "Heb je al een account? Log hier in.",
     "reCaptchaLinks": "This site is protected by reCAPTCHA and the Google <1>Privacy Policy</1> and <3>Terms of Service</3> apply.",
     "errors": {
+      "emailRules": "Ongeldig e-mailadres. Voer een geldig e-mailadres in.",
       "passwordRules": "Je wachtwoord moet tenminste 8 karakters hebben en 3 van de volgende 4 elementen bevatten: kleine letter, hoofdletter, getal, leesteken",
       "passwordMatch": "Wachtwoorden zijn niet hetzelfde",
       "invalidEmail": "Je e-mailadres lijkt niet correct",
