@@ -55,7 +55,7 @@
   },
   "privacyConsent": {
     "title": "Toestemmingsverklaring",
-    "acceptBtn": "Ik geef toestemming",
+    "acceptBtn": "Ja, ik geef toestemming",
     "cancelBtn": "Ik geef geen toestemming"
   },
   "recaptchaConsent": {
