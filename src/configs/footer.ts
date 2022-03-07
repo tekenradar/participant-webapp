@@ -7,35 +7,35 @@ export const footerConfig: FooterConfig = {
       classNameOverride: 'col-12 col-md-10 col-lg-6 col-xl-4 mt-3 text-white',
       items: [
         {
-          type: "external",
+          type: "internal",
           itemKey: "rivm",
           value: "/informatie/rivm"
           //value: "https://twitter.com/rivm",
           //iconClass: "fab fa-twitter"
         },
         {
-          type: "external",
+          type: "internal",
           itemKey: "wur",
           value: "/informatie/wageningen-university"
           //value: "https://www.wur.nl/",
           //iconClass: "fab fa-facebook-square"
         },
         {
-          type: "external",
+          type: "internal",
           itemKey: "fsd",
           value: "/informatie/fsd"
           //value: "https://www.fsd.nl/",
           //iconClass: "fab fa-facebook-square"
         },
         {
-          type: "external",
+          type: "internal",
           itemKey: "amc",
           value: "/informatie/amc"
           //value: "https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm",
           //iconClass: "fab fa-facebook-square"
         },
         {
-          type: "external",
+          type: "internal",
           itemKey: "radboudumc",
           value: "/informatie/radboud"
           //value: "https://www.radboudumc.nl/patientenzorg/aandoeningen/lymeziekte",
