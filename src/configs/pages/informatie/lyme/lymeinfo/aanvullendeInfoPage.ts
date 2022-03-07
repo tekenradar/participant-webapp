@@ -7,7 +7,7 @@ import { pageSection } from "../../../../../layout/rows/pageSection";
 export const aanvullendeInfoPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/lymeinfo/aanvullendeInfo',
+    pageKey: 'informatie/lymeInfo/aanvullendeInfo',
     topImage: {
       type: 'teaserImage',
       image: {

@@ -7,7 +7,7 @@ import { pageSection } from "../../../../../layout/rows/pageSection";
 export const basiskennisLymePage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/lymeinfo/basiskennisLyme',
+    pageKey: 'informatie/lymeInfo/basiskennisLyme',
     topImage: {
       type: 'teaserImage',
       image: {

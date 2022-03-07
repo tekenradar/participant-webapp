@@ -7,7 +7,7 @@ import { pageSection } from "../../../../../layout/rows/pageSection";
 export const antibioticaPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/lymeinfo/antibiotica',
+    pageKey: 'informatie/lymeInfo/antibiotica',
     topImage: {
       type: 'teaserImage',
       image: {

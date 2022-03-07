@@ -7,7 +7,7 @@ import { pageSection } from "../../../../../layout/rows/pageSection";
 export const wanneerHuisartsPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/lymeinfo/wanneerHuisarts',
+    pageKey: 'informatie/lymeInfo/wanneerHuisarts',
     topImage: {
       type: 'teaserImage',
       image: {
