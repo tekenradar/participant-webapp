@@ -3,7 +3,7 @@
 Teken kunnen het hele jaar actief zijn mits de temperatuur hoog genoeg is. Op basis van de maandelijkse tekenvangsten in het kader van het Natuurkalender programma is een goed beeld te verkrijgen van het verloop van de aantalsontwikkelingen (zie figuur).
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/tekenaantallen.jpeg" alt="Tekenaantallen door de jaren heen 2006-2010">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenaantallen.jpeg" alt="Tekenaantallen door de jaren heen 2006-2010">
   <figcaption className="figure-caption">Gemiddeld aantal larven, nimfen en volwassen vrouwtjes per maand op 12 Natuurkalender locaties in de periode juli 2006 tot en met december 2011 (Bron: De Natuurkalender)</figcaption>
 </figure>
 
