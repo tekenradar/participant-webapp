@@ -1,4 +1,4 @@
-[Scroll naar beneden om de hele tekst te lezen, onderaan kun je wel of geen toestemming geven.]
+[**Scroll naar beneden** om de hele tekst te lezen, onderaan kun je wel of geen toestemming geven.]
 
 Via Tekenradar.nl wordt onderzocht hoe vaak mensen na een tekenbeet een erythema migrans (rode ring of vlek op de huid) of een andere vorm van de ziekte van Lyme krijgen, en hoe vaak dit leidt tot (ernstige) gezondheidsklachten. Meer informatie over onder andere het doel van het onderzoek en je rechten kun je vinden in de [privacyverklaring van Tekenradar](/privacy) en de [RIVM privacyverklaring](https://www.rivm.nl/sites/default/files/2018-11/RIVM%20%20Privacyverklaring%20mei%202018%20definitief%20Nederlands.pdf).
 
