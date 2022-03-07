@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { Placeholder } from 'react-bootstrap';
+import TRButton from '../TRButton';
 
 
 interface ReportMapProps {
@@ -40,7 +41,13 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
 
           <Placeholder xs={12} size="lg" />
 
-          <div className="mt-4">
+          <TRButton
+            className='my-2'
+            label={'Zelf melden'}
+            onClick={() => props.onNavigate('/melden')}
+          />
+
+          <div className="mt-2">
             <h6 className="fw-bold">Legend</h6>
             <Placeholder xs={6} />
             <Placeholder xs={7} />
@@ -48,26 +55,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
             <Placeholder xs={5} />
           </div>
 
-          <button
-            className="btn btn-tekenradar mt-2 w-100 text-start fs-btn fw-bold"
-            onClick={() => {
-              props.onNavigate('/melden');
-            }}
-          >
 
-            {'Zelf melden'}
-            <span>
-              &nbsp;
-              <i
-              //</button>className="fs-btn fw-bold"
-              >
-                <svg width="1.25em" height="1.25em" viewBox="0 0 16 16" className="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                </svg>
-              </i>
-            </span>
-
-          </button>
 
         </div>
 
