@@ -2,6 +2,7 @@ import { getExternalOrLocalContentURL } from 'case-web-ui';
 import clsx from 'clsx';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import TRButton from './TRButton';
 import { GenericPageItemProps } from './utils';
 
 
@@ -63,32 +64,17 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
         </React.Fragment> : null}
 
         {props.buttons.map(item =>
-          <button
+          <TRButton
             key={item.buttonKey}
-            className="btn btn-tekenradar mt-2 w-100 text-start fs-btn fw-bold"
+            className="mt-2"
+            label={t(`${props.itemKey}.${item.buttonKey}`)}
             onClick={() => {
               if (item.action.type === "navigate") {
                 props.onNavigate(item.action.value);
               }
-
             }}
-          >
-
-            {t(`${props.itemKey}.${item.buttonKey}`)}
-            <span>
-              &nbsp;
-              <i
-              //</button>className="fs-btn fw-bold"
-              >
-                <svg width="1.25em" height="1.25em" viewBox="0 0 16 16" className="bi bi-arrow-right-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
-                </svg>
-              </i>
-            </span>
-
-          </button>
+          />
         )}
-
       </div>
     </div>
   );

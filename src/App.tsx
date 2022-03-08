@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { pagesConfig } from './configs/pages';
 import { navbarConfig } from './configs/navbar';
 import { footerConfig } from './configs/footer';
-import ReportMap from './components/ReportMap';
+import ResultsTabs from './components/ResultsTabs';
 import ReportButtonCard from './components/ReportButtonCard';
 import Partners from './components/Partners';
 import Ribbon from './components/Ribbon';
@@ -27,7 +27,7 @@ if (process.env.REACT_APP_DEFAULT_INSTANCE) {
 }
 
 const extensions = [
-  { name: 'reportMap', component: ReportMap },
+  { name: 'resultsTabs', component: ResultsTabs },
   { name: 'reportButtonCard', component: ReportButtonCard },
   { name: 'partners', component: Partners },
   { name: 'pageSection', component: PageSection },

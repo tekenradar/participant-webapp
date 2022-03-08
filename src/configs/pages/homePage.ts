@@ -287,7 +287,7 @@ export const homePage = (path: string): PageConfig => {
                 config: {
                   type: 'extension',
                   config: {
-                    type: 'reportMap',
+                    type: 'resultsTabs',
                     label: 'Map about tick reports'
                   }
                 }
