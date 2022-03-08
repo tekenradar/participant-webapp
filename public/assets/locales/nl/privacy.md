@@ -110,7 +110,7 @@ Je hebt altijd het recht een klacht over de verwerking van je persoonsgegevens i
 Ter bescherming van je gegevens nemen wij passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijzing tegen te gaan. De software is ontwikkeld door de Duitse softwareleverancier Coneno. Deze software wordt door het RIVM zelf beheerd. De leverancier van de software heeft geen toegang tot je gegevens.
 
 ### Contactgegevens
-Voor vragen over de website Tekenradar.nl kunt u ons een e-mail sturen naar info@tekenradar.nl. Als je zorgen hebt over je gezondheid zoek dan altijd hulp via de gebruikelijke medische instanties.
+Voor vragen over de website Tekenradar.nl kun je ons een e-mail sturen naar info@tekenradar.nl. Als je zorgen hebt over je gezondheid zoek dan altijd hulp via de gebruikelijke medische instanties.
 
 ### Wijziging privacyverklaring
 Deze privacyverklaring kan worden gewijzigd. In dat geval zullen wij de gewijzigde privacyverklaring op www.tekenradar.nl/privacy publiceren.
