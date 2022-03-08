@@ -3,7 +3,7 @@
 Tekenradar is een samenwerking van het RIVM, Wageningen University, Radboudumc, Amsterdam UMC en Stichting voor duurzame ontwikkeling (FSD). Een overzicht met meer informatie over deze samenwerkingspartners kun je [hier](/informatie/tekenradar) vinden. Het technische beheer van de Tekenradar website wordt uitgevoerd door het RIVM.
 
 
-Via Tekenradar worden persoonsgegevens op een rechtmatige, behoorlijke en transparante manier, conform wet- en regelgeving verwerkt. Hoe met je gegevens wordt omgegaan is te lezen in [de algemene privacyverklaring van het RIVM](https://www.rivm.nl/sites/default/files/2018-11/RIVM%20%20Privacyverklaring%20mei%202018%20definitief%20Nederlands.pdf).
+Via Tekenradar worden persoonsgegevens op een rechtmatige, behoorlijke en transparante manier, conform wet- en regelgeving verwerkt. Hoe met je gegevens wordt omgegaan is te lezen in [de algemene privacyverklaring van het RIVM.](https://www.rivm.nl/sites/default/files/2018-11/RIVM%20%20Privacyverklaring%20mei%202018%20definitief%20Nederlands.pdf)
 
 
 In aanvulling op de algemene privacyverklaring van het RIVM lees je in deze privacyverklaring over de gegevensverwerking door Tekenradar, waarvoor het RIVM gezamenlijk verwerkersverantwoordelijke is samen met bovengenoemde partners (met uitzondering van FSD). Door je gegevens met Tekenradar te delen draag je bij aan het onderzoek van het RIVM en bovengenoemde samenwerkingspartners dat is gericht op het monitoren van de impact van tekenbeten, lymeziekte en andere tekenoverdraagbare ziekten onder de Nederlandse bevolking, en het geven van informatie en advies over de ontwikkeling van Lyme- en andere tekenbeetziekten aan de bevolking, zorgverleners en andere belanghebbenden, waaronder de Minister van Volksgezondheid, Welzijn en Sport.  
@@ -97,7 +97,7 @@ Op grond van de Algemene Verordening Gegevensbescherming blijven het RIVM en de 
 De Algemene Verordening Gegevensbescherming geeft je verschillende rechten als het gaat om controle te houden over je persoonsgegevens. Deze vind je op de website van de Autoriteit persoonsgegevens via [deze link](https://autoriteitpersoonsgegevens.nl/nl/onderwerpen/algemene-informatie-avg/rechten-van-betrokkenen).
 
 
-Indien je een beroep wenst te doen op je rechten dan dien je de procedure te volgen die is opgenomen in [de algemene privacy verklaring van het RIVM](https://www.rivm.nl/sites/default/files/2018-11/RIVM%20%20Privacyverklaring%20mei%202018%20definitief%20Nederlands.pdf). Voor bijvoorbeeld het inzien van persoonsgegevens is het onder andere voor de bescherming van je privacy nodig dat je jezelf eerst identificeert. Wij willen niet dat je persoonsgegevens, bij het uitoefenen van je rechten, in verkeerde handen komen. Je kunt een verzoek voor inzage per email sturen naar info@tekenradar.nl of AVG-RIVM@rivm.nl.
+Indien je een beroep wenst te doen op je rechten dan dien je de procedure te volgen die is opgenomen in [de algemene privacy verklaring van het RIVM](https://www.rivm.nl/sites/default/files/2018-11/RIVM%20%20Privacyverklaring%20mei%202018%20definitief%20Nederlands.pdf). Voor bijvoorbeeld het inzien van persoonsgegevens is het onder andere voor de bescherming van je privacy nodig dat je jezelf eerst identificeert. Wij willen niet dat je persoonsgegevens, bij het uitoefenen van je rechten, in verkeerde handen komen. Je kunt een verzoek voor inzage per e-mail sturen naar info@tekenradar.nl of AVG-RIVM@rivm.nl.
 
 
 Ook kun je persoonsgegevens op elk gewenst moment laten verwijderen. Dit kan door middel van het verwijderen van je account in je persoonlijke instellingen. Dit houdt onder andere in dat deelnemersaccount en contactgegevens worden verwijderd. Onderzoeksgegevens blijven bewaard, maar zijn dus op geen enkele manier meer aan een persoon te linken.
@@ -110,7 +110,7 @@ Je hebt altijd het recht een klacht over de verwerking van je persoonsgegevens i
 Ter bescherming van je gegevens nemen wij passende maatregelen om misbruik, verlies, onbevoegde toegang, ongewenste openbaarmaking en ongeoorloofde wijzing tegen te gaan. De software is ontwikkeld door de Duitse softwareleverancier Coneno. Deze software wordt door het RIVM zelf beheerd. De leverancier van de software heeft geen toegang tot je gegevens.
 
 ### Contactgegevens
-Voor vragen over de website Tekenradar.nl kunt u ons een e-mail sturen naar info@tekenradar.nl. Als je zorgen hebt over je gezondheid zoek dan altijd hulp via de gebruikelijke medische instanties.
+Voor vragen over de website Tekenradar.nl kun je ons een e-mail sturen naar info@tekenradar.nl. Als je zorgen hebt over je gezondheid zoek dan altijd hulp via de gebruikelijke medische instanties.
 
 ### Wijziging privacyverklaring
 Deze privacyverklaring kan worden gewijzigd. In dat geval zullen wij de gewijzigde privacyverklaring op www.tekenradar.nl/privacy publiceren.

@@ -1,7 +1,7 @@
 {
   "exitSurveyWarningDialog": {
     "title": "Wil je de vragenlijst verlaten?",
-    "warning": "Alle ingevulde informatie gaat verloren als je de vragenlijst niet afmaakt. Weet je zeker of je wilt stoppen?",
+    "warning": "Alle ingevulde informatie gaat verloren als je de vragenlijst niet afmaakt. Weet je zeker dat je wilt stoppen?",
     "cancelBtn": "Ga door met invullen",
     "confirmBtn": "Verlaat vragenlijst"
   },
