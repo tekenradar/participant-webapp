@@ -177,7 +177,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/faq',
               },
               image: {
-                url: '/images/faq.png',
+                url: '/images/faq.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -215,7 +215,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/tekenradar',
               },
               image: {
-                url: '/images/tekenradarWithBackground.png',
+                url: '/images/tekenradarWithBackground.jpg',
                 //backgroundSize: 'contain',
                 placement: 'top',
                 height: '200px',
