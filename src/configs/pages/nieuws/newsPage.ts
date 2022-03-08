@@ -124,7 +124,7 @@ const nieuwsSection = (): PageRow => {
               type: 'actionCard',
               useFooterText: true,
               image: {
-                url: '/images/news/foto-teek.png',
+                url: '/images/news/foto-teek.jpg',
                 className: 'd-none d-md-block',
                 minWidth: '300px',
                 maxWidth: '350px',

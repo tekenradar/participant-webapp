@@ -30,7 +30,7 @@ Wellicht zoeken meer mensen verkoeling in het zwembad of het terras, maar bekend
 Ben je in het ‘groen’ geweest, controleer jezelf daarna dan op tekenbeten. Ondanks de daling worden nog steeds duizenden mensen per week door teken gebeten. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten. Kijk op rivm.nl/tekenbeet hoe je het best een teek kunt verwijderen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/foto-teek.png" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/foto-teek.jpg" alt="TODO">
   <figcaption className="figure-caption">Een teek vastgebeten in de huid</figcaption>
 </figure>
 

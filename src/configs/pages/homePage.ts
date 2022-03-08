@@ -118,7 +118,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/cRIVM/onderzoeken.png',
+                url: '/images/cRIVM/onderzoeken.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -156,7 +156,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/cRIVM/lymecard.png',
+                url: '/images/cRIVM/lymecard.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
