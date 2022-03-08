@@ -1,6 +1,6 @@
 ## Aanmelden van patiënten voor onderzoek via Tekenradar
 Momenteel is het niet nodig om nieuwe patiënten aan te melden voor onderzoeken via Tekenradar. Op termijn zullen we op deze website weer informatie plaatsen over nieuwe onderzoeken en verzoeken om patiënten aan te melden. 
-Wel start het RIVM eind 2021 het “Lyme in Zicht” onderzoek waarvoor een vragenlijst naar alle huisartsen in Nederland wordt gestuurd om het aantal tekenbeten en lymeziekte gevallen te inventariseren. U ontvangt daarvoor vanzelf een brief met uitleg. Alvast hartelijk dank voor uw medewerking.
+Wel start het RIVM eind 2021 het “Lyme in Zicht” onderzoek waarvoor een vragenlijst naar alle huisartsen in Nederland wordt gestuurd om het aantal tekenbeten en lymeziekte gevallen te inventariseren. Je ontvangt daarvoor vanzelf een brief met uitleg. Alvast hartelijk dank voor je medewerking.
 Zie ook [Publicaties onderzoeksresultaten](/onderzoek/publicaties).
 
 ### Het LymeProspect, Pandora en Victory team

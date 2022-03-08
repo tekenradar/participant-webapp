@@ -19,7 +19,7 @@
   "passwordReset": {
     "title": "Wachtwoord wijzigen",
     "content": {
-      "info": "Welkom terug. Voer uw nieuwe wachtwoord in en bevestig dit",
+      "info": "Welkom terug. Voer je nieuwe wachtwoord in en bevestig dit",
       "emailLabel": "Email",
       "emailPlaceholder": "Email",
       "newPasswordLabel": "Wachtwoord",

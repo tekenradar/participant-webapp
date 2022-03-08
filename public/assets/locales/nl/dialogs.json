@@ -78,13 +78,13 @@
   },
   "passwordForgotten": {
     "title": "Wachtwoord wijzigen",
-    "info": "Geef het e-mailadres van uw account.",
-    "successMessage": "Volg de link in de e-mail die we u op het onderstaande adres hebben gestuurd.\n Heeft u geen e-mail ontvangen, kijk in uw spam-folder of probeer opnieuw.",
+    "info": "Geef het e-mailadres van je account.",
+    "successMessage": "Volg de link in de e-mail die we op het onderstaande adres hebben gestuurd.\n Heb je geen e-mail ontvangen, kijk in de spam-folder of probeer opnieuw.",
     "emailInputLabel": "E-mailadres",
     "emailInputPlaceholder": "E-mailadres",
     "submitBtn": "Wijzig wachtwoord",
     "errors": {
-      "invalidId": "Er gaat iets verkeerd. Controleer je e-mailadres of connectie.\nJe kan het nogmaals proberen wanneer de knop weer zichtbaar is.",
+      "invalidId": "Er gaat iets verkeerd. Controleer je e-mailadres of connectie.\nJe kunt het nogmaals proberen wanneer de knop weer zichtbaar is.",
       "unknown": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw."
     }
   },
