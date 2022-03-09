@@ -1,16 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Placeholder } from 'react-bootstrap';
 import TRButton from '../TRButton';
-import { Circle, CircleMarker, MapContainer, Marker, TileLayer, useMapEvents, } from 'react-leaflet';
-import { LocalizedObject, LocalizedString, ResponseItem } from 'survey-engine/data_types';
+import { CircleMarker, MapContainer, TileLayer, } from 'react-leaflet';
+
 
 import 'proj4leaflet';
 
-// import icon from 'leaflet/dist/images/marker-icon.png';
-// import iconShadow from 'leaflet/dist/images/marker-shadow.png';
-import icon from './map-marker.png';
 
-import { LatLngBounds, LatLngLiteral } from 'leaflet';
 import { Slider } from 'case-web-ui';
 
 

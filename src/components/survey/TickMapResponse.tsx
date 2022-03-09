@@ -167,7 +167,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         { key: 'lat', value: markerPosition.lat.toString() },
         { key: 'lng', value: markerPosition.lng.toString() },
         { key: 'zoom', value: currentZoomLevel.toFixed(0) },
-
+        { key: 'crs', value: "EPSG:28992" },
         {
           key: 'bounds', items: [
             {
