@@ -1,6 +1,7 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
+import { fullWidthTeaserImageRow } from "../../common/teaserImageRow"
 
 const nieuwsSection = (): PageRow => {
   return pageSection({
@@ -332,6 +333,14 @@ export const newsPage = (path: string): PageConfig => {
     path: path,
     pageKey: '/nieuws/news',
     rows: [
+      fullWidthTeaserImageRow('teaserImage', {
+        type: 'teaserImage',
+        image: {
+          url: '/images/newspapers-g351ad5b65_1280.jpg',
+          backgroundPosition: '70% 35%',
+          height: 367,
+        },
+      }),
       nieuwsSection(),
       archiefSection(),
     ]
