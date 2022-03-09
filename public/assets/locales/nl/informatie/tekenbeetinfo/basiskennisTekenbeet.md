@@ -8,7 +8,6 @@ U kunt een tekenbeet melden op Tekenradar.nl. Insturen van de teek is niet nodig
 [Klik hier om direct een tekenbeet, rode ring of vlek, andere vorm van de ziekte van Lyme, of koorts na een tekenbeet te melden](/melden)
 
 <br></br>
-<br></br>
 
 
 <video controls="controls" width=100%>
