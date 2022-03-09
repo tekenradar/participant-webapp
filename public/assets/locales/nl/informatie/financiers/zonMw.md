@@ -4,8 +4,6 @@
   <figcaption className="Logo ZonMw"></figcaption>
 </figure>
 
-## ZonMw stimuleert gezondheidsonderzoek en zorginnovatie.
-
 [ZonMw](https://www.zonmw.nl/nl/) werkt aan een goede gezondheid voor iedereen. Ook voor mensen voor wie dat niet vanzelfsprekend is. We financieren gezondheidsonderzoek, stimuleren het gebruik van de ontwikkelde kennis en signaleren waar meer kennis nodig is. Van onderzoek gedreven door nieuwsgierigheid tot implementatie in de praktijk: samen maken we het verschil.
 
 ZonMw heeft als hoofdopdrachtgevers:
