@@ -5,6 +5,7 @@ import { Nav, Tab } from 'react-bootstrap';
 import DensityMap from './HomeMapComponents/DensityMap';
 import ReportMap from './HomeMapComponents/ReportMap';
 import { GenericPageItemProps } from './utils';
+import LymeMap from './HomeMapComponents/LymeMap';
 
 interface ResultsTabsProps extends GenericPageItemProps {
   // Generic:
@@ -94,24 +95,7 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
             <DensityMap />
           </Tab.Pane>
           <Tab.Pane eventKey="lymeinnl">
-            <div className="p-2">
-              <div className="row">
-                <div className="col-7">
-                  <div
-                    className={clsx(
-                      "d-flex justify-content-center align-items-center bg-grey-5",
-                    )}
-                    style={{
-                      height: 425
-                    }}
-                  >
-                    <h1 className="fs-1 text-center text-white text-uppercase m-0 p-2">MAP</h1>
-                  </div>
-                </div>
-                <div className="col-5">
-                </div>
-              </div>
-            </div>
+            <LymeMap />
           </Tab.Pane>
         </Tab.Content>
       </Tab.Container>
