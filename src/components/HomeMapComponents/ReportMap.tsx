@@ -179,7 +179,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
         <div className={`mt-2 mt-${breakpoint}-0`} >
           <h3>Tekenmeldingen</h3>
           <p>Overzicht van de meldingen van tekenbeten en <a href="/informatie/erythema-migrans">erythema migrans </a>in de afgelopen vier weken.</p>
-          <p>TODO: statement that only reports in the Netherlands are displayed over the map</p>
+          <p>De kaart toont alleen de meldingen binnen Nederland.</p>
 
           {
             selectedSeries !== undefined ? <div className="text-center w-100 justify-content-center">

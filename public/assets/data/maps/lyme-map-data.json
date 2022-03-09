@@ -14,8 +14,8 @@
   },
   "series": [
     {
-      "name": "TODO",
-      "title": "TODO",
+      "name": "Mensen met erythema migrans",
+      "title": "Mensen met erythema migrans: een vroege vorm van ziekte van Lyme",
       "colorScale": {
         "min": 0,
         "max": 300,
@@ -31,7 +31,7 @@
       },
       "legend": {
         "show": true,
-        "title": "TODO",
+        "title": "Aantal per 100.000 inwoners",
         "position": {
           "x": "left",
           "y": "top"
