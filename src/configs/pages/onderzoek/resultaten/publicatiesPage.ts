@@ -30,8 +30,8 @@ export const publicatiesPage = (path: string): PageConfig => {
             rowKey: 'references-row',
             items: [
               {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                colClassName: 'col-12',
+                itemKey: 'nextArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -41,25 +41,13 @@ export const publicatiesPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/onderzoek/overzicht'
-                  },
-                }
-              },
-              {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'nextArticle',
-                className: "mt-2",
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek/voorArtsen'
+                    value: '/onderzoek/cijfers'
                   },
                 }
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -72,7 +60,7 @@ export const publicatiesPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/onderzoek/overzicht'
                   },
                 }
               }

@@ -2,17 +2,12 @@
   "title": "Resultaten",
   "backToOverviewPage": {
     "title": "Terug naar het overzicht",
-    "body": "Vind meer artikelen over onze onderzoeken",
+    "body": "Vind meer artikelen over onze onderzoeken.",
     "actionBtn": "Naar de overzichtspagina"
   },
   "nextArticle": {
     "title": "Publicaties onderzoeksresultaten",
-    "body": "In 2013 kon met teken verkregen via Tekenradar.nl een snelle inventarisatie ...",
-    "actionBtn": "Lees meer"
-  },
-  "anotherTopic": {
-    "title": "Tekenradar",
-    "body": "Lees meer over de doelen, partners en financiers van tekenradar.",
+    "body": "In 2013 kon met teken verkregen via Tekenradar.nl een snelle inventarisatie plaatsvinden van de populatie blootstelling aan ...",
     "actionBtn": "Lees meer"
   }
 }
