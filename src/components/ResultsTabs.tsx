@@ -76,7 +76,7 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
           <CustomNavItem
             eventKey="dichtheidkaart"
             isActive={key === "dichtheidkaart"}
-            label="Dichtheidkaart"
+            label="Tekenbeetdichtheid"
           />
           <CustomNavItem
             eventKey="lymeinnl"
