@@ -28,8 +28,8 @@ export const basiskennisTekenPage = (path: string): PageConfig => {
             rowKey: 'references-row',
             items: [
               {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                colClassName: 'col-12',
+                itemKey: 'nextArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -39,25 +39,13 @@ export const basiskennisTekenPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
-                  },
-                }
-              },
-              {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'nextArticle',
-                className: "mt-2",
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
                     value: '/informatie/waar-leven-teken'
                   },
                 }
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -70,7 +58,7 @@ export const basiskennisTekenPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/teken'
                   },
                 }
               }

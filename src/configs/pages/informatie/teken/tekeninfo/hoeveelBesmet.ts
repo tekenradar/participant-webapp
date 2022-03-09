@@ -30,7 +30,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                itemKey: 'previousArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -40,7 +40,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/informatie/wanneer-zijn-teken-actief'
                   },
                 }
               },
@@ -58,7 +58,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -71,7 +71,7 @@ export const hoeveelBesmetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/teken'
                   },
                 }
               }
