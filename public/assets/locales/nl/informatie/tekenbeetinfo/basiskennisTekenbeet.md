@@ -12,7 +12,10 @@ U kunt een tekenbeet melden op Tekenradar.nl. Insturen van de teek is niet nodig
 
 <video controls="controls" width=100%>
     <source src="//www.rovid.nl/rivm/aco/2018/rivm-aco-20180815-idlwx2do9-web-hd.mp4" type="video/mp4">
+    <track label="Subtitles" srclang="nl" src="/assets/subtitles/rivm-aco-20180815-idlwx2do9-ondertiteling.vtt" default>
     Uw browser ondersteunt het video-element niet.
 </video>
+
+
 
 
