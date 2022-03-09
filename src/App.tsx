@@ -17,6 +17,7 @@ import { nl } from 'date-fns/locale';
 import TickMapResponse from './components/survey/TickMapResponse';
 import EMfotoUpload from './components/survey/EMfotoUpload';
 import ReportSelector from './components/survey/ReportSelector';
+import UserVerification from './components/survey/UserVerification';
 
 export const dateLocales = [
   { code: 'nl', locale: nl, format: 'dd-MM-yyyy' },
@@ -47,6 +48,10 @@ export const customSurveyResponseComponents = [
   {
     name: 'input:TBReportSelector',
     component: ReportSelector,
+  },
+  {
+    name: 'input:userVerification',
+    component: UserVerification,
   },
 ];
 
