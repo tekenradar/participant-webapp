@@ -14,6 +14,7 @@ Bij het RIVM werken ruim 2.000 mensen. Tot de opdrachtgevers behoren:
 - de Verenigde Naties
 - de Wereldgezondheidsorganisatie
 
-Het Centrum Epidemiologie en Surveillance van Infectieziekten (EPI) binnen het RIVM analyseert en bewaakt de gezondheid van Nederland op het gebied van infectieziekten en onderzoekt de effectiviteit en kosteneffectiviteit van maatregelen voor de bestrijding daarvan. EPI gebruikt hiervoor data uit surveillance en onderzoek om zo tijdig inzicht in trends en risico’s van infectieziekten te ontsluiten. Eén van de expertisevelden binnen het centrum is Gastro-Enterale infecties en Zoonosen (GEZ), waarbinnen onderzoek gedaan wordt naar tekenbeten en teken-overdraagbare ziektes, zoals ziekte van Lyme. 
+Binnen het RIVM is het Centrum Infectieziektebestrijding (RIVM-Cib) verantwoordelijk voor signalering, bestrijding en preventie van infectieziekten ten behoeve van de volksgezondheid in Nederland. Het RIVM-CIb voert regie over de infectieziektebestrijding vanuit een nationale en internationale optiek. Dat betekent dat bij grote (landelijke) uitbraken de coördinatie van en communicatie over de bestrijding in handen is van het CIb. Dit in aansluiting op lokale en regionale infectieziektebestrijding.
+Daarnaast formuleert het CIb het gewenste preventie- en bestrijdingsbeleid en geeft advies aan de overheid en de professionals in de praktijk. Het verricht hiertoe zelf wetenschappelijk onderzoek, waaronder het onderzoek naar tekenbeten en de ziekte van Lyme. Ook draagt het CIb bij aan de expertiseontwikkeling, kwaliteit en uniformiteit van de infectieziektebestrijding. Het zorgt voor heldere en betrouwbare communicatie naar publiek en professionals en voor een effectieve internationale samenwerking.
 
 
