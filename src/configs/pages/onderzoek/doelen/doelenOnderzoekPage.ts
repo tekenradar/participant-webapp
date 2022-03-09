@@ -28,36 +28,8 @@ export const doelenOnderzoekPage = (path: string): PageConfig => {
             rowKey: 'references-row',
             items: [
               {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
-                className: "mt-2",
-                config: {
-                  type: 'actionCard',
-                  bodyBgImage: {
-                    url: '/images/no-license/waar-leven-teken.jpg',
-                    backgroundPosition: '50% 50%',
-                  },
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek/overzicht'
-                  },
-                }
-              },
-              {
-                colClassName: 'col-12 col-sm-6',
-                itemKey: 'nextArticle',
-                className: "mt-2",
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/onderzoek/vragenlijst'
-                  },
-                }
-              },
-              {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -70,7 +42,7 @@ export const doelenOnderzoekPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/onderzoek/overzicht'
                   },
                 }
               }

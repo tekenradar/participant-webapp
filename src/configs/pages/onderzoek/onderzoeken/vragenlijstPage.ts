@@ -29,7 +29,7 @@ export const vragenlijstPage = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                itemKey: 'previousArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -39,7 +39,7 @@ export const vragenlijstPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/onderzoek/overzicht'
+                    value: '/onderzoek/pandora'
                   },
                 }
               },
@@ -57,7 +57,7 @@ export const vragenlijstPage = (path: string): PageConfig => {
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -70,7 +70,7 @@ export const vragenlijstPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/teken'
+                    value: '/onderzoek/overzicht'
                   },
                 }
               }
