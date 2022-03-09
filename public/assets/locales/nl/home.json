@@ -24,7 +24,6 @@
     "body": "Hier vind je een overzicht van al onze nieuwsartikelen sinds 2012.",
     "actionBtn": "Naar de overzichtspagina"
   },
-
   "onderzoekCard": {
     "title": "Over onze onderzoeken",
     "body": " ",
@@ -36,7 +35,7 @@
     "actionBtn": "Lees meer"
   },
   "faqCard": {
-    "title": "Vragen en antwoorden",
+    "title": "Veelgestelde vragen",
     "body": " ",
     "actionBtn": "Lees meer"
   },
