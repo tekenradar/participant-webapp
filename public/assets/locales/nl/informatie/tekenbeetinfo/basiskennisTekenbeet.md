@@ -7,5 +7,13 @@ U kunt een tekenbeet melden op Tekenradar.nl. Insturen van de teek is niet nodig
  
 [Klik hier om direct een tekenbeet, rode ring of vlek, andere vorm van de ziekte van Lyme, of koorts na een tekenbeet te melden](/melden)
 
-Klik hier voor de video "Een teek! Pak 'm beet!" met informatie over teken en de ziekte van Lyme.
-<span style="color:red">Embed video "een teek? Pak´m beet! https://www.tekenradar.nl/teken/tekenbeet/video-een-teek-pak-m-beet</span> 
+<br></br>
+<br></br>
+
+
+<video controls="controls" width=100%>
+    <source src="//www.rovid.nl/rivm/aco/2018/rivm-aco-20180815-idlwx2do9-web-hd.mp4" type="video/mp4">
+    Your browser does not support the Video element.
+</video>
+
+
