@@ -1,18 +1,18 @@
 {
-  "title": "Laatse nieuws",
+  "title": "Laatste nieuws",
   "previousArticle": {
-  "title": "Nature Today-app",
-  "body": "In de loop van deze week kunnen mensen ...",
-  "actionBtn": "Lees meer"
-},
-"nextArticle": {
-  "title": "Archief 2019",
-  "body": "Lees hier alle nieuwsartikelen van 2019.",
-  "actionBtn": "Lees meer"
-},
-"backToOverview": {
-  "title": "Terug naar het overzicht",
-  "body": "Vind meer nieuwsartikelen. ",
-  "actionBtn": "Naar de overzichtspagina"
-}
+    "title": "Nature Today-app",
+    "body": "In de loop van deze week kunnen mensen ...",
+    "actionBtn": "Lees meer"
+  },
+  "nextArticle": {
+    "title": "Archief 2019",
+    "body": "Lees hier alle nieuwsartikelen van 2019.",
+    "actionBtn": "Lees meer"
+  },
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  }
 }

@@ -28,7 +28,7 @@ Inloggegevens
 - E-mailadres
 - Wachtwoord (versleuteld)
 
-Contactgegevens om benaderd te kunnen worden voor aanvullend deelonderzoek en/of je persoonsgegevens in combinatie met de contactgegevens van je huisarts om relevante medische gegevens over je melding op te kunnen vragen (niet verplicht voor het Tekenradar vragenlijst onderzoek en alleen na jou uitdrukkelijke aanvullende toestemming)
+Contactgegevens om benaderd te kunnen worden voor aanvullend deelonderzoek en/of je persoonsgegevens in combinatie met de contactgegevens van je huisarts om relevante medische gegevens over je melding op te kunnen vragen (niet verplicht voor het Tekenradar-vragenlijstonderzoek en alleen na jou uitdrukkelijke aanvullende toestemming)
 - Telefoonnummer
 - NAW gegevens
 - Geboortedatum

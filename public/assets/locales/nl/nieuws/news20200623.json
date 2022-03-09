@@ -1,5 +1,5 @@
 {
-  "title": "Laatse nieuws",
+  "title": "Laatste nieuws",
   "previousArticle": {
     "title": "Verspreiding van tekenencefalitisvirus in Nederland",
     "body": "Elk jaar bijten zo’n 1,5 miljoen teken ...",
@@ -12,7 +12,7 @@
   },
   "backToOverview": {
     "title": "Terug naar het overzicht",
-  "body": "Vind meer nieuwsartikelen. ",
-  "actionBtn": "Naar de overzichtspagina"
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
   }
 }

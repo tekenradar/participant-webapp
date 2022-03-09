@@ -8,8 +8,8 @@
   },
   "onderzoeken.title": "Onderzoeken via Tekenradar.nl",
   "vragenlijst": {
-    "title": "Tekenradar vragenlijst onderzoek",
-    "body": "Door een melding te doen op tekenradar kunnen mensen meedoen aan het Tekenradar vragenlijst onderzoek. Ze worden dan uitgenodigd om na de meldvragenlijst gedurende een jaar lang vragenlijsten... ",
+    "title": "Tekenradar-vragenlijstonderzoek",
+    "body": "Door een melding te doen op tekenradar kunnen mensen meedoen aan het Tekenradar-vragenlijstonderzoek. Ze worden dan uitgenodigd om na de meldvragenlijst gedurende een jaar lang vragenlijsten... ",
     "actionBtn": "Lees meer"
   },
   "lymeProspect": {
@@ -19,7 +19,7 @@
     "footer": "25.10.2021"
   },
   "preventieveAntibiotica": {
-    "title": "Preventieve antibiotica onderzoek",
+    "title": "Preventief antibiotica-onderzoek",
     "body": "Na een tekenbeet kan de ziekte van Lyme ontstaan. Als dat gebeurd kan antibiotica... ",
     "actionBtn": "Lees meer"
   },
