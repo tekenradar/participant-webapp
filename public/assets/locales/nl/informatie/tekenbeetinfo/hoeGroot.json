@@ -6,13 +6,13 @@
     "actionBtn": "Naar de overzichtspagina"
   },
   "nextArticle": {
-    "title": "Wist je dat?",
-    "body": "Jaarlijks 1,5 miljoen tekenbeten worden opgelopen. In 2017 liepen mensen in Nederland ...",
+    "title": "Over de teek",
+    "body": "Teken zijn geleedpotigen en lijken op kleine platte spinnetjes. Teken behoren dan ...",
     "actionBtn": "Lees meer"
   },
-  "anotherTopic": {
-    "title": "Ziekte van Lyme",
-    "body": "Lees meer over ziekte van Lyme, de belangrijkste door teken overgedragen ziekte.",
+  "previousArticle": {
+    "title": "Hoe verwijder ik een teek?",
+    "body": "Het is belangrijk dat je een tekenverwijderaar gebruikt waarbij je de kop van de teek ...",
     "actionBtn": "Lees meer"
   }
 }
