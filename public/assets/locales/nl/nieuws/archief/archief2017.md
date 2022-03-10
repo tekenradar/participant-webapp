@@ -78,8 +78,13 @@ Volwassenen en jongeren die een antibioticabehandeling beginnen tegen de ziekte 
 #### Piek van het tekenseizoen in juli: controleer op tekenbeten!
 De komende tijd wordt de piek van het tekenseizoen verwacht: tekenradar.nl ontvangt in juli gemiddeld een derde van alle tekenbeetmeldingen in een jaar. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest. Bijvoorbeeld na bezoek aan het bos, duinen, park, de speeltuin of na verblijf in de tuin. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe korter de teek in de huid zit, hoe kleiner de kans dat de teek ziekteverwekkers overdraagt. Neem contact op met de huisarts wanneer u symptomen krijgt die wijzen op de ziekte van Lyme. 
 
-#### Meer informatie
-Meer informatie over het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme vindt u op www.tekenradar.nl. Algemene informatie over tekenbeten en Lyme kunt u vinden op de website van het RIVM (www.rivm.nl/tekenbeet) en op www.tekenradar.nl.
+
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
+
 
 Het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme (“LymeProspect”) is een samenwerking van het RIVM, en de Lyme centra en afdelingen kindergeneeskunde van het Radboudumc, AMC en Gelre ziekenhuizen Apeldoorn, en wordt mede mogelijk gemaakt door ZonMw en het ministerie van VWS. Tekenradar.nl is een samenwerking van Wageningen University en het RIVM.
 
@@ -109,7 +114,11 @@ Het RIVM heeft kaarten gemaakt op basis van het aantal [erythema migrans](/infor
 #### Wees alert op tekenbeten
 Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 
-Meer informatie over tekenbeten en de ziekte van Lyme is te vinden op de website van het RIVM en op Tekenradar.nl.
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 *Door: Wendy Vercruijsse, Atlas Leefomgeving*
 
