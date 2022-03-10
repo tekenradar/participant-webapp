@@ -8,16 +8,16 @@ const DensityMap: React.FC<DensityMapProps> = (props) => {
   return (
     <div className='p-2'>
       <div className='row'>
-        <div className='col-12 col-md-7'>
+        <div className='col-12 col-md-6'>
           <img
             width="100%"
             src={getExternalOrLocalContentURL('images/dichtheidkaart.png')}
-            alt='Dichtheidkaart'
+            alt='Tekenbeetdichtheid'
           />
         </div>
-        <div className='col-12 col-md-5'>
-          <h3>Dichtheid van tekenbeet meldingen</h3>
-          <p>TODO: Some text about the map</p>
+        <div className='col-12 col-md-6'>
+          <h3 className='mt-2 mt-md-0'>Tekenbeetdichtheid</h3>
+          <p>Op deze kaart is te zien waar de meeste tekenbeten via Tekenradar gemeld worden. In deze gebieden zitten niet alleen veel teken, maar komen ook veel mensen.</p>
         </div>
       </div>
     </div>

@@ -1,17 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { Placeholder } from 'react-bootstrap';
 import TRButton from '../TRButton';
-import { Circle, CircleMarker, MapContainer, Marker, TileLayer, useMapEvents, } from 'react-leaflet';
-import { LocalizedObject, LocalizedString, ResponseItem } from 'survey-engine/data_types';
+import { CircleMarker, MapContainer, TileLayer, } from 'react-leaflet';
+
 
 import 'proj4leaflet';
 
-// import icon from 'leaflet/dist/images/marker-icon.png';
-// import iconShadow from 'leaflet/dist/images/marker-shadow.png';
-import icon from './map-marker.png';
 
-import { LatLngBounds, LatLngLiteral } from 'leaflet';
-import { Slider } from 'case-web-ui';
+import { getExternalOrLocalContentURL, LoadingPlaceholder, Slider } from 'case-web-ui';
 
 
 var L = require('leaflet');
@@ -80,51 +75,27 @@ const LegendMarker: React.FC<LegendMarkerProps> = (props) => {
 
 const ReportMap: React.FC<ReportMapProps> = (props) => {
   const [selectedSeries, setSelectedSeries] = useState<undefined | number>();
-  const [reportData, setReportData] = useState<ReportMapSeries>({
-    slider: {
-      minLabel: '-4 weken',
-      maxLabel: 'nu',
-      labels: [
-        '07.02.2022 - 13.02.2022',
-        '14.02.2022 - 20.02.2022',
-        '21.02.2022 - 27.02.2022',
-        '28.02.2022 - 06.03.2022',
-      ]
-    },
-    series: [
-      [
-        { "lat": 51.91, "lng": 4.44, type: "EM" },
-        { "lat": 52.59, "lng": 5.61, type: "TB" },
-        { "lat": 52.83, "lng": 5.96, type: "FE" },
-      ],
-      [
-        { "lat": 52.11, "lng": 4.44, type: "EM" },
-        { "lat": 51.59, "lng": 4.41, type: "TB" },
-        { "lat": 51.83, "lng": 4.96, type: "FE" },
-      ],
-      [
-        { "lat": 52.51, "lng": 4.84, type: "EM" },
-        { "lat": 52.39, "lng": 4.61, type: "TB" },
-        { "lat": 52.23, "lng": 4.96, type: "FE" },
-      ],
-      [{
-        lat: defaultCenter.lat,
-        lng: defaultCenter.lng,
-        type: 'EM'
-      },
-      { "lat": 52.11, "lng": 4.44, type: "EM" },
-      { "lat": 51.59, "lng": 4.41, type: "TB" },
-      { "lat": 51.83, "lng": 4.96, type: "FE" },
-      { "lat": 52.31, "lng": 4.82, type: "Other" },
-      { "lat": 52.33, "lng": 5.83, type: "EM" },
-      { "lat": 52.38, "lng": 5.6, type: "EM" }
-      ],
-    ]
-  })
+  const [reportData, setReportData] = useState<ReportMapSeries | undefined>()
 
   useEffect(() => {
-    setSelectedSeries(reportData.slider.labels.length - 1);
+    if (reportData) {
+      setSelectedSeries(reportData.slider.labels.length - 1);
+    }
   }, [reportData])
+
+  useEffect(() => {
+    fetch(getExternalOrLocalContentURL('/data/maps/tb_report_map_data.json'))
+      .then(res => res.json())
+      .then(json => {
+        setReportData(json);
+      })
+      .catch(error => console.log(error));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  if (reportData === undefined) {
+    return <LoadingPlaceholder color="secondary" minHeight={400} />
+  }
 
   const breakpoint = 'md'
   return (<div className="p-2">
@@ -154,7 +125,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
 
         >
           {
-            selectedSeries !== undefined ? reportData.series[selectedSeries].map(
+            (selectedSeries !== undefined && reportData !== undefined) ? reportData.series[selectedSeries].map(
               (data, index) => <CircleMarker
                 key={index.toString()}
                 center={data}
@@ -179,10 +150,10 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
         <div className={`mt-2 mt-${breakpoint}-0`} >
           <h3>Tekenmeldingen</h3>
           <p>Overzicht van de meldingen van tekenbeten en <a href="/informatie/erythema-migrans">erythema migrans </a>in de afgelopen vier weken.</p>
-          <p>TODO: statement that only reports in the Netherlands are displayed over the map</p>
+          <p>De kaart toont alleen de meldingen binnen Nederland.</p>
 
           {
-            selectedSeries !== undefined ? <div className="text-center w-100 justify-content-center">
+            (selectedSeries !== undefined && reportData !== undefined) ? <div className="text-center w-100 justify-content-center">
               <div className="px-3 pb-0 mb-0">
                 <div className="w-100 text-center text-primary fw-bold">
                   {reportData.slider.labels[selectedSeries]}
