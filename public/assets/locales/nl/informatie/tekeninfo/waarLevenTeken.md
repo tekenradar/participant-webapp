@@ -6,4 +6,4 @@ De teek verblijft graag in een gemengd loofbos met een ondergroei van blauwe bos
 ### Teken in de tuin
 Een derde van de tekenbeten lopen mensen op in de tuin. Dat blijkt uit onderzoek van De Natuurkalender. Die tuinen liggen vooral in bosrijke omgeving, maar ook van midden in de (grote) stad melden mensen tekenbeten. 
 
-De schapenteek komt nauwelijks voor in open terrein zoals weilanden, uiterwaarden en heidevelden.
+De teek komt nauwelijks voor in open terrein zoals weilanden, uiterwaarden en heidevelden.
