@@ -84,7 +84,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   }, [reportData])
 
   useEffect(() => {
-    fetch(getExternalOrLocalContentURL('/data/maps/tb_report_map_data.json'))
+    fetch(getExternalOrLocalContentURL('/data/maps/tb_report_map_data_MH_v2.json'))
       .then(res => res.json())
       .then(json => {
         setReportData(json);
