@@ -143,7 +143,7 @@ De kosten van een ziekte bestaan uit de kosten binnen de gezondheidszorg, kosten
 Naast preventie van tekenbeten en snelle behandeling van milde infecties, is het voorkomen en behandelen van ernstige en langdurige klachten dus ook belangrijk vanwege de hoge maatschappelijke kosten. Toch blijft de belangrijkste preventieve maatregel om te controleren op tekenbeten nadat mensen in het ‘groen’ zijn geweest. Bijvoorbeeld na bezoek aan het bos, de duinen, maar ook het park, de speeltuin of na verblijf in de tuin. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 
 #### Tekenbeten en Lyme
-Informatie over tekenbeten en de ziekte van Lyme, waaronder controleren op tekenbeten en verwijderen van een teek kunt u vinden op (RIVM)[https://www.rivm.nl/tekenbeet] en www.tekenradar.nl. Als u een tekenbeet of de ziekte van Lyme hebt, kun u zich ook aanmelden voor onderzoek op www.tekenradar.nl.
+Informatie over tekenbeten en de ziekte van Lyme, waaronder controleren op tekenbeten en verwijderen van een teek kunt u vinden op [RIVM](https://www.rivm.nl/tekenbeet) en www.tekenradar.nl. Als u een tekenbeet of de ziekte van Lyme hebt, kun u zich ook aanmelden voor onderzoek op www.tekenradar.nl.
  
 Link naar het artikel met het onderzoek naar de kosten van Lyme.
 
@@ -166,9 +166,8 @@ In stedelijk gebied dragen teken minder vaak de bacterie bij zich die de ziekte 
 #### Controleren extra belangrijk!
 Elk jaar krijgen mensen in Nederland ongeveer 1,3 miljoen tekenbeten. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 <br></br>
-[//]: <> (TODO: change image: image removing tick)
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/teekverwijderen.jpeg" alt="TODO">
 </figure>
 
 #### Onderzoek via Tekenradar.nl

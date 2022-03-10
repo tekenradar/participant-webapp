@@ -134,12 +134,7 @@ Het LymeProspect onderzoek is een samenwerking van het RIVM, Radboudumc, AMC en 
 <br></br>
 
 De tot nu toe zachte winter zorgde voor vroeg bloeiende planten, maar ook teken genieten van de relatieve warmte. Waar men in de zomer nog wel eens maatregelen neemt om niet gebeten te worden, achten veel mensen het in de winter een stuk minder waarschijnlijk een teek tegen het lijf te lopen. Heeft u bijvoorbeeld in de afgelopen maand uw lichaam nog gecheckt op teken als u in een gebied was geweest waar teken kunnen voorkomen?
-<br></br>
-[//]: <> (TODO: change image to similar or skip)
-<figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
-  <figcaption className="figure-caption">Tekenbeet</figcaption>
-</figure> 
+
 
 #### Onderzoek
 Om erachter te komen wat mensen beweegt om zichzelf wel of niet te controleren op teken, is er door een student van Wageningen University onder begeleiding van dr. Bob Mulder van de leerstoelgroep Strategische Communicatie en dr.ir. Arnold van Vliet van de leerstoelgroep Milieusysteemanalyse en Tekenradar.nl een enquête opgesteld. De resultaten van de enquête zijn anoniem en zullen niet worden verstrekt aan derden. We zouden het zeer op prijs stellen als u een bijdrage wilt leveren aan dit wetenschappelijke onderzoek door deze enquête in te vullen. Alvast bedankt voor uw deelname!  

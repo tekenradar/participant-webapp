@@ -30,7 +30,7 @@ Wellicht zoeken meer mensen verkoeling in het zwembad of het terras, maar bekend
 Ben je in het ‘groen’ geweest, controleer jezelf daarna dan op tekenbeten. Ondanks de daling worden nog steeds duizenden mensen per week door teken gebeten. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten. Kijk op rivm.nl/tekenbeet hoe je het best een teek kunt verwijderen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/foto-teek.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/news/foto-teek.jpg" alt="TODO">
   <figcaption className="figure-caption">Een teek vastgebeten in de huid</figcaption>
 </figure>
 
@@ -86,8 +86,11 @@ Lees [hier](https://www.zonmw.nl/nl/actueel/nieuws/detail/item/neemt-u-een-teek-
 <br></br>
 
 **Onderzoekers van het RIVM en Wageningen University verwachten dat we in juni en juli ruim 500.000 tekenbeten oplopen, de helft van het jaarlijkse aantal tekenbeten.**
+
 <br></br>
-[//]: <> (TODO: change image people outside)
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/no-license/couple-dog.jpg" alt="TODO">
+</figure>
 
 #### Het hele jaar door tekenbeten
 Het hele jaar door kun je een tekenbeet oplopen. Als het warmer is dan zeven graden worden de spinachtige diertjes actief. “Elk jaar zien we in onze data van tekenradar.nl een duidelijke piek in juni en juli van het aantal tekenbeetmeldingen”, zegt Kees van den Wijngaard, epidemioloog van het RIVM. “We zijn benieuwd naar het aantal meldingen in de rest van dit jaar, maar opvallend is dat het aantal meldingen in de eerste vijf maanden van 2018 29% hoger ligt dan het gemiddelde van de vijf jaar daarvoor.” Het aantal tekenbeetmeldingen hangt in belangrijke mate samen met de weersomstandigheden. Daarnaast speelt ook de aandacht voor Tekenradar.nl een rol. Elk jaar lopen we in Nederland ruim één miljoen tekenbeten op. De meeste mensen worden niet ziek na een tekenbeet.
