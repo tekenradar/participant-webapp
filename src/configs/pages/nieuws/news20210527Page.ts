@@ -15,8 +15,8 @@ export const news20210527Page = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
-        backgroundPosition: '70% 35%',
+        url: '/images/news/Nagelteek_170218496.jpg',
+        backgroundPosition: '70% 20%',
         height: 367,
       },
     },

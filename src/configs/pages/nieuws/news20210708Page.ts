@@ -15,7 +15,7 @@ export const news20210708Page = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
+        url: '/images/news/cRIVM/130852-1920.jpg',
         backgroundPosition: '70% 35%',
         height: 367,
       },
