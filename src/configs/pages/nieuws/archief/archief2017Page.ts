@@ -14,7 +14,7 @@ export const archief2017Page = (path: string): PageConfig => {
       type: 'teaserImage',
       image: {
         url: '/images/news/cRIVM/79737-1920.jpg',
-        backgroundPosition: '70% 15%',
+        backgroundPosition: '70% 90%',
         height: 367,
       },
     },
