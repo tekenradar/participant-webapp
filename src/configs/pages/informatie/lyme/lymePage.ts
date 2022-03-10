@@ -307,10 +307,9 @@ const lymeInNLSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                as: 'img',
-                url: '/images/no-license/nl-national-colors.jpg',
-                //minHeight: '200px',
-                //maxHeight: '350px',
+                url: '/images/pexels-johannes-plenio-4371629.jpg',
+                minHeight: '200px',
+                maxHeight: '350px',
                 placement: 'top',
               },
               action: {
@@ -330,7 +329,7 @@ const lymeInNLSection = (): PageRow => {
                 url: '/images/cRIVM/PV-20161013-01-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
-                minHeight: '300px',
+                minHeight: '200px',
                 maxHeight: '350px',
                 placement: 'top',
               },
