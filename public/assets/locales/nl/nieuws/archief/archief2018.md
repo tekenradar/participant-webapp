@@ -98,6 +98,7 @@ Het hele jaar door kun je een tekenbeet oplopen. Als het warmer is dan zeven gra
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/grafiek.jpg" alt="TODO">
 </figure>
+
 #### Ziekte van Lyme
 In Nederland krijgen elk jaar 27.000 mensen de ziekte van Lyme na een tekenbeet. Via tekenradar.nl kun je zien waar in de afgelopen periode veel mensen zijn gebeten door een teek, en waar mensen de ziekte van Lyme hebben opgelopen. Je kunt jezelf op deze website ook aanmelden voor deelname aan onderzoek als je een tekenbeet of lyme hebt opgelopen.
 
