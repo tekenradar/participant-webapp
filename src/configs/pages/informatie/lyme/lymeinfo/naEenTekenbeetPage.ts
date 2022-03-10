@@ -29,7 +29,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                itemKey: 'previousArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -39,7 +39,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/hoe-herken-ik-een-tekenbeet-of-ziekte-van-lyme-bij-een-kind'
                   },
                 }
               },
@@ -57,7 +57,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -70,7 +70,7 @@ export const naEenTekenbeetPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenradar'
+                    value: '/informatie/lyme'
                   },
                 }
               }

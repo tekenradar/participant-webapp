@@ -7,12 +7,12 @@
   },
   "nextArticle": {
     "title": "Wanneer moet ik naar de huisarts?",
-    "body": "Als je een rode ring of vlek op je huid ...",
+    "body": "Als je een rode ring of vlek op je huid (erythema migrans) hebt gevonden en die ring of vlek  ...",
     "actionBtn": "Lees meer"
   },
-  "anotherTopic": {
-    "title": "Over Tekenradar",
-    "body": "Lees meer over ons, onze missie en onze doelen.",
+  "previousArticle": {
+    "title": "Waar moet ik op letten na een tekenbeet?",
+    "body": "Het meest voorkomende signaal van de ...",
     "actionBtn": "Lees meer"
   }
 }
