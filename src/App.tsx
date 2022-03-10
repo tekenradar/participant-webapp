@@ -7,7 +7,6 @@ import { footerConfig } from './configs/footer';
 import ResultsTabs from './components/ResultsTabs';
 import ReportButtonCard from './components/ReportButtonCard';
 import Partners from './components/Partners';
-import Ribbon from './components/Ribbon';
 import PageSection from './components/PageSection';
 import ImageGallery from './components/ImageGallery';
 import TekenradarSurveyComponent from './components/TekenradarSurveyComponent/TekenradarSurveyComponent';
@@ -68,7 +67,7 @@ const App: React.FC = () => {
 
   return (
     <React.Fragment>
-      <Ribbon>{process.env.REACT_APP_VERSION}</Ribbon>
+      {/*<Ribbon>{process.env.REACT_APP_VERSION}</Ribbon>*/}
       <AppCore
         appConfig={appConfig}
         customHeader={<Header />}
