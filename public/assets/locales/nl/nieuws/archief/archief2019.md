@@ -25,7 +25,11 @@ Tekenbeten bij mensen in Nederland zijn vrijwel altijd door de gewone teek (de s
 #### Wilt u een Hyalomma-teek melden?
 Door meldingen van burgers kon het CMV al twee waarnemingen van Hyalomma-teken bevestigen. Maar niet alle meldingen kloppen. Het is daarom belangrijk een deskundige vast te laten stellen of het om een Hyalomma-teek gaat. Melden van Nederlandse vondsten kan via de website van de NVWA (zoek op Hyalomma). Daar is ook informatie over herkenning te vinden.
 
-Kijk voor meer informatie over tekenbeten en Lymeziekte op www.rivm.nl, www.expertisecentrumlyme.nl en www.tekenradar.nl.
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 ---
 ## Opnieuw vroege piek in tekenbeetseizoen
@@ -64,7 +68,12 @@ Kinderen en volwassenen met lyme kunnen meedoen aan onderzoek door zich aan te m
 #### Ook op vakantie: controleer op tekenbeten!
 Nu veel mensen op vakantie gaan is het weer extra belangrijk te controleren op tekenbeten. Ben je in het bos, de duinen of in het park geweest, controleer jezelf daarna dan op tekenbeten. En vergeet niet om jezelf ook te controleren wanneer je in de tuin bent geweest. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten. Kijk op www.tekenradar.nl hoe je het best een teek kunt verwijderen.
 
-Kijk voor meer informatie op rivm.nl/tekenbeet, www.expertisecentrumlyme.nl  en tekenradar.nl.
+
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 
 ---
@@ -99,10 +108,11 @@ Heb je een of meerdere teken gevonden? Verwijder deze dan meteen en houd de plek
 #### Meedoen aan onderzoek
 Al meer dan duizend mensen deden mee met ons lopende onderzoek naar tekenbeetziekten. Doet u ook mee? Wij zijn op zoek naar volwassenen met koorts na een tekenbeet. Ook zijn wij nog op zoek naar kinderen die starten met een antibioticabehandeling voor lymeziekte. Aanmelden kan via Tekenradar.nl
 
-Kijk voor meer informatie op:
-- www.rivm.nl/tekenbeet
-- www.expertisecentrumlyme.nl
-- www.tekenradar.nl
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 ---
 ## Tekenbeten: pieken en dalen in 2018
@@ -132,11 +142,12 @@ Heb je een teek? Verwijder deze dan zo snel mogelijk, dat halveert de kans op ly
 #### Meedoen aan onderzoek
 Elk jaar krijgen mensen in Nederland ruim een miljoen tekenbeten. De meeste mensen worden daarvan niet ziek, maar toch krijgen elk jaar 27.000 mensen de ziekte van Lyme. Elk jaar houden 1.000 tot 2.500 mensen daarvan lang durende klachten. Het RIVM doet onderzoek naar lyme en andere tekenbeetziekten. Kinderen en volwassenen met Lyme kunnen meedoen aan dit onderzoek door zich aan te melden op www.tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met koorts na een tekenbeet kunnen zich op deze site aanmelden voor het onderzoek.
 
-Kijk voor meer informatie op
-- rivm.nl/tekenbeet
-- expertisecentrumlyme.nl
-- tekenradar.nl.
 
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 ---
 ## Teken actief met warme weer
 *25 februari 2019*
@@ -163,12 +174,15 @@ Door de schitterende lentedagen gaan veel mensen de natuur en/of tuin in. Nu er 
   <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/tekenverwachtingfeb2019.jpg" alt="TODO">
   <figcaption className="figure-caption">Tekenactiviteitsverwachting van Tekenradar.nl gemaakt op 25 februari 2019 (Bron: Tekenradar.nl)</figcaption>
 </figure>
+
 Ook de tekenactiviteitsverwachting op Tekenradar.nl geeft aan dat teken actief worden. In de zuidelijke helft loopt de tekenactiviteit volgens de modellen op tot ‘Hoog’ en in de provincie Zuid-Limburg zelfs tot ‘Zeer hoog’. Omdat het toch nog steeds maar eind februari is, vroegen we ons wel af of teken inderdaad al zo actief zijn. Dit soort hoge temperaturen hebben we namelijk nog niet eerder gehad eind februari. Daarom werd besloten om in het bos teken te gaan vangen met een sleepdoek op een van de locaties waar we van zomer 2006 tot en met 2016 maandelijks teken hebben gevangen. Na tien meter lopen werden al de eerste nimfen aangetroffen op het doek. Even later werd de sleepdoek blijkbaar over een groepje larfjes (het kleinste stadium) getrokken. Er werden 81 bij elkaar geteld! Dat zijn zeer uitzonderlijke aantallen voor februari. Normaal tref je dit soort aantallen larfjes pas begin mei aan. Het is dus ook nu belangrijk om na een bezoek aan het groen een tekencheck te doen. Heb je een tekenbeet geef hem dan door via Tekenradar.nl.
 
 
 
-#### Meer informatie
-- Tekenradar.nl
-- Nederlands Lymeziekte-expertisecentrum
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 Tekst: Arnold van Vliet, De Natuurkalender, Wageningen University

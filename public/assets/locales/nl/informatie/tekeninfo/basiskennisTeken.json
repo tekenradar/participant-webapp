@@ -1,13 +1,13 @@
 {
- "title": "Informatie over teken",
-"backToOverviewPage": {
-  "title": "Terug naar het overzicht",
-  "body": "Vind meer artikelen over de manier waarop teken leven",
-  "actionBtn": "Naar de overzichtspagina"
-},
-"nextArticle": {
-  "title": "Waar leven teken?",
-  "body": "De schapenteek houdt zich bij voorkeur op in een gemengd loofbos ...",
-  "actionBtn": "Lees meer"
-}
+  "title": "Informatie over teken",
+  "backToOverviewPage": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer artikelen over de manier waarop teken leven",
+    "actionBtn": "Naar de overzichtspagina"
+  },
+  "nextArticle": {
+    "title": "Waar leven teken?",
+    "body": "De teek verblijft graag in een gemengd loofbos met een ondergroei van blauwe bosbes ...",
+    "actionBtn": "Lees meer"
+  }
 }

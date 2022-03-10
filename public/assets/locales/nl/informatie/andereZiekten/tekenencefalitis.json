@@ -6,13 +6,13 @@
     "actionBtn": "Naar de overzichtspagina"
   },
   "nextArticle": {
-    "title": "Doelen Tekenradar.nl",
-    "body": "Tekenradar.nl is sinds de oprichting in 2012 door het RIVM en Wageningen University ...",
+    "title": "De ziekte van Lyme",
+    "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. ...",
     "actionBtn": "Lees meer"
   },
-  "anotherTopic": {
-    "title": "Over Tekenradar",
-    "body": "Lees meer over ons, onze missie en onze doelen.",
+  "previousArticle": {
+    "title": "Andere ziekten door teken en co-infecties",
+    "body": "Teken kunnen verschillende ziekteverwekkers ...",
     "actionBtn": "Lees meer"
   }
 }

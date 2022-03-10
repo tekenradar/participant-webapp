@@ -30,14 +30,18 @@ Wellicht zoeken meer mensen verkoeling in het zwembad of het terras, maar bekend
 Ben je in het ‘groen’ geweest, controleer jezelf daarna dan op tekenbeten. Ondanks de daling worden nog steeds duizenden mensen per week door teken gebeten. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet drie maanden in de gaten. Neem contact op met de huisarts als je een ring- of vlekvormige uitslag ziet of als je last krijgt van andere gezondheidsklachten. Kijk op rivm.nl/tekenbeet hoe je het best een teek kunt verwijderen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/foto-teek.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/news/foto-teek.jpg" alt="TODO">
   <figcaption className="figure-caption">Een teek vastgebeten in de huid</figcaption>
 </figure>
 
 #### Meedoen aan onderzoek
 Jaarlijks lopen mensen in Nederland ruim een miljoen tekenbeten op, waardoor 27.000 mensen de ziekte van Lyme krijgen. Het RIVM doet onderzoek naar lyme en andere tekenbeetziekten. Kinderen en volwassenen met lyme kunnen meedoen aan dit onderzoek door zich aan te melden op www.tekenradar.nl bij de start van een antibioticabehandeling. Ook volwassenen met plotselinge koorts na een tekenbeet kunnen zich op deze site aanmelden voor het onderzoek.
 
-Kijk voor meer informatie op rivm.nl/tekenbeet, expertisecentrumlyme.nl  en tekenradar.nl.
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 ---
 ## Neem jij een teek mee terug van je zomervakantie?
@@ -70,7 +74,11 @@ Recent was in het nieuws dat deze zomer veel teken worden verwacht. Ga dus goed 
 
 Lees [hier](https://www.zonmw.nl/nl/actueel/nieuws/detail/item/neemt-u-een-teek-mee-terug-van-uw-zomervakantie/) het volledige bericht van ZonMw.
 
-Kijk voor meer informatie ook op rivm.nl/tekenbeet, www.expertisecentrumlyme.nl en tekenradar.nl.
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 ---
 ## 500.000 tekenbeten in juni en juli verwacht
@@ -78,8 +86,11 @@ Kijk voor meer informatie ook op rivm.nl/tekenbeet, www.expertisecentrumlyme.nl 
 <br></br>
 
 **Onderzoekers van het RIVM en Wageningen University verwachten dat we in juni en juli ruim 500.000 tekenbeten oplopen, de helft van het jaarlijkse aantal tekenbeten.**
+
 <br></br>
-[//]: <> (TODO: change image people outside)
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/no-license/couple-dog.jpg" alt="TODO">
+</figure>
 
 #### Het hele jaar door tekenbeten
 Het hele jaar door kun je een tekenbeet oplopen. Als het warmer is dan zeven graden worden de spinachtige diertjes actief. “Elk jaar zien we in onze data van tekenradar.nl een duidelijke piek in juni en juli van het aantal tekenbeetmeldingen”, zegt Kees van den Wijngaard, epidemioloog van het RIVM. “We zijn benieuwd naar het aantal meldingen in de rest van dit jaar, maar opvallend is dat het aantal meldingen in de eerste vijf maanden van 2018 29% hoger ligt dan het gemiddelde van de vijf jaar daarvoor.” Het aantal tekenbeetmeldingen hangt in belangrijke mate samen met de weersomstandigheden. Daarnaast speelt ook de aandacht voor Tekenradar.nl een rol. Elk jaar lopen we in Nederland ruim één miljoen tekenbeten op. De meeste mensen worden niet ziek na een tekenbeet.
@@ -87,6 +98,7 @@ Het hele jaar door kun je een tekenbeet oplopen. Als het warmer is dan zeven gra
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/grafiek.jpg" alt="TODO">
 </figure>
+
 #### Ziekte van Lyme
 In Nederland krijgen elk jaar 27.000 mensen de ziekte van Lyme na een tekenbeet. Via tekenradar.nl kun je zien waar in de afgelopen periode veel mensen zijn gebeten door een teek, en waar mensen de ziekte van Lyme hebben opgelopen. Je kunt jezelf op deze website ook aanmelden voor deelname aan onderzoek als je een tekenbeet of lyme hebt opgelopen.
 
@@ -102,7 +114,11 @@ Ben je in het bos, de duinen of in het park geweest, controleer jezelf daarna da
 
 [//]: <> (TODO: VIDEO)
 
-Kijk voor meer informatie op rivm.nl/tekenbeet, expertisecentrumlyme.nl, tekenradar.nl. en het informatie filmpje hieronder:
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 ---
 ## Nieuw onderzoek naar koorts na een tekenbeet
@@ -118,7 +134,7 @@ Met het landelijke Pandora-onderzoek willen wetenschappers meer inzicht krijgen 
 
 #### Andere tekenbeetziekten
 Ruim één miljoen mensen loopt jaarlijks in Nederland een tekenbeet op en 27.000 van hen krijgt lymeziekte. Behalve de lymebacterie zitten er vaak ook andere ziekteverwekkers in teken, zoals parasieten, bacteriën en virussen. Besmetting daarmee kan enkele dagen tot weken na de tekenbeet klachten veroorzaken, zoals koorts en andere griepachtige verschijnselen. Het is nog niet bekend hoe vaak een tekenbeet in Nederland tot deze klachten leidt, hoe ernstig de klachten zijn, en of ze de ziekte van Lyme beïnvloeden.
-[//]: <> (TODO: change image: imageEM or delete)
+
 
 #### Een teek? Pak ‘m beet!
 Van 16 tot en met 22 april is het De week van de Teek waarin aandacht wordt gevraagd voor tekenbeten en tekenbeetziekten. Ben je in het bos, de duinen of in het park geweest, of heb je in de tuin gewerkt, controleer dan daarna op tekenbeten. Heb je een teek? Verwijder deze dan direct en houd de plek van de beet 3 maanden in de gaten. Neem contact op met de huisarts als je een rode ringvormige uitslag ziet, koorts ontwikkelt, of als je last krijgt van andere gezondheidsklachten.  
@@ -140,9 +156,8 @@ Publieksinformatie over tekenbeten en de ziekte van Lyme is te vinden op www.exp
 
 Kinderen die beginnen met een antibioticabehandeling tegen de ziekte van Lyme kunnen zich aanmelden via Tekenradar.nl. Ouders of verzorgers van jonge kinderen kunnen hun kinderen aanmelden en de vragenlijsten invullen. Tijdens het onderzoek wordt de gezondheid van deelnemers een jaar lang gevolgd.
 <br></br>
-[//]: <> (TODO: change image: kids)
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/LP_KIDS.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/pexels-luna-lovegood-1104014 07.13.21.jpg" alt="TODO">
   <figcaption className="figure-caption">Controleer op tekenbeten na verblijf in een "groene" omgeving. Meld tekenbeten en Lyme op Tekenradar.nl.</figcaption>
 </figure>
 
@@ -177,7 +192,11 @@ Van 16 tot en met 20 april is het de Week van de Teek. Tijdens de week van de Te
 </figure>
 Om de ziekte van Lyme beter te kunnen begrijpen, diagnosticeren en te kunnen behandelen sloegen de Lymevereniging, het AMC, het Radboudumc en het RIVM afgelopen jaar de handen ineen met de oprichting van het Nederlands Lymeziekte-expertisecentrum (NLe). Samen doen zij onderzoek naar de ziekte. RIVM-onderzoeker Kees van den Wijngaard coördineert het LymeProspect-onderzoek: “Wij willen begrijpen waarom sommige volwassenen en kinderen klachten houden en anderen niet. Via tekenradar.nl kunnen mensen met tekenbeten en Lyme zich aanmelden voor ons onderzoek. Daarmee laten ze meteen aan andere bezoekers van de site zien waar in Nederland op dit moment tekenbeten worden gemeld. We zijn nog hard op zoek naar kinderen en volwassenen die onlangs de ziekte van Lyme hebben gekregen na een tekenbeet om dit belangrijke onderzoek af te kunnen ronden.”
 
-Kijk voor meer informatie op rivm.nl/tekenbeet, www.expertisecentrumlyme.nl, en tekenradar.nl.
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 ---
 ## Verwachting Tekenradar: sterke toename tekenactiviteit door mooi weer

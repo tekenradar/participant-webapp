@@ -13,8 +13,8 @@ export const archief2012Page = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
-        backgroundPosition: '70% 35%',
+        url: '/images/news/cRIVM/_PNH5565-1920.jpg',
+        backgroundPosition: '70% 70%',
         height: 367,
       },
     },

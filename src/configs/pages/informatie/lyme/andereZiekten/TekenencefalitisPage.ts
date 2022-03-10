@@ -29,7 +29,7 @@ export const TekenencefalitisPage = (path: string): PageConfig => {
             items: [
               {
                 colClassName: 'col-12 col-sm-6',
-                itemKey: 'backToOverviewPage',
+                itemKey: 'previousArticle',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -39,7 +39,7 @@ export const TekenencefalitisPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/lyme'
+                    value: '/informatie/andere-ziekten-door-teken-en-co-infecties'
                   },
                 }
               },
@@ -51,13 +51,13 @@ export const TekenencefalitisPage = (path: string): PageConfig => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/informatie/doelen-tekenradar'
+                    value: '/informatie/basiskennis-lyme'
                   },
                 }
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'anotherTopic',
+                itemKey: 'backToOverviewPage',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',
@@ -70,7 +70,7 @@ export const TekenencefalitisPage = (path: string): PageConfig => {
                   },
                   action: {
                     type: 'navigate',
-                    value: '/informatie/tekenradar'
+                    value: '/informatie/lyme'
                   },
                 }
               }

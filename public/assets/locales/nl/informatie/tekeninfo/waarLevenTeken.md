@@ -1,9 +1,9 @@
 ## Waar leven teken?
-De schapenteek houdt zich bij voorkeur op in een gemengd loofbos met een ondergroei van blauwe bosbes en/of varens. De teek wordt ook vaak aangetroffen in dennenbossen met een dichte, hoogopgaande laag van grassen. In deze bostypen worden veel kleine knaagdieren aangetroffen, met name de bosmuis en de rosse woelmuis, maar ook een aantal soorten spitsmuizen. Deze dieren vormen de voornaamste voedselbron voor de larven van de schapenteek. Omdat teken zich niet ver kunnen verplaatsen, zijn ze afhankelijk van een hoge dichtheid van deze knaagdieren, zodat ze gemakkelijk in de buurt van hun voedsel kunnen komen.
+De teek verblijft graag in een gemengd loofbos met een ondergroei van blauwe bosbes en/of varens. De teek wordt ook vaak aangetroffen in dennenbossen met een dichte, hoge  laag gras. In dit soort bossen zitten veel  muizen, vooral de bosmuis en de rosse woelmuis, maar ook een aantal soorten spitsmuizen. De larven van de teken voeden zich via de muizen. Teken kunnen zich niet ver verplaatsen, dus waar veel muizen zijn, zijn meestal ook veel teken. 
 
  
 
 ### Teken in de tuin
-Uit onderzoek van De Natuurkalender blijkt dat ongeveer een derde van de tekenbeten wordt opgelopen in de tuin. Het is nog onbekend wat de eigenschappen van deze tuinen is. De tuinen liggen vooral in bosrijke omgeving maar van midden in de (grote) stad worden ook tekenbeten gemeld.
+Een derde van de tekenbeten lopen mensen op in de tuin. Dat blijkt uit onderzoek van De Natuurkalender. Die tuinen liggen vooral in bosrijke omgeving, maar ook van midden in de (grote) stad melden mensen tekenbeten. 
 
-De schapenteek komt nauwelijks voor in open terrein zoals weilanden, uiterwaarden en heidevelden.
+De teek komt nauwelijks voor in open terrein zoals weilanden, uiterwaarden en heidevelden.

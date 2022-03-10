@@ -78,8 +78,13 @@ Volwassenen en jongeren die een antibioticabehandeling beginnen tegen de ziekte 
 #### Piek van het tekenseizoen in juli: controleer op tekenbeten!
 De komende tijd wordt de piek van het tekenseizoen verwacht: tekenradar.nl ontvangt in juli gemiddeld een derde van alle tekenbeetmeldingen in een jaar. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest. Bijvoorbeeld na bezoek aan het bos, duinen, park, de speeltuin of na verblijf in de tuin. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe korter de teek in de huid zit, hoe kleiner de kans dat de teek ziekteverwekkers overdraagt. Neem contact op met de huisarts wanneer u symptomen krijgt die wijzen op de ziekte van Lyme. 
 
-#### Meer informatie
-Meer informatie over het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme vindt u op www.tekenradar.nl. Algemene informatie over tekenbeten en Lyme kunt u vinden op de website van het RIVM (www.rivm.nl/tekenbeet) en op www.tekenradar.nl.
+
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
+
 
 Het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme (“LymeProspect”) is een samenwerking van het RIVM, en de Lyme centra en afdelingen kindergeneeskunde van het Radboudumc, AMC en Gelre ziekenhuizen Apeldoorn, en wordt mede mogelijk gemaakt door ZonMw en het ministerie van VWS. Tekenradar.nl is een samenwerking van Wageningen University en het RIVM.
 
@@ -109,7 +114,11 @@ Het RIVM heeft kaarten gemaakt op basis van het aantal [erythema migrans](/infor
 #### Wees alert op tekenbeten
 Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 
-Meer informatie over tekenbeten en de ziekte van Lyme is te vinden op de website van het RIVM en op Tekenradar.nl.
+#### Meer informatie over tekenbeten en ziekte van Lyme
+- https://www.rivm.nl/tekenbeten-en-lyme
+- https://www.rivm.nl/ziekte-van-lyme
+- https://www.expertisecentrumlyme.nl
+- https://www.tekenradar.nl
 
 *Door: Wendy Vercruijsse, Atlas Leefomgeving*
 
@@ -134,7 +143,7 @@ De kosten van een ziekte bestaan uit de kosten binnen de gezondheidszorg, kosten
 Naast preventie van tekenbeten en snelle behandeling van milde infecties, is het voorkomen en behandelen van ernstige en langdurige klachten dus ook belangrijk vanwege de hoge maatschappelijke kosten. Toch blijft de belangrijkste preventieve maatregel om te controleren op tekenbeten nadat mensen in het ‘groen’ zijn geweest. Bijvoorbeeld na bezoek aan het bos, de duinen, maar ook het park, de speeltuin of na verblijf in de tuin. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 
 #### Tekenbeten en Lyme
-Informatie over tekenbeten en de ziekte van Lyme, waaronder controleren op tekenbeten en verwijderen van een teek kunt u vinden op (RIVM)[https://www.rivm.nl/tekenbeet] en www.tekenradar.nl. Als u een tekenbeet of de ziekte van Lyme hebt, kun u zich ook aanmelden voor onderzoek op www.tekenradar.nl.
+Informatie over tekenbeten en de ziekte van Lyme, waaronder controleren op tekenbeten en verwijderen van een teek kunt u vinden op [RIVM](https://www.rivm.nl/tekenbeet) en www.tekenradar.nl. Als u een tekenbeet of de ziekte van Lyme hebt, kun u zich ook aanmelden voor onderzoek op www.tekenradar.nl.
  
 Link naar het artikel met het onderzoek naar de kosten van Lyme.
 
@@ -157,9 +166,8 @@ In stedelijk gebied dragen teken minder vaak de bacterie bij zich die de ziekte 
 #### Controleren extra belangrijk!
 Elk jaar krijgen mensen in Nederland ongeveer 1,3 miljoen tekenbeten. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 <br></br>
-[//]: <> (TODO: change image: image removing tick)
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/duimteken.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/teekverwijderen.jpeg" alt="TODO">
 </figure>
 
 #### Onderzoek via Tekenradar.nl

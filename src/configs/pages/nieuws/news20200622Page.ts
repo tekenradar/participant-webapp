@@ -15,8 +15,8 @@ export const news20200622Page = (path: string): PageConfig => {
     topImage: {
       type: 'teaserImage',
       image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
-        backgroundPosition: '70% 35%',
+        url: '/images/news/foto-teek.jpg',
+        backgroundPosition: '20% 65%',
         height: 367,
       },
     },
