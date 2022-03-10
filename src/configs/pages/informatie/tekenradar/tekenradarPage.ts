@@ -175,6 +175,12 @@ const financiersSection: PageRow = pageSection({
           className: 'h-100',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-vws.png',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/ministerie-van-vws'
