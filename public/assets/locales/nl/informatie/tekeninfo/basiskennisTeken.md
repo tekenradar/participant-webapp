@@ -2,9 +2,14 @@
 
 Teken zijn geleedpotigen en lijken op kleine platte spinnetjes. Teken behoren dan ook tot de spinachtigen (dierklasse Arachnidae, subklasse Acari). Teken ondergaan vier levensstadia: ei, larve, nimf en volwassen teek (zie onderstaande foto). De larve heeft zes poten maar de nimf en de volwassen teek hebben acht poten.
 
+<figure className="figure mb-2 text-center w-100">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenstadia_klein_Fedor_Gassner.jpeg" alt="Larve, nimf, manntje en het vrouwtje van de schapenteek">
+  <figcaption className="figure-caption">Van links naar rechts de larve, nimf, mannetje en het vrouwtje van de schapenteek (foto: Fedor Gassner).</figcaption>
+</figure>
+
 Het is belangrijk dat je een tekenverwijderaar gebruikt waarbij je de kop van de teek goed vast kunt pakken. Dit kan goed met een puntig pincet en of een andere tekenverwijderaar die bij de drogist of apotheek te koop is.
 
- 
+
 
 Het is vooral belangrijk dat je de teek snel verwijdert, dat halveert de kans op Lymeziekte. Zit de teek nog maar net op de huid (als hij nog klein en plat is en niet is volgezogen met bloed) en heb je voorlopig geen tekenverwijderaar voor handen? Dan kun je hem ook met de nagels uit de huid halen. Beter is het om een tekenverwijderaar mee te nemen als je het groen in gaat en de teek daarmee te verwijderen.
 
