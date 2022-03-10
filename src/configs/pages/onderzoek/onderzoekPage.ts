@@ -148,8 +148,6 @@ const onderzoekenSection = (): PageRow => {
               },
             }
           },
-          // ----------------------------
-          // TODO: continue
         ],
       })
     ]
