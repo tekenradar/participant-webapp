@@ -1,6 +1,12 @@
 
-# Het ministerie van Volksgezondheid, Welzijn en Sport
-Nederland gezond en wel. 
+<figure className="figure mb-2 text-start w-100">
+  <img className="figure-img img-fluid" style="max-width:600px;width:40%;" src="/assets/images/logo-vws2.png" alt="Logo VWS">
+  <figcaption className="Logo VWS"></figcaption>
+</figure>
+
+
+
+Nederland gezond en wel.
 
 Dat is het motto van het [ministerie van Volksgezondheid, Welzijn en Sport (VWS)](https://www.rijksoverheid.nl/ministeries/ministerie-van-volksgezondheid-welzijn-en-sport). Zorg voor ouderen en jongeren en voor mensen met een lichamelijke of verstandelijke handicap.
 

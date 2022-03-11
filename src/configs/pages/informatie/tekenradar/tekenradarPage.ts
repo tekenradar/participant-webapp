@@ -1,6 +1,7 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../../layout/rows/pageSection";
 import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout";
+import { fullWidthTeaserImageRow } from "../../../common/teaserImageRow";
 
 const doelenSection: PageRow = pageSection({
   sectionKey: 'doelenTekenradar',
@@ -11,24 +12,14 @@ const doelenSection: PageRow = pageSection({
       items: [
         {
           colClassName: 'col-12',
-          itemKey: 'doelenTekenradar',
-          className: "mt-2",
+          itemKey: 'overTekenradar',
+          className: 'bg-secondary h-100 p-2',
           config: {
-            type: 'actionCard',
-            image: {
-              url: '/images/cRIVM/IenW31072020TD002-1920.jpg',
-              copyrightNotice: '© RIVM',
-              copyrightNoticeXAlignment: 'start',
-              minHeight: '200px',
-              maxHeight: '350px',
-              placement: 'top'
-            },
-            action: {
-              type: 'navigate',
-              value: '/informatie/doelen-tekenradar'
-            },
+            type: 'markdown',
+            markdownUrl: '/informatie/tekenradar/overTekenradarCard.md',
+
           }
-        }
+        },
       ]
     })
   ]
@@ -184,6 +175,12 @@ const financiersSection: PageRow = pageSection({
           className: 'h-100',
           config: {
             type: 'actionCard',
+            image: {
+              url: '/images/logo-vws.png',
+              minHeight: '200px',
+              maxHeight: '350px',
+              placement: 'top'
+            },
             action: {
               type: 'navigate',
               value: '/informatie/ministerie-van-vws'
@@ -220,6 +217,14 @@ export const tekenradarPage = (path: string): PageConfig => {
     path: path,
     pageKey: 'informatie/tekenradar',
     rows: [
+      fullWidthTeaserImageRow('teaserImage', {
+        type: 'teaserImage',
+        image: {
+          url: '/images/cRIVM/IenW31072020TD002-1920.jpg',
+          backgroundPosition: '70% 35%',
+          height: 367,
+        },
+      }),
       doelenSection,
       partnerSection,
       financiersSection,
