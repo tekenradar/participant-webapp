@@ -12,14 +12,14 @@ export const news20200624Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'nieuws/news20200624',
-    topImage: {
-      type: 'teaserImage',
-      image: {
-        url: '/images/news/cRIVM/77077-1920.jpg',
-        backgroundPosition: '70% 40%',
-        height: 367,
-      },
-    },
+    // topImage: {
+    //   type: 'teaserImage',
+    //   image: {
+    //     url: '/images/news/cRIVM/77077-1920.jpg',
+    //     backgroundPosition: '70% 40%',
+    //     height: 367,
+    //   },
+    // },
     sideBarItems: [
       meldenCard(),
     ],

@@ -96,7 +96,7 @@ const lymeInfoSection = (): PageRow => {
         config: {
           type: 'actionCard',
           image: {
-            url: '/images/cRIVM/82073-1920.jpg',
+            url: '/images/cRIVM/82106-1920.jpg',
             copyrightNotice: '© RIVM',
             copyrightNoticeXAlignment: 'start',
             minHeight: '200px',
