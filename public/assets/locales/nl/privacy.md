@@ -80,8 +80,8 @@ Binnen bovengenoemde termijn kun je, wanneer je je niet hebt afgemeld voor dit o
 
 #### *Onderzoeksgegevens*
 De bewaartermijn voor onderzoeksgegevens is 15 jaar na het invullen van de vragenlijsten. Deze bewaartermijn is nodig:
-•	Om een vergelijking van eventuele langdurige klachten na Lyme- en andere tekenbeetziekten te kunnen maken tussen de verschillende jaren.
-•	Omdat onderzoeksresultaten volgens toepasselijke richtlijnen altijd moeten kunnen worden gecontroleerd
+-	Om een vergelijking van eventuele langdurige klachten na Lyme- en andere tekenbeetziekten te kunnen maken tussen de verschillende jaren.
+-	Omdat onderzoeksresultaten volgens toepasselijke richtlijnen altijd moeten kunnen worden gecontroleerd
 
 #### *Onderzoeksresultaten*
 De onderzoeksresultaten worden op geaggregeerd niveau gepubliceerd, en zijn daardoor op geen enkele wijze naar personen herleidbaar. Hierop is geen bewaartermijn van toepassing.
