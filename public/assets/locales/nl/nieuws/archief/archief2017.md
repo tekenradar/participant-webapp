@@ -7,7 +7,7 @@
 **Het aantal gevallen van de ziekte van Lyme en andere ziekten die teken kunnen overbrengen neemt toe. Dit concluderen twee RIVM-onderzoekers die deze week promoveren met hun onderzoek naar teken en ziekteverwekkers die door teken kunnen overdragen.**
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/promotiefoto.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/promotiefoto.jpg" alt="Foto van een flyer">
 </figure>
 
 Jaarlijks lopen we in Nederland meer dan een miljoen tekenbeten op. Teken kunnen de bacterie die de ziekte van Lyme veroorzaakt (Borrelia burgdorferi) met zich meedragen, maar daarnaast ook allerlei andere bacteriën en virussen. Zo toonde Seta Jahfari voor het eerst het tekenencefalitisvirus en Borrelia miyamotoi in Nederland aan. Beide kunnen hersen(vlies)ontsteking veroorzaken. Jahfari concludeert in haar onderzoek dat ongeveer de helft van alle teken één of meerdere ziekteverwekkers met zich meedraagt.
@@ -39,7 +39,7 @@ In maart 2012 lanceerden Wageningen University en het RIVM de website www.tekenr
 Naar aanleiding van een vraag van RTL Nieuws hebben we het verloop van het aantal tekenbeetmeldingen dit jaar onder de loep genomen. Wat direct opvalt is dat het totaal aantal tekenbeetmeldingen in de maanden januari tot en met juli 25 procent lager ligt dan het gemiddelde in de jaren 2013 tot en met 2016. Sterker nog, niet eerder sinds de start van Tekenradar.nl werden er zo weinig tekenbeten doorgegeven in de eerste zeven maanden van het jaar. Het lage aantal meldingen kan niet verklaard worden door een verminderde bekendheid van de site. Het totaal aantal unieke bezoekers lag tot nu toe maar 6 procent lager dan het gemiddelde van de voorgaande jaren. In de maanden mei, juni en juli, de maanden waarin de meeste tekenbeten worden gemeld, lag het aantal bezoekers aan de site zelfs 15 procent hoger dan gemiddeld terwijl in deze periode toch een kwart minder tekenbeten werd gemeld.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teekophuid.jpg" alt="Een teek vastgebeten in de huid">
   <figcaption className="figure-caption">Een teek vastgebeten in de huid (foto: H. van den Kerkhof)</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ Het Tekenradar.nl onderzoek naar langdurige klachten door de ziekte van Lyme (�
 **De ziekte van Lyme is een infectieziekte die door de Borrelia-bacterie wordt veroorzaakt. Teken kunnen de ziekte van Lyme overdragen als ze zelf besmet zijn met de Borrelia-bacterie. Het meest voorkomende signaal van de ziekte van Lyme is een rode ring- of vlekvormige huiduitslag ([erythema migrans](/informatie/erythema-migrans)) op de plaats waar de teek heeft gebeten. Soms kunnen mensen echter besmet raken met de bacterie zonder dat ze een rode ring of vlek hebben gezien. Hoe eerder de ziekte wordt opgemerkt, hoe beter deze te behandelen is met antibiotica.**
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Teekopblad.jpg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Teekopblad.jpg" alt="Vrouwtjesteek op blad ">
   <figcaption className="figure-caption">Vrouwtjesteek op blad (Bron: Francis Schaffner, ECDC)</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ Sinds 1994 wordt door het Centrum Infectieziektebestrijding van het RIVM bijgeho
 Het RIVM heeft kaarten gemaakt op basis van het aantal [erythema migrans](/informatie/erythema-migrans)-diagnoses door huisartsen. Naast de kaart met gegevens uit 2009, is nu ook die met meldingen uit 2014 opgenomen in de Atlas Leefomgeving. Bij het tonen van de kaart in de Atlas kunt u in het menu ‘kaartlagen selecteren’ de legenda openen. U kunt daar ook de uitgebreide toelichting op de kaart vinden. In de rode gebieden zijn de meeste diagnoses van een rode ring- of vlekvormige huiduitslag gemeld. Vooral in het oosten van het land en op de Waddeneilanden wordt veel Lyme gezien. Via ‘informatie op locatie’ in het rechtermenu is zichtbaar wat de aantallen per gemeente precies zijn. Hoewel de meeste tekenbeten plaatsvinden in het buitengebied, wordt ruim 1 op de 5 tekenbeten opgelopen in stedelijk gebied. Vooral in stadsparken, bossen en de eigen tuin worden mensen gebeten door teken.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Kaarten.png" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Kaarten.png" alt="Aantal mensen dat na een tekenbeet met een rode vlek of ring op de huid door de huisarts is gezien in 2009 en 2014">
   <figcaption className="figure-caption">Aantal mensen dat na een tekenbeet met een rode vlek of ring op de huid door de huisarts is gezien in 2009 en 2014 (Bron: Atlas Leefomgeving)</figcaption>
 </figure>
 
@@ -167,7 +167,7 @@ In stedelijk gebied dragen teken minder vaak de bacterie bij zich die de ziekte 
 Elk jaar krijgen mensen in Nederland ongeveer 1,3 miljoen tekenbeten. Het is belangrijk om te controleren op tekenbeten nadat je in het ‘groen’ bent geweest, zowel binnen als buiten stedelijk gebied. Bijvoorbeeld na bezoek aan het park, de speeltuin of na verblijf in de tuin. En natuurlijk ook na een wandeling door het bos of de duinen. Verwijder een teek zo snel mogelijk als hij gebeten heeft. Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekkers overdraagt.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/teekverwijderen.jpeg" alt="TODO">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/teekverwijderen.jpeg" alt="Teek verwijderen met pincet">
 </figure>
 
 #### Onderzoek via Tekenradar.nl
