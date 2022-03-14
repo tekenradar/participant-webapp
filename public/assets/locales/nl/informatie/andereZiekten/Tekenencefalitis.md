@@ -3,6 +3,7 @@ Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het 
 
 [Klik hier voor een overzicht van de verspreiding van TBE-virus in Nederland](/nieuws/2020-06-24). 
 
+
  
 ## Ziekteverschijnselen TBE
 Er bestaan verschillende typen TBE-virussen. Over het algemeen hebben deze typen een vergelijkbaar ziekteverloop, al verloopt het subtype dat in het Oosten van Rusland voorkomt vaak ernstiger.
