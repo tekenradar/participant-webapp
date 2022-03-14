@@ -3,10 +3,6 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Circle, MapContainer, Marker, TileLayer, useMapEvents, } from 'react-leaflet';
 import { LocalizedObject, LocalizedString, ResponseItem } from 'survey-engine/data_types';
 
-import 'proj4leaflet';
-
-// import icon from 'leaflet/dist/images/marker-icon.png';
-// import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import icon from './map-marker.png';
 
 import { LatLngBounds, LatLngLiteral } from 'leaflet';
@@ -24,7 +20,7 @@ let DefaultIcon = L.icon({
   popupAnchor: [0, -50] // point from which the popup should open relative to the iconAnchor
 
 });
-const maxZoomLevel = 13;
+const maxZoomLevel = 17;
 
 L.Marker.prototype.options.icon = DefaultIcon;
 
@@ -136,13 +132,15 @@ const defaultCenter = {
   lng: 5.2793703
 };
 
+const markerConfidenceCircleScaleFactor = 4041200;
+
 const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
   const [response, setResponse] = useState<ResponseItem | undefined>(props.prefill);
   const [touched, setTouched] = useState(false);
 
   const [markerPosition, setMarkerPosition] = useState<LatLngLiteral | undefined>();
   const [currentBounds, setCurrentBounds] = useState<LatLngBounds>();
-  const [currentZoomLevel, setCurrentZoomLevel] = useState(4);
+  const [currentZoomLevel, setCurrentZoomLevel] = useState(7);
   const [lastUsedZoomLevel, setLastUsedZoomLevel] = useState(currentZoomLevel);
 
 
@@ -167,7 +165,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         { key: 'lat', value: markerPosition.lat.toString() },
         { key: 'lng', value: markerPosition.lng.toString() },
         { key: 'zoom', value: currentZoomLevel.toFixed(0) },
-        { key: 'crs', value: "EPSG:28992" },
+        { key: 'crs', value: "WGS-84" },
         {
           key: 'bounds', items: [
             {
@@ -204,19 +202,10 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         center={defaultCenter}
         bounceAtZoomLimits={true}
         zoom={currentZoomLevel}
-        minZoom={3}
+        minZoom={7}
         maxZoom={maxZoomLevel}
         doubleClickZoom={false}
-        //scrollWheelZoom={false}
-        crs={new L.Proj.CRS('EPSG:28992', '+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +towgs84=565.2369,50.0087,465.658,-0.406857330322398,0.350732676542563,-1.8703473836068,4.0812 +no_defs',
-          {
-            transformation: L.Transformation(-1, -1, 0, 0),
-            resolutions: [3440.640, 1720.320, 860.160, 430.080, 215.040, 107.520, 53.760, 26.880, 13.440, 6.720, 3.360, 1.680, 0.840, 0.420],
-            origin: [-285401.920, 903401.920],
-            bounds: L.bounds([-285401.920, 903401.920], [595401.920, 22598.080])
-          }
-        )}
-
+      //scrollWheelZoom={false}
       >
         {markerPosition ?
           <Circle
@@ -228,7 +217,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
               weight: 2
             }}
             // stroke={false}
-            radius={156412 / Math.pow(2, currentZoomLevel)}
+            radius={markerConfidenceCircleScaleFactor / Math.pow(2, currentZoomLevel)}
 
           >
 
@@ -241,7 +230,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
               color: '#BC243A',
               //stroke: false
             }}
-            radius={156412 / Math.pow(2, lastUsedZoomLevel)}
+            radius={markerConfidenceCircleScaleFactor / Math.pow(2, lastUsedZoomLevel)}
 
           >
 
@@ -259,8 +248,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         />
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:28992/{z}/{x}/{y}.png"
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
         />
       </MapContainer>

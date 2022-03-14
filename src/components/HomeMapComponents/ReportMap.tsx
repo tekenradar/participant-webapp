@@ -2,14 +2,8 @@ import React, { useEffect, useState } from 'react';
 import TRButton from '../TRButton';
 import { CircleMarker, MapContainer, TileLayer, } from 'react-leaflet';
 
-
-import 'proj4leaflet';
-
-
 import { getExternalOrLocalContentURL, LoadingPlaceholder, Slider } from 'case-web-ui';
-
-
-var L = require('leaflet');
+import { LatLngBounds } from 'leaflet';
 
 
 interface ReportMapProps {
@@ -17,11 +11,22 @@ interface ReportMapProps {
 }
 
 
-const maxZoomLevel = 6;
+const maxZoomLevel = 12;
 const defaultCenter = {
   lat: 52.2129919,
   lng: 5.2793703
 };
+
+const maxBounds = new LatLngBounds(
+  {
+    lat: 54,
+    lng: 3
+  },
+  {
+    lat: 50,
+    lng: 8
+  }
+)
 
 interface ReportMapSeries {
   slider: {
@@ -65,7 +70,7 @@ const LegendMarker: React.FC<LegendMarkerProps> = (props) => {
     height: 22,
     width: 22,
     minWidth: 22,
-    backgroundColor: props.color + '42',
+    backgroundColor: props.color, // + 'A8',
     borderRadius: '50%',
     border: 'solid 3px ' + props.color,
     display: 'inline-block'
@@ -109,20 +114,12 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
           }}
           center={defaultCenter}
           bounceAtZoomLimits={true}
-          zoom={3}
-          minZoom={2}
+          zoom={7}
+          minZoom={7}
+          maxBounds={maxBounds}
           maxZoom={maxZoomLevel}
           doubleClickZoom={false}
           scrollWheelZoom={false}
-          crs={new L.Proj.CRS('EPSG:28992', '+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +towgs84=565.2369,50.0087,465.658,-0.406857330322398,0.350732676542563,-1.8703473836068,4.0812 +no_defs',
-            {
-              transformation: L.Transformation(-1, -1, 0, 0),
-              resolutions: [3440.640, 1720.320, 860.160, 430.080, 215.040, 107.520, 53.760, 26.880, 13.440, 6.720, 3.360, 1.680, 0.840, 0.420],
-              origin: [-285401.920, 903401.920],
-              bounds: L.bounds([-285401.920, 903401.920], [595401.920, 22598.080])
-            }
-          )}
-
         >
           {
             (selectedSeries !== undefined && reportData !== undefined) ? reportData.series[selectedSeries].map(
@@ -131,6 +128,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
                 center={data}
                 pathOptions={{
                   color: getMarkerColor(data.type),
+                  fillOpacity: 1.00
                 }}
                 radius={10}
               />
@@ -139,9 +137,9 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
 
 
           <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
+            attribution='<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          /// url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
           //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
           />
         </MapContainer>
@@ -206,10 +204,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
               <LegendMarker color={getMarkerColor('FE')} /> Koorts na tekenbeet</div>
           </div>
 
-
-
         </div>
-
       </div>
     </div>
   </div >

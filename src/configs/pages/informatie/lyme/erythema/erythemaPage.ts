@@ -19,6 +19,7 @@ export const erythemaPage = (path: string): PageConfig => {
     mainColOptionalContent: [
       {
         itemKey: 'erythemaGallery',
+        className: 'mt-2',
         config: {
           type: 'extension',
           config: {
