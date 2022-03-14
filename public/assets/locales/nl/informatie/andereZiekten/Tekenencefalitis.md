@@ -4,7 +4,7 @@ Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het 
 [Klik hier voor een overzicht van de verspreiding van TBE-virus in Nederland](/nieuws/2020-06-24). 
 
 
- 
+
 ## Ziekteverschijnselen TBE
 Er bestaan verschillende typen TBE-virussen. Over het algemeen hebben deze typen een vergelijkbaar ziekteverloop, al verloopt het subtype dat in het Oosten van Rusland voorkomt vaak ernstiger.
 De kans op een infectie na een tekenbeet is zeer klein, omdat er slechts zeer weinig teken besmet zijn met het TBE-virus. Bovendien verloopt een infectie na een beet van een besmette teek meestal zonder klinische verschijnselen. Krijgt iemand wel klachten, dan verloopt de ziekte vaak in 2 fasen. Na een incubatietijd van 7 tot 14 dagen volgt er een fase met koorts, vermoeidheid, algehele malaise en hoofdpijn. Deze fase duurt meestal 2 tot 7 dagen en wordt gevolgd door een periode van ongeveer een week zonder klachten. Daarna volgt de 2e fase van de ziekte met ziekteverschijnselen als ernstige hoofdpijn met koorts en hersen(vlies)ontsteking. Dan is ziekenhuisopname noodzakelijk. Een deel van deze patiënten ontwikkelt neurologische restverschijnselen. Ongeveer 1-2% van de patiënten met een hersen(vlies)ontsteking overlijdt. Er zijn geen specifieke medicijnen tegen teken-encefalitis.
