@@ -2,8 +2,7 @@
 Teken-encefalitis is een hersen(vlies)ontsteking die veroorzaakt wordt door het teken-encefalitis-virus, ook wel ‘tick-borne encephalitis’ virus (TBE-virus) genoemd. Besmette teken dragen het TBE-virus over van dier naar dier en soms naar de mens. Tot voor kort kwam het virus alleen in het buitenland voor, maar in het voorjaar van 2016 kwamen er aanwijzingen dat in Nederland reeën besmet zijn geweest met het virus en is het virus ook bij teken aangetoond in Nederland. Er zijn nu enkele patiënten bekend die het virus in Nederland hebben opgelopen. Het virus wordt overgebracht door tekenbeten.
 
 [Klik hier voor een overzicht van de verspreiding van TBE-virus in Nederland](/nieuws/2020-06-24). 
-
-
+<br></br>
 
 ## Ziekteverschijnselen TBE
 Er bestaan verschillende typen TBE-virussen. Over het algemeen hebben deze typen een vergelijkbaar ziekteverloop, al verloopt het subtype dat in het Oosten van Rusland voorkomt vaak ernstiger.
