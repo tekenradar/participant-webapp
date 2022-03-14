@@ -12,14 +12,14 @@ export const news20200622Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'nieuws/news20200622',
-    topImage: {
-      type: 'teaserImage',
-      image: {
-        url: '/images/news/foto-teek.jpg',
-        backgroundPosition: '20% 65%',
-        height: 367,
-      },
-    },
+    // topImage: {
+    //   type: 'teaserImage',
+    //   image: {
+    //     url: '/images/news/foto-teek.jpg',
+    //     backgroundPosition: '20% 65%',
+    //     height: 367,
+    //   },
+    // },
     sideBarItems: [
       meldenCard(),
     ],

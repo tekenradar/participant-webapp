@@ -12,14 +12,14 @@ export const news20210527Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'nieuws/news20210527',
-    topImage: {
-      type: 'teaserImage',
-      image: {
-        url: '/images/news/Nagelteek_170218496.jpg',
-        backgroundPosition: '70% 20%',
-        height: 367,
-      },
-    },
+    // topImage: {
+    //   type: 'teaserImage',
+    //   image: {
+    //     url: '/images/news/Nagelteek_170218496.jpg',
+    //     backgroundPosition: '70% 20%',
+    //     height: 367,
+    //   },
+    // },
     sideBarItems: [
       meldenCard(),
     ],

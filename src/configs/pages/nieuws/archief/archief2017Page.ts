@@ -10,14 +10,14 @@ export const archief2017Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'nieuws/archief/archief2017',
-    topImage: {
-      type: 'teaserImage',
-      image: {
-        url: '/images/news/cRIVM/79737-1920.jpg',
-        backgroundPosition: '70% 90%',
-        height: 367,
-      },
-    },
+    // topImage: {
+    //   type: 'teaserImage',
+    //   image: {
+    //     url: '/images/news/cRIVM/79737-1920.jpg',
+    //     backgroundPosition: '70% 90%',
+    //     height: 367,
+    //   },
+    // },
     sideBarItems: [
       meldenCard(),
     ],
