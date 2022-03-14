@@ -10,4 +10,5 @@ Iedereen kan een melding doen op Tekenradar.nl! Op die manier kun je meedoen aan
 
 [Wageningen University](/informatie/wageningen-university) en het [RIVM](/informatie/RIVM) voeren het Tekenradar-vragenlijstonderzoek uit. Het onderzoek is mede mogelijk gemaakt door het Nederlands Lymeziekte-expertisecentrum (NLe).
 
+
 Wil je meer weten over het onderzoek en privacy? Bekijk dan de [privacyverklaring van Tekenradar](/privacy).
