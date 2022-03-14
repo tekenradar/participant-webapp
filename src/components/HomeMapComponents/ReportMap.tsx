@@ -70,7 +70,7 @@ const LegendMarker: React.FC<LegendMarkerProps> = (props) => {
     height: 22,
     width: 22,
     minWidth: 22,
-    backgroundColor: props.color + 'A8',
+    backgroundColor: props.color, // + 'A8',
     borderRadius: '50%',
     border: 'solid 3px ' + props.color,
     display: 'inline-block'
@@ -128,7 +128,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
                 center={data}
                 pathOptions={{
                   color: getMarkerColor(data.type),
-                  fillOpacity: 0.66
+                  fillOpacity: 1.00
                 }}
                 radius={10}
               />
@@ -137,7 +137,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
 
 
           <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            attribution='<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           /// url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
           //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
@@ -204,10 +204,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
               <LegendMarker color={getMarkerColor('FE')} /> Koorts na tekenbeet</div>
           </div>
 
-
-
         </div>
-
       </div>
     </div>
   </div >
