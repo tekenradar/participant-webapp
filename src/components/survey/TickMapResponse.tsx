@@ -202,7 +202,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         center={defaultCenter}
         bounceAtZoomLimits={true}
         zoom={currentZoomLevel}
-        minZoom={7}
+        minZoom={5}
         maxZoom={maxZoomLevel}
         doubleClickZoom={false}
       //scrollWheelZoom={false}
@@ -218,7 +218,6 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
             }}
             // stroke={false}
             radius={markerConfidenceCircleScaleFactor / Math.pow(2, currentZoomLevel)}
-
           >
 
           </Circle>
@@ -231,9 +230,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
               //stroke: false
             }}
             radius={markerConfidenceCircleScaleFactor / Math.pow(2, lastUsedZoomLevel)}
-
           >
-
           </Circle>
           : null}
 
@@ -247,7 +244,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
           onBoundsChanged={(bounds) => setCurrentBounds(bounds)}
         />
         <TileLayer
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap contributors</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
         />
