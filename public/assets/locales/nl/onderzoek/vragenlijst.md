@@ -1,2 +1,11 @@
 ## Tekenradar-vragenlijstonderzoek
-Door een melding te doen op tekenradar kunnen mensen meedoen aan het Tekenradar-vragenlijstonderzoek. Ze worden dan uitgenodigd om na de meldvragenlijst gedurende een jaar lang vragenlijsten in te vullen over hun gezondheid. Deelnemers aan het vragenlijst onderzoek worden soms ook uitgenodigd voor aanvullend onderzoek, soms ook met bloedafname, waarvoor ze dan apart toestemming kunnen geven. In het vragenlijst onderzoek wordt gekeken hoeveel tekenbeet- en lymeziekte meldingen er worden gedaan, en wat voor gevolgen tekenbeten en lymeziekte hebben voor de gezondheid. Ook wordt de geografische verdeling van tekenbeten en lymeziekte in kaart gebracht, en teruggekoppeld aan het publiek. Het onderzoek wordt uitgevoerd door [Wageningen University](/informatie/wageningen-university) en het [RIVM](/informatie/RIVM), en is mede mogelijk gemaakt door het Nederlands Lymeziekte-expertisecentrum (NLe).
+Hoeveel meldingen van tekenbeten en lymeziekte zijn er? Welke gevolgen hebben tekenbeten en lymeziekte voor de gezondheid? Waar in Nederland komen deze tekenbeten en lymeziekte voor? Dit kunnen we te weten komen via het Tekenradar-vragenlijstonderzoek. 
+De uitkomsten van het onderzoek brengen we in kaart en delen we met het publiek. 
+
+Iedereen kan een melding doen op Tekenradar.nl. Op die manier kun je meedoen aan het Tekenradar-vragenlijstonderzoek. Hoe gaat het onderzoek in z’n werk?
+-	Je krijgt dan, na de meldvragenlijst, elke 3 maanden een uitnodiging om een nieuwe vervolgvragenlijst in te vullen over je gezondheid. 
+- Na 12 maanden ontvang je geen vervolgvragenlijsten meer.
+-	Je kunt ook apart toestemming geven om uitgenodigd te worden voor aanvullend onderzoek, soms ook met bloedafname. Mocht er in de toekomst een passend onderzoek zijn, nemen we contact op met meer informatie over het onderzoek. Daarna kun je besluiten om mee te doen of niet. 
+
+[Wageningen University](/informatie/wageningen-university) en het [RIVM](/informatie/RIVM) voeren het Tekenradar-vragenlijstonderzoek uit. Het onderzoek is mede mogelijk gemaakt door het Nederlands Lymeziekte-expertisecentrum (NLe).
+
