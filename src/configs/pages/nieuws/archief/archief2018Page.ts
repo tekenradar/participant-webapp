@@ -10,14 +10,14 @@ export const archief2018Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'nieuws/archief/archief2018',
-    topImage: {
-      type: 'teaserImage',
-      image: {
-        url: '/images/news/ZonMwfoto.jpg',
-        backgroundPosition: '70% 35%',
-        height: 367,
-      },
-    },
+    // topImage: {
+    //   type: 'teaserImage',
+    //   image: {
+    //     url: '/images/news/ZonMwfoto.jpg',
+    //     backgroundPosition: '70% 35%',
+    //     height: 367,
+    //   },
+    // },
     sideBarItems: [
       meldenCard(),
     ],

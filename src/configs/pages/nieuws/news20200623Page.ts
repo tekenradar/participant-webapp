@@ -12,14 +12,14 @@ export const news20200623Page = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'nieuws/news20200623',
-    topImage: {
-      type: 'teaserImage',
-      image: {
-        url: '/images/no-license/waar-leven-teken.jpg',
-        backgroundPosition: '70% 35%',
-        height: 367,
-      },
-    },
+    // topImage: {
+    //   type: 'teaserImage',
+    //   image: {
+    //     url: '/images/no-license/waar-leven-teken.jpg',
+    //     backgroundPosition: '70% 35%',
+    //     height: 367,
+    //   },
+    // },
     sideBarItems: [
       meldenCard(),
     ],
