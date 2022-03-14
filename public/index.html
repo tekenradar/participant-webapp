@@ -2,6 +2,20 @@
 <html lang="nl" translate="no">
 
 <head>
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src %REACT_APP_CSP_DEFAULT_SRC%;
+        media-src %REACT_APP_CSP_MEDIA_SRC%;
+        img-src %REACT_APP_CSP_IMG_SRC%;
+        style-src %REACT_APP_CSP_STYLE_SRC%;
+        script-src  %REACT_APP_CSP_SCRIPT_SRC%;
+        frame-src  %REACT_APP_CSP_FRAME_SRC%;
+        child-src %REACT_APP_CSP_CHILD_SRC%;
+        connect-src %REACT_APP_CSP_CONNECT_URLS%">
+
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
