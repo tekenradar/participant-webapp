@@ -5,6 +5,6 @@ Overheidsinstanties moeten een toegankelijkheidsverklaring publiceren voor ieder
 
 Toegankelijkheidsverklaring voor deze website
 
-#### Kunt u de inhoud van een document niet lezen, neem dan contact op!
+#### Kun je de inhoud van een document niet lezen, neem dan contact op!
 
 Deze website voldoet helaas nog niet volledig aan de toegankelijkheidseisen. Het kan daardoor voorkomen dat delen van deze website niet goed leesbaar zijn. Heb je problemen met onze website? Neem dan contact met ons op via info@tekenradar.nl, en vermeld in dit bericht jouw contactgegevens. Eén van onze redacteuren neemt dan contact op om samen te kijken hoe we (delen van) de website toegankelijk kunnen maken. Vragen, opmerkingen en suggesties over de werking en vormgeving van deze website kun je mailen naar info@tekenradar.nl.
