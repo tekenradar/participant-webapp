@@ -13,3 +13,5 @@ Het is belangrijk dat je een tekenverwijderaar gebruikt waarbij je de kop van de
 </figure>
 
 Het is vooral belangrijk dat je de teek snel verwijdert, dat halveert de kans op Lymeziekte. Zit de teek nog maar net op de huid (als hij nog klein en plat is en niet is volgezogen met bloed) en heb je voorlopig geen tekenverwijderaar voor handen? Dan kun je hem ook met de nagels uit de huid halen. Beter is het om een tekenverwijderaar mee te nemen als je het groen in gaat en de teek daarmee te verwijderen.
+
+[Meld je tekenbeet.](/melden)

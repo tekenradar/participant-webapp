@@ -81,9 +81,17 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
           className='btn btn-link mt-2'
           role="navigation"
           onClick={() => {
+            props.onNavigate('/informatie/hoe-verwijder-ik-een-teek');
+          }}
+        >Hoe verwijder ik een teek?</button>
+
+        <button
+          className='btn btn-link mt-2'
+          role="navigation"
+          onClick={() => {
             props.onNavigate('/informatie/erythema-migrans');
           }}
-        >TODO: Link to EM page</button>
+        >Voorbeelden van een rode ring of vlek</button>
 
       </div>
     </div>

@@ -147,7 +147,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
       <div className={`col-12 col-${breakpoint}-5`}>
         <div className={`mt-2 mt-${breakpoint}-0`} >
           <h3>Tekenmeldingen</h3>
-          <p>Overzicht van de meldingen van tekenbeten en <a href="/informatie/erythema-migrans">erythema migrans </a>in de afgelopen vier weken.</p>
+          <p>Overzicht van de meldingen van tekenbeten, <a href="/informatie/erythema-migrans">erythema migrans </a> en overige Lyme in de afgelopen vier weken.</p>
           <p>De kaart toont alleen de meldingen binnen Nederland.</p>
 
           {
@@ -195,7 +195,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
             </div>
             <div className='d-flex align-items-center mb-1'>
               <LegendMarker color={getMarkerColor('EM')} />
-              Erythema migrans</div>
+              Erythema migrans (rode ring of vlek)</div>
             <div className='d-flex align-items-center mb-1'>
               <LegendMarker color={getMarkerColor('Other')} />
               Andere vorm van de ziekte van Lyme
