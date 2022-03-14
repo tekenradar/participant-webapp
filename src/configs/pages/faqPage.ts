@@ -35,26 +35,26 @@ const generateFaqSections = (): PageItem[] => {
   return items;
 }
 
-const tableOfContentSection: PageItem = pageRowToPageItem(pageSection({
-  sectionKey: 'tableOfContentSection',
-  className: 'mb-3',
-  rows: [
-    simpleRowColLayout({
-      rowKey: 'tableOfContent-row',
-      items: [
-        {
-          colClassName: 'col-12',
-          itemKey: 'tableOfContent',
-          className: 'bg-secondary h-100 p-2',
-          config: {
-            type: 'markdown',
-            markdownUrl: '/faq-table-of-content.md',
-          }
-        },
-      ]
-    })
-  ]
-}));
+// const tableOfContentSection: PageItem = pageRowToPageItem(pageSection({
+//   sectionKey: 'tableOfContentSection',
+//   className: 'mb-3',
+//   rows: [
+//     simpleRowColLayout({
+//       rowKey: 'tableOfContent-row',
+//       items: [
+//         {
+//           colClassName: 'col-12',
+//           itemKey: 'tableOfContent',
+//           className: 'bg-secondary h-100 p-2',
+//           config: {
+//             type: 'markdown',
+//             markdownUrl: '/faq-table-of-content.md',
+//           }
+//         },
+//       ]
+//     })
+//   ]
+// }));
 
 export const faqPage = (path: string): PageConfig => {
   return {
@@ -65,7 +65,7 @@ export const faqPage = (path: string): PageConfig => {
         rowKey: 'mainRow',
         containerClassName: 'my-3 min-vh-60',
         mainColItems: [
-          tableOfContentSection,
+          // tableOfContentSection,
           ...generateFaqSections(),
         ],
         sideBarItems: [
