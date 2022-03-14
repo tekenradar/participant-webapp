@@ -1,4 +1,4 @@
-import { PageConfig, PageItem, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageItem} from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
 import { simpleSideBarLayout } from "../../layout/rows/simpleSideBarLayout"
@@ -35,26 +35,6 @@ const generateFaqSections = (): PageItem[] => {
   return items;
 }
 
-// const tableOfContentSection: PageItem = pageRowToPageItem(pageSection({
-//   sectionKey: 'tableOfContentSection',
-//   className: 'mb-3',
-//   rows: [
-//     simpleRowColLayout({
-//       rowKey: 'tableOfContent-row',
-//       items: [
-//         {
-//           colClassName: 'col-12',
-//           itemKey: 'tableOfContent',
-//           className: 'bg-secondary h-100 p-2',
-//           config: {
-//             type: 'markdown',
-//             markdownUrl: '/faq-table-of-content.md',
-//           }
-//         },
-//       ]
-//     })
-//   ]
-// }));
 
 export const faqPage = (path: string): PageConfig => {
   return {
@@ -65,7 +45,6 @@ export const faqPage = (path: string): PageConfig => {
         rowKey: 'mainRow',
         containerClassName: 'my-3 min-vh-60',
         mainColItems: [
-          // tableOfContentSection,
           ...generateFaqSections(),
         ],
         sideBarItems: [
