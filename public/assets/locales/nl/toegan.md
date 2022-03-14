@@ -1,6 +1,6 @@
 Het RIVM besteedt veel aandacht aan gebruiksvriendelijkheid, toegankelijkheid, kwaliteit en vindbaarheid van online informatie. Iedereen moet overheidssites gemakkelijk kunnen vinden, gebruiken en bekijken. Om dit mogelijk te maken, volgt het RIVM de eisen van [Digitoegankelijk](https://www.digitoegankelijk.nl/), de Nederlandse naam voor de Europese norm 301 549 die voorziet in toegankelijkheidsrichtlijnen voor overheidswebsites. Door toepassing van Digitoegankelijk worden websites en webapplicaties toegankelijk voor mensen met een functiebeperking. Zo krijgen onder andere dyslectici, kleurenblinden, slechtzienden en blinden dezelfde toegang tot overheidsinformatie als mensen die deze functiebeperkingen niet hebben.
 
-#### Toegankelijkheidsverklaringen
+### Toegankelijkheidsverklaringen
 Overheidsinstanties moeten een toegankelijkheidsverklaring publiceren voor iedere website waarvoor zij verantwoordelijk zijn. In de verklaring staat in hoeverre de website al aan de eisen voldoet en welke maatregelen de instantie neemt om toegankelijkheid te borgen, inclusief planning.
 
 Toegankelijkheidsverklaring voor deze website
