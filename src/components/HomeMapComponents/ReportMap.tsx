@@ -70,7 +70,7 @@ const LegendMarker: React.FC<LegendMarkerProps> = (props) => {
     height: 22,
     width: 22,
     minWidth: 22,
-    backgroundColor: props.color, // + 'A8',
+    backgroundColor: props.color + 'A8',
     borderRadius: '50%',
     border: 'solid 3px ' + props.color,
     display: 'inline-block'
@@ -128,7 +128,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
                 center={data}
                 pathOptions={{
                   color: getMarkerColor(data.type),
-                  fillOpacity: 1.00
+                  fillOpacity: 0.66
                 }}
                 radius={10}
               />
