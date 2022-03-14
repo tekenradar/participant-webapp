@@ -8,8 +8,7 @@ De ring of vlek wordt steeds groter, wat een kenmerk is voor de ziekte van Lyme.
  
 [Klik hier of op de rode knop links in beeld om een rode ring of vlek, of andere ziekte van Lyme te melden](/melden)
 
-
-
+ 
 -	In het begin krijgen mensen vaak  griepachtige klachten of soms opzwelling van oorlel of tepel. Deze klachten komen meestal binnen 3 maanden.
 -	Als de ziekte niet bijtijds behandeld  wordt kan een volgende fase ingaan.  Dit noemen we late Lymeziekte. Welke klachten iemand krijgt verschilt per persoon. Aandoeningen aan de zenuwen komen het meest voor. Dit kan zenuwpijn of zenuwuitval op verschillende plaatsen in het lijf tot gevolg hebben. Voorbeelden zijn verlamming van de gezichtsspieren of pijn en krachtsvermindering aan een arm of been. Ook kunnen mensen gewrichtsklachten, huidaandoeningen of hartritmestoornissen krijgen.
  
