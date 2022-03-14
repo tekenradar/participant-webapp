@@ -78,7 +78,7 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
 
         <div>
           <button
-            className='btn btn-link mt-2'
+            className='btn btn-link mt-2 fw-bold py-1'
             role="navigation"
             onClick={() => {
               props.onNavigate('/informatie/hoe-verwijder-ik-een-teek');
@@ -88,7 +88,7 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
 
         <div>
           <button
-            className='btn btn-link mt-0 text-start'
+            className='btn btn-link mt-0 text-start fw-bold py-1'
             role="navigation"
             onClick={() => {
               props.onNavigate('/informatie/erythema-migrans');
