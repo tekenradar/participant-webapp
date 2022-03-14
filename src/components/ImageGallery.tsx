@@ -25,7 +25,9 @@ const ImageGallery: React.FC<ImageGalleryProps> = (props) => {
   }
 
   return (
-    <Carousel>
+    <Carousel
+      className={props.className}
+    >
       {items.map((item, index) => <Carousel.Item
         key={index.toString()}
         className='bg-grey-7'

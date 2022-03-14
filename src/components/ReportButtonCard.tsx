@@ -75,6 +75,16 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
             }}
           />
         )}
+
+
+        <button
+          className='btn btn-link mt-2'
+          role="navigation"
+          onClick={() => {
+            props.onNavigate('/informatie/erythema-migrans');
+          }}
+        >TODO: Link to EM page</button>
+
       </div>
     </div>
   );
