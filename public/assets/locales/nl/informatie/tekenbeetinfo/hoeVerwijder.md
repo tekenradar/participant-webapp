@@ -1,10 +1,10 @@
 ## Hoe verwijder ik een teek?
 
-Het is belangrijk dat je een tekenverwijderaar gebruikt waarbij je de kop van de teek goed vast kunt pakken. Dit kan goed met een puntig pincet en of een andere tekenverwijderaar die bij de drogist of apotheek te koop is.
+Haal een teek zo snel mogelijk weg! Hoe langer de teek in je huid zit, hoe groter de kans dat hij ziekteverwekkers overdraagt.
 
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/teekverwijderen.jpeg" alt="Pak de teek zo ver mogelijk bij de kop met een pincet">
-  <figcaption className="figure-caption">Pak de teek zo ver mogelijk bij de kop met een pincet.</figcaption>
+  <figcaption className="figure-caption">Pak de teek zo dicht mogelijk bij de kop met een pincet.</figcaption>
 </figure>
 
 <figure className="figure mb-2 text-center w-100">
@@ -12,6 +12,10 @@ Het is belangrijk dat je een tekenverwijderaar gebruikt waarbij je de kop van de
   <figcaption className="figure-caption">Optrekken, niet draaien.</figcaption>
 </figure>
 
-Het is vooral belangrijk dat je de teek snel verwijdert, dat halveert de kans op Lymeziekte. Zit de teek nog maar net op de huid (als hij nog klein en plat is en niet is volgezogen met bloed) en heb je voorlopig geen tekenverwijderaar voor handen? Dan kun je hem ook met de nagels uit de huid halen. Beter is het om een tekenverwijderaar mee te nemen als je het groen in gaat en de teek daarmee te verwijderen.
+- Gebruik geen alcohol, jodium, olie of andere middelen vóórdat je de teek verwijdert.
+- Pak de teek met een puntig pincet zo dicht mogelijk op de huid bij de kop vast en trek hem er rustig uit. Als een stukje van de kop in de huid achterblijft is dat ongevaarlijk. Dat komt er vanzelf weer uit, net als bij een splinter. Ontsmet hierna het beetwondje. Gebruik je een andere tekenverwijderaar? Volg dan de gebruiksaanwijzing.
+- Noteer wanneer en waar op de huid je gebeten bent. Houd tot drie maanden na de tekenbeet de huid rond de beet in de gaten. Let op het ontstaan van een verkleuring van de huid of klachten die passen bij de ziekte van Lyme.
+
+Als je je tekenbeet meldt op Tekenradar.nl, kun je altijd terugzien wanneer je de beet hebt opgelopen.
 
 [Meld je tekenbeet.](/melden)
