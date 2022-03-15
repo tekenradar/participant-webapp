@@ -65,6 +65,7 @@ const mainColItems: Array<PageItem> = [
     config: {
       type: 'reportList',
       hideStudyKey: true,
+      ignoreReports: ['weeklyTB'],
     }
   },
 ]
