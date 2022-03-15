@@ -35,6 +35,8 @@ $custom-colors: (
 // Merge the maps
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
+$gray-200: map-get($theme-colors, "grey-2");;
+
 // Additional colors:
 .report-card-subtitle {
   color: map-get($theme-colors, "grey-7");
