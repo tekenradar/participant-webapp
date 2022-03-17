@@ -100,7 +100,9 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
             <DensityMap />
           </Tab.Pane>
           <Tab.Pane eventKey="lymeinnl">
-            <LymeMap />
+            <LymeMap
+              language='nl'
+            />
           </Tab.Pane>
         </Tab.Content>
       </Tab.Container>

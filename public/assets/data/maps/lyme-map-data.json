@@ -17,16 +17,42 @@
       "name": "Mensen met erythema migrans",
       "title": "",
       "colorScale": {
-        "min": 0,
-        "max": 450,
         "hoverStrokeColor": "#FD4",
         "colors": [
-          "#ffffd4",
-          "#fff433",
-          "#fecc5c",
-          "#fd8d3c",
-          "#f03b20",
-          "#bd0026"
+          {
+            "max": 25,
+            "color": "#ffffd4",
+            "label": "0 - 25"
+          },
+          {
+            "min": 25,
+            "max": 50,
+            "color": "#fff433",
+            "label": "25 - 50"
+          },
+          {
+            "min": 50,
+            "max": 100,
+            "color": "#fecc5c",
+            "label": "50 - 100"
+          },
+          {
+            "min": 100,
+            "max": 200,
+            "color": "#fd8d3c",
+            "label": "100 - 200"
+          },
+          {
+            "min": 200,
+            "max": 300,
+            "color": "#f03b20",
+            "label": "200 - 300"
+          },
+          {
+            "min": 300,
+            "color": "#bd0026",
+            "label": "> 300"
+          }
         ]
       },
       "legend": {
