@@ -18,10 +18,14 @@ const doelenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/no-license/waar-leven-teken.jpg',
+                url: '/images/pexels-fauxels-3183179.jpg',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
+              },
+              action: {
+                type: 'navigate',
+                value: '/onderzoek/doelen'
               },
             }
           },
