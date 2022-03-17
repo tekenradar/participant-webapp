@@ -29,7 +29,7 @@ const getNavItemClassName = (isActive: boolean): string => {
 
 const getNavLinkClassName = (isActive: boolean): string => {
   return clsx(
-    "text-decoration-none",
+    "btn text-decoration-none",
     {
       "text-body fw-bold": isActive,
     }
@@ -46,7 +46,8 @@ const CustomNavItem: React.FC<CustomNavItemProps> = (props) => {
   return <Nav.Item className={getNavItemClassName(props.isActive)}>
     <Nav.Link
       className={getNavLinkClassName(props.isActive)}
-      eventKey={props.eventKey}>{props.label}</Nav.Link>
+      eventKey={props.eventKey}>{props.label}
+    </Nav.Link>
   </Nav.Item>
 }
 
@@ -66,8 +67,12 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
         activeKey={key}
         onSelect={(k) => { if (k) { setKey(k) } }}
       >
-        <Nav variant="pills" className="flex-column flex-sm-row">
-
+        <Nav
+          as="ul"
+          variant="pills"
+          className="flex-column flex-sm-row"
+          role="navigation"
+        >
           <CustomNavItem
             eventKey="tekenmeldingen"
             isActive={key === "tekenmeldingen"}
