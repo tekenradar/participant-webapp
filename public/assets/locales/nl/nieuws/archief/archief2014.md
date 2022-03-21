@@ -16,7 +16,7 @@ De afgelopen week nam het aantal tekenbeten dat werd doorgegeven op Tekenradar.n
 waarmee meer mensen risico lopen op een tekenbeet, waardoor de ziekte van Lyme kan worden opgelopen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Tekenopduim_RIVM.jpg" alt="Afbeelding van 4 teken in verschillende levensstadia op een duim">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Tekenopduim_RIVM.jpg" alt="Afbeelding van 4 teken in verschillende levensstadia op een duimnagel">
   <figcaption className="figure-caption">Teken op nagel van een duim. Linksboven vrouwtje, daaronder het mannetje, rechtsboven de nimf en daaronder een larfje (bron: RIVM)</figcaption>
 </figure>
 

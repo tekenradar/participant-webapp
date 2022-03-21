@@ -5,7 +5,7 @@
 De teek uit Drenthe is de tweede vondst van een volwassen Hyalomma marginatum in Nederland dit jaar. Het eerste exemplaar werd een week eerder in de Achterhoek gevonden. Het Centrum Monitoring Vectoren (CMV) van de Nederlandse Voedsel- en Warenautoriteit (NVWA) onderzocht beide locaties en vond daarbij verder geen andere Hyalomma-teken.**
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Hyalommavsschapenteek.jpg" alt="Foto´s Hyalomma teek">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Hyalommavsschapenteek.jpg" alt="Verschillende afbeeldingen van reuzenteken en schapenteken ter vergelijking">
   <figcaption className="figure-caption">De bovenste twee foto's zijn Hyalomma teken ("reuzenteken", links een vrouwtje, rechts een mannetje). Daaronder drie afbeeldingen van de veel kleinere gewone schapenteek die de ziekte van Lyme kan overbrengen.</figcaption>
 </figure>
 
