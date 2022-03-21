@@ -3,7 +3,7 @@
 Teken kunnen het hele jaar actief zijn mits de temperatuur hoog genoeg is. Op basis van de maandelijkse tekenvangsten in het kader van het Natuurkalender programma is een goed beeld te verkrijgen van het verloop van de aantalsontwikkelingen (zie figuur).
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenaantallen.jpeg" alt="Tekenaantallen door de jaren heen 2006-2010">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenaantallen.jpeg" alt="Grafiek met aantallen gevangen teken (larven, nimfen en volwassen vrouwtjes) door de jaren heen 2006-2010">
   <figcaption className="figure-caption">Gemiddeld aantal larven, nimfen en volwassen vrouwtjes per maand op 12 Natuurkalender locaties in de periode juli 2006 tot en met december 2011 (Bron: De Natuurkalender)</figcaption>
 </figure>
 
@@ -12,7 +12,7 @@ Normaal gesproken begint het aantal actieve teken in de loop van maart te stijge
 De dagelijkse Tekenverwachting op Tekenradar geeft alleen een verwachting van het activiteitsniveau van de nimfen. Larven worden niet meegenomen omdat de analyses moeilijker zijn en omdat de kans dat larven de Borrelia bacterie bij zich dragen heel klein is omdat ze nog niet eerder bloed hebben gedronken bij een andere gastheer.
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/percentage-tekenbeten.jpeg" alt="Percentage Tekenbeeten">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/percentage-tekenbeten.jpeg" alt="Grafiek met per maand het percentage van het totaal aantal doorgegeven tekenbeten via Natuurkalender.nl in de periode 2006-2010">
   <figcaption className="figure-caption">Het percentage van het totaal aantal tekenbeten dat maandelijks doorgegeven is via Natuurkalender.nl in de periode 2006 tot en met 2010 (bron: Natuurkalender.nl).</figcaption>
 </figure>
 

@@ -36,7 +36,7 @@ Omdat de ziekte van Lyme verschillende verschijningsvormen heeft, zijn bij het b
 - Mensen die na behandeling van de ziekte van Lyme langdurige klachten houden die aan de ziekte van Lyme worden toegeschreven: ongeveer 1.000 tot 2.500 per jaar. Dit leidt tot 86% van het totaal aantal verloren gezonde levensjaren door Lyme.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/45f81c94a7583.jpg" alt="Rode ring op de huid">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/45f81c94a7583.jpg" alt="Afbeelding van een rode ring op schouder">
   <figcaption className="figure-caption">Rode ring of vlek na een tekenbeet</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Contactgegevens persvoorlichting RIVM: 030 – 2743005
 Uit de nieuwste peiling onder huisartsen bleek dat zij in 2014 ongeveer 23.500 mensen met een rode ring- of vlekvormige uitslag op de huid ([erythema migrans](/informatie/erythema-migrans)) op het spreekuur kregen. Deze huiduitslag is het meest voorkomende signaal van de ziekte van Lyme. Daarnaast werd bij ongeveer 1.400 mensen de ziekte van Lyme vastgesteld op basis van andere klachten. Het aantal mensen dat zich meldt met een rode ring-of vlekvormige huiduitslag is tussen 2009 en 2014 licht toegenomen en lijkt zich te stabiliseren. Het aantal mensen dat naar de huisarts gaat met een teek in de huid is afgenomen. Mogelijk verwijderen mensen de teek vaker zelf. Vaak is de ziekte van Lyme goed te behandelen, 1.000 tot 2.500 mensen per jaar houden na behandeling langdurig klachten zoals vermoeidheid, pijn of concentratiestoornissen. Waarom een deel van de patiënten zulke klachten krijgt en houdt is niet bekend.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/archief/Ontwikkeling Lyme Nederland.png" alt="Verspreiding erythema migrans 1994-2014">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/archief/Ontwikkeling Lyme Nederland.png" alt="Verspreiding van het aantal rode ring of vlek (erythema migrans) diagnoses per 100.000 inwoners in Nederland in 1994-2001-2005-2009-2014">
   <figcaption className="figure-caption">Verspreiding van huisartsconsulten voor erythema migrans (rode ring of vlek) in Nederland 1994-2014</figcaption>
 </figure>
 

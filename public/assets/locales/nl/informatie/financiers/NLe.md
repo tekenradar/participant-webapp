@@ -1,6 +1,6 @@
 
 <figure className="figure mb-2 text-start w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:20%;" src="/assets/images/logo-NLEteek2.png" alt="Logo NLe">
+  <img className="figure-img img-fluid" style="max-width:600px;width:20%;" src="/assets/images/logo-NLEteek2.png" alt="Logo Nederlands Lymeziekte-expertisecentrum (NLe)">
   <figcaption className="Logo NLe"></figcaption>
 </figure>
 

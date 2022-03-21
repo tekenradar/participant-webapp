@@ -1,5 +1,5 @@
 <figure className="figure mb-1 text-start w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-FSD2.png" alt="Logo FSD">
+  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-FSD2.png" alt="Logo Stichting voor Duurzame Ontwikkeling">
   <figcaption className="Logo FSD"></figcaption>
 </figure>
 

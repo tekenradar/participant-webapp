@@ -12,7 +12,7 @@ Een infectie met het TBE-virus verloopt meestal zonder klachten, maar het TBE-vi
 Het TBE-virus wordt door tekenbeten overgedragen. Het is dan ook belangrijk om tekenbeten te voorkomen, vaak te controleren op tekenbeten en teken dan direct te verwijderen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Tekenopduim_RIVM.jpg" alt="Teken op nagel ">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Tekenopduim_RIVM.jpg" alt="Afbeelding van 4 teken in verschillende levensstadia op een duimnagel">
   <figcaption className="figure-caption">Teken op nagel van een duim. Linksboven vrouwtje, daaronder het mannetje, rechtsboven de nimf en daaronder een larfje (bron: RIVM)</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ Het RIVM heeft reeënonderzocht op aanwezigheid van antistoffen tegen het TBE-vi
 <br></br>
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Teek_campagnebeeld.jpg" alt="Teek op blad">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Teek_campagnebeeld.jpg" alt="Afbeelding van een teek op blad">
 </figure>
 Het RIVM heeft aanvankelijk reeën onderzocht op aanwezigheid van antistoffen tegen het TBE-virus. Een klein deel van de reeën was positief, met name op de Sallandse Heuvelrug. In dat gebied zijn daarna teken gevangen en in een paar teken werd het TBE-virus gevonden. Er zijn geen patiënten bekend die in Nederland besmet zijn geraakt met het TBE-virus. Er zijn wel Nederlandse patiënten met teken-encefalitis maar zij zijn in het buitenland besmet geraakt met het virus. Binnen Europa komt het virus in meerdere landen voor, zoals Duitsland en Oostenrijk. Samen met andere organisaties onderzoekt het RIVM de verspreiding van het TBE-virus en hoe groot het risico is om in Nederland teken-encefalitis op te lopen.
 
@@ -48,13 +48,13 @@ Het RIVM heeft aanvankelijk reeën onderzocht op aanwezigheid van antistoffen te
 Tekenradar.nl ontvangt in juni en juli gemiddeld de helft van alle tekenbeetmeldingen in een jaar. De piek van de meldingen ligt in juli. Aangezien jaarlijks 1,3 miljoen tekenbeten vóórkomen, zullen naar verwachting de komende maand ruim 400.000 tekenbeten worden opgelopen. In de eerste helft van 2016 zijn er tot nu toe 8 procent meer tekenbeten gemeld dan het gemiddelde van de voorgaande drie jaren. De helft van alle tekenbeten dit jaar zijn in het bos opgelopen en een derde in de tuin. Een derde van de gemelde tekenbeten zijn opgelopen tijdens het wandelen, 20 procent tijdens het tuinieren en 20 procent van de tekenbeten bij het spelen. Het aantal tekenbeetmeldingen hangt in belangrijke mate samen met de weersomstandigheden. Daarnaast speelt de aandacht voor Tekenradar.nl waarschijnlijk een rol.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/grafiekTBpermaand.png" alt="Grafiek tekenbeten per maand">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/grafiekTBpermaand.png" alt="Grafiek gemiddeld percentage tekenbeten per maand. In juni en juli worden de meeste tekenbeten gemeld">
 </figure> 
 
 #### Meeste tekenbeetmeldingen in Gelderland, grootste risico op tekenbeet in Drenthe
 Van de in totaal ruim 30.000 tekenbeetmeldingen tussen 2012 en 2016 komen de meeste uit Gelderland. Ongeveer 22% van de meldingen komen uit deze provincie. Als je het aantal tekenbeetmeldingen weegt per aantal inwoners, blijkt dat inwoners uit Drenthe het grootste risico lopen op een tekenbeet. Het gaat om bijna drie keer zo veel tekenbeetmeldingen per inwoner als gemiddeld in Nederland.
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images//archief/tabel_tb_provincie.png" alt="Grafiek tekenbeten per provincie">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images//archief/tabel_tb_provincie.png" alt="Tabel met het percentage van het totaal aantal tekenbeten per provincie">
 </figure>
 
 
@@ -66,7 +66,7 @@ Hoe langer de teek in de huid zit, hoe groter de kans dat de teek ziekteverwekke
 Mensen bij wie de ziekte van Lyme is vastgesteld kunnen meedoen aan het LymeProspect onderzoek via Tekenradar.nl. Onderzocht wordt hoe langdurige klachten na Lyme beter voorkómen en behandeld kunnen worden. Mensen die een antibioticakuur beginnen tegen de ziekte van Lyme kunnen zich via www.tekenradar.nl of via de behandelend arts aanmelden voor deelname. De gezondheid van de deelnemers wordt een jaar gevolgd. Dit jaar kunnen 500 mensen meedoen aan het onderzoek.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/33L9aw_150715b.jpg" alt="Rode vlek te voet">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/33L9aw_150715b.jpg" alt="Afbeelding van een rode vlek op een voet">
   <figcaption className="figure-caption">De huiduitslag bij besmetting met de Lymebacterie kan er uit zien als een ring, maar ook als een egaal gekleurde vlek. Zie voor meer voorbeelden www.tekenradar.nl</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ Indien u het lastig vindt om een tekencheck uit te voeren, dan raden we u aan om
 
 #### Ziekte van Lyme herkennen
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/EMfoto's_palet.png" alt="Verschillende vormen van de huiduitslag door de ziekte van Lyme.">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/EMfoto's_palet.png" alt="Verschillende afbeeldingen met vormen van huiduitslag door de ziekte van Lyme">
   <figcaption className="figure-caption">Verschillende vormen van de huiduitslag door de ziekte van Lyme. De huiduitslag kan er uit zien als een ring, maar ook als een egaal gekleurde vlek.</figcaption>
 </figure> 
 In het LymeProspect onderzoek zijn 150 foto’s van een huiduitslag na een tekenbeet geanalyseerd. Hieruit blijkt dat bij een derde van de patiënten geen ‘rode ring’ ontstaat, maar een egaal gekleurde vlek. Zo’n vlek is moeilijker te herkennen en onderscheiden van andere huidaandoeningen. Een onderscheidend kenmerk voor de ziekte van Lyme is dat de huiduitslag (zowel de ring als de egaal gekleurde vlek) zich uitbreidt, en meestal groter wordt dan 5 cm. Voorbeelden van de verschillende vormen van de huiduitslag die duiden op de ziekte van Lyme zijn te vinden op [www.tekenradar.nl](/home).
