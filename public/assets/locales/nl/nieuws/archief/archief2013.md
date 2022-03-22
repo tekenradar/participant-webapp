@@ -6,7 +6,7 @@
 **Het RIVM heeft vastgesteld dat Borrelia miyamotoi teruggevonden kan worden in vier procent van de teken die worden ingestuurd via Tekenradar.nl. Ter vergelijking: voor Borrelia burgdorferi, de soort die de ziekte van Lyme veroorzaakt, is dat 22 procent. Op de bijgevoegde kaart is te zien dat Borrelia miyamotoi verspreid over heel Nederland voorkomt.**
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/PersperichtMiyamotoiDEF2.jpg" alt="Spreidingskaart van teken besmet met Borrelia burgdorferi en/of Borrelia miyamotoi.">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/PersperichtMiyamotoiDEF2.jpg" alt="Spreidingskaart van Nederland van teken besmet met Borrelia burgdorferi bacterie en/of Borrelia miyamotoi bacterie">
   <figcaption className="figure-caption">Spreidingskaart van teken besmet met Borrelia burgdorferi en/of Borrelia miyamotoi. De teken zijn verzameld via online gemelde tekenbeten op Tekenradar.nl.</figcaption>
 </figure>
 Op het AMC is vorig jaar een patiënt met een sterk verzwakt afweersysteem behandeld, die na een beet van een teek was besmet met Borrelia miyamotoi. Nog niet eerder werd in Nederlandse patiënten deze Borrelia-soort gevonden. Het verslag van de behandeling van de man is 17 Augustus verschenen als case report in het wetenschappelijke tijdschrift The Lancet.
@@ -27,7 +27,7 @@ Het is nog onduidelijk in hoeverre de voordelen van preventief antibioticagebrui
 Tekenradar.nl startte een jaar geleden met als doel te bepalen hoe vaak de ziekte van Lyme ontstaat na een tekenbeet. Met ruim 7000 geregistreerde tekenbeten en meer dan 3400 opgestuurde teken, groeide Tekenradar.nl uit tot het grootste onderzoek ter wereld naar het risico op Lyme na een tekenbeet. De grote deelname aan Tekenradar.nl maakt het mogelijk om het onderzoek nu uit te breiden en een antwoord te zoeken op de veel gestelde vraag of mensen na een tekenbeet preventief antibiotica voorgeschreven moeten krijgen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Nederlandse kaart_Tekenradar.png" alt="">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Nederlandse kaart_Tekenradar.png" alt="Locaties van via Tekenradar.nl gemelde tekenbeten en aantal tekenbeten per provincie per 100.000 inwoners in 2012">
   <figcaption className="figure-caption">Locaties van via Tekenradar.nl gemelde tekenbeten en aantal tekenbeten per provincie per 100.000 inwoners.</figcaption>
 </figure>
 
@@ -51,7 +51,7 @@ De eerste onderzoeksresultaten worden verwacht tijdens de Week van de teek, halv
 #### Wat betekent de testuitslag van uw teek?
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teek_opsturen_voorbeeld.jpg" alt="Teek vast op brief">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/teek_opsturen_voorbeeld.jpg" alt="Teek vastgeplakt op brief opgestuurd voor onderzoek">
 </figure>
 De testuitslag van de teek geeft u geen zekerheid over uw risico op de ziekte van Lyme. Om deze reden laat uw huisarts de teek normaal gesproken ook niet onderzoeken. Als uit de test blijkt dat de teek besmet was met de Borrelia bacterie, betekent dat niet dat u ook besmet bent geraakt tijdens de beet. Als de teek volgens de test niet besmet was, is er geen garantie dat u niet geïnfecteerd bent tijdens de beet, omdat de test niet 100% gevoelig is en omdat de kans bestaat dat u ongemerkt gebeten bent door andere teken.
 Zolang u geen klachten ontwikkelt die op de ziekte van Lyme kunnen duiden, is het dus niet nodig om met de testuitslag van uw teek naar de huisarts te gaan.

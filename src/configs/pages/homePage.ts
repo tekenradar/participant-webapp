@@ -265,7 +265,7 @@ export const homePage = (path: string): PageConfig => {
           {
             key: 'meldenCardCol',
             hideWhen: 'unauth',
-            className: 'col-12 col-lg-4 mt-3',
+            className: 'col-12 col-lg-4 mt-3 order-2 order-lg-1',
             items: [
               meldenCard({ className: 'h-100', showMyTekenradarBtn: true })
             ]
@@ -273,14 +273,14 @@ export const homePage = (path: string): PageConfig => {
           {
             key: 'meldenCardCol',
             hideWhen: 'auth',
-            className: 'col-12 col-lg-4 mt-3',
+            className: 'col-12 col-lg-4 mt-3 order-2 order-lg-1',
             items: [
               meldenCard({ className: 'h-100' })
             ]
           },
           {
             key: 'col1_1',
-            className: 'col-xs-12 col-lg-8 mt-3',
+            className: 'col-xs-12 col-lg-8 mt-3 order-1 order-lg-2',
             items: [
               {
                 itemKey: '1',

@@ -8,7 +8,7 @@
 Sinds het begin van de winter op 1 december zijn er 120 tekenbeten doorgegeven op Tekenradar.nl. Dit zijn er twee keer zo veel als het jaar ervoor. Naast de toegenomen bekendheid van Tekenradar.nl is de oorzaak hiervoor vooral de zeer hoge wintertemperatuur. De gemiddelde wintertemperatuur kwam uit op 6,0 graden Celsius. Tegenwoordig is 3,4 graden normaal voor de maanden december, januari en februari. De afgelopen winter was daarmee na de winter van 2007 de warmste in drie eeuwen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Tekenbeten_tekenradar_8_3_2014.png" alt="Tekenbeten en Lyme geval geregistreerd van 1 tot en met 8 maart 2014">
+  <img className="figure-img img-fluid" style="max-width:400px;width:100%;" src="/assets/images/archief/Tekenbeten_tekenradar_8_3_2014.png" alt="Kaart van Nederland met tekenbeten en Lyme gevallen geregistreerd via Tekenradar.nl van 1 tot en met 8 maart 2014">
   <figcaption className="figure-caption">Tekenbeten en Lyme geval geregistreerd van 1 tot en met 8 maart 2014 (bron: Tekenradar.nl)</figcaption>
 </figure>
 
@@ -16,7 +16,7 @@ De afgelopen week nam het aantal tekenbeten dat werd doorgegeven op Tekenradar.n
 waarmee meer mensen risico lopen op een tekenbeet, waardoor de ziekte van Lyme kan worden opgelopen.
 <br></br>
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Tekenopduim_RIVM.jpg" alt="Kaart met gemelde tekenbeten">
+  <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/Tekenopduim_RIVM.jpg" alt="Afbeelding van 4 teken in verschillende levensstadia op een duimnagel">
   <figcaption className="figure-caption">Teken op nagel van een duim. Linksboven vrouwtje, daaronder het mannetje, rechtsboven de nimf en daaronder een larfje (bron: RIVM)</figcaption>
 </figure>
 

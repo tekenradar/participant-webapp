@@ -3,7 +3,7 @@
 Teken zijn geleedpotigen en lijken op kleine platte spinnetjes. Teken behoren dan ook tot de spinachtigen (dierklasse Arachnidae, subklasse Acari). Teken ondergaan vier levensstadia: ei, larve, nimf en volwassen teek (zie onderstaande foto). De larve heeft zes poten maar de nimf en de volwassen teek hebben acht poten.
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenstadia_klein_Fedor_Gassner.jpeg" alt="Larve, nimf, manntje en het vrouwtje van de schapenteek">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenstadia_klein_Fedor_Gassner.jpeg" alt="Afbeelding van een larve, een nimf, een mannetje en een vrouwtje van de schapenteek">
   <figcaption className="figure-caption">Van links naar rechts de larve, nimf, mannetje en het vrouwtje van de schapenteek (foto: Fedor Gassner).</figcaption>
 </figure>
 

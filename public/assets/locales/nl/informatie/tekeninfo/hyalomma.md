@@ -10,7 +10,7 @@ Af en toe komen Hyalomma-larven en -nimfen met trekvogels uit Afrika en het Midd
 Het meest typische kenmerk van Hyalomma-teken zijn de gestreepte pootjes. Daarnaast zijn ze een stuk groter (2-3x) dan de Nederlandse schapenteek. (*Ixodes ricinus*) en de vlekkenteek (*Dermacentor reticulatus*). Hyalomma-teken hebben geen gevlekt scutum (schild).
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/hyalomma-vs-schapenteek.jpeg" alt="Vergelijking van een Hyalommateek met een schapenteek">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/hyalomma-vs-schapenteek.jpeg" alt="Verschillende afbeeldingen van reuzenteken en schapenteken ter vergelijking">
   <figcaption className="figure-caption">De bovenste twee foto's zijn Hyalomma teken ("reuzenteken", links een vrouwtje, rechts een mannetje). Daaronder drie afbeeldingen van de veel kleinere gewone schapenteek die de ziekte van Lyme kan overbrengen.</figcaption>
 </figure>
 

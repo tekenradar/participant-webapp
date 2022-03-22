@@ -12,7 +12,7 @@ const DensityMap: React.FC<DensityMapProps> = (props) => {
           <img
             width="100%"
             src={getExternalOrLocalContentURL('images/dichtheidkaart.png')}
-            alt='Tekenbeetdichtheid'
+            alt='Kaart van Nederland met de geografische spreiding van het aantal tekenbeten per vierkante kilometer'
           />
         </div>
         <div className='col-12 col-md-6'>

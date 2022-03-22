@@ -5,11 +5,11 @@
     "close": "Verbergen"
   },
   "tekenradar": {
-    "title": "Over Tekenradar",
+    "title": "Over Tekenradar.nl",
     "items": [
       {
-        "title": "Wat doet tekenradar.nl?",
-        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een [erythema migrans](/informatie/erythema-migrans) (rode ring of vlek), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
+        "title": "Wat doet Tekenradar.nl?",
+        "content": "Voordat mensen de natuur ingaan, kunnen ze op Tekenradar.nl kijken wat de voorspelde tekenactiviteit is. Hoe hoger de activiteit, hoe groter de kans om door een teek gebeten te worden en hoe belangrijker het is om te controleren op tekenbeten. Daarnaast kunnen mensen via de website meedoen aan onderzoek naar tekenbeten en de ziekte van Lyme. Onderzoeksdeelnemers kunnen een tekenbeet, een [erythema migrans](/informatie/erythema-migrans) (rode ring of vlek op de huid), andere vorm van Lyme, of koorts na een tekenbeet melden op Tekenradar.nl."
       },
       {
         "title": "Waarom zou ik een melding doen op Tekenradar?",
@@ -82,11 +82,11 @@
       },
       {
         "title": "Wat vragen we van je voor dit onderzoek?",
-        "content": "Wij vragen je een tekenbeet of een erythema migrans of andere vorm van lymeziekte te melden op Tekenradar.nl. Daarna kun je een aantal vragenlijsten invullen over tekenbeten en je gezondheid."
+        "content": "Wij vragen je een tekenbeet of een erythema migrans (rode ring of vlek op de huid) of andere vorm van lymeziekte te melden op Tekenradar.nl. Daarna kun je een aantal vragenlijsten invullen over tekenbeten en je gezondheid."
       },
       {
         "title": "Wat wordt er met de foto gedaan die ik opstuur van mijn erythema migrans (rode ring of vlek op de huid)?",
-        "content": "De foto van de erythema migrans die je aan Tekenradar.nl stuurt wordt gebruikt om meer kennis te krijgen over hoe een erythema migrans eruit kan zien. De foto's worden geanonimiseerd (versleuteld) bewaard in een databank apart van je persoonsgegevens. Deze databank is alleen toegankelijk voor de betrokken onderzoeksmedewerkers."
+        "content": "De foto van de rode ring of vlek op de huid die je aan Tekenradar.nl stuurt wordt gebruikt om meer kennis te krijgen over hoe een erythema migrans eruit kan zien. De foto's worden geanonimiseerd (versleuteld) bewaard in een databank apart van je persoonsgegevens. Deze databank is alleen toegankelijk voor de betrokken onderzoeksmedewerkers."
       },
       {
         "title": "Wanneer worden de resultaten van het onderzoek bekend?",
@@ -99,7 +99,7 @@
     ]
   },
   "teken": {
-    "title": "Over Teken",
+    "title": "Over teken",
     "items": [
       {
         "title": "Wat zijn teken?",
@@ -132,7 +132,7 @@
     ]
   },
   "tekenbeten": {
-    "title": "Over Tekenbeten",
+    "title": "Over tekenbeten",
     "items": [
       {
         "title": "Wat moet ik doen bij een tekenbeet?",

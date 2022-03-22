@@ -4,7 +4,8 @@ Bij een tekenbeet heeft de teek zich in de huid vastgebeten om bloed te zuigen.
  
 U kunt een tekenbeet melden op Tekenradar.nl. Insturen van de teek is niet nodig. Als je na de tekenbeet koorts krijgt, of een rode ring of vlek krijgt op de plaats van de tekenbeet, kun je die ook melden.
 
- 
+Hieronder in de voorlichtingsfilm 'Een teek? Pak 'm beet!' van het RIVM is te zien waar teken voorkomen en hoe ze op mensen overstappen. Ook is in beeld gebracht hoe mensen zichzelf kunnen controleren en hoe ze een teek moeten verwijderen. 
+
 [Klik hier om direct een tekenbeet, rode ring of vlek, andere vorm van de ziekte van Lyme, of koorts na een tekenbeet te melden](/melden)
 
 <br></br>

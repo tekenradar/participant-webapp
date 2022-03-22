@@ -20,6 +20,9 @@ let DefaultIcon = L.icon({
   popupAnchor: [0, -50] // point from which the popup should open relative to the iconAnchor
 
 });
+
+
+const minZoomLevel = 3;
 const maxZoomLevel = 17;
 
 L.Marker.prototype.options.icon = DefaultIcon;
@@ -202,7 +205,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         center={defaultCenter}
         bounceAtZoomLimits={true}
         zoom={currentZoomLevel}
-        minZoom={5}
+        minZoom={minZoomLevel}
         maxZoom={maxZoomLevel}
         doubleClickZoom={false}
       //scrollWheelZoom={false}

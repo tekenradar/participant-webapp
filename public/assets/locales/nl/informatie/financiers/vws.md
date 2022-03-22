@@ -1,6 +1,6 @@
 
 <figure className="figure mb-2 text-start w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:40%;" src="/assets/images/logo-vws2.png" alt="Logo VWS">
+  <img className="figure-img img-fluid" style="max-width:600px;width:40%;" src="/assets/images/logo-vws2.png" alt="Logo ministerie van Volksgezondheid, Welzijn en Sport (VWS)">
   <figcaption className="Logo VWS"></figcaption>
 </figure>
 

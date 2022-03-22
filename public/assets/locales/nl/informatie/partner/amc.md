@@ -1,5 +1,5 @@
 <figure className="figure text-start w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-AMC2.png" alt="Logo Amsterdam UMC">
+  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-AMC2.png" alt="Logo Amsterdam Universitair Medische Centra">
   <figcaption className="Logo Amsterdam UMC"></figcaption>
 </figure>
 

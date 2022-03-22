@@ -1,5 +1,5 @@
 <figure className="figure mb-1 text-start w-100">
-  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-RIVM2.png" alt="Het RIVM">
+  <img className="figure-img img-fluid" style="max-width:500px;width:40%;" src="/assets/images/logo-RIVM2.png" alt="Logo Rijksinstituut voor Volksgezondheid en Milieu (RIVM)">
   <figcaption className="Logo RIVM"></figcaption>
 </figure>
 

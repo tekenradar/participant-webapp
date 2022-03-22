@@ -8,7 +8,7 @@ Haal een teek zo snel mogelijk weg! Hoe langer de teek in je huid zit, hoe grote
 </figure>
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:400px;width:80%;" src="/assets/images/teekverwijderen2.jpeg" alt="Optrekken, niet draaien">
+  <img className="figure-img img-fluid" style="max-width:400px;width:80%;" src="/assets/images/teekverwijderen2.jpeg" alt="Trek de pincet met teek omhoog, niet draaien">
   <figcaption className="figure-caption">Optrekken, niet draaien.</figcaption>
 </figure>
 

@@ -4,13 +4,13 @@ Sinds de start van Tekenradar.nl in 2012 zijn meer dan 60 duizend tekenbeten gem
 
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/tekenbeetmeldingen-tr.png" alt="Antaal Tekenbeetmeldingen">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/tekenbeetmeldingen-tr.png" alt="Grafiek van het gemiddelde aantal tekenbeetmeldingen per maand sinds de start van Tekenradar.nl in 2012.">
   <figcaption className="figure-caption">Het aantal tekenbeetmeldingen piekt jaarlijks meestal in juni en juli, met gemiddeld 50% van het aantal meldingen per jaar.</figcaption>
 </figure>
 Er is een duidelijke invloed van het tekenseizoen op het aantal meldingen, waarbij in juni en juli het aantal tekenbeetmeldingen meestal het hoogst is, met gemiddeld ongeveer 50% van de jaarlijkse tekenbeetmeldingen (zie grafiek). Daarnaast is de belangstelling voor de site ook van invloed op het aantal meldingen, bijvoorbeeld op momenten dat de media aandacht geven aan teken en Lyme, of Tekenradar.nl.
 
 <figure className="figure mb-2 text-center w-100">
-  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/tekenbeeten-km.png" alt="Tekenbeetmeldingen via Tekenradar.nl">
+  <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/tekenbeeten-km.png" alt="Kaart van Nederland met het aantal tekenbeetmeldingen per vierkante kilometer via Tekenradar.nl">
   <figcaption className="figure-caption">De tekenbeetmeldingen via Tekenradar.nl laten ook geografisch relatieve verschillen zien in tekenbeetdichtheid.</figcaption>
 </figure>
 
