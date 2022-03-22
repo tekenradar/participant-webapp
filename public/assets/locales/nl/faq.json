@@ -5,7 +5,7 @@
     "close": "Verbergen"
   },
   "tekenradar": {
-    "title": "Over Tekenradar",
+    "title": "Over Tekenradar.nl",
     "items": [
       {
         "title": "Wat doet Tekenradar.nl?",
@@ -99,7 +99,7 @@
     ]
   },
   "teken": {
-    "title": "Over Teken",
+    "title": "Over teken",
     "items": [
       {
         "title": "Wat zijn teken?",
@@ -132,7 +132,7 @@
     ]
   },
   "tekenbeten": {
-    "title": "Over Tekenbeten",
+    "title": "Over tekenbeten",
     "items": [
       {
         "title": "Wat moet ik doen bij een tekenbeet?",
