@@ -11,7 +11,7 @@ Op 28 maart publiceerden Wageningen University en het Rijksinstituut voor Volksg
 <br></br>
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:500px;width:100%;" src="/assets/images/archief/20120630_Tekenbetenmeldingen_Tekenradar.jpg" alt="Locaties op de kaart van nederland waar in de periode 23 tot en met 30 juni 2012 tekenbeten en erythema migrans (rode ring) zijn gemeld op Tekenradar.nl.">
-  <figcaption className="figure-caption">Locaties waar in de periode 23 tot en met 30 juni tekenbeten en erythema migrans (rode ring) zijn gemeld op Tekenradar.nl.</figcaption>
+  <figcaption className="figure-caption">Locaties waar in de periode 23 tot en met 30 juni tekenbeten en erythema migrans (rode ring of vlek) zijn gemeld op Tekenradar.nl.</figcaption>
 </figure>
 
 #### Meldingen

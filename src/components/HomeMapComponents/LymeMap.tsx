@@ -237,7 +237,7 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
   return (
     <div className='p-2 w-100'>
       <div className='p-2 bg-white w-100'>
-        <h5 className='fw-bold mb-0'>Mensen met erythema migrans</h5>
+        <h5 className='fw-bold mb-0'>Mensen met erythema migrans (rode ring of vlek op de huid)</h5>
         <p className=''>
           een vroege uiting van de ziekte van Lyme
         </p>

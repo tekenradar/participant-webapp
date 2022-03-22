@@ -71,7 +71,7 @@ Uit de nieuwste peiling onder huisartsen bleek dat zij in 2014 ongeveer 23.500 m
 <br></br>
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/archief/Ontwikkeling Lyme Nederland.png" alt="Verspreiding van het aantal rode ring of vlek (erythema migrans) diagnoses per 100.000 inwoners in Nederland in 1994-2001-2005-2009-2014">
-  <figcaption className="figure-caption">Verspreiding van huisartsconsulten voor erythema migrans (rode ring of vlek) in Nederland 1994-2014</figcaption>
+  <figcaption className="figure-caption">Verspreiding van huisartsconsulten voor erythema migrans (rode ring of vlek op de huid) in Nederland 1994-2014</figcaption>
 </figure>
 
 #### Nieuw onderzoek
