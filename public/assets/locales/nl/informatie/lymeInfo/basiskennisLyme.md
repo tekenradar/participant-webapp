@@ -1,4 +1,4 @@
-# De ziekte van Lyme
+# Hoe verloopt de ziekte van Lyme?
 
 De ziekte van Lyme komt door een tekenbeet. Het is een infectieziekte die door de *Borrelia* bacterie wordt veroorzaakt. 
 
