@@ -82,6 +82,8 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   const [selectedSeries, setSelectedSeries] = useState<undefined | number>();
   const [reportData, setReportData] = useState<ReportMapSeries | undefined>()
 
+  const mapTileURL = process.env.REACT_APP_MAP_TILE_URL ? process.env.REACT_APP_MAP_TILE_URL : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+
   useEffect(() => {
     if (reportData) {
       setSelectedSeries(reportData.slider.labels.length - 1);
@@ -138,7 +140,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
 
           <TileLayer
             attribution='<a href="http://osm.org/copyright">&copy; OpenStreetMap contributors</a>'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            url={mapTileURL}
           /// url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
           //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
           />
