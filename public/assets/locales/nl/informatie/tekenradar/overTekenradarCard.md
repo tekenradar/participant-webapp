@@ -4,6 +4,7 @@ Tekenradar.nl is in 2012 opgericht door het RIVM en Wageningen University. In Te
 
 **Waarom onderzoek via Tekenradar.nl?**
 
+
 De onderzoeken via Tekenradar.nl hebben als doel:
 - Beter meten en laten weten wanneer en waar het risico op tekenbeten hoger is.
 - Meer inzicht krijgen in de oorzaken van een ernstig verloop van de ziekte van Lyme, en mogelijkheden om de ziekte te voorkomen..
