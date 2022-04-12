@@ -146,6 +146,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
   const [currentZoomLevel, setCurrentZoomLevel] = useState(7);
   const [lastUsedZoomLevel, setLastUsedZoomLevel] = useState(currentZoomLevel);
 
+  const mapTileURL = process.env.REACT_APP_MAP_TILE_URL ? process.env.REACT_APP_MAP_TILE_URL : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
   useEffect(() => {
     if (touched) {
@@ -248,7 +249,7 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
         />
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap contributors</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url={mapTileURL}
         //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
         />
       </MapContainer>
