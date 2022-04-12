@@ -2,8 +2,8 @@ Tekenradar.nl is een citizen science-project. Citizen science, of burgerwetensch
 
 Tekenradar.nl is in 2012 opgericht door het RIVM en Wageningen University. In Tekenradar.nl gaan voorlichting over tekenbeten en de ziekte van Lyme hand in hand met citizen science onderzoek.
 
-Waarom onderzoek via Tekenradar.nl?
- 
+**Waarom onderzoek via Tekenradar.nl?**
+<br></br> 
 De onderzoeken via Tekenradar.nl hebben als doel:
 - Beter meten en laten weten wanneer en waar het risico op tekenbeten hoger is.
 - Meer inzicht krijgen in de oorzaken van een ernstig verloop van de ziekte van Lyme, en mogelijkheden om de ziekte te voorkomen..
