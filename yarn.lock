@@ -9557,10 +9557,10 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-survey-engine@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.1.6.tgz#965673ceb35610acfee0a26b48e67ba8f3ccee54"
-  integrity sha512-wzQ/RzI/R1J8BzqQAXPhgOl1hAsswIAcv1ALEwao7QtY6fQ7kRVaz78LmweVAGAveLKka7oQ2zPUnN0B7Il9cg==
+survey-engine@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.1.7.tgz#4603a125f1c80eb1ca54f12b384f6ffd6011dbdf"
+  integrity sha512-tttSe2dX/ghpo7p1tQe20ROi3E2nOcg0YtwFXf5eQTAxdTyEntXciqcOoZJ26FVgYW19nfNv1O+rwi0rQAAOCw==
   dependencies:
     moment "2.29.2"
 
