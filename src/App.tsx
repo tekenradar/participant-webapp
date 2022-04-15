@@ -17,6 +17,7 @@ import TickMapResponse from './components/survey/TickMapResponse';
 import EMfotoUpload from './components/survey/EMfotoUpload';
 import ReportSelector from './components/survey/ReportSelector';
 import UserVerification from './components/survey/UserVerification';
+import NewsRouter from './components/News/NewsRouter';
 
 export const dateLocales = [
   { code: 'nl', locale: nl, format: 'dd-MM-yyyy' },
@@ -27,6 +28,7 @@ if (process.env.REACT_APP_DEFAULT_INSTANCE) {
 }
 
 const extensions = [
+  { name: 'newsRouter', component: NewsRouter },
   { name: 'resultsTabs', component: ResultsTabs },
   { name: 'reportButtonCard', component: ReportButtonCard },
   { name: 'partners', component: Partners },

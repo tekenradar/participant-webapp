@@ -15,7 +15,6 @@ export const infoPageLayout = (props: {
   sideBarItems: PageItem[];
   bottomRows: PageRow[];
 }): PageConfig => {
-
   const rows: PageRow[] = [];
 
   if (props.topImage) {

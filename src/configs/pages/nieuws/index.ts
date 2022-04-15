@@ -19,9 +19,9 @@ import { newsPage } from "./newsPage";
 
 export const nieuwsContainerPage = (path: string): PageConfig => {
   const nieuwsSubPages = [
-    newsPage(`${path}/overzicht`),
+    // newsPage(`${path}`),
     // archief sub-pages
-    archief2012Page(`${path}/archief2012`),
+    /*archief2012Page(`${path}/archief2012`),
     archief2013Page(`${path}/archief2013`),
     archief2014Page(`${path}/archief2014`),
     archief2015Page(`${path}/archief2015`),
@@ -36,16 +36,39 @@ export const nieuwsContainerPage = (path: string): PageConfig => {
     news20200624Page(`${path}/2020-06-24`),
     news20200623Page(`${path}/2020-06-23`),
     news20200622Page(`${path}/2020-06-22`),
-
+*/
   ];
 
   return {
     path: path,
     pageKey: 'news',
     hideTitleBar: true,
-    rows: [],
-    subPages: {
+    rows: [
+      {
+        key: 'newsrow',
+        fullWidth: true,
+        containerClassName: 'p-0',
+        rowClassNameOverride: 'w-100',
+        columns: [
+          {
+            key: 'newscol',
+            items: [
+              {
+                itemKey: 'newsitem',
+                config: {
+                  type: 'extension',
+                  config: {
+                    type: 'newsRouter'
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    /*subPages: {
       pages: nieuwsSubPages
-    },
+    },*/
   }
 }
