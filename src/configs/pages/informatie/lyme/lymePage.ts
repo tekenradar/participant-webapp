@@ -326,9 +326,9 @@ const lymeInNLSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/PV-20161013-01-1920.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/pexels-pavel-danilyuk-8424461.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '350px',
                 placement: 'top',
