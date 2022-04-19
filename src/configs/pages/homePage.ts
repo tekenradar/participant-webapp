@@ -118,9 +118,9 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/cRIVM/onderzoeken.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/pexels-rodnae-productions-8068694.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 placement: 'top',
                 height: '200px',
               }
