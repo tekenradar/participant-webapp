@@ -47,9 +47,9 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/ipads&iphonesnieuwewerken-47-1920.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/pexels-rodnae-productions-10376214y_crop.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -110,9 +110,9 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/180624_2914_HZF6819-1920.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/pexels-katerina-holmes-5905747.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
