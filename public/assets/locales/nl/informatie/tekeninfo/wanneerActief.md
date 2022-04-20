@@ -16,4 +16,4 @@ De dagelijkse Tekenverwachting op Tekenradar geeft alleen een verwachting van he
   <figcaption className="figure-caption">Het percentage van het totaal aantal tekenbeten dat maandelijks doorgegeven is via Natuurkalender.nl in de periode 2006 tot en met 2010 (bron: Natuurkalender.nl).</figcaption>
 </figure>
 
-Bijna 35 procent van alle tekenbeten is in juni opgelopen (zie bovenstaande figuur). Dat blijkt uit de tekenbeetmeldingen op Natuurkalender.nl sinds 2006. Deze cijfers zijn enigszins vertekend. Midden in de zomer is er een hogere media-aandacht voor het onderwerp.. Het algemene seizoensverloop van het aantal teken komt echter goed overeen met de tekenvangsten.
+Bijna 35 procent van alle tekenbeten is in juni opgelopen (zie bovenstaande figuur). Dat blijkt uit de tekenbeetmeldingen op Natuurkalender.nl sinds 2006. Deze cijfers zijn enigszins vertekend. Midden in de zomer is er een hogere media-aandacht voor het onderwerp. Het algemene seizoensverloop van het aantal teken komt echter goed overeen met de tekenvangsten.
