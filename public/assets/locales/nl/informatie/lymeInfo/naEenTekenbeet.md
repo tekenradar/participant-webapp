@@ -1,6 +1,8 @@
 ## Waar moet ik op letten na een tekenbeet?
 
-Het meest voorkomende signaal van de ziekte van Lyme is een [rode ringvormige vlek](/informatie/lyme) op de plaats waar de teek heeft gebeten. Soms is er sprake van een blauwachtige of roze vlek. De vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. Het is dus belangrijk de plek van de tekenbeet een aantal maanden goed in de gaten te houden. De vlek wordt binnen een paar dagen een grotere ring. Zo’n ring is typerend voor de ziekte van Lyme. Uiteindelijk verdwijnt de ring vanzelf. Dit hoeft niet te betekenen dat de bacterie weg is. De bacterie kan in het lichaam aanwezig blijven en later schade aanrichten. Soms kunnen mensen besmet raken met de bacterie zonder dat ze een rode ring hebben gezien.
+HHet meest voorkomende verschijnsel van de ziekte van Lyme is een [rode ringvormige vlek](/informatie/lyme) op de plaats waar de teek heeft gebeten. Soms ziet de vlek er meer  blauwachtig of roze uit.. De vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na drie maanden zijn. Houd de plek van de tekenbeet dus een aantal maanden goed in de gaten. De vlek wordt binnen een paar dagen een grotere ring. Zo’n ring is typerend voor de ziekte van Lyme. Uiteindelijk verdwijnt de ring vanzelf. Dit hoeft niet te betekenen dat de bacterie die de ziekte van Lyme veroorzaakt weg is. De bacterie kan in het lichaam aanwezig blijven en later schade veroorzaken. Soms kunnen mensen besmet raken met de bacterie zonder dat ze een rode ring hebben gezien.
+
+Ga altijd naar de huisarts als er iets te zien is rond de tekenbeet wat op deze beschrijving lijkt.
 
 Eenmaal in het lichaam, richt de bacterie zich vooral op zenuwweefsel, gewrichten, de huid en het hart. De klachten die daaruit voort kunnen komen zijn in eerste instantie griepachtige klachten of soms opzwelling van oorlel of tepel. Deze klachten komen meestal binnen 3 maanden.
 
@@ -10,4 +12,4 @@ Als de ziekte niet opgemerkt wordt kan het overgaan naar een volgende fase. Dan 
 
 ### Volgezogen teek?
 
-Een teek die veel bloed heeft gezogen, zit al enige tijd in de huid. Hoe langer een besmette teek in de huid vastzit, hoe groter de kans is dat hij de *Borrelia* bacterie overbrengt. Na 72 uur wordt de kans dat een besmette teek door zijn beet de besmetting overbrengt, op bijna 100% geschat. Overigens leidt besmetting zeker niet altijd tot de ziekte van Lyme. En niet alle teken dragen de *Borrelia* bacterie bij zich.
+Een teek die veel bloed heeft gezogen, zit al enige tijd in de huid. Hoe langer een besmette teek in de huid vastzit, hoe groter de kans  dat hij de *Borrelia* bacterie overbrengt. overbrengt. De *Borrelia* bacterie kan de ziekte van Lyme veroorzaken. Na 72 uur wordt de kans dat een besmette teek door zijn beet de besmetting overbrengt, op bijna 100% geschat. Maar  besmetting betekent zeker niet altijd dat je  de ziekte van Lyme krijgt. En niet alle teken dragen de *Borrelia* bacterie bij zich.
