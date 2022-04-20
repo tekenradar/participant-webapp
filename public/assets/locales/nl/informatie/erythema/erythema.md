@@ -1,5 +1,5 @@
 # Wat is erythema migrans?
-Het eerste verschijnsel  van de ziekte van Lyme is vaak een rode ring of vlek  rond de plaats van de tekenbeet, die  groter wordt. ‘Erythema migrans’ is de medische naam voor deze rode ring of vlek. Soms ziet de vlek er meer blauwachtig of roze uit. 
+Het eerste verschijnsel van de ziekte van Lyme is vaak een rode ring of vlek  rond de plaats van de tekenbeet, die groter wordt. ‘Erythema migrans’ is de medische naam voor deze rode ring of vlek. Soms ziet de vlek er meer blauwachtig of roze uit. 
 
 
 Hier zie je foto's van verschillende voorbeelden van de rode ring of vlek. 

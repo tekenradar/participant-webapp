@@ -3,7 +3,7 @@
 De ziekte van Lyme komt door een tekenbeet. Het is een infectieziekte die door de *Borrelia* bacterie wordt veroorzaakt. 
 
 ## Wat zijn de verschijnselen van de ziekte van Lyme?
-- Het meest voorkomende signaal van de ziekte van Lyme is een rode ring of vlek op de huid (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er  een blauwachtige of roze [vlek](/informatie/lyme) te zien. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. Het is dus belangrijk de plek van de tekenbeet een aantal maanden goed in de gaten te houden. 
+- Het meest voorkomende verschijnsel van de ziekte van Lyme is een rode ring of vlek op de huid (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er  een blauwachtige of roze [vlek](/informatie/lyme) te zien. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. Het is dus belangrijk de plek van de tekenbeet een aantal maanden goed in de gaten te houden. 
 De ring of vlek wordt steeds groter, wat een kenmerk is voor de ziekte van Lyme. Uiteindelijk verdwijnt de ring of vlek vanzelf. Dit hoeft niet te betekenen dat de bacterie weg is. De bacterie kan in het lichaam aanwezig blijven en later schade aanrichten. Soms raken  mensen besmet  met de bacterie zonder dat ze een rode ring of vlek hebben gezien.
  
 [Klik hier of op de rode knop rechts in beeld om een rode ring of vlek, of andere ziekte van Lyme te melden](/melden)
