@@ -1,0 +1,18 @@
+{
+  "title": "Laatste nieuws",
+  "previousArticle": {
+    "title": "Terug naar het startpagina",
+    "body": "Vind meer informatie. ",
+    "actionBtn": "Naar de startpagina"
+  },
+  "nextArticle": {
+    "title": "Zomerse piek in activiteit van besmette teken valt samen met piek in tekenbeetmeldingen",
+    "body": "",
+    "actionBtn": "Lees meer"
+  },
+  "backToOverview": {
+    "title": "Terug naar het overzicht",
+    "body": "Vind meer nieuwsartikelen. ",
+    "actionBtn": "Naar de overzichtspagina"
+  }
+}

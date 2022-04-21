@@ -2,22 +2,22 @@
   "latestNews.title": "Laatste nieuws",
   "aboutThisSite.title": "Meer informatie",
   "topNews": {
+    "title": "Tien jaar Tekenradar: 80.0000 tekenbeetmeldingen, kans op tekenbeet in Drenthe het hoogst",
+    "body": " ",
+    "actionBtn": "Lees meer",
+    "footer": "25.04.2022"
+  },
+  "topNews1": {
     "title": "Zomerse piek in activiteit van besmette teken valt samen met piek in tekenbeetmeldingen",
     "body": " ",
     "actionBtn": "Lees meer",
     "footer": "08.07.2021"
   },
-  "topNews1": {
+  "topNews2": {
     "title": "Vaker aanhoudende klachten na ziekte van Lyme",
     "body": " ",
     "actionBtn": "Lees meer",
     "footer": "27.05.2021"
-  },
-  "topNews2": {
-    "title": "Teken bijten bij kinderen vaker in hoofd en nek",
-    "body": " ",
-    "actionBtn": "Lees meer",
-    "footer": "19.04.2021"
   },
   "openNews": {
     "title": "Al het nieuws",

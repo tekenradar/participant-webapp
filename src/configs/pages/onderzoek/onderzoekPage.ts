@@ -68,7 +68,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/iStock-482765541-1920.jpg',
+                url: '/images/cRIVM/82073-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
@@ -144,6 +144,27 @@ const onderzoekenSection = (): PageRow => {
               },
             }
           },
+          // ----------------------------
+          //{
+          //colClassName: 'col-12 col-md-4',
+          //itemKey: 'Valor_AMC',
+          //className: 'h-100',
+          //config: {
+          //type: 'actionCard',
+          //image: {
+          //  url: '/images/logo-AMC.png',
+          //  copyrightNotice: '-',
+          //  copyrightNoticeXAlignment: 'start',
+          //  minHeight: '200px',
+          //  maxHeight: '150px',
+          //  placement: 'top',
+          //},
+          //action: {
+          //  type: 'navigate',
+          //  value: '/onderzoek/Valor_AMC'
+          //},
+          //}
+          //},
         ],
       })
     ]

@@ -1,7 +1,8 @@
 import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { onderzoekPage } from "./onderzoekPage";
-import { lymeProspectPage} from "./onderzoeken/lymeProspectPage";
+import { lymeProspectPage } from "./onderzoeken/lymeProspectPage";
 import { pandoraPage } from "./onderzoeken/pandoraPage";
+//import { Valor_AMCPage } from "./onderzoeken/Valor_AMCPage";
 import { preventieveAntibioticaPage } from "./onderzoeken/preventieveAntibioticaPage";
 import { victoryPage } from "./onderzoeken/victoryPage";
 import { vragenlijstPage } from "./onderzoeken/vragenlijstPage";
@@ -18,6 +19,7 @@ export const onderzoekContainerPage = (path: string): PageConfig => {
     // onderzoeken sub-pages
     lymeProspectPage(`${path}/lymeProspect`),
     pandoraPage(`${path}/pandora`),
+    //Valor_AMCPage(`${path}/Valor_AMC`),
     preventieveAntibioticaPage(`${path}/preventieveAntibiotica`),
     victoryPage(`${path}/victory`),
     vragenlijstPage(`${path}/vragenlijst`),

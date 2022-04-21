@@ -21,11 +21,11 @@ const newsSection = (): PageRow => {
               type: 'actionCard',
               action: {
                 type: 'navigate',
-                value: '/nieuws/2021-07-08',
+                value: '/nieuws/2022-04-25',
               },
               useFooterText: true,
               image: {
-                url: '/images/news/cRIVM/130852-1920.jpg',
+                url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -46,11 +46,11 @@ const newsSection = (): PageRow => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/nieuws/2021-05-27',
+                    value: '/nieuws/2021-07-08',
                   },
                   useFooterText: true,
                   image: {
-                    url: '/images/news/Nagelteek_170218496.jpg',
+                    url: '/images/news/cRIVM/130852-1920.jpg',
                     placement: 'left',
                     width: '300px',
                     maxWidth: '200px',
@@ -65,11 +65,11 @@ const newsSection = (): PageRow => {
                   type: 'actionCard',
                   action: {
                     type: 'navigate',
-                    value: '/nieuws/2021-04-19',
+                    value: '/nieuws/2021-05-27',
                   },
                   useFooterText: true,
                   image: {
-                    url: '/images/news/LP_KIDS.jpg',
+                    url: '/images/news/Nagelteek_170218496.jpg',
                     placement: 'left',
                     width: '300px',
                     maxWidth: '200px',
@@ -156,7 +156,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/cRIVM/lymecard.jpg',
+                url: '/images/cRIVM/82073-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
