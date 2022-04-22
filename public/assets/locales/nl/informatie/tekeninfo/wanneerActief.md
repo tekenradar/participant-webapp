@@ -1,6 +1,6 @@
 ## Wanneer zijn teken actief?
 
-Teken kunnen het hele jaar actief zijn als de temperatuur hoog genoeg is. In onderstaande figuur is te zien wanneer en hoeveel teken waargenomen worden.
+Teken kunnen het hele jaar actief zijn als de temperatuur hoog genoeg is. In onderstaande figuur is te zien wanneer en hoeveel teken waargenomen worden. Daarbij wordt onderscheid gemaakt in de drie levensfasen die teken doormaken: larven, nimfen en volwassen vrouwtjes teken (volwassen mannetjes bijten niet).
 
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/Tekenaantallen.jpeg" alt="Grafiek met aantallen gevangen teken (larven, nimfen en volwassen vrouwtjes) door de jaren heen 2006-2010">
@@ -9,11 +9,10 @@ Teken kunnen het hele jaar actief zijn als de temperatuur hoog genoeg is. In ond
 
 Normaal gesproken begint het aantal actieve teken in de loop van maart te stijgen. In de periode april tot en met september worden de hoogste aantallen nimfen waargenomen, met de hoogste aantallen meestal in het voorjaar. Het aantal larven loopt ook in april sterk op. Het hoogste aantal larven wordt in de periode juni tot en met september waargenomen.
 
-De dagelijkse Tekenverwachting op Tekenradar geeft alleen een verwachting van het activiteitsniveau van de nimfen. Larven worden niet meegenomen omdat de analyses moeilijker zijn en omdat de kans dat larven de Borrelia bacterie bij zich dragen heel klein is omdat ze nog niet eerder bloed hebben gedronken bij een andere gastheer.
 
 <figure className="figure mb-2 text-center w-100">
   <img className="figure-img img-fluid" style="max-width:600px;width:100%;" src="/assets/images/percentage-tekenbeten.jpeg" alt="Grafiek met per maand het percentage van het totaal aantal doorgegeven tekenbeten via Natuurkalender.nl in de periode 2006-2010">
   <figcaption className="figure-caption">Het percentage van het totaal aantal tekenbeten dat maandelijks doorgegeven is via Natuurkalender.nl in de periode 2006 tot en met 2010 (bron: Natuurkalender.nl).</figcaption>
 </figure>
 
-Bijna 35 procent van alle tekenbeten is in juni opgelopen (zie bovenstaande figuur). Dat blijkt uit de tekenbeetmeldingen op Natuurkalender.nl sinds 2006. Deze cijfers zijn enigszins vertekend. Midden in de zomer is er een hogere media-aandacht voor het onderwerp. Het algemene seizoensverloop van het aantal teken komt echter goed overeen met de tekenvangsten.
+Ongeveer 50 procent van alle tekenbeten wordt in juni opgelopen (zie bovenstaande figuur). Dat blijkt uit de tekenbeetmeldingen op tekenradar.nl sinds 2012. Deze cijfers zijn enigszins vertekend. Midden in de zomer is er een hogere media-aandacht voor het onderwerp. Het algemene seizoensverloop van het aantal teken komt echter goed overeen met de tekenvangsten.
