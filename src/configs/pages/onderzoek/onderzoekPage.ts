@@ -1,6 +1,7 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
+import { fullWidthTeaserImageRow } from "../../common/teaserImageRow"
 
 const doelenSection = (): PageRow => {
   return pageSection({
@@ -17,12 +18,7 @@ const doelenSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
-              image: {
-                url: '/images/no-license/waar-leven-teken.jpg',
-                minHeight: '200px',
-                maxHeight: '150px',
-                placement: 'top',
-              },
+              
             }
           },
         ],
@@ -268,6 +264,14 @@ export const onderzoekPage = (path: string): PageConfig => {
     path: path,
     pageKey: 'onderzoek/overzicht',
     rows: [
+      fullWidthTeaserImageRow('teaserImage', {
+        type: 'teaserImage',
+        image: {
+          url: '/images/no-license/waar-leven-teken.jpg',
+          backgroundPosition: '70% 35%',
+          height: 367,
+        },
+      }),
       doelenSection(),
       onderzoekenSection(),
       resultatenSection(),
