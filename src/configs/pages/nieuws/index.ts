@@ -13,6 +13,8 @@ import { news20200624Page } from "./news20200624Page";
 import { news20210419Page } from "./news20210419Page";
 import { news20210527Page } from "./news20210527Page";
 import { news20210708Page } from "./news20210708Page";
+//import { news20220424Page } from "./news20220424Page"; AMC berciht dat niet doorging
+import { news20220425Page } from "./news20220425Page";
 
 import { newsPage } from "./newsPage";
 
@@ -30,6 +32,8 @@ export const nieuwsContainerPage = (path: string): PageConfig => {
     archief2018Page(`${path}/archief2018`),
     archief2019Page(`${path}/archief2019`),
     // news sub-pages
+    news20220425Page(`${path}/2022-04-25`),
+    // news20220424Page(`${path}/2022-04-24`),
     news20210708Page(`${path}/2021-07-08`),
     news20210527Page(`${path}/2021-05-27`),
     news20210419Page(`${path}/2021-04-19`),
