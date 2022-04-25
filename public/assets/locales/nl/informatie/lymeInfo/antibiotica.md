@@ -1,5 +1,5 @@
 # Welke behandeling of antibiotica worden gegeven bij Lyme?
-Bij klachten die passen bij de ziekte van Lyme kun je worden behandeld met antibiotica. Een behandeling met antibiotica kan de bestaande klachten verhelpen en voorkomt dat er meer klachten van Lyme ontstaan. Schade aan de gewrichten en het zenuwstelsel herstelt niet altijd helemaal.
+Bij klachten die passen bij de ziekte van Lyme kun je worden behandeld met antibiotica. Een behandeling met antibiotica kan de bestaande klachten verhelpen en voorkomt dat er meer klachten van Lyme ontstaan. Bij late behandeling kunnen soms lange termijn klachten aan gewrichten of zenuwstelsel overgehouden worden. 
 
 ## Hoe worden kinderen en volwassenen met de ziekte van Lyme behandeld?
 Kinderen en volwassenen met de ziekte van Lyme krijgen een behandeling met antibiotica. Soms krijgen jonge kinderen een ander type antibioticum dan volwassenen en in een andere dosering. Het type antibioticum, de dosering en de duur van de behandeling hangen af van het soort klachten en hoe lang deze klachten bestaan.
