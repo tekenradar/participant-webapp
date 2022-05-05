@@ -11,6 +11,7 @@ import { contactPage } from "./pages/contactPage";
 import { privacyPage } from "./pages/privacyPage";
 import { medischePage } from "./pages/medischePage";
 import { toeganPage } from "./pages/toeganPage";
+import { notFoundPage } from "./pages/notFoundPage";
 
 const defaultRoutes = {
   auth: "/my-tekenradar",
@@ -34,5 +35,7 @@ export const pagesConfig: PagesConfig = {
     medischePage('/disclaimer'),
     toeganPage('/accessibility'),
     myTekenradarPage('/my-tekenradar'),
+    notFoundPage('/404'),
+
   ]
 }
