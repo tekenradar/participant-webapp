@@ -49,9 +49,14 @@
     "body": " ",
     "actionBtn": "Lees meer"
   },
-  "NLe": {
-    "title": "Nederlands Lymeziekte-expertise centrum (NLe)",
-    "body": " ",
-    "actionBtn": "Lees meer"
+  "inSamenwerking": {
+    "title": "In Samenwerking met"
+  },
+    "NLe": {
+      "title": "Nederlands Lymeziekte-expertise centrum (NLe)",
+      "body": " ",
+      "actionBtn": "Lees meer"
+    }
   }
-}
+
+
