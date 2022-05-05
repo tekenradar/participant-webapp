@@ -1,6 +1,7 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../../layout/rows/pageSection";
 import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout";
+import { pageRowToPageItem } from "../../../../layout/utils";
 import { fullWidthTeaserImageRow } from "../../../common/teaserImageRow";
 
 const doelenSection: PageRow = pageSection({
@@ -144,7 +145,7 @@ const partnerSection: PageRow = pageSection({
 
 const financiersSection: PageRow = pageSection({
   sectionKey: 'financiers',
-  className: 'my-3 col-12 col-md-8',
+  // className: 'my-3 col-12 col-md-8',
   rows: [
     simpleRowColLayout({
       rowKey: 'financiers-row',
@@ -193,9 +194,10 @@ const financiersSection: PageRow = pageSection({
   ]
 });
 
+
 const inSamenwerkingSection: PageRow = pageSection({
   sectionKey: 'inSamenwerking',
-  className: 'my-3 col-12 col-md-4',
+  // className: 'my-3 col-12 col-md-4',
   rows: [
     simpleRowColLayout({
       rowKey: 'financiers-row',
@@ -241,8 +243,21 @@ export const tekenradarPage = (path: string): PageConfig => {
       }),
       doelenSection,
       partnerSection,
-      financiersSection,
-      inSamenwerkingSection
+      simpleRowColLayout({
+        rowKey: 'financiers-row',
+        rowClassNameOverride: 'row gy-2a mb-3',
+        items: [
+          {
+            colClassName: 'pt-3 col-12 col-lg-8',
+            ...pageRowToPageItem(financiersSection)
+          },
+          {
+            colClassName: 'pt-3 col-12 col-lg-4',
+            ...pageRowToPageItem(inSamenwerkingSection)
+          }
+
+        ]
+      }),
     ]
   }
 }
