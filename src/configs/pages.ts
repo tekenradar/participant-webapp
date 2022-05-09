@@ -16,7 +16,7 @@ import { notFoundPage } from "./pages/notFoundPage";
 const defaultRoutes = {
   auth: "/my-tekenradar",
   unauth: "/home",
-  studyPage: "/home",
+  studyPage: "/my-tekenradar",
   surveyPage: "/surveys"
 };
 
@@ -36,6 +36,5 @@ export const pagesConfig: PagesConfig = {
     toeganPage('/accessibility'),
     myTekenradarPage('/my-tekenradar'),
     notFoundPage('/404'),
-
   ]
 }
