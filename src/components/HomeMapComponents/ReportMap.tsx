@@ -83,6 +83,8 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   const [reportData, setReportData] = useState<ReportMapSeries | undefined>()
 
   const mapTileURL = process.env.REACT_APP_MAP_TILE_URL ? process.env.REACT_APP_MAP_TILE_URL : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+  const dataURL = process.env.REACT_APP_TB_MAP_DATA_URL ? process.env.REACT_APP_TB_MAP_DATA_URL : '/data/maps/tb_report_map_data_MH_v2.json';
+  const apiKey = process.env.REACT_APP_CONTENT_SERVICE_API_KEY ? process.env.REACT_APP_CONTENT_SERVICE_API_KEY : '';
 
   useEffect(() => {
     if (reportData) {
@@ -91,7 +93,12 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   }, [reportData])
 
   useEffect(() => {
-    fetch(getExternalOrLocalContentURL('/data/maps/tb_report_map_data_MH_v2.json'))
+
+    fetch(getExternalOrLocalContentURL(dataURL), {
+      headers: {
+        'Api-Key': apiKey,
+      }
+    })
       .then(res => res.json())
       .then(json => {
         setReportData(json);
