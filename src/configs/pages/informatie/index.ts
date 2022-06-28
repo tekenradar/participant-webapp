@@ -47,7 +47,7 @@ import { amcPage } from "./tekenradar/partner/amcPage"
 import { fsdPage } from "./tekenradar/partner/fsdPage"
 import { radboudPage } from "./tekenradar/partner/radboudPage"
 import { NLePage } from "./tekenradar/financiers/NLePage"
-import { tekenencefalitisPage } from "./lyme/andereZiekten/tbePage"
+import { tekenencefalitisPage } from "./lyme/andereZiekten/tekenencefalitisPage"
 
 
 
