@@ -238,9 +238,10 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
     <div className='p-2 w-100'>
       <div className='p-2 bg-white w-100'>
         <h5 className='fw-bold mb-0'>Mensen met erythema migrans (rode ring of vlek op de huid)</h5>
-        <p className=''>
+        <p className='mb-0'>
           een vroege uiting van de ziekte van Lyme
         </p>
+        <a className='d-block mb-2' href='/informatie/lyme-in-nederland'>Meer informatie</a>
 
         {renderMap()}
         {renderSlider()}

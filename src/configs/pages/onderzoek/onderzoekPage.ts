@@ -1,6 +1,7 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
+import { fullWidthTeaserImageRow } from "../../common/teaserImageRow"
 
 const doelenSection = (): PageRow => {
   return pageSection({
@@ -17,12 +18,7 @@ const doelenSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
-              image: {
-                url: '/images/no-license/waar-leven-teken.jpg',
-                minHeight: '200px',
-                maxHeight: '150px',
-                placement: 'top',
-              },
+              
             }
           },
         ],
@@ -47,9 +43,9 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/ipads&iphonesnieuwewerken-47-1920.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/pexels-rodnae-productions-10376214y_crop.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -68,7 +64,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/iStock-482765541-1920.jpg',
+                url: '/images/cRIVM/82073-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
@@ -110,9 +106,9 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/cRIVM/180624_2914_HZF6819-1920.jpg',
-                copyrightNotice: '© RIVM',
-                copyrightNoticeXAlignment: 'start',
+                url: '/images/pexels-katerina-holmes-5905747.jpg',
+                //copyrightNotice: '© RIVM',
+                //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
                 maxHeight: '150px',
                 placement: 'top',
@@ -144,6 +140,27 @@ const onderzoekenSection = (): PageRow => {
               },
             }
           },
+          // ----------------------------
+          //{
+          //colClassName: 'col-12 col-md-4',
+          //itemKey: 'Valor_AMC',
+          //className: 'h-100',
+          //config: {
+          //type: 'actionCard',
+          //image: {
+          //  url: '/images/logo-AMC.png',
+          //  copyrightNotice: '-',
+          //  copyrightNoticeXAlignment: 'start',
+          //  minHeight: '200px',
+          //  maxHeight: '150px',
+          //  placement: 'top',
+          //},
+          //action: {
+          //  type: 'navigate',
+          //  value: '/onderzoek/Valor_AMC'
+          //},
+          //}
+          //},
         ],
       })
     ]
@@ -247,6 +264,14 @@ export const onderzoekPage = (path: string): PageConfig => {
     path: path,
     pageKey: 'onderzoek/overzicht',
     rows: [
+      fullWidthTeaserImageRow('teaserImage', {
+        type: 'teaserImage',
+        image: {
+          url: '/images/no-license/waar-leven-teken.jpg',
+          backgroundPosition: '70% 35%',
+          height: 367,
+        },
+      }),
       doelenSection(),
       onderzoekenSection(),
       resultatenSection(),

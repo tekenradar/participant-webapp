@@ -1,6 +1,7 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../../layout/rows/pageSection";
 import { simpleRowColLayout } from "../../../../layout/rows/simpleRowColLayout";
+import { pageRowToPageItem } from "../../../../layout/utils";
 import { fullWidthTeaserImageRow } from "../../../common/teaserImageRow";
 
 const doelenSection: PageRow = pageSection({
@@ -144,14 +145,14 @@ const partnerSection: PageRow = pageSection({
 
 const financiersSection: PageRow = pageSection({
   sectionKey: 'financiers',
-  className: 'my-3',
+  // className: 'my-3 col-12 col-md-8',
   rows: [
     simpleRowColLayout({
       rowKey: 'financiers-row',
       rowClassNameOverride: 'row gy-2a',
       items: [
         {
-          colClassName: 'col-12 col-md-4',
+          colClassName: 'col-12 col-md-6',
           itemKey: 'ZonMw',
           className: 'h-100',
           config: {
@@ -170,7 +171,7 @@ const financiersSection: PageRow = pageSection({
         },
         // --------------
         {
-          colClassName: 'col-12 col-md-4',
+          colClassName: 'col-12 col-md-6',
           itemKey: 'VWS',
           className: 'h-100',
           config: {
@@ -188,8 +189,22 @@ const financiersSection: PageRow = pageSection({
           }
         },
         // --------------
+      ]
+    })
+  ]
+});
+
+
+const inSamenwerkingSection: PageRow = pageSection({
+  sectionKey: 'inSamenwerking',
+  // className: 'my-3 col-12 col-md-4',
+  rows: [
+    simpleRowColLayout({
+      rowKey: 'financiers-row',
+      rowClassNameOverride: 'row gy-2a',
+      items: [
         {
-          colClassName: 'col-12 col-md-4',
+          colClassName: 'col-12',
           itemKey: 'NLe',
           config: {
             type: 'actionCard',
@@ -212,6 +227,7 @@ const financiersSection: PageRow = pageSection({
 });
 
 
+
 export const tekenradarPage = (path: string): PageConfig => {
   return {
     path: path,
@@ -227,7 +243,21 @@ export const tekenradarPage = (path: string): PageConfig => {
       }),
       doelenSection,
       partnerSection,
-      financiersSection,
+      simpleRowColLayout({
+        rowKey: 'financiers-row',
+        rowClassNameOverride: 'row gy-2a mb-3',
+        items: [
+          {
+            colClassName: 'pt-3 col-12 col-lg-8',
+            ...pageRowToPageItem(financiersSection)
+          },
+          {
+            colClassName: 'pt-3 col-12 col-lg-4',
+            ...pageRowToPageItem(inSamenwerkingSection)
+          }
+
+        ]
+      }),
     ]
   }
 }

@@ -107,7 +107,9 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   const breakpoint = 'md'
   return (<div className="p-2">
     <div className="row">
-      <div className={`col-12 col-${breakpoint}-7`}>
+      <div className={`col-12 col-${breakpoint}-7`}
+        title='Kaart met Tekenbeetmeldingen. Overzicht van de meldingen van tekenbeten, erythema migrans en overige Lyme in de afgelopen vier weken. De kaart toont alleen de meldingen binnen Nederland.'
+      >
         <MapContainer
           className="leaflet"
           style={{
@@ -148,9 +150,9 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
       </div>
       <div className={`col-12 col-${breakpoint}-5`}>
         <div className={`mt-2 mt-${breakpoint}-0`} >
-          <h3>Tekenmeldingen</h3>
+          <h3>Tekenbeetmeldingen</h3>
           <p>Overzicht van de meldingen van tekenbeten, <a href="/informatie/erythema-migrans">erythema migrans </a> en overige Lyme in de afgelopen vier weken.</p>
-          <p>De kaart toont alleen de meldingen binnen Nederland.</p>
+          <p>De kaart toont alleen de meldingen binnen Nederland, met maximaal enkele dagen vertraging.</p>
 
           {
             (selectedSeries !== undefined && reportData !== undefined) ? <div className="text-center w-100 justify-content-center">
@@ -190,7 +192,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
           />
 
           <div className="">
-            <h6 className="fw-bold">Legenda tekenmeldingen</h6>
+            <h6 className="fw-bold">Legenda tekenbeetmeldingen</h6>
 
             <div className='d-flex align-items-center mb-1'>
               <LegendMarker color={getMarkerColor('TB')} /> Tekenbeet

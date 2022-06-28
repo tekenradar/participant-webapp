@@ -96,6 +96,16 @@ const ReportButtonCard: React.FC<ReportButtonCardProps> = (props) => {
           >Voorbeelden van een rode ring of vlek</button>
         </div>
 
+        <div>
+          <button
+            className='btn btn-link mt-0 text-start fw-bold py-1'
+            role="navigation"
+            onClick={() => {
+              props.onNavigate('/onderzoek/vragenlijst');
+            }}
+          >Informatie elke week tekenbeten melden</button>
+        </div>
+
       </div>
     </div>
   );

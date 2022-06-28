@@ -34,7 +34,6 @@ import { erythemaPage } from "./lyme/erythema/erythemaPage"
 import { basiskennisLymeInNLPage } from "./lyme/lymeInNL/basiskennisLymeInNLPage"
 import { LymeEnWerkPage } from "./lyme/lymeInNL/LymeEnWerkPage"
 import { basiskennisAndereZiektenPage } from "./lyme/andereZiekten/basiskennisAndereZiektenPage"
-import { TekenencefalitisPage } from "./lyme/andereZiekten/TekenencefalitisPage"
 
 
 import { wageningenPage } from "./tekenradar/partner/wageningenPage"
@@ -48,6 +47,7 @@ import { amcPage } from "./tekenradar/partner/amcPage"
 import { fsdPage } from "./tekenradar/partner/fsdPage"
 import { radboudPage } from "./tekenradar/partner/radboudPage"
 import { NLePage } from "./tekenradar/financiers/NLePage"
+import { tekenencefalitisPage } from "./lyme/andereZiekten/tekenencefalitisPage"
 
 
 
@@ -104,7 +104,8 @@ export const informatiePage = (path: string): PageConfig => {
 
     //andereZiekteninfo
     basiskennisAndereZiektenPage(`${path}/andere-ziekten-door-teken-en-co-infecties`),
-    TekenencefalitisPage(`${path}/tekenencefalitis`),
+    tekenencefalitisPage(`${path}/tekenencefalitis`),
+
 
 
     //partner

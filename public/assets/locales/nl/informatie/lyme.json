@@ -5,7 +5,7 @@
   },
   "basiskennisLyme": {
     "title": "Hoe verloopt de ziekte van Lyme?",
-    "body": "De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. Het meest voorkomende signaal van de ziekte van Lyme is een rode ring- of vlekvormige huiduitslag (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er sprake van een blauwachtige of roze vlek. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. ",
+    "body": "De ziekte van Lyme komt door een tekenbeet. Het is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt. Het meest voorkomende verschijnsel van de ziekte van Lyme is een rode ring of vlek op de huid (erythema migrans) op de plaats waar de teek heeft gebeten. Soms is er een blauwachtige of roze vlek te zien. De ring of vlek verschijnt meestal na enkele dagen tot twee weken na de tekenbeet, maar dat kan ook pas na 3 maanden zijn. ",
     "actionBtn": "Lees meer"
   },
   "hoeKrijgJeLyme": {
@@ -20,22 +20,22 @@
   },
   "naEenTekenbeet": {
     "title": "Waar moet ik op letten na een tekenbeet?",
-    "body": "Het meest voorkomende signaal van de ziekte van Lyme is een rode ringvormige vlek op de plaats waar de teek heeft gebeten. ",
+    "body": "Het meest voorkomende verschijnsel van de ziekte van Lyme is een rode ringvormige vlek op de plaats waar de teek heeft gebeten. ",
     "actionBtn": "Lees meer"
   },
   "roodPlekje": {
-    "title": "Wat betekent een klein rood plekje na een tekenbeet op mijn huid?",
+    "title": "Wat betekent een klein rood plekje op mijn huid na een tekenbeet?",
     "body": "Een klein rood plekje op de plaats van de tekenbeet is een normale huidirritatie.",
     "actionBtn": "Lees meer"
   },
   "wanneerHuisarts": {
     "title": "Wanneer moet ik naar de huisarts?",
-    "body": "Als je een rode ring of vlek op je huid (erythema migrans) hebt gevonden en die ring of vlek in enkele dagen groter wordt, moet je naar de huisarts. ",
+    "body": "Als je een rode ring of vlek op je huid (erythema migrans) hebt gevonden en die ring of vlek binnen een paar dagen groter wordt, moet je naar de huisarts. ",
     "actionBtn": "Lees meer"
   },
   "immuunsysteem": {
     "title": "De ziekte van Lyme en het immuunsysteem",
-    "body": "Je kunt niet immuun worden tegen de ziekte van Lyme.",
+    "body": "Je kunt niet immuun worden tegen de ziekte van Lyme. Elke nieuwe tekenbeet vormt een nieuwe kans op besmetting.",
     "actionBtn": "Lees meer"
   },
   "lymeZonderTekenbeet": {
@@ -45,7 +45,7 @@
   },
   "antibiotica": {
     "title": "Welke behandeling of antibiotica worden gegeven bij Lyme?",
-    "body": "Als je klachten hebt die kunnen passen bij de ziekte van Lyme kunt je worden behandeld met antibiotica.",
+    "body": "Bij klachten die passen bij de ziekte van Lyme kun je worden behandeld met antibiotica. Een behandeling met antibiotica kan bestaande klachten verhelpen.",
     "actionBtn": "Lees meer"
   },
   "risicoLyme": {
@@ -60,7 +60,7 @@
   },
   "bloedonderzoek": {
     "title": "Wanneer wordt bloedonderzoek gedaan voor Lyme?",
-    "body": "Antistoffen tegen Lymeziekte zijn gemiddeld pas 6 tot 8 weken na de infectie meetbaar in het bloed.",
+    "body": "Antistoffen tegen lymeziekte zijn gemiddeld pas zes tot acht weken na de infectie meetbaar in het bloed.",
     "actionBtn": "Lees meer"
   },
   "aanvullendeInfo": {
