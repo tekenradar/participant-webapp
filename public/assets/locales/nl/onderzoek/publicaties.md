@@ -10,4 +10,6 @@ Mensen die preventieve antibiotica namen na een tekenbeetmelding op Tekenradar, 
 
 Volwassenen die lymeziekte meldden via Tekenradar bleken een jaar na behandeling 4-6% vaker aanhoudende klachten te hebben dan mensen zonder de ziekte. De oorzaken worden nog onderzocht. [Publicatie lezen](https://www.thelancet.com/journals/lanepe/article/PIIS2666-7762(21)00119-8/fulltext)
 
+Nieuwe testen voor lymeziekte die zijn onderzocht via Tekenradar bleken niet betrouwbaar. De onderzochte cellulaire testen gaven te vaak vals-positieve en vals-negatieve uitslagen. [Publicatie lezen](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(22)00205-5/fulltext)
+
 Momenteel worden nog verschillende onderzoeken via Tekenradar.nl geanalyseerd of uitgevoerd, mede gefinancierd door ZonMw en het ministerie van VWS. Zodra onderzoeksresultaten beschikbaar komen zullen ze op deze website worden getoond.

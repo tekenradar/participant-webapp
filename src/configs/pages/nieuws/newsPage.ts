@@ -16,14 +16,14 @@ const nieuwsSection = (): PageRow => {
           items: [
             {
               colClassName: 'col-12',
-              itemKey: '20220425',
+              itemKey: '20220615',
               className: 'h-100',
               config: {
                 type: 'actionCard',
                 useFooterText: true,
                 image: {
-                  url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
-                  copyrightNotice: '© RIVM',
+                  url: '/images/SK-Lab-RIVM-66.jpg',
+                  //copyrightNotice: '© RIVM',
                   copyrightNoticeXAlignment: 'start',
                   minHeight: '200px',
                   maxHeight: '250px',
@@ -31,7 +31,7 @@ const nieuwsSection = (): PageRow => {
                 },
                 action: {
                   type: 'navigate',
-                  value: '/nieuws/2022-04-25'
+                  value: '/nieuws/2022-06-15'
                 },
               }
             },
@@ -57,6 +57,27 @@ const nieuwsSection = (): PageRow => {
             //   }
             // },
             // second card
+            {
+              colClassName: 'col-12',
+              itemKey: '20220425',
+              className: 'h-100',
+              config: {
+                type: 'actionCard',
+                useFooterText: true,
+                image: {
+                  url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
+                  className: 'd-none d-md-block',
+                  minWidth: '300px',
+                  maxWidth: '350px',
+                  placement: 'left',
+                },
+                action: {
+                  type: 'navigate',
+                  value: '/nieuws/2022-04-25'
+                },
+              }
+            },
+            //etc
             {
               colClassName: 'col-12',
               itemKey: '20210708',

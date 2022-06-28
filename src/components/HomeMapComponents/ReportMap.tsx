@@ -107,7 +107,9 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   const breakpoint = 'md'
   return (<div className="p-2">
     <div className="row">
-      <div className={`col-12 col-${breakpoint}-7`}>
+      <div className={`col-12 col-${breakpoint}-7`}
+        title='Kaart met Tekenbeetmeldingen. Overzicht van de meldingen van tekenbeten, erythema migrans en overige Lyme in de afgelopen vier weken. De kaart toont alleen de meldingen binnen Nederland.'
+      >
         <MapContainer
           className="leaflet"
           style={{
