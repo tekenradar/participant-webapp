@@ -5,7 +5,7 @@ import { LocalizedObject, LocalizedString, ResponseItem } from 'survey-engine/da
 
 import icon from './map-marker.png';
 
-import { LatLngBounds, LatLngLiteral } from 'leaflet';
+import { LatLngBounds, LatLngLiteral, LatLng } from 'leaflet';
 
 
 var L = require('leaflet');
@@ -163,25 +163,26 @@ const TickMapResponse: React.FC<TickMapResponseProps> = (props) => {
       return;
     }
     setLastUsedZoomLevel(currentZoomLevel);
+    const wrappedPosition = new LatLng(markerPosition.lat, markerPosition.lng).wrap()
     const newResponse = {
       key: props.compDef.key ? props.compDef.key : 'no key found',
       items: [
-        { key: 'lat', value: markerPosition.lat.toString() },
-        { key: 'lng', value: markerPosition.lng.toString() },
+        { key: 'lat', value: wrappedPosition.lat.toString() },
+        { key: 'lng', value: wrappedPosition.lng.toString() },
         { key: 'zoom', value: currentZoomLevel.toFixed(0) },
         { key: 'crs', value: "WGS-84" },
         {
           key: 'bounds', items: [
             {
               key: 'southWest', items: [
-                { key: 'lat', value: currentBounds?.getSouthWest().lat.toString() },
-                { key: 'lng', value: currentBounds?.getSouthWest().lng.toString() },
+                { key: 'lat', value: currentBounds?.getSouthWest().wrap().lat.toString() },
+                { key: 'lng', value: currentBounds?.getSouthWest().wrap().lng.toString() },
               ]
             },
             {
               key: 'northEast', items: [
-                { key: 'lat', value: currentBounds?.getNorthEast().lat.toString() },
-                { key: 'lng', value: currentBounds?.getNorthEast().lng.toString() },
+                { key: 'lat', value: currentBounds?.getNorthEast().wrap().lat.toString() },
+                { key: 'lng', value: currentBounds?.getNorthEast().wrap().lng.toString() },
               ]
             },
           ]

@@ -4,7 +4,7 @@ import { meldenCard } from "../../../../cards/meldenCard";
 import { simpleRowColLayout } from "../../../../../layout/rows/simpleRowColLayout";
 import { pageSection } from "../../../../../layout/rows/pageSection";
 
-export const TekenencefalitisPage = (path: string): PageConfig => {
+export const tekenencefalitisPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'informatie/andereZiekten/Tekenencefalitis',
