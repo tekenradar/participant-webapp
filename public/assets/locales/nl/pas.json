@@ -1,4 +1,8 @@
 {
   "title": "Pas",
+  "contact": {
+    "title": "Contact",
+    "body": "Neem contact met ons op",
+    "actionBtn": "Naar de contactpagina"
+  }
 }
-
