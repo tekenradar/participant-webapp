@@ -260,6 +260,9 @@ export const homePage = (path: string): PageConfig => {
     path: path,
     pageKey: 'home',
     hideTitleBar: true,
+    helmet: {
+      override: 'global'
+    },
     rows: [
       {
         key: 'row1',

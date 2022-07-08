@@ -36,7 +36,11 @@ export const onderzoekContainerPage = (path: string): PageConfig => {
     hideTitleBar: true,
     rows: [],
     subPages: {
-      pages: onderzoekSubPages
+      defaultRoutes: {
+        auth: '/404',
+        unauth: '/404'
+      },
+      pages: onderzoekSubPages,
     },
   }
 }
