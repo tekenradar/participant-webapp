@@ -51,6 +51,10 @@ export const nieuwsContainerPage = (path: string): PageConfig => {
     hideTitleBar: true,
     rows: [],
     subPages: {
+      defaultRoutes: {
+        auth: '/404',
+        unauth: '/404'
+      },
       pages: nieuwsSubPages
     },
   }
