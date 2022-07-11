@@ -12,6 +12,7 @@ import { privacyPage } from "./pages/privacyPage";
 import { medischePage } from "./pages/medischePage";
 import { toeganPage } from "./pages/toeganPage";
 import { notFoundPage } from "./pages/notFoundPage";
+import { pasPage } from "./pages/pas";
 
 const defaultRoutes = {
   auth: "/my-tekenradar",
@@ -27,6 +28,7 @@ export const pagesConfig: PagesConfig = {
     onderzoekContainerPage('/onderzoek'),
     informatiePage('/informatie'),
     nieuwsContainerPage('/nieuws'),
+    pasPage('/pas'),
     faqPage('/faq'),
     meldenPage('/melden'),
     settingsPage('/settings'),

@@ -18,7 +18,7 @@ const doelenSection = (): PageRow => {
             className: 'h-100',
             config: {
               type: 'actionCard',
-              
+
             }
           },
         ],
