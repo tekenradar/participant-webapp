@@ -12,6 +12,7 @@ export interface NewsItem {
       url?: string;
       height?: number;
       backgroundPosition?: string;
+      imageCopyRightLabel?: string;
     },
   }
 }
@@ -34,13 +35,15 @@ export const newsItems: NewsItem[] = [
     "url": "/nieuws/2022-04-25",
     "cardContent": {
       "imageURL": "/images/news/cRIVM/iStock-543087666-1920.jpg",
+      "imageCopyRightLabel": "© RIVM"
     },
     "pageContent": {
       "teaserImage": {
         "use": true,
         "url": "/images/news/cRIVM/iStock-543087666-1920.jpg",
         "height": 367,
-        "backgroundPosition": "70% 35%"
+        "backgroundPosition": "70% 35%",
+        "imageCopyRightLabel": "© RIVM"
       }
     }
   },
@@ -49,13 +52,15 @@ export const newsItems: NewsItem[] = [
     "url": "/nieuws/2021-07-08",
     "cardContent": {
       "imageURL": "/images/news/cRIVM/130852-1920.jpg",
+      "imageCopyRightLabel": "© RIVM"
     },
     "pageContent": {
       "teaserImage": {
         "use": true,
         "url": "/images/news/cRIVM/130852-1920.jpg",
         "height": 367,
-        "backgroundPosition": "70% 35%"
+        "backgroundPosition": "70% 35%",
+        "imageCopyRightLabel": "© RIVM"
       }
     }
   },
@@ -102,7 +107,8 @@ export const newsItems: NewsItem[] = [
         "use": true,
         "url": "/images/news/cRIVM/77077-1920.jpg",
         "height": 367,
-        "backgroundPosition": "30% 65%"
+        "backgroundPosition": "30% 65%",
+        "imageCopyRightLabel": "© RIVM"
       }
     }
   },

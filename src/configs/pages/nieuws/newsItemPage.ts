@@ -18,6 +18,7 @@ export const renderNewsItemPage = (newsItem: NewsItem, previousItem?: NewsItem, 
           url: previousItem?.cardContent.imageURL ? previousItem?.cardContent.imageURL : '/images/no-license/waar-leven-teken.jpg',
           backgroundPosition: '50% 50%',
         },
+        hideBodyContent: true,
         action: {
           type: 'navigate',
           value: previousItem ? previousItem.url : '/home'
@@ -33,6 +34,7 @@ export const renderNewsItemPage = (newsItem: NewsItem, previousItem?: NewsItem, 
       className: "h-100",
       config: {
         type: 'actionCard',
+        hideBodyContent: true,
         action: {
           type: 'navigate',
           value: nextItem.url
@@ -70,6 +72,8 @@ export const renderNewsItemPage = (newsItem: NewsItem, previousItem?: NewsItem, 
         url: newsItem.pageContent.teaserImage.url ? newsItem.pageContent.teaserImage.url : newsItem.cardContent.imageURL,
         backgroundPosition: newsItem.pageContent.teaserImage.backgroundPosition,
         height: newsItem.pageContent.teaserImage.height,
+        copyrightNotice: newsItem.pageContent.teaserImage.imageCopyRightLabel,
+        copyrightNoticeXAlignment: 'start'
       },
     } : undefined,
     sideBarItems: [

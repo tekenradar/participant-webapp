@@ -1,7 +1,7 @@
 import { PageConfig, PageItem, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { leadColLayout } from "../../layout/rows/leadColLayout"
 import { pageSection } from "../../layout/rows/pageSection"
-import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
+import { PageItemWithCol, simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
 import { meldenCard } from "../cards/meldenCard"
 import { newsItems } from "./nieuws/newsItems"
 
@@ -26,6 +26,31 @@ const getTopNewsItemCard = (): PageItem => {
     }
   };
 };
+const getOtherNewsItemCard = (index: number): PageItemWithCol => {
+  const newsItem = newsItems[index]
+  return {
+    colClassName: 'col-12',
+    itemKey: `global:${newsItem.url.substring(1).replaceAll('/', '.')}`,
+    className: 'h-100',
+    config: {
+      type: 'actionCard',
+      action: {
+        type: 'navigate',
+        value: newsItem.url,
+      },
+      useFooterText: true,
+      hideBodyContent: true,
+      image: {
+        url: newsItem.cardContent.imageURL,
+        copyrightNotice: newsItem.cardContent.imageCopyRightLabel,
+        copyrightNoticeXAlignment: 'start',
+        placement: 'left',
+        width: '300px',
+        maxWidth: '200px',
+      }
+    }
+  };
+};
 
 const newsSection = (): PageRow => {
   return pageSection({
@@ -42,48 +67,8 @@ const newsSection = (): PageRow => {
         panelRows: [
           simpleRowColLayout({
             rowKey: 'row1', items: [
-              {
-                colClassName: 'col-12',
-                itemKey: 'topNews1',
-                //className: 'mt-3',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/nieuws/2022-04-25',
-                  },
-                  useFooterText: true,
-                  image: {
-                    url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
-                    copyrightNotice: '© RIVM',
-                    copyrightNoticeXAlignment: 'start',
-                    placement: 'left',
-                    width: '300px',
-                    maxWidth: '200px',
-                  }
-                }
-              },
-              {
-                colClassName: 'col-12',
-                itemKey: 'topNews2',
-                //className: 'mt-3',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/nieuws/2021-07-08',
-                  },
-                  useFooterText: true,
-                  image: {
-                    url: '/images/news/cRIVM/130852-1920.jpg',
-                    copyrightNotice: '© RIVM',
-                    copyrightNoticeXAlignment: 'start',
-                    placement: 'left',
-                    width: '300px',
-                    maxWidth: '200px',
-                  }
-                }
-              },
+              getOtherNewsItemCard(1),
+              getOtherNewsItemCard(2),
               {
                 colClassName: 'col-12',
                 itemKey: 'openNews',
