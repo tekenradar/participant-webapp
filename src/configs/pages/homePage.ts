@@ -1,8 +1,31 @@
-import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageItem, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { leadColLayout } from "../../layout/rows/leadColLayout"
 import { pageSection } from "../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
 import { meldenCard } from "../cards/meldenCard"
+import { newsItems } from "./nieuws/newsItems"
+
+const getTopNewsItemCard = (): PageItem => {
+  const newsItem = newsItems[0]
+  return {
+    itemKey: `global:${newsItem.url.substring(1).replaceAll('/', '.')}`,
+    className: 'h-100',
+    config: {
+      type: 'actionCard',
+      action: {
+        type: 'navigate',
+        value: newsItem.url,
+      },
+      useFooterText: true,
+      image: {
+        url: newsItem.cardContent.imageURL,
+        placement: 'top',
+        height: '250px',
+        maxHeight: '400px',
+      }
+    }
+  };
+};
 
 const newsSection = (): PageRow => {
   return pageSection({
@@ -14,24 +37,7 @@ const newsSection = (): PageRow => {
         leadColClassName: 'col-12 col-sm-10 col-md-5 col-lg-6',
         panelColClassName: 'col-12 col-sm-10 col-md-7 col-lg-6',
         leadItems: [
-          {
-            itemKey: 'topNews',
-            className: 'h-100',
-            config: {
-              type: 'actionCard',
-              action: {
-                type: 'navigate',
-                value: '/nieuws/2022-06-15',
-              },
-              useFooterText: true,
-              image: {
-                url: '/images/SK-Lab-RIVM-66.jpg',
-                placement: 'top',
-                height: '250px',
-                maxHeight: '400px',
-              }
-            }
-          },
+          getTopNewsItemCard(),
         ],
         panelRows: [
           simpleRowColLayout({

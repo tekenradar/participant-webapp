@@ -1,6 +1,6 @@
 import { PageItem, PageRow } from "case-web-app-core/build/types/pagesConfig";
 
-interface PageItemWithCol extends PageItem {
+export interface PageItemWithCol extends PageItem {
   colClassName: string;
 }
 

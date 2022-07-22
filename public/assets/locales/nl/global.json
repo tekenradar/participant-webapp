@@ -17,5 +17,24 @@
   "helmet": {
     "title": "Tekenradar",
     "description": "Informatie voor artsen, patienten over teken, -beten, -activiteit, erythema migrans (rode ring op huid), Lyme. Teken verwijderen. Ziektes die teken doorgeven. Onderzoek naar teken en ziekten."
+  },
+  "nieuws": {
+    "backToOverviewCard": {
+      "title": "Terug naar het overzicht",
+      "body": "Vind meer nieuwsartikelen. ",
+      "actionBtn": "Naar de overzichtspagina"
+    },
+    "2022-06-15": {
+      "title": "Nieuwe test voor lymeziekte niet betrouwbaar",
+      "body": "Om vast te kunnen stellen of iemand lymeziekte heeft, gebruiken artsen in Nederland vaak antistoftesten... ",
+      "actionBtn": "Lees meer",
+      "footer": "15.06.2022"
+    },
+    "2022-04-25": {
+      "title": "Tien jaar Tekenradar: 80.000 tekenbeetmeldingen, kans op tekenbeet in Drenthe het hoogst",
+      "body": "Door 80.000 tekenbeetmeldingen in 10 jaar via Tekenradar.nl  ... ",
+      "footer": "25.04.2022",
+      "actionBtn": "Lees verder"
+    }
   }
 }

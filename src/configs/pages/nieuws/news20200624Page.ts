@@ -61,7 +61,7 @@ export const news20200624Page = (path: string): PageConfig => {
               },
               {
                 colClassName: 'col-12',
-                itemKey: 'backToOverview',
+                itemKey: 'global:nieuws.backToOverview',
                 className: "mt-2",
                 config: {
                   type: 'actionCard',

@@ -2,6 +2,7 @@ import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
 import { fullWidthTeaserImageRow } from "../../common/teaserImageRow"
+import { newsItems } from "./newsItems"
 
 const nieuwsSection = (): PageRow => {
   return pageSection(
@@ -16,7 +17,7 @@ const nieuwsSection = (): PageRow => {
           items: [
             {
               colClassName: 'col-12',
-              itemKey: '20220615',
+              itemKey: `global:${newsItems[0].url.substring(1).replaceAll('/', '.')}`,
               className: 'h-100',
               config: {
                 type: 'actionCard',
