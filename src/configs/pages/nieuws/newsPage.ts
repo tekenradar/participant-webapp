@@ -1,215 +1,9 @@
 import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../../layout/rows/pageSection"
-import { simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
+import { PageItemWithCol, simpleRowColLayout } from "../../../layout/rows/simpleRowColLayout"
 import { fullWidthTeaserImageRow } from "../../common/teaserImageRow"
 import { newsItems } from "./newsItems"
 
-const nieuwsSection = (): PageRow => {
-  return pageSection(
-    //first card
-    {
-      sectionKey: 'Nieuws',
-      className: 'mt-3',
-      rows: [
-        simpleRowColLayout({
-          rowKey: 'Nieuws',
-          rowClassNameOverride: 'row gy-2a ',
-          items: [
-            {
-              colClassName: 'col-12',
-              itemKey: `global:${newsItems[0].url.substring(1).replaceAll('/', '.')}`,
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/SK-Lab-RIVM-66.jpg',
-                  //copyrightNotice: '© RIVM',
-                  copyrightNoticeXAlignment: 'start',
-                  minHeight: '200px',
-                  maxHeight: '250px',
-                  placement: 'top',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2022-06-15'
-                },
-              }
-            },
-            // //
-            // {
-            //   colClassName: 'col-12',
-            //   itemKey: '20220424',
-            //   className: 'h-100',
-            //   config: {
-            //     type: 'actionCard',
-            //     useFooterText: true,
-            //     image: {
-            //       url: '/images/logo-AMC.png',
-            //       className: 'd-none d-md-block',
-            //       minWidth: '300px',
-            //       maxWidth: '350px',
-            //       placement: 'left',
-            //     },
-            //     action: {
-            //       type: 'navigate',
-            //       value: '/nieuws/2022-04-24'
-            //     },
-            //   }
-            // },
-            // second card
-            {
-              colClassName: 'col-12',
-              itemKey: '20220425',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2022-04-25'
-                },
-              }
-            },
-            //etc
-            {
-              colClassName: 'col-12',
-              itemKey: '20210708',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/cRIVM/130852-1920.jpg',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2021-07-08'
-                },
-              }
-            },
-            //etc
-            {
-              colClassName: 'col-12',
-              itemKey: '20210527',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/Nagelteek_170218496.jpg',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2021-05-27'
-                },
-              }
-            },
-            // etc
-            {
-              colClassName: 'col-12',
-              itemKey: '20210419',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/LP_KIDS.jpg',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2021-04-19'
-                },
-              }
-            },
-            {
-              colClassName: 'col-12',
-              itemKey: '20200624',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/cRIVM/77077-1920.jpg',
-                  copyrightNotice: '© RIVM',
-                  copyrightNoticeXAlignment: 'start',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2020-06-24'
-                },
-              }
-            },
-            {
-              colClassName: 'col-12',
-              itemKey: '20200623',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/cOTHER/tekenapp.jpeg',
-                  copyrightNotice: '© Nature Today',
-                  copyrightNoticeXAlignment: 'start',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2020-06-23'
-                },
-              }
-            },
-            {
-              colClassName: 'col-12',
-              itemKey: '20200622',
-              className: 'h-100',
-              config: {
-                type: 'actionCard',
-                useFooterText: true,
-                image: {
-                  url: '/images/news/foto-teek.jpg',
-                  className: 'd-none d-md-block',
-                  minWidth: '300px',
-                  maxWidth: '350px',
-                  placement: 'left',
-                },
-                action: {
-                  type: 'navigate',
-                  value: '/nieuws/2020-06-22'
-                },
-              }
-            },
-          ],
-        })
-      ]
-    })
-}
 
 const archiefSection = (): PageRow => {
   return pageSection({
@@ -392,8 +186,63 @@ const archiefSection = (): PageRow => {
 }
 
 
+const getSectionForYear = (year: number): PageRow => {
+  const currentNewsItems = newsItems.filter(item => item.year === year)
 
+  return pageSection(
+    //first card
+    {
+      sectionKey: `global:nieuws.sections.${year.toString()}`,
+      className: 'mt-3',
+      rows: [
+        simpleRowColLayout({
+          rowKey: 'Nieuws',
+          rowClassNameOverride: 'row gy-2a ',
+          items: [
+            ...currentNewsItems.map((newsItem, index) => {
+              const isFirstItem: boolean = index === 0 && !newsItem.cardContent.imageAlwaysOnLeft;
+              return {
+                colClassName: 'col-12',
+                itemKey: `global:${newsItem.url.substring(1).replaceAll('/', '.')}`,
+                className: 'h-100',
+                config: {
+                  type: 'actionCard',
+                  useFooterText: true,
+                  image: {
+                    url: newsItem.cardContent.imageURL,
+                    copyrightNotice: newsItem.cardContent.imageCopyRightLabel,
+                    copyrightNoticeXAlignment: 'start',
+                    className: isFirstItem ? undefined : 'd-none d-md-block',
+                    minHeight: isFirstItem ? '200px' : undefined,
+                    maxHeight: isFirstItem ? '250px' : undefined,
+                    minWidth: isFirstItem ? undefined : '300px',
+                    maxWidth: isFirstItem ? undefined : '350px',
+                    placement: isFirstItem ? 'top' : 'left',
+                  },
+                  action: {
+                    type: 'navigate',
+                    value: newsItem.url
+                  },
+                }
+              } as PageItemWithCol
+            }),
+          ]
+        })
+      ]
+    }
+  )
+}
 
+const getYearlySections = (): PageRow[] => {
+  const years: number[] = [];
+  newsItems.forEach(item => {
+    if (!years.includes(item.year)) {
+      years.push(item.year)
+    }
+  })
+
+  return years.map(year => getSectionForYear(year))
+}
 
 
 export const newsPage = (path: string): PageConfig => {
@@ -409,7 +258,7 @@ export const newsPage = (path: string): PageConfig => {
           height: 367,
         },
       }),
-      nieuwsSection(),
+      ...getYearlySections(),
       archiefSection(),
     ]
   }

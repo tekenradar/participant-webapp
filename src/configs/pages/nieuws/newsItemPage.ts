@@ -10,7 +10,7 @@ export const renderNewsItemPage = (newsItem: NewsItem, previousItem?: NewsItem, 
   const references: PageItemWithCol[] = [
     {
       colClassName: nextItem ? 'col-12 col-sm-6' : 'col-12',
-      itemKey: previousItem ? `global:${previousItem.url.substring(1).replaceAll('/', '.')}` : 'previousArticle',
+      itemKey: previousItem ? `global:${previousItem.url.substring(1).replaceAll('/', '.')}` : 'global:nieuws.backToHomeCard',
       className: "h-100",
       config: {
         type: 'actionCard',
