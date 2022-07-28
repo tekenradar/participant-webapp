@@ -17,6 +17,7 @@ const getTopNewsItemCard = (): PageItem => {
         value: newsItem.url,
       },
       useFooterText: true,
+      hideBodyContent: true,
       image: {
         url: newsItem.cardContent.imageURL,
         placement: 'top',

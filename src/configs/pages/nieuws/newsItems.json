@@ -1,10 +1,12 @@
 {
   "newsItems": [
     {
-      "year": 2022,
       "url": "/nieuws/2022-06-15",
+      "year": 2022,
       "cardContent": {
-        "imageURL": "/images/SK-Lab-RIVM-66.jpg"
+        "imageURL": "/images/SK-Lab-RIVM-66.jpg",
+        "imageCopyRightLabel": "",
+        "imageAlwaysOnLeft": false
       },
       "pageContent": {
         "teaserImage": {
@@ -13,11 +15,12 @@
       }
     },
     {
-      "year": 2022,
       "url": "/nieuws/2022-04-25",
+      "year": 2022,
       "cardContent": {
         "imageURL": "/images/news/cRIVM/iStock-543087666-1920.jpg",
-        "imageCopyRightLabel": "© RIVM"
+        "imageCopyRightLabel": "© RIVM",
+        "imageAlwaysOnLeft": false
       },
       "pageContent": {
         "teaserImage": {
