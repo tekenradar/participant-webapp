@@ -18,7 +18,8 @@ const defaultRoutes = {
   auth: "/my-tekenradar",
   unauth: "/home",
   studyPage: "/my-tekenradar",
-  surveyPage: "/surveys"
+  surveyPage: "/surveys",
+  notFound: "/404"
 };
 
 export const pagesConfig: PagesConfig = {
