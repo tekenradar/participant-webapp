@@ -112,7 +112,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/pexels-rodnae-productions-8068694.jpg',
+                url: '/images/small-pexels-rodnae-productions-8068694.jpg',
                 //copyrightNotice: '© RIVM',
                 //copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -132,7 +132,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/teken',
               },
               image: {
-                url: '/images/no-license/teken-card.jpg',
+                url: '/images/small-teken-card.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -150,7 +150,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/cRIVM/82073-1920.jpg',
+                url: '/images/small-82073-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -171,7 +171,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/faq',
               },
               image: {
-                url: '/images/faq.jpg',
+                url: '/images/small-faq.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -189,7 +189,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/hoe-verwijder-ik-een-teek',
               },
               image: {
-                url: '/images/cRIVM/82106-1920.jpg',
+                url: '/images/small-82106-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -209,7 +209,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/tekenradar',
               },
               image: {
-                url: '/images/tekenradarWithBackground.jpg',
+                url: '/images/small-tekenradarWithBackground.jpg',
                 //backgroundSize: 'contain',
                 placement: 'top',
                 height: '200px',
