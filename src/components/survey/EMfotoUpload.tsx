@@ -74,7 +74,7 @@ const EMfotoUpload: React.FC<EMfotoUploadProps> = (props) => {
       <p>Hieronder kun je een afbeelding selecteren en uploaden. Je foto wordt direct geüpload zodra je op 'open' drukt.</p>
       <FileDropzone
         placeholderText='Klik hier om een bestand te uploaden'
-        accept={['image/jpeg', 'image/png']}
+        accept={{ "image/*": ['.jpeg', '.png'] }}
         maxFiles={1}
         onDrop={(acceptedFiles, rejected, event) => {
           if (acceptedFiles.length > 0) {
