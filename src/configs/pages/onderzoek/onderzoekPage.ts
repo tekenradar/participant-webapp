@@ -263,6 +263,9 @@ export const onderzoekPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'onderzoek/overzicht',
+    helmet: {
+      override: 'local'
+    },
     rows: [
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',
