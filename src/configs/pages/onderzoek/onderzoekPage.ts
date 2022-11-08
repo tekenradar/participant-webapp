@@ -43,7 +43,7 @@ const onderzoekenSection = (): PageRow => {
             config: {
               type: 'actionCard',
               image: {
-                url: '/images/pexels-rodnae-productions-10376214y_crop.jpg',
+                url: '/images/small-pexels-rodnae-productions-10376214y_crop.jpg',
                 //copyrightNotice: '© RIVM',
                 //copyrightNoticeXAlignment: 'start',
                 minHeight: '200px',
@@ -263,6 +263,9 @@ export const onderzoekPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'onderzoek/overzicht',
+    helmet: {
+      override: 'local'
+    },
     rows: [
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',

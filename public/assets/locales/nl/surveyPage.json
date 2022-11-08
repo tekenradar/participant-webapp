@@ -10,5 +10,42 @@
   "notValidQuestion": "Selecteer een geldig antwoord.",
   "backBtn": "Terug",
   "nextBtn": "Volgende",
-  "submitBtn": "Opslaan en verder gaan"
+  "submitBtn": "Opslaan en verder gaan",
+  "surveyLoadingError": {
+    "content": "Er is helaas iets mis gegaan bij het laden van de vragenlijst.\n\nProbeer het nog eens of neem [contact](mailto:info@tekenradar.nl) op als het probleem zich voort blijft doen.",
+    "btn": "Opnieuw proberen"
+  },
+  "surveySubmissionError": {
+    "content": "Er is helaas iets mis gegaan bij het verzenden van de vragenlijst.\n\nProbeer het nog eens of neem [contact](mailto:info@tekenradar.nl) op als het probleem zich voort blijft doen.",
+    "btn": "Opnieuw proberen"
+  },
+  "profileSelectionDialog": {
+    "title": "Selecteer een profiel",
+    "info": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
+    "manageProfilesBtn": "Maak een nieuw profiel"
+  },
+  "submitSuccessDialog": {
+    "title": "Info",
+    "content": "Je vragenlijst is succesvol ingediend.",
+    "btn": "Doorgaan"
+  },
+  "loginRequiredDialog": {
+    "title": "Inloggen",
+    "info": "Log in om verder te gaan met de vragenlijst, of maak een Tekenradar account aan als je die nog niet hebt.\n\nMet een account kun je tekenbeten en Lyme melden, en bijdragen aan onderzoek. In je account vind je een overzicht van je gemelde tekenbeten.",
+    "loginBtn": "Log in",
+    "registerBtn": "Maak een account aan"
+  },
+  "submitSuccessWithLoginOptionsDialog": {
+    "title": "Info",
+    "successMsg": "Je antwoorden zijn succesvol opgeslagen",
+    "info": "Wil je je melding kunnen terugvinden in \"Mijn Tekenradar\", log dan in zodat we je melding kunnen koppelen aan je account. \n\n Wil je een Tekenradar account aanmaken? Klik dan hieronder op 'Aanmelden'. Met een account kun je tekenbeten en Lyme blijven melden, en bijdragen aan onderzoek.",
+    "loginBtn": "Inloggen",
+    "registerBtn": "Aanmelden",
+    "withoutAccountBtn": "Doorgaan zonder account"
+  },
+  "tempParticipantConversionSuccessDialog": {
+    "title": "Info",
+    "content": "Je melding is succesvol opgeslagen en toegevoegd in Mijn Tekenradar. Klik op Oké om terug te gaan naar de startpagina.",
+    "btn": "Oké"
+  }
 }

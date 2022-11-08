@@ -8,6 +8,9 @@ export const hoeVerwijderPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'informatie/tekenbeetinfo/hoeVerwijder',
+    helmet: {
+      override: 'local'
+    },
     topImage: {
       type: 'teaserImage',
       image: {

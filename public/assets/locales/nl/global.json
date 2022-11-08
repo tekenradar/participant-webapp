@@ -17,5 +17,106 @@
   "helmet": {
     "title": "Tekenradar",
     "description": "Informatie voor artsen, patienten over teken, -beten, -activiteit, erythema migrans (rode ring op huid), Lyme. Teken verwijderen. Ziektes die teken doorgeven. Onderzoek naar teken en ziekten."
+  },
+  "nieuws": {
+    "backToHomeCard": {
+      "title": "Terug naar het startpagina",
+      "body": "Vind meer informatie. ",
+      "actionBtn": "Naar de startpagina"
+    },
+    "backToOverviewCard": {
+      "title": "Terug naar het overzicht",
+      "body": "Vind meer nieuwsartikelen. ",
+      "actionBtn": "Naar de overzichtspagina"
+    },
+    "2022-06-15": {
+      "title": "Nieuwe test voor lymeziekte niet betrouwbaar",
+      "body": "Om vast te kunnen stellen of iemand lymeziekte heeft, gebruiken artsen in Nederland vaak antistoftesten. Sinds enige tijd zijn er zogenaamde cellulaire testen op de markt. Deze testen zijn niet betrouwbaar blijkt uit de VICTORY-studie van Amsterdam UMC, Radboudumc en het RIVM. Ewoud Baarsma, onderzoeker bij Amsterdam UMC: “Met deze nieuwe testen krijgen teveel mensen onterecht een negatieve of positieve uitslag.” De resultaten van het onderzoek staan in The Lancet Infectious Diseases. De standaard bloedtest voor de ziekte van Lyme meet zogeheten antistoffen tegen de lymebacterie. “Met een positieve uitslag van de antistoftest weet je niet altijd of de infectie met de lymebacterie nú plaatsvindt of dat de antistoffen nog aanwezig zijn van een eerdere, misschien al genezen infectie”, vertelt ...",
+      "footer": "15.06.2022",
+      "actionBtn": "Lees meer"
+    },
+    "2022-04-25": {
+      "title": "Tien jaar Tekenradar: 80.000 tekenbeetmeldingen, kans op tekenbeet in Drenthe het hoogst",
+      "body": "Door 80.000 tekenbeetmeldingen in 10 jaar via Tekenradar.nl weten we nu dat je in Drenthe de grootste kans hebt op een tekenbeet. Snel een teek verwijderen halveert de kans op de ziekte van Lyme. Ook weten we beter hoe we de ziekte van Lyme kunnen herkennen. Vanaf nu kunnen mensen wekelijks aangeven of ze gebeten zijn. Daardoor is binnenkort op elk moment zichtbaar wat de actuele kans op een tekenbeet is. Precies tien jaar geleden lanceerden het RIVM en Wageningen University Tekenradar.nl: het citizen science-netwerk voor onderzoek naar en voorlichting over tekenbeten en de ziekte van Lyme. Sindsdien zijn er ruim 80.000 tekenbeten gemeld. Diverse onderzoeken in samenwerking met de Lyme-centra van Amsterdam UMC en Radboudumc leverden veel nieuwe inzichten op. Daardoor weten we beter waar ...",
+      "footer": "25.04.2022",
+      "actionBtn": "Lees meer"
+    },
+    "2021-07-08": {
+      "title": "Zomerse piek in activiteit van besmette teken valt samen met piek in tekenbeetmeldingen",
+      "body": "Uit langlopend onderzoek blijkt dat het aantal teken besmet met de lymebacterie het hoogst is in juni. Rond dezelfde periode meldden mensen ook de meeste tekenbeten. Over de hele studieperiode daalde het percentage besmette teken terwijl het aantal actieve teken iets steeg. Het aantal besmette teken per vierkante meter (tekendichtheid) bleef daardoor gelijk. \n\n Van 2009 tot en met 2016 vingen vrijwilligers elke maand teken met een wit doek op steeds dezelfde plek. Dat deden zij in het kader van het Natuurkalenderprogramma van Wageningen University. In twaalf gebieden (zie Figuur 1) werden van januari 2009 tot en met juni 2016 bijna 27 duizend tekennimfen gevangen (zie afbeelding 1 voor de verschillende levensstadia van de teek). De resultaten werden eerder dit jaar gepubliceerd in het ... ",
+      "footer": "08.07.2021",
+      "actionBtn": "Lees verder"
+    },
+    "2021-05-27": {
+      "title": "Vaker aanhoudende klachten na ziekte van Lyme",
+      "body": "Ruim een kwart van de mensen met de ziekte van Lyme houdt, ook na de behandeling, langdurige klachten die leiden tot beperkingen in het dagelijks leven. Het gaat hier om klachten zoals vermoeidheid, pijn en concentratieproblemen. Deze klachten kunnen ook voorkomen bij mensen zonder de ziekte van Lyme, maar minder vaak en minder ernstig dan bij lymepatiënten. Dit blijkt uit het grootschalige Nederlandse onderzoek LymeProspect, uitgevoerd door het RIVM, Radboudumc en Amsterdam UMC. ...",
+      "footer": "27.05.2021",
+      "actionBtn": "Lees verder"
+    },
+    "2021-04-19": {
+      "title": "Teken bijten bij kinderen vaker in hoofd en nek",
+      "body": "Voor het eerst is via Tekenradar.nl onderzoek gedaan naar waar teken bijten. Bij kinderen bijten teken zich vaker vast op hoofd en nek, en bij volwassenen vooral op de benen. Teken bijten zich minder vaak vast in de huid rond de schaamstreek. Maar als ze daar bijten, worden ze wel later dan gemiddeld ontdekt en verwijderd. Dit verhoogt de kans op de ziekte van Lyme. Het tekenseizoen is weer begonnen: controleer jezelf en meld tekenbeten op Tekenradar.nl. ...",
+      "footer": "19.04.2021",
+      "actionBtn": "Lees verder"
+    },
+    "2020-06-24": {
+      "title": "Verspreiding van tekenencefalitisvirus in Nederland",
+      "body": "Elk jaar bijten zo’n 1,5 miljoen teken iemand in Nederland, vooral tussen maart en oktober. De meeste mensen worden daar niet ziek van. Van de 100 mensen die gebeten worden, krijgen 2 tot 3 de ziekte van Lyme. In bepaalde gebieden in Nederland kunnen teken ook het tekenencefalitis(TBE)-virus overbrengen. Hoewel het risico op tekenencefalitis na een tekenbeet vele malen kleiner is dan op de ziekte van Lyme, is dit een extra reden om alert te zijn op tekenbeten. ...",
+      "footer": "24.06.2020",
+      "actionBtn": "Lees verder"
+    },
+    "2020-06-23": {
+      "title": "Check tekenactiviteit bij jou in de buurt met de Nature Today-app",
+      "body": "n de loop van deze week kunnen mensen met de Nature Today-app checken wat de tekenverwachting is bij hen in de buurt. Op basis van weerinformatie, satellietgegevens en het landschap wordt een actuele Teken-alert gegenereerd en via de app beschikbaar gemaakt. De app kan mensen helpen tekenbeten en door teken overdraagbare ziekten zoals Lyme en tekenencefalitis te voorkomen. ...",
+      "footer": "23.06.2020",
+      "actionBtn": "Lees verder"
+    },
+    "2020-06-22": {
+      "title": "In 10 jaar stijgt aantal tekenbeten naar 1,5 miljoen per jaar",
+      "body": "Uit landelijk PIENTER-onderzoek van het RIVM blijkt dat het aantal tekenbeten in 10 jaar tijd met ongeveer 30% is gestegen. Ook het aantal mensen dat ooit door een teek is gebeten is gestegen. In juni en juli piekt het aantal tekenbeetmeldingen op Tekenradar.nl en daarom blijft een tekencheck dan extra belangrijk. ...",
+      "footer": "22.06.2020",
+      "actionBtn": "Lees verder"
+    },
+    "sections": {
+      "2020": {
+        "title": "2020"
+      },
+      "2021": {
+        "title": "2021"
+      },
+      "2022": {
+        "title": "2022"
+      },
+      "2023": {
+        "title": "2023"
+      },
+      "2024": {
+        "title": "2024"
+      },
+      "2025": {
+        "title": "2025"
+      },
+      "2026": {
+        "title": "2026"
+      },
+      "2027": {
+        "title": "2027"
+      },
+      "2028": {
+        "title": "2028"
+      },
+      "2029": {
+        "title": "2029"
+      },
+      "2030": {
+        "title": "2030"
+      },
+      "2031": {
+        "title": "2031"
+      },
+      "2032": {
+        "title": "2032"
+      }
+    }
   }
 }

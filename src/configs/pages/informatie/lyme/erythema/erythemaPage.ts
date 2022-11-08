@@ -8,6 +8,9 @@ export const erythemaPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'informatie/erythema/erythema',
+    helmet: {
+      override: 'local'
+    },
     topImage: {
       type: 'teaserImage',
       image: {

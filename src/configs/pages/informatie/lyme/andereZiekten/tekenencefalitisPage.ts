@@ -4,10 +4,11 @@ import { meldenCard } from "../../../../cards/meldenCard";
 import { simpleRowColLayout } from "../../../../../layout/rows/simpleRowColLayout";
 import { pageSection } from "../../../../../layout/rows/pageSection";
 
+
 export const tekenencefalitisPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
-    pageKey: 'informatie/andereZiekten/Tekenencefalitis',
+    pageKey: 'informatie/andereZiekten/tekenencefalitis',
     topImage: {
       type: 'teaserImage',
       image: {

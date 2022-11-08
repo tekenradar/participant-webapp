@@ -1,4 +1,4 @@
-import { PageConfig, PageItem, PageRow, TeaserImageConfig } from "case-web-app-core/build/types/pagesConfig"
+import { HelmetPageConfig, PageConfig, PageItem, PageRow, TeaserImageConfig } from "case-web-app-core/build/types/pagesConfig"
 import { pageRowToPageItem } from "../utils";
 
 /**
@@ -14,6 +14,7 @@ export const infoPageLayout = (props: {
   mainColOptionalContent?: PageItem[];
   sideBarItems: PageItem[];
   bottomRows: PageRow[];
+  helmet?: HelmetPageConfig;
 }): PageConfig => {
 
   const rows: PageRow[] = [];
@@ -79,6 +80,7 @@ export const infoPageLayout = (props: {
   return {
     path: props.path,
     pageKey: props.pageKey,
+    helmet: props.helmet,
     rows: rows,
   }
 }

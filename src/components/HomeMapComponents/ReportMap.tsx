@@ -157,7 +157,7 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
       </div>
       <div className={`col-12 col-${breakpoint}-5`}>
         <div className={`mt-2 mt-${breakpoint}-0`} >
-          <h3>Tekenbeetmeldingen</h3>
+          <h3 className='h4'>Tekenbeetmeldingen</h3>
           <p>Overzicht van de meldingen van tekenbeten, <a href="/informatie/erythema-migrans">erythema migrans </a> en overige Lyme in de afgelopen vier weken.</p>
           <p>De kaart toont alleen de meldingen binnen Nederland, met maximaal enkele dagen vertraging.</p>
 

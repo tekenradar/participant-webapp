@@ -236,7 +236,7 @@ export const tekenradarPage = (path: string): PageConfig => {
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',
         image: {
-          url: '/images/cRIVM/IenW31072020TD002-1920.jpg',
+          url: '/images/small-IenW31072020TD002-1920.jpg',
           backgroundPosition: '70% 35%',
           height: 367,
         },

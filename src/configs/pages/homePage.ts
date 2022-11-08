@@ -1,8 +1,57 @@
-import { PageConfig, PageRow } from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageItem, PageRow } from "case-web-app-core/build/types/pagesConfig"
 import { leadColLayout } from "../../layout/rows/leadColLayout"
 import { pageSection } from "../../layout/rows/pageSection"
-import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
+import { PageItemWithCol, simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
 import { meldenCard } from "../cards/meldenCard"
+import { newsItems } from "./nieuws/newsItems"
+
+const getTopNewsItemCard = (): PageItem => {
+  const newsItem = newsItems[0]
+  return {
+    itemKey: `global:${newsItem.url.substring(1).replaceAll('/', '.')}`,
+    className: 'h-100',
+    config: {
+      type: 'actionCard',
+      action: {
+        type: 'navigate',
+        value: newsItem.url,
+      },
+      useFooterText: true,
+      hideBodyContent: true,
+      image: {
+        url: newsItem.cardContent.imageURL,
+        placement: 'top',
+        height: '250px',
+        maxHeight: '400px',
+      }
+    }
+  };
+};
+const getOtherNewsItemCard = (index: number): PageItemWithCol => {
+  const newsItem = newsItems[index]
+  return {
+    colClassName: 'col-12',
+    itemKey: `global:${newsItem.url.substring(1).replaceAll('/', '.')}`,
+    className: 'h-100',
+    config: {
+      type: 'actionCard',
+      action: {
+        type: 'navigate',
+        value: newsItem.url,
+      },
+      useFooterText: true,
+      hideBodyContent: true,
+      image: {
+        url: newsItem.cardContent.imageURL,
+        copyrightNotice: newsItem.cardContent.imageCopyRightLabel,
+        copyrightNoticeXAlignment: 'start',
+        placement: 'left',
+        width: '300px',
+        maxWidth: '200px',
+      }
+    }
+  };
+};
 
 const newsSection = (): PageRow => {
   return pageSection({
@@ -14,70 +63,13 @@ const newsSection = (): PageRow => {
         leadColClassName: 'col-12 col-sm-10 col-md-5 col-lg-6',
         panelColClassName: 'col-12 col-sm-10 col-md-7 col-lg-6',
         leadItems: [
-          {
-            itemKey: 'topNews',
-            className: 'h-100',
-            config: {
-              type: 'actionCard',
-              action: {
-                type: 'navigate',
-                value: '/nieuws/2022-06-15',
-              },
-              useFooterText: true,
-              image: {
-                url: '/images/SK-Lab-RIVM-66.jpg',
-                placement: 'top',
-                height: '250px',
-                maxHeight: '400px',
-              }
-            }
-          },
+          getTopNewsItemCard(),
         ],
         panelRows: [
           simpleRowColLayout({
             rowKey: 'row1', items: [
-              {
-                colClassName: 'col-12',
-                itemKey: 'topNews1',
-                //className: 'mt-3',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/nieuws/2022-04-25',
-                  },
-                  useFooterText: true,
-                  image: {
-                    url: '/images/news/cRIVM/iStock-543087666-1920.jpg',
-                    copyrightNotice: '© RIVM',
-                    copyrightNoticeXAlignment: 'start',
-                    placement: 'left',
-                    width: '300px',
-                    maxWidth: '200px',
-                  }
-                }
-              },
-              {
-                colClassName: 'col-12',
-                itemKey: 'topNews2',
-                //className: 'mt-3',
-                config: {
-                  type: 'actionCard',
-                  action: {
-                    type: 'navigate',
-                    value: '/nieuws/2021-07-08',
-                  },
-                  useFooterText: true,
-                  image: {
-                    url: '/images/news/cRIVM/130852-1920.jpg',
-                    copyrightNotice: '© RIVM',
-                    copyrightNoticeXAlignment: 'start',
-                    placement: 'left',
-                    width: '300px',
-                    maxWidth: '200px',
-                  }
-                }
-              },
+              getOtherNewsItemCard(1),
+              getOtherNewsItemCard(2),
               {
                 colClassName: 'col-12',
                 itemKey: 'openNews',
@@ -120,7 +112,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/onderzoek/overzicht',
               },
               image: {
-                url: '/images/pexels-rodnae-productions-8068694.jpg',
+                url: '/images/small-pexels-rodnae-productions-8068694.jpg',
                 //copyrightNotice: '© RIVM',
                 //copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -140,7 +132,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/teken',
               },
               image: {
-                url: '/images/no-license/teken-card.jpg',
+                url: '/images/small-teken-card.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -158,7 +150,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/lyme',
               },
               image: {
-                url: '/images/cRIVM/82073-1920.jpg',
+                url: '/images/small-82073-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -179,7 +171,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/faq',
               },
               image: {
-                url: '/images/faq.jpg',
+                url: '/images/small-faq.jpg',
                 placement: 'top',
                 height: '200px',
               }
@@ -197,7 +189,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/hoe-verwijder-ik-een-teek',
               },
               image: {
-                url: '/images/cRIVM/82106-1920.jpg',
+                url: '/images/small-82106-1920.jpg',
                 copyrightNotice: '© RIVM',
                 copyrightNoticeXAlignment: 'start',
                 placement: 'top',
@@ -217,7 +209,7 @@ const moreInfoSection = (): PageRow => {
                 value: '/informatie/tekenradar',
               },
               image: {
-                url: '/images/tekenradarWithBackground.jpg',
+                url: '/images/small-tekenradarWithBackground.jpg',
                 //backgroundSize: 'contain',
                 placement: 'top',
                 height: '200px',

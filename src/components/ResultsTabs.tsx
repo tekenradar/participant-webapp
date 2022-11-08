@@ -29,7 +29,7 @@ const getNavItemClassName = (isActive: boolean): string => {
 
 const getNavLinkClassName = (isActive: boolean): string => {
   return clsx(
-    "btn text-decoration-none",
+    "text-center text-decoration-none",
     {
       "text-body fw-bold": isActive,
     }
