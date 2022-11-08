@@ -4,6 +4,9 @@ export const settingsPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'settings',
+    helmet: {
+      override: 'global',
+    },
     hideWhen: 'unauth',
     rows: [
       {

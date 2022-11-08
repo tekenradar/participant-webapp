@@ -5,6 +5,9 @@ export const notFoundPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: '/notFound',
+    helmet: {
+      override: 'global',
+    },
     topImage: {
       type: 'teaserImage',
       image: {

@@ -249,6 +249,9 @@ export const newsPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: '/nieuws/news',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',

@@ -4,6 +4,9 @@ export const meldenPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'meldenPage',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       {
         key: 'row1',

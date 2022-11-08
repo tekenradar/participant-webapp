@@ -75,6 +75,9 @@ export const myTekenradarPage = (path: string): PageConfig => {
     path: path,
     pageKey: 'myTekenradar',
     hideWhen: 'unauth',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       simpleSideBarLayout({
         rowKey: 'mainRow',
