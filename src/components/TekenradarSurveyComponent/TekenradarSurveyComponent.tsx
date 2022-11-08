@@ -397,7 +397,7 @@ const TekenradarSurveyComponent: React.FC<TekenradarSurveyComponentProps> = (pro
           const now = Math.round(new Date().getTime() / 1000);
 
           setCurrentSurveyResponse({
-            key: currentSurvey.surveyDef.current.surveyDefinition.key,
+            key: currentSurvey.surveyDef.surveyDefinition.key,
             responses: [...responses],
             versionId: version,
             submittedAt: now,

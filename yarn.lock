@@ -1895,10 +1895,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/open-sans@^4.5.11":
-  version "4.5.11"
-  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.11.tgz#1e9f4346599bdc7752b741d17ee30ef4ebbc15e6"
-  integrity sha512-nG0gmbx4pSr8wltdG/ZdlS6OrsMK40Wt6iyuLTKHEf0TQfzKRMlWaskZHdeuWCwS6WUgqHKMf9KSwGdxPfapOg==
+"@fontsource/open-sans@^4.5.13":
+  version "4.5.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/open-sans/-/open-sans-4.5.13.tgz#2c99e4c055d129a75f14c11b77d040282e0388b8"
+  integrity sha512-/UzqP7ZFk145XAq8KG4pvFPP7UQhtreDGXgqXZjagCDreKxcrhwn/x7DYz9rPcycWkLUVApIybcoczGZiM0cRg==
 
 "@fortawesome/fontawesome-free@^5.15.4":
   version "5.15.4"
@@ -3676,15 +3676,15 @@ case-sensitive-paths-webpack-plugin@^2.4.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==
 
-case-web-app-core@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.4.2.tgz#d5a6d84e95ac14d1da09ea292bd099b77cf0c0b2"
-  integrity sha512-SRntuWmt92oKIXoFWROS6YpSt58Jlxo3gGUe0Y1ThGbQ1qjBrMuSDp3cIY22mH3IXTGI5gmzKRPg1SOBIWJJFA==
+case-web-app-core@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.5.0.tgz#8200efab885eff9efe9cccb8378cdbd9ae460f8f"
+  integrity sha512-KNx33OvFqtZPvsAKeNhQmGnqHiDkDFFShZASrJp9i/url+yOazDMbGWeZxHS4Imaj7HR8nbzKkmjbKCSXE4WKA==
 
-case-web-ui@^1.13.2:
-  version "1.13.2"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.13.2.tgz#5ea430865b4542c3f589fdfdab2eab0ca8a8950d"
-  integrity sha512-v82c99vejayRmsj3CEdSgnHSnf8TEb0mpo/9QAi1enOJoefEILWzLhco8Lbdn5n0VJa8miMSFUdkby9niV/mhQ==
+case-web-ui@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.14.0.tgz#5cf3305868f194c74bd9a815b1ec8cbe1109097b"
+  integrity sha512-Qbn52iGOdco4DFbcHplrqGYr7t3T1VkTkb68ykWlZ/p9LU5R82rmcYgffcbiSPwE9SriJhwv06Ynhbxli101vQ==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -5834,10 +5834,10 @@ human-signals@^2.1.0:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
 
-i18next@^21.9.1:
-  version "21.9.1"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.9.1.tgz#9e3428990f5b2cc9ac1b98dd025f3e411c368249"
-  integrity sha512-ITbDrAjbRR73spZAiu6+ex5WNlHRr1mY+acDi2ioTHuUiviJqSz269Le1xHAf0QaQ6GgIHResUhQNcxGwa/PhA==
+i18next@^22.0.2:
+  version "22.0.2"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-22.0.2.tgz#04634aa751388625735cdb41f625a6b0dd1dcb2f"
+  integrity sha512-rGXWILemhx0dpNE5PfudVU1g4SdW0hkh4WYHaP8Cl6gm1KkMdBckmNqj9WvYqp8fOSocqX5FFJeadwiOZHLSXQ==
   dependencies:
     "@babel/runtime" "^7.17.2"
 
@@ -7237,11 +7237,6 @@ mkdirp@^0.5.5, mkdirp@~0.5.1:
   integrity sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
   dependencies:
     minimist "^1.2.5"
-
-moment@2.29.2:
-  version "2.29.2"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
-  integrity sha512-UgzG4rvxYpN15jgCmVJwac49h9ly9NurikMWGPdVxm8GZD6XjkKPxDTjQQ43gtGgnV3X0cAyWDdP2Wexoquifg==
 
 ms@2.0.0:
   version "2.0.0"
@@ -8665,12 +8660,12 @@ react-simple-maps@^2.3.0:
     d3-zoom "^2.0.0"
     topojson-client "^3.1.0"
 
-react-tooltip@^4.2.21:
-  version "4.2.21"
-  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.2.21.tgz#840123ed86cf33d50ddde8ec8813b2960bfded7f"
-  integrity sha512-zSLprMymBDowknr0KVDiJ05IjZn9mQhhg4PRsqln0OZtURAJ1snt1xi5daZfagsh6vfsziZrc9pErPTDY1ACig==
+react-tooltip@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.4.2.tgz#e81659b07bc9f08081b12366aecb389a9d8fc424"
+  integrity sha512-VncdQWS6wfTZK/J1xW9PLCfKwmeNcxDGZ6mC8ZE7V3UUyNRw/ZpzcqQZm84WWKptAiBwyKL0PgCRrKJk3N440Q==
   dependencies:
-    prop-types "^15.7.2"
+    prop-types "^15.8.1"
     uuid "^7.0.3"
 
 react-transition-group@^4.4.2:
@@ -9527,12 +9522,12 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-survey-engine@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.1.7.tgz#4603a125f1c80eb1ca54f12b384f6ffd6011dbdf"
-  integrity sha512-tttSe2dX/ghpo7p1tQe20ROi3E2nOcg0YtwFXf5eQTAxdTyEntXciqcOoZJ26FVgYW19nfNv1O+rwi0rQAAOCw==
+survey-engine@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.2.0.tgz#01cc04929f4ccb139aa25614e61e042ae46009d2"
+  integrity sha512-vUgFRaWfr6FPOduMJN0AHICm6cPFuWcfN10TYakX+/A5dZ3SOPyRtPt2T9P/VDNR/bTbY74u+xlNjDnO4fpopQ==
   dependencies:
-    moment "2.29.2"
+    date-fns "^2.29.3"
 
 svg-parser@^2.0.2:
   version "2.0.4"
