@@ -7,9 +7,9 @@
       "successMsg": "Dank je wel! Je hebt alle vragenlijsten ingevuld. Als het tijd is voor een nieuwe vragenlijst vragen we je weer."
     },
     "optionalSurveys": {
-      "title": "Stopzetten van vervolgvragenlijsten",
-      "info": "Met vervolgvragenlijsten onderzoeken wij hoe vaak tekenbeten voorkomen, en wat de gezondheidsgevolgen zijn van tekenbeten en lymeziekte. Invullen is dus nuttig, ook als je zelf geen tekenbeten of gezondheidsklachten (meer) hebt. \n\nAls je wilt stoppen met vervolgvragenlijsten kun je dat hieronder aangeven per Tekenradar onderzoek.",
-      "showBtn": "Stopzetten van vervolgvragenlijsten",
+      "title": "Stopzetten van vervolgvragenlijsten en/of aanvullende toestemming",
+      "info": "Met vervolgvragenlijsten onderzoeken wij hoe vaak tekenbeten voorkomen, en wat de gezondheidsgevolgen zijn van tekenbeten en lymeziekte. Invullen is dus nuttig, ook als je zelf geen tekenbeten of gezondheidsklachten (meer) hebt. \n\nAls je wilt stoppen met vervolgvragenlijsten kun je dat hieronder aangeven per Tekenradar onderzoek. Als je ons aanvullende toestemming hebt gegeven voor gebruik van je contactgegevens kun je die ook hieronder intrekken. Als we je contactgegevens niet gebruiken worden ze na 12 weken sowieso automatisch verwijderd.",
+      "showBtn": "Stopzetten van vervolgvragenlijsten en/of aanvullende toestemming",
       "hideBtn": "Verbergen"
     }
   },
