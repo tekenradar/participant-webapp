@@ -1,4 +1,4 @@
-import { PageConfig, PageItem} from "case-web-app-core/build/types/pagesConfig"
+import { PageConfig, PageItem } from "case-web-app-core/build/types/pagesConfig"
 import { pageSection } from "../../layout/rows/pageSection"
 import { simpleRowColLayout } from "../../layout/rows/simpleRowColLayout"
 import { simpleSideBarLayout } from "../../layout/rows/simpleSideBarLayout"
@@ -62,6 +62,9 @@ export const faqPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'faq',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       simpleSideBarLayout({
         rowKey: 'mainRow',

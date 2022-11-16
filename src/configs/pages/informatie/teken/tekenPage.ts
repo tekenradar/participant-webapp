@@ -262,6 +262,9 @@ export const tekenPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'informatie/teken',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',

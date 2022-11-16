@@ -8,6 +8,9 @@ export const contactPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: '/contact',
+    helmet: {
+      override: 'global',
+    },
     topImage: {
       type: 'teaserImage',
       image: {

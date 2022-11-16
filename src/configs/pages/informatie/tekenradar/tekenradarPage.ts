@@ -232,6 +232,9 @@ export const tekenradarPage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'informatie/tekenradar',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       fullWidthTeaserImageRow('teaserImage', {
         type: 'teaserImage',
