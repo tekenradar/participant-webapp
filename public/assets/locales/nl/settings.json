@@ -19,7 +19,7 @@
   },
   "deleteAccount": {
     "title": "Afmelden Tekenradar / intrekken toestemming",
-    "warning": "Afmelden Tekenradar / intrekken toestemming houdt in dat je accountgegevens worden verwijderd.\nNa het verwijderen van het account kunnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen.\n\n Als je wel je account wilt houden, maar alleen geen nieuwe vragenlijsten meer wilt ontvangen ga dan naar **'Mijn tekenradar'**, en klik op **'Stopzetten van vervolgvragenlijsten'**",
+    "warning": "Afmelden Tekenradar / intrekken toestemming houdt in dat je accountgegevens worden verwijderd.\nNa het verwijderen van het account kunnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen.\n\n Als je wel je account wilt houden, maar alleen geen nieuwe vragenlijsten meer wilt ontvangen of je toestemming voor bewaren van contactgegevens wilt intrekken ga dan naar **'Mijn tekenradar'**, en klik op **'Stopzetten van vervolgvragenlijsten en/of aanvullende toestemming'**",
     "deleteBtn": "Afmelden"
   },
   "references": {

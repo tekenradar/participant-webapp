@@ -8,6 +8,9 @@ export const privacyPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: '/privacy',
+    helmet: {
+      override: 'global',
+    },
     topImage: {
       type: 'teaserImage',
       image: {

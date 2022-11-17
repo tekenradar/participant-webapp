@@ -391,6 +391,9 @@ export const lymePage = (path: string): PageConfig => {
   return {
     path: path,
     pageKey: 'informatie/lyme',
+    helmet: {
+      override: 'global',
+    },
     rows: [
       lymeInfoSection(),
       emSection(),

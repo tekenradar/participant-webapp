@@ -8,6 +8,9 @@ export const toeganPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: '/toegan',
+    helmet: {
+      override: 'global',
+    },
     topImage: {
       type: 'teaserImage',
       image: {

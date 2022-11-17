@@ -8,6 +8,9 @@ export const medischePage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: '/medische',
+    helmet: {
+      override: 'global',
+    },
     topImage: {
       type: 'teaserImage',
       image: {

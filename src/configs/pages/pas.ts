@@ -6,6 +6,9 @@ export const pasPage = (path: string): PageConfig => {
   return infoPageLayout({
     path: path,
     pageKey: 'pas',
+    helmet: {
+      override: 'global',
+    },
     topImage: {
       type: 'teaserImage',
       image: {
