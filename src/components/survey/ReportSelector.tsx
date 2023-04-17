@@ -135,7 +135,7 @@ const ReportSelector: React.FC<ReportSelectorProps> = (props) => {
 
   const resolveReportData = (reportKey: string, data: { key: string; value: string; dtype?: string }): DataDisplay => {
     const displayData: DataDisplay = {
-      label: t(`reports:${reportKey}.${data.key}.label`),
+      label: t(`reports:${reportKey}.${data.key}.label`) || undefined,
       value: '',
       useMarkdown: false,
     }
