@@ -1,0 +1,3 @@
+Contact: informatiebeveiliging@rivm.nl
+Policy: https://www.rivm.nl/contact/responsible-disclosure
+Signature: https://www.rivm.nl/.well-known/security.txt.sig
