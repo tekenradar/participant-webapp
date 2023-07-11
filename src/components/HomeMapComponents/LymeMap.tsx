@@ -13,8 +13,8 @@ interface LymeMapProps {
   language: string;
 }
 
-const mapURL = '/data/maps/gem-map-nl.json';
-const dataURL = '/data/maps/lyme-map-data.json';
+const mapURL = '/data/maps/gem-map-nl_230711.json';
+const dataURL = '/data/maps/lyme-map-data_230711.json';
 const localOptions = { minimumFractionDigits: 0, maximumFractionDigits: 1 };
 
 
