@@ -161,7 +161,7 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
             strokeWidth={0.3}
           >
             {({ geographies }) => geographies.map(geo => {
-              const value = selectedSeries?.data.find((d: any) => d.name.includes(geo.properties.name))?.sequence[dataIndex];
+              const value = selectedSeries?.data.find((d: any) => d.name === (geo.properties.name))?.sequence[dataIndex];
               const colorScale = selectedSeries?.colorScale.colors;
               return <Geography
                 fill={getColor(value, colorScale)}
