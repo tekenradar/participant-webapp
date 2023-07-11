@@ -93,11 +93,13 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
   }, [reportData])
 
   useEffect(() => {
+    const abortController = new AbortController();
 
     fetch(getExternalOrLocalContentURL(dataURL), {
       headers: {
         'Api-Key': apiKey,
-      }
+      },
+      signal: abortController.signal
     })
       .then(res => res.json())
       .then(json => {
@@ -105,6 +107,10 @@ const ReportMap: React.FC<ReportMapProps> = (props) => {
       })
       .catch(error => console.log(error));
     // eslint-disable-next-line react-hooks/exhaustive-deps
+
+    return () => {
+      abortController.abort();
+    }
   }, []);
 
   if (reportData === undefined) {
