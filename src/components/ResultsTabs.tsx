@@ -110,9 +110,10 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
 
         <Tab.Content>
           <Tab.Pane eventKey="tekenmeldingen">
-            <ReportMap
+            {(key === "tekenmeldingen") && <ReportMap
               onNavigate={(url: string) => props.onNavigate(url)}
-            />
+            />}
+
           </Tab.Pane>
           <Tab.Pane eventKey="dichtheidkaart">
             <DensityMap />
