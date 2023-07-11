@@ -6,7 +6,7 @@ Naast mensen met een huiduitslag door de ziekte van Lyme, wordt de diagnose lyme
 
 In het voor- en najaar zijn teken het meest actief. Van alle mensen die in Nederland door een teek worden gebeten, krijgen ongeveer 2-3 op de 100 (2-3%) de ziekte van Lyme.
 
-In de kaart op de tekenradar-homepage onder "Lyme in Nederland" is weergegeven hoeveel mensen met een rode ring of vlek op de huid door de huisarts zijn gezien. Een rode ring op de huid is een bewijs van de ziekte van Lyme, maar in ongeveer 5-10% van alle gevallen van de ziekte van Lyme verschijnt er geen rode ring of vlek op de huid.
+In de kaart op de tekenradar-homepage onder [Lyme in Nederland](/home?tab=lymeinnl) is weergegeven hoeveel mensen met een rode ring of vlek op de huid door de huisarts zijn gezien. Een rode ring op de huid is een bewijs van de ziekte van Lyme, maar in ongeveer 5-10% van alle gevallen van de ziekte van Lyme verschijnt er geen rode ring of vlek op de huid.
 
 Hieronder is vanaf 1994 aangegeven hoeveel mensen met een rode ring of vlek op de huid door de huisarts zijn gezien gemiddeld over heel Nederland:
 
