@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 // import { useTranslation } from 'react-i18next';
 import { Nav, Tab } from 'react-bootstrap';
@@ -58,6 +58,23 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
   // const { t, i18n } = useTranslation([props.pageKey]);
   const [key, setKey] = useState('tekenmeldingen');
 
+  useEffect(() => {
+    const query = new URLSearchParams(document.location.search);
+    if (query.get('tab') !== null) {
+      const tab = query.get('tab') as string;
+      switch (tab) {
+        case 'dichtheidkaart':
+          setKey('dichtheidkaart');
+          break;
+        case 'lymeinnl':
+          setKey('lymeinnl');
+          break;
+        default:
+          setKey('tekenmeldingen');
+          break;
+      }
+    }
+  }, []);
 
   return (
     <div
@@ -65,6 +82,7 @@ const ResultsTabs: React.FC<ResultsTabsProps> = (props) => {
     >
       <Tab.Container id="kaarten"
         activeKey={key}
+        defaultActiveKey={'tekenmeldingen'}
         onSelect={(k) => { if (k) { setKey(k) } }}
       >
         <Nav
