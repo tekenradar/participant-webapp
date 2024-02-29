@@ -1,6 +1,20 @@
 {
   "newsItems": [
     {
+      "url": "/nieuws/2024-03-01",
+      "year": 2024,
+      "cardContent": {
+        "imageURL": "/images/teekophuid.jpg",
+        "imageCopyRightLabel": "",
+        "imageAlwaysOnLeft": false
+      },
+      "pageContent": {
+        "teaserImage": {
+          "use": false
+        }
+      }
+    },
+    {
       "url": "/nieuws/2023-11-27",
       "year": 2023,
       "cardContent": {
