@@ -1,6 +1,20 @@
 {
   "newsItems": [
     {
+      "url": "/nieuws/2024-05-17",
+      "year": 2024,
+      "cardContent": {
+        "imageURL": "/images/small-teken-card.jpg",
+        "imageCopyRightLabel": "",
+        "imageAlwaysOnLeft": true
+      },
+      "pageContent": {
+        "teaserImage": {
+          "use": false
+        }
+      }
+    },
+    {
       "url": "/nieuws/2024-18-04",
       "year": 2024,
       "cardContent": {
