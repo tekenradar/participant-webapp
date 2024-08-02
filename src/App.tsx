@@ -17,6 +17,7 @@ import TickMapResponse from './components/survey/TickMapResponse';
 import EMfotoUpload from './components/survey/EMfotoUpload';
 import ReportSelector from './components/survey/ReportSelector';
 import UserVerification from './components/survey/UserVerification';
+import LymeProspectPlus from './components/LymeProspectPlus/lyme-prospect-plus';
 
 export const dateLocales = [
   { code: 'nl', locale: nl, format: 'dd-MM-yyyy' },
@@ -33,6 +34,7 @@ const extensions = [
   { name: 'pageSection', component: PageSection },
   { name: 'gallery', component: ImageGallery },
   { name: 'surveyComponent', component: TekenradarSurveyComponent },
+  { name: 'lymeProspectPlus', component: LymeProspectPlus },
 ]
 
 export const customSurveyResponseComponents = [

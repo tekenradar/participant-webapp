@@ -13,6 +13,7 @@ import { medischePage } from "./pages/medischePage";
 import { toeganPage } from "./pages/toeganPage";
 import { notFoundPage } from "./pages/notFoundPage";
 import { pasPage } from "./pages/pas";
+import { lymeProspectPlusPage } from "./pages/lymeProspectPlusPage";
 
 const defaultRoutes = {
   auth: "/my-tekenradar",
@@ -32,6 +33,7 @@ export const pagesConfig: PagesConfig = {
     pasPage('/pas'),
     faqPage('/faq'),
     meldenPage('/melden'),
+    lymeProspectPlusPage('/lymeProspectPlus'),
     settingsPage('/settings'),
     contactPage('/contact'),
     privacyPage('/privacy'),
