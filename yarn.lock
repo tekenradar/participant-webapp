@@ -3676,15 +3676,15 @@ case-sensitive-paths-webpack-plugin@^2.4.0:
   resolved "https://registry.yarnpkg.com/case-sensitive-paths-webpack-plugin/-/case-sensitive-paths-webpack-plugin-2.4.0.tgz#db64066c6422eed2e08cc14b986ca43796dbc6d4"
   integrity sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==
 
-case-web-app-core@^2.7.2:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.7.2.tgz#cea2df0a5f0345f1d67e6740ca70f8a2a4a819a2"
-  integrity sha512-pKw7x2W/eXszcoQhIEnfdo3XnZ5SKwpbhTJ1zKeW+E3EqqhptNkLfH3zB4ku2grHudFyBKnlGjq6cdswTBKcDQ==
+case-web-app-core@^2.7.4:
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.7.4.tgz#b0b184ea79b963860da926b8fce661debfd3c24b"
+  integrity sha512-6Cl6YhiKGBL+7mU2M7A+fWUnntlhcx09hhMadrr1oa9rZXmwAC9Ekvh0upMQsezTKjUHf1xJoIGlyPDsYvr76A==
 
-case-web-ui@^1.14.7:
-  version "1.14.7"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.14.7.tgz#1899dfcb4f7a7578134c211d5580241782e9a30b"
-  integrity sha512-gPHOw68yiz0G3Ks1SY9/DgyWyCHxkaWEZFiWIaeTs6sOKIu3jJYA5Lw+X5QswEACbiKiMJ8TIiW46xBHcRLDlw==
+case-web-ui@^1.15.0:
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.15.0.tgz#7c5ef8b7666215d2b0797028917ede5034b40dbf"
+  integrity sha512-iEJ+4RZYdx2Vo4fivigToKCy2r4AFW7D/f1W/sOH7Y+EbBWLr+8a7lATyb6+LyyKTXhL6kOuU/JyMArDuLtq4w==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 
@@ -9532,10 +9532,10 @@ supports-hyperlinks@^2.0.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-survey-engine@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.2.1.tgz#214099ca904782c454e14962b43624f3899b16f9"
-  integrity sha512-q+9m16D+Zfu5F7u0BMol5HcrfXwQaVbrfQgEyo7HMt5BLsSL6aOwvznvQaHT0wdfCruAY3Dc3LHr/ZQ6qjVdyQ==
+survey-engine@^1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/survey-engine/-/survey-engine-1.2.10.tgz#054d72efb145f13bb3eb84c78861a6224688030b"
+  integrity sha512-XOPfdO3GBb8tnL0aawnPNI5FhUQkzCJO6egnIZ6GfUW52m/3tqsXJsx/pMxNMpCst2/Zw8w+n/uHGQCUZm6XYA==
   dependencies:
     date-fns "^2.29.3"
 
