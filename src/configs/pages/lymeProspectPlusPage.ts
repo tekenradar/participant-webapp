@@ -3,7 +3,7 @@ import { PageConfig } from "case-web-app-core/build/types/pagesConfig"
 export const lymeProspectPlusPage = (path: string): PageConfig => {
   return {
     path: path,
-    pageKey: 'lymeProspectPlusPage',
+    pageKey: 'lymeProspectPlus',
     helmet: {
       override: 'global',
     },
