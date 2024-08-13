@@ -4,20 +4,28 @@ import { GenericPageItemProps } from '../utils';
 import { coreReduxActions, PreventAccidentalNavigationPrompt, studyAPI } from 'case-web-app-core';
 import { LoadingPlaceholder, getExternalOrLocalContentURL } from 'case-web-ui';
 import MissingPidError from './missing-pid-error';
+import LppSurveyComponent from './lpp-survey-component';
+import { LppParticipantInfo, firstSubmissionTooOld, getCurrentSurveyKey } from './utils';
 
 
-type PageMode = 'loading' | 'ready' | 'missingOrWrongPid';
+type PageMode = 'loading' | 'survey' | 'missingOrWrongPid' | 'finished' | 'expired';
 
 interface LymeProspectPlusProps extends GenericPageItemProps {
 }
 
+
 const lppAPIRootURL = process.env.REACT_APP_LPP_ROOT_URL ? process.env.REACT_APP_LPP_ROOT_URL : '';
 const apiKey = process.env.REACT_APP_CONTENT_SERVICE_API_KEY ? process.env.REACT_APP_CONTENT_SERVICE_API_KEY : '';
+
 
 const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
   const dispatch = useDispatch();
 
   const [pageMode, setPageMode] = useState<PageMode>('loading');
+  const [studyState, setStudyState] = useState<{
+    currentSurveyKey: string;
+    participantInfo?: LppParticipantInfo;
+  } | undefined>();
 
 
   useEffect(() => {
@@ -31,7 +39,7 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
 
     const abortController = new AbortController();
 
-    fetch(getExternalOrLocalContentURL(`${lppAPIRootURL}/lpp/${pid}`), {
+    fetch(getExternalOrLocalContentURL(`${lppAPIRootURL}/tekenradar/lpp/${pid}`), {
       headers: {
         'Api-Key': apiKey,
       },
@@ -44,8 +52,26 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
         return res.json()
       })
       .then(json => {
-        console.log(json);
-        setPageMode('ready')
+        // console.log(json);
+        const participantInfo = json;
+        // console.log(participantInfo);
+
+        if (firstSubmissionTooOld(participantInfo)) {
+          setPageMode('expired');
+          return;
+        }
+
+        const currentSurveyKey = getCurrentSurveyKey(participantInfo);
+
+        setStudyState({
+          currentSurveyKey: currentSurveyKey ?? 'T0_Invites',
+          participantInfo: participantInfo
+        })
+        if (!currentSurveyKey) {
+          setPageMode('finished');
+          return;
+        }
+        setPageMode('survey')
       })
       .catch(error => {
         console.error(error)
@@ -63,10 +89,20 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
 
   switch (pageMode) {
 
-    case 'ready':
-      return <p>LymeProspectPlus</p>;
+    case 'survey':
+      if (!studyState) {
+        return <LoadingPlaceholder color='white' minHeight={'50vh'} />;
+      }
+      return <LppSurveyComponent
+        surveyKey={studyState.currentSurveyKey}
+        participantInfo={studyState.participantInfo}
+      />;
     case 'missingOrWrongPid':
       return <MissingPidError />;
+    case 'finished':
+      return <p>Finished</p>;
+    case 'expired':
+      return <p>Expired</p>;
     case 'loading':
     default:
       return <LoadingPlaceholder color='white' minHeight={'50vh'} />;
