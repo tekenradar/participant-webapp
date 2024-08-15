@@ -6,6 +6,7 @@ import { LoadingPlaceholder, getExternalOrLocalContentURL } from 'case-web-ui';
 import MissingPidError from './missing-pid-error';
 import LppSurveyComponent from './lpp-survey-component';
 import { LppParticipantInfo, firstSubmissionTooOld, getCurrentSurveyKey } from './utils';
+import { Alert } from 'react-bootstrap';
 
 
 type PageMode = 'loading' | 'survey' | 'missingOrWrongPid' | 'finished' | 'expired';
@@ -87,8 +88,8 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  switch (pageMode) {
 
+  switch (pageMode) {
     case 'survey':
       if (!studyState) {
         return <LoadingPlaceholder color='white' minHeight={'50vh'} />;
@@ -96,13 +97,34 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
       return <LppSurveyComponent
         surveyKey={studyState.currentSurveyKey}
         participantInfo={studyState.participantInfo}
+        onSubmitted={() => {
+          window.location.reload();
+        }}
       />;
     case 'missingOrWrongPid':
       return <MissingPidError />;
     case 'finished':
-      return <p>Finished</p>;
+      return <div>
+        <Alert variant="success">
+          <h2>
+            U hebt alle antwoorden ingediend. Hartelijk dank voor uw deelname.
+          </h2>
+          <p>
+            Als u nog vragen heeft, neem dan contact op met het tekenradar-team via <a href="mailto:info@tekenradar.nl">info@tekenradar.nl</a>.
+          </p>
+        </Alert>
+      </div>
     case 'expired':
-      return <p>Expired</p>;
+      return <div>
+        <Alert variant="danger">
+          <h2>
+            U hebt de uitnodiging verlopen.
+          </h2>
+          <p>
+            Als u nog vragen heeft, neem dan contact op met het tekenradar-team via <a href="mailto:info@tekenradar.nl">info@tekenradar.nl</a>.
+          </p>
+        </Alert>
+      </div>
     case 'loading':
     default:
       return <LoadingPlaceholder color='white' minHeight={'50vh'} />;

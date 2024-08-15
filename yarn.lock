@@ -3681,10 +3681,10 @@ case-web-app-core@^2.7.4:
   resolved "https://registry.yarnpkg.com/case-web-app-core/-/case-web-app-core-2.7.4.tgz#b0b184ea79b963860da926b8fce661debfd3c24b"
   integrity sha512-6Cl6YhiKGBL+7mU2M7A+fWUnntlhcx09hhMadrr1oa9rZXmwAC9Ekvh0upMQsezTKjUHf1xJoIGlyPDsYvr76A==
 
-case-web-ui@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.15.0.tgz#7c5ef8b7666215d2b0797028917ede5034b40dbf"
-  integrity sha512-iEJ+4RZYdx2Vo4fivigToKCy2r4AFW7D/f1W/sOH7Y+EbBWLr+8a7lATyb6+LyyKTXhL6kOuU/JyMArDuLtq4w==
+case-web-ui@^1.15.1:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/case-web-ui/-/case-web-ui-1.15.1.tgz#ac254bdb72e43e8adc964b52a2fb65b29e3d14d5"
+  integrity sha512-RdQ3xQuU0sEU/IRkLmeKDUF+SorWyqulo6JY88m+PW/GA0AMTbVHB+s3YMk+Uikkv77+1WQHmD7VXqDOum/8cA==
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.4"
 

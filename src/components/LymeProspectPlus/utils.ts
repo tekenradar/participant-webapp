@@ -1,3 +1,5 @@
+import { differenceInDays } from "date-fns";
+
 export interface LppParticipantInfo {
   pid: string;
   studyData: { [key: string]: string };
@@ -5,7 +7,7 @@ export interface LppParticipantInfo {
     name: string;
   };
   submissions?: { [key: string]: string };
-  tempParticipantId?: {
+  tempParticipantInfo?: {
     id: string;
     enteredAt: number;
   }
@@ -40,11 +42,11 @@ export const firstSubmissionTooOld = (participantInfo: LppParticipantInfo): bool
   if (!submissionKeys.includes('T0_Invites')) {
     return false;
   }
-  console.log('todo: implement logic to check if first submission is too old');
-  return true;
+  const firstSubmission = new Date(participantInfo.submissions['T0_Invites']);
+  const diff = differenceInDays(firstSubmission, new Date());
+  if (Math.abs(diff) > 42) {
+    return true;
+  }
 
-  /*
-  if (participantInfo.submissions['T0_Invites'] < new Date().getTime()) {
-
-  }*/
+  return false;
 }

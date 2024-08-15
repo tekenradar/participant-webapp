@@ -15,7 +15,7 @@
     "@types/react-simple-maps": "^1.0.8",
     "bootstrap": "^5.2.3",
     "case-web-app-core": "^2.7.4",
-    "case-web-ui": "^1.15.0",
+    "case-web-ui": "^1.15.1",
     "clsx": "^1.2.1",
     "date-fns": "^2.29.3",
     "encoding": "^0.1.13",
