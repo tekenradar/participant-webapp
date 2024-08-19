@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { GenericPageItemProps } from '../utils';
-import { coreReduxActions, PreventAccidentalNavigationPrompt, studyAPI } from 'case-web-app-core';
+import { coreReduxActions } from 'case-web-app-core';
 import { LoadingPlaceholder, getExternalOrLocalContentURL } from 'case-web-ui';
 import MissingPidError from './missing-pid-error';
 import LppSurveyComponent from './lpp-survey-component';
-import { LppParticipantInfo, firstSubmissionTooOld, getCurrentSurveyKey } from './utils';
+import { LppParticipantInfo, firstSubmissionTooOld, getCurrentSurveyKey, lppSurveyKeys } from './utils';
 import { Alert } from 'react-bootstrap';
 
 
@@ -65,7 +65,7 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
         const currentSurveyKey = getCurrentSurveyKey(participantInfo);
 
         setStudyState({
-          currentSurveyKey: currentSurveyKey ?? 'T0_Invites',
+          currentSurveyKey: currentSurveyKey ?? lppSurveyKeys.LPplus_part1,
           participantInfo: participantInfo
         })
         if (!currentSurveyKey) {

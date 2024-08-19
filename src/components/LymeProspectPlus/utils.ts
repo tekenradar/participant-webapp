@@ -13,24 +13,31 @@ export interface LppParticipantInfo {
   }
 }
 
+export const lppSurveyKeys = {
+  T0_Invites: 'T0_Invites',
+  LPplus_part1: 'LPplus_part1',
+  LPplus_part2: 'LPplus_part2',
+  LPplus_part3: 'LPplus_part3',
+}
+
 export const getCurrentSurveyKey = (participantInfo: LppParticipantInfo): string | undefined => {
   if (!participantInfo.submissions) {
-    return 'T0_Invites';
+    return lppSurveyKeys.LPplus_part1;
   }
   const submissionKeys = Object.keys(participantInfo.submissions);
   if (submissionKeys.length < 1) {
-    return 'T0_Invites';
+    return lppSurveyKeys.LPplus_part1;
   }
-  if (submissionKeys.includes('LPplus_part3')) {
+  if (submissionKeys.includes(lppSurveyKeys.LPplus_part3)) {
     return undefined;
-  } else if (submissionKeys.includes('LPplus_part2')) {
-    return 'LPplus_part3';
-  } else if (submissionKeys.includes('LPplus_part1')) {
-    return 'LPplus_part2';
-  } else if (submissionKeys.includes('T0_Invites')) {
-    return 'LPplus_part1';
+  } else if (submissionKeys.includes(lppSurveyKeys.LPplus_part2)) {
+    return lppSurveyKeys.LPplus_part3;
+  } else if (submissionKeys.includes(lppSurveyKeys.T0_Invites)) {
+    return lppSurveyKeys.LPplus_part2;
+  } else if (submissionKeys.includes(lppSurveyKeys.LPplus_part1)) {
+    return lppSurveyKeys.T0_Invites;
   } else {
-    return 'T0_Invites';
+    return lppSurveyKeys.LPplus_part1;
   }
 }
 
@@ -39,10 +46,10 @@ export const firstSubmissionTooOld = (participantInfo: LppParticipantInfo): bool
     return false;
   }
   const submissionKeys = Object.keys(participantInfo.submissions);
-  if (!submissionKeys.includes('T0_Invites')) {
+  if (!submissionKeys.includes(lppSurveyKeys.LPplus_part1)) {
     return false;
   }
-  const firstSubmission = new Date(participantInfo.submissions['T0_Invites']);
+  const firstSubmission = new Date(participantInfo.submissions[lppSurveyKeys.LPplus_part1]);
   const diff = differenceInDays(firstSubmission, new Date());
   if (Math.abs(diff) > 42) {
     return true;
