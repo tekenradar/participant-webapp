@@ -116,6 +116,7 @@ const LppSurveyComponent: React.FC<LppSurveyComponentProps> = (props) => {
       const resp = await fetchSurvey(props.surveyKey, newTempParticipant.temporaryParticipantId);
       if (resp.error !== undefined) {
         console.error(resp.error);
+        setContentState('getSurveyError');
         return;
       }
       const now = Math.round(new Date().getTime() / 1000);
