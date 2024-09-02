@@ -2,6 +2,7 @@ import { differenceInDays } from "date-fns";
 
 export interface LppParticipantInfo {
   pid: string;
+  cohort: string;
   studyData: { [key: string]: string };
   contactInfos: {
     name: string;

@@ -221,6 +221,7 @@ const LppSurveyComponent: React.FC<LppSurveyComponentProps> = (props) => {
             engineVersion: process.env.REACT_APP_SURVEY_ENGINE_VERSION,
             language: i18n.language,
             lppID: props.participantInfo?.pid,
+            cohort: props.participantInfo?.cohort,
             ...props.participantInfo?.studyData,
           }
         })
