@@ -13,7 +13,7 @@ const MissingPidError: React.FC<MissingPidErrorProps> = (props) => {
             Er is iets misgegaan.
           </h2>
           <p>
-            Zorg ervoor dat u de juiste link uit uw uitnodiging gebruikt.
+            Zorg ervoor dat je de juiste link uit je uitnodiging gebruikt.
           </p>
         </Alert>
       </div>

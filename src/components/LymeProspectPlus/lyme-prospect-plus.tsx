@@ -107,10 +107,10 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
       return <div>
         <Alert variant="success">
           <h2>
-            U hebt alle antwoorden ingediend. Hartelijk dank voor uw deelname.
+            Je hebt alle antwoorden ingediend. Hartelijk dank voor je deelname.
           </h2>
           <p>
-            Als u nog vragen heeft, neem dan contact op met het tekenradar-team via <a href="mailto:info@tekenradar.nl">info@tekenradar.nl</a>.
+            Als je nog vragen hebt, neem dan contact op met het tekenradar-team via <a href="mailto:info@tekenradar.nl">info@tekenradar.nl</a>.
           </p>
         </Alert>
       </div>
@@ -118,10 +118,10 @@ const LymeProspectPlus: React.FC<LymeProspectPlusProps> = (props) => {
       return <div>
         <Alert variant="danger">
           <h2>
-            U hebt de uitnodiging verlopen.
+            Je hebt de uitnodiging verlopen.
           </h2>
           <p>
-            Als u nog vragen heeft, neem dan contact op met het tekenradar-team via <a href="mailto:info@tekenradar.nl">info@tekenradar.nl</a>.
+            Als je nog vragen hebt, neem dan contact op met het tekenradar-team via <a href="mailto:info@tekenradar.nl">info@tekenradar.nl</a>.
           </p>
         </Alert>
       </div>
