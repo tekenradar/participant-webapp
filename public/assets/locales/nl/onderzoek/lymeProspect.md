@@ -1,10 +1,10 @@
 ## LymeProspect-Plus onderzoek via Tekenradar
 
-Meer dan 4000 mensen vulden in eerdere jaren vragenlijsten in voor het LymeProspect onderzoek en het Tekenradar vragenlijst onderzoek. Dankzij al die informatie weten we steeds meer over de ziekte van Lyme. Vanaf najaar 2024 vragen wij aan deze deelnemers om de nieuwe LymeProspect-Plus vragenlijst in te vullen. 
+Meer dan 4000 mensen vulden in voorgaande jaren vragenlijsten in voor het LymeProspect onderzoek en het Tekenradar vragenlijstonderzoek. Dankzij deze waardevolle informatie weten we steeds meer over de ziekte van Lyme. Vanaf het najaar van 2024 vragen wij aan deze deelnemers om de nieuwe LymeProspect-Plus vragenlijst in te vullen. Ze ontvangen daarvoor een uitnodiging per e-mail. 
 
-Het gaat om mensen die jaren geleden lymeziekte hebben gehad, en mensen die in dezelfde tijd geen lymeziekte hebben gehad. Beide groepen vullen ook nu weer vragen in over hun gezondheid. Zo kunnen we onderzoeken of de ziekte van Lyme jaren later nog klachten kan geven. Ze ontvangen daarvoor een uitnodiging per e-mail.   
+Het gaat om mensen die jaren geleden lymeziekte hebben gehad, en mensen die in dezelfde periode geen lymeziekte hebben gehad. Beide groepen vullen opnieuw vragen in over hun gezondheid. Zo kunnen we onderzoeken of de ziekte van Lyme jaren later nog klachten kan geven.    
 
-We hopen op steun van de eerdere deelnemers. Ook als je situatie inmiddels veranderd is en je in de tussentijd nieuwe tekenbeten, de ziekte van Lyme of andere ziektes hebt gekregen. En ook als je juist helemaal geen klachten meer hebt of nooit hebt gehad. In al deze gevallen is het heel nuttig om aan het onderzoek mee te doen.
+We hopen op steun van de eerdere deelnemers. Ook als je situatie inmiddels veranderd is en je in de tussentijd nieuwe tekenbeten, de ziekte van Lyme of andere ziektes hebt gekregen. Maar ook als je juist helemaal geen klachten meer hebt of nooit klachten hebt gehad. In al deze gevallen is het heel nuttig om aan het onderzoek mee te doen.
 
 Het LymeProspect-Plus onderzoek via Tekenradar is een samenwerking van het [RIVM](https://www.rivm.nl/tekenbeten-en-lyme), [Amsterdam UMC](https://www.amc.nl/web/specialismen/expertisecentra-een-overzicht/amsterdam-umc-multidisciplinair-lymeziekte-centrum-amlc.htm), [Radboudumc](https://www.radboudumc.nl/patientenzorg/aandoeningen/lymeziekte), en is mogelijk gemaakt door [ZonMw](https://www.zonmw.nl/nl). Het is een vervolg op het LymeProspect onderzoek en het Tekenradar vragenlijstonderzoek. Meer informatie over dit eerdere onderzoek en de resultaten daarvan staan hieronder.
 
