@@ -1,6 +1,6 @@
 ## LymeProspect-Plus onderzoek via Tekenradar
 
-Meer dan 4000 mensen vulden in voorgaande jaren vragenlijsten in voor het LymeProspect onderzoek en het Tekenradar vragenlijstonderzoek. Dankzij deze waardevolle informatie weten we steeds meer over de ziekte van Lyme in het eerst jaar na behandeling. Vanaf het najaar van 2024 vragen wij aan deze deelnemers om de nieuwe LymeProspect-Plus vragenlijst in te vullen. Ze ontvangen daarvoor een uitnodiging per e-mail. 
+Meer dan 4000 mensen vulden in voorgaande jaren vragenlijsten in voor het LymeProspect onderzoek en het Tekenradar vragenlijstonderzoek. Dankzij deze waardevolle informatie weten we steeds meer over de ziekte van Lyme in het eerste jaar na behandeling. Vanaf het najaar van 2024 vragen wij aan deze deelnemers om de nieuwe LymeProspect-Plus vragenlijst in te vullen. Ze ontvangen daarvoor een uitnodiging per e-mail. 
 
 Het gaat om mensen die jaren geleden lymeziekte hebben gehad, en mensen die in dezelfde periode geen lymeziekte hebben gehad. Beide groepen vullen opnieuw vragen in over hun gezondheid. Zo kunnen we onderzoeken of de ziekte van Lyme meer dan een jaar na behandeling nog klachten kan geven.    
 
