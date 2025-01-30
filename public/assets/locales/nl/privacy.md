@@ -3,7 +3,7 @@
 Tekenradar is een samenwerking van het RIVM, Wageningen University, Radboudumc, Amsterdam UMC en Stichting voor duurzame ontwikkeling (FSD). Een overzicht met meer informatie over deze samenwerkingspartners kun je [hier](/informatie/tekenradar) vinden. Het technische beheer van de Tekenradar website wordt uitgevoerd door het RIVM.
 
 
-Via Tekenradar worden persoonsgegevens op een rechtmatige, behoorlijke en transparante manier, conform wet- en regelgeving verwerkt. Hoe met je gegevens wordt omgegaan is te lezen in [de algemene privacyverklaring van het RIVM.](https://www.rivm.nl/sites/default/files/2018-11/RIVM%20%20Privacyverklaring%20mei%202018%20definitief%20Nederlands.pdf)
+Via Tekenradar worden persoonsgegevens op een rechtmatige, behoorlijke en transparante manier, conform wet- en regelgeving verwerkt. Hoe met je gegevens wordt omgegaan is te lezen in [de algemene privacyverklaring van het RIVM.](https://www.rivm.nl/privacy/algemene-privacyverklaring-rivm)
 
 
 In aanvulling op de algemene privacyverklaring van het RIVM lees je in deze privacyverklaring over de gegevensverwerking door Tekenradar, waarvoor het RIVM gezamenlijk verwerkersverantwoordelijke is samen met bovengenoemde partners (met uitzondering van FSD). Door je gegevens met Tekenradar te delen draag je bij aan het onderzoek van het RIVM en bovengenoemde samenwerkingspartners dat is gericht op het monitoren van de impact van tekenbeten, lymeziekte en andere tekenoverdraagbare ziekten onder de Nederlandse bevolking, en het geven van informatie en advies over de ontwikkeling van Lyme- en andere tekenbeetziekten aan de bevolking, zorgverleners en andere belanghebbenden, waaronder de Minister van Volksgezondheid, Welzijn en Sport.  
