@@ -1,6 +1,20 @@
 {
   "newsItems": [
     {
+      "url": "/nieuws/2025-06-06",
+      "year": 2025,
+      "cardContent": {
+        "imageURL": "/images/Tekenbos-5164-RIVMresized.jpg",
+        "imageCopyRightLabel": "",
+        "imageAlwaysOnLeft": true
+      },
+      "pageContent": {
+        "teaserImage": {
+          "use": false
+        }
+      }
+    },
+    {
       "url": "/nieuws/2025-05-08",
       "year": 2025,
       "cardContent": {
