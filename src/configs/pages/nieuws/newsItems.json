@@ -1,6 +1,20 @@
 {
   "newsItems": [
     {
+      "url": "/nieuws/2025-07-03",
+      "year": 2025,
+      "cardContent": {
+        "imageURL": "/images/pexels-anete-lusina-5240437.jpg",
+        "imageCopyRightLabel": "",
+        "imageAlwaysOnLeft": true
+      },
+      "pageContent": {
+        "teaserImage": {
+          "use": false
+        }
+      }
+    },
+    {
       "url": "/nieuws/2025-06-06",
       "year": 2025,
       "cardContent": {
