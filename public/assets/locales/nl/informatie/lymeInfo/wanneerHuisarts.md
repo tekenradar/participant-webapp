@@ -1,3 +1,0 @@
-# Wanneer moet ik naar de huisarts?
-
-Als je een rode ring of vlek op je huid (erythema migrans) hebt gevonden en die ring of vlek binnen een paar dagen groter wordt, moet je naar de huisarts. Een erythema migrans kan binnen een paar dagen tot wel twee of drie maanden na een tekenbeet ontstaan. Ga ook naar de huisarts als je na een tekenbeet andere klachten krijgt die kunnen wijzen op de ziekte van Lyme, zoals koorts, (hoofd)pijn of gewrichtspijn. Geef bij de huisarts altijd aan dat je door een teek bent gebeten en wanneer dit is gebeurd. Heb je de teek na meer dan 24 uur verwijderd? Dan kun je contact opnemen met de huisarts om te bespreken of behandeling nodig is.

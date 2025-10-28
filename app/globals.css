@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 11% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+
+    --primary: 200 99% 31%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 208 57% 87%;
+    --secondary-foreground: 210 11% 15%;
+
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+
+    --accent: 274 100% 25%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+
+  .survey {
+    --survey-card-bg: #EDEFF4;
+    --survey-card-header-bg: #D2D8E1;
+
+    --survey-card-invalid-bg: #FBE5EA;
+    --survey-error-text-color: #C62447;
+    --survey-warning-text-color: #FD9644;
+
+    --survey-card-border-radius: 0.5rem;
+    --survey-card-border-radius-sm: 0.25rem;
+    --survey-card-px: 1.5rem;
+    --survey-card-px-sm: 0.5rem;
+
+    --survey-table-heading1-bg: #B6BECB;
+    --survey-table-heading2-bg: #D2D8E1;
+    --survey-card-table-border-color: #D2D8E1;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .field-sizing-content {
+    field-sizing: content;
+  }
+
+  .fst-italic {
+    @apply italic;
+  }
+
+  .fs-small {
+    @apply text-sm;
+  }
+
+  .fw-bold {
+    @apply font-bold;
+  }
+
+  .text-decoration-underline {
+    @apply underline;
+  }
+
+  .sticky-top {
+    @apply sticky top-0;
+  }
+}
