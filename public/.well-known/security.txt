@@ -1,0 +1,4 @@
+Contact: mailto:informatiebeveiliging@rivm.nl
+Expires: 2024-11-01T00:00:00z
+Policy: https://www.rivm.nl/contact/responsible-disclosure
+Signature: https://www.rivm.nl/.well-known/security.txt.sig
