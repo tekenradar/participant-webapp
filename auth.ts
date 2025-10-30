@@ -2,6 +2,7 @@ import NextAuth, { User } from "next-auth"
 import Credentials from "next-auth/providers/credentials"
 import { fetchCASEParticipantAPI } from "./lib/server/case-backend"
 import logger from "./lib/logger"
+import "next-auth/jwt"
 
 export const PUBLIC_ROUTES = [
     { path: '/', exact: true },
@@ -424,7 +425,7 @@ declare module "next-auth" {
     }
 }
 
-declare module "@auth/core/jwt" {
+declare module "next-auth/jwt" {
     /** Returned by the `jwt` callback and `auth`, when using JWT sessions */
     interface JWT {
         accessToken?: string

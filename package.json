@@ -36,8 +36,8 @@
     "date-fns": "^4.1.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.487.0",
-    "next": "15.5.0",
-    "next-auth": "^5.0.0-beta.21",
+    "next": "15.5.2",
+    "next-auth": "5.0.0-beta.29",
     "next-intl": "4.1.0",
     "next-themes": "^0.4.4",
     "react": "19.1.1",
@@ -62,8 +62,8 @@
     "@types/node": "^22.10.1",
     "@types/react": "19.1.10",
     "@types/react-dom": "19.1.7",
-    "eslint": "^9.20.1",
-    "eslint-config-next": "15.5.0",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "15.5.2",
     "postcss": "^8.5.2",
     "rehype-slug": "^6.0.0",
     "tailwindcss": "^3.4.11",
@@ -71,7 +71,7 @@
     "velite": "^0.2.4"
   },
   "resolutions": {
-    "@types/react": "19.1.10",
-    "@types/react-dom": "19.1.7"
+    "@types/react": "19.1.11",
+    "@types/react-dom": "19.1.8"
   }
 }
