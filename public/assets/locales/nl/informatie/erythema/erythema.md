@@ -3,10 +3,6 @@ Het eerste verschijnsel van de ziekte van Lyme is vaak een rode ring of vlek  ro
 
 Met een rode ring of vlek kun je meedoen aan onderzoek via Tekenradar. 
 
-##### Woon je in de omgeving van Nijmegen? 
-
-Meld je dan snel aan, liefst nog vóór of kort na de start van de antibioticabehandeling, om ook bloed af te kunnen geven voor onderzoek.
-
 Hier zie je foto's van verschillende voorbeelden van de rode ring of vlek.  
 
 
