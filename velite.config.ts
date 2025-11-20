@@ -49,6 +49,22 @@ const generalPages = defineCollection({
         }).transform(computedFields),
 });
 
+const newsPages = defineCollection({
+    name: 'NewsItem',
+    pattern: '*/nieuws/**/*.mdx',
+    schema: s
+        .object({
+            title: s.string().max(99), // Zod primitive type
+            slug: s.path(),
+            date: s.isodate(),
+            cover: s.image().optional(),
+            coverCredits: s.string().optional(),
+            coverImageYPosition: s.string().optional(),
+            content: s.mdx(),
+            teaserText: s.string().optional(),
+        }).transform(computedFields),
+});
+
 
 export default defineConfig({
     root: 'content',
@@ -69,5 +85,6 @@ export default defineConfig({
         infoPages,
         faqPages,
         generalPages,
+        newsPages,
     },
 })
