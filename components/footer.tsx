@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import Container from "./container";
 import Link from "next/link";
-import { FaYoutube, FaXTwitter, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa6";
 import { ArrowUpRight } from "lucide-react";
 
 
@@ -22,7 +21,7 @@ function FooterLink({ children, href, prefetch, target }: { children: React.Reac
                 href={href}
                 prefetch={prefetch}
                 target={target}
-                className='flex items-center min-w-60 hover:underline focus:outline-none focus:ring-2 focus:ring-white/50 rounded'
+                className='flex items-center min-w-60 hover:underline focus:outline-none focus:border-none focus:ring-offset-2 focus:ring-2 focus:ring-accent/50 rounded'
             >
                 {children}
                 {target === '_blank' && <span className="ml-2">
@@ -44,83 +43,64 @@ const Footer: React.FC = () => {
             <div className='bg-secondary text-secondary-foreground py-6'>
                 <Container >
                     <div className='flex flex-col sm:flex-row flex-wrap  gap-6 '>
-                        <FooterColumn title={t('services.title')}>
+                        <FooterColumn title={t('partners.title')}>
+
                             <FooterLink
-                                href="/algemeen/contact"
+                                href="/algemeen/partners/rivm"
                                 prefetch={false}
                             >
-                                {t('services.contactLink')}
+                                {t('partners.rivm')}
                             </FooterLink>
                             <FooterLink
-                                href="https://x.com/rivm"
+                                href="/algemeen/partners/wur"
                                 prefetch={false}
-                                target="_blank"
                             >
-                                <span className="mr-2">
-                                    <FaXTwitter />
-                                </span>
-                                {t('services.twitterLink')}
+                                {t('partners.wur')}
                             </FooterLink>
                             <FooterLink
-                                href="https://www.facebook.com/RIVMnl"
+                                href="/algemeen/partners/fsd"
                                 prefetch={false}
-                                target="_blank"
                             >
-                                <span className="mr-2">
-                                    <FaFacebook />
-                                </span>
-                                {t('services.facebookLink')}
+                                {t('partners.fsd')}
                             </FooterLink>
                             <FooterLink
-                                href="https://www.instagram.com/rivmnl/#"
+                                href="/algemeen/partners/amc"
                                 prefetch={false}
-                                target="_blank"
                             >
-                                <span className="mr-2">
-                                    <FaInstagram />
-                                </span>
-                                {t('services.instagramLink')}
+                                {t('partners.amc')}
                             </FooterLink>
                             <FooterLink
-                                href="https://www.youtube.com/user/RIVMnl"
+                                href="/algemeen/partners/radboudumc"
                                 prefetch={false}
-                                target="_blank"
                             >
-                                <span className="mr-2">
-                                    <FaYoutube />
-                                </span>
-                                {t('services.youtubeLink')}
-                            </FooterLink>
-                            <FooterLink
-                                href="https://nl.linkedin.com/company/rivm"
-                                prefetch={false}
-                                target="_blank"
-                            >
-                                <span className="mr-2">
-                                    <FaLinkedin />
-                                </span>
-                                {t('services.linkedInLink')}
+                                {t('partners.radboudumc')}
                             </FooterLink>
                         </FooterColumn>
 
                         <FooterColumn title={t('about.title')}>
                             <FooterLink
+                                href="/algemeen/contact"
+                                prefetch={false}
+                            >
+                                {t('about.contact')}
+                            </FooterLink>
+                            <FooterLink
                                 href="/algemeen/privacy"
                                 prefetch={false}
                             >
-                                {t('about.privacyLink')}
+                                {t('about.privacy')}
                             </FooterLink>
                             <FooterLink
                                 href="/algemeen/disclaimer"
                                 prefetch={false}
                             >
-                                {t('about.disclaimerLink')}
+                                {t('about.disclaimer')}
                             </FooterLink>
                             <FooterLink
                                 href="/algemeen/toegankelijkheid"
                                 prefetch={false}
                             >
-                                {t('about.toegankelijkheidLink')}
+                                {t('about.accessibility')}
                             </FooterLink>
                         </FooterColumn>
                     </div>
