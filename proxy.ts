@@ -122,7 +122,7 @@ const authMiddleware = auth((req) => {
 })
 
 
-export default function middleware(req: NextRequest) {
+export default function proxy(req: NextRequest) {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     return (authMiddleware as any)(req);
 }
