@@ -1,7 +1,6 @@
 import { Metadata } from "next"
 
 import '../globals.css'
-import RivmHeader from "@/components/rivm-header";
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Toaster } from "@/components/ui/sonner";
@@ -10,6 +9,7 @@ import { headers } from "next/headers";
 import PiwikProProvider from "@piwikpro/next-piwik-pro";
 import localFont from "next/font/local";
 import { LocaleParams } from "./utils";
+import TekenradarHeader from "@/components/tekenradar-header";
 
 
 const rivmFontSans = localFont({
@@ -92,7 +92,7 @@ export default async function RootLayout(props: LayoutProps) {
             >
                 {t('skipToMainContentBtn')}
             </Link>
-            <RivmHeader />
+            <TekenradarHeader />
             <UnconfirmedAccountWarning />
             {props.children}
             <Toaster
