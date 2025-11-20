@@ -593,10 +593,11 @@
         }
     },
     "NotFoundPage": {
-        "title": "Pagina niet gevonden",
+        "title": "Sorry, wij hebben de pagina niet gevonden",
         "error": {
             "title": "De opgevraagde pagina bestaat niet",
-            "description": "Probeer een andere route of neem contact op met [infectieradar@rivm.nl](mailto:infectieradar@rivm.nl)."
-        }
+            "description": "Probeer een andere route of neem contact op met [info@tekenradar.nl](mailto:info@tekenradar.nl)."
+        },
+        "infos": "Je kunt de informatie die je zoekt mogelijk vinden via de homepage of veelgestelde vragen. Gebruik de navigatiebalk bovenin of zoek via deze pagina's:\n\n- [Home](/)\n\n- [Veelgestelde vragen](/faq)\n\n## Verkeerd adres?\n\nControleer of het juiste adres in de adresbalk staat. Soms gaat er iets mis bij het kopiëren van een link, bijvoorbeeld uit een e-mailbericht. De informatie is mogelijk ook te vinden via de homepage of met de navigatiebalk bovenin. Je kunt ook altijd [contact](/algemeen/contact) met ons opnemen."
     }
 }
