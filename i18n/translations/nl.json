@@ -32,22 +32,22 @@
             "faq": "Veelgestelde vragen"
         },
         "footer": {
-            "services": {
-                "title": "Service",
-                "contactLink": "Contact Infectieradar",
-                "twitterLink": "Volg het RIVM op X",
-                "facebookLink": "Volg het RIVM op Facebook",
-                "instagramLink": "Volg het RIVM op Instagram",
-                "youtubeLink": "Volg het RIVM op YouTube",
-                "linkedInLink": "Volg het RIVM op LinkedIn"
+            "partners": {
+                "title": "Partners",
+                "rivm": "Rijksinstituut voor Volksgezondheid en Milieu",
+                "wur": "Wageningen University & Research",
+                "amc": "Amsterdam Universitair Medisch Centrum",
+                "fsd": "Stichting voor Duurzame Ontwikkeling",
+                "radboudumc": "Radboud Universitair Medisch Centrum"
             },
             "about": {
                 "title": "Over deze site",
-                "privacyLink": "Privacyverklaring",
-                "disclaimerLink": "Geen medische functie",
-                "toegankelijkheidLink": "Toegankelijkheidverklaring"
+                "contact": "Contact",
+                "privacy": "Privacyverklaring",
+                "disclaimer": "Geen medische functie",
+                "accessibility": "Toegankelijksheidsverklaring"
             },
-            "signature": "© {year} Infectieradar"
+            "signature": "© {year} Tekenradar"
         }
     },
     "LandingPage": {
