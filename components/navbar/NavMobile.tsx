@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect } from 'react';
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { ChevronDown, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -93,16 +93,17 @@ const NavMobile: React.FC<NavMobileProps> = (props) => {
             <SheetContent
                 className="max-h-screen overflow-y-scroll"
                 side={'left'}>
-                <ScrollArea
-
-                >
+                <ScrollArea>
                     <SheetHeader className='flex items-center justify-center'>
-                        <div className='w-[44px]'>
+                        <SheetTitle className='sr-only'>
+                            Tekenradar
+                        </SheetTitle>
+                        <div className='w-[200px]'>
                             <AspectRatio
-                                ratio={44 / 77}
+                                ratio={1635 / 755}
                             >
                                 <Image
-                                    src="/static/logo.svg"
+                                    src="/static/images/tekenradar-logo.png"
                                     alt="Logo "
                                     fill
                                     className='object-cover'
