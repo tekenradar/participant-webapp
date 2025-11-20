@@ -26,6 +26,7 @@ export const renderGeneralPageContent = async (locale: string, name: string) => 
                     />
                 )
             }
+            sideBarContent={<div>TODO: report card</div>}
         >
             <MDXContent
                 code={pageContent.content}
