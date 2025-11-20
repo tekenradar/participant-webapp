@@ -8,6 +8,7 @@ export const PUBLIC_ROUTES = [
     { path: '/', exact: true },
 
     { path: '/auth/login', exact: true },
+    { path: '/auth/aanmelden', exact: true },
     { path: '/melden', exact: true },
     { path: '/auth/wachtwoord-vergeten', exact: true },
 
