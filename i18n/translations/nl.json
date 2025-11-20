@@ -1,7 +1,7 @@
 {
     "Metadata": {
-        "title": "Infectieradar",
-        "description": "Een onderzoek in de strijd tegen epidemieën"
+        "title": "Tekenradar",
+        "description": "Informatie voor artsen, patienten over teken, -beten, -activiteit, erythema migrans (rode ring op huid), Lyme. Teken verwijderen. Ziektes die teken doorgeven. Onderzoek naar teken en ziekten."
     },
     "Index": {
         "skipToMainContentBtn": "Ga naar de hoofdinhoud",
@@ -11,23 +11,25 @@
         },
         "navbar": {
             "login": "Inloggen",
-            "register": "Aanmelden",
+            "zelf-melden": "Zelf melden",
             "userMenu": {
                 "currentUserLabel": "Ingelogd als",
                 "studyOverviewLink": "Mijn vragenlijsten",
                 "settingsLink": "Instellingen",
                 "logout": "Uitloggen"
             },
-            "home": "Welkom",
-            "results": "Actuele resultaten",
+            "home": "Home",
+            "onderzoek": "Onderzoek",
             "informatie": {
                 "title": "Informatie",
                 "items": {
-                    "about": "Over Infectieradar",
-                    "selftest": "Over het zelftest-onderzoek"
+                    "teken": "Teken en tekenbeten",
+                    "lyme": "Ziekte van Lyme",
+                    "tekenradar": "Tekenradar"
                 }
             },
-            "faq": "Vraag en antwoord"
+            "news": "Nieuws",
+            "faq": "Veelgestelde vragen"
         },
         "footer": {
             "services": {

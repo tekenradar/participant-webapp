@@ -16,9 +16,9 @@ const UserButton: React.FC = async () => {
     if (!session) {
         const buttons = [
             {
-                key: 'register',
-                href: '/doemee?redirectTo=/dashboard',
-                label: t('register')
+                key: 'zelf-melden',
+                href: '/melden',
+                label: t('zelf-melden')
             },
             {
                 key: 'login',

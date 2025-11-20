@@ -8,7 +8,7 @@ export const PUBLIC_ROUTES = [
     { path: '/', exact: true },
 
     { path: '/auth/login', exact: true },
-    { path: '/doemee', exact: true }, // { path: '/auth/aanmelden', exact: true },
+    { path: '/melden', exact: true },
     { path: '/auth/wachtwoord-vergeten', exact: true },
 
     // These routes and their children will be public:
@@ -16,8 +16,10 @@ export const PUBLIC_ROUTES = [
     { path: '/404', exact: false },
     { path: '/link', exact: false },
     { path: '/informatie', exact: false },
+    { path: '/onderzoek', exact: false },
     { path: '/faq', exact: false },
-    { path: '/results', exact: false }
+    { path: '/nieuws', exact: false },
+
 ]
 
 

@@ -18,38 +18,41 @@ const Navbar: React.FC = async () => {
             key: 'home',
             href: '/',
             label: t('home'),
-            hideWhen: 'loggedIn'
         },
         {
-            key: 'dashboard',
-            href: '/dashboard',
-            label: t('userMenu.studyOverviewLink'),
-            hideWhen: 'loggedOut'
-        },
-        {
-            key: 'results',
-            href: '/results',
-            label: t('results')
+            key: 'onderzoek',
+            href: '/onderzoek',
+            label: t('onderzoek'),
         },
         {
             key: 'informatie',
             label: t('informatie.title'),
             items: [
                 {
-                    key: 'about',
-                    href: '/informatie/about',
-                    label: t('informatie.items.about')
+                    key: 'teken',
+                    href: '/informatie/teken',
+                    label: t('informatie.items.teken')
                 },
                 {
-                    key: 'selftest',
-                    href: '/informatie/about-selfteststudy',
-                    label: t('informatie.items.selftest')
+                    key: 'lyme',
+                    href: '/informatie/lyme',
+                    label: t('informatie.items.lyme')
+                },
+                {
+                    key: 'tekenradar',
+                    href: '/informatie/tekenradar',
+                    label: t('informatie.items.tekenradar')
                 },
             ]
         },
         {
+            key: 'news',
+            href: '/nieuws',
+            label: t('news')
+        },
+        {
             key: 'faq',
-            href: '/informatie/faq',
+            href: '/faq',
             label: t('faq')
         }
     ];
