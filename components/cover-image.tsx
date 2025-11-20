@@ -12,7 +12,6 @@ interface CoverImageProps {
 }
 
 const CoverImage: React.FC<CoverImageProps> = (props) => {
-    console.log(props.coverImageYPosition);
     return (
         <div className="relative">
             <Image
