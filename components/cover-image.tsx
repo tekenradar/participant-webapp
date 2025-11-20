@@ -12,12 +12,13 @@ interface CoverImageProps {
 }
 
 const CoverImage: React.FC<CoverImageProps> = (props) => {
+    console.log(props.coverImageYPosition);
     return (
         <div className="relative">
             <Image
                 src={props.src}
                 alt={props.alt}
-                className={cn('w-full h-72 md:h-80 object-cover object-top', {
+                className={cn('w-full h-72 md:h-96 object-cover object-top', {
                     'object-[center_90%]': props.coverImageYPosition === '90%',
                     'object-[center_80%]': props.coverImageYPosition === '80%',
                     'object-[center_75%]': props.coverImageYPosition === '75%',

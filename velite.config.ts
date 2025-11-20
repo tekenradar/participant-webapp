@@ -44,6 +44,7 @@ const generalPages = defineCollection({
             slug: s.path(),
             cover: s.image().optional(),
             coverCredits: s.string().optional(),
+            coverImageYPosition: s.string().optional(),
             content: s.mdx(),
         }).transform(computedFields),
 });

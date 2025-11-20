@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getGeneralContent } from "./utils";
 import ArticlePageLayout from "@/components/layouts/article-page-layout";
-import CoverImage from "@/components/cover-image";
+import CoverImage, { CoverImagePosition } from "@/components/cover-image";
 import { MDXContent } from "@/components/mdx-content";
 
 export const renderGeneralPageContent = async (locale: string, name: string) => {
@@ -23,6 +23,7 @@ export const renderGeneralPageContent = async (locale: string, name: string) => 
                         src={pageContent.cover}
                         alt={pageContent.title}
                         credits={pageContent.coverCredits}
+                        coverImageYPosition={pageContent.coverImageYPosition as CoverImagePosition}
                     />
                 )
             }
