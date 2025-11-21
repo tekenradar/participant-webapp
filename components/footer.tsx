@@ -6,7 +6,7 @@ import { ArrowUpRight } from "lucide-react";
 
 function FooterColumn({ children, title }: { title: string, children: React.ReactNode }) {
     return (<div className='col-12 col-md-6 col-lg-4'>
-        <h2 className='border-b border-foreground text-xl pb-2 mb-2'>{title}</h2>
+        <h2 className='border-b border-foreground text-xl pb-2 mb-2 font-medium'>{title}</h2>
         <ul className='grid gap-y-2 grid-cols-1'>
             {children}
         </ul>
