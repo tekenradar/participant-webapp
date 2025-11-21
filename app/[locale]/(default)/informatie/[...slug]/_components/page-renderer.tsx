@@ -5,8 +5,8 @@ import { MDXContent } from "@/components/mdx-content";
 import { notFound } from "next/navigation";
 import CoverImage, { CoverImagePosition } from '@/components/cover-image';
 import IndexPageLayout from '@/components/layouts/index-page-layout';
-import { ImageLinkCard } from '@/components/image-link-card';
 import { getTranslations } from 'next-intl/server';
+import ReportCard from '@/components/report-card';
 
 
 export const getContent = async (locale: string, name: string) => {
@@ -46,7 +46,11 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                             />
                         )
                     }
-                    sideBarContent={undefined}
+                    sideBarContent={
+                        <div>
+                            <ReportCard showMyTekenradarLink={false} />
+                        </div>
+                    }
                 >
                     <MDXContent
                         code={pageContent.content}
@@ -70,17 +74,9 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                             />
                         )
                     }
-                    sideBarContent={<div><ImageLinkCard
-                        imageSrc="/static/images/ANP-371602781-1024.jpg"
-                        title={t('meldenCard.title')}
-                        imageAlt=''
-                        moreBtnLabel={t('meldenCard.actionLabel')}
-                        href="/dashboard"
-                    >
-                        <p className="italic">
-                            {t('meldenCard.body')}
-                        </p>
-                    </ImageLinkCard></div>}
+                    sideBarContent={<div>
+                        <ReportCard showMyTekenradarLink={false} />
+                    </div>}
                 >
                     <MDXContent
                         code={pageContent.content}

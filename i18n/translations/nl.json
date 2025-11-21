@@ -31,6 +31,20 @@
             "news": "Nieuws",
             "faq": "Veelgestelde vragen"
         },
+        "reportCard": {
+            "links": {
+                "myTekenradar": "Mijn Tekenradar",
+                "tekenBeet": "Tekenbeet melden",
+                "rodeRing": "Rode ring of vlek melden",
+                "lyme": "Andere vorm van Lyme melden",
+                "koorts": "Elke week tekenbeten melden"
+            },
+            "infoLinks": {
+                "removeTick": "Hoe verwijder ik een teek?",
+                "roseRingExamples": "Voorbeelden van een rode ring of vlek",
+                "weeklyReportInfo": "Informatie elke week tekenbeten melden"
+            }
+        },
         "footer": {
             "partners": {
                 "title": "Partners",
@@ -73,17 +87,7 @@
             }
         }
     },
-    "ResultsPage": {
-        "title": "Actuele resultaten Infectieradar",
-        "closeBtn": "Sluiten"
-    },
-    "InformatiePage": {
-        "meldenCard": {
-            "title": "Doe mee!",
-            "body": "Help mee het coronavirus in de gaten te houden. Geef wekelijks door of u klachten heeft.",
-            "actionLabel": "Melden"
-        }
-    },
+    "InformatiePage": {},
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
         "teaserImage": {

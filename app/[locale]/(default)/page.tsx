@@ -2,6 +2,7 @@ import Container from "@/components/container";
 import FullwidthImageWithContent from "@/components/fullwidth-image-with-content"
 import { ImageLinkCard } from "@/components/image-link-card";
 import PageTitlebar from "@/components/page-titlebar";
+import ReportCard from "@/components/report-card";
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from "next-intl/server";
 import { use } from 'react';
@@ -27,6 +28,9 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
 
       <Container>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-6">
+          <li>
+            <ReportCard showMyTekenradarLink={true} />
+          </li>
           <li>
             <ImageLinkCard
               title={t('cards.about.title')}
