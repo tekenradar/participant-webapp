@@ -28,7 +28,7 @@ const MeldenButton: React.FC<MeldenButtonProps> = ({ label, href }) => {
         <Button
             asChild
             variant="tekenradar"
-            className="w-full justify-start text-lg font-bold tracking-wide text-balance h-auto"
+            className="w-full justify-start text-lg font-bold text-balance h-auto"
         >
             <Link href={href}>
                 {label}
@@ -53,7 +53,7 @@ const MyTekenradarButton: React.FC = async () => {
             <Button
                 asChild
                 variant="default"
-                className="w-full justify-start text-2xl font-bold tracking-wide text-balance h-auto"
+                className="w-full justify-start text-2xl font-bold text-balance h-auto"
             >
                 <Link href="/mijn-tekenradar">
                     {t('links.myTekenradar')}
@@ -76,7 +76,7 @@ const InfoLinkButton: React.FC<InfoLinkButtonProps> = ({ href, label }) => {
         <Button
             asChild
             variant="link"
-            className="w-full py-1 justify-start text-base font-bold tracking-wide text-balance h-auto"
+            className="w-full py-1 justify-start text-sm font-bold text-balance h-auto"
         >
             <Link href={href}>
                 {label}

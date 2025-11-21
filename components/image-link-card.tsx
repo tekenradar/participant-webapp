@@ -42,10 +42,10 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
                         </AspectRatio>
 
                         <div className="flex flex-col underline-offset-4 grow">
-                            <p className="px-4 py-2 font-semibold text-primary-foreground text-lg tracking-wide group-hover:underline bg-primary text-wrap">
+                            <p className="px-4 py-2 font-bold text-secondary-foreground text-lg tracking-wide group-hover:underline text-wrap">
                                 {title}
                             </p>
-                            <div className="text-secondary-foreground px-4 text-wrap mt-2">
+                            <div className="text-secondary-foreground px-4 text-wrap">
                                 {children}
                             </div>
                             <p className="px-4 py-2 text-sm text-secondary-foreground group-hover:underline flex gap-1 items-end justify-end grow">
