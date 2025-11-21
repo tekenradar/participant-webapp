@@ -15,8 +15,8 @@ export const H2 = ({
     className, ...props }: React.HTMLAttributes<HTMLHeadingElement> & { borderOnTop?: boolean }) => (
     <h2
         className={cn(
-            "font-heading mt-6 scroll-m-20 text-2xl font-semibold tracking-tight first:mt-0 border-primary",
-            borderOnTop ? "border-t pt-2" : "border-b pb-2",
+            "font-heading mt-6 scroll-m-20 text-2xl font-bold tracking-tight first:mt-0 border-primary",
+            borderOnTop ? "border-t-2 pt-2" : "border-b-2 pb-2",
             className
         )}
         {...props}

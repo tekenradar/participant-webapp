@@ -66,24 +66,42 @@
     },
     "LandingPage": {
         "title": "Tekenradar",
-        "cards": {
-            "about": {
-                "title": "Over Infectieradar",
-                "moreBtnLabel": "Lees meer",
-                "imageAlt": "",
-                "text": "Met Infectieradar brengt het RIVM gezondheidsklachten in kaart die kunnen passen bij een besmetting met een virus."
-            },
-            "currentResults": {
-                "title": "Actuele resultaten",
-                "moreBtnLabel": "Actuele resultaten",
-                "imageAlt": "",
-                "text": "Wekelijks publiceren we hier de uitkomsten van de vragenlijsten."
-            },
-            "register": {
-                "title": "Doe mee!",
-                "moreBtnLabel": "Aanmelden",
-                "imageAlt": "",
-                "text": "Help mee door wekelijks een korte vragenlijst in te vullen. Zo kunnen we een mogelijke opleving van een virus zoals corona of griep snel zien."
+        "latestNews": {
+            "title": "Laatste nieuws"
+        },
+        "moreInfos": {
+            "title": "Meer informatie",
+            "cards": {
+                "onderzoek": {
+                    "title": "Over onze onderzoeken",
+                    "moreBtnLabel": "Lees meer",
+                    "imageAlt": ""
+                },
+                "teken": {
+                    "title": "Over teken",
+                    "moreBtnLabel": "Lees meer",
+                    "imageAlt": ""
+                },
+                "lyme": {
+                    "title": "Over ziekte van Lyme",
+                    "moreBtnLabel": "Lees meer",
+                    "imageAlt": ""
+                },
+                "faq": {
+                    "title": "Veelgestelde vragen",
+                    "moreBtnLabel": "Lees meer",
+                    "imageAlt": ""
+                },
+                "verwijderCard": {
+                    "title": "Hoe verwijder ik een teek?",
+                    "moreBtnLabel": "Lees meer",
+                    "imageAlt": ""
+                },
+                "about": {
+                    "title": "Over Tekenradar.nl",
+                    "moreBtnLabel": "Lees meer",
+                    "imageAlt": ""
+                }
             }
         },
         "partners": {

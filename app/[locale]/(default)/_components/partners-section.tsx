@@ -51,7 +51,10 @@ const PartnersSection = async () => {
     return (
         <section>
             <Container>
-                <H2 borderOnTop={true}>
+                <H2
+                    className="font-bold"
+                    borderOnTop={false}
+                >
                     {t('title')}
                 </H2>
 

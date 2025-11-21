@@ -26,8 +26,10 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
             <ReportCard showMyTekenradarLink={true} />
           </div>
 
-          <div className="order-1 lg:order-2 border border-border rounded-md p-4 border-dashed col-span-full lg:col-span-2">
-            maps
+          <div className="order-1 lg:order-2 col-span-full lg:col-span-2">
+            <div className="h-full w-full bg-muted border border-border rounded-md border-dashed flex justify-center items-center">
+              maps
+            </div>
           </div>
         </div>
       </Container >
