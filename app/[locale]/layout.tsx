@@ -41,7 +41,7 @@ interface LayoutProps {
 
 const openSans = Open_Sans({
     subsets: ['latin'],
-    variable: '--font-open-sans',
+    variable: '--font-sans',
 });
 
 export default async function RootLayout(props: LayoutProps) {
