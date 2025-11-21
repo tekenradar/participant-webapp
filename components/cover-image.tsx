@@ -7,6 +7,8 @@ export type CoverImagePosition = '0%' | '10%' | '20%' | '25%' | '30%' | '33%' | 
 interface CoverImageProps {
     src: string | StaticImageData;
     alt: string;
+    width?: number;
+    height?: number;
     credits?: string;
     coverImageYPosition?: CoverImagePosition;
 }
@@ -16,8 +18,10 @@ const CoverImage: React.FC<CoverImageProps> = (props) => {
         <div className="relative">
             <Image
                 src={props.src}
+                width={props.width}
+                height={props.height}
                 alt={props.alt}
-                className={cn('w-full h-72 md:h-80 object-cover object-top', {
+                className={cn('w-full h-72 md:h-96 object-cover object-top', {
                     'object-[center_90%]': props.coverImageYPosition === '90%',
                     'object-[center_80%]': props.coverImageYPosition === '80%',
                     'object-[center_75%]': props.coverImageYPosition === '75%',

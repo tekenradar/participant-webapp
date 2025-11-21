@@ -3,10 +3,15 @@ import FullwidthImageWithContent from "@/components/fullwidth-image-with-content
 import { ImageLinkCard } from "@/components/image-link-card";
 import PageTitlebar from "@/components/page-titlebar";
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from "next-intl/server";
+import { use } from 'react';
 
 
-export default function Home() {
+export default function Home({ params }: { params: Promise<{ locale: string }> }) {
   const t = useTranslations('LandingPage');
+
+  const { locale } = use(params);
+  setRequestLocale(locale);
 
   return (
     <>

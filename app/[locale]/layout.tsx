@@ -10,6 +10,7 @@ import PiwikProProvider from "@piwikpro/next-piwik-pro";
 import localFont from "next/font/local";
 import { LocaleParams } from "./utils";
 import TekenradarHeader from "@/components/tekenradar-header";
+import { routing } from "@/i18n/routing";
 
 
 const rivmFontSans = localFont({
@@ -67,6 +68,10 @@ export async function generateMetadata(props: LocaleParams): Promise<Metadata> {
         description: t('description'),
         metadataBase: process.env.NEXT_PUBLIC_APP_URL ? new URL(process.env.NEXT_PUBLIC_APP_URL) : undefined,
     }
+}
+
+export function generateStaticParams() {
+    return routing.locales.map((locale: string) => ({ locale }));
 }
 
 interface LayoutProps {

@@ -133,7 +133,7 @@ const LoginForm: React.FC<LoginFormProps> = (props) => {
 
                 <div className='space-y-0'>
                     <LinkButton
-                        href={`/doemee${hasSearchParams ? `?${searchParams}` : ''}`}
+                        href={`/auth/aanmelden${hasSearchParams ? `?${searchParams}` : ''}`}
                     >
                         {props.messages.goToRegister}
                     </LinkButton>

@@ -93,4 +93,13 @@
   .sticky-top {
     @apply sticky top-0;
   }
+
+
+  .news-figure {
+    @apply w-full justify-center items-center my-6 p-4;
+
+    figcaption {
+      @apply text-muted-foreground text-center text-sm text-balance;
+    }
+  }
 }

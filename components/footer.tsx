@@ -46,31 +46,31 @@ const Footer: React.FC = () => {
                         <FooterColumn title={t('partners.title')}>
 
                             <FooterLink
-                                href="/algemeen/partners/rivm"
+                                href="/informatie/partners/rivm"
                                 prefetch={false}
                             >
                                 {t('partners.rivm')}
                             </FooterLink>
                             <FooterLink
-                                href="/algemeen/partners/wur"
+                                href="/informatie/partners/wageningen"
                                 prefetch={false}
                             >
                                 {t('partners.wur')}
                             </FooterLink>
                             <FooterLink
-                                href="/algemeen/partners/fsd"
+                                href="/informatie/partners/fsd"
                                 prefetch={false}
                             >
                                 {t('partners.fsd')}
                             </FooterLink>
                             <FooterLink
-                                href="/algemeen/partners/amc"
+                                href="/informatie/partners/amc"
                                 prefetch={false}
                             >
                                 {t('partners.amc')}
                             </FooterLink>
                             <FooterLink
-                                href="/algemeen/partners/radboudumc"
+                                href="/informatie/partners/radboudumc"
                                 prefetch={false}
                             >
                                 {t('partners.radboudumc')}
