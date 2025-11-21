@@ -87,17 +87,7 @@
             }
         }
     },
-    "ResultsPage": {
-        "title": "Actuele resultaten Infectieradar",
-        "closeBtn": "Sluiten"
-    },
-    "InformatiePage": {
-        "meldenCard": {
-            "title": "Doe mee!",
-            "body": "Help mee het coronavirus in de gaten te houden. Geef wekelijks door of u klachten heeft.",
-            "actionLabel": "Melden"
-        }
-    },
+    "InformatiePage": {},
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
         "teaserImage": {
