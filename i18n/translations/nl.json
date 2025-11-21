@@ -65,7 +65,7 @@
         }
     },
     "LandingPage": {
-        "title": "Infectieradar",
+        "title": "Tekenradar",
         "cards": {
             "about": {
                 "title": "Over Infectieradar",
@@ -85,6 +85,14 @@
                 "imageAlt": "",
                 "text": "Help mee door wekelijks een korte vragenlijst in te vullen. Zo kunnen we een mogelijke opleving van een virus zoals corona of griep snel zien."
             }
+        },
+        "partners": {
+            "title": "Partners",
+            "rivm": "Rijksinstituut voor Volksgezondheid en Milieu",
+            "wur": "Wageningen University & Research",
+            "amc": "Amsterdam Universitair Medisch Centrum",
+            "fsd": "Stichting voor Duurzame Ontwikkeling",
+            "radboudumc": "Radboud Universitair Medisch Centrum"
         }
     },
     "InformatiePage": {},
