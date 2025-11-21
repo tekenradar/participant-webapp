@@ -6,7 +6,7 @@ import { ArrowUpRight } from "lucide-react";
 
 function FooterColumn({ children, title }: { title: string, children: React.ReactNode }) {
     return (<div className='col-12 col-md-6 col-lg-4'>
-        <h2 className='border-b border-foreground text-2xl pb-2 mb-2'>{title}</h2>
+        <h2 className='border-b border-foreground text-xl pb-2 mb-2 font-medium'>{title}</h2>
         <ul className='grid gap-y-2 grid-cols-1'>
             {children}
         </ul>
@@ -21,7 +21,7 @@ function FooterLink({ children, href, prefetch, target }: { children: React.Reac
                 href={href}
                 prefetch={prefetch}
                 target={target}
-                className='flex items-center min-w-60 hover:underline focus:outline-none focus:border-none focus:ring-offset-2 focus:ring-2 focus:ring-accent/50 rounded'
+                className='text-sm flex items-center min-w-60 hover:underline focus:outline-none focus:border-none focus:ring-offset-2 focus:ring-2 focus:ring-accent/50 rounded'
             >
                 {children}
                 {target === '_blank' && <span className="ml-2">
@@ -116,7 +116,7 @@ const Footer: React.FC = () => {
             >
                 <Container>
                     <div>
-                        <p className='text-center pt-6 pb-6'>
+                        <p className='text-center pt-6 pb-6 text-sm'>
                             {t('signature', { year })}
                         </p>
                     </div>

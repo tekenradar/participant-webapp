@@ -1,11 +1,11 @@
 import Container from "@/components/container";
-import FullwidthImageWithContent from "@/components/fullwidth-image-with-content"
-import { ImageLinkCard } from "@/components/image-link-card";
-import PageTitlebar from "@/components/page-titlebar";
 import ReportCard from "@/components/report-card";
 import { useTranslations } from 'next-intl';
 import { setRequestLocale } from "next-intl/server";
 import { use } from 'react';
+import LatestNewsSection from "./_components/latest-news-section";
+import MoreInfosSection from "./_components/more-infos-section";
+import PartnersSection from "./_components/partners-section";
 
 
 export default function Home({ params }: { params: Promise<{ locale: string }> }) {
@@ -15,80 +15,30 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
   setRequestLocale(locale);
 
   return (
-    <>
-      <PageTitlebar>
-        {t('title')}
-      </PageTitlebar>
-      <FullwidthImageWithContent
-        imageSrc="/static/images/login_background.jpg"
-        imageClassName="object-[47%_27%]"
-        sectionClassName="h-[367px]"
-        imageAlt=""
-      />
-
+    <div className="space-y-6 py-6">
       <Container>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 py-6">
-          <li>
+        <h1 className='sr-only'>
+          {t('title')}
+        </h1>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="order-2 lg:order-1 flex justify-center">
             <ReportCard showMyTekenradarLink={true} />
-          </li>
-          <li>
-            <ImageLinkCard
-              title={t('cards.about.title')}
-              moreBtnLabel={t('cards.about.moreBtnLabel')}
-              href="/informatie/about"
-              imageSrc="/static/images/ANP-371602781-1024.jpg"
-              imageAlt={t('cards.about.imageAlt')}
-            >
-              <p className="italic">
-                {t('cards.about.text')}
-              </p>
-            </ImageLinkCard>
-          </li>
-          <li>
-            <ImageLinkCard
-              title={t('cards.currentResults.title')}
-              moreBtnLabel={t('cards.currentResults.moreBtnLabel')}
-              href="/results"
-              imageSrc="/static/images/ANP-7666051-1024.jpg"
-              imageAlt={t('cards.currentResults.imageAlt')}
-            >
-              <p className="italic">
-                {t('cards.currentResults.text')}
-              </p>
-            </ImageLinkCard>
-          </li>
-          <li>
-            <ImageLinkCard
-              title={t('cards.register.title')}
-              moreBtnLabel={t('cards.register.moreBtnLabel')}
-              href="/dashboard"
-              imageSrc="/static/images/iStock-1311747918_small.jpg"
-              imageAlt={t('cards.register.imageAlt')}
-              imageClassName="object-top"
-            >
-              <p className="italic">
-                {t('cards.register.text')}
-              </p>
-            </ImageLinkCard>
-          </li>
-        </ul>
-      </Container>
+          </div>
 
-      <Container>
-        <div className="w-full h-full mb-6">
-          <video
-            className="w-full h-full"
-            controls
-            poster="https://www.rovid.nl/rivm/aco/2024/rivm-aco-20240807-idljgf0ar-still-middel.jpg"
-            controlsList="nodownload"
-          >
-            <source src="https://www.rovid.nl/rivm/aco/2024/rivm-aco-20240807-idljgf0ar-web-hd.mp4" type="video/mp4" />
-            <source src="https://www.rovid.nl/rivm/aco/2024/rivm-aco-20240807-idljgf0ar-web-hd.mxf" type="video/mxf" />
-            <source src="https://www.rovid.nl/rivm/aco/2024/rivm-aco-20240807-idljgf0ar-web-hd.webm" type="video/webm" />
-            <p>Your browser does not support the video tag.</p>
-          </video>
+          <div className="order-1 lg:order-2 col-span-full lg:col-span-2">
+            <div className="h-full w-full bg-muted border border-border rounded-md border-dashed flex justify-center items-center">
+              maps
+            </div>
+          </div>
         </div>
-      </Container>
-    </>
+      </Container >
+
+      <LatestNewsSection />
+
+      <MoreInfosSection />
+
+      <PartnersSection />
+    </div>
   );
 }

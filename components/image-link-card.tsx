@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 import { AspectRatio } from "./ui/aspect-ratio";
 import { cn } from "@/lib/utils";
 
-export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, children, imageClassName }: {
+export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, children, imageClassName, imageCredits }: {
     title: string;
     children?: React.ReactNode;
     moreBtnLabel: string;
@@ -13,6 +13,7 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
     imageClassName?: string;
     imageSrc: string;
     imageAlt: string;
+    imageCredits?: string;
 }) => {
     return (
         <div
@@ -31,6 +32,7 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
                     )}>
                         <AspectRatio
                             ratio={16 / 9}
+                            className="relative"
                         >
                             <Image
                                 src={imageSrc}
@@ -39,13 +41,18 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
                                 className={cn('w-full object-cover', imageClassName)}
                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 370px"
                             />
+                            {imageCredits && (<div className="absolute bottom-2 left-2 px-1 py-0.5 rounded-sm bg-black/60 backdrop-blur-sm">
+                                <p className="text-white text-xs">
+                                    {imageCredits}
+                                </p>
+                            </div>)}
                         </AspectRatio>
 
                         <div className="flex flex-col underline-offset-4 grow">
-                            <p className="px-4 py-2 font-semibold text-primary-foreground text-lg tracking-wide group-hover:underline bg-primary text-wrap">
+                            <p className="px-4 py-2 font-bold text-secondary-foreground text-lg tracking-wide group-hover:underline text-wrap">
                                 {title}
                             </p>
-                            <div className="text-secondary-foreground px-4 text-wrap mt-2">
+                            <div className="text-secondary-foreground px-4 text-wrap">
                                 {children}
                             </div>
                             <p className="px-4 py-2 text-sm text-secondary-foreground group-hover:underline flex gap-1 items-end justify-end grow">

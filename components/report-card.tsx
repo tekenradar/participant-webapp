@@ -28,7 +28,7 @@ const MeldenButton: React.FC<MeldenButtonProps> = ({ label, href }) => {
         <Button
             asChild
             variant="tekenradar"
-            className="w-full justify-start text-lg font-bold tracking-wide text-balance h-auto"
+            className="w-full justify-start text-lg font-bold text-balance h-auto"
         >
             <Link href={href}>
                 {label}
@@ -53,7 +53,7 @@ const MyTekenradarButton: React.FC = async () => {
             <Button
                 asChild
                 variant="default"
-                className="w-full justify-start text-2xl font-bold tracking-wide text-balance h-auto"
+                className="w-full justify-start text-2xl font-bold text-balance h-auto"
             >
                 <Link href="/mijn-tekenradar">
                     {t('links.myTekenradar')}
@@ -76,7 +76,7 @@ const InfoLinkButton: React.FC<InfoLinkButtonProps> = ({ href, label }) => {
         <Button
             asChild
             variant="link"
-            className="w-full py-1 justify-start text-base font-bold tracking-wide text-balance h-auto"
+            className="w-full py-1 justify-start text-base font-bold text-balance h-auto"
         >
             <Link href={href}>
                 {label}
@@ -89,7 +89,7 @@ const ReportCard: React.FC<ReportCardProps> = ({ showMyTekenradarLink }) => {
     const t = useTranslations('Index.reportCard');
     return (
         <div className={cn(
-            "relative min-w-60 w-full h-full flex flex-col rounded-md overflow-hidden bg-secondary border border-border group",
+            "relative min-w-60 w-full max-w-lg h-full flex flex-col rounded-md overflow-hidden bg-secondary border border-border group",
         )}>
             <AspectRatio
                 ratio={16 / 9}
@@ -122,7 +122,7 @@ const ReportCard: React.FC<ReportCardProps> = ({ showMyTekenradarLink }) => {
                 </li>
             </ul>
 
-            <ul className="p-4 pt-0">
+            <ul className="p-4 pt-0 space-y-2">
                 <li>
                     <InfoLinkButton href="/informatie/hoe-verwijder-ik-een-teek" label={t('infoLinks.removeTick')} />
                 </li>
