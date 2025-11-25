@@ -152,7 +152,23 @@
                     "imageAlt": "Pandora onderzoek"
                 }
             },
-            "readMoreBtn": "Lees meer →"
+            "readMoreBtn": "Lees meer"
+        },
+        "results": {
+            "title": "Resultaten",
+            "cards": {
+                "cijfers": {
+                    "title": "Cijfers en onderzoeksresultaten",
+                    "body": "Sinds de start van Tekenradar.nl in 2012 zijn meer dan 60 duizend tekenbeten gemeld, met elk jaar tussen de... ",
+                    "imageAlt": "Cijfers over tekenbeten en de ziekte van Lyme"
+                },
+                "publicaties": {
+                    "title": "Publicaties onderzoeksresultaten",
+                    "body": "In 2013 kon met teken verkregen via Tekenradar.nl een snelle inventarisatie plaatsvinden van de populatie blootstelling aan... ",
+                    "imageAlt": ""
+                }
+            },
+            "readMoreBtn": "Lees meer"
         },
         "relatedPages": {
             "title": "Gerelateerd",

@@ -49,9 +49,11 @@ export default async function Page(
                     <Container className="space-y-4">
                         <H2>{t('doelen.title')}</H2>
 
-                        <EmbeddedMarkdownRenderer className="max-w-3xl">
-                            {t('doelen.description')}
-                        </EmbeddedMarkdownRenderer>
+                        <div className="flex justify-center pb-12 sm:pt-6">
+                            <EmbeddedMarkdownRenderer className="max-w-3xl mx-auto p-6 border border-primary rounded-md">
+                                {t('doelen.description')}
+                            </EmbeddedMarkdownRenderer>
+                        </div>
                     </Container>
 
                 </section>
@@ -123,7 +125,36 @@ export default async function Page(
                 </section>
 
                 <section>
-                    Results
+                    <Container>
+                        <H2>{t('onderzoeken.title')}</H2>
+                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+                            <li className="col-span-1">
+                                <ImageLinkCard
+                                    title={t('results.cards.cijfers.title')}
+                                    moreBtnLabel={t('results.readMoreBtn')}
+                                    href="/onderzoek/cijfers"
+                                    imageSrc="/static/images/cRIVM/PV-20161013-02-1920.jpg"
+                                    imageAlt={t('results.cards.cijfers.imageAlt')}
+                                    imageCredits="© RIVM"
+                                >
+                                    {t('results.cards.cijfers.body')}
+                                </ImageLinkCard>
+                            </li>
+
+                            <li className="col-span-1">
+                                <ImageLinkCard
+                                    title={t('results.cards.publicaties.title')}
+                                    moreBtnLabel={t('results.readMoreBtn')}
+                                    href="/onderzoek/publicaties"
+                                    imageSrc="/static/images/cRIVM/ipads&phonesnieuwewerken-8-1920.jpg"
+                                    imageAlt={t('results.cards.publicaties.imageAlt')}
+                                    imageCredits="© RIVM"
+                                >
+                                    {t('results.cards.publicaties.body')}
+                                </ImageLinkCard>
+                            </li>
+                        </ul>
+                    </Container>
                 </section>
 
                 <section>
