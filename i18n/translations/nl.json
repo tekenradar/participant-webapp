@@ -114,6 +114,11 @@
         }
     },
     "OnderzoekPage": {
+        "meta": {
+            "title": "Meedoen aan onderzoek",
+            "description": "Tekenradar.nl is een platform waar door middel van citizen science onderzoek gedaan wordt naar tekenbeten en de ziekte van Lyme. Wil jij ook meedoen aan tekenradar onderzoek? Maak dan een account en meld je vrijblijvend aan voor tekenradar."
+        },
+        "title": "Informatie over onze onderzoeken",
         "relatedPages": {
             "title": "Gerelateerd",
             "readMoreBtn": "Lees meer",
