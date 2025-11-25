@@ -52,7 +52,7 @@ const Navbar: React.FC = async () => {
         },
         {
             key: 'faq',
-            href: '/faq',
+            href: '/informatie/faq',
             label: t('faq')
         }
     ];

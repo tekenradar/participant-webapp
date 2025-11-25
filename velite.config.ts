@@ -45,19 +45,6 @@ const onderzoekPages = defineCollection({
         }).transform(computedFields),
 });
 
-const faqPages = defineCollection({
-    name: 'FaqPage',
-    pattern: '*/faq/**/*.mdx',
-    schema: s
-        .object({
-            title: s.string().max(99),
-            slug: s.path(),
-            cover: s.image().optional(),
-            coverCredits: s.string().optional(),
-            content: s.mdx(),
-        }).transform(computedFields),
-});
-
 const generalPages = defineCollection({
     name: 'GeneralPage',
     pattern: '*/general/**/*.mdx',
@@ -106,7 +93,6 @@ export default defineConfig({
     },
     collections: {
         infoPages,
-        faqPages,
         generalPages,
         newsPages,
         onderzoekPages,
