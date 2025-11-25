@@ -95,7 +95,7 @@
   }
 
 
-  .news-figure {
+  .article-figure {
     @apply w-full justify-center items-center my-6 p-4;
 
     figcaption {

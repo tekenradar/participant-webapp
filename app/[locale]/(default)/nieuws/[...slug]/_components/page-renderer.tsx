@@ -49,7 +49,7 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                 )
             }
             sideBarContent={
-                <div>
+                <div className='flex justify-center'>
                     <ReportCard showMyTekenradarLink={false} />
                 </div>
             }

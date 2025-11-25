@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                                 {t('partners.rivm')}
                             </FooterLink>
                             <FooterLink
-                                href="/informatie/partners/wageningen"
+                                href="/informatie/partners/wageningen-university"
                                 prefetch={false}
                             >
                                 {t('partners.wur')}
