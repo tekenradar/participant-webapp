@@ -170,6 +170,17 @@
             },
             "readMoreBtn": "Lees meer"
         },
+        "voorArtsen": {
+            "title": "Informatie voor artsen",
+            "cards": {
+                "voorArtsen": {
+                    "title": "Informatie voor artsen",
+                    "body": "Momenteel is het niet nodig om nieuwe patiënten aan te melden voor onderzoeken via Tekenradar. Op termijn zullen we op deze website weer informatie plaatsen over nieuwe onderzoeken en verzoeken om patiënten aan te melden...",
+                    "imageAlt": ""
+                }
+            },
+            "readMoreBtn": "Lees meer"
+        },
         "relatedPages": {
             "title": "Gerelateerd",
             "readMoreBtn": "Lees meer",

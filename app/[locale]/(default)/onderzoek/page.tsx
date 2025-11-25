@@ -69,6 +69,7 @@ export default async function Page(
                                     href="/onderzoek/vragenlijst"
                                     imageSrc="/static/images/small-pexels-rodnae-productions-10376214y_crop.jpg"
                                     imageAlt={t('onderzoeken.cards.vragenlijst.imageAlt')}
+                                    imageHeightClassName="max-h-[200px] min-h-[200px]"
                                 >
                                     {t('onderzoeken.cards.vragenlijst.description')}
                                 </ImageLinkCard>
@@ -80,6 +81,7 @@ export default async function Page(
                                     href="/onderzoek/lymeProspect"
                                     imageSrc="/static/images/cRIVM/82073-1920.jpg"
                                     imageAlt={t('onderzoeken.cards.lymeProspect.imageAlt')}
+                                    imageHeightClassName="max-h-[200px] min-h-[200px]"
                                     imageCredits="© RIVM"
                                 >
                                     {t('onderzoeken.cards.lymeProspect.description')}
@@ -92,6 +94,7 @@ export default async function Page(
                                     href="/onderzoek/preventieveAntibiotica"
                                     imageSrc="/static/images/cRIVM/iStock-159286807-1920.jpg"
                                     imageAlt={t('onderzoeken.cards.preventieveAntibiotica.imageAlt')}
+                                    imageHeightClassName="max-h-[200px] min-h-[200px]"
                                     imageCredits="© RIVM"
                                 >
                                     {t('onderzoeken.cards.preventieveAntibiotica.description')}
@@ -104,6 +107,7 @@ export default async function Page(
                                     href="/onderzoek/victory"
                                     imageSrc="/static/images/pexels-katerina-holmes-5905747.jpg"
                                     imageAlt={t('onderzoeken.cards.victory.imageAlt')}
+                                    imageHeightClassName="max-h-[200px] min-h-[200px]"
                                 >
                                     {t('onderzoeken.cards.victory.description')}
                                 </ImageLinkCard>
@@ -116,6 +120,7 @@ export default async function Page(
                                     imageSrc="/static/images/cRIVM/JPJDouaneLaboratorium17-1920.jpg"
                                     imageAlt={t('onderzoeken.cards.pandora.imageAlt')}
                                     imageCredits="© RIVM"
+                                    imageHeightClassName="max-h-[200px] min-h-[200px]"
                                 >
                                     {t('onderzoeken.cards.pandora.description')}
                                 </ImageLinkCard>
@@ -126,7 +131,7 @@ export default async function Page(
 
                 <section>
                     <Container>
-                        <H2>{t('onderzoeken.title')}</H2>
+                        <H2>{t('results.title')}</H2>
                         <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
                             <li className="col-span-1">
                                 <ImageLinkCard
@@ -157,9 +162,28 @@ export default async function Page(
                     </Container>
                 </section>
 
+
                 <section>
-                    for doctors
+                    <Container>
+                        <H2>{t('voorArtsen.title')}</H2>
+                        <ul className="grid grid-cols-1 gap-4 py-4">
+                            <li className="col-span-1">
+                                <ImageLinkCard
+                                    title={t('voorArtsen.cards.voorArtsen.title')}
+                                    moreBtnLabel={t('voorArtsen.readMoreBtn')}
+                                    imageHeightClassName="max-h-[200px] min-h-[200px]"
+                                    href="/onderzoek/voorArtsen"
+                                    imageSrc="/static/images/cRIVM/iStock-683600772-1920.jpg"
+                                    imageAlt={t('voorArtsen.cards.voorArtsen.imageAlt')}
+                                    imageCredits="© RIVM"
+                                >
+                                    {t('voorArtsen.cards.voorArtsen.body')}
+                                </ImageLinkCard>
+                            </li>
+                        </ul>
+                    </Container>
                 </section>
+
 
             </div>
 
