@@ -22,7 +22,7 @@ const cards = [
     },
     {
         key: 'faq',
-        href: '/faq',
+        href: '/informatie/faq',
         imageSrc: '/static/images/small-faq.jpg',
     },
     {

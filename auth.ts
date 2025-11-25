@@ -18,7 +18,6 @@ export const PUBLIC_ROUTES = [
     { path: '/link', exact: false },
     { path: '/informatie', exact: false },
     { path: '/onderzoek', exact: false },
-    { path: '/faq', exact: false },
     { path: '/nieuws', exact: false },
 
 ]
