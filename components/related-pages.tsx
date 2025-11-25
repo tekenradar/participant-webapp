@@ -60,7 +60,7 @@ const LinkCard: React.FC<RelatedPage> = (props) => {
             }}
         >
             {hasImageLeft && props.imageURL && (
-                <div className="relative hidden  @md:block w-32 min-h-full flex-shrink-0 rounded-l-md overflow-hidden"
+                <div className="relative hidden @md:block w-32 min-h-full flex-shrink-0 rounded-l-md overflow-hidden"
                     style={{
                         backgroundImage: `url(${props.imageURL})`,
                         backgroundSize: 'cover',

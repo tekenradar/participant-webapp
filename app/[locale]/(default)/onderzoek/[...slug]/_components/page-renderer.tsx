@@ -86,7 +86,7 @@ const PageRenderer: React.FC<PageRendererProps> = async (props) => {
                             className={'mt-6 grow lg:max-w-[728px] w-full'}
                         >
                             <RelatedPages
-                                title="Related Pages"
+                                title={t('relatedPages.title')}
                                 previousPage={hasPreviousPage ? {
                                     key: 'previousPage',
                                     href: pageContent.previousPageURL,
