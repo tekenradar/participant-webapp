@@ -1,4 +1,7 @@
+import Container from "@/components/container";
 import CoverImage from "@/components/cover-image";
+import EmbeddedMarkdownRenderer from "@/components/embedded-markdown-renderer";
+import { H2 } from "@/components/headings";
 import PageTitlebar from "@/components/page-titlebar";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
@@ -42,7 +45,14 @@ export default async function Page(
             <div className='space-y-6 py-6'>
 
                 <section>
-                    Doelen
+                    <Container className="space-y-4">
+                        <H2>{t('doelen.title')}</H2>
+
+                        <EmbeddedMarkdownRenderer className="max-w-3xl">
+                            {t('doelen.description')}
+                        </EmbeddedMarkdownRenderer>
+                    </Container>
+
                 </section>
 
                 <section>
