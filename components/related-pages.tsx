@@ -71,13 +71,13 @@ const LinkCard: React.FC<RelatedPage> = (props) => {
             )}
 
             <div className={cn(
-                'p-4 w-full space-y-2',
+                'p-4 w-full space-y-2 flex flex-col h-full',
                 hasImageBg && 'relative z-10'
             )}>
                 <div className={'group-hover:underline text-lg font-bold tracking-wide text-wrap'}>
                     {props.title}
                 </div>
-                <div className='text-sm text-wrap'>
+                <div className='text-sm text-wrap grow'>
                     {props.description}
                 </div>
                 <div className='text-sm group-hover:underline flex gap-1 items-end justify-end grow'>
