@@ -18,7 +18,7 @@ const PartnersSection = async () => {
             height: 100
         },
         {
-            href: "/informatie/partners/wageningen",
+            href: "/informatie/partners/wageningen-university",
             logo: "/static/images/logo-WUR2.png",
             alt: tFooter('wur'),
             width: 220,
