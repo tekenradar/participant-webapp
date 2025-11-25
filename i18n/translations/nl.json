@@ -113,6 +113,17 @@
             "radboudumc": "Radboud Universitair Medisch Centrum"
         }
     },
+    "OnderzoekPage": {
+        "relatedPages": {
+            "title": "Gerelateerd",
+            "readMoreBtn": "Lees meer",
+            "overviewCard": {
+                "title": "Terug naar het overzicht",
+                "description": "Vind meer artikelen over onze onderzoeken ...",
+                "btnLabel": "Naar de overzichtspagina"
+            }
+        }
+    },
     "InformatiePage": {},
     "DashboardPage": {
         "title": "Mijn vragenlijsten",

@@ -28,7 +28,7 @@ export const renderGeneralPageContent = async (locale: string, name: string) => 
                     />
                 )
             }
-            sideBarContent={<div>
+            sideBarContent={<div className='flex justify-center'>
                 <ReportCard showMyTekenradarLink={false} />
             </div>}
         >

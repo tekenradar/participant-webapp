@@ -10,7 +10,7 @@ interface RelatedPage {
     description?: string;
     btnLabel?: string;
 
-    href: string;
+    href?: string;
     imageURL?: string;
     imageMode?: ImageMode;
 }
@@ -41,7 +41,8 @@ const LinkCard: React.FC<RelatedPage> = (props) => {
 
     return (
 
-        <Link href={props.href}
+        <Link
+            href={props.href || ''}
             className={cn(
                 "@container relative group w-full flex items-stretch whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 active:scale-[0.97] transition-transform duration-150",
                 'border border-border',

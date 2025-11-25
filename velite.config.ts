@@ -22,6 +22,29 @@ const infoPages = defineCollection({
         }).transform(computedFields),
 });
 
+const onderzoekPages = defineCollection({
+    name: 'OnderzoekPage',
+    pattern: '*/onderzoek/**/*.mdx',
+    schema: s
+        .object({
+            title: s.string().max(99),
+            slug: s.path(),
+            cover: s.image().optional(),
+            coverCredits: s.string().optional(),
+            coverImageYPosition: s.string().optional(),
+            content: s.mdx(),
+            layout: s.string().optional(),
+
+            previousPageURL: s.string().optional(),
+            previousPageTitle: s.string().optional(),
+            previousPageDescription: s.string().optional(),
+
+            nextPageURL: s.string().optional(),
+            nextPageTitle: s.string().optional(),
+            nextPageDescription: s.string().optional(),
+        }).transform(computedFields),
+});
+
 const faqPages = defineCollection({
     name: 'FaqPage',
     pattern: '*/faq/**/*.mdx',
@@ -86,5 +109,6 @@ export default defineConfig({
         faqPages,
         generalPages,
         newsPages,
+        onderzoekPages,
     },
 })
