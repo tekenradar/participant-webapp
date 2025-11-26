@@ -7,7 +7,8 @@ layout: index
 <section>
     <Container className="py-6">
     ## Ziekte van Lyme
-        <ul>
+
+    <ul>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-4">
             <li className='col-span-1 md:col-span-2'>
                 <ImageLinkCard
@@ -77,92 +78,81 @@ layout: index
             </li>
         </div>
 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <li>
                 <ImageLinkCard
                     title={'Wanneer moet ik naar de huisarts?'}
                     moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/huisarts"
-                    imageSrc="/static/images/cRIVM/82073-1920.jpg"
+                    href="/informatie/wanneer-moet-ik-naar-de-huisarts"
+                    imageSrc="/static/images/cRIVM/iStock-683600772-1920.jpg"
                     imageAlt={'Tekenverwijdering'}
                     imageCredits="© RIVM"
                     imageHeightClassName="h-[200px]"
                 >
-                    Ga naar de huisarts als je een rode ring of vlek op de huid ziet die binnen enkele dagen groter wordt.
+                    Als je een rode ring of vlek op je huid (erythema migrans) hebt gevonden en die ring of vlek binnen een paar dagen groter wordt, moet je naar de huisarts.
                 </ImageLinkCard>
             </li>
 
-            <li>
-                <ImageLinkCard
-                    title={'De ziekte van Lyme en het immuunsysteem'}
-                    moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/immuunsysteem"
-                    imageSrc="/static/images/cRIVM/lymecard.jpg"
-                    imageAlt={'Ziekte van Lyme'}
-                    imageHeightClassName="h-[200px]"
-                >
-                    Je kunt niet immuun worden voor de ziekte van Lyme. Elke nieuwe tekenbeet geeft een nieuwe kans op besmetting.
-                </ImageLinkCard>
-            </li>
+            <div className="col-span-1 lg:col-span-2 grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <li>
+                    <ImageLinkCard
+                        title={'De ziekte van Lyme en het immuunsysteem'}
+                        moreBtnLabel={'Lees meer'}
+                        href="/informatie/de-ziekte-van-lyme-en-het-immuunsysteem"
+                    >
+                        Je kunt niet immuun worden tegen de ziekte van Lyme. Elke nieuwe tekenbeet vormt een nieuwe kans op besmetting.
+                    </ImageLinkCard>
+                </li>
 
-            <li>
-                <ImageLinkCard
-                    title={'Lyme zonder tekenbeet?'}
-                    moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/zonder-tekenbeet"
-                    imageSrc="/static/images/cRIVM/lymecard.jpg"
-                    imageAlt={'Ziekte van Lyme'}
-                    imageHeightClassName="h-[200px]"
-                >
-                    Niet alle mensen die de ziekte van Lyme hebben, hebben in eerste instantie een tekenbeet opgemerkt.
-                </ImageLinkCard>
-            </li>
+                <li>
+                    <ImageLinkCard
+                        title={'Lyme zonder tekenbeet?'}
+                        moreBtnLabel={'Lees meer'}
+                        href="/informatie/lyme-zonder-tekenbeet"
+                    >
+                        Niet alle mensen die de ziekte van Lyme hebben, hebben eerst een tekenbeet gezien.
+                    </ImageLinkCard>
+                </li>
+
+                <li>
+                    <ImageLinkCard
+                        title={'Welke behandeling of antibiotica worden gegeven bij Lyme?'}
+                        moreBtnLabel={'Lees meer'}
+                        href="/informatie/welke-behandeling-of-antibiotica-worden-gegeven-bij-lyme"
+                    >
+                        Bij klachten die passen bij de ziekte van Lyme kun je worden behandeld met antibiotica. Een behandeling met antibiotica kan bestaande klachten verhelpen.
+                    </ImageLinkCard>
+                </li>
+
+                <li>
+                    <ImageLinkCard
+                        title={'Wie loopt extra risico om besmet te raken?'}
+                        moreBtnLabel={'Lees meer'}
+                        href="/informatie/wie-loopt-extra-risico-op-lyme"
+                    >
+                        Iedereen kan via een tekenbeet besmet raken met de lymebacterie en de ziekte van Lyme krijgen.
+                    </ImageLinkCard>
+                </li>
+            </div>
 
             <li>
                 <ImageLinkCard
                     title={'Voorkomen ziekte van Lyme'}
                     moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/voorkomen"
-                    imageSrc="/static/images/cRIVM/PV-20161013-02-1920.jpg"
-                    imageAlt={'Preventie tekenbeten'}
-                    imageHeightClassName="h-[200px]"
+                    href="/informatie/hoe-lyme-voorkomen"
                 >
-                    De ziekte van Lyme is een infectieziekte die wordt veroorzaakt door de Borrelia bacterie.
+                    De ziekte van Lyme is een infectieziekte die door de Borrelia bacterie wordt veroorzaakt.
                 </ImageLinkCard>
             </li>
 
-            <li>
-                <ImageLinkCard
-                    title={'Welke behandeling of antibiotica worden gegeven bij Lyme?'}
-                    moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/behandeling"
-                    imageSrc="/static/images/cRIVM/JPJDouaneLaboratorium17-1920.jpg"
-                    imageAlt={'Behandeling'}
-                >
-                    Verschijnselen die passen bij de ziekte van Lyme kunnen behandeld worden met antibiotica. Een antibioticabehandeling kan bestaande verschijnselen verhelpen.
-                </ImageLinkCard>
-            </li>
-
-            <li>
-                <ImageLinkCard
-                    title={'Wie loopt extra risico om besmet te raken?'}
-                    moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/risico"
-                    imageSrc="/static/images/cRIVM/iStock-168505070-1920.jpg"
-                    imageAlt={'Risicogroepen'}
-                >
-                    Iedereen kan via een tekenbeet besmet raken met de Lyme-bacterie en de ziekte van Lyme krijgen.
-                </ImageLinkCard>
-            </li>
 
             <li>
                 <ImageLinkCard
                     title={'Wanneer wordt bloedonderzoek gedaan voor Lyme?'}
                     moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/bloedonderzoek"
-                    imageSrc="/static/images/cRIVM/JPJDouaneLaboratorium17-1920.jpg"
-                    imageAlt={'Bloedonderzoek'}
+                    href="/informatie/wanneer-wordt-bloedonderzoek-gedaan-voor-lyme"
                 >
-                    Antistoffen tegen de ziekte van Lyme zijn meestal pas zes tot acht weken na besmetting aantoonbaar in het bloed.
+                    Antistoffen tegen lymeziekte zijn gemiddeld pas zes tot acht weken na de infectie meetbaar in het bloed.
                 </ImageLinkCard>
             </li>
 
@@ -170,14 +160,14 @@ layout: index
                 <ImageLinkCard
                     title={'Meer weten over tekenbeten en de ziekte van Lyme?'}
                     moreBtnLabel={'Lees meer'}
-                    href="/informatie/lyme/meer-informatie"
-                    imageSrc="/static/images/cRIVM/180624_2914_HZF6819-1920.jpg"
-                    imageAlt={'Meer informatie'}
+                    href="/informatie/aanvullende-informatie"
                 >
                     Hier vind je meer informatie.
                 </ImageLinkCard>
             </li>
-        </ul>
+
+        </div>
+    </ul>
     </Container>
 </section>
 
