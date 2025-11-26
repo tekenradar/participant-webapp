@@ -26,7 +26,7 @@ export const H2 = ({
 export const H3 = ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
     <h3
         className={cn(
-            "font-heading mt-6 scroll-m-20 text-xl font-semibold tracking-tight",
+            "font-heading mt-6 scroll-m-20 text-xl font-semibold tracking-tight first:mt-0",
             className
         )}
         {...props}

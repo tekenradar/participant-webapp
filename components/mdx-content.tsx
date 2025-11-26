@@ -2,14 +2,17 @@ import * as runtime from 'react/jsx-runtime'
 import AccordionWithMd from './accordion-generator'
 import ContentLink from './buttons/content-link'
 import { cn } from '@/lib/utils'
-import { H1, H2 } from './headings'
+import { H1, H2, H3 } from './headings'
 import { ReactNode } from 'react'
 import { ImageLinkCard } from './image-link-card'
 import Container from './container'
+import ImageGallery from './image-gallery'
+
 
 const sharedComponents = {
     AccordionWithMd,
     ImageLinkCard,
+    ImageGallery,
     Container,
     a: ({ ...props }) => {
         return <ContentLink
@@ -29,9 +32,8 @@ const sharedComponents = {
         {...props}
     />,
     h3: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-        <h3
+        <H3
             className={cn(
-                "font-heading mt-8 scroll-m-20 text-xl font-semibold tracking-tight",
                 className
             )}
             {...props}
