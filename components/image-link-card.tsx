@@ -11,21 +11,21 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
     moreBtnLabel: string;
     href: string;
     imageClassName?: string;
-    imageSrc: string;
-    imageAlt: string;
+    imageSrc?: string;
+    imageAlt?: string;
     imageCredits?: string;
     imageHeightClassName?: string;
 }) => {
 
-    const imageComponent = (
+    const imageComponent = imageSrc ? (
         <Image
             src={imageSrc}
-            alt={imageAlt}
+            alt={imageAlt || ''}
             fill
             className={cn('w-full object-cover', imageClassName)}
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 370px"
         />
-    )
+    ) : null;
 
     return (
         <div
@@ -42,28 +42,30 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
                     <div className={cn(
                         "relative min-w-60 w-full h-full flex flex-col rounded-md overflow-hidden bg-secondary border border-border group",
                     )}>
-                        {imageMaxHeight ? (
-                            <div className={cn("relative", imageMaxHeight)}>
-                                {imageComponent}
-                                {imageCredits && (<div className="absolute bottom-2 left-2 px-1 py-0.5 rounded-sm bg-black/60 backdrop-blur-sm">
-                                    <p className="text-white text-xs">
-                                        {imageCredits}
-                                    </p>
-                                </div>)}
-                            </div>
-                        ) : (
-                            <AspectRatio
-                                ratio={16 / 9}
-                                className={cn("relative", imageClassName)}
-                            >
-                                {imageComponent}
-                                {imageCredits && (<div className="absolute bottom-2 left-2 px-1 py-0.5 rounded-sm bg-black/60 backdrop-blur-sm">
-                                    <p className="text-white text-xs">
-                                        {imageCredits}
-                                    </p>
-                                </div>)}
-                            </AspectRatio>
-                        )}
+                        {imageSrc && (<>
+                            {imageMaxHeight ? (
+                                <div className={cn("relative", imageMaxHeight)}>
+                                    {imageComponent}
+                                    {imageCredits && (<div className="absolute bottom-2 left-2 px-1 py-0.5 rounded-sm bg-black/60 backdrop-blur-sm">
+                                        <p className="text-white text-xs">
+                                            {imageCredits}
+                                        </p>
+                                    </div>)}
+                                </div>
+                            ) : (
+                                <AspectRatio
+                                    ratio={16 / 9}
+                                    className={cn("relative", imageClassName)}
+                                >
+                                    {imageComponent}
+                                    {imageCredits && (<div className="absolute bottom-2 left-2 px-1 py-0.5 rounded-sm bg-black/60 backdrop-blur-sm">
+                                        <p className="text-white text-xs">
+                                            {imageCredits}
+                                        </p>
+                                    </div>)}
+                                </AspectRatio>
+                            )}
+                        </>)}
 
 
 

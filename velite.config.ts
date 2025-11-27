@@ -19,6 +19,16 @@ const infoPages = defineCollection({
             coverImageYPosition: s.string().optional(),
             content: s.mdx(),
             layout: s.string().optional(),
+
+            previousPageURL: s.string().optional(),
+            previousPageTitle: s.string().optional(),
+            previousPageDescription: s.string().optional(),
+
+            nextPageURL: s.string().optional(),
+            nextPageTitle: s.string().optional(),
+            nextPageDescription: s.string().optional(),
+
+            overviewPageKey: s.string().optional(),
         }).transform(computedFields),
 });
 

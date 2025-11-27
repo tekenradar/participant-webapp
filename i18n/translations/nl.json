@@ -191,7 +191,29 @@
             }
         }
     },
-    "InformatiePage": {},
+    "InformatiePage": {
+        "relatedPages": {
+            "title": "Gerelateerd",
+            "readMoreBtn": "Lees meer",
+            "overviewPageReferences": {
+                "tekenradar": {
+                    "title": "Terug naar het overzicht",
+                    "description": "Vind meer informatie over tekenradar.",
+                    "btnLabel": "Naar de overzichtspagina"
+                },
+                "lyme": {
+                    "title": "Terug naar het overzicht",
+                    "description": "Lees meer over de ziekte van Lyme en andere door teken overgedragen ziekten",
+                    "btnLabel": "Naar de overzichtspagina"
+                },
+                "teken": {
+                    "title": "Terug naar het overzicht",
+                    "description": "Vind meer artikelen over tekenbeten en hun gevolgen",
+                    "btnLabel": "Naar de overzichtspagina"
+                }
+            }
+        }
+    },
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
         "teaserImage": {
