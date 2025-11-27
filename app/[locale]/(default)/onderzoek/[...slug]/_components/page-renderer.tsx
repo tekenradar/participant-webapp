@@ -88,7 +88,6 @@ const PageRenderer: React.FC<PageRendererProps> = async (props) => {
                             <RelatedPages
                                 title={t('relatedPages.title')}
                                 previousPage={hasPreviousPage ? {
-                                    key: 'previousPage',
                                     href: pageContent.previousPageURL,
                                     title: pageContent.previousPageTitle,
                                     description: pageContent.previousPageDescription,
@@ -96,14 +95,12 @@ const PageRenderer: React.FC<PageRendererProps> = async (props) => {
                                     imageURL: '/static/images/waar-leven-teken.jpg',
                                 } : undefined}
                                 nextPage={hasNextPage ? {
-                                    key: 'nextPage',
                                     href: pageContent.nextPageURL,
                                     title: pageContent.nextPageTitle,
                                     description: pageContent.nextPageDescription,
                                     btnLabel: t('relatedPages.readMoreBtn'),
                                 } : undefined}
                                 overviewPage={{
-                                    key: 'overviewPage',
                                     href: '/onderzoek',
                                     title: t('relatedPages.overviewCard.title'),
                                     description: t('relatedPages.overviewCard.description'),

@@ -66,6 +66,8 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
 
             const hasOverviewPage = pageContent.overviewPageKey;
 
+            const hasBottomContent = hasPreviousPage || hasNextPage || hasOverviewPage;
+
             return (
                 <ArticlePageLayout
                     title={<>
@@ -84,13 +86,12 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                     sideBarContent={<div className='flex justify-center'>
                         <ReportCard showMyTekenradarLink={false} />
                     </div>}
-                    bottomContent={<div
+                    bottomContent={hasBottomContent && <div
                         className={'mt-6 grow lg:max-w-[728px] w-full'}
                     >
                         <RelatedPages
                             title={t('relatedPages.title')}
                             previousPage={hasPreviousPage ? {
-                                key: 'previousPage',
                                 href: pageContent.previousPageURL,
                                 title: pageContent.previousPageTitle,
                                 description: pageContent.previousPageDescription,
@@ -98,14 +99,12 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                                 imageURL: '/static/images/waar-leven-teken.jpg',
                             } : undefined}
                             nextPage={hasNextPage ? {
-                                key: 'nextPage',
                                 href: pageContent.nextPageURL,
                                 title: pageContent.nextPageTitle,
                                 description: pageContent.nextPageDescription,
                                 btnLabel: t('relatedPages.readMoreBtn'),
                             } : undefined}
                             overviewPage={hasOverviewPage ? {
-                                key: 'overviewPage',
                                 href: `/informatie/${pageContent.overviewPageKey}`,
                                 title: t(`relatedPages.overviewPageReferences.${pageContent.overviewPageKey}.title`),
                                 description: t(`relatedPages.overviewPageReferences.${pageContent.overviewPageKey}.description`),

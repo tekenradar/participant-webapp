@@ -4,8 +4,6 @@ import { cn } from '@/lib/utils';
 import { ArrowRight } from 'lucide-react';
 
 interface RelatedPage {
-    key: string;
-
     title?: string;
     description?: string;
     btnLabel?: string;
