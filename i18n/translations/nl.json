@@ -66,6 +66,17 @@
     },
     "LandingPage": {
         "title": "Tekenradar",
+        "infoTabs": {
+            "tekenmeldingen": {
+                "tabTitle": "Tekenbeetmeldingen"
+            },
+            "dichtheidkaart": {
+                "tabTitle": "Tekenbeetdichtheid"
+            },
+            "lymeinnl": {
+                "tabTitle": "Lyme in Nederland"
+            }
+        },
         "latestNews": {
             "title": "Laatste nieuws"
         },

@@ -6,12 +6,17 @@ import { use } from 'react';
 import LatestNewsSection from "./_components/latest-news-section";
 import MoreInfosSection from "./_components/more-infos-section";
 import PartnersSection from "./_components/partners-section";
+import InfoTabs from "./_components/info-tabs";
 
 
-export default function Home({ params }: { params: Promise<{ locale: string }> }) {
+export default function Home({ params, searchParams }: {
+  params: Promise<{ locale: string }>,
+  searchParams: Promise<{ tab: string }>
+}) {
   const t = useTranslations('LandingPage');
 
   const { locale } = use(params);
+  const { tab } = use(searchParams);
   setRequestLocale(locale);
 
   return (
@@ -27,9 +32,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
           </div>
 
           <div className="order-1 lg:order-2 col-span-full lg:col-span-2">
-            <div className="h-full w-full bg-muted border border-border rounded-md border-dashed flex justify-center items-center">
-              maps
-            </div>
+            <InfoTabs defaultTab={tab} />
           </div>
         </div>
       </Container >
