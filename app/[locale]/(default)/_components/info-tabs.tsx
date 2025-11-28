@@ -36,11 +36,11 @@ const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
                             key={tab.value}
                             className={
                                 cn(
-                                    'text-base',
+                                    'text-base py-2',
                                     'rounded-none grow w-full',
                                     'text-primary-foreground bg-primary',
                                     'data-[state=active]:bg-secondary data-[state=active]:font-bold',
-                                    'focus-visible:outline-none focus-visible:ring-1 focus-visible:-ring-offset-2'
+                                    'focus-visible:outline-none focus-visible:ring-inset focus-visible:ring-ring focus-visible:ring-offset-2'
                                 )
                             }
                             value={tab.value}
