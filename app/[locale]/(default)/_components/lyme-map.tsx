@@ -146,7 +146,7 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
             className="relative"
         >
             {renderLegend()}
-            <div className="ps-4 px-lg-4 px-sm-2 px-0 mx-auto" style={{ maxWidth: 550 }}>
+            <div className="ps-4 px-0 mx-auto" style={{ maxWidth: 550 }}>
 
                 <ComposableMap
                     projection="geoAzimuthalEqualArea"
