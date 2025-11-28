@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
 import { getTranslations } from "next-intl/server";
+import Image from "next/image";
 
 const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
     const t = await getTranslations('LandingPage.infoTabs');
@@ -40,7 +41,7 @@ const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
                                     'rounded-none grow w-full',
                                     'text-primary-foreground bg-primary',
                                     'data-[state=active]:bg-secondary data-[state=active]:font-bold',
-                                    'focus-visible:outline-none focus-visible:ring-inset focus-visible:ring-ring focus-visible:ring-offset-2'
+                                    'focus-visible:outline-none focus-visible:ring-inset focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-secondary'
                                 )
                             }
                             value={tab.value}
@@ -48,21 +49,39 @@ const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
                             {tab.label}
                         </TabsTrigger>
                     ))}
-
                 </TabsList>
             </div>
             <TabsContent
                 className="w-full grow"
-                value="tekenmeldingen">
-
-
-                todo: tekenmeldingen content
+                value="tekenmeldingen"
+            >
 
             </TabsContent>
             <TabsContent
                 className=""
-                value="dichtheidkaart">
-                todo: dichtheidkaart content
+                value="dichtheidkaart"
+            >
+                <div className="w-full h-full p-4 flex flex-col gap-4 justify-center items-center">
+                    <figure className="flex flex-col gap-4 justify-center items-center">
+                        <Image
+                            src="/static/images/dichtheidkaart.png"
+                            alt="Dichtheidkaart"
+                            width={480}
+                            height={600}
+                        />
+
+                        <figcaption className="text-center text-sm text-balance space-x-1">
+                            <span className="font-bold">
+                                {t('dichtheidkaart.title')}:
+                            </span>
+                            <span>
+                                {t('dichtheidkaart.description')}
+                            </span>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
             </TabsContent>
             <TabsContent
                 className=""

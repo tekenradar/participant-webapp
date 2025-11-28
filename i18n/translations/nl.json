@@ -71,7 +71,9 @@
                 "tabTitle": "Tekenbeetmeldingen"
             },
             "dichtheidkaart": {
-                "tabTitle": "Tekenbeetdichtheid"
+                "tabTitle": "Tekenbeetdichtheid",
+                "title": "Tekenbeetdichtheid",
+                "description": "Op deze kaart is te zien waar de meeste tekenbeten via Tekenradar gemeld worden. In deze gebieden zitten niet alleen veel teken, maar komen ook veel mensen."
             },
             "lymeinnl": {
                 "tabTitle": "Lyme in Nederland"
