@@ -1,10 +1,12 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cn } from "@/lib/utils";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
+import LymeMap from "./lyme-map";
 
 const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
     const t = await getTranslations('LandingPage.infoTabs');
+    const locale = await getLocale();
 
     const defaultTabValue = ['tekenmeldingen', 'dichtheidkaart', 'lymeinnl'].includes(defaultTab || '') ? defaultTab : 'tekenmeldingen';
 
@@ -79,14 +81,12 @@ const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
                             </span>
                         </figcaption>
                     </figure>
-
                 </div>
-
             </TabsContent>
             <TabsContent
-                className=""
+                className="w-full"
                 value="lymeinnl">
-                todo: lymeinnl content
+                <LymeMap language={locale} />
             </TabsContent>
         </Tabs>
     )
