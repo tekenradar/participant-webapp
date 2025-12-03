@@ -228,6 +228,12 @@
         }
     },
     "NewsPage": {
+        "meta": {
+            "title": "Onze nieuwsartikelen",
+            "description": "Lees meer over ons onderzoek en de laatste nieuwsberichten over tekenbeten en de ziekte van Lyme."
+        },
+        "title": "Onze nieuwsartikelen",
+        "readMoreBtn": "Lees meer",
         "relatedPages": {
             "title": "Gerelateerd",
             "readMoreBtn": "Lees meer",

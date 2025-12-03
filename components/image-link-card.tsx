@@ -5,11 +5,16 @@ import { ArrowRight } from "lucide-react";
 import { AspectRatio } from "./ui/aspect-ratio";
 import { cn } from "@/lib/utils";
 
-export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, children, imageClassName, imageCredits, imageHeightClassName: imageMaxHeight }: {
+export const ImageLinkCard = ({
+    title, moreBtnLabel, dateLabel, href, imageSrc, imageAlt, children, imageClassName, imageCredits, imageHeightClassName: imageMaxHeight,
+    imagePlacement = 'top'
+}: {
     title: string;
     children?: React.ReactNode;
     moreBtnLabel: string;
+    dateLabel?: string;
     href: string;
+    imagePlacement?: 'left' | 'top';
     imageClassName?: string;
     imageSrc?: string;
     imageAlt?: string;
@@ -29,7 +34,7 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
 
     return (
         <div
-            className='w-full h-full grow'
+            className='w-full h-full grow @container'
         >
             <Button asChild
                 className='p-0 w-full h-full'
@@ -40,11 +45,13 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
                     className=""
                 >
                     <div className={cn(
-                        "relative min-w-60 w-full h-full flex flex-col rounded-md overflow-hidden bg-secondary border border-border group",
+                        "relative min-w-60 w-full h-full flex rounded-md overflow-hidden bg-secondary border border-border group",
+                        imagePlacement === 'left' && 'flex-row',
+                        imagePlacement === 'top' && 'flex-col',
                     )}>
                         {imageSrc && (<>
-                            {imageMaxHeight ? (
-                                <div className={cn("relative", imageMaxHeight)}>
+                            {(imageMaxHeight || imagePlacement === 'left') ? (
+                                <div className={cn("relative", imageMaxHeight, imagePlacement === 'left' && 'min-w-36 @xl:min-w-60 hidden @md:block')}>
                                     {imageComponent}
                                     {imageCredits && (<div className="absolute bottom-2 left-2 px-1 py-0.5 rounded-sm bg-black/60 backdrop-blur-sm">
                                         <p className="text-white text-xs">
@@ -77,6 +84,9 @@ export const ImageLinkCard = ({ title, moreBtnLabel, href, imageSrc, imageAlt, c
                                 {children}
                             </div>
                             <p className="px-4 py-2 text-sm text-secondary-foreground group-hover:underline flex gap-1 items-end justify-end grow">
+                                {dateLabel && <span className='text-secondary-foreground/80 grow'>
+                                    {dateLabel}
+                                </span>}
                                 <span className='flex gap-1 items-center'>
                                     {moreBtnLabel}
                                     <span>

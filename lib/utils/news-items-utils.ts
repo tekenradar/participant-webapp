@@ -5,6 +5,12 @@ export const getSortedNewsArticles = async (locale: string, draftMode: boolean) 
     return sortNewsItems(localeNews);
 }
 
+export const filterNewsItemsForYear = (newsItems: Array<NewsItem>, year: number) => {
+    return newsItems.filter(newsItem => {
+        return new Date(newsItem.date).getFullYear() === year;
+    });
+}
+
 export const filterNewsItemsForLocale = (newsItems: Array<NewsItem>, locale: string, includeDrafts: boolean) => {
     return newsItems.filter(newsItem => {
         const published = new Date(newsItem.date) < new Date();
