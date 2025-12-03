@@ -76,7 +76,7 @@ export default async function Page(props: LocaleParams) {
                                             moreBtnLabel={t('readMoreBtn')}
                                             dateLabel={new Date(newsItem.date).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric' })}
                                             imagePlacement={newsItem.teaserImagePlacement || (index === 0 ? 'top' : 'left')}
-                                            href={`/nieuws/${newsItem.slug}`}
+                                            href={`${newsItem.slug}`}
                                             imageSrc={newsItem.teaserImage?.src}
                                             imageAlt={newsItem.title}
                                             imageCredits={newsItem.teaserImageCredits}
