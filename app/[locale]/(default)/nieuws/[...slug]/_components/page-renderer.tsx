@@ -79,7 +79,7 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                 <RelatedPages
                     title={t('relatedPages.title')}
                     previousPage={previousPage ? {
-                        href: previousPage.slugAsParams,
+                        href: '/nieuws/' + previousPage.slugAsParams,
                         title: previousPage.title,
                         description: previousPage.teaserText,
                         btnLabel: t('relatedPages.readMoreBtn'),
@@ -87,7 +87,7 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                         // imageURL: previousPage.cover,
                     } : undefined}
                     nextPage={nextPage ? {
-                        href: nextPage.slugAsParams,
+                        href: '/nieuws/' + nextPage.slugAsParams,
                         title: nextPage.title,
                         description: nextPage.teaserText,
                         btnLabel: t('relatedPages.readMoreBtn'),
