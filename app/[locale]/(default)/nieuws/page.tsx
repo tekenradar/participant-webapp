@@ -6,7 +6,7 @@ import { H2 } from "@/components/headings";
 import ArticlePageLayout from "@/components/layouts/article-page-layout";
 import ReportCard from "@/components/report-card";
 import { ImageLinkCard } from "@/components/image-link-card";
-import { getContent } from "./[...slug]/_components/page-renderer";
+import { getNewsPageContent } from "./[...slug]/_components/page-renderer";
 
 
 export const generateMetadata = async () => {
@@ -98,7 +98,7 @@ export default async function Page(props: LocaleParams) {
                     <ul className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
 
                         {['2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012'].map(async (year) => {
-                            const newsItem = await getContent(locale, `archief/${year}`);
+                            const newsItem = await getNewsPageContent(locale, `archief/${year}`);
                             if (!newsItem) {
                                 return null;
                             }

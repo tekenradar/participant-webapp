@@ -1,6 +1,6 @@
 import { locales } from "@/i18n/routing";
 import { newsPages } from "@/.velite";
-import PageRenderer, { getContent } from "./_components/page-renderer";
+import PageRenderer, { getNewsPageContent } from "./_components/page-renderer";
 import { setRequestLocale } from "next-intl/server";
 
 interface PageProps {
@@ -26,7 +26,7 @@ export function generateStaticParams() {
 export const generateMetadata = async (props: PageProps) => {
     const { locale, slug } = await props.params;
     const name = slug.join("/");
-    const page = await getContent(locale, name);
+    const page = await getNewsPageContent(locale, name);
 
     if (!page) {
         return null;

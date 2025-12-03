@@ -16,11 +16,11 @@ const getContentIndex = async (items: Array<NewsItem>, locale: string, name: str
 
 const draftMode = process.env.NEXT_DRAFT_MODE === 'true';
 
-export const getContent = async (locale: string, name: string) => {
+export const getNewsPageContent = async (locale: string, name: string) => {
     const sortedNewsItems = await getSortedNewsArticles(locale, draftMode);
     const pageIndex = await getContentIndex(sortedNewsItems, locale, name);
     if (pageIndex === -1) {
-        notFound();
+        return undefined;
     }
     return sortedNewsItems[pageIndex];
 }
