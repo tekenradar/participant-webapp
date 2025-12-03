@@ -38,6 +38,18 @@ export default async function Page(props: LocaleParams) {
 
     const sortedNewsItems = await getSortedNewsArticles(locale, draftMode);
 
+    // Fetch archive items for all years
+    const archiveYears = ['2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012'];
+    const archiveItems = await Promise.all(
+        archiveYears.map(async (year) => {
+            const newsItem = await getNewsPageContent(locale, `archief/${year}`);
+            return newsItem ? { year, newsItem } : null;
+        })
+    );
+    const validArchiveItems = archiveItems.filter(
+        (item): item is { year: string; newsItem: NonNullable<Awaited<ReturnType<typeof getNewsPageContent>>> } => item !== null
+    );
+
     return (
         <ArticlePageLayout
             title={<>
@@ -96,27 +108,20 @@ export default async function Page(props: LocaleParams) {
                         {t('archief.title')}
                     </H2>
                     <ul className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-
-                        {['2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012'].map(async (year) => {
-                            const newsItem = await getNewsPageContent(locale, `archief/${year}`);
-                            if (!newsItem) {
-                                return null;
-                            }
-                            return (
-                                <li key={year}>
-                                    <ImageLinkCard
-                                        title={newsItem?.title || year}
-                                        moreBtnLabel={t('readMoreBtn')}
-                                        href={`/nieuws/archief/${year}`}
-                                        imageSrc={newsItem.teaserImage?.src}
-                                        imageAlt={newsItem.title}
-                                        imageCredits={newsItem.teaserImageCredits}
-                                    >
-                                        {newsItem.teaserText}
-                                    </ImageLinkCard>
-                                </li>
-                            )
-                        })}
+                        {validArchiveItems.map(({ year, newsItem }) => (
+                            <li key={year}>
+                                <ImageLinkCard
+                                    title={newsItem.title || year}
+                                    moreBtnLabel={t('readMoreBtn')}
+                                    href={`/nieuws/archief/${year}`}
+                                    imageSrc={newsItem.teaserImage?.src}
+                                    imageAlt={newsItem.title}
+                                    imageCredits={newsItem.teaserImageCredits}
+                                >
+                                    {newsItem.teaserText}
+                                </ImageLinkCard>
+                            </li>
+                        ))}
                     </ul>
                 </section>
             </div>
