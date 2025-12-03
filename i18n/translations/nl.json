@@ -80,7 +80,13 @@
             }
         },
         "latestNews": {
-            "title": "Laatste nieuws"
+            "title": "Laatste nieuws",
+            "readMoreBtn": "Lees meer",
+            "goToNewsPage": {
+                "title": "Al het nieuws",
+                "description": "Hier vind je een overzicht van al onze nieuwsartikelen sinds 2012.",
+                "btnLabel": "Naar de overzichtspagina"
+            }
         },
         "moreInfos": {
             "title": "Meer informatie",
