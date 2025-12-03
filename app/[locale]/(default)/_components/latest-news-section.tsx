@@ -32,7 +32,7 @@ const LatestNewsSection = async (props: { locale: string }) => {
                         dateLabel={new Date(topNewsItem.date).toLocaleDateString(props.locale, { year: 'numeric', month: 'long', day: 'numeric' })}
                         imagePlacement="top"
                         imageHeightClassName="max-h-[250px] min-h-[250px]"
-                        href={`${topNewsItem.slug}`}
+                        href={`/nieuws/${topNewsItem.slugAsParams}`}
                         imageSrc={topNewsItem.teaserImage?.src}
                         imageAlt={topNewsItem.title}
                     >
@@ -45,7 +45,7 @@ const LatestNewsSection = async (props: { locale: string }) => {
                                     title={newsItem.title}
                                     moreBtnLabel={t('readMoreBtn')}
                                     dateLabel={new Date(newsItem.date).toLocaleDateString(props.locale, { year: 'numeric', month: 'long', day: 'numeric' })}
-                                    href={`${newsItem.slug}`}
+                                    href={`/nieuws/${newsItem.slugAsParams}`}
                                     imagePlacement="left"
                                     imageSrc={newsItem.teaserImage?.src}
                                     imageAlt={newsItem.title}
