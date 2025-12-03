@@ -83,6 +83,7 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                         title: previousPage.title,
                         description: previousPage.teaserText,
                         btnLabel: t('relatedPages.readMoreBtn'),
+                        date: new Date(previousPage.date).toLocaleDateString('nl-NL', { year: 'numeric', month: 'long', day: 'numeric' }),
                         // imageURL: previousPage.cover,
                     } : undefined}
                     nextPage={nextPage ? {
@@ -90,6 +91,7 @@ const PageRenderer: React.FC<InfopageRendererProps> = async (props) => {
                         title: nextPage.title,
                         description: nextPage.teaserText,
                         btnLabel: t('relatedPages.readMoreBtn'),
+                        date: new Date(nextPage.date).toLocaleDateString('nl-NL', { year: 'numeric', month: 'long', day: 'numeric' }),
                         // imageURL: nextPage.cover,
                     } : undefined}
                     overviewPage={{
