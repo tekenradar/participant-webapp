@@ -227,6 +227,17 @@
             }
         }
     },
+    "NewsPage": {
+        "relatedPages": {
+            "title": "Gerelateerd",
+            "readMoreBtn": "Lees meer",
+            "overviewPageReference": {
+                "title": "Terug naar het overzicht",
+                "description": "Vind meer nieuwsartikelen.",
+                "btnLabel": "Naar de overzichtspagina"
+            }
+        }
+    },
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
         "teaserImage": {
