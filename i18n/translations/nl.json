@@ -234,6 +234,9 @@
         },
         "title": "Onze nieuwsartikelen",
         "readMoreBtn": "Lees meer",
+        "archief": {
+            "title": "Archief"
+        },
         "relatedPages": {
             "title": "Gerelateerd",
             "readMoreBtn": "Lees meer",

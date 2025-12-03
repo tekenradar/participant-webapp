@@ -6,6 +6,7 @@ import { H2 } from "@/components/headings";
 import ArticlePageLayout from "@/components/layouts/article-page-layout";
 import ReportCard from "@/components/report-card";
 import { ImageLinkCard } from "@/components/image-link-card";
+import { getContent } from "./[...slug]/_components/page-renderer";
 
 
 export const generateMetadata = async () => {
@@ -89,6 +90,35 @@ export default async function Page(props: LocaleParams) {
                         </section>
                     )
                 })}
+
+                <section>
+                    <H2>
+                        {t('archief.title')}
+                    </H2>
+                    <ul className="pt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                        {['2019', '2018', '2017', '2016', '2015', '2014', '2013', '2012'].map(async (year) => {
+                            const newsItem = await getContent(locale, `archief/${year}`);
+                            if (!newsItem) {
+                                return null;
+                            }
+                            return (
+                                <li key={year}>
+                                    <ImageLinkCard
+                                        title={newsItem?.title || year}
+                                        moreBtnLabel={t('readMoreBtn')}
+                                        href={`/nieuws/archief/${year}`}
+                                        imageSrc={newsItem.teaserImage?.src}
+                                        imageAlt={newsItem.title}
+                                        imageCredits={newsItem.teaserImageCredits}
+                                    >
+                                        {newsItem.teaserText}
+                                    </ImageLinkCard>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </section>
             </div>
 
         </ArticlePageLayout>
