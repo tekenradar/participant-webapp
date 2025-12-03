@@ -11,6 +11,9 @@ const LatestNewsSection = async (props: { locale: string }) => {
 
     const sortedNewsItems = await getSortedNewsArticles(props.locale, draftMode);
 
+    if (sortedNewsItems.length < 3) {
+        return null;
+    }
 
     const topNewsItem = sortedNewsItems[0];
     return (
