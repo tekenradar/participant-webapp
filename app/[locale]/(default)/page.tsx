@@ -37,7 +37,7 @@ export default function Home({ params, searchParams }: {
         </div>
       </Container >
 
-      <LatestNewsSection />
+      <LatestNewsSection locale={locale} />
 
       <MoreInfosSection />
 

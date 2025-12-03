@@ -82,6 +82,9 @@ const newsPages = defineCollection({
             coverImageYPosition: s.string().optional(),
             content: s.mdx(),
             teaserText: s.string().optional(),
+            teaserImage: s.image().optional(),
+            teaserImagePlacement: s.enum(['top', 'left']).optional(),
+            teaserImageCredits: s.string().optional(),
         }).transform(computedFields),
 });
 

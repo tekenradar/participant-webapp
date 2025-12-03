@@ -7,6 +7,7 @@ interface RelatedPage {
     title?: string;
     description?: string;
     btnLabel?: string;
+    date?: string;
 
     href?: string;
     imageURL?: string;
@@ -79,6 +80,9 @@ const LinkCard: React.FC<RelatedPage> = (props) => {
                     {props.description}
                 </div>
                 <div className='text-sm group-hover:underline flex gap-1 items-end justify-end grow'>
+                    {props.date && <span className='text-secondary-foreground/80 grow'>
+                        {props.date}
+                    </span>}
                     {props.btnLabel}
                     <span>
                         <ArrowRight className='size-4' />
