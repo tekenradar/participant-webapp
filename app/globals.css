@@ -56,6 +56,9 @@
     --survey-table-heading1-bg: #B6BECB;
     --survey-table-heading2-bg: #D2D8E1;
     --survey-card-table-border-color: #D2D8E1;
+
+    --survey-skeleton-bg: #C4CBD6;
+    --survey-skeleton-header-bg: #A8B2C2;
   }
 }
 
