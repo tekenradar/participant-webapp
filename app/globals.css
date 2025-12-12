@@ -41,10 +41,10 @@
   }
 
   .survey {
-    --survey-card-bg: #EDEFF4;
-    --survey-card-header-bg: #D2D8E1;
+    --survey-card-bg: #F0F4ED;
+    --survey-card-header-bg: #E0E7DA;
 
-    --survey-card-invalid-bg: #FBE5EA;
+    --survey-card-invalid-bg: #FCCFCF;
     --survey-error-text-color: #C62447;
     --survey-warning-text-color: #FD9644;
 
@@ -53,12 +53,12 @@
     --survey-card-px: 1.5rem;
     --survey-card-px-sm: 0.5rem;
 
-    --survey-table-heading1-bg: #B6BECB;
-    --survey-table-heading2-bg: #D2D8E1;
-    --survey-card-table-border-color: #D2D8E1;
+    --survey-table-heading1-bg: #E0E7DA;
+    --survey-table-heading2-bg: #F0F4ED;
+    --survey-card-table-border-color: #5C6B4F;
 
-    --survey-skeleton-bg: #C4CBD6;
-    --survey-skeleton-header-bg: #A8B2C2;
+    --survey-skeleton-bg: #E0E7DA;
+    --survey-skeleton-header-bg: #BFCBB6;
   }
 }
 

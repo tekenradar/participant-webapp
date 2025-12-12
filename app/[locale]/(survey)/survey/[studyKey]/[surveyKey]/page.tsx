@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import SurveyPageNavbar, { SurveyPageNavbarSkeleton } from "./_components/survey-page-navbar";
+import SurveyPageNavbar, { SurveyPageNavbarSkeleton } from "@/components/survey-components/survey-navbar";
 import SimpleLoader from "@/components/simple-loader";
 import SurveyLoader from "./_components/survey-loader";
 import { redirect } from "next/navigation";
@@ -57,7 +57,7 @@ export default async function Page(props: PageProps) {
             >
                 <SurveyPageNavbar
                     locale={locale}
-                    profileId={profile.id}
+                    profile={profile}
                     redirectUrl={validatedRedirectUrl}
                 />
             </Suspense>

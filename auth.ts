@@ -9,7 +9,7 @@ export const PUBLIC_ROUTES = [
 
     { path: '/auth/login', exact: true },
     { path: '/auth/aanmelden', exact: true },
-    { path: '/melden', exact: true },
+    { path: '/melden', exact: false },
     { path: '/auth/wachtwoord-vergeten', exact: true },
 
     // These routes and their children will be public:
