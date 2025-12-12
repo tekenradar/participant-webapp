@@ -8,7 +8,7 @@ const SurveySkeleton = () => {
             <PageTitlebar>
                 <Skeleton className="w-64 h-8 bg-primary/20" />
             </PageTitlebar>
-            <div className="max-w-[800px] mx-auto pt-6 pb-10 px-4 survey @container">
+            <div className="max-w-[800px] mx-auto pt-6 pb-10 survey @container">
                 <div className="space-y-4">
                     <SurveyItemSkeleton variant="display"
                         showBottomText={true}

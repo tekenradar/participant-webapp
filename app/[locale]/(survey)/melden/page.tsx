@@ -11,7 +11,7 @@ import logger from '@/lib/logger';
 import { getUser, Profile } from '@/lib/server/data-fetching/user';
 import ProfileSelector from './_components/profile-selector';
 import SurveySkeleton from '@/components/survey-components/survey-skeleton';
-import SurveyLoader from '../survey/[studyKey]/[surveyKey]/_components/survey-loader';
+import SurveyLoader from '@/components/survey-components/survey-loader-for-profile';
 
 
 interface PageProps {
@@ -117,7 +117,7 @@ export default async function Page(props: PageProps) {
         </Suspense>
 
         <main
-            className="flex-1"
+            className="flex-1 flex flex-col"
             role="main"
             id="main"
             tabIndex={-1}

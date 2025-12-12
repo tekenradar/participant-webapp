@@ -7,6 +7,7 @@ import SurveyClient from './survey-client';
 import PageTitlebar from '@/components/page-titlebar';
 import { Survey } from 'survey-engine/data_types';
 import { getLocalizedString } from '@/lib/get-localized-string';
+import logger from '@/lib/logger';
 
 interface SurveyLoaderProps {
     locale: string;
@@ -22,13 +23,20 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
 
     const resp = await getSurveyWithContextForProfile(props.studyKey, props.surveyKey, props.profileId);
     if (!resp || resp.error || !resp.surveyWithContext) {
-        console.error(resp.error);
-        return <Container className='flex justify-center'>
-            <ErrorInfo
-                title={t('surveyLoadingError')}
-                description={resp?.error}
-            />
-        </Container>;
+        logger.error(`Error loading survey for profile "${props.profileId}" of study "${props.studyKey}" and survey "${props.surveyKey}": ${resp.error}`);
+        return <>
+            <PageTitlebar>
+                {t('errorLoadingSurveys.title')}
+            </PageTitlebar>
+            <Container className='flex justify-center items-center grow'>
+                <div className='max-w-[800px] w-full'>
+                    <ErrorInfo
+                        title={t('errorLoadingSurveys.errorTitle', { studyKey: props.studyKey, surveyKey: props.surveyKey })}
+                        description={t('errorLoadingSurveys.errorDescription')}
+                    />
+                </div>
+            </Container>
+        </>
     }
 
     const survey = resp.surveyWithContext.survey as Survey;
