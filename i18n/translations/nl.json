@@ -253,6 +253,35 @@
             }
         }
     },
+    "MeldenPage": {
+        "selectProfile": {
+            "title": "Selecteer een profiel",
+            "description": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
+            "mainProfileLabel": "Ik",
+            "createProfileDialog": {
+                "triggerBtn": "Maak een nieuw profiel aan",
+                "title": "Maak een nieuw profiel aan",
+                "description": "Maak een nieuw profiel aan om deze melding te doen.",
+                "consent": {
+                    "label": "Ik ga akkoord met de voorwaarden en voorwaarden",
+                    "invalid": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                    "dialog": {
+                        "title": "Voorwaarden en voorwaarden",
+                        "content": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                        "acceptBtn": "Ik ga akkoord",
+                        "rejectBtn": "Ik ga niet akkoord"
+                    }
+                },
+                "aliasLabel": "Alias",
+                "aliasPlaceholder": "Voer je alias in",
+                "avatarSelectorLabel": "Selecteer je avatar",
+                "saveProfileBtn": "Maak profiel aan",
+                "cancelBtn": "Annuleren",
+                "errorSavingProfile": "Fout bij het maken van het profiel",
+                "successSavingProfile": "Profiel succesvol gemaakt"
+            }
+        }
+    },
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
         "teaserImage": {

@@ -1,7 +1,3 @@
-import PageTitlebar from '@/components/page-titlebar';
-import { AlertDialog, AlertDialogContent, AlertDialogDescription, AlertDialogHeader, AlertDialogTitle } from '@/components/ui/alert-dialog';
-import LoginForm from '../../(default)/auth/login/_components/login-form';
-import SimpleLoader from '@/components/simple-loader';
 import { Suspense } from 'react';
 import SurveyPageNavbar, { SurveyPageNavbarSkeleton } from '@/components/survey-components/survey-navbar';
 import { auth } from '@/auth';
@@ -11,6 +7,9 @@ import ProfileSelector from './_components/profile-selector';
 import SurveySkeleton from '@/components/survey-components/survey-skeleton';
 import SurveyLoaderForLoggedIn from '@/components/survey-components/survey-loader-for-profile';
 import SurveyLoaderForTemporaryParticipant from '@/components/survey-components/survey-loader-for-temporary-participant';
+import { getTempParticipantId } from '@/lib/server/temp-participant-cookie';
+import MergeRedirect from './_components/merge-redirect';
+import { getTranslations } from 'next-intl/server';
 
 
 interface PageProps {
@@ -21,6 +20,8 @@ interface PageProps {
         pid?: string;
         redirectTo?: string;
         surveyKey?: string;
+        mergeSkip?: string;
+        mergeError?: string;
     }>;
 }
 
@@ -52,16 +53,32 @@ export default async function Page(props: PageProps) {
     // survey flow in progress
     if (loggedIn) {
         if (profile) {
-            // load survey for selected profile
-            content = <Suspense fallback={<SurveySkeleton />}>
-                <SurveyLoaderForLoggedIn
-                    locale={locale}
-                    studyKey={studyKey}
-                    surveyKey={surveyKey}
+            const tempParticipantId = await getTempParticipantId();
+            if (tempParticipantId && searchParams.mergeSkip !== '1') {
+                const sp = new URLSearchParams();
+                sp.set('surveyKey', surveyKey);
+                if (redirectTo) sp.set('redirectTo', redirectTo);
+                if (searchParams.mergeError) sp.set('mergeError', searchParams.mergeError);
+
+                // Use client component to handle redirect and show loading state
+                content = <MergeRedirect
                     profileId={profile.id}
+                    queryString={sp.toString()}
                 />
-            </Suspense>
+            } else {
+                // load survey for selected profile
+                content = <Suspense fallback={<SurveySkeleton />}>
+                    <SurveyLoaderForLoggedIn
+                        locale={locale}
+                        studyKey={studyKey}
+                        surveyKey={surveyKey}
+                        profileId={profile.id}
+                    />
+                </Suspense>
+            }
         } else {
+            const t = await getTranslations('MeldenPage.selectProfile');
+
             // offer to select profile or create new profile
             // if profile is selected, update search params with selected profile id
             content = <div>
@@ -69,30 +86,30 @@ export default async function Page(props: PageProps) {
                 <ProfileSelector
                     profiles={profiles}
                     messages={{
-                        title: 'Selecteer een profiel',
-                        description: 'Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.',
-                        mainProfileLabel: 'Ik',
+                        title: t('title'),
+                        description: t('description'),
+                        mainProfileLabel: t('mainProfileLabel'),
                         createProfileDialog: {
-                            triggerBtn: 'Create profile',
-                            title: 'Create a profile',
-                            description: 'Create a profile to continue',
+                            triggerBtn: t('createProfileDialog.triggerBtn'),
+                            title: t('createProfileDialog.title'),
+                            description: t('createProfileDialog.description'),
                             consent: {
-                                label: 'I agree to the terms and conditions',
-                                invalid: 'You must agree to the terms and conditions',
+                                label: t('createProfileDialog.consent.label'),
+                                invalid: t('createProfileDialog.consent.invalid'),
                                 dialog: {
-                                    title: 'Terms and conditions',
-                                    content: 'You must agree to the terms and conditions',
-                                    acceptBtn: 'I agree',
-                                    rejectBtn: 'I disagree',
+                                    title: t('createProfileDialog.consent.dialog.title'),
+                                    content: t('createProfileDialog.consent.dialog.content'),
+                                    acceptBtn: t('createProfileDialog.consent.dialog.acceptBtn'),
+                                    rejectBtn: t('createProfileDialog.consent.dialog.rejectBtn'),
                                 }
                             },
-                            aliasLabel: 'Alias',
-                            aliasPlaceholder: 'Enter your alias',
-                            avatarSelectorLabel: 'Select your avatar',
-                            saveProfileBtn: 'Create profile',
-                            cancelBtn: 'Cancel',
-                            errorSavingProfile: 'Error creating profile',
-                            successSavingProfile: 'Profile created successfully',
+                            aliasLabel: t('createProfileDialog.aliasLabel'),
+                            aliasPlaceholder: t('createProfileDialog.aliasPlaceholder'),
+                            avatarSelectorLabel: t('createProfileDialog.avatarSelectorLabel'),
+                            saveProfileBtn: t('createProfileDialog.saveProfileBtn'),
+                            cancelBtn: t('createProfileDialog.cancelBtn'),
+                            errorSavingProfile: t('createProfileDialog.errorSavingProfile'),
+                            successSavingProfile: t('createProfileDialog.successSavingProfile'),
                         }
                     }} />
             </div>
@@ -114,7 +131,7 @@ export default async function Page(props: PageProps) {
         >
             <SurveyPageNavbar
                 locale={locale}
-                profile={undefined}
+                profile={profile}
                 redirectUrl={redirectTo}
             />
         </Suspense>
@@ -128,45 +145,4 @@ export default async function Page(props: PageProps) {
             {content}
         </main>
     </>
-
-
-
-
-    return (
-        <div className="bg-background">
-            <AlertDialog open={true}>
-                <AlertDialogContent>
-                    <AlertDialogHeader>
-                        <AlertDialogTitle>Please login to continue</AlertDialogTitle>
-                        <AlertDialogDescription>
-                            You need to login to continue. Please enter your email and password to continue.
-                        </AlertDialogDescription>
-
-
-                    </AlertDialogHeader>
-                    <LoginForm
-                        messages={{
-                            email: {
-                                label: 'Email',
-                                placeholder: 'Email',
-                                description: 'Email',
-                                invalid: 'Email is invalid',
-                            },
-                            password: {
-                                label: 'Password',
-                                placeholder: 'Password',
-                                description: 'Password',
-                                invalid: 'Password is invalid',
-                            },
-                            submitBtn: 'Submit',
-                            loginFailed: 'Login failed',
-                            goToRegister: 'Go to register',
-                            goToPasswordForgotten: 'Go to password forgotten',
-                        }}
-
-                    />
-                </AlertDialogContent>
-            </AlertDialog>
-        </div>
-    )
 }

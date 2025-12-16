@@ -4,7 +4,7 @@ import { auth } from "@/auth"
 import { fetchCASEParticipantAPI } from "../case-backend";
 import { AssignedSurvey } from "./survey";
 
-interface Participant {
+export interface Participant {
     participantId: string;
     currentStudySession?: string;
     enteredAt: number;

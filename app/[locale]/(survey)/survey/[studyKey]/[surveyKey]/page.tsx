@@ -1,10 +1,10 @@
 import { Suspense } from "react";
 import SurveyPageNavbar, { SurveyPageNavbarSkeleton } from "@/components/survey-components/survey-navbar";
-import SimpleLoader from "@/components/simple-loader";
-import SurveyLoader from "./_components/survey-loader";
 import { redirect } from "next/navigation";
 import { Profile, getUser } from "@/lib/server/data-fetching/user";
 import { validateRedirectUrl } from "@/lib/utils/url-validation";
+import SurveyLoader from "@/components/survey-components/survey-loader-for-profile";
+import SurveySkeleton from "@/components/survey-components/survey-skeleton";
 
 interface PageProps {
     params: Promise<{
@@ -47,7 +47,7 @@ export default async function Page(props: PageProps) {
         }
     })
     if (!profile) {
-        redirect('/dashboard')
+        redirect(validatedRedirectUrl || '/dashboard')
     }
 
     return (
@@ -68,9 +68,7 @@ export default async function Page(props: PageProps) {
                 id="main"
                 tabIndex={-1}
             >
-                <Suspense
-                    fallback={<SimpleLoader />}
-                >
+                <Suspense fallback={<SurveySkeleton />}>
                     <SurveyLoader
                         locale={locale}
                         studyKey={studyKey}

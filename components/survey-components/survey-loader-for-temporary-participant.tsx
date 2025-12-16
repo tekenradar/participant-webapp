@@ -40,7 +40,7 @@ const SurveyLoaderForTemporaryParticipant: React.FC<SurveyLoaderProps> = async (
     const survey = resp.surveyWithContext.survey as Survey;
     const title = getLocalizedString(survey.props?.name, props.locale);
 
-    const requireLogin = survey.requireLoginBeforeSubmission || true;
+    const requireLogin = survey.requireLoginBeforeSubmission;
 
     return (
         <>

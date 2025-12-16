@@ -15,7 +15,7 @@ const SurveySkeleton: React.FC<SurveySkeletonProps> = ({ hideTitle = false }) =>
                 <Skeleton className="w-64 h-8 bg-primary/20" />
             </PageTitlebar>
             )}
-            <div className={cn("max-w-[800px] mx-auto pt-6 pb-10 survey @container", hideTitle ? 'pt-0' : 'pt-6')}>
+            <div className={cn("max-w-[800px] mx-auto pb-10 survey @container", hideTitle ? 'pt-0' : 'pt-6 px-4 md:px-0')}>
                 <div className="space-y-4">
                     <SurveyItemSkeleton variant="display"
                         showBottomText={true}

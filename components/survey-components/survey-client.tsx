@@ -66,6 +66,10 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
         setIsMounted(true);
     }, []);
 
+    React.useEffect(() => {
+        setSubmissionState({ isLoading: false, error: null, response: null });
+    }, [props.surveyWithContext]);
+
     if (!isMounted) {
         return <div>
             <SurveySkeleton hideTitle={true} />

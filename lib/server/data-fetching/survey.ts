@@ -1,6 +1,7 @@
 import { auth } from "@/auth";
 import { fetchCASEParticipantAPI } from "../case-backend";
 import { LocalizedString, StudyVariable, Survey, SurveyResponse } from "survey-engine/data_types";
+import { getTempParticipantId } from "../temp-participant-cookie";
 
 export interface SurveyWithContext {
     survey: Survey;
@@ -58,11 +59,13 @@ export const getSurveyWithContextForProfile = async (studyKey: string, surveyKey
     return resp.body;
 }
 
-export const getSurveyWithContextForTemporaryParticipant = async (studyKey: string, surveyKey: string, tempParticipantId?: string) => {
+export const getSurveyWithContextForTemporaryParticipant = async (studyKey: string, surveyKey: string) => {
     const search = new URLSearchParams();
     search.set('instanceID', process.env.INSTANCE_ID || '');
     search.set('studyKey', studyKey);
     search.set('surveyKey', surveyKey);
+
+    const tempParticipantId = await getTempParticipantId();
     if (tempParticipantId) {
         search.set('pid', tempParticipantId);
     }
