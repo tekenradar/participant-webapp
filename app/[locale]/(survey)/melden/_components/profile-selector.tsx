@@ -1,6 +1,5 @@
 'use client';
 
-import { H3 } from "@/components/headings";
 import CreateProfileDialog, { CreateProfileDialogMessages } from "./create-profile-dialog";
 import { AlertDialog, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription } from "@/components/ui/alert-dialog";
 import { Profile } from "@/lib/server/data-fetching/user";
