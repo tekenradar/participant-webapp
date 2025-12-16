@@ -16,10 +16,16 @@ const authMiddleware = auth((req) => {
     // Generate nonce and set CSP headers
     const nonce = Buffer.from(crypto.randomUUID()).toString('base64');
 
+    // In development, we can't use 'strict-dynamic' because Next.js static chunks don't have nonces
+    // In production, we use strict-dynamic for better security
+    const scriptSrc = process.env.NODE_ENV === "production"
+        ? `'self' 'nonce-${nonce}' 'strict-dynamic'`
+        : `'self' 'nonce-${nonce}' 'unsafe-eval'`;
+
     const cspHeader = `
     default-src 'self';
     connect-src 'self' http://statistiek.rijksoverheid.nl/ppms.php;
-    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' ${process.env.NODE_ENV === "production" ? "" : `'unsafe-eval'`};
+    script-src ${scriptSrc};
     style-src 'self' 'unsafe-inline';
     media-src 'self' https://www.rovid.nl;
     img-src 'self' http://statistiek.rijksoverheid.nl https://www.rovid.nl blob: data:;
