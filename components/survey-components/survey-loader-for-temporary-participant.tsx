@@ -1,6 +1,6 @@
 import Container from '@/components/container';
 import ErrorInfo from '@/components/error-info';
-import { getSurveyWithContextForProfile } from '@/lib/server/data-fetching/survey';
+import { getSurveyWithContextForTemporaryParticipant } from '@/lib/server/data-fetching/survey';
 import { getTranslations } from 'next-intl/server';
 import React from 'react';
 import SurveyClient from './survey-client';
@@ -8,22 +8,20 @@ import PageTitlebar from '@/components/page-titlebar';
 import { Survey } from 'survey-engine/data_types';
 import { getLocalizedString } from '@/lib/get-localized-string';
 import logger from '@/lib/logger';
+import RequireLogin from './require-login';
 
 interface SurveyLoaderProps {
     locale: string;
     studyKey: string;
     surveyKey: string;
-    profileId: string;
-    ignoreImmediateSurveys?: boolean;
-    redirectUrl?: string;
 }
 
-const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
+const SurveyLoaderForTemporaryParticipant: React.FC<SurveyLoaderProps> = async (props) => {
     const t = await getTranslations({ locale: props.locale, namespace: 'SurveyPage' });
 
-    const resp = await getSurveyWithContextForProfile(props.studyKey, props.surveyKey, props.profileId);
+    const resp = await getSurveyWithContextForTemporaryParticipant(props.studyKey, props.surveyKey);
     if (!resp || resp.error || !resp.surveyWithContext) {
-        logger.error(`Error loading survey for profile "${props.profileId}" of study "${props.studyKey}" and survey "${props.surveyKey}": ${resp.error}`);
+        logger.error(`Error loading survey for temporary participant of study "${props.studyKey}" and survey "${props.surveyKey}": ${resp.error}`);
         return <>
             <PageTitlebar>
                 {t('errorLoadingSurveys.title')}
@@ -42,8 +40,20 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
     const survey = resp.surveyWithContext.survey as Survey;
     const title = getLocalizedString(survey.props?.name, props.locale);
 
+    const requireLogin = survey.requireLoginBeforeSubmission || true;
+
     return (
         <>
+            {requireLogin && <RequireLogin
+                surveyKey={props.surveyKey}
+                messages={{
+                    title: t('requireLogin.title'),
+                    description: t('requireLogin.description'),
+                    loginBtn: t('requireLogin.loginBtn'),
+                    registerBtn: t('requireLogin.registerBtn'),
+                    leaveBtn: t('requireLogin.leaveBtn'),
+                }}
+            />}
             <PageTitlebar>
                 {title}
             </PageTitlebar>
@@ -69,9 +79,6 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
                         openAt={Math.floor(Date.now() / 1000)}
                         studyKey={props.studyKey}
                         surveyKey={props.surveyKey}
-                        profileID={props.profileId}
-                        ignoreImmediateSurveys={props.ignoreImmediateSurveys}
-                        redirectUrl={props.redirectUrl}
                     />
                 </div>
             </Container>
@@ -79,4 +86,4 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
     );
 };
 
-export default SurveyLoader;
+export default SurveyLoaderForTemporaryParticipant;

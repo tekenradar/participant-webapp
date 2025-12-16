@@ -375,12 +375,26 @@
             "errorTitle": "Er is een probleem opgetreden tijdens het laden van de vragenlijst {surveyKey}",
             "errorDescription": "\n\nDit is mogelijk een tijdelijk probleem. Probeer het over een korte tijd opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met [info@tekenradar.nl](mailto:info@tekenradar.nl)."
         },
+        "requireLogin": {
+            "title": "Inloggen",
+            "description": "Je moet ingelogd zijn om deze vragenlijst in te vullen.",
+            "loginBtn": "Inloggen",
+            "registerBtn": "Registreren",
+            "leaveBtn": "Verlaten"
+        },
         "survey": {
             "invalidResponseText": "",
             "previousPageBtn": "Terug",
             "nextPageBtn": "Volgende",
             "submitBtn": "Opslaan en verder gaan",
-            "submitError": "Er is helaas iets mis gegaan bij het verzenden van de vragenlijst.\n\nProbeer het nog eens of neem [contact](mailto:infectieradar@rivm.nl) op als het probleem zich voort blijft doen."
+            "submissionDialog": {
+                "title": "Verzenden...",
+                "description": "Even geduld terwijl we uw antwoorden verzenden.",
+                "errorTitle": "Fout bij verzenden",
+                "errorDescription": "Er is een fout opgetreden bij het verzenden van de vragenlijst.",
+                "goBackBtn": "Ga terug",
+                "retryBtn": "Opnieuw proberen"
+            }
         }
     },
     "RegisterPage": {

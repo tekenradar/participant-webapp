@@ -1,7 +1,5 @@
 import PageTitlebar from '@/components/page-titlebar';
-import SurveyItemSkeleton from '@/components/survey-components/survey-item-skeleton';
 import { AlertDialog, AlertDialogContent, AlertDialogDescription, AlertDialogHeader, AlertDialogTitle } from '@/components/ui/alert-dialog';
-import { Skeleton } from '@/components/ui/skeleton';
 import LoginForm from '../../(default)/auth/login/_components/login-form';
 import SimpleLoader from '@/components/simple-loader';
 import { Suspense } from 'react';
@@ -11,7 +9,8 @@ import logger from '@/lib/logger';
 import { getUser, Profile } from '@/lib/server/data-fetching/user';
 import ProfileSelector from './_components/profile-selector';
 import SurveySkeleton from '@/components/survey-components/survey-skeleton';
-import SurveyLoader from '@/components/survey-components/survey-loader-for-profile';
+import SurveyLoaderForLoggedIn from '@/components/survey-components/survey-loader-for-profile';
+import SurveyLoaderForTemporaryParticipant from '@/components/survey-components/survey-loader-for-temporary-participant';
 
 
 interface PageProps {
@@ -55,14 +54,13 @@ export default async function Page(props: PageProps) {
         if (profile) {
             // load survey for selected profile
             content = <Suspense fallback={<SurveySkeleton />}>
-                <SurveyLoader
+                <SurveyLoaderForLoggedIn
                     locale={locale}
                     studyKey={studyKey}
                     surveyKey={surveyKey}
                     profileId={profile.id}
                 />
             </Suspense>
-            // TODO
         } else {
             // offer to select profile or create new profile
             // if profile is selected, update search params with selected profile id
@@ -100,8 +98,13 @@ export default async function Page(props: PageProps) {
             </div>
         }
     } else {
-        // load survey for temporary participant if any exists - if PDiff create new temporary participant at submission
-        // TODO: load survey for temporary participant
+        content = <Suspense fallback={<SurveySkeleton />}>
+            <SurveyLoaderForTemporaryParticipant
+                locale={locale}
+                studyKey={studyKey}
+                surveyKey={surveyKey}
+            />
+        </Suspense>
     }
 
 
@@ -127,21 +130,6 @@ export default async function Page(props: PageProps) {
     </>
 
 
-    return <div className="bg-background h-full flex flex-col">
-        <PageTitlebar>
-            Survey submission...
-        </PageTitlebar>
-        <div className="flex flex-col items-center justify-center grow">
-            <div className="space-y-4 my-12">
-                <SimpleLoader className="h-fit"
-                    ariaLabel="Processing your survey submission..."
-                />
-                <p className="text-center text-sm text-muted-foreground">
-                    Processing your survey submission...
-                </p>
-            </div>
-        </div>
-    </div>
 
 
     return (
