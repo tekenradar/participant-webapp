@@ -21,9 +21,13 @@ const loadingSurveys = async (profiles: Array<Profile>): Promise<{
     surveyInfos: Array<SurveyInfo>;
 }> => {
     const assignedSurveys = await getAssignedSurveys(studyKey, profiles?.map((p: Profile) => p.id));
-    if (assignedSurveys.error) {
+    if (assignedSurveys.error || !assignedSurveys.surveys) {
         logger.error('Error loading assigned surveys ' + assignedSurveys.error);
-
+        return {
+            requiredSurveys: [],
+            optionalSurveys: [],
+            surveyInfos: [],
+        };
     }
 
     const now = Date.now() / 1000;
