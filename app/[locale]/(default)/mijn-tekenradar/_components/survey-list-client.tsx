@@ -105,7 +105,7 @@ const SurveyListClient: React.FC<SurveyListClientProps> = (props) => {
                         </H2>
                         <div className='space-y-4 py-4'>
                             <div>
-                                <EmbeddedMarkdownRenderer>
+                                <EmbeddedMarkdownRenderer className='text-sm'>
                                     {props.messages.optionalSurveys.description}
                                 </EmbeddedMarkdownRenderer>
                             </div>
