@@ -545,7 +545,7 @@
         "form": {
             "otp": {
                 "label": "Verificatiecode",
-                "description": "Vul de verificatiecode in die u per e-mail of SMS hebt ontvangen. Dit is nodig om volledig toegang te krijgen tot alle gegevens in uw account. De code bestaat uit 6 cijfers. Invullen van de verificatiecode bevestigt ook uw account, als u dat nog niet eerder gedaan hebt. Onbevestigde accounts worden na een tijdje automatisch verwijderd.",
+                "description": "Vul de verificatiecode in die u per e-mail hebt ontvangen. Dit is nodig om volledig toegang te krijgen tot alle gegevens in uw account. De code bestaat uit 6 cijfers. Invullen van de verificatiecode bevestigt ook uw account, als u dat nog niet eerder gedaan hebt. Onbevestigde accounts worden na een tijdje automatisch verwijderd.",
                 "invalid": "Ongeldige verificatiecode"
             },
             "submitBtn": "Verifiëren",
