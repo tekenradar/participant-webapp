@@ -9,6 +9,7 @@ import { UserRound } from "lucide-react";
 
 interface ProfileSelectorProps {
     profiles: Profile[];
+    disabled?: boolean;
     messages: {
         profileSelectorLabel: string;
         noProfileSelected: string;
@@ -19,7 +20,7 @@ interface ProfileSelectorProps {
 }
 
 const ProfileSelector = (props: ProfileSelectorProps) => {
-    const { profiles, messages, selectedProfileId, onSelectedProfileIdChange } = props;
+    const { profiles, selectedProfileId, onSelectedProfileIdChange } = props;
 
     const selectedProfile = profiles.find(p => p.id === selectedProfileId);
 
@@ -32,6 +33,7 @@ const ProfileSelector = (props: ProfileSelectorProps) => {
     return <div className="space-y-2">
         <Label htmlFor="profile-selector">{props.messages.profileSelectorLabel}</Label>
         <Select
+            disabled={props.disabled}
             value={selectedProfileId || undefined}
             onValueChange={onSelectedProfileIdChange}>
             <SelectTrigger id="profile-selector" className="w-full">

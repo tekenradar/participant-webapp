@@ -178,6 +178,7 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
     return <div className="space-y-4">
         {profiles.length > 1 && (
             <ProfileSelector
+                disabled={isPending}
                 profiles={profiles}
                 messages={props.messages}
                 selectedProfileId={selectedProfileId}
