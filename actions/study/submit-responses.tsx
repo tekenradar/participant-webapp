@@ -62,7 +62,7 @@ export const submitResponses = async (
     }
 
     if (nextSurveyKey) {
-        redirect(`/survey/${studyKey}/${nextSurveyKey}?pid=${profileID}&redirectUrl=${redirectUrl}`);
+        redirect(`/survey/${studyKey}/${nextSurveyKey}?pid=${profileID}&redirectUrl=${encodeURIComponent(redirectUrl)}`);
     } else {
         redirect(redirectUrl);
     }
