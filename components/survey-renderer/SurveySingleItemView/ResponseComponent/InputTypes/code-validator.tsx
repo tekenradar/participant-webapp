@@ -73,8 +73,6 @@ const CodeValidatorDialog: React.FC<CodeValidatorDialogProps> = (props) => {
     })
 
     function onSubmit(values: z.infer<typeof formSchema>) {
-        // TODO: read type (if linking code or study code)
-        // TODO: key
         if (surveyCtx.runExternalHandler === undefined) {
             alert('no handler defined');
             setShowError(true);
@@ -103,7 +101,6 @@ const CodeValidatorDialog: React.FC<CodeValidatorDialogProps> = (props) => {
         })
     }
 
-    // todo: validate code when submit is clicked and only accept if valid
     return (
         <Dialog
             open={isOpen}
