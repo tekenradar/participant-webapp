@@ -86,7 +86,7 @@ const SurveyListClient: React.FC<SurveyListClientProps> = (props) => {
                     <div className='flex justify-center'>
                         <CollapsibleTrigger asChild>
                             <Button
-                                className='mx-auto bg-secondary text-secondary-foreground'
+                                className='mx-auto bg-secondary text-secondary-foreground text-wrap h-auto'
                                 variant='outline'
                                 onClick={() => setShowOptionalSurveys(prev => !prev)}
                             >

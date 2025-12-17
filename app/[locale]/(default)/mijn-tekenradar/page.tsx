@@ -6,6 +6,7 @@ import SurveyList from "./_components/survey-list";
 import { redirect } from "next/navigation";
 import { getUser, Profile } from "@/lib/server/data-fetching/user";
 import { ensureUserIsInAllDefaultStudies } from "@/actions/study/ensure-all-profiles-are-in-default-studies";
+import ReportHistory from "./_components/report-history";
 
 
 export default async function Page(props: LocaleParams) {
@@ -32,10 +33,15 @@ export default async function Page(props: LocaleParams) {
                 </div>
             }
         >
-            <div className="grow">
+            <div className="grow space-y-8">
                 <SurveyList
                     locale={locale}
                     profiles={profiles}
+                />
+
+                <ReportHistory
+                    profiles={profiles}
+                    locale={locale}
                 />
             </div>
         </ArticlePageLayout>

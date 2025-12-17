@@ -9,7 +9,9 @@ const DashboardSidebar: React.FC = async () => {
     return (
         <div className='space-y-8'>
 
-            <ReportCard showMyTekenradarLink={false} />
+            <div className='flex justify-center'>
+                <ReportCard showMyTekenradarLink={false} />
+            </div>
 
             <LinkGroup
                 title={t('settingsLinks.title')}
