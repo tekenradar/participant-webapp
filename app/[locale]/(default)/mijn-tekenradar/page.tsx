@@ -2,10 +2,10 @@ import { LocaleParams } from "../../utils";
 import { getTranslations } from "next-intl/server";
 import ArticlePageLayout from "@/components/layouts/article-page-layout";
 import DashboardSidebar from "./_components/dashboard-sidebar";
-import { Suspense } from "react";
-import SimpleLoader from "@/components/simple-loader";
-import SurveyListLoader from "./_components/survey-list-loader";
-import FullwidthImageWithContent from "@/components/fullwidth-image-with-content";
+import SurveyList from "./_components/survey-list";
+import { redirect } from "next/navigation";
+import { getUser, Profile } from "@/lib/server/data-fetching/user";
+import { ensureUserIsInAllDefaultStudies } from "@/actions/study/ensure-all-profiles-are-in-default-studies";
 
 
 export default async function Page(props: LocaleParams) {
@@ -13,21 +13,19 @@ export default async function Page(props: LocaleParams) {
 
     const t = await getTranslations({ locale, namespace: 'DashboardPage' });
 
+    const resp = await getUser();
+    if (!resp || resp.error) {
+        redirect('/')
+    }
+    const profiles = resp.user.profiles as Profile[];
+    await ensureUserIsInAllDefaultStudies(profiles);
+
     return (
         <ArticlePageLayout
             title={
                 t('title')
             }
-            topContent={
-                <FullwidthImageWithContent
-                    imageSrc='/static/images/ANP-371602781-1024.jpg'
-                    imageAlt=''
-                    sectionClassName='h-[367px] max-h-[367px]'
-                    imageClassName='object-top'
-                >
-                    <p className=''>{t('teaserImage.description')}</p>
-                </FullwidthImageWithContent>
-            }
+            topContent={undefined}
             sideBarContent={
                 <div className="space-y-4 w-full">
                     <DashboardSidebar />
@@ -35,11 +33,10 @@ export default async function Page(props: LocaleParams) {
             }
         >
             <div className="grow">
-                <Suspense fallback={<SimpleLoader />}>
-                    <SurveyListLoader
-                        locale={locale}
-                    />
-                </Suspense>
+                <SurveyList
+                    locale={locale}
+                    profiles={profiles}
+                />
             </div>
         </ArticlePageLayout>
     );

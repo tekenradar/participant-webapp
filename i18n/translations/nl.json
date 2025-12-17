@@ -336,98 +336,21 @@
                 }
             },
             "optionalSurveys": {
-                "title": "Optionele vragenlijsten",
-                "description": "U kunt hier de optionele vragenlijsten weergeven of verbergen. Als u de vragenlijst wilt weer laten zien, dan kunt u deze vragenlijst opnieuw invullen.",
-                "showBtn": "Optionele vragenlijsten weergeven",
-                "hideBtn": "Optionele vragenlijsten verbergen"
+                "title": "Stopzetten van vervolgvragenlijsten en/of aanvullende toestemming",
+                "description": "Met vervolgvragenlijsten onderzoeken wij hoe vaak tekenbeten voorkomen, en wat de gezondheidsgevolgen zijn van tekenbeten en lymeziekte. Invullen is dus nuttig, ook als je zelf geen tekenbeten of gezondheidsklachten (meer) hebt. Als je wilt stoppen met vervolgvragenlijsten kun je dat hieronder aangeven per Tekenradar onderzoek. Als je ons aanvullende toestemming hebt gegeven voor gebruik van je contactgegevens kun je die ook hieronder intrekken. Als we je contactgegevens niet gebruiken worden ze na 12 weken sowieso automatisch verwijderd.",
+                "showBtn": "Stopzetten van vervolgvragenlijsten en/of aanvullende toestemming",
+                "hideBtn": "Verbergen"
             }
         },
-        "links": {
-            "title": "Op zoek naar iets anders?",
-            "faq": "Veelgestelde vragen",
-            "contact": "Contact",
+        "settingsLinks": {
+            "title": "Instellingen",
             "manageProfiles": "Profielen beheren",
             "settings": "Instellingen"
         },
-        "personalData": {
-            "title": "Persoonlijke resultaten",
-            "description": "Op deze beveiligde pagina heeft u toegang tot uw persoonlijke resultaten.",
-            "hasRecentResults": "U heeft nieuwe resultaten.",
-            "openResultsBtn": "Open persoonlijke resultaten"
-        }
-    },
-    "DashboardProfileSelectionPage": {
-        "title": "Profiel kiezen",
-        "hint": "Kies een profiel",
-        "backToDashboard": "Terug naar dashboard",
-        "mainProfileLabel": "Ik"
-    },
-    "PersonalDataPage": {
-        "title": "Persoonlijke resultaten",
-        "errorLoadingUser": "Fout bij laden persoonlijke gegevens",
-        "backToDashboard": "Terug naar Mijn vragenlijsten",
-        "history": {
-            "title": "Wekelijkse vragenlijstinzendingen",
-            "description": "Inzendingsgeschiedenis voor het momenteel geselecteerde profiel.",
-            "errorLoadingResponses": "Fout bij laden wekelijkse vragenlijstinzendingen",
-            "nextYear": "Volgend jaar",
-            "currentYear": "Huidig jaar",
-            "previousYear": "Vorig jaar",
-            "beforeJoin": "Voor deelname aan het onderzoek",
-            "noSubmissions": "Geen vragenlijsten ingezonden",
-            "submissionsCount": "Vragenlijsten ingezonden: ",
-            "weekOf": "Week van",
-            "legend": {
-                "title": "Legend",
-                "noReport": "Geen vragenlijst ingezonden",
-                "sentInReportWithoutSymptoms": "Vragenlijst ingezonden zonder klachten",
-                "reportIncludedSymptoms": "Vragenlijst ingezonden met klachten"
-            }
-        },
-        "labResults": {
-            "title": "Laboratoriumresultaten",
-            "description": "Laboratoriumresultaten voor het momenteel geselecteerde profiel.",
-            "errorLoadingLabResults": "Fout bij laden laboratoriumresultaten",
-            "noLabResults": "Geen laboratoriumresultaten gevonden voor dit profiel",
-            "pendingPlaceholder": "Monster ontvangen op het RIVM, maar nog geen uitslag.",
-            "loading": "Laboratoriumresultaten opzoeken..."
-        },
-        "selfTestParticipation": {
-            "title": "Zelftest-onderzoek",
-            "pleaseUpdateContactInfo": "U neemt deel aan het zelftest-onderzoek. Werk uw contactgegevens bij om het systeem up-to-date te houden.",
-            "notParticipatingDescription": "U neemt nog niet deel aan het zelftest-onderzoek. Klik op de knop hieronder om u aan te melden.",
-            "contactInfo": "Contactgegevens",
-            "changeContactInfo": "Contactgegevens wijzigen",
-            "joinStudy": "Aanmelden voor het zelftest-onderzoek",
-            "loading": "Contactgegevens opzoeken..."
-        },
-        "orderKits": {
-            "selectTypeDropdown": {
-                "btnLabel": "Nieuwe onderzoeksmaterialen nodig? Bestel ze hier.",
-                "chooseTypeLabel": "Wat heeft u nodig?",
-                "corona": {
-                    "title": "Corona-zelftesten",
-                    "description": "Bestel drie nieuwe corona-zelftesten voor het uitvoeren van een thuistest op COVID-19."
-                },
-                "nk_monster": {
-                    "title": "Neus- en keelmonsterafnameset",
-                    "description": "Bestel een nieuwe neus- en keelmonsterafnameset, zodat u een monster kunt insturen wanneer hierom wordt gevraagd"
-                }
-            },
-            "alertDialog": {
-                "title": "Zijn uw adresgegevens up-to-date?",
-                "titleCorona": "Klopt uw adres voor het versturen van de corona-zelftesten?",
-                "titleNkMonster": "Klopt uw adres voor het versturen van de afnameset?",
-                "description": "Controleer uw adres voordat u nieuwe materialen bestelt.",
-                "cancelBtn": "Annuleren",
-                "changeAddressBtn": "Nee, eerst adres wijzigen",
-                "orderBtn": "Bestel de materialen met het huidige adres",
-                "noAddress": "Geen adres bekend."
-            },
-            "toast": {
-                "success": "De bestelling van uw onderzoeksmaterialen is geslaagd. U ontvangt ook een bevestigingsmail.",
-                "error": "Er is iets misgegaan bij het plaatsen van uw bestelling. Probeert u het alstublieft later opnieuw."
-            }
+        "seeAlsoLinks": {
+            "title": "Zie ook",
+            "faq": "Vraag en antwoord",
+            "contact": "Contact"
         }
     },
     "SurveyPage": {

@@ -40,7 +40,7 @@ const SurveyCard: React.FC<SurveyCardProps> = (props) => {
                     }
                 )}>
                 <div className='font-bold'>
-                    <span className="text-lg">
+                    <span className="text-basse">
                         {getLocalizedString(props.surveyInfos?.name, props.language)}
                     </span>
                     <span className={
@@ -66,7 +66,7 @@ const SurveyCard: React.FC<SurveyCardProps> = (props) => {
                             'bg-gray-500 text-white': ['optional'].includes(props.category),
                         }
                     )}>
-                        <Avatar className='sizeconsole-7 rounded-sm'>
+                        <Avatar className='size-7 rounded-sm'>
                             <AvatarImage
                                 className={clsx('bg-secondary p-0.5',
                                     {
@@ -80,7 +80,7 @@ const SurveyCard: React.FC<SurveyCardProps> = (props) => {
                             </AvatarFallback>
                         </Avatar>
 
-                        <span className='ms-2 inline-block truncate max-w-[200px]'>
+                        <span className='ms-2 inline-block truncate max-w-[200px] text-sm'>
                             {props.profiles[0].alias}
                         </span>
                         <i className="flex items-center">
