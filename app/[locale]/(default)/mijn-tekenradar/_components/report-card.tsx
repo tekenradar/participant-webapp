@@ -109,6 +109,14 @@ const getTranslatedValue = (reportKey: string, itemKey: string, itemValue: strin
 }
 
 
+const getDateLocale = (locale: string) => {
+    switch (locale) {
+        case 'nl':
+            return nl;
+        default:
+            return nl;
+    }
+}
 
 
 const ReportCard: React.FC<ReportCardProps> = ({ report, messages, locale = 'nl' }) => {
@@ -117,7 +125,7 @@ const ReportCard: React.FC<ReportCardProps> = ({ report, messages, locale = 'nl'
     const iconUrl = getReportIconUrl(report);
     const reportMessage = messages[report.key as keyof typeof messages];
     const reportTitle = typeof reportMessage === 'string' ? reportMessage : reportMessage?.title ?? '';
-    const dateStr = format(new Date(report.timestamp * 1000), 'PPP', { locale: nl });
+    const dateStr = format(new Date(report.timestamp * 1000), 'PPP', { locale: getDateLocale(locale) });
 
     const payloadData = report.data?.filter(item => {
         return !['icon'].includes(item.key)
