@@ -14,6 +14,7 @@ import LoadingButton from "@/components/loading-button";
 import { mergeTempParticipantWithProfile } from "@/actions/study/temp-participant";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
+import { DEFAULT_DASHBOARD_URL } from "@/constants";
 
 
 const studyKey = process.env.NEXT_PUBLIC_STUDY_KEY || 'tekenradar';
@@ -55,7 +56,7 @@ const ProfileSelectorRadioGroup = (props: ProfileSelectorRadioGroupProps) => {
                 return;
             }
             toast.success(props.messages.connectProfileSuccess);
-            router.replace('/dashboard');
+            router.replace(DEFAULT_DASHBOARD_URL);
         });
     }
 

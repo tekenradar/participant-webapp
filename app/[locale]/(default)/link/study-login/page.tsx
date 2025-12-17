@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { redirect } from "next/navigation";
 import { Suspense } from "react";
 import TempTokenLogin from "./_components/TempTokenLogin";
+import { DEFAULT_DASHBOARD_URL } from "@/constants";
 
 
 interface PageProps {
@@ -24,12 +25,12 @@ export default async function Page(props: PageProps) {
 
     const token = (await props.searchParams).token;
     if (!token) {
-        redirect('/auth/login?redirectTo=/dashboard');
+        redirect(`/auth/login?redirectTo=${DEFAULT_DASHBOARD_URL}`);
     }
 
     let callback = (await props.searchParams).callback;
     if (!callback || callback.startsWith('http')) {
-        callback = '/dashboard';
+        callback = DEFAULT_DASHBOARD_URL;
     }
 
 

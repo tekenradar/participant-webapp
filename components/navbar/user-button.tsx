@@ -5,6 +5,7 @@ import UserMenu, { AuthLinks } from './user-button-client';
 import { getTranslations } from 'next-intl/server';
 import LogoutTrigger from './logout-trigger';
 import { blurEmail } from '@/lib/blurEmail';
+import { DEFAULT_DASHBOARD_URL } from '@/constants';
 
 
 const UserButton: React.FC = async () => {
@@ -22,7 +23,7 @@ const UserButton: React.FC = async () => {
             },
             {
                 key: 'login',
-                href: '/auth/login?redirectTo=/dashboard',
+                href: `/auth/login?redirectTo=${DEFAULT_DASHBOARD_URL}`,
                 label: t('login')
             },
 

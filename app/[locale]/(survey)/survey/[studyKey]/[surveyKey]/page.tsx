@@ -5,6 +5,7 @@ import { Profile, getUser } from "@/lib/server/data-fetching/user";
 import { validateRedirectUrl } from "@/lib/utils/url-validation";
 import SurveyLoader from "@/components/survey-components/survey-loader-for-profile";
 import SurveySkeleton from "@/components/survey-components/survey-skeleton";
+import { DEFAULT_DASHBOARD_URL } from "@/constants";
 
 interface PageProps {
     params: Promise<{
@@ -47,7 +48,7 @@ export default async function Page(props: PageProps) {
         }
     })
     if (!profile) {
-        redirect(validatedRedirectUrl || '/dashboard')
+        redirect(validatedRedirectUrl || DEFAULT_DASHBOARD_URL)
     }
 
     return (

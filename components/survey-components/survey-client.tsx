@@ -21,6 +21,7 @@ import {
     AlertDialogTitle,
 } from '@/components/ui/alert-dialog';
 import { AlertCircle, Loader } from 'lucide-react';
+import { DEFAULT_DASHBOARD_URL } from '@/constants';
 
 
 interface SurveyClientProps {
@@ -95,7 +96,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                 props.studyKey,
                 props.profileID,
                 response,
-                props.redirectUrl || '/dashboard',
+                props.redirectUrl || DEFAULT_DASHBOARD_URL,
                 props.ignoreImmediateSurveys,
             );
             if (!resp || resp.error) {
@@ -110,7 +111,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
 
         // Success - close dialog and redirect
         setSubmissionState({ isLoading: false, error: null, response: null });
-        const redirectUrl = props.redirectUrl || '/dashboard';
+        const redirectUrl = props.redirectUrl || DEFAULT_DASHBOARD_URL;
         router.replace(redirectUrl);
     };
 
@@ -131,7 +132,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
 
     const handleGoBack = () => {
         setSubmissionState({ isLoading: false, error: null, response: null });
-        const redirectUrl = props.redirectUrl || '/dashboard';
+        const redirectUrl = props.redirectUrl || DEFAULT_DASHBOARD_URL;
         router.push(redirectUrl);
     };
 

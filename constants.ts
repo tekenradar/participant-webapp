@@ -1,0 +1,1 @@
+export const DEFAULT_DASHBOARD_URL = '/mijn-tekenradar';
