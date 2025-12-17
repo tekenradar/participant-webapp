@@ -12,9 +12,10 @@ import { useForm } from "react-hook-form"
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { toast } from 'sonner';
+import { DEFAULT_DASHBOARD_URL } from '@/constants';
 
 
-const redirectTo = '/dashboard';
+const redirectTo = DEFAULT_DASHBOARD_URL;
 
 interface TokenVerificationSuccessProps {
     isLoggedIn: boolean;

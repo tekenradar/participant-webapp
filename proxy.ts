@@ -30,7 +30,6 @@ const authMiddleware = auth((req) => {
     media-src 'self' https://www.rovid.nl;
     img-src 'self' http://statistiek.rijksoverheid.nl https://www.rovid.nl blob: data:;
     font-src 'self';
-    frame-src https://dashboard.infectieradar.nl;
     object-src 'none';
     base-uri 'self';
     form-action 'self';

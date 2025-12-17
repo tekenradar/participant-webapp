@@ -34,12 +34,8 @@ export const OTP_ROUTES: Array<Route> = [
     { path: '/settings/password', exact: true, types: ['email'], maxAge: 60 * 60 * 24, },
     { path: '/settings/email', exact: true, types: ['email'], maxAge: 60 * 60 * 24, },
     { path: '/settings/phone', exact: true, types: ['email'], maxAge: 60 * 60 * 24, },
-    {
-        path: '/dashboard/persoonlijke-gegevens', exact: false, types: process.env.NODE_ENV === 'development' ? ['email', 'sms'] : ['sms'],
-        maxAge: 60 * 60 * 24,
-    },
+    { path: '/mijn-tekenradar', exact: false, types: ['email'], maxAge: 60 * 60 * 24, },
     /*{ path: '/dashboard/data', exact: false, types: ['sms'], maxAge: 60 * 60 * 24, },
-    { path: '/dashboard', exact: false, types: ['email', 'sms'], maxAge: 60 * 60 * 24, },
     */
 ]
 

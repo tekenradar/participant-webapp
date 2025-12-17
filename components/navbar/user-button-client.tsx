@@ -10,6 +10,8 @@ import { getAvatarURL } from '@/lib/avatars';
 import Link from 'next/link';
 import NavbarButton from './navbar-button';
 import { User } from 'next-auth';
+import { DEFAULT_DASHBOARD_URL } from '@/constants';
+
 
 interface UserMenuProps {
     user: User;
@@ -87,7 +89,7 @@ const UserMenu: React.FC<UserMenuProps> = (props) => {
                     asChild
                 >
                     <Link
-                        href="/dashboard"
+                        href={DEFAULT_DASHBOARD_URL}
                         prefetch={false}
                     >
                         <span>
