@@ -3,41 +3,25 @@ import React from 'react';
 import NavbarContent from './navbar-content';
 import { Skeleton } from '@/components/ui/skeleton';
 import { getTranslations } from 'next-intl/server';
-import { Profile, getUser } from '@/lib/server/data-fetching/user';
-import { redirect } from 'next/navigation';
+import { Profile } from '@/lib/server/data-fetching/user';
+import { validateRedirectUrl } from '@/lib/utils/url-validation';
 
 interface SurveyPageNavbarProps {
     locale: string;
-    profileId: string;
+    profile?: Profile;
     redirectUrl?: string;
 }
 
 const SurveyPageNavbar: React.FC<SurveyPageNavbarProps> = async (props) => {
     const t = await getTranslations({ locale: props.locale, namespace: 'SurveyPage' });
 
-    const resp = await getUser();
-    if (!resp || resp.error) {
-        console.error(resp.error);
-        redirect('/');
-    }
-
-    const user = resp.user;
-
-    if (!user || !user.profiles || !user.profiles.length) {
-        redirect('/');
-    }
-
-    const profile = user.profiles.find((profile: Profile) => profile.id === props.profileId);
-    if (!profile) {
-        redirect('/');
-    }
-
+    const validatedRedirectUrl = validateRedirectUrl(props.redirectUrl);
 
     return (
         <div className="bg-primary text-primary-foreground">
             <Container>
                 <NavbarContent
-                    profile={profile}
+                    profile={props.profile}
                     messages={{
                         exitSurveyBtn: t('navbar.exitSurveyBtn'),
                         exitSurveyConfirmationTitle: t('navbar.exitSurveyConfirmationTitle'),
@@ -45,7 +29,7 @@ const SurveyPageNavbar: React.FC<SurveyPageNavbarProps> = async (props) => {
                         exitSurveyConfirmationConfirmBtn: t('navbar.exitSurveyConfirmationConfirmBtn'),
                         exitSurveyConfirmationCancelBtn: t('navbar.exitSurveyConfirmationCancelBtn'),
                     }}
-                    redirectUrl={props.redirectUrl}
+                    redirectUrl={validatedRedirectUrl}
                 />
             </Container>
         </div>
@@ -58,8 +42,8 @@ export const SurveyPageNavbarSkeleton = () => {
     return (
         <div className="bg-primary text-primary-foreground">
             <Container>
-                <div className='flex justify-end'>
-                    <Skeleton className='h-10 w-8 sm:w-56' />
+                <div className='flex justify-start h-10 items-center'>
+                    <Skeleton className='h-10 w-56 bg-secondary/40 rounded-none' />
                 </div>
             </Container>
         </div>

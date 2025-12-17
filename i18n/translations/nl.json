@@ -253,6 +253,74 @@
             }
         }
     },
+    "MeldenPage": {
+        "selectProfile": {
+            "title": "Selecteer een profiel",
+            "description": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
+            "mainProfileLabel": "Ik",
+            "createProfileDialog": {
+                "triggerBtn": "Maak een nieuw profiel aan",
+                "title": "Maak een nieuw profiel aan",
+                "description": "Maak een nieuw profiel aan om deze melding te doen.",
+                "consent": {
+                    "label": "Ik ga akkoord met de voorwaarden en voorwaarden",
+                    "invalid": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                    "dialog": {
+                        "title": "Voorwaarden en voorwaarden",
+                        "content": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                        "acceptBtn": "Ik ga akkoord",
+                        "rejectBtn": "Ik ga niet akkoord"
+                    }
+                },
+                "aliasLabel": "Alias",
+                "aliasPlaceholder": "Voer je alias in",
+                "avatarSelectorLabel": "Selecteer je avatar",
+                "saveProfileBtn": "Maak profiel aan",
+                "cancelBtn": "Annuleren",
+                "errorSavingProfile": "Fout bij het maken van het profiel",
+                "successSavingProfile": "Profiel succesvol gemaakt"
+            }
+        }
+    },
+    "KoppelenPage": {
+        "title": "Koppelen aan je account",
+        "successTitle": "Je antwoorden zijn succesvol opgeslagen",
+        "infoForConnectedAccounts": "Wil je je melding kunnen terugvinden in \"Mijn Tekenradar\", log dan in zodat we je melding kunnen koppelen aan je account. \n\n Wil je een Tekenradar account aanmaken? Klik dan hieronder op 'Aanmelden'. Met een account kun je tekenbeten en Lyme blijven melden, en bijdragen aan onderzoek.",
+        "loginBtn": "Inloggen",
+        "registerBtn": "Aanmelden",
+        "cancelBtn": "Verlaten zonder account te koppelen",
+        "infoForProfileSelection": "Selecteer een profiel of maak een nieuw profiel aan om uw eerdere antwoorden aan te koppelen.",
+        "selectProfile": {
+            "title": "Selecteer een profiel",
+            "description": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
+            "mainProfileLabel": "Ik",
+            "createProfileDialog": {
+                "triggerBtn": "Maak een nieuw profiel aan",
+                "title": "Maak een nieuw profiel aan",
+                "description": "Maak een nieuw profiel aan om deze melding te doen.",
+                "consent": {
+                    "label": "Ik ga akkoord met de voorwaarden en voorwaarden",
+                    "invalid": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                    "dialog": {
+                        "title": "Voorwaarden en voorwaarden",
+                        "content": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                        "acceptBtn": "Ik ga akkoord",
+                        "rejectBtn": "Ik ga niet akkoord"
+                    }
+                },
+                "aliasLabel": "Alias",
+                "aliasPlaceholder": "Voer je alias in",
+                "avatarSelectorLabel": "Selecteer je avatar",
+                "saveProfileBtn": "Maak profiel aan",
+                "cancelBtn": "Annuleren",
+                "errorSavingProfile": "Fout bij het maken van het profiel",
+                "successSavingProfile": "Profiel succesvol gemaakt"
+            },
+            "connectProfileBtn": "Koppel profiel",
+            "connectProfileError": "Fout bij het koppelen van het profiel",
+            "connectProfileSuccess": "Profiel succesvol gekoppeld"
+        }
+    },
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
         "teaserImage": {
@@ -370,13 +438,31 @@
             "exitSurveyConfirmationConfirmBtn": "Ja, ik wil stoppen",
             "exitSurveyConfirmationCancelBtn": "Nee, ik ga verder"
         },
-        "surveyLoadingError": "Fout bij laden vragenlijst. Vernieuw de pagina",
+        "errorLoadingSurveys": {
+            "title": "Fout bij het laden van de vragenlijst",
+            "errorTitle": "Er is een probleem opgetreden tijdens het laden van de vragenlijst {surveyKey}",
+            "errorDescription": "\n\nDit is mogelijk een tijdelijk probleem. Probeer het over een korte tijd opnieuw. Als het probleem zich blijft voordoen, neem dan contact op met [info@tekenradar.nl](mailto:info@tekenradar.nl)."
+        },
+        "requireLogin": {
+            "title": "Inloggen",
+            "description": "Je moet ingelogd zijn om deze vragenlijst in te vullen.",
+            "loginBtn": "Inloggen",
+            "registerBtn": "Registreren",
+            "leaveBtn": "Verlaten"
+        },
         "survey": {
             "invalidResponseText": "",
             "previousPageBtn": "Terug",
             "nextPageBtn": "Volgende",
             "submitBtn": "Opslaan en verder gaan",
-            "submitError": "Er is helaas iets mis gegaan bij het verzenden van de vragenlijst.\n\nProbeer het nog eens of neem [contact](mailto:infectieradar@rivm.nl) op als het probleem zich voort blijft doen."
+            "submissionDialog": {
+                "title": "Verzenden...",
+                "description": "Even geduld terwijl we uw antwoorden verzenden.",
+                "errorTitle": "Fout bij verzenden",
+                "errorDescription": "Er is een fout opgetreden bij het verzenden van de vragenlijst.",
+                "goBackBtn": "Ga terug",
+                "retryBtn": "Opnieuw proberen"
+            }
         }
     },
     "RegisterPage": {

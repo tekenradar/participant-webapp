@@ -10,7 +10,7 @@ import ConfirmExit from './confirm-exit';
 import NavbarButton from '@/components/navbar/navbar-button';
 
 interface NavbarContentProps {
-    profile: Profile;
+    profile?: Profile;
     messages: {
         exitSurveyBtn: string;
         exitSurveyConfirmationTitle: string;
@@ -32,7 +32,7 @@ const NavbarContent: React.FC<NavbarContentProps> = (props) => {
                 onClose={(accept) => {
                     setConfirmExitOpen(false);
                     if (accept) {
-                        router.push(props.redirectUrl || '/dashboard');
+                        router.push(props.redirectUrl || '/');
                     }
                 }}
                 messages={{
@@ -56,7 +56,7 @@ const NavbarContent: React.FC<NavbarContentProps> = (props) => {
                 </span>
             </NavbarButton>
 
-            <div className='flex gap-2 items-center'>
+            {props.profile && <div className='flex gap-2 items-center'>
                 <Avatar className='size-7 rounded-sm'>
                     <AvatarImage
                         className='bg-secondary p-0.5'
@@ -69,7 +69,7 @@ const NavbarContent: React.FC<NavbarContentProps> = (props) => {
                 <span className='hidden sm:inline-block'>
                     {props.profile.alias}
                 </span>
-            </div>
+            </div>}
         </div>
     );
 };
