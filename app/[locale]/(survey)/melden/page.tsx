@@ -39,7 +39,7 @@ export default async function Page(props: PageProps) {
     if (loggedIn) {
         const userResp = await getUser();
         profiles = userResp.user?.profiles;
-        profile = profiles.find((p: Profile) => p.id === searchParams.pid);
+        profile = profiles?.find((p: Profile) => p.id === searchParams?.pid);
     } else {
         logger.debug('not logged in');
     }
