@@ -103,7 +103,11 @@ const MapEventsComponent: React.FC<MapEventsComponentProps> = (props) => {
             map.flyTo(e.latlng, map.getZoom());
         },
     });
-    map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank">Leaflet</a>');
+
+    useEffect(() => {
+        map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank">Leaflet</a>');
+    }, [map]);
+
     return null;
 };
 
