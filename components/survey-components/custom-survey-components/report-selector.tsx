@@ -6,7 +6,7 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import { CaseReport } from "@/lib/server/data-fetching/reports";
 import { useEffect, useEffectEvent, useState, useTransition } from "react";
-import { format } from 'date-fns';
+import { format, subMonths } from 'date-fns';
 import { nl } from 'date-fns/locale';
 import { cn } from "@/lib/utils";
 
@@ -71,8 +71,7 @@ const ReportSelector: React.FC<ReportSelectorProps> = (props) => {
             try {
                 // Calculate date 6 months ago
                 const now = new Date();
-                const sixMonthsAgo = new Date();
-                sixMonthsAgo.setMonth(now.getMonth() - 6);
+                const sixMonthsAgo = subMonths(now, 6);
 
                 // Convert to timestamps (seconds since epoch)
                 const nowTimestamp = Math.floor(now.getTime() / 1000);
