@@ -8,6 +8,7 @@ import { useRouter } from 'next/navigation';
 import { SurveyResponse } from 'survey-engine/data_types';
 import { submitResponses } from '@/actions/study/submit-responses';
 import ContactFormWithAddressLookup from './custom-survey-components/contact-form-with-address-lookup';
+import TickMapLocationPicker from './custom-survey-components/tick-map-location-picker';
 import { submitResponseForTempParticipant } from '@/actions/study/temp-participant';
 import SurveySkeleton from './survey-skeleton';
 import {
@@ -154,6 +155,10 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                     {
                         name: 'contact',
                         component: ContactFormWithAddressLookup,
+                    },
+                    {
+                        name: ':map',
+                        component: TickMapLocationPicker,
                     }
                 ]}
                 dateLocales={surveyDateLocales}
