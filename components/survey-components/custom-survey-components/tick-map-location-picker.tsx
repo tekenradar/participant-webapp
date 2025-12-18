@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useEffectEvent, useMemo, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { CommonResponseComponentProps, getLocaleStringTextByCode } from '@/components/survey-renderer/SurveySingleItemView/utils';
 import { ResponseItem } from 'survey-engine/data_types';
@@ -227,12 +227,10 @@ const TickMapLocationPicker: React.FC<TickMapLocationPickerProps> = (props) => {
         return () => clearTimeout(timer);
     }, [response, touched, props.responseChanged]);
 
-    // Update response when marker position changes
-    useEffect(() => {
-        if (markerPosition === undefined || !isMounted || !L) {
+    const onMarkerPositionChange = useEffectEvent((markerPosition: LatLngLiteral) => {
+        if (!isMounted || !L) {
             return;
         }
-
         setLastUsedZoomLevel(currentZoomLevel);
         const wrappedPosition = new L.LatLng(markerPosition.lat, markerPosition.lng).wrap();
 
@@ -267,7 +265,16 @@ const TickMapLocationPicker: React.FC<TickMapLocationPickerProps> = (props) => {
 
         setTouched(true);
         setResponse(newResponse);
-    }, [markerPosition, currentZoomLevel, currentBounds, props.compDef.key, isMounted]);
+    })
+
+    // Update response when marker position changes
+    useEffect(() => {
+        if (markerPosition === undefined) {
+            return;
+        }
+
+        onMarkerPositionChange(markerPosition);
+    }, [markerPosition, props.compDef.key, isMounted]);
 
     // Don't render map until mounted (client-side only)
     if (!isMounted) {
