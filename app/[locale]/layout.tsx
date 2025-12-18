@@ -52,7 +52,7 @@ export default async function RootLayout(props: LayoutProps) {
 
     const t = await getTranslations('Index');
 
-    const content = (<html lang={locale} dir={locale} nonce={nonce || undefined}>
+    const content = (<html lang={locale}>
         <body className={`${openSans.variable} font-sans h-screen flex flex-col`}>
             <Link
                 className="sr-only focus:not-sr-only text-primary hover:underline px-4 py-2"
