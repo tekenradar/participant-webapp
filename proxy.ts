@@ -28,7 +28,7 @@ const authMiddleware = auth((req) => {
     script-src ${scriptSrc};
     style-src 'self' 'unsafe-inline';
     media-src 'self' https://www.rovid.nl;
-    img-src 'self' http://statistiek.rijksoverheid.nl https://www.rovid.nl ${process.env.MAP_TILE_CSP_VALUES} blob: data:;
+    img-src 'self' http://statistiek.rijksoverheid.nl https://www.rovid.nl ${process.env.MAP_TILE_CSP_VALUES || ''} blob: data:;
     font-src 'self';
     object-src 'none';
     base-uri 'self';
