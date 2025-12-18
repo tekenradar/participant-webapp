@@ -64,12 +64,52 @@ interface DraggableMarkerProps {
     onBoundsChanged: (bounds: LatLngBounds) => void;
 }
 
+interface MapEventsComponentProps {
+    onPosChanged: (pos: LatLngLiteral) => void;
+    onZoomChanged: (zoomLevel: number) => void;
+    onBoundsChanged: (bounds: LatLngBounds) => void;
+    onPositionUpdate: (pos: LatLngLiteral) => void;
+}
+
+// Move MapEventsComponent outside DraggableMarker to prevent re-creation on each render
+const MapEventsComponent: React.FC<MapEventsComponentProps> = (props) => {
+    // Import useMapEvents hook dynamically
+    const { useMapEvents } = require('react-leaflet');
+
+    const map = useMapEvents({
+        resize() {
+            props.onBoundsChanged(map.getBounds());
+        },
+        moveend() {
+            props.onBoundsChanged(map.getBounds());
+        },
+        zoomend(e: any) {
+            props.onZoomChanged(e.target._zoom);
+            props.onBoundsChanged(map.getBounds());
+        },
+        click(e: any) {
+            props.onBoundsChanged(map.getBounds());
+            const newPos = e.latlng;
+            if (newPos === undefined) {
+                return;
+            }
+            props.onPosChanged(newPos);
+            props.onPositionUpdate(newPos);
+        },
+        locationfound(e: any) {
+            const newPos = e.latlng;
+            props.onPosChanged(newPos);
+            props.onPositionUpdate(newPos);
+            map.flyTo(e.latlng, map.getZoom());
+        },
+    });
+    map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank">Leaflet</a>');
+    return null;
+};
+
 const DraggableMarker: React.FC<DraggableMarkerProps> = (props) => {
     const [position, setPosition] = useState(props.position);
     const markerRef = useRef<any>(null);
-
-    // Import useMapEvents hook dynamically
-    const { useMapEvents } = require('react-leaflet');
 
     const eventHandlers = useMemo(
         () => ({
@@ -93,45 +133,18 @@ const DraggableMarker: React.FC<DraggableMarkerProps> = (props) => {
         [props]
     );
 
-    const MapEventsComponent = () => {
-        const map = useMapEvents({
-            resize() {
-                props.onBoundsChanged(map.getBounds());
-            },
-            moveend() {
-                props.onBoundsChanged(map.getBounds());
-            },
-            zoomend(e: any) {
-                props.onZoomChanged(e.target._zoom);
-                props.onBoundsChanged(map.getBounds());
-            },
-            click(e: any) {
-                props.onBoundsChanged(map.getBounds());
-                const newPos = e.latlng;
-                if (newPos === undefined) {
-                    return;
-                }
-                props.onPosChanged(newPos);
-                setPosition(newPos);
-            },
-            locationfound(e: any) {
-                const newPos = e.latlng;
-                props.onPosChanged(newPos);
-                setPosition(newPos);
-                map.flyTo(e.latlng, map.getZoom());
-            },
-        });
-        map.attributionControl.setPrefix('Leaflet');
-        return null;
-    };
-
     useEffect(() => {
         setPosition(props.position);
     }, [props.position]);
 
     return (
         <>
-            <MapEventsComponent />
+            <MapEventsComponent
+                onPosChanged={props.onPosChanged}
+                onZoomChanged={props.onZoomChanged}
+                onBoundsChanged={props.onBoundsChanged}
+                onPositionUpdate={setPosition}
+            />
             {position && (
                 <Marker
                     draggable={true}
