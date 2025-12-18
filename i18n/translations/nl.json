@@ -447,6 +447,11 @@
                 "errorDescription": "Er is een fout opgetreden bij het verzenden van de vragenlijst.",
                 "goBackBtn": "Ga terug",
                 "retryBtn": "Opnieuw proberen"
+            },
+            "reportSelector": {
+                "loading": "Laden van rapporten...",
+                "noReports": "Geen rapporten gevonden",
+                "errorLoadingReports": "Er is een fout opgetreden bij het laden van de rapporten."
             }
         }
     },
