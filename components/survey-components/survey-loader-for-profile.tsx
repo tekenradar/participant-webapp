@@ -20,6 +20,7 @@ interface SurveyLoaderProps {
 
 const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
     const t = await getTranslations({ locale: props.locale, namespace: 'SurveyPage' });
+    const tDashboard = await getTranslations({ locale: props.locale, namespace: 'DashboardPage.reportHistory.reportCards' });
 
     const resp = await getSurveyWithContextForProfile(props.studyKey, props.surveyKey, props.profileId);
     if (!resp || resp.error || !resp.surveyWithContext) {
@@ -65,6 +66,46 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
                                 goBackBtn: t('survey.submissionDialog.goBackBtn'),
                                 retryBtn: t('survey.submissionDialog.retryBtn'),
                             },
+                            reportSelector: {
+                                loading: t('survey.reportSelector.loading'),
+                                noReports: t('survey.reportSelector.noReports'),
+                                errorLoadingReports: t('survey.reportSelector.errorLoadingReports'),
+                                reportCards: {
+                                    TB: {
+                                        title: tDashboard('TB.title'),
+                                        environment: {
+                                            label: tDashboard('TB.environment.label'),
+                                            a: tDashboard('TB.environment.a'),
+                                            b: tDashboard('TB.environment.b'),
+                                            c: tDashboard('TB.environment.c'),
+                                            d: tDashboard('TB.environment.d'),
+                                            e: tDashboard('TB.environment.e'),
+                                            f: tDashboard('TB.environment.f'),
+                                            g: tDashboard('TB.environment.g'),
+                                            h: tDashboard('TB.environment.h'),
+                                            i: tDashboard('TB.environment.i'),
+                                        },
+                                        activity: {
+                                            label: tDashboard('TB.activity.label'),
+                                            a: tDashboard('TB.activity.a'),
+                                            b: tDashboard('TB.activity.b'),
+                                            c: tDashboard('TB.activity.c'),
+                                            d: tDashboard('TB.activity.d'),
+                                            e: tDashboard('TB.activity.e'),
+                                            f: tDashboard('TB.activity.f'),
+                                            g: tDashboard('TB.activity.g'),
+                                            h: tDashboard('TB.activity.h'),
+                                            i: tDashboard('TB.activity.i'),
+                                        },
+                                        count: {
+                                            label: tDashboard('TB.count.label'),
+                                        },
+                                        location: {
+                                            label: tDashboard('TB.location.label'),
+                                        },
+                                    },
+                                },
+                            }
                         }}
                         openAt={Math.floor(Date.now() / 1000)}
                         studyKey={props.studyKey}

@@ -23,6 +23,8 @@ import {
 } from '@/components/ui/alert-dialog';
 import { AlertCircle, Loader } from 'lucide-react';
 import { DEFAULT_DASHBOARD_URL } from '@/constants';
+import ReportSelector, { ReportSelectorMessages } from './custom-survey-components/report-selector';
+import { CommonResponseComponentProps } from '../survey-renderer/SurveySingleItemView/utils';
 
 
 interface SurveyClientProps {
@@ -45,6 +47,7 @@ interface SurveyClientProps {
             goBackBtn: string;
             retryBtn: string;
         }
+        reportSelector?: ReportSelectorMessages;
     }
     ignoreImmediateSurveys?: boolean;
     redirectUrl?: string;
@@ -159,6 +162,15 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                     {
                         name: ':map',
                         component: TickMapLocationPicker,
+                    },
+                    {
+                        name: 'input:TBReportSelector',
+                        component: (compProps: CommonResponseComponentProps) => <ReportSelector
+                            {...compProps}
+                            profileID={props.profileID || ''}
+                            locale={props.locale}
+                            messages={props.messages?.reportSelector || undefined}
+                        />,
                     }
                 ]}
                 dateLocales={surveyDateLocales}
