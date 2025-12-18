@@ -159,6 +159,7 @@ const TickMapLocationPicker: React.FC<TickMapLocationPickerProps> = (props) => {
     const [currentZoomLevel, setCurrentZoomLevel] = useState(7);
     const [lastUsedZoomLevel, setLastUsedZoomLevel] = useState(currentZoomLevel);
     const [isMounted, setIsMounted] = useState(false);
+    const lastEmittedResponseJsonRef = useRef<string | null>(null);
 
     const mapTileURL = process.env.NEXT_PUBLIC_MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
@@ -190,13 +191,28 @@ const TickMapLocationPicker: React.FC<TickMapLocationPickerProps> = (props) => {
 
     // Debounce response changes
     useEffect(() => {
-        if (touched) {
-            const timer = setTimeout(() => {
-                props.responseChanged(response);
-            }, 500);
-            return () => clearTimeout(timer);
+        if (!touched) {
+            return;
         }
-    }, [response, touched, props]);
+
+        // Avoid re-emitting the same response on unrelated re-renders
+        const responseJson = JSON.stringify(response ?? null);
+        if (lastEmittedResponseJsonRef.current === responseJson) {
+            return;
+        }
+
+        const timer = setTimeout(() => {
+            // Re-check at send time in case another update already emitted it
+            const latestJson = JSON.stringify(response ?? null);
+            if (lastEmittedResponseJsonRef.current === latestJson) {
+                return;
+            }
+            lastEmittedResponseJsonRef.current = latestJson;
+            props.responseChanged(response);
+        }, 500);
+
+        return () => clearTimeout(timer);
+    }, [response, touched, props.responseChanged]);
 
     // Update response when marker position changes
     useEffect(() => {
