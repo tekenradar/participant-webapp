@@ -25,6 +25,7 @@ import { AlertCircle, Loader } from 'lucide-react';
 import { DEFAULT_DASHBOARD_URL } from '@/constants';
 import ReportSelector, { ReportSelectorMessages } from './custom-survey-components/report-selector';
 import { CommonResponseComponentProps } from '../survey-renderer/SurveySingleItemView/utils';
+import EmFotoUpload, { EmFotoUploadMessages } from './custom-survey-components/em-foto-upload';
 
 
 interface SurveyClientProps {
@@ -48,6 +49,7 @@ interface SurveyClientProps {
             retryBtn: string;
         }
         reportSelector?: ReportSelectorMessages;
+        emFotoUpload?: EmFotoUploadMessages;
     }
     ignoreImmediateSurveys?: boolean;
     redirectUrl?: string;
@@ -170,6 +172,15 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                             profileID={props.profileID || ''}
                             locale={props.locale}
                             messages={props.messages?.reportSelector || undefined}
+                        />,
+                    },
+                    {
+                        name: 'input:file',
+                        component: (compProps: CommonResponseComponentProps) => <EmFotoUpload
+                            {...compProps}
+                            studyKey={props.studyKey}
+                            profileID={props.profileID || ''}
+                            messages={props.messages?.emFotoUpload || undefined}
                         />,
                     }
                 ]}
