@@ -9,6 +9,7 @@ interface FilepickerProps {
     label?: string;
     accept?: Accept;
     disabled?: boolean;
+    maxFiles?: number;
 
     placeholders?: {
         upload: string;
@@ -26,6 +27,8 @@ const Filepicker: React.FC<FilepickerProps> = (props) => {
         getRootProps, getInputProps } = useDropzone({
             accept: props.accept,
             disabled: props.disabled,
+            maxFiles: props.maxFiles || 1,
+            multiple: (props.maxFiles && props.maxFiles > 1) ? true : false,
         });
 
 
@@ -63,19 +66,22 @@ const Filepicker: React.FC<FilepickerProps> = (props) => {
                     className=""
                     {...getInputProps()} />
                 <div className='flex justify-center items-center gap-1'>
-                    {acceptedFiles.length > 0 ? <p>{
-                        acceptedFiles[0].name
-                    }</p> : <>
-                        <FileUpIcon className='text-2xl text-neutral-400' />
-                        <p>
-                            <span className='text-cyan-800 me-1'>
-                                {placeholders.upload}
-                            </span>
-                            <span>
-                                {placeholders.drag}
-                            </span>
-                        </p>
-                    </>}
+                    {acceptedFiles.length > 0 ? <ul>
+                        {acceptedFiles.map((file) => (
+                            <li key={file.name}>{file.name}</li>
+                        ))}
+                    </ul>
+                        : <>
+                            <FileUpIcon className='text-2xl text-neutral-400' />
+                            <p>
+                                <span className='text-cyan-800 me-1'>
+                                    {placeholders.upload}
+                                </span>
+                                <span>
+                                    {placeholders.drag}
+                                </span>
+                            </p>
+                        </>}
                 </div>
             </div>
         </div>

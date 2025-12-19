@@ -196,7 +196,7 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                     drag: props.messages?.drag || 'or drag and drop',
                 }}
                 disabled={isPending}
-
+                maxFiles={1}
                 accept={{ 'image/*': ['.jpg', '.jpeg', '.png'] }}
                 onChange={(files) => {
                     setCurrentFile(files[0] || null);
