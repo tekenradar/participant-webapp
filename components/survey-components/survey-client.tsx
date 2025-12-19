@@ -57,7 +57,6 @@ interface SurveyClientProps {
 
 const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     const [isMounted, setIsMounted] = React.useState(false);
-    const [isPending, startTransition] = React.useTransition();
     const router = useRouter();
     const [submissionState, setSubmissionState] = React.useState<{
         isLoading: boolean;
@@ -122,17 +121,13 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     };
 
     const onSubmit = (response: SurveyResponse) => {
-        startTransition(() => {
-            submitResponse(response);
-        });
+        submitResponse(response);
     };
 
     const handleRetry = () => {
         if (submissionState.response) {
             setSubmissionState({ ...submissionState, error: null });
-            startTransition(() => {
-                submitResponse(submissionState.response!);
-            });
+            submitResponse(submissionState.response!);
         }
     };
 
@@ -147,7 +142,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     return (
         <>
             <SurveyView
-                loading={isPending}
+                loading={submissionState.isLoading}
                 survey={props.surveyWithContext.survey}
                 context={props.surveyWithContext.context}
                 prefills={props.surveyWithContext.prefill?.responses}
