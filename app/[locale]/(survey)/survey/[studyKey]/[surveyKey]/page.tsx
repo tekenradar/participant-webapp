@@ -6,7 +6,7 @@ import { validateRedirectUrl } from "@/lib/utils/url-validation";
 import SurveyLoader from "@/components/survey-components/survey-loader-for-profile";
 import SurveySkeleton from "@/components/survey-components/survey-skeleton";
 import { DEFAULT_DASHBOARD_URL } from "@/constants";
-import { getFiles } from "@/lib/server/data-fetching/participant-files";
+
 
 interface PageProps {
     params: Promise<{
@@ -51,11 +51,6 @@ export default async function Page(props: PageProps) {
     if (!profile) {
         redirect(validatedRedirectUrl || DEFAULT_DASHBOARD_URL)
     }
-
-    /* const files = await getFiles(studyKey, profile.id);
-    console.log('files', files); */
-
-    //6945337f4e175459ab46d66b
 
     return (
         <>

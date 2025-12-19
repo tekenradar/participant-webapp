@@ -95,7 +95,7 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                 formData.append('profileID', props.profileID);
                 formData.append('file', currentFile);
 
-                const response = await fetch('/api/upload-file', {
+                const response = await fetch('/api/participant-files', {
                     method: 'POST',
                     body: formData,
                 });
