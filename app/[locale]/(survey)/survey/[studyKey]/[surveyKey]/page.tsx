@@ -7,6 +7,7 @@ import SurveyLoader from "@/components/survey-components/survey-loader-for-profi
 import SurveySkeleton from "@/components/survey-components/survey-skeleton";
 import { DEFAULT_DASHBOARD_URL } from "@/constants";
 
+
 interface PageProps {
     params: Promise<{
         locale: string;

@@ -25,6 +25,7 @@ import { AlertCircle, Loader } from 'lucide-react';
 import { DEFAULT_DASHBOARD_URL } from '@/constants';
 import ReportSelector, { ReportSelectorMessages } from './custom-survey-components/report-selector';
 import { CommonResponseComponentProps } from '../survey-renderer/SurveySingleItemView/utils';
+import EmFotoUpload, { EmFotoUploadMessages } from './custom-survey-components/em-foto-upload';
 
 
 interface SurveyClientProps {
@@ -48,6 +49,7 @@ interface SurveyClientProps {
             retryBtn: string;
         }
         reportSelector?: ReportSelectorMessages;
+        emFotoUpload?: EmFotoUploadMessages;
     }
     ignoreImmediateSurveys?: boolean;
     redirectUrl?: string;
@@ -55,7 +57,6 @@ interface SurveyClientProps {
 
 const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     const [isMounted, setIsMounted] = React.useState(false);
-    const [isPending, startTransition] = React.useTransition();
     const router = useRouter();
     const [submissionState, setSubmissionState] = React.useState<{
         isLoading: boolean;
@@ -120,17 +121,13 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     };
 
     const onSubmit = (response: SurveyResponse) => {
-        startTransition(() => {
-            submitResponse(response);
-        });
+        submitResponse(response);
     };
 
     const handleRetry = () => {
         if (submissionState.response) {
             setSubmissionState({ ...submissionState, error: null });
-            startTransition(() => {
-                submitResponse(submissionState.response!);
-            });
+            submitResponse(submissionState.response!);
         }
     };
 
@@ -145,7 +142,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     return (
         <>
             <SurveyView
-                loading={isPending}
+                loading={submissionState.isLoading}
                 survey={props.surveyWithContext.survey}
                 context={props.surveyWithContext.context}
                 prefills={props.surveyWithContext.prefill?.responses}
@@ -170,6 +167,15 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                             profileID={props.profileID || ''}
                             locale={props.locale}
                             messages={props.messages?.reportSelector || undefined}
+                        />,
+                    },
+                    {
+                        name: 'input:file',
+                        component: (compProps: CommonResponseComponentProps) => <EmFotoUpload
+                            {...compProps}
+                            studyKey={props.studyKey}
+                            profileID={props.profileID || ''}
+                            messages={props.messages?.emFotoUpload || undefined}
                         />,
                     }
                 ]}

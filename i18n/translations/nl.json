@@ -452,6 +452,21 @@
                 "loading": "Laden van rapporten...",
                 "noReports": "Geen rapporten gevonden",
                 "errorLoadingReports": "Er is een fout opgetreden bij het laden van de rapporten."
+            },
+            "emFotoUpload": {
+                "label": "Hieronder kun je een afbeelding selecteren en uploaden. Je foto wordt direct geüpload zodra je op 'Upload' drukt.",
+                "upload": "Upload een foto",
+                "drag": "of sleep een foto hierheen",
+                "uploadBtn": "Upload",
+                "deleteBtn": "Verwijder",
+                "deleteDialog": {
+                    "title": "Afbeelding verwijderen",
+                    "description": "Weet je zeker dat je de geüploade afbeelding wilt verwijderen?",
+                    "delete": "Verwijder",
+                    "keepCurrentSelection": "Huidige selectie behouden"
+                },
+                "successMessage": "Foto geüpload succesvol!",
+                "errorMessage": "Fout bij uploaden van foto."
             }
         }
     },

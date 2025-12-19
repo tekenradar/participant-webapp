@@ -105,7 +105,22 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
                                         },
                                     },
                                 },
-                            }
+                            },
+                            emFotoUpload: {
+                                label: t('survey.emFotoUpload.label'),
+                                upload: t('survey.emFotoUpload.upload'),
+                                drag: t('survey.emFotoUpload.drag'),
+                                uploadBtn: t('survey.emFotoUpload.uploadBtn'),
+                                deleteBtn: t('survey.emFotoUpload.deleteBtn'),
+                                deleteDialog: {
+                                    title: t('survey.emFotoUpload.deleteDialog.title'),
+                                    description: t('survey.emFotoUpload.deleteDialog.description'),
+                                    delete: t('survey.emFotoUpload.deleteDialog.delete'),
+                                    keepCurrentSelection: t('survey.emFotoUpload.deleteDialog.keepCurrentSelection'),
+                                },
+                                successMessage: t('survey.emFotoUpload.successMessage'),
+                                errorMessage: t('survey.emFotoUpload.errorMessage'),
+                            },
                         }}
                         openAt={Math.floor(Date.now() / 1000)}
                         studyKey={props.studyKey}
