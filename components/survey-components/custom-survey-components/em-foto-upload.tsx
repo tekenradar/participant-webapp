@@ -2,7 +2,7 @@ import Filepicker from "@/components/filepicker";
 import LoadingButton from "@/components/loading-button";
 import { CommonResponseComponentProps } from "@/components/survey-renderer/SurveySingleItemView/utils";
 import { CloudUploadIcon, Trash2Icon } from "lucide-react";
-import { useState, useTransition, useEffect } from "react";
+import { useState, useTransition, useEffect, useEffectEvent } from "react";
 import {
     AlertDialog,
     AlertDialogAction,
@@ -58,6 +58,21 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
             setPreviewUrl(null);
         }
     }, [currentFile]);
+
+    const onUpdateResponse = useEffectEvent((fileId: string | null) => {
+        if (!fileId) {
+            props.responseChanged(undefined);
+            return;
+        }
+        props.responseChanged({
+            key: props.compDef.key || '',
+            value: fileId,
+        });
+    })
+
+    useEffect(() => {
+        onUpdateResponse(uploadId);
+    }, [uploadId]);
 
     const hasFileUploaded = uploadId !== null;
 
