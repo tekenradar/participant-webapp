@@ -68,7 +68,11 @@
         "title": "Tekenradar",
         "infoTabs": {
             "tekenmeldingen": {
-                "tabTitle": "Tekenbeetmeldingen"
+                "tabTitle": "Tekenbeetmeldingen",
+                "error": {
+                    "title": "Fout bij het laden van de tekenbeetmeldingen",
+                    "description": "Er is een fout opgetreden bij het laden van de tekenbeetmeldingen. Probeer het later opnieuw. Error: {errorMessage}"
+                }
             },
             "dichtheidkaart": {
                 "tabTitle": "Tekenbeetdichtheid",
