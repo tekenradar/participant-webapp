@@ -51,7 +51,7 @@ const ReportMap = async () => {
 };
 
 const ReportMapSkeleton = () => {
-    return <SimpleLoader className="w-full h-full" />;
+    return <SimpleLoader className="w-full h-full min-h-52" />;
 };
 
 export default ReportMap;
