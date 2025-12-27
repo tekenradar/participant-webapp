@@ -75,7 +75,14 @@
                 },
                 "title": "Tekenbeetmeldingen",
                 "description": "Overzicht van de meldingen van tekenbeten, [erythema migrans](/informatie/erythema-migrans) en overige Lyme in de afgelopen vier weken.\n\nDe kaart toont alleen de meldingen binnen Nederland, met maximaal enkele dagen vertraging.",
-                "meldenButtonLabel": "Zelf melden"
+                "meldenButtonLabel": "Zelf melden",
+                "legend": {
+                    "title": "Legenda tekenbeetmeldingen",
+                    "TB": "Tekenbeet",
+                    "EM": "Erythema migrans (rode ring of vlek)",
+                    "Other": "Andere vorm van de ziekte van Lyme",
+                    "FE": "Koorts na tekenbeet"
+                }
             },
             "dichtheidkaart": {
                 "tabTitle": "Tekenbeetdichtheid",

@@ -46,7 +46,14 @@ const ReportMapLoader = async () => {
         messages={{
             title: t('title'),
             description: t('description'),
-            meldenButtonLabel: t('meldenButtonLabel')
+            meldenButtonLabel: t('meldenButtonLabel'),
+            legend: {
+                title: t('legend.title'),
+                TB: t('legend.TB'),
+                EM: t('legend.EM'),
+                Other: t('legend.Other'),
+                FE: t('legend.FE')
+            },
         }}
     />;
 };

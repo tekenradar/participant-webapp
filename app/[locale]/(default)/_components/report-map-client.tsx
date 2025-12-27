@@ -33,8 +33,51 @@ interface ReportMapClientProps {
         title: string;
         description: string;
         meldenButtonLabel: string;
+        legend: {
+            title: string;
+            TB: string;
+            EM: string;
+            Other: string;
+            FE: string;
+        }
     }
 }
+
+type reportType = 'TB' | 'EM' | 'FE' | 'Other';
+
+const getMarkerColor = (type: reportType): string => {
+    switch (type) {
+        case 'TB':
+            return '#497722';
+        case 'EM':
+            return '#BC243A';
+        case 'Other':
+            return '#285aa5';
+        case 'FE':
+            return '#FD9244';
+        default:
+            return '#213548'
+    }
+}
+
+interface LegendMarkerProps {
+    color: string;
+}
+
+const LegendMarker: React.FC<LegendMarkerProps> = (props) => {
+    return <span style={{
+        marginRight: 10,
+        height: 22,
+        width: 22,
+        minWidth: 22,
+        backgroundColor: props.color + 'A8',
+        borderRadius: '50%',
+        border: 'solid 3px ' + props.color,
+        display: 'inline-block'
+    }}>
+    </span>
+}
+
 
 const ReportMapClient = (props: ReportMapClientProps) => {
     const [mounted, setMounted] = useState(false);
@@ -112,6 +155,23 @@ const ReportMapClient = (props: ReportMapClientProps) => {
                 </div>
 
                 <MeldenButton label={props.messages.meldenButtonLabel} href='/melden' />
+
+                <div className="text-sm mt-4 space-y-2">
+                    <h6 className="font-bold">{props.messages.legend.title}</h6>
+
+                    <div className='flex items-center mb-1'>
+                        <LegendMarker color={getMarkerColor('TB')} /> {props.messages.legend.TB}
+                    </div>
+                    <div className='flex items-center mb-1'>
+                        <LegendMarker color={getMarkerColor('EM')} />
+                        {props.messages.legend.EM}</div>
+                    <div className='flex items-center mb-1'>
+                        <LegendMarker color={getMarkerColor('Other')} />
+                        {props.messages.legend.Other}
+                    </div>
+                    <div className='flex items-center'>
+                        <LegendMarker color={getMarkerColor('FE')} /> {props.messages.legend.FE}</div>
+                </div>
             </div>
 
         </div>
