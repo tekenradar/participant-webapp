@@ -1,12 +1,13 @@
 "use client";
 
 import SimpleLoader from '@/components/simple-loader';
-import type { LatLngBounds } from 'leaflet';
 import { useEffect, useState, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 
 // Import Leaflet CSS
 import 'leaflet/dist/leaflet.css';
+import EmbeddedMarkdownRenderer from '@/components/embedded-markdown-renderer';
+import { MeldenButton } from '@/components/report-card';
 
 // Dynamically import Leaflet map components to avoid SSR issues
 const MapContainer = dynamic(
@@ -27,7 +28,15 @@ const defaultCenter = {
 
 const mapTileURL = process.env.NEXT_PUBLIC_MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
-const ReportMapClient = () => {
+interface ReportMapClientProps {
+    messages: {
+        title: string;
+        description: string;
+        meldenButtonLabel: string;
+    }
+}
+
+const ReportMapClient = (props: ReportMapClientProps) => {
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
@@ -53,8 +62,8 @@ const ReportMapClient = () => {
         return <SimpleLoader className="w-full h-full" />;
     }
 
-    return <div className='flex h-full'>
-        <div className='p-4 grow flex flex-col'>
+    return <div className='flex h-full flex-col sm:flex-row'>
+        <div className='p-4 pb-0 grow flex flex-col flex-1'>
             <MapContainer
                 className="leaflet grow"
                 style={{
@@ -92,7 +101,18 @@ const ReportMapClient = () => {
                 </p>
             </div>
         </div >
-        <div className='p-4 grow'>
+        <div className='p-4 pt-0 sm:pt-4 sm:pl-0 sm:w-5/12'>
+            <div>
+                <h2 className='text-lg font-bold'>{props.messages.title}</h2>
+                <EmbeddedMarkdownRenderer className='text-sm'>
+                    {props.messages.description}
+                </EmbeddedMarkdownRenderer>
+                <div className='my-4'>
+                    slider
+                </div>
+
+                <MeldenButton label={props.messages.meldenButtonLabel} href='/melden' />
+            </div>
 
         </div>
     </div >;

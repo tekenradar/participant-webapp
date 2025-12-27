@@ -72,7 +72,10 @@
                 "error": {
                     "title": "Fout bij het laden van de tekenbeetmeldingen",
                     "description": "Er is een fout opgetreden bij het laden van de tekenbeetmeldingen. Probeer het later opnieuw. Error: {errorMessage}"
-                }
+                },
+                "title": "Tekenbeetmeldingen",
+                "description": "Overzicht van de meldingen van tekenbeten, [erythema migrans](/informatie/erythema-migrans) en overige Lyme in de afgelopen vier weken.\n\nDe kaart toont alleen de meldingen binnen Nederland, met maximaal enkele dagen vertraging.",
+                "meldenButtonLabel": "Zelf melden"
             },
             "dichtheidkaart": {
                 "tabTitle": "Tekenbeetdichtheid",

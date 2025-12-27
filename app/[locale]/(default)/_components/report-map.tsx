@@ -41,7 +41,14 @@ const ReportMapLoader = async () => {
 
     console.log(data);
 
-    return <ReportMapClient />;
+    return <ReportMapClient
+
+        messages={{
+            title: t('title'),
+            description: t('description'),
+            meldenButtonLabel: t('meldenButtonLabel')
+        }}
+    />;
 };
 
 const ReportMap = async () => {
