@@ -42,7 +42,7 @@ const ReportMapLoader = async () => {
     console.log(data);
 
     return <ReportMapClient
-
+        data={data}
         messages={{
             title: t('title'),
             description: t('description'),

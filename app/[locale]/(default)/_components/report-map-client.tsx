@@ -9,6 +9,7 @@ import 'leaflet/dist/leaflet.css';
 import EmbeddedMarkdownRenderer from '@/components/embedded-markdown-renderer';
 import { MeldenButton } from '@/components/report-card';
 
+
 // Dynamically import Leaflet map components to avoid SSR issues
 const MapContainer = dynamic(
     () => import('react-leaflet').then((mod) => mod.MapContainer),
@@ -29,6 +30,7 @@ const defaultCenter = {
 const mapTileURL = process.env.NEXT_PUBLIC_MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
 interface ReportMapClientProps {
+    data: ReportMapSeries;
     messages: {
         title: string;
         description: string;
@@ -44,6 +46,23 @@ interface ReportMapClientProps {
 }
 
 type reportType = 'TB' | 'EM' | 'FE' | 'Other';
+
+
+export interface ReportMapSeries {
+    slider: {
+        minLabel: string;
+        maxLabel: string;
+        labels: string[];
+    },
+    series: Array<Array<ReportMapData>>;
+}
+
+interface ReportMapData {
+    lat: number;
+    lng: number;
+    type: reportType;
+}
+
 
 const getMarkerColor = (type: reportType): string => {
     switch (type) {
@@ -81,10 +100,22 @@ const LegendMarker: React.FC<LegendMarkerProps> = (props) => {
 
 const ReportMapClient = (props: ReportMapClientProps) => {
     const [mounted, setMounted] = useState(false);
+    const [selectedSeries, setSelectedSeries] = useState<undefined | number>();
+    const [reportData, setReportData] = useState<ReportMapSeries | undefined>()
+
 
     useEffect(() => {
         setMounted(true);
     }, []);
+
+    useEffect(() => {
+        if (props.data !== undefined) {
+            setReportData(props.data);
+            if (props.data.series.length > 0) {
+                setSelectedSeries(props.data.series.length - 1);
+            }
+        }
+    }, [props.data]);
 
     const maxBounds = useMemo(() => {
         if (!mounted || typeof window === 'undefined') return null;
@@ -151,9 +182,8 @@ const ReportMapClient = (props: ReportMapClientProps) => {
                     {props.messages.description}
                 </EmbeddedMarkdownRenderer>
                 <div className='my-4'>
-                    slider
+                    TODO: custom map slider, with track and ticks
                 </div>
-
                 <MeldenButton label={props.messages.meldenButtonLabel} href='/melden' />
 
                 <div className="text-sm mt-4 space-y-2">
