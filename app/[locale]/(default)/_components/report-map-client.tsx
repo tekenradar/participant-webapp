@@ -183,16 +183,30 @@ const ReportMapClient = (props: ReportMapClientProps) => {
                     {props.messages.description}
                 </EmbeddedMarkdownRenderer>
                 <div className='my-4'>
-                    TODO: custom map slider, with track and ticks
-                    <Slider
-                        step={1}
-                        min={0}
-                        max={reportData?.series.length ? reportData.series.length - 1 : 0}
-                        value={[selectedSeries ?? 0] as number[]}
-                        onValueChange={(value) => {
-                            setSelectedSeries(value ? value[0] as number : undefined);
-                        }}
-                    />
+                    <div className="text-center w-full">
+                        <div className="w-full text-center text-primary font-bold">
+                            {reportData?.slider.labels[selectedSeries ?? 0]}
+                        </div>
+
+                        <Slider
+                            step={1}
+                            min={0}
+                            max={reportData?.series.length ? reportData.series.length - 1 : 0}
+                            value={[selectedSeries ?? 0] as number[]}
+                            onValueChange={(value) => {
+                                setSelectedSeries(value ? value[0] as number : undefined);
+                            }}
+                        />
+
+                        <div className="flex justify-between">
+                            <span className='grow-1 text-start'>
+                                {reportData?.slider.minLabel}
+                            </span>
+                            <span className="">
+                                {reportData?.slider.maxLabel}
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <MeldenButton label={props.messages.meldenButtonLabel} href='/melden' />
 
