@@ -118,6 +118,8 @@ const ReportMapClient = (props: ReportMapClientProps) => {
             setReportData(props.data);
             if (props.data.series.length > 0) {
                 setSelectedSeries(props.data.series.length - 1);
+            } else {
+                setSelectedSeries(undefined);
             }
         }
     }, [props.data]);
@@ -163,7 +165,7 @@ const ReportMapClient = (props: ReportMapClientProps) => {
                     scrollWheelZoom={false}
                 >
                     {
-                        (selectedSeries !== undefined && reportData !== undefined) ? reportData.series[selectedSeries].map(
+                        (selectedSeries !== undefined && reportData !== undefined && reportData.series[selectedSeries] !== undefined) ? reportData.series[selectedSeries].map(
                             (data, index) => <CircleMarker
                                 key={index.toString()}
                                 center={data}
