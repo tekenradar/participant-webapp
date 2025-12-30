@@ -8,6 +8,7 @@ import dynamic from 'next/dynamic';
 import 'leaflet/dist/leaflet.css';
 import EmbeddedMarkdownRenderer from '@/components/embedded-markdown-renderer';
 import { MeldenButton } from '@/components/report-card';
+import { Slider } from './custom-slider';
 
 
 // Dynamically import Leaflet map components to avoid SSR issues
@@ -183,6 +184,15 @@ const ReportMapClient = (props: ReportMapClientProps) => {
                 </EmbeddedMarkdownRenderer>
                 <div className='my-4'>
                     TODO: custom map slider, with track and ticks
+                    <Slider
+                        step={1}
+                        min={0}
+                        max={reportData?.series.length ? reportData.series.length - 1 : 0}
+                        value={[selectedSeries ?? 0] as number[]}
+                        onValueChange={(value) => {
+                            setSelectedSeries(value ? value[0] as number : undefined);
+                        }}
+                    />
                 </div>
                 <MeldenButton label={props.messages.meldenButtonLabel} href='/melden' />
 
