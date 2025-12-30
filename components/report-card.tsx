@@ -7,10 +7,8 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
-import LinkButton from "./buttons/link-button";
 import { auth } from "@/auth";
 import { Suspense } from "react";
-import { Skeleton } from "./ui/skeleton";
 import { getTranslations } from "next-intl/server";
 
 
@@ -23,7 +21,7 @@ interface MeldenButtonProps {
     href: string;
 }
 
-const MeldenButton: React.FC<MeldenButtonProps> = ({ label, href }) => {
+export const MeldenButton: React.FC<MeldenButtonProps> = ({ label, href }) => {
     return (
         <Button
             asChild

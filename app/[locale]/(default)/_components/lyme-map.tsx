@@ -9,7 +9,7 @@ import {
 import ReactTooltip from 'react-tooltip';
 import clsx from 'clsx';
 import SimpleLoader from '@/components/simple-loader';
-import { Slider } from '@/components/ui/slider';
+import { Slider } from './custom-slider';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
@@ -210,7 +210,7 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
             return null;
         }
 
-        return (<div className="text-center w-full space-y-2">
+        return (<div className="text-center w-full">
             <div className="w-full text-center text-primary font-bold">
                 {seriesData.slider.labels[dataIndex]}
             </div>
@@ -224,7 +224,7 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
                     setDataIndex(value ? value[0] as number : 0);
                 }}
 
-
+                variant="secondary"
             />
 
             <div className="flex justify-between">
@@ -241,7 +241,7 @@ const LymeMap: React.FC<LymeMapProps> = (props) => {
 
     return (
         <div className='w-full p-4 grow'>
-            <div className='p-2 bg-white w-100'>
+            <div className='p-2 bg-white rounded-sm'>
                 <h2 className='font-bold mb-0 text-lg'>Mensen met erythema migrans (rode ring of vlek op de huid)</h2>
                 <p className='mb-0 '>
                     een vroege uiting van de ziekte van Lyme

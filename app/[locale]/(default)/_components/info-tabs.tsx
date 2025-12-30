@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import { getLocale, getTranslations } from "next-intl/server";
 import Image from "next/image";
 import LymeMap from "./lyme-map";
+import ReportMap from "./report-map";
 
 const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
     const t = await getTranslations('LandingPage.infoTabs');
@@ -57,7 +58,7 @@ const InfoTabs = async ({ defaultTab }: { defaultTab?: string }) => {
                 className="w-full grow"
                 value="tekenmeldingen"
             >
-
+                <ReportMap />
             </TabsContent>
             <TabsContent
                 className=""
