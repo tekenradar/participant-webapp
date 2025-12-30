@@ -39,8 +39,6 @@ const ReportMapLoader = async () => {
 
     const data = await response.json();
 
-    console.log(data);
-
     return <ReportMapClient
         data={data}
         messages={{
@@ -65,7 +63,7 @@ const ReportMap = async () => {
 };
 
 const ReportMapSkeleton = () => {
-    return <SimpleLoader className="w-full h-full min-h-52" />;
+    return <SimpleLoader className="w-full h-full min-h-[500px] my-4" />;
 };
 
 export default ReportMap;

@@ -10,7 +10,6 @@ import EmbeddedMarkdownRenderer from '@/components/embedded-markdown-renderer';
 import { MeldenButton } from '@/components/report-card';
 import { Slider } from './custom-slider';
 
-
 // Dynamically import Leaflet map components to avoid SSR issues
 const MapContainer = dynamic(
     () => import('react-leaflet').then((mod) => mod.MapContainer),
@@ -19,6 +18,11 @@ const MapContainer = dynamic(
 
 const TileLayer = dynamic(
     () => import('react-leaflet').then((mod) => mod.TileLayer),
+    { ssr: false }
+);
+
+const CircleMarker = dynamic(
+    () => import('react-leaflet').then((mod) => mod.CircleMarker),
     { ssr: false }
 );
 
@@ -134,34 +138,53 @@ const ReportMapClient = (props: ReportMapClientProps) => {
     }, [mounted]);
 
     if (!mounted || !maxBounds) {
-        return <SimpleLoader className="w-full h-full" />;
+        return <SimpleLoader className="w-full h-full min-h-[500px] my-4" />;
     }
 
     return <div className='flex h-full flex-col sm:flex-row'>
-        <div className='p-4 pb-0 grow flex flex-col flex-1'>
-            <MapContainer
-                className="leaflet grow"
-                style={{
-                    minHeight: 500,
-                }}
-                center={defaultCenter}
-                bounceAtZoomLimits={true}
-                attributionControl={false}
-                zoom={7}
-                minZoom={7}
-                maxBounds={maxBounds}
-                maxZoom={maxZoomLevel}
-                doubleClickZoom={false}
-                scrollWheelZoom={false}
-            >
+        <div className='p-4 pb-0 grow flex flex-col flex-1 '>
+            <div className='flex flex-col flex-1 relative min-h-[500px]'>
+                <div className='absolute top-0 left-0 w-full h-full z-[1]'>
+                    <SimpleLoader className="w-full h-full" />
+                </div>
+                <MapContainer
+                    className="leaflet grow z-[2]"
+                    style={{
+                        minHeight: 500,
+                    }}
+                    center={defaultCenter}
+                    bounceAtZoomLimits={true}
+                    attributionControl={false}
+                    zoom={7}
+                    minZoom={7}
+                    maxBounds={maxBounds}
+                    maxZoom={maxZoomLevel}
+                    doubleClickZoom={false}
+                    scrollWheelZoom={false}
+                >
+                    {
+                        (selectedSeries !== undefined && reportData !== undefined) ? reportData.series[selectedSeries].map(
+                            (data, index) => <CircleMarker
+                                key={index.toString()}
+                                center={data}
+                                pathOptions={{
+                                    color: getMarkerColor(data.type),
+                                    fillOpacity: 0.66
+                                }}
+                                radius={10}
+                            />
+                        ) : null
+                    }
 
-                <TileLayer
-                    url={mapTileURL}
-                /// url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
-                //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
-                />
 
-            </MapContainer>
+                    <TileLayer
+                        url={mapTileURL}
+                    /// url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
+                    //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
+                    />
+
+                </MapContainer>
+            </div>
             <div>
                 <p className='text-xs text-muted-foreground text-end py-0.5 space-x-1'>
                     <a
