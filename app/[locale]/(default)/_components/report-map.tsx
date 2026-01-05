@@ -3,6 +3,38 @@ import ReportMapClient from "./report-map-client";
 import SimpleLoader from "@/components/simple-loader";
 import { getTranslations } from "next-intl/server";
 import ErrorInfo from "@/components/error-info";
+import logger from "@/lib/logger";
+
+
+const getMapData = async (dataURL: string, apiKey: string) => {
+    try {
+        const response = await fetch(`${dataURL}`, {
+            headers: {
+                'Api-Key': apiKey
+            }
+        });
+        if (!response.ok) {
+            let errorMessage = response.statusText;
+            try {
+                const errorBody = await response.json();
+                errorMessage = errorBody.error || response.statusText;
+            } catch {
+                // If response is not JSON, use statusText
+                errorMessage = response.statusText;
+            }
+            logger.error(`Failed to fetch map data: ${errorMessage}`);
+            return {
+                error: errorMessage
+            };
+        }
+        return response.json();
+    } catch (error) {
+        logger.error(`Failed to fetch map data: ${error instanceof Error ? error.message : JSON.stringify(error)}`);
+        return {
+            error: error instanceof Error ? error.message : JSON.stringify(error)
+        };
+    }
+}
 
 
 const ReportMapLoader = async () => {
@@ -10,37 +42,28 @@ const ReportMapLoader = async () => {
 
     const dataURL = process.env.TB_MAP_DATA_URL;
     const apiKey = process.env.CONTENT_SERVICE_API_KEY;
+    const mapTileURL = process.env.MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
     if (!dataURL || !apiKey) {
         return <div>Error: TB_MAP_DATA_URL or CONTENT_SERVICE_API_KEY is not set</div>;
     }
 
-    const response = await fetch(`${dataURL}`, {
-        headers: {
-            'Api-Key': apiKey
-        }
-    });
+    const mapData = await getMapData(dataURL, apiKey);
 
-    if (!response.ok) {
-        let errorMessage = response.statusText;
-        try {
-            const errorBody = await response.json();
-            errorMessage = errorBody.error || response.statusText;
-        } catch {
-            // If response is not JSON, use statusText
-        }
+    if (mapData.error) {
         return <div className="w-full h-full flex justify-center items-center p-4 sm:p-6">
             <ErrorInfo
                 title={t('error.title')}
-                description={t('error.description', { errorMessage })}
+                description={t('error.description', { errorMessage: mapData.error })}
             />
         </div>
     }
 
-    const data = await response.json();
+    const data = mapData;
 
     return <ReportMapClient
         data={data}
+        mapTileURL={mapTileURL}
         messages={{
             title: t('title'),
             description: t('description'),

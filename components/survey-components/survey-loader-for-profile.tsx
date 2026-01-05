@@ -18,6 +18,8 @@ interface SurveyLoaderProps {
     redirectUrl?: string;
 }
 
+const mapTileURL = process.env.MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+
 const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
     const t = await getTranslations({ locale: props.locale, namespace: 'SurveyPage' });
     const tDashboard = await getTranslations({ locale: props.locale, namespace: 'DashboardPage.reportHistory.reportCards' });
@@ -53,6 +55,7 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
                     <SurveyClient
                         locale={props.locale}
                         surveyWithContext={resp.surveyWithContext}
+                        mapTileURL={mapTileURL}
                         messages={{
                             previousPageBtn: t('survey.previousPageBtn'),
                             nextPageBtn: t('survey.nextPageBtn'),
