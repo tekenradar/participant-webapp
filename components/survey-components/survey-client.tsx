@@ -35,6 +35,7 @@ interface SurveyClientProps {
     openAt: number;
     locale: string;
     surveyWithContext: SurveyWithContext;
+    mapTileURL: string;
     messages: {
         previousPageBtn: string;
         nextPageBtn: string;
@@ -158,7 +159,10 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                     },
                     {
                         name: ':map',
-                        component: TickMapLocationPicker,
+                        component: (compProps: CommonResponseComponentProps) => <TickMapLocationPicker
+                            {...compProps}
+                            mapTileURL={props.mapTileURL}
+                        />,
                     },
                     {
                         name: 'input:TBReportSelector',

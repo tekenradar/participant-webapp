@@ -32,10 +32,9 @@ const defaultCenter = {
     lng: 5.2793703
 };
 
-const mapTileURL = process.env.NEXT_PUBLIC_MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
-
 interface ReportMapClientProps {
     data: ReportMapSeries;
+    mapTileURL: string;
     messages: {
         title: string;
         description: string;
@@ -180,7 +179,7 @@ const ReportMapClient = (props: ReportMapClientProps) => {
 
 
                     <TileLayer
-                        url={mapTileURL}
+                        url={props.mapTileURL}
                     /// url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/grijs/EPSG:28992/{z}/{x}/{y}.png"
                     //url="https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png"
                     />

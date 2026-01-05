@@ -55,7 +55,9 @@ if (typeof window !== 'undefined') {
 const minZoomLevel = 3;
 const maxZoomLevel = 17;
 
-interface TickMapLocationPickerProps extends CommonResponseComponentProps { }
+interface TickMapLocationPickerProps extends CommonResponseComponentProps {
+    mapTileURL: string;
+}
 
 interface DraggableMarkerProps {
     position?: LatLngLiteral;
@@ -177,8 +179,6 @@ const TickMapLocationPicker: React.FC<TickMapLocationPickerProps> = (props) => {
     const [lastUsedZoomLevel, setLastUsedZoomLevel] = useState(currentZoomLevel);
     const [isMounted, setIsMounted] = useState(false);
     const lastEmittedResponseJsonRef = useRef<string | null>(null);
-
-    const mapTileURL = process.env.NEXT_PUBLIC_MAP_TILE_URL || "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
 
     // Initialize from prefill
     useEffect(() => {
@@ -340,7 +340,7 @@ const TickMapLocationPicker: React.FC<TickMapLocationPickerProps> = (props) => {
                     />
                     <TileLayer
                         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap contributors</a>'
-                        url={mapTileURL}
+                        url={props.mapTileURL}
                     />
                 </MapContainer>
             </div>
