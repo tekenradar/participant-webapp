@@ -52,7 +52,13 @@ export default async function RootLayout(props: LayoutProps) {
 
     const t = await getTranslations('Index');
 
-    const content = (<html lang={locale}>
+    const content = (<html
+        lang={locale}
+    >
+        <head>
+            <link rel="alternate" type="application/rss+xml" title="RSS Feed Tekenradar Nieuws"
+                href="/nieuws.rss" />
+        </head>
         <body className={`${openSans.variable} font-sans h-screen flex flex-col`}>
             <Link
                 className="sr-only focus:not-sr-only text-primary hover:underline px-4 py-2"

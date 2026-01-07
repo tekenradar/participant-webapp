@@ -1,5 +1,7 @@
 import { defineConfig, defineCollection, s } from 'velite';
 import rehypeSlug from 'rehype-slug';
+import { Feed } from 'feed';
+import { writeFileSync } from 'fs';
 
 const computedFields = <T extends { slug: string }>(data: T) => ({
     ...data,
@@ -110,4 +112,46 @@ export default defineConfig({
         newsPages,
         onderzoekPages,
     },
+    complete: (data) => {
+        const { newsPages } = data;
+
+        const siteURL = "https://tekenradar.nl";
+        const feed = new Feed({
+            title: "Tekenradar Nieuws",
+            description: "Hier vind je een overzicht van al onze nieuwsartikelen sinds 2020.",
+            id: siteURL,
+            link: siteURL,
+            language: "nl",
+            generator: 'RIVM',
+            image: `${siteURL}/favicon.ico`,
+            favicon: `${siteURL}/favicon.ico`,
+            copyright: `All rights reserved ${new Date().getFullYear()}`,
+            updated: new Date(),
+            feedLinks: {
+                rss2: `${siteURL}/nieuws.rss`,
+            },
+            author: {
+                name: "Tekenradar",
+                link: siteURL,
+            },
+        });
+
+        for (const newsPage of [...newsPages].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())) {
+            feed.addItem({
+                title: newsPage.title,
+                id: `${siteURL}/nieuws/${newsPage.slugAsParams}`,
+                link: `${siteURL}/nieuws/${newsPage.slugAsParams}`,
+                description: newsPage.teaserText || '',
+                date: new Date(newsPage.date),
+            });
+        }
+
+        // Write the RSS file to the public directory
+        try {
+            writeFileSync("./public/nieuws.rss", feed.rss2());
+            console.log("✅ RSS feed generated at /public/nieuws.rss");
+        } catch (err) {
+            console.error("❌ Failed to generate RSS feed:", err);
+        }
+    }
 })
