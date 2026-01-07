@@ -121,7 +121,7 @@ export default defineConfig({
             description: "Hier vind je een overzicht van al onze nieuwsartikelen sinds 2020.",
             id: siteURL,
             link: siteURL,
-            language: "en",
+            language: "nl",
             generator: 'RIVM',
             image: `${siteURL}/favicon.ico`,
             favicon: `${siteURL}/favicon.ico`,
@@ -149,7 +149,7 @@ export default defineConfig({
         // Write the RSS file to the public directory
         try {
             writeFileSync("./public/nieuws.rss", feed.rss2());
-            console.log("✅ RSS feed generated at /public/rss.xml");
+            console.log("✅ RSS feed generated at /public/nieuws.rss");
         } catch (err) {
             console.error("❌ Failed to generate RSS feed:", err);
         }
