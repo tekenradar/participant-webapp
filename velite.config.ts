@@ -136,12 +136,12 @@ export default defineConfig({
             },
         });
 
-        for (const newsPage of newsPages.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())) {
+        for (const newsPage of [...newsPages].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())) {
             feed.addItem({
                 title: newsPage.title,
                 id: `${siteURL}/nieuws/${newsPage.slugAsParams}`,
                 link: `${siteURL}/nieuws/${newsPage.slugAsParams}`,
-                description: newsPage.teaserText,
+                description: newsPage.teaserText || '',
                 date: new Date(newsPage.date),
             });
         }
