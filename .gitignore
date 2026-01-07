@@ -38,3 +38,4 @@ next-env.d.ts
 # velite
 .velite
 public/static/content-assets
+public/nieuws.rss
