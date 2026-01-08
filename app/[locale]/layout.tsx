@@ -58,6 +58,9 @@ export default async function RootLayout(props: LayoutProps) {
         <head>
             <link rel="alternate" type="application/rss+xml" title="RSS Feed Tekenradar Nieuws"
                 href="/nieuws.rss" />
+            <meta name="google-site-verification"
+                content={process.env.GOOGLE_SITE_VERIFICATION || ''}
+            />
         </head>
         <body className={`${openSans.variable} font-sans h-screen flex flex-col`}>
             <Link
