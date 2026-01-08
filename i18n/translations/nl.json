@@ -621,8 +621,8 @@
             }
         },
         "deleteAccount": {
-            "title": "Afmelden RIVM Infectieradar / intrekken toestemming",
-            "description": "Afmelden RIVM Infectieradar/intrekken toestemming houdt in dat je accountgegevens worden verwijderd. Na het verwijderen van het account kunnnen wij door jou opgegeven informatie (zoals leeftijd en gezondheidsklachten) niet meer aan je koppelen.",
+            "title": "Afmelden Tekenradar / intrekken toestemming",
+            "description": "Weet je zeker dat je je account wilt verwijderen?\n\n Dit is een actie die je niet ongedaan kunt maken.",
             "deleteBtn": "Afmelden",
             "dialog": {
                 "title": "Afmelden onderzoek",

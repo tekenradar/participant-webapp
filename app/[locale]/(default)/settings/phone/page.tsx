@@ -7,6 +7,7 @@ import ChangePhoneNumberForm from "./_components/change-phone-number-form";
 import EmbeddedMarkdownRenderer from "@/components/embedded-markdown-renderer";
 import { Info } from "lucide-react";
 import CurrentPhoneNumber from "./_components/current-phone-number";
+import { redirect } from "next/navigation";
 
 
 export const generateMetadata = async (props: LocaleParams) => {
@@ -22,6 +23,7 @@ export default async function Page(props: LocaleParams) {
     const { locale } = await props.params;
     const t = await getTranslations({ locale: locale, namespace: 'ChangePhonePage' });
 
+    redirect('/settings');
 
     return (
         <div className="space-y-6">
