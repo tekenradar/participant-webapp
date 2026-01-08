@@ -23,29 +23,31 @@ const AccountSettingsSection: React.FC<AccountSettingsSectionProps> = async (pro
                     {t('title')}
                 </H2>
 
-                <div className='space-y-4'>
-                    <H3>
-                        {t('email.title')}
-                    </H3>
-                    <p
-                        className='text-sm text-muted-foreground text-justify'
-                    >
-                        {t('email.info')}
-                    </p>
-                    <Button asChild>
-                        <Link
-                            href='/settings/email'
-                        >
-                            {blurEmail(session?.user?.email ?? '')}
-                            <span className='sr-only'>{t('email.change')}</span>
-                            <span>
-                                <Pen className='size-4 ml-2' />
-                            </span>
-                        </Link>
-                    </Button>
-                </div>
+                <div className='space-y-8 mt-4'>
 
-                <div className='space-y-4'>
+                    <div className='space-y-4'>
+                        <H3>
+                            {t('email.title')}
+                        </H3>
+                        <p
+                            className='text-sm text-muted-foreground text-justify'
+                        >
+                            {t('email.info')}
+                        </p>
+                        <Button asChild>
+                            <Link
+                                href='/settings/email'
+                            >
+                                {blurEmail(session?.user?.email ?? '')}
+                                <span className='sr-only'>{t('email.change')}</span>
+                                <span>
+                                    <Pen className='size-4 ml-2' />
+                                </span>
+                            </Link>
+                        </Button>
+                    </div>
+
+                    {/*  <div className='space-y-4'>
                     <H3>
                         {t('phone.title')}
                     </H3>
@@ -64,25 +66,26 @@ const AccountSettingsSection: React.FC<AccountSettingsSectionProps> = async (pro
                         </Link>
                     </Button>
                 </div>
-
-                <div className='space-y-4'>
-                    <H3>
-                        {t('password.title')}
-                    </H3>
-                    <p
-                        className='text-sm text-muted-foreground text-justify'
-                    >{t('password.info')}</p>
-                    <Button asChild>
-                        <Link
-                            href='/settings/password'
-                        >
-                            {"••••••••••••••"}
-                            <span className='sr-only'>{t('password.change')}</span>
-                            <span>
-                                <Pen className='size-4 ml-2' />
-                            </span>
-                        </Link>
-                    </Button>
+ */}
+                    <div className='space-y-4'>
+                        <H3>
+                            {t('password.title')}
+                        </H3>
+                        <p
+                            className='text-sm text-muted-foreground text-justify'
+                        >{t('password.info')}</p>
+                        <Button asChild>
+                            <Link
+                                href='/settings/password'
+                            >
+                                {"••••••••••••••"}
+                                <span className='sr-only'>{t('password.change')}</span>
+                                <span>
+                                    <Pen className='size-4 ml-2' />
+                                </span>
+                            </Link>
+                        </Button>
+                    </div>
                 </div>
 
             </section>
