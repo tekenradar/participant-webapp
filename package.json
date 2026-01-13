@@ -38,10 +38,10 @@
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.487.0",
-    "next": "16.1.0",
+    "lucide-react": "^0.562.0",
+    "next": "16.1.1",
     "next-auth": "5.0.0-beta.30",
-    "next-intl": "4.5.5",
+    "next-intl": "4.7.0",
     "next-themes": "^0.4.4",
     "react": "19.2.3",
     "react-day-picker": "8.10.1",
@@ -64,32 +64,40 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/eslintrc": "^3.3.3",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.16",
     "@types/leaflet": "^1.9.21",
     "@types/node": "^22.10.1",
-    "@types/react": "19.2.7",
+    "@types/react": "19.2.8",
     "@types/react-dom": "19.2.3",
     "@types/react-simple-maps": "^3.0.6",
-    "eslint": "^9.32.0",
-    "eslint-config-next": "16.1.0",
-    "feed": "^5.1.0",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "16.1.1",
+    "feed": "^5.2.0",
     "postcss": "^8.5.2",
     "rehype-slug": "^6.0.0",
-    "tailwindcss": "^3.4.11",
+    "tailwindcss": "^3.4.19",
     "velite": "^0.3.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.2.7",
+      "@types/react-dom": "19.2.3",
+      "d3-color@<3.1.0": ">=3.1.0",
+      "glob@>=10.2.0 <10.5.0": ">=10.5.0",
+      "mdast-util-to-hast@>=13.0.0 <13.2.1": ">=13.2.1"
+    }
   },
   "overrides": {
     "react-simple-maps": {
       "react": "19.2.3",
       "react-dom": "19.2.3"
-    }
-  },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "19.2.7",
-      "@types/react-dom": "19.2.3"
-    }
+    },
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "d3-color@<3.1.0": ">=3.1.0",
+    "glob@>=10.2.0 <10.5.0": ">=10.5.0",
+    "mdast-util-to-hast@>=13.0.0 <13.2.1": ">=13.2.1"
   }
 }
