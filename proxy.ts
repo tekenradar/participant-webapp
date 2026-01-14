@@ -7,6 +7,11 @@ import logger from './lib/logger';
 
 const intlMiddleware = createMiddleware(routing);
 
+const oldRouteRedirects = [
+    { path: '/home', redirectTo: '/' },
+    { path: '/my-tekenradar', redirectTo: '/mijn-tekenradar' }
+]
+
 
 const authMiddleware = auth((req) => {
     const { nextUrl } = req;
@@ -40,6 +45,15 @@ const authMiddleware = auth((req) => {
     const contentSecurityPolicyHeaderValue = cspHeader.replace(/\s{2,}/g, ' ').trim();
 
     pathname = removeLocaleFromPath(pathname)
+
+    const oldRouteRedirect = oldRouteRedirects.find((redirect) => {
+        return pathname === redirect.path;
+    });
+    if (oldRouteRedirect) {
+        const redirectUrl = new URL(oldRouteRedirect.redirectTo + nextUrl.search, nextUrl);
+        logger.debug("old route redirect", { path: pathname, redirectTo: oldRouteRedirect.redirectTo });
+        return Response.redirect(redirectUrl, 301);
+    }
 
     const isPublicRoute = PUBLIC_ROUTES.some((route) => {
         if (route.exact) {
