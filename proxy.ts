@@ -44,16 +44,16 @@ const authMiddleware = auth((req) => {
     // // upgrade-insecure-requests;
     const contentSecurityPolicyHeaderValue = cspHeader.replace(/\s{2,}/g, ' ').trim();
 
+    pathname = removeLocaleFromPath(pathname)
+
     const oldRouteRedirect = oldRouteRedirects.find((redirect) => {
-        return pathname.endsWith(redirect.path);
+        return pathname === redirect.path;
     });
     if (oldRouteRedirect) {
-        const redirectUrl = new URL(oldRouteRedirect.redirectTo, nextUrl);
+        const redirectUrl = new URL(oldRouteRedirect.redirectTo + nextUrl.search, nextUrl);
         logger.debug("old route redirect", { path: pathname, redirectTo: oldRouteRedirect.redirectTo });
         return Response.redirect(redirectUrl, 301);
     }
-
-    pathname = removeLocaleFromPath(pathname)
 
     const isPublicRoute = PUBLIC_ROUTES.some((route) => {
         if (route.exact) {
