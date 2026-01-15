@@ -150,6 +150,10 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
         });
     }
 
+    const relevantReports = reports.filter((report) => {
+        return report.key === 'TB' || report.key === 'EM' || report.key === 'LB' || report.key === 'chronic' || report.key === 'Fever';
+    });
+
 
     let content: React.ReactNode = null;
     if (!selectedProfileId) {
@@ -158,11 +162,11 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
         </p>
     } else {
         content = <ul className="space-y-4">
-            {reports.length < 1 && <p className="text-sm text-muted-foreground bg-muted/50 rounded-md p-4 border border-border text-center my-8">
+            {relevantReports.length < 1 && <p className="text-sm text-muted-foreground bg-muted/50 rounded-md p-4 border border-border text-center my-8">
                 {props.messages.noReports}
             </p>}
 
-            {reports.map((report) => (
+            {relevantReports.map((report) => (
                 <li key={report.id}>
                     <ReportCard
                         report={report}
