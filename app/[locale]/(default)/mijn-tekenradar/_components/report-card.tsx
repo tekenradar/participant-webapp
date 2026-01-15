@@ -138,8 +138,6 @@ const ReportCard: React.FC<ReportCardProps> = ({ report, messages, locale = 'nl'
         return !['icon'].includes(item.key)
     }) || [];
 
-    console.log(payloadData);
-
     return <Collapsible open={isOpen} onOpenChange={setIsOpen}>
         <CollapsibleTrigger asChild>
             <button
