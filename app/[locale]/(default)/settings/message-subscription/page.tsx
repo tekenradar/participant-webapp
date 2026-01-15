@@ -50,7 +50,8 @@ export default async function Page(props: LocaleParams) {
                 <ManageSubscriptionsForm
                     subscriptions={subscriptions}
                     messages={{
-                        weeklySwitchLabel: t('weeklySwitchLabel'),
+                        // weeklySwitchLabel: t('weeklySwitchLabel'),
+                        weeklySwitchLabel: 'unused for now',
                         newsletterSwitchLabel: t('newsletterSwitchLabel'),
                         success: t('success'),
                         error: t('error'),

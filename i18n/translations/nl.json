@@ -616,8 +616,8 @@
                 "change": "Telefoonnummer beheren"
             },
             "messageSubscription": {
-                "title": "Wekelijkse e-mail en nieuwsbrief",
-                "description": "Je kan het ontvangen van de wekelijkse herinneringsmail of de nieuwsbrief uitschakelen.",
+                "title": "Nieuwsbrief",
+                "description": "Je kan het ontvangen van de nieuwsbrief uitschakelen.",
                 "change": "Instellingen aanpassen"
             }
         },
@@ -682,10 +682,9 @@
         "success": "Telefoonnummer is succesvol gewijzigd, u ontvangt een sms met een code om je telefoonnummer te bevestigen."
     },
     "MessageSubscriptionPage": {
-        "title": "Wekelijkse e-mail en nieuwsbrief",
-        "info": "Je kan het ontvangen van de wekelijkse herinneringsmail of de nieuwsbrief uitschakelen.",
+        "title": "Nieuwsbrief",
+        "info": "Je kan het ontvangen van de nieuwsbrief uitschakelen.",
         "newsletterSwitchLabel": "Nieuwsbrief abonnement",
-        "weeklySwitchLabel": "Wekelijkse e-mail",
         "backToSettingsBtn": "Terug naar instellingen",
         "success": "Je abonnement is succesvol gewijzigd.",
         "error": "Er is een fout opgetreden bij het wijzigen van uw abonnement. Probeer het later opnieuw."

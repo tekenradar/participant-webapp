@@ -59,7 +59,7 @@ const ManageSubscriptionsForm: React.FC<ManageSubscriptionsFormProps> = (props) 
                     {props.messages.newsletterSwitchLabel}
                 </span>
             </Label>
-            <Label className='flex items-center gap-2'>
+            {/* <Label className='flex items-center gap-2'>
                 <Switch
                     checked={props.subscriptions.subscribedToWeekly}
                     onCheckedChange={(checked) => {
@@ -72,7 +72,7 @@ const ManageSubscriptionsForm: React.FC<ManageSubscriptionsFormProps> = (props) 
                 <span className='ml-2'>
                     {props.messages.weeklySwitchLabel}
                 </span>
-            </Label>
+            </Label> */}
         </div>
     );
 };
