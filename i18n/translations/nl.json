@@ -480,7 +480,8 @@
                     "keepCurrentSelection": "Huidige selectie behouden"
                 },
                 "successMessage": "Foto geüpload succesvol!",
-                "errorMessage": "Fout bij uploaden van foto."
+                "errorMessage": "Fout bij uploaden van foto.",
+                "fileSizeTooBigMessage": "Fout bij uploaden van foto. De geselecteerde foto is groter dan 10MB."
             }
         }
     },

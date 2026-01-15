@@ -30,6 +30,7 @@ export interface EmFotoUploadMessages {
     };
     successMessage: string;
     errorMessage: string;
+    fileSizeTooBigMessage: string;
 }
 
 interface EmFotoUploadProps extends CommonResponseComponentProps {
@@ -37,6 +38,8 @@ interface EmFotoUploadProps extends CommonResponseComponentProps {
     profileID: string;
     messages?: EmFotoUploadMessages;
 }
+
+const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB in bytes
 
 const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
     const [currentFile, setCurrentFile] = useState<File | null>(null);
@@ -101,6 +104,16 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
             return;
         }
 
+        // Client-side file size check
+        if (currentFile.size > MAX_FILE_SIZE) {
+            const fileSizeMB = (currentFile.size / (1024 * 1024)).toFixed(2);
+            const errorMessage = props.messages?.fileSizeTooBigMessage
+                ? props.messages.fileSizeTooBigMessage + ` ${fileSizeMB}MB > 10MB`
+                : `File size exceeds 10MB limit. Selected file is ${fileSizeMB}MB`;
+            setUploadError(errorMessage);
+            return;
+        }
+
         setUploadError(null);
         startTransition(async () => {
             try {
@@ -124,7 +137,8 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
 
                 setUploadId(data.fileInfo.id);
             } catch (error) {
-                setUploadError(error instanceof Error ? error.message : 'Failed to upload file');
+                console.error(error);
+                setUploadError(props.messages?.errorMessage || 'Failed to upload file');
             }
         });
     }
@@ -199,7 +213,21 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                 maxFiles={1}
                 accept={{ 'image/*': ['.jpg', '.jpeg', '.png'] }}
                 onChange={(files) => {
-                    setCurrentFile(files[0] || null);
+                    const file = files[0] || null;
+                    if (file) {
+                        // Client-side file size check
+                        if (file.size > MAX_FILE_SIZE) {
+                            const fileSizeMB = (file.size / (1024 * 1024)).toFixed(2);
+                            const errorMessage = props.messages?.fileSizeTooBigMessage
+                                ? props.messages.fileSizeTooBigMessage.replace('{size}', fileSizeMB)
+                                : `File size exceeds 10MB limit. Selected file is ${fileSizeMB}MB`;
+                            setUploadError(errorMessage);
+                            setCurrentFile(null);
+                            return;
+                        }
+                        setUploadError(null);
+                    }
+                    setCurrentFile(file);
                 }}
             />
             {previewUrl && currentFile && (
@@ -213,7 +241,7 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
             )}
             <LoadingButton
                 className="w-full"
-                disabled={!currentFile || isPending}
+                disabled={!currentFile || isPending || !!uploadError}
                 onClick={handleUpload}
                 isLoading={isPending}
             >
@@ -223,7 +251,7 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                 {props.messages?.uploadBtn || 'Upload'}
             </LoadingButton>
             {uploadError && (
-                <p className="text-sm text-destructive">{props.messages?.errorMessage || 'Failed to upload file'}</p>
+                <p className="text-sm text-destructive">{uploadError}</p>
             )}
         </div>
     }
