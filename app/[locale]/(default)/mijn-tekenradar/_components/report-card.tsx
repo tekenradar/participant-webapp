@@ -4,7 +4,6 @@ import React from 'react';
 import { CaseReport } from "@/lib/server/data-fetching/reports";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
-import EmbeddedMarkdownRenderer from "@/components/embedded-markdown-renderer";
 import Image from "next/image";
 import { format } from 'date-fns';
 import { nl } from 'date-fns/locale';
