@@ -337,9 +337,6 @@
     },
     "DashboardPage": {
         "title": "Mijn vragenlijsten",
-        "teaserImage": {
-            "description": "Door mee te doen aan Infectieradar helpt u mee om de verspreiding van luchtwegvirussen in de gaten te houden."
-        },
         "errorLoadingSurveys": "Er is een fout opgetreden bij het laden van de geselecteerde onderzoeksprojecten. Probeer het later opnieuw.",
         "surveyList": {
             "requiredSurveys": {
@@ -514,7 +511,7 @@
             "consent": {
                 "label": "Naar de toestemmingsverklaring",
                 "dialog": {
-                    "title": "Algemene toestemmingsverklaring",
+                    "title": "Privacyverklaring Tekenradar",
                     "acceptBtn": "Ja, ik geef toestemming",
                     "rejectBtn": "Nee, ik geef geen toestemming"
                 },
