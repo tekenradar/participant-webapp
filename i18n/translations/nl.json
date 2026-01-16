@@ -322,10 +322,10 @@
                         "rejectBtn": "Ik ga niet akkoord"
                     }
                 },
-                "aliasLabel": "Alias",
-                "aliasPlaceholder": "Voer je alias in",
-                "avatarSelectorLabel": "Selecteer je avatar",
-                "saveProfileBtn": "Maak profiel aan",
+                "aliasLabel": "Naam of bijnaam kind",
+                "aliasPlaceholder": "Naam of bijnaam kind",
+                "avatarSelectorLabel": "Kies een plaatje",
+                "saveProfileBtn": "Maak profiel aan voor je kind",
                 "cancelBtn": "Annuleren",
                 "errorSavingProfile": "Fout bij het maken van het profiel",
                 "successSavingProfile": "Profiel succesvol gemaakt"
@@ -758,9 +758,9 @@
             },
             "invalid": "U moet toestemming geven om door te kunnen gaan"
         },
-        "aliasLabel": "Alias",
-        "aliasPlaceholder": "Alias",
-        "avatarSelectorLabel": "Kies een profiel avatar",
+        "aliasLabel": "Naam of bijnaam kind",
+        "aliasPlaceholder": "Naam of bijnaam kind",
+        "avatarSelectorLabel": "Kies een plaatje",
         "errorSavingProfile": "Er is een fout opgetreden bij het opslaan van het profiel. Probeer het later opnieuw.",
         "successSavingProfile": "Profiel is succesvol opgeslagen",
         "errorDeletingProfile": "Er is een fout opgetreden bij het verwijderen van het profiel. Probeer het later opnieuw.",
