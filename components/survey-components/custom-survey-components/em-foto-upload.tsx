@@ -219,7 +219,7 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                         if (file.size > MAX_FILE_SIZE) {
                             const fileSizeMB = (file.size / (1024 * 1024)).toFixed(2);
                             const errorMessage = props.messages?.fileSizeTooBigMessage
-                                ? props.messages.fileSizeTooBigMessage.replace('{size}', fileSizeMB)
+                                ? props.messages.fileSizeTooBigMessage + ` ${fileSizeMB}MB > 10MB`
                                 : `File size exceeds 10MB limit. Selected file is ${fileSizeMB}MB`;
                             setUploadError(errorMessage);
                             setCurrentFile(null);
