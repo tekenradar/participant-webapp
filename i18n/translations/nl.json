@@ -614,7 +614,7 @@
             },
             "messageSubscription": {
                 "title": "Nieuwsbrief",
-                "description": "Je kan het ontvangen van de nieuwsbrief uitschakelen.",
+                "description": "Wij kunnen jouw emailadres gebruiken om maximaal 5 keer per jaar een nieuwsbrief te versturen over Tekenradar. Hier moet je wel eerst toestemming voor geven. Dit kun je hieronder doen door op Instellingen aanpassen te klikken.",
                 "change": "Instellingen aanpassen"
             }
         },
@@ -680,11 +680,11 @@
     },
     "MessageSubscriptionPage": {
         "title": "Nieuwsbrief",
-        "info": "Je kan het ontvangen van de nieuwsbrief uitschakelen.",
+        "info": "Je kan het ontvangen van de nieuwsbrief hieronder in- of uitschakelen.",
         "newsletterSwitchLabel": "Nieuwsbrief abonnement",
         "backToSettingsBtn": "Terug naar instellingen",
-        "success": "Je abonnement is succesvol gewijzigd.",
-        "error": "Er is een fout opgetreden bij het wijzigen van uw abonnement. Probeer het later opnieuw."
+        "success": "Je nieuwsbrief abonnement is succesvol gewijzigd.",
+        "error": "Er is een fout opgetreden bij het wijzigen van uw nieuwsbrief abonnement. Probeer het later opnieuw."
     },
     "VerifyPhoneNumberPage": {
         "title": "Verificatie telefoonnummer",
