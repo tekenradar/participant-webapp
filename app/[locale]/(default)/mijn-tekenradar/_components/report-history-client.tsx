@@ -75,6 +75,12 @@ interface ReportHistoryClientProps {
 
 const pageSize = 25;
 
+// Filter to load only relevant report keys
+const relevantReportKeys = ['TB', 'EM', 'LB', 'chronic', 'Fever'];
+const reportsFilter = JSON.stringify({
+    key: { $in: relevantReportKeys }
+});
+
 const ReportHistoryClient = (props: ReportHistoryClientProps) => {
     const [selectedProfileId, setSelectedProfileId] = useState<string | null>(null);
     const { profiles } = props;
@@ -85,7 +91,8 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
 
     const loadReports = useCallback(async (profileId: string, pageNum: number, reset: boolean = false) => {
         try {
-            const url = `/api/reports/${profileId}?page=${pageNum}&limit=${pageSize}`;
+
+            const url = `/api/reports/${profileId}?page=${pageNum}&limit=${pageSize}&filter=${encodeURIComponent(reportsFilter)}`;
             const response = await fetch(url);
 
             if (!response.ok) {
@@ -150,11 +157,6 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
         });
     }
 
-    const relevantReports = reports.filter((report) => {
-        return report.key === 'TB' || report.key === 'EM' || report.key === 'LB' || report.key === 'chronic' || report.key === 'Fever';
-    });
-
-
     let content: React.ReactNode = null;
     if (!selectedProfileId) {
         content = <p className="text-sm text-muted-foreground bg-muted/50 rounded-md p-4 border border-border text-center my-8">
@@ -162,11 +164,11 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
         </p>
     } else {
         content = <ul className="space-y-4">
-            {relevantReports.length < 1 && <p className="text-sm text-muted-foreground bg-muted/50 rounded-md p-4 border border-border text-center my-8">
+            {reports.length < 1 && <p className="text-sm text-muted-foreground bg-muted/50 rounded-md p-4 border border-border text-center my-8">
                 {props.messages.noReports}
             </p>}
 
-            {relevantReports.map((report) => (
+            {reports.map((report) => (
                 <li key={report.id}>
                     <ReportCard
                         report={report}
