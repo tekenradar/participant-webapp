@@ -3,8 +3,6 @@ import { getTranslations } from 'next-intl/server';
 import React from 'react';
 import ProfileManagerClient from './profile-manager-client';
 import ErrorInfo from '@/components/error-info';
-import path from "path";
-import fs from "fs/promises";
 import { SurveyWithContext, getSurveyWithContextForTemporaryParticipant } from '@/lib/server/data-fetching/survey';
 
 interface ManageProfilesLoaderProps {
@@ -24,9 +22,6 @@ const ManageProfilesLoader: React.FC<ManageProfilesLoaderProps> = async (props) 
             />
         </div>
     }
-
-    const privacyPolicyMdPath = path.join(process.cwd(), 'content', props.locale, 'privacy-consent.md')
-    const readPrivacyPolicyMd = await fs.readFile(privacyPolicyMdPath, 'utf8')
 
     const profiles = resp.user.profiles;
 
@@ -66,7 +61,7 @@ const ManageProfilesLoader: React.FC<ManageProfilesLoaderProps> = async (props) 
                     invalid: t('consent.invalid'),
                     dialog: {
                         title: t('consent.dialog.title'),
-                        content: readPrivacyPolicyMd,
+                        content: t('consent.dialog.content'),
                         acceptBtn: t('consent.dialog.acceptBtn'),
                         rejectBtn: t('consent.dialog.rejectBtn'),
                     }

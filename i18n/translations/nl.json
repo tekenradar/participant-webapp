@@ -273,15 +273,15 @@
             "description": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
             "mainProfileLabel": "Ik",
             "createProfileDialog": {
-                "triggerBtn": "Maak een nieuw profiel aan",
-                "title": "Maak een nieuw profiel aan",
+                "triggerBtn": "Maak Profiel voor je kind",
+                "title": "Maak Profiel voor je kind",
                 "description": "Maak een nieuw profiel aan om deze melding te doen.",
                 "consent": {
-                    "label": "Ik ga akkoord met de voorwaarden en voorwaarden",
-                    "invalid": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                    "label": "Toestemming",
+                    "invalid": "Je moet akkoord gaan met de toestemming",
                     "dialog": {
-                        "title": "Voorwaarden en voorwaarden",
-                        "content": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                        "title": "Toestemming",
+                        "content": "Je mag uitsluitend als ouder of wettelijk vertegenwoordiger van je kind dat de leeftijd van 16 jaar nog niet heeft bereikt een profiel aanmaken en vragenlijsten invullen (een volwassene binnen hetzelfde gezin kan met een ander e-mailadres zelf een eigen account aanmaken).",
                         "acceptBtn": "Ik ga akkoord",
                         "rejectBtn": "Ik ga niet akkoord"
                     }
@@ -309,15 +309,15 @@
             "description": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
             "mainProfileLabel": "Ik",
             "createProfileDialog": {
-                "triggerBtn": "Maak een nieuw profiel aan",
-                "title": "Maak een nieuw profiel aan",
-                "description": "Maak een nieuw profiel aan om deze melding te doen.",
+                "triggerBtn": "Maak Profiel voor je kind",
+                "title": "Maak Profiel voor je kind",
+                "description": "Maak een Profiel voor je kind aan om deze melding te doen.",
                 "consent": {
-                    "label": "Ik ga akkoord met de voorwaarden en voorwaarden",
-                    "invalid": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                    "label": "Ik ga akkoord met de toestemming",
+                    "invalid": "Je moet akkoord gaan met de toestemming",
                     "dialog": {
-                        "title": "Voorwaarden en voorwaarden",
-                        "content": "Je moet akkoord gaan met de voorwaarden en voorwaarden",
+                        "title": "Toestemming",
+                        "content": "Je mag uitsluitend als ouder of wettelijk vertegenwoordiger van je kind dat de leeftijd van 16 jaar nog niet heeft bereikt een profiel aanmaken en vragenlijsten invullen (een volwassene binnen hetzelfde gezin kan met een ander e-mailadres zelf een eigen account aanmaken).",
                         "acceptBtn": "Ik ga akkoord",
                         "rejectBtn": "Ik ga niet akkoord"
                     }
@@ -746,7 +746,7 @@
         "deleteProfileDialogConfirmBtn": "Verwijder profiel",
         "deleteProfileDialogCancelBtn": "Annuleren",
         "backToSettingsBtn": "Terug naar instellingen",
-        "createProfileBtn": "Maak profiel",
+        "createProfileBtn": "Maak Profiel voor je kind",
         "exitProfileEditorBtn": "Verlaat profiel bewerken",
         "saveProfileBtn": "Bewaar profiel",
         "headingNewProfile": "Maak een nieuw profiel",
@@ -755,6 +755,7 @@
             "label": "Naar de toestemmingsverklaring",
             "dialog": {
                 "title": "Toestemmingsverklaring",
+                "content": "Je mag uitsluitend als ouder of wettelijk vertegenwoordiger van je kind dat de leeftijd van 16 jaar nog niet heeft bereikt een profiel aanmaken en vragenlijsten invullen (een volwassene binnen hetzelfde gezin kan met een ander e-mailadres zelf een eigen account aanmaken).",
                 "acceptBtn": "Ja, ik geef toestemming",
                 "rejectBtn": "Nee, ik geef geen toestemming"
             },
