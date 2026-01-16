@@ -48,7 +48,7 @@ const RequireLogin = (props: RequireLoginProps) => {
                             className="w-full"
                             asChild
                         >
-                            <Link href={`/auth/register?redirectTo=${redirectAfterLogin}`}>
+                            <Link href={`/auth/aanmelden?redirectTo=${redirectAfterLogin}`}>
                                 <span>
                                     <UserPlus className="size-4" />
                                 </span>
