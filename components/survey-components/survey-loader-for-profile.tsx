@@ -123,6 +123,7 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
                                 },
                                 successMessage: t('survey.emFotoUpload.successMessage'),
                                 errorMessage: t('survey.emFotoUpload.errorMessage'),
+                                fileSizeTooBigMessage: t('survey.emFotoUpload.fileSizeTooBigMessage'),
                             },
                         }}
                         openAt={Math.floor(Date.now() / 1000)}

@@ -65,13 +65,13 @@ export default async function Page({ params, searchParams }: PageProps) {
     // if email type allowed send email
     if (status !== 'ready') {
         if (types.includes('email')) {
-            console.log('sending email');
+            // console.log('sending email');
             const resp = await requestOTP('email');
             if (!resp || resp.error) {
                 error = resp.error ? resp.error : 'Unknown error';
             }
         } else if (types.includes('sms') && phoneNumberAvailable) {
-            console.log('sending sms');
+            // console.log('sending sms');
             const resp = await requestOTP('sms');
             if (!resp || resp.error) {
                 error = resp.error ? resp.error : 'Unknown error';

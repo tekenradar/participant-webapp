@@ -75,6 +75,12 @@ interface ReportHistoryClientProps {
 
 const pageSize = 25;
 
+// Filter to load only relevant report keys
+const relevantReportKeys = ['TB', 'EM', 'LB', 'chronic', 'Fever'];
+const reportsFilter = JSON.stringify({
+    key: { $in: relevantReportKeys }
+});
+
 const ReportHistoryClient = (props: ReportHistoryClientProps) => {
     const [selectedProfileId, setSelectedProfileId] = useState<string | null>(null);
     const { profiles } = props;
@@ -85,7 +91,8 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
 
     const loadReports = useCallback(async (profileId: string, pageNum: number, reset: boolean = false) => {
         try {
-            const url = `/api/reports/${profileId}?page=${pageNum}&limit=${pageSize}`;
+
+            const url = `/api/reports/${profileId}?page=${pageNum}&limit=${pageSize}&filter=${encodeURIComponent(reportsFilter)}`;
             const response = await fetch(url);
 
             if (!response.ok) {
@@ -149,7 +156,6 @@ const ReportHistoryClient = (props: ReportHistoryClientProps) => {
             await loadReports(selectedProfileId, page, false);
         });
     }
-
 
     let content: React.ReactNode = null;
     if (!selectedProfileId) {

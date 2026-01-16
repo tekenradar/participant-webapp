@@ -11,6 +11,7 @@ import LoadingButton from '@/components/loading-button';
 import LinkButton from '@/components/buttons/link-button';
 import ConsentForm from '@/components/consent-form-check-dialog';
 import { signUpAction } from '@/actions/auth/signup';
+import { manageSubscription } from '@/actions/user/manage-subscription';
 import { toast } from 'sonner';
 import { useRouter, useSearchParams } from 'next/navigation';
 import EmbeddedMarkdownRenderer from '@/components/embedded-markdown-renderer';
@@ -143,6 +144,15 @@ const SignupForm: React.FC<SignupFormProps> = (props) => {
                 })
                 return;
             }
+
+            // Set newsletter subscription to false for new users
+            // This needs to be done client-side after signup because the auth cookie is now available
+            const subscriptionResult = await manageSubscription(false);
+            if (subscriptionResult.error) {
+                console.error('Failed to set newsletter subscription:', subscriptionResult.error);
+                // Don't fail the signup if this fails, just log it
+            }
+
             if (newURL.startsWith('http')) {
                 newURL = '/';
             }

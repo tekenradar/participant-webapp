@@ -4,7 +4,6 @@ import React from 'react';
 import { CaseReport } from "@/lib/server/data-fetching/reports";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { cn } from "@/lib/utils";
-import EmbeddedMarkdownRenderer from "@/components/embedded-markdown-renderer";
 import Image from "next/image";
 import { format } from 'date-fns';
 import { nl } from 'date-fns/locale';
@@ -97,7 +96,14 @@ const getTranslatedKey = (reportKey: string, itemKey: string, messages: ReportCa
     return itemKey;
 }
 
-const getTranslatedValue = (reportKey: string, itemKey: string, itemValue: string, messages: ReportCardProps['messages']): string => {
+const getTranslatedValue = (reportKey: string, itemKey: string, itemValue: string, messages: ReportCardProps['messages'], dtype?: string): string => {
+    if (dtype === 'int') {
+        const numericValue = parseInt(itemValue);
+        if (isNaN(numericValue)) {
+            return itemValue;
+        }
+        return numericValue.toFixed(0);
+    }
     const reportMessage = messages[reportKey as keyof typeof messages];
     if (typeof reportMessage === 'object' && reportMessage !== null) {
         const itemMessage = (reportMessage as any)[itemKey];
@@ -180,7 +186,9 @@ const ReportCard: React.FC<ReportCardProps> = ({ report, messages, locale = 'nl'
                     <ul className="flex gap-8 justify-between flex-wrap">
                         {payloadData.map((item, index) => {
                             const translatedKey = getTranslatedKey(report.key, item.key, messages);
-                            const translatedValue = getTranslatedValue(report.key, item.key, item.value, messages);
+                            const translatedValue = item.dtype === 'keyList' ?
+                                item.value.split(';').map(value => getTranslatedValue(report.key, item.key, value, messages, item.dtype)).join(', ')
+                                : getTranslatedValue(report.key, item.key, item.value, messages, item.dtype);
 
                             return (
                                 <li key={`${item.key}-${index}`}>
