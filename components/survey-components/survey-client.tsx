@@ -143,6 +143,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     return (
         <>
             <SurveyView
+                key={props.studyKey + props.surveyKey}
                 loading={submissionState.isLoading}
                 survey={props.surveyWithContext.survey}
                 context={props.surveyWithContext.context}
