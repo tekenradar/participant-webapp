@@ -102,7 +102,7 @@ export default async function Page(props: PageProps) {
                 className="w-full"
                 asChild
             >
-                <Link href={`/auth/register?redirectTo=/melden/koppelen`}>
+                <Link href={`/auth/aanmelden?redirectTo=/melden/koppelen`}>
                     <span>
                         <UserPlusIcon className="size-4" />
                     </span>
