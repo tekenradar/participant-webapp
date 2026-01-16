@@ -286,10 +286,10 @@
                         "rejectBtn": "Ik ga niet akkoord"
                     }
                 },
-                "aliasLabel": "Alias",
-                "aliasPlaceholder": "Voer je alias in",
-                "avatarSelectorLabel": "Selecteer je avatar",
-                "saveProfileBtn": "Maak profiel aan",
+                "aliasLabel": "Naam of bijnaam kind",
+                "aliasPlaceholder": "Naam of bijnaam kind",
+                "avatarSelectorLabel": "Kies een plaatje",
+                "saveProfileBtn": "Maak profiel aan voor je kind",
                 "cancelBtn": "Annuleren",
                 "errorSavingProfile": "Fout bij het maken van het profiel",
                 "successSavingProfile": "Profiel succesvol gemaakt"
