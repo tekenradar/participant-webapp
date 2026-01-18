@@ -1,5 +1,6 @@
 'use client';
 
+import { enterStudy } from '@/actions/study/enter-study';
 import { addNewProfile } from '@/actions/user/profiles';
 import AvatarSelector from '@/components/avatar-selector';
 import ConsentForm from '@/components/consent-form-check-dialog';
@@ -40,6 +41,8 @@ interface CreateProfileDialogProps {
     messages: CreateProfileDialogMessages;
 }
 
+const studyKey = process.env.NEXT_PUBLIC_STUDY_KEY || 'tekenradar';
+
 const newProfile = {
     id: '',
     avatarID: 'default',
@@ -73,6 +76,10 @@ const CreateProfileDialog: React.FC<CreateProfileDialogProps> = (props) => {
                     description: resp.error ? resp.error : 'Unknown error',
                 });
                 return;
+            }
+            const enterStudyResp = await enterStudy(studyKey, resp.profile.id);
+            if (enterStudyResp.error) {
+                console.error(enterStudyResp.error);
             }
             toast.success(props.messages.successSavingProfile);
             setIsOpen(false);

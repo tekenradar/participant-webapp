@@ -1,5 +1,6 @@
 'use client';
 
+import { enterStudy } from '@/actions/study/enter-study';
 import { addNewProfile, updateProfile } from '@/actions/user/profiles';
 import AvatarSelector from '@/components/avatar-selector';
 import ConsentForm from '@/components/consent-form-check-dialog';
@@ -39,6 +40,8 @@ interface ProfileEditorProps {
     }
 }
 
+const studyKey = process.env.NEXT_PUBLIC_STUDY_KEY || 'tekenradar';
+
 
 const ProfileEditor: React.FC<ProfileEditorProps> = (props) => {
     const [isPending, startTransition] = React.useTransition();
@@ -57,6 +60,10 @@ const ProfileEditor: React.FC<ProfileEditorProps> = (props) => {
                         description: resp.error ? resp.error : 'Unknown error',
                     });
                     return;
+                }
+                const enterStudyResp = await enterStudy(studyKey, resp.profile.id);
+                if (enterStudyResp.error) {
+                    console.error(enterStudyResp.error);
                 }
                 toast.success(props.messages.successSavingProfile);
                 props.onExit();
