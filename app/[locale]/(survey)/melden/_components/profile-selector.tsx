@@ -45,8 +45,8 @@ export default function ProfileSelector(props: ProfileSelectorProps) {
                         </AlertDialogDescription>
                     </AlertDialogHeader>
 
-                    <div className="space-y-4">
-                        <ul>
+                    <div className="space-y-4 overflow-y-auto max-h-[500px]">
+                        <ul className="space-y-2">
                             {props.profiles?.map((profile) => {
                                 return (
                                     <li
