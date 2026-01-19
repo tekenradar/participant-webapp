@@ -6,7 +6,7 @@
     "Index": {
         "skipToMainContentBtn": "Ga naar de hoofdinhoud",
         "unconfirmedAccountWarning": {
-            "warnText": "Bevestig nu eerst uw account. Controleer uw e-mail, daarin vindt u een aanmeld-link om uw account te bevestigen. Onbevestigde accounts worden na 7 dagen automatisch verwijderd.",
+            "warnText": "Bevestig nu eerst je account. Controleer je e-mail, daarin vind je een aanmeld-link om je account te bevestigen. Onbevestigde accounts worden na 7 dagen automatisch verwijderd.",
             "openVerificationPage": "Geen registratie e-mail ontvangen?"
         },
         "navbar": {
@@ -303,7 +303,7 @@
         "loginBtn": "Inloggen",
         "registerBtn": "Aanmelden",
         "cancelBtn": "Verlaten zonder account te koppelen",
-        "infoForProfileSelection": "Selecteer een profiel of maak een nieuw profiel aan om uw eerdere antwoorden aan te koppelen.",
+        "infoForProfileSelection": "Selecteer een profiel of maak een nieuw profiel aan om je eerdere antwoorden aan te koppelen.",
         "selectProfile": {
             "title": "Selecteer een profiel",
             "description": "Selecteer hieronder voor welk profiel je deze melding doet. Als je de melding voor jezelf doet, kies dan het profiel dat hoort bij je e-mail adres. Maak een nieuw profiel aan, als je de melding doet voor je kind dat jonger is dan 16 jaar.",
@@ -343,7 +343,7 @@
                 "title": "In te vullen vragenlijsten",
                 "noSurveys": {
                     "title": "Geen vragenlijsten",
-                    "description": "Dank u wel! U heeft alle vragenlijsten ingevuld. Als het tijd is voor een herhaalvragenlijst ontvangt u een e-mail van ons."
+                    "description": "Dank je wel! Je hebt alle vragenlijsten ingevuld. Als het tijd is voor een herhaalvragenlijst ontvang je een e-mail van ons."
                 }
             },
             "optionalSurveys": {
@@ -430,7 +430,7 @@
         "navbar": {
             "exitSurveyBtn": "Verlaat vragenlijst",
             "exitSurveyConfirmationTitle": "Verlaat vragenlijst",
-            "exitSurveyConfirmationDescription": "Alle ingevulde informatie van dit gedeelte van de vragenlijst gaat verloren als u dit deel van de vragenlijst niet afmaakt. Weet u zeker dat u wilt stoppen?",
+            "exitSurveyConfirmationDescription": "Alle ingevulde informatie van dit gedeelte van de vragenlijst gaat verloren als je dit deel van de vragenlijst niet afmaakt. Weet je zeker dat je wilt stoppen?",
             "exitSurveyConfirmationConfirmBtn": "Ja, ik wil stoppen",
             "exitSurveyConfirmationCancelBtn": "Nee, ik ga verder"
         },
@@ -453,7 +453,7 @@
             "submitBtn": "Opslaan en verder gaan",
             "submissionDialog": {
                 "title": "Verzenden...",
-                "description": "Even geduld terwijl we uw antwoorden verzenden.",
+                "description": "Even geduld terwijl we je antwoorden verzenden.",
                 "errorTitle": "Fout bij verzenden",
                 "errorDescription": "Er is een fout opgetreden bij het verzenden van de vragenlijst.",
                 "goBackBtn": "Ga terug",
@@ -485,16 +485,16 @@
     "RegisterPage": {
         "title": "Aanmelden",
         "form": {
-            "info": "Maak hieronder eerst een account aan om u aan te kunnen melden.",
+            "info": "Maak hieronder eerst een account aan om je aan te kunnen melden.",
             "email": {
                 "label": "E-mailadres",
-                "placeholder": "Vul hier uw e-mailadres in",
-                "description": "We gebruiken uw e-mailadres om je op de hoogte te houden van de voortgang van het onderzoek.",
+                "placeholder": "Vul hier je e-mailadres in",
+                "description": "We gebruiken je e-mailadres om je op de hoogte te houden van de voortgang van het onderzoek.",
                 "invalid": "Ongeldig e-mailadres"
             },
             "password": {
                 "label": "Wachtwoord",
-                "placeholder": "Vul hier uw wachtwoord in",
+                "placeholder": "Vul hier je wachtwoord in",
                 "description": "",
                 "invalid": "Ongeldig wachtwoord",
                 "rules": {
@@ -504,8 +504,8 @@
             },
             "confirmPassword": {
                 "label": "Bevestig wachtwoord",
-                "placeholder": "Herhaal uw wachtwoord",
-                "description": "Typ uw wachtwoord nogmaals om te controleren of u het goed hebt ingevuld.",
+                "placeholder": "Herhaal je wachtwoord",
+                "description": "Typ je wachtwoord nogmaals om te controleren of je het goed hebt ingevuld.",
                 "invalid": "Wachtwoorden komen niet overeen"
             },
             "consent": {
@@ -515,10 +515,10 @@
                     "acceptBtn": "Ja, ik geef toestemming",
                     "rejectBtn": "Nee, ik geef geen toestemming"
                 },
-                "invalid": "U moet toestemming geven om door te kunnen gaan"
+                "invalid": "Je moet toestemming geven om door te kunnen gaan"
             },
             "submitBtn": "Aanmelden",
-            "goToLogin": "Heeft u al een account? Log dan in.",
+            "goToLogin": "Heb je al een account? Log dan in.",
             "signupFailed": "Aanmelden mislukt."
         }
     },
@@ -527,18 +527,18 @@
         "form": {
             "email": {
                 "label": "E-mailadres",
-                "placeholder": "Vul hier uw e-mailadres in",
-                "description": "Gebruik het e-mailadres waarmee u zich heeft aangemeld.",
+                "placeholder": "Vul hier je e-mailadres in",
+                "description": "Gebruik het e-mailadres waarmee je je hebt aangemeld.",
                 "invalid": "Ongeldig e-mailadres"
             },
             "password": {
                 "label": "Wachtwoord",
-                "placeholder": "Vul hier uw wachtwoord in",
-                "description": "Gebruik het wachtwoord dat u heeft gekozen bij het aanmelden.",
-                "invalid": "Voer uw wachtwoord in"
+                "placeholder": "Vul hier je wachtwoord in",
+                "description": "Gebruik het wachtwoord dat je hebt gekozen bij het aanmelden.",
+                "invalid": "Voer je wachtwoord in"
             },
             "submitBtn": "Inloggen",
-            "goToRegister": "Heeft u nog geen account? Meld u dan aan.",
+            "goToRegister": "Heb je nog geen account? Meld je dan aan.",
             "goToPasswordForgotten": "Wachtwoord vergeten?",
             "loginFailed": "Inloggen mislukt."
         }
@@ -548,13 +548,13 @@
         "form": {
             "email": {
                 "label": "E-mailadres",
-                "placeholder": "Vul hier uw e-mailadres in",
-                "description": "Gebruik het e-mailadres waarmee u zich heeft aangemeld.",
+                "placeholder": "Vul hier je e-mailadres in",
+                "description": "Gebruik het e-mailadres waarmee je je hebt aangemeld.",
                 "invalid": "Ongeldig e-mailadres"
             },
             "submitBtn": "Wijzig wachtwoord",
-            "error": "Er gaat iets verkeerd. Controleer uw informatie of probeer het later opnieuw.",
-            "success": "Volg de link in de e-mail die we op het onderstaande adres hebben gestuurd.\n Heeft u geen e-mail ontvangen, kijk in de spam-folder of probeer opnieuw."
+            "error": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw.",
+            "success": "Volg de link in de e-mail die we op het onderstaande adres hebben gestuurd.\n Heb je geen e-mail ontvangen, kijk in de spam-folder of probeer opnieuw."
         }
     },
     "OTPPage": {
@@ -562,12 +562,12 @@
         "form": {
             "otp": {
                 "label": "Verificatiecode",
-                "description": "Vul de verificatiecode in die u per e-mail hebt ontvangen. Dit is nodig om volledig toegang te krijgen tot alle gegevens in uw account. De code bestaat uit 6 cijfers. Invullen van de verificatiecode bevestigt ook uw account, als u dat nog niet eerder gedaan hebt. Onbevestigde accounts worden na een tijdje automatisch verwijderd.",
+                "description": "Vul de verificatiecode in die je per e-mail hebt ontvangen. Dit is nodig om volledig toegang te krijgen tot alle gegevens in je account. De code bestaat uit 6 cijfers. Invullen van de verificatiecode bevestigt ook je account, als je dat nog niet eerder gedaan hebt. Onbevestigde accounts worden na een tijdje automatisch verwijderd.",
                 "invalid": "Ongeldige verificatiecode"
             },
             "submitBtn": "Verifiëren",
             "resend": {
-                "text": "Heeft u geen verificatiecode ontvangen?",
+                "text": "Heb je geen verificatiecode ontvangen?",
                 "emailBtn": "Stuur code opnieuw",
                 "smsBtn": "Stuur code per sms",
                 "error": "Er is een fout opgetreden. Probeer het later opnieuw.",
@@ -579,7 +579,7 @@
     },
     "PhoneNumberRequiredPage": {
         "title": "Telefoonnummer vereist",
-        "description": "Om toegang te krijgen tot sommige functies van de site, moeten we u verificatiecodes via sms sturen. U kunt hier uw telefoonnummer instellen.\n",
+        "description": "Om toegang te krijgen tot sommige functies van de site, moeten we je verificatiecodes via sms sturen. Je kunt hier je telefoonnummer instellen.\n",
         "goToSettings": "Ga naar instellingen"
     },
     "SettingsPage": {
@@ -594,27 +594,27 @@
             "title": "Account instellingen",
             "email": {
                 "title": "E-mailadres",
-                "info": "Wilt u een ander e-mailadres gebruiken? Pas uw e-mailadres aan door op onderstaande knop te klikken. Let op: pas na bevestiging van het e-mailadres kunt u weer herinneringsmails ontvangen.",
+                "info": "Wil je een ander e-mailadres gebruiken? Pas je e-mailadres aan door op onderstaande knop te klikken. Let op: pas na bevestiging van het e-mailadres kunt je weer herinneringsmails ontvangen.",
                 "change": "Verander e-mailadres"
             },
             "password": {
                 "title": "Wachtwoord",
-                "info": "Wilt u het wachtwoord wijzigen? Pas uw wachtwoord aan door op onderstaande knop te klikken. Let op: u heeft wel uw huidige wachtwoord nodig.",
+                "info": "Wilt je het wachtwoord wijzigen? Pas je wachtwoord aan door op onderstaande knop te klikken. Let op: je hebt wel je huidige wachtwoord nodig.",
                 "change": "Verander wachtwoord"
             },
             "profiles": {
                 "title": "Profielen",
-                "info": "Bewerk uw eigen profiel of voeg een profiel toe van iemand die hulp nodig heeft bij aanmelden. LET OP: dat mag alleen als diegene daar toestemming voor geeft!",
+                "info": "Bewerk je eigen profiel of voeg een profiel toe van je kind.",
                 "change": "Profielen beheren"
             },
             "phone": {
                 "title": "Telefoonnummer",
-                "info": "Het telefoonnummer wordt gebruikt om uw eenmalige codes via SMS te versturen. U kunt hier configureren welk nummer gebruikt moet worden.",
+                "info": "Het telefoonnummer wordt gebruikt om je eenmalige codes via SMS te versturen. Je kunt hier configureren welk nummer gebruikt moet worden.",
                 "change": "Telefoonnummer beheren"
             },
             "messageSubscription": {
                 "title": "Nieuwsbrief",
-                "description": "Wij kunnen jouw emailadres gebruiken om maximaal 5 keer per jaar een nieuwsbrief te versturen over Tekenradar. Hier moet je wel eerst toestemming voor geven. Dit kun je hieronder doen door op Instellingen aanpassen te klikken.",
+                "description": "Wij kunnen je emailadres gebruiken om maximaal 5 keer per jaar een nieuwsbrief te versturen over Tekenradar. Hier moet je wel eerst toestemming voor geven. Dit kun je hieronder doen door op Instellingen aanpassen te klikken.",
                 "change": "Instellingen aanpassen"
             }
         },
@@ -627,7 +627,7 @@
                 "description": "Weet je zeker dat je jouw account wilt verwijderen? Dit is een actie die je niet ongedaan kunt maken.",
                 "confirmBtn": "Afmelden",
                 "cancelBtn": "Annuleren",
-                "error": "Er gaat iets verkeerd. Controleer uw informatie of probeer het later opnieuw.",
+                "error": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw.",
                 "success": "Account is succesvol verwijderd"
             }
         }
@@ -637,23 +637,23 @@
         "email": {
             "label": "Nieuw e-mailadres",
             "placeholder": "Nieuw e-mailadres",
-            "description": "Dit wordt het nieuwe e-mailadres voor uw account. U moet het bevestigen.",
+            "description": "Dit wordt het nieuwe e-mailadres voor je account. Je moet het e-mail adres nog bevestigen.",
             "invalid": "Ongeldig e-mailadres"
         },
         "password": {
             "label": "Wachtwoord",
             "placeholder": "Wachtwoord",
-            "description": "Voer uw huidige wachtwoord in.",
+            "description": "Voer je huidige wachtwoord in.",
             "invalid": "Ongeldig wachtwoord"
         },
         "cancelBtn": "Annuleren",
         "submitBtn": "Wijzig e-mailadres",
-        "error": "Er gaat iets verkeerd. Controleer uw informatie of probeer het later opnieuw.",
+        "error": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw.",
         "success": "E-mailadres is succesvol gewijzigd"
     },
     "ChangePhonePage": {
         "title": "Telefoonnummer beheren",
-        "info": "Om toegang te krijgen tot sommige functies van de pagina, moeten we u verificatiecodes via sms sturen. U kunt hier uw telefoonnummer instellen.\n",
+        "info": "Om toegang te krijgen tot sommige functies van de pagina, moeten we je verificatiecodes via sms sturen. Je kunt hier je telefoonnummer instellen.\n",
         "currentPhoneNumber": {
             "label": "Huidige telefoonnummer",
             "emptyPhoneNumber": "Geen telefoonnummer ingesteld",
@@ -670,13 +670,13 @@
         "password": {
             "label": "Wachtwoord",
             "placeholder": "Wachtwoord",
-            "description": "Voer uw huidige wachtwoord in.",
+            "description": "Voer je huidige wachtwoord in.",
             "invalid": "Ongeldig wachtwoord"
         },
         "cancelBtn": "Annuleren",
         "submitBtn": "Wijzig telefoonnummer",
-        "error": "Er gaat iets verkeerd. Controleer uw informatie of probeer het later opnieuw.",
-        "success": "Telefoonnummer is succesvol gewijzigd, u ontvangt een sms met een code om je telefoonnummer te bevestigen."
+        "error": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw.",
+        "success": "Telefoonnummer is succesvol gewijzigd, je ontvangt een sms met een code om je telefoonnummer te bevestigen."
     },
     "MessageSubscriptionPage": {
         "title": "Nieuwsbrief",
@@ -684,14 +684,14 @@
         "newsletterSwitchLabel": "Nieuwsbrief abonnement",
         "backToSettingsBtn": "Terug naar instellingen",
         "success": "Je nieuwsbrief abonnement is succesvol gewijzigd.",
-        "error": "Er is een fout opgetreden bij het wijzigen van uw nieuwsbrief abonnement. Probeer het later opnieuw."
+        "error": "Er is een fout opgetreden bij het wijzigen van je nieuwsbrief abonnement. Probeer het later opnieuw."
     },
     "VerifyPhoneNumberPage": {
         "title": "Verificatie telefoonnummer",
         "form": {
             "otp": {
                 "label": "Verificatiecode",
-                "description": "Voer de verificatiecode die u per sms ontvangen heeft. Dit is nodig om deze telefoonnummer te verifiëren. De code bestaat uit 6 cijfers. Invoer van de verificatiecode activeert u voor alle toegang tot de site.",
+                "description": "Voer de verificatiecode in die je per sms ontvangen hebt. Dit is nodig om dit telefoonnummer te verifiëren. De code bestaat uit 6 cijfers. Invoer van de verificatiecode activeert voor jou complete toegang tot je account.",
                 "invalid": "Ongeldige verificatiecode"
             },
             "submitBtn": "Verifiëren",
@@ -708,7 +708,7 @@
         "currentPassword": {
             "label": "Huidige wachtwoord",
             "placeholder": "Huidige wachtwoord",
-            "description": "Voer uw huidige wachtwoord in.",
+            "description": "Voer je huidige wachtwoord in.",
             "invalid": "Ongeldig wachtwoord"
         },
         "newPassword": {
@@ -724,17 +724,17 @@
         "confirmPassword": {
             "label": "Bevestig nieuw wachtwoord",
             "placeholder": "Bevestig nieuw wachtwoord",
-            "description": "Typ uw wachtwoord nogmaals om te controleren of u het goed heeft ingevuld.",
+            "description": "Typ je wachtwoord nogmaals om te controleren of je het goed hebt ingevuld.",
             "invalid": "Wachtwoorden komen niet overeen"
         },
         "cancelBtn": "Annuleren",
         "submitBtn": "Wijzig wachtwoord",
-        "error": "Er gaat iets verkeerd. Controleer uw informatie of probeer het later opnieuw.",
+        "error": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw.",
         "success": "Wachtwoord is succesvol gewijzigd"
     },
     "ManageProfilesPage": {
         "title": "Profielen",
-        "fetchError": "Er is een fout opgetreden bij het ophalen van uw profielen. Probeer het later opnieuw.",
+        "fetchError": "Er is een fout opgetreden bij het ophalen van je profielen. Probeer het later opnieuw.",
         "mainProfileLabel": "Ik",
         "editProfileBtnLabel": "Bewerk profiel",
         "deleteProfileBtnLabel": "Verwijder profiel",
@@ -756,7 +756,7 @@
                 "acceptBtn": "Ja, ik geef toestemming",
                 "rejectBtn": "Nee, ik geef geen toestemming"
             },
-            "invalid": "U moet toestemming geven om door te kunnen gaan"
+            "invalid": "Je moet toestemming geven om door te kunnen gaan"
         },
         "aliasLabel": "Naam of bijnaam kind",
         "aliasPlaceholder": "Naam of bijnaam kind",
@@ -770,16 +770,16 @@
         "title": "Afhandeling van koppelingen",
         "VerifyContactPage": {
             "title": "E-mailadres bevestigen",
-            "noTokenMessage": "U zou een e-mail moeten hebben ontvangen op het adres dat u bij de aanmelding heeft gebruikt.\n\nAls de link niet geldig is of de e-mail niet is aangekomen, kunt u via de eerste onderstaande knop een nieuwe aanvragen. De e-mail zou binnen enkele minuten moeten aankomen. Vergeet niet de spammap te controleren.\n\nAls u uw account al bevestigd of geverifiëerd hebt klik dan op de onderste knop hieronder.",
-            "tokenVerificationFailed": "Er gaat iets verkeerd. Controleer of u de juiste link gebruikt, of dat u deze link niet eerder hebt geprobeerd. Vraag een nieuwe e-mail aan mocht dit nodig zijn.",
-            "tokenVerificationSuccess": "Het is gelukt! uw e-mailadres is bevestigd.",
+            "noTokenMessage": "Je zou een e-mail moeten hebben ontvangen op het adres dat je bij de aanmelding hebt gebruikt.\n\nAls de link niet geldig is of de e-mail niet is aangekomen, kun je via de eerste onderstaande knop een nieuwe aanvragen. De e-mail zou binnen enkele minuten moeten aankomen. Vergeet niet de spammap te controleren.\n\nAls je je account al bevestigd of geverifiëerd hebt klik dan op de onderste knop hieronder.",
+            "tokenVerificationFailed": "Er gaat iets verkeerd. Controleer of je de juiste link gebruikt, of dat je deze link niet eerder hebt geprobeerd. Vraag een nieuwe e-mail aan mocht dit nodig zijn.",
+            "tokenVerificationSuccess": "Het is gelukt! Je e-mailadres is bevestigd.",
             "loginBtn": "Inloggen",
             "loginFailed": "Er gaat iets verkeerd.",
             "goToDashboard": "Dashboard",
             "password": {
                 "label": "Wachtwoord",
                 "placeholder": "Wachtwoord",
-                "description": "Vul uw wachtwoord in",
+                "description": "Vul je wachtwoord in",
                 "invalid": "Wachtwoord is ongeldig"
             },
             "resend": {
@@ -787,25 +787,25 @@
                 "goToLogin": "Ga naar inloggen",
                 "success": "E-mail is verstuurd.",
                 "error": "Er gaat iets verkeerd.",
-                "refreshTokenBtn": "Klik hier als u uw account al bevestigd of geverifiëerd heeft op een ander apparaat of tabblad",
+                "refreshTokenBtn": "Klik hier als je je account al bevestigd of geverifiëerd heeft op een ander apparaat of tabblad",
                 "errorRefreshToken": "Er is een fout opgetreden. Probeer het later opnieuw.",
-                "successTokenRefreshed": "Als u nu niet automatisch wordt doorgestuurd, zorg er dan voor dat u eerst op de link in de e-mail klikt. U kunt ook proberen de browserpagina opnieuw te laden."
+                "successTokenRefreshed": "Als je nu niet automatisch wordt doorgestuurd, zorg er dan voor dat je eerst op de link in de e-mail klikt. Je kunt ook proberen de browserpagina opnieuw te laden."
             }
         },
         "PasswordResetPage": {
             "title": "Wachtwoord wijzigen",
             "tokenMissing": "Er is geen token opgegeven",
-            "tokenError": "Er gaat iets verkeerd. Controleer of u de juiste link gebruikt, of dat u deze link niet eerder hebt geprobeerd. Vraag een nieuwe e-mail aan mocht dit nodig zijn.",
-            "infos": "Welkom terug. Voer uw nieuwe wachtwoord in en bevestig dit.",
+            "tokenError": "Er gaat iets verkeerd. Controleer of je de juiste link gebruikt, of dat je deze link niet eerder hebt geprobeerd. Vraag een nieuwe e-mail aan mocht dit nodig zijn.",
+            "infos": "Welkom terug. Voer je nieuwe wachtwoord in en bevestig dit.",
             "email": {
                 "label": "E-mailadres",
-                "placeholder": "Vul hier uw e-mailadres in",
+                "placeholder": "Vul hier je e-mailadres in",
                 "description": "Kies een nieuw wachtwoord voor dit account",
                 "invalid": "Ongeldig e-mailadres"
             },
             "newPassword": {
                 "label": "Wachtwoord",
-                "placeholder": "Vul hier uw wachtwoord in",
+                "placeholder": "Vul hier je wachtwoord in",
                 "description": "",
                 "invalid": "Ongeldig wachtwoord",
                 "rules": {
@@ -816,29 +816,29 @@
             "confirmPassword": {
                 "label": "Bevestig wachtwoord",
                 "placeholder": "Herhaal je wachtwoord",
-                "description": "Typ uw wachtwoord nogmaals om te controleren of u het goed hebt ingevuld.",
+                "description": "Typ je wachtwoord nogmaals om te controleren of je het goed hebt ingevuld.",
                 "invalid": "Wachtwoorden komen niet overeen"
             },
             "submitBtn": "Wijzig wachtwoord",
             "success": "Wachtwoord is succesvol gewijzigd",
-            "error": "Er gaat iets verkeerd. Controleer uw informatie of probeer het later opnieuw."
+            "error": "Er gaat iets verkeerd. Controleer je informatie of probeer het later opnieuw."
         },
         "StudyLoginPage": {
             "title": "Inloggen",
             "tokenError": "Er is een fout opgetreden bij het ophalen van de token informatie. Probeer het later opnieuw.",
             "goToLogin": "Ga naar inloggen",
             "form": {
-                "infos": "Voer uw wachtwoord in om het inloggen te voltooien",
+                "infos": "Voer je wachtwoord in om het inloggen te voltooien",
                 "email": {
                     "label": "E-mailadres",
-                    "description": "Gebruik het e-mailadres waarmee u zich heeft aangemeld.",
-                    "placeholder": "Vul hier uw e-mailadres in",
+                    "description": "Gebruik het e-mailadres waarmee je je hebt aangemeld.",
+                    "placeholder": "Vul hier je e-mailadres in",
                     "invalid": "Ongeldig e-mailadres"
                 },
                 "password": {
                     "label": "Wachtwoord",
-                    "placeholder": "Vul hier uw wachtwoord in",
-                    "description": "Vul uw wachtwoord in",
+                    "placeholder": "Vul hier je wachtwoord in",
+                    "description": "Vul je wachtwoord in",
                     "invalid": "Wachtwoord is ongeldig"
                 },
                 "submitBtn": "Inloggen",
@@ -850,12 +850,12 @@
             "title": "Uitschrijven van de nieuwsbrief",
             "success": {
                 "title": "Uitschrijven van de nieuwsbrief",
-                "description": "U bent succesvol uitgeschreven van de nieuwsbrief. U ontvangt een e-mail met een bevestiging van je uitschrijving."
+                "description": "Je bent succesvol uitgeschreven van de nieuwsbrief. Je ontvangt een e-mail met een bevestiging van je uitschrijving."
             },
             "errors": {
                 "tokenMissing": {
                     "title": "Token ontbreekt",
-                    "description": "U moet een token opgeven om u uit te schrijven van de nieuwsbrief. Neem contact met ons op als dit probleem blijft voordoen."
+                    "description": "Je moet een token opgeven om je uit te schrijven van de nieuwsbrief. Neem contact met ons op als dit probleem blijft voordoen."
                 },
                 "requestFailed": {
                     "title": "Uitschrijven mislukt",
