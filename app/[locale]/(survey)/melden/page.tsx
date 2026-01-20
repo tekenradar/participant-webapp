@@ -10,6 +10,7 @@ import SurveyLoaderForTemporaryParticipant from '@/components/survey-components/
 import { getTempParticipantId } from '@/lib/server/temp-participant-cookie';
 import MergeRedirect from './_components/merge-redirect';
 import { getTranslations } from 'next-intl/server';
+import { ensureUserIsInAllDefaultStudies } from '@/actions/study/ensure-all-profiles-are-in-default-studies';
 
 
 interface PageProps {
@@ -39,6 +40,7 @@ export default async function Page(props: PageProps) {
     if (loggedIn) {
         const userResp = await getUser();
         profiles = userResp.user?.profiles;
+        await ensureUserIsInAllDefaultStudies(profiles);
         profile = profiles?.find((p: Profile) => p.id === searchParams?.pid);
     } else {
         logger.debug('not logged in');
