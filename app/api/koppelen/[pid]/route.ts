@@ -6,11 +6,15 @@ import { mergeTempParticipantWithProfile } from '@/actions/study/temp-participan
 export const dynamic = 'force-dynamic';
 
 const studyKey = process.env.NEXT_PUBLIC_STUDY_KEY || 'tekenradar';
+const siteUrl = process.env.SITE_URL;
 
 /**
  * Get the correct base URL for redirects, accounting for proxy headers
  */
 function getBaseUrl(request: NextRequest): string {
+    if (siteUrl) {
+        return siteUrl;
+    }
     // Check for forwarded protocol and host (set by proxies/load balancers)
     const forwardedProto = request.headers.get('x-forwarded-proto');
     const forwardedHost = request.headers.get('x-forwarded-host');
