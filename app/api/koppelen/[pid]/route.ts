@@ -16,8 +16,10 @@ function getBaseUrl(request: NextRequest): string {
         return siteUrl;
     }
     // Check for forwarded protocol and host (set by proxies/load balancers)
-    const forwardedProto = request.headers.get('x-forwarded-proto');
-    const forwardedHost = request.headers.get('x-forwarded-host');
+    // These headers can contain comma-separated values when passing through multiple proxies
+    // We take the first (leftmost) value which represents the original client request
+    const forwardedProto = request.headers.get('x-forwarded-proto')?.split(',')[0]?.trim();
+    const forwardedHost = request.headers.get('x-forwarded-host')?.split(',')[0]?.trim();
 
     if (forwardedProto && forwardedHost) {
         return `${forwardedProto}://${forwardedHost}`;
