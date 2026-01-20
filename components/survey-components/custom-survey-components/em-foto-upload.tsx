@@ -146,9 +146,6 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
     let content: React.ReactNode = null;
     if (hasFileUploaded) {
         content = <div className="flex flex-col gap-2">
-            {uploadId && (
-                <p className="text-sm text-primary">{props.messages?.successMessage || 'File uploaded successfully!'}</p>
-            )}
             {currentFile && (
                 <>
                     {previewUrl && (
@@ -165,6 +162,7 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
             <LoadingButton
                 className="w-full"
                 disabled={isPending}
+                variant="outline"
                 onClick={() => setIsDeleteDialogOpen(true)}
             >
                 <Trash2Icon
@@ -172,6 +170,9 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                 />
                 {props.messages?.deleteBtn || 'Delete'}
             </LoadingButton>
+            {uploadId && (
+                <p className="font-bold text-primary mt-4">{props.messages?.successMessage || 'File uploaded successfully!'}</p>
+            )}
             <AlertDialog open={isDeleteDialogOpen} onOpenChange={setIsDeleteDialogOpen}>
                 <AlertDialogContent>
                     <AlertDialogHeader>
@@ -250,8 +251,9 @@ const EmFotoUpload: React.FC<EmFotoUploadProps> = (props) => {
                 />
                 {props.messages?.uploadBtn || 'Upload'}
             </LoadingButton>
+
             {uploadError && (
-                <p className="text-sm text-destructive">{uploadError}</p>
+                <p className="font-bold text-[--survey-error-text-color]">{uploadError}</p>
             )}
         </div>
     }

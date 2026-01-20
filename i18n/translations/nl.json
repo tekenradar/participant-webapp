@@ -476,8 +476,8 @@
                     "delete": "Verwijder",
                     "keepCurrentSelection": "Huidige selectie behouden"
                 },
-                "successMessage": "Foto geüpload succesvol!",
-                "errorMessage": "Fout bij uploaden van foto.",
+                "successMessage": "De foto is succesvol geüpload.",
+                "errorMessage": "Upload mislukt. Het bestandstype of formaat wordt niet ondersteund.",
                 "fileSizeTooBigMessage": "Fout bij uploaden van foto. De geselecteerde foto is groter dan 10MB."
             }
         }
