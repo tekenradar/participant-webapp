@@ -42,7 +42,9 @@ export default async function Page(props: PageProps) {
     } catch (error) {
         console.error(error);
     }
-    await ensureUserIsInAllDefaultStudies(profiles);
+    if (profiles) {
+        await ensureUserIsInAllDefaultStudies(profiles);
+    }
     const profile = profiles.find(p => {
         if (openForMainProfile) {
             return p.mainProfile;
