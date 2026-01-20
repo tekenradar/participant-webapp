@@ -103,7 +103,7 @@ const DateInput: React.FC<DateInputProps> = (props) => {
                         <CalendarDaysIcon className="m-1 hidden @md:inline-block size-4" />
                         {selectedDate ? format(selectedDate, "PPP", {
                             locale: props.dateLocales?.find(dl => dl.code === props.languageCode)?.locale
-                        }) : <span className='truncate'>
+                        }) : <span className='truncate min-w-24'>
                             {getLocaleStringTextByCode(props.compDef.description, props.languageCode)}
                         </span>}
                     </Button>

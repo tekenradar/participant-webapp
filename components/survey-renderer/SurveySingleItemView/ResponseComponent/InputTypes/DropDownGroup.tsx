@@ -66,6 +66,7 @@ const DropDownGroup: React.FC<DropDownGroupProps> = (props) => {
     >
         <SelectTrigger
             id={props.parentKey}
+            className='min-w-32'
         >
             <SelectValue
                 placeholder={getLocaleStringTextByCode(props.compDef.description, props.languageCode)} />
