@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar/Navbar";
+import UnconfirmedAccountWarning from "@/components/unconfirmed-account-warning";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 
@@ -18,6 +19,7 @@ export default async function RootLayout(props: LayoutProps) {
 
     return (
         <>
+            <UnconfirmedAccountWarning />
             <Navbar />
             <main
                 className="flex-1"

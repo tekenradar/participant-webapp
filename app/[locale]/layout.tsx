@@ -70,7 +70,6 @@ export default async function RootLayout(props: LayoutProps) {
                 {t('skipToMainContentBtn')}
             </Link>
             <TekenradarHeader />
-            <UnconfirmedAccountWarning />
             {props.children}
             <Toaster
                 position="bottom-center"

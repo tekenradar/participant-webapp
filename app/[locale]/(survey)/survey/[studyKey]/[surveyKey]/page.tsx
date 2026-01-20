@@ -6,6 +6,7 @@ import { validateRedirectUrl } from "@/lib/utils/url-validation";
 import SurveyLoader from "@/components/survey-components/survey-loader-for-profile";
 import SurveySkeleton from "@/components/survey-components/survey-skeleton";
 import { DEFAULT_DASHBOARD_URL } from "@/constants";
+import { ensureUserIsInAllDefaultStudies } from "@/actions/study/ensure-all-profiles-are-in-default-studies";
 
 
 interface PageProps {
@@ -40,6 +41,9 @@ export default async function Page(props: PageProps) {
         profiles = userResp.user?.profiles;
     } catch (error) {
         console.error(error);
+    }
+    if (profiles) {
+        await ensureUserIsInAllDefaultStudies(profiles);
     }
     const profile = profiles.find(p => {
         if (openForMainProfile) {
