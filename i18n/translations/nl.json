@@ -537,7 +537,7 @@
             "consent": {
                 "label": "Naar de toestemmingsverklaring",
                 "dialog": {
-                    "title": "Privacyverklaring Tekenradar",
+                    "title": "Toestemmingsverklaring Tekenradar",
                     "acceptBtn": "Ja, ik geef toestemming",
                     "rejectBtn": "Nee, ik geef geen toestemming"
                 },
