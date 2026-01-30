@@ -11,6 +11,7 @@ interface ManageProfilesLoaderProps {
 
 const ManageProfilesLoader: React.FC<ManageProfilesLoaderProps> = async (props) => {
     const t = await getTranslations({ locale: props.locale, namespace: 'ManageProfilesPage' });
+    const tSurvey = await getTranslations({ locale: props.locale, namespace: 'SurveyPage' });
 
     const resp = await getUser();
 
@@ -43,6 +44,9 @@ const ManageProfilesLoader: React.FC<ManageProfilesLoaderProps> = async (props) 
             locale={props.locale}
             exitSurveyWithContext={survey}
             messages={{
+                survey: {
+                    invalidResponseText: tSurvey('survey.invalidResponseText'),
+                },
                 mainProfileLabel: t('mainProfileLabel'),
                 editProfileBtnLabel: t('editProfileBtnLabel'),
                 deleteProfileBtnLabel: t('deleteProfileBtnLabel'),

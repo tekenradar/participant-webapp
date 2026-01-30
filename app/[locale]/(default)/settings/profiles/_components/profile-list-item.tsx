@@ -24,6 +24,9 @@ interface ProfileListItemProps {
         deleteProfileDialogCancelBtn: string;
         errorDeletingProfile: string;
         successDeletingProfile: string;
+        survey: {
+            invalidResponseText: string;
+        };
     }
     onEdit: () => void;
 }
@@ -74,6 +77,9 @@ const ProfileListItem: React.FC<ProfileListItemProps> = (props) => {
                         description: props.messages.deleteProfileDialogDescription,
                         confirmBtn: props.messages.deleteProfileDialogConfirmBtn,
                         cancelBtn: props.messages.deleteProfileDialogCancelBtn,
+                    },
+                    survey: {
+                        invalidResponseText: props.messages.survey.invalidResponseText,
                     },
                     success: props.messages.successDeletingProfile,
                     error: props.messages.errorDeletingProfile,

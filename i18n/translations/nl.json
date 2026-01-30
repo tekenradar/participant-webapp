@@ -447,7 +447,7 @@
             "leaveBtn": "Verlaten"
         },
         "survey": {
-            "invalidResponseText": "",
+            "invalidResponseText": "Selecteer een geldig antwoord",
             "previousPageBtn": "Terug",
             "nextPageBtn": "Volgende",
             "submitBtn": "Opslaan en verder gaan",

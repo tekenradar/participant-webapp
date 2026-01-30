@@ -26,6 +26,9 @@ interface DeleteProfileDialogProps {
         },
         success: string;
         error: string;
+        survey: {
+            invalidResponseText: string;
+        };
     };
     survey?: SurveyWithContext;
     locale?: string;
@@ -113,7 +116,7 @@ const DeleteProfileDialog: React.FC<DeleteProfileDialogProps> = (props) => {
                             backBtnText={'Back'}
                             nextBtnText={'Next'}
                             submitBtnText={'Submit'}
-                            invalidResponseText={'Invalid response'}
+                            invalidResponseText={props.messages.survey.invalidResponseText}
                             hideButtons={true}
                             //customResponseComponents={customResponseComponents}
                             dateLocales={surveyDateLocales}

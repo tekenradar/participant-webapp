@@ -12,6 +12,7 @@ interface DeleteAccountSectionProps {
 
 const DeleteAccountSection: React.FC<DeleteAccountSectionProps> = async (props) => {
     const t = await getTranslations({ locale: props.locale, namespace: 'SettingsPage.deleteAccount' });
+    const tSurvey = await getTranslations({ locale: props.locale, namespace: 'SurveyPage' });
 
     const exitSurveyStudyKey = process.env.NEXT_PUBLIC_STUDY_KEY;
     const exitSurveySurveyKey = process.env.DELETE_ACCOUNT_SURVEY_KEY;
@@ -50,6 +51,9 @@ const DeleteAccountSection: React.FC<DeleteAccountSectionProps> = async (props) 
                         description: t('dialog.description'),
                         confirmBtn: t('dialog.confirmBtn'),
                         cancelBtn: t('dialog.cancelBtn'),
+                    },
+                    survey: {
+                        invalidResponseText: tSurvey('survey.invalidResponseText'),
                     },
                     success: t('dialog.success'),
                     error: t('dialog.error'),

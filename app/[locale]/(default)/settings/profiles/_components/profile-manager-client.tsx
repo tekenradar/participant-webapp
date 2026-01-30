@@ -44,6 +44,9 @@ interface ProfileManagerClientProps {
         successSavingProfile: string;
         errorDeletingProfile: string;
         successDeletingProfile: string;
+        survey: {
+            invalidResponseText: string;
+        };
     }
 }
 
@@ -96,6 +99,7 @@ const ProfileManagerClient: React.FC<ProfileManagerClientProps> = (props) => {
                         locale={props.locale}
                         exitSurveyWithContext={props.exitSurveyWithContext}
                         messages={{
+                            survey: props.messages.survey,
                             mainProfileLabel: props.messages.mainProfileLabel,
                             editProfileBtnLabel: props.messages.editProfileBtnLabel,
                             deleteProfileBtnLabel: props.messages.deleteProfileBtnLabel,
