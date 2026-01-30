@@ -491,9 +491,9 @@
                 "errorLoadingReports": "Er is een fout opgetreden bij het laden van de rapporten."
             },
             "emFotoUpload": {
-                "label": "Hieronder kun je een afbeelding selecteren en uploaden. Je foto wordt direct geüpload zodra je op 'Upload' drukt.",
+                "label": "Hieronder kun je een afbeelding selecteren en uploaden.",
                 "upload": "Upload een foto",
-                "drag": "of sleep een foto hierheen",
+                "drag": "of sleep een foto hierheen. Let op! Klik vervolgens op de groene 'Upload' knop hieronder",
                 "uploadBtn": "Upload",
                 "deleteBtn": "Verwijder",
                 "deleteDialog": {
