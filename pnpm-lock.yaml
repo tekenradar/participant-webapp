@@ -8,6 +8,7 @@ overrides:
   d3-color@<3.1.0: '>=3.1.0'
   glob@>=10.2.0 <10.5.0: '>=10.5.0'
   mdast-util-to-hast@>=13.0.0 <13.2.1: '>=13.2.1'
+  '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
 
 importers:
 
@@ -125,8 +126,8 @@ importers:
         specifier: 19.2.4
         version: 19.2.4(react@19.2.4)
       react-dropzone:
-        specifier: ^14.3.8
-        version: 14.3.8(react@19.2.4)
+        specifier: ^14.4.0
+        version: 14.4.0(react@19.2.4)
       react-hook-form:
         specifier: ^7.71.1
         version: 7.71.1(react@19.2.4)
@@ -155,8 +156,8 @@ importers:
         specifier: ^1.4.3
         version: 1.4.3
       tailwind-merge:
-        specifier: ^2.5.2
-        version: 2.6.0
+        specifier: ^2.6.1
+        version: 2.6.1
       tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.19)
@@ -183,8 +184,8 @@ importers:
         specifier: ^1.9.21
         version: 1.9.21
       '@types/node':
-        specifier: ^22.19.7
-        version: 22.19.7
+        specifier: ^22.19.8
+        version: 22.19.8
       '@types/react':
         specifier: 19.2.10
         version: 19.2.10
@@ -714,8 +715,8 @@ packages:
     resolution: {integrity: sha512-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6+TiGQDQ==}
     engines: {node: 20 || >=22}
 
-  '@isaacs/brace-expansion@5.0.0':
-    resolution: {integrity: sha512-ZT55BDLV0yv0RBm2czMiZ+SqCGO7AvmOM3G/w2xhVPH+te0aKgFjmBvGlL1dH+ql2tgGO3MVrbb3jCKyvpgnxA==}
+  '@isaacs/brace-expansion@5.0.1':
+    resolution: {integrity: sha512-WMz71T1JS624nWj2n2fnYAuPovhv7EUhk69R6i9dsVyzxt5eM3bjwvgk9L+APE1TRscGysAVMANkB0jh0LQZrQ==}
     engines: {node: 20 || >=22}
 
   '@jridgewell/gen-mapping@0.3.13':
@@ -1632,8 +1633,8 @@ packages:
   '@types/ms@2.1.0':
     resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
 
-  '@types/node@22.19.7':
-    resolution: {integrity: sha512-MciR4AKGHWl7xwxkBa6xUGxQJ4VBOmPTF7sL+iGzuahOFaO0jHCsuEfS80pan1ef4gWId1oWOweIhrDEYLuaOw==}
+  '@types/node@22.19.8':
+    resolution: {integrity: sha512-ebO/Yl+EAvVe8DnMfi+iaAyIqYdK0q/q0y0rw82INWEKJOBe6b/P3YWE8NW7oOlF/nXFNrHwhARrN/hdgDkraA==}
 
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
@@ -3273,8 +3274,8 @@ packages:
     peerDependencies:
       react: ^19.2.4
 
-  react-dropzone@14.3.8:
-    resolution: {integrity: sha512-sBgODnq+lcA4P296DY4wacOZz3JFpD99fp+hb//iBO2HHnyeZU3FwWyXJ6salNpqQdsZrgMrotuko/BdJMV8Ug==}
+  react-dropzone@14.4.0:
+    resolution: {integrity: sha512-8VvsHqg9WGAr+wAnP0oVErK5HOwAoTOzRsxLPzbBXrtXtFfukkxMyuvdI/lJ+5OxtsrzmvWE5Eoo3Y4hMsaxpA==}
     engines: {node: '>= 10.13'}
     peerDependencies:
       react: '>= 16.8 || 18.0.0'
@@ -3597,8 +3598,8 @@ packages:
   survey-engine@1.4.3:
     resolution: {integrity: sha512-MyXYv8fVboH60Qy//ULcDeLd6N2ZXThI2Fme0OHENGQTRiKGmB93nNIAsY9xm72NgSSyGxXL+beTqgkSZh9nCg==}
 
-  tailwind-merge@2.6.0:
-    resolution: {integrity: sha512-P+Vu1qXfzediirmHOC3xKGAYeZtPcV9g76X+xg2FD4tYgR71ewMA35Y3sCz3zhiN/dwefRpJX0yBcgwi1fXNQA==}
+  tailwind-merge@2.6.1:
+    resolution: {integrity: sha512-Oo6tHdpZsGpkKG88HJ8RR1rg/RdnEkQEfMoEk2x1XRI3F1AxeU+ijRXpiVUF4UbLfcxxRGw6TbUINKYdWVsQTQ==}
 
   tailwindcss-animate@1.0.7:
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
@@ -4263,7 +4264,7 @@ snapshots:
 
   '@isaacs/balanced-match@4.0.1': {}
 
-  '@isaacs/brace-expansion@5.0.0':
+  '@isaacs/brace-expansion@5.0.1':
     dependencies:
       '@isaacs/balanced-match': 4.0.1
 
@@ -5169,7 +5170,7 @@ snapshots:
 
   '@types/ms@2.1.0': {}
 
-  '@types/node@22.19.7':
+  '@types/node@22.19.8':
     dependencies:
       undici-types: 6.21.0
 
@@ -6948,7 +6949,7 @@ snapshots:
 
   minimatch@10.1.1:
     dependencies:
-      '@isaacs/brace-expansion': 5.0.0
+      '@isaacs/brace-expansion': 5.0.1
 
   minimatch@3.1.2:
     dependencies:
@@ -7235,7 +7236,7 @@ snapshots:
       react: 19.2.4
       scheduler: 0.27.0
 
-  react-dropzone@14.3.8(react@19.2.4):
+  react-dropzone@14.4.0(react@19.2.4):
     dependencies:
       attr-accept: 2.2.5
       file-selector: 2.1.2
@@ -7689,7 +7690,7 @@ snapshots:
     dependencies:
       date-fns: 2.30.0
 
-  tailwind-merge@2.6.0: {}
+  tailwind-merge@2.6.1: {}
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.19):
     dependencies:
