@@ -465,7 +465,7 @@
                 "errorLoadingReports": "Er is een fout opgetreden bij het laden van de rapporten."
             },
             "emFotoUpload": {
-                "label": "Hieronder kun je een afbeelding selecteren en uploaden.",
+                "label": "Hieronder kun je een afbeelding selecteren en uploaden. Let op! Klik vervolgens op de groene 'Upload' knop onderaan.",
                 "upload": "Upload een foto",
                 "drag": "of sleep een foto hierheen. Let op! Klik vervolgens op de groene 'Upload' knop hieronder",
                 "uploadBtn": "Upload",
