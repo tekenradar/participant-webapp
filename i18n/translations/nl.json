@@ -441,9 +441,9 @@
         },
         "requireLogin": {
             "title": "Inloggen",
-            "description": "Je moet ingelogd zijn om deze vragenlijst in te vullen.",
+            "description": "Je moet ingelogd zijn om deze vragenlijst in te vullen. Dus meld je eerst aan, of log in met een bestaande account.",
             "loginBtn": "Inloggen",
-            "registerBtn": "Registreren",
+            "registerBtn": "Aanmelden",
             "leaveBtn": "Verlaten"
         },
         "survey": {
