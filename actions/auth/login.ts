@@ -40,7 +40,7 @@ export const loginWithEmailAndPassword = async (
             error: JSON.stringify(error)
         }
     }
-    revalidatePath('/');
+    revalidatePath('/', 'layout');
     return {
         success: true,
     }
@@ -81,7 +81,7 @@ export const loginWithTempToken = async (
             }
         }
     }
-    revalidatePath('/');
+    revalidatePath('/', 'layout');
     return {
         success: true,
     }
@@ -117,7 +117,7 @@ export const loginWithOTP = async (otp: string) => {
             }
         }
     }
-    revalidatePath('/');
+    revalidatePath('/', 'layout');
     return {
         success: true,
     }
@@ -154,7 +154,7 @@ export const forceRefreshToken = async () => {
             }
         }
     }
-    revalidatePath('/');
+    revalidatePath('/', 'layout');
     return {
         success: true,
     }

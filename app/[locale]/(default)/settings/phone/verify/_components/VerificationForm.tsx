@@ -90,6 +90,7 @@ const VerificationForm: React.FC<VerificationFormProps> = (props) => {
                 });
                 return;
             }
+            router.refresh();
             setSuccess(true);
         });
     }

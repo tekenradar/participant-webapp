@@ -19,7 +19,11 @@ const UnconfirmedAccountWarning: React.FC = async () => {
             <Container>
                 <div className='flex gap-4 items-center'>
                     <span>
-                        <AlertTriangle className='size-8' />
+                        <AlertTriangle
+                            className='size-8'
+                            aria-label={t('alertTriangleAriaLabel')}
+                            role='img'
+                        />
                     </span>
                     <p role="alert"
                         className='text-sm font-semibold'
@@ -29,8 +33,10 @@ const UnconfirmedAccountWarning: React.FC = async () => {
                     </p>
                 </div>
 
-                <div className='bg-secondary px-2 mt-2 rounded-md w-fit'>
-                    <LinkButton href="/link/verify-contact">
+                <div className='bg-secondary px-4 mt-2 rounded-md w-fit'>
+                    <LinkButton href="/link/verify-contact"
+                        className='text-secondary-foreground'
+                    >
                         {t('openVerificationPage')}
                     </LinkButton>
                 </div>
