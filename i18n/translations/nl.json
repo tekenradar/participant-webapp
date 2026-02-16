@@ -6,6 +6,7 @@
     "Index": {
         "skipToMainContentBtn": "Ga naar de hoofdinhoud",
         "unconfirmedAccountWarning": {
+            "alertTriangleAriaLabel": "Let op",
             "warnText": "Bevestig nu eerst je account. Controleer je e-mail, daarin vind je een aanmeld-link om je account te bevestigen. Onbevestigde accounts worden na 7 dagen automatisch verwijderd.",
             "openVerificationPage": "Geen registratie e-mail ontvangen?"
         },
