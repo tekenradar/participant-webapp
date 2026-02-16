@@ -91,6 +91,7 @@ const OtpForm: React.FC<OtpFormProps> = (props) => {
                 });
                 return;
             }
+            router.refresh();
             setSuccess(true);
         });
     }
