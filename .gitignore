@@ -39,3 +39,6 @@ next-env.d.ts
 .velite
 public/static/content-assets
 public/nieuws.rss
+
+#package-lock
+package-lock.json
