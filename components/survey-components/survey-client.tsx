@@ -56,6 +56,14 @@ interface SurveyClientProps {
     redirectUrl?: string;
 }
 
+const getDefaultRedirectUrl = (surveyKey: string) => {
+    if (surveyKey === 'WeeklyTB') {
+        return '/';
+    }
+
+    return DEFAULT_DASHBOARD_URL;
+};
+
 const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     const [isMounted, setIsMounted] = React.useState(false);
     const router = useRouter();
@@ -85,6 +93,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
 
     const submitResponse = async (response: SurveyResponse) => {
         setSubmissionState({ isLoading: true, error: null, response });
+        const redirectUrl = props.redirectUrl || getDefaultRedirectUrl(props.surveyKey);
 
         if (!props.profileID) {
             const resp = await submitResponseForTempParticipant(props.studyKey, response);
@@ -102,7 +111,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                 props.studyKey,
                 props.profileID,
                 response,
-                props.redirectUrl || DEFAULT_DASHBOARD_URL,
+                redirectUrl,
                 props.ignoreImmediateSurveys,
             );
             if (!resp || resp.error) {
@@ -117,7 +126,6 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
 
         // Success - close dialog and redirect
         setSubmissionState({ isLoading: false, error: null, response: null });
-        const redirectUrl = props.redirectUrl || DEFAULT_DASHBOARD_URL;
         router.replace(redirectUrl);
     };
 
@@ -134,7 +142,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
 
     const handleGoBack = () => {
         setSubmissionState({ isLoading: false, error: null, response: null });
-        const redirectUrl = props.redirectUrl || DEFAULT_DASHBOARD_URL;
+        const redirectUrl = props.redirectUrl || getDefaultRedirectUrl(props.surveyKey);
         router.push(redirectUrl);
     };
 
