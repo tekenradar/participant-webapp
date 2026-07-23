@@ -2,6 +2,7 @@
   "name": "tekenradar-webapp",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@11.16.0",
   "scripts": {
     "dev": "velite --watch & next dev --turbopack",
     "watch": "velite --watch",

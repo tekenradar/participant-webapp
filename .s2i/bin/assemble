@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+shopt -s dotglob
+
+if [[ -f /tmp/src/package.json ]]; then
+  mv /tmp/src/* .
+fi
+
+if [[ ! -f package.json ]]; then
+  echo "assemble: package.json is missing from the current app root: $(pwd)" >&2
+  exit 1
+fi
+
+if ! PNPM_VERSION="$({
+  node -e '
+    const packageJson = require("./package.json");
+    const packageManager = packageJson.packageManager;
+    if (typeof packageManager !== "string" || !packageManager.startsWith("pnpm@")) {
+      process.exit(1);
+    }
+    process.stdout.write(packageManager.slice("pnpm@".length).split("+", 1)[0]);
+  '
+})"; then
+  echo "assemble: package.json must declare a pnpm packageManager (for example, pnpm@11.15.1)" >&2
+  exit 1
+fi
+
+PNPM_CMD=()
+
+if command -v pnpm >/dev/null 2>&1 && pnpm --version >/dev/null 2>&1; then
+  PNPM_CMD=(pnpm)
+fi
+
+if [[ ${#PNPM_CMD[@]} -eq 0 ]] && command -v corepack >/dev/null 2>&1; then
+  if corepack prepare "pnpm@${PNPM_VERSION}" --activate >/dev/null 2>&1; then
+    if corepack pnpm --version >/dev/null 2>&1; then
+      PNPM_CMD=(corepack pnpm)
+    fi
+  fi
+fi
+
+if [[ ${#PNPM_CMD[@]} -eq 0 ]]; then
+  if ! command -v npx >/dev/null 2>&1; then
+    echo "assemble: pnpm is unavailable, and neither Corepack nor npx can provide pnpm@${PNPM_VERSION}" >&2
+    exit 1
+  fi
+
+  if ! PNPM_CACHE_DIR="$(mktemp -d "${TMPDIR:-/tmp}/pnpm-cache.XXXXXX")"; then
+    echo "assemble: unable to create a writable temporary npm cache for pnpm@${PNPM_VERSION}" >&2
+    exit 1
+  fi
+  export npm_config_cache="$PNPM_CACHE_DIR"
+
+  if npx --yes "pnpm@${PNPM_VERSION}" --version >/dev/null 2>&1; then
+    PNPM_CMD=(npx --yes "pnpm@${PNPM_VERSION}")
+  else
+    echo "assemble: unable to obtain pnpm@${PNPM_VERSION} via pnpm, Corepack, or npx" >&2
+    exit 1
+  fi
+fi
+
+"${PNPM_CMD[@]}" install --frozen-lockfile
+"${PNPM_CMD[@]}" build
