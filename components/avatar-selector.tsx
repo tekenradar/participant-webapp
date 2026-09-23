@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import * as RadioGroup from '@radix-ui/react-radio-group';
+import { RadioGroup as RadioGroup } from 'radix-ui';
 import { avatars, getAvatarURL } from '@/lib/avatars';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { UserRound } from 'lucide-react';

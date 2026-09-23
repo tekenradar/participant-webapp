@@ -1,5 +1,5 @@
 import * as React from "react"
-import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu"
+import { NavigationMenu as NavigationMenuPrimitive } from "radix-ui"
 import { cva } from "class-variance-authority"
 import { ChevronDown } from "lucide-react"
 
@@ -49,7 +49,6 @@ const NavigationMenuItem = React.forwardRef<
   />
 ));
 NavigationMenuItem.displayName = 'NavigationMenuItem';
-
 
 const navigationMenuTriggerStyle = cva(
   "group relative inline-flex h-10 w-max items-center justify-center bg-transparent px-4 py-2 text-lg font-medium transition-colors hover:bg-secondary hover:text-secondary-foreground focus:bg-secondary/80 focus:text-secondary-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:font-bold data-[active]:bg-secondary data-[active]:text-secondary-foreground data-[state=open]:text-secondary-foreground data-[state=open]:bg-secondary/80"

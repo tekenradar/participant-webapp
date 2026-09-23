@@ -1,5 +1,5 @@
 import { cn } from "@/lib/utils";
-import { AspectRatio } from "@radix-ui/react-aspect-ratio";
+import { AspectRatio } from "./ui/aspect-ratio";
 import Image from "next/image";
 
 import imageSrc from "@/public/static/images/cRIVM/iStock-168505070-1920.jpg";
@@ -10,7 +10,6 @@ import { ArrowRight } from "lucide-react";
 import { auth } from "@/auth";
 import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
-
 
 interface ReportCardProps {
     showMyTekenradarLink: boolean;
