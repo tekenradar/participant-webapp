@@ -10,3 +10,18 @@ minimumReleaseAgeExclude:
   - next
   - "@next/*"
   - eslint-config-next
+
+overrides:
+  # Velite 0.4.0 constrains sharp to ^0.34.5; 0.35.5 fixes the libvips/librsvg
+  # advisories, including CVE-2026-96889. Next.js already requests ^0.35.5.
+  'velite>sharp@<0.35.5': ^0.35.5
+  # react-tooltip 4 uses uuid's unchanged v4 API. uuid 11.1.1 retains CommonJS
+  # exports and fixes GHSA-w5hq-g745-h8pq; upstream still constrains it to ^7.
+  'react-tooltip>uuid@<11.1.1': 11.1.1
+  # Tailwind 3, postcss-nested 6 and typography constrain the parser to v6.
+  # v7.1.6 fixes GHSA-rj75-hqrm-r3gf while preserving the parser API they use.
+  'postcss-selector-parser@<7.1.6': ^7.1.6
+  # react-simple-maps 3 constrains D3 to versions using d3-color 2. Version 3.1
+  # fixes GHSA-36jr-mh4h-2g58 and preserves the color/interpolation API used here.
+  # Keep the existing map API; react-simple-maps 5 removes its state styles.
+  'd3-color@<3.1.0': ^3.1.0
